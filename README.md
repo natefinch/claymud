@@ -1,6 +1,18 @@
-This is a MUD (http://en.wikipedia.org/wiki/MUD) written in the Go programming language.
+NateMUD
+===============
 
-Currently implemented
+NateMUD is a highly configurable, highly performant MUD implemented in the Go programming language.
+
+Currently it is in development, but the overarching premise is that a MUD should be configurable and runnable without any programming knowledge. Too many mud systems require you to write code to change how they work. Not only is that very likely to introduce bugs, it also restricts muds to be run by people who know how to code.
+
+NateMUD is intended to be fully configurable through text files - everything from the name of the MUD, to what emotes are available, to how ability scores and powers work.
+
+About Nate
+----------
+
+I have over 13 years of professional development experience, and was extensively into MUDs during and after college. I also have been playing tabletop RPGs for over 20 years. I have an extensive collection of tabletop RPGs and "German" board games that influence my thinking. I'm approaching this project with an eye towards game design, with the hope that I can give a framework to other game developers for creating their own unique game.
+
+Currently Implemented
 -----------
 
 - Logging in (any username or password will work, but simultaneous logins with duplicate names will be prevented)
@@ -25,9 +37,8 @@ Implementation notes
 To build and run
 -----------------------
 
-navigate to /main
-go build natemud.go  (builds if you have go installed)
-natemud.exe  (runs current executable)
+go get github.com/natefinch/natemud
+run natemud.exe
 
 This will run the mud on port 8888 of your current machine. To change the port, use -p <port>
 
