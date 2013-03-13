@@ -2,7 +2,7 @@ package world
 
 import (
 	"fmt"
-	"src.natemud.org/config"
+	"github.com/natefinch/natemud/config"
 	"strings"
 )
 

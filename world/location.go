@@ -2,10 +2,10 @@ package world
 
 import (
 	"fmt"
+	"github.com/natefinch/natemud/config"
+	"github.com/natefinch/natemud/util"
 	"log"
 	"sort"
-	"src.natemud.org/config"
-	"src.natemud.org/util"
 	"strings"
 )
 
@@ -36,7 +36,7 @@ type Location struct {
 
 // Creates a new location and starts its run loop
 func NewLocation(name string, desc string) (loc *Location) {
-	// TODO: fix chicken an egg problem with two rooms that need to be created with exits 
+	// TODO: fix chicken an egg problem with two rooms that need to be created with exits
 	// that point to each other
 	loc = &Location{
 		name,
@@ -164,7 +164,7 @@ func (self *Location) RoomDesc(actor *Player) string {
 		}
 	}
 
-	// TODO: implement showing items on the ground 
+	// TODO: implement showing items on the ground
 
 	return strings.Join(lines, "\r\n")
 }

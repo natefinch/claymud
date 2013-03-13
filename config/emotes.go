@@ -1,8 +1,8 @@
 package config
 
 import (
+	"github.com/natefinch/natemud/util"
 	"log"
-	"src.natemud.org/util"
 	"strings"
 )
 
@@ -11,8 +11,8 @@ var (
 )
 
 // Emote is a struct that holds messages that get displayed to players at a location
-// 
-// There is a message that gets sent to the sender, one to the target of the emote (if any) 
+//
+// There is a message that gets sent to the sender, one to the target of the emote (if any)
 // and one to everyone else in the room.
 type Emote struct {
 	ToSelf   string
@@ -59,7 +59,7 @@ type Person interface {
 
 // MakeTargetEmote creates an emote from the given template, actor, and target
 //
-// For example, if Bill types "smile Bob", the smile EmoteTemplate would be filled out with 
+// For example, if Bill types "smile Bob", the smile EmoteTemplate would be filled out with
 // Bill as the actor and Bob as the target
 func MakeTargetEmote(actor Person, target Person, templ *EmoteTemplate) (emote *Emote) {
 	emote = &Emote{}

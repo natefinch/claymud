@@ -5,10 +5,10 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/natefinch/natemud/auth"
 	"log"
 	"net"
 	"runtime"
-	"src.natemud.org/auth"
 	"strconv"
 )
 

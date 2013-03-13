@@ -4,11 +4,11 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
+	"github.com/natefinch/natemud/config"
+	"github.com/natefinch/natemud/util"
 	"io"
 	"log"
 	"net"
-	"src.natemud.org/config"
-	"src.natemud.org/util"
 	"strings"
 )
 
@@ -88,7 +88,7 @@ func (self *Player) Name() string {
 	return self.name
 }
 
-// Desc returns the string that a user sees when they look at a user 
+// Desc returns the string that a user sees when they look at a user
 func (self *Player) Desc() string {
 	return self.desc
 }
@@ -99,7 +99,7 @@ func (self *Player) String() string {
 }
 
 // setLocation changes the player's location and adds the player to the location's map
-// 
+//
 // This is the function that does the heavy lifting for moving a player from one room to another
 // including keeping the user's location and the location map in sync
 func (self *Player) SetLocation(loc *Location) {
@@ -124,7 +124,7 @@ func (self *Player) Location() *Location {
 	return self.loc
 }
 
-// runLoop is a goroutine that synchronizes commands from the user and commands from the game 
+// runLoop is a goroutine that synchronizes commands from the user and commands from the game
 func (self *Player) runLoop() {
 	self.Write(fmt.Sprintf("Welcome to NateMUD, %v", self.name))
 	for {

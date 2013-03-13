@@ -13,7 +13,7 @@ var (
 
 // LoadMainTitle loads text from config/maintitle.txt that is shown to users when they connect
 func LoadMainTitle() {
-	b, err := ioutil.ReadFile("config/maintitle.txt")
+	b, err := ioutil.ReadFile("maintitle.txt")
 	if err != nil {
 		log.Printf("Couldn't read maintitle, using default")
 		mainTitle = "Welcome to NateMUD"

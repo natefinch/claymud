@@ -1,7 +1,7 @@
 package world
 
 import (
-	"src.natemud.org/config"
+	"github.com/natefinch/natemud/config"
 )
 
 // An exit is a direction that connects to a location
@@ -27,7 +27,7 @@ func (self ExitsById) Less(i, j int) bool {
 	return self.Exits[i].Direction.Id() < self.Exits[j].Direction.Id()
 }
 
-// Returns the room that exists in the given direction.  Returns valid == false if the alias is 
+// Returns the room that exists in the given direction.  Returns valid == false if the alias is
 // not a valid direction alias. Returns dest == nil if there's no exit in that direction
 func (self Exits) Find(alias string) (valid bool, dest *Location) {
 	dir := config.FindDirection(alias)

@@ -1,7 +1,7 @@
 package config
 
 import (
-	"src.natemud.org/util"
+	"github.com/natefinch/natemud/util"
 	"strings"
 )
 
@@ -21,7 +21,7 @@ type Direction struct {
 
 // NewDirection makes a new Direction struct
 //
-// The direction name and aliases will become commands in the world to move around.  
+// The direction name and aliases will become commands in the world to move around.
 // Be careful what aliases you give as they will override any other commands in the world
 func NewDirection(name, from string, aliases []string) *Direction {
 	return &Direction{<-nextDirId, name, from, aliases}

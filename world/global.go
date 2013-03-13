@@ -2,8 +2,8 @@
 package world
 
 import (
+	"github.com/natefinch/natemud/util"
 	"log"
-	"src.natemud.org/util"
 	"strings"
 )
 
@@ -33,7 +33,7 @@ func init() {
 	go playerListLoop()
 }
 
-// This method runs as a goroutine that communicates via 
+// This method runs as a goroutine that communicates via
 // channels with the rest of the mud.  This is our global
 // list of players, and by using channels to communicate,
 // we synchronize access to it
