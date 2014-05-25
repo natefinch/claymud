@@ -9,9 +9,9 @@ const (
 )
 
 // Xself returns the reflexive pronoun for the sex (e.g. himself)
-func (sex Sex) Xself() string {
+func (s Sex) Xself() string {
 	// TODO: make these configurable
-	switch sex {
+	switch s {
 	case SEX_MALE:
 		return "himself"
 	case SEX_FEMALE:

@@ -53,108 +53,108 @@ func NewLocation(name string, desc string) (loc *Location) {
 }
 
 // Returns the unique Id of this location
-func (self *Location) Id() util.Id {
-	return self.id
+func (l *Location) Id() util.Id {
+	return l.id
 }
 
 // Returns the user visible name of this location
-func (self *Location) Name() string {
-	return self.name
+func (l *Location) Name() string {
+	return l.name
 }
 
 // Sets the user visible name of this location
-func (self *Location) SetName(name string) {
-	self.name = name
+func (l *Location) SetName(name string) {
+	l.name = name
 }
 
 // Returns the location's description that you see when you look in the room
-func (self *Location) Desc() string {
-	return self.desc
+func (l *Location) Desc() string {
+	return l.desc
 }
 
 // Sets the location's description
-func (self *Location) SetDesc(desc string) {
-	self.desc = desc
+func (l *Location) SetDesc(desc string) {
+	l.desc = desc
 }
 
 // Exits returns a copy of the exits this locations contains
-func (self *Location) Exits() Exits {
-	return Exits(self.exits)
+func (l *Location) Exits() Exits {
+	return Exits(l.exits)
 }
 
 // SetExits changes the exits for this Location
-func (self *Location) SetExits(exits Exits) {
-	self.exits = exits
-	sort.Sort(ExitsById{self.exits})
+func (l *Location) SetExits(exits Exits) {
+	l.exits = exits
+	sort.Sort(ExitsById{l.exits})
 }
 
 // returns a string representation of this location (primarily for logging)
-func (self *Location) String() string {
-	return fmt.Sprintf("%v [%v]", self.name, self.id)
+func (l *Location) String() string {
+	return fmt.Sprintf("%v [%v]", l.name, l.id)
 }
 
 // loop that controls access to the location
-func (self *Location) runLoop() {
+func (l *Location) runLoop() {
 	for {
 		select {
-		case p := <-self.Add:
-			self.AddPlayer(p)
-		case p := <-self.Remove:
-			self.RemovePlayer(p)
-		case cmd := <-self.Cmd:
-			if !self.handleCommand(cmd) {
-				cmd.HandleAt(self)
+		case p := <-l.Add:
+			l.AddPlayer(p)
+		case p := <-l.Remove:
+			l.RemovePlayer(p)
+		case cmd := <-l.Cmd:
+			if !l.handleCommand(cmd) {
+				cmd.HandleAt(l)
 			}
 		}
 	}
 }
 
 // TODO: Handle enter/exit notifications for others in the room
-func (self *Location) AddPlayer(p *Player) {
-	self.Players[p.Id()] = p
-	self.pNames[strings.ToLower(p.Name())] = p
+func (l *Location) AddPlayer(p *Player) {
+	l.Players[p.Id()] = p
+	l.pNames[strings.ToLower(p.Name())] = p
 }
 
-func (self *Location) RemovePlayer(p *Player) {
-	delete(self.Players, p.Id())
-	delete(self.pNames, strings.ToLower(p.Name()))
+func (l *Location) RemovePlayer(p *Player) {
+	delete(l.Players, p.Id())
+	delete(l.pNames, strings.ToLower(p.Name()))
 }
 
-func (self *Location) handleCommand(cmd *Command) bool {
+func (l *Location) handleCommand(cmd *Command) bool {
 	// TODO: implement plugins to handle custom commands
 	return false
 }
 
 // Determine the target in the room from the command's target
 // returns nil if no target exists
-func (self *Location) Target(cmd *Command) (p *Player) {
+func (l *Location) Target(cmd *Command) (p *Player) {
 	// TODO: support aliases
-	return self.pNames[cmd.Target()]
+	return l.pNames[cmd.Target()]
 }
 
 // creates the room description from the point of view of the given actor
-func (self *Location) RoomDesc(actor *Player) string {
+func (l *Location) RoomDesc(actor *Player) string {
 	// construct the output for describing the room
 	lines := make([]string, 0)
 
-	lines = append(lines, self.name)
+	lines = append(lines, l.name)
 	lines = append(lines, "")
-	lines = append(lines, self.desc)
+	lines = append(lines, l.desc)
 	lines = append(lines, "")
 
-	if len(self.exits) == 0 {
+	if len(l.exits) == 0 {
 		lines = append(lines, "There are no exits!")
 	} else {
 		lines = append(lines, "[Exits]")
 
 		// the exits are sorted, so this always prints out in the same order
-		for _, exit := range self.exits {
+		for _, exit := range l.exits {
 			lines = append(lines, fmt.Sprintf("%v - %v", exit.Direction.Name(), exit.Destination.Name()))
 		}
 	}
 
 	first := true
-	for _, p := range self.Players {
+	for _, p := range l.Players {
 		if p.Id() != actor.Id() {
 			if first {
 				lines = append(lines, "")

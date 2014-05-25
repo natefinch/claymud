@@ -28,22 +28,22 @@ func NewDirection(name, from string, aliases []string) *Direction {
 }
 
 // Name is the full name of the direction, which will be shown in room descriptions
-func (self *Direction) Name() string {
-	return self.name
+func (d *Direction) Name() string {
+	return d.name
 }
 
 // From is the string that is used when displaying enter/exit notifications for players
-func (self *Direction) From() string {
-	return self.from
+func (d *Direction) From() string {
+	return d.from
 }
 
 // Aliases is a list of alternate commands that can be used to move through this direction
-func (self *Direction) Aliases() []string {
-	return self.aliases
+func (d *Direction) Aliases() []string {
+	return d.aliases
 }
 
-func (self *Direction) Id() util.Id {
-	return self.id
+func (d *Direction) Id() util.Id {
+	return d.id
 }
 
 // FindDir will find a direction by name or alias.  This method is not case sensitives
