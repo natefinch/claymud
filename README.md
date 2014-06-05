@@ -54,3 +54,8 @@ I'm sure there's other problems that I haven't found yet.  Use at your own risk,
 License
 -------------
 MIT License
+
+
+Test CLA (ignore, not real)
+---------------
+To get started, <a href="https://www.clahub.com/agreements/natefinch/natemud">sign the Contributor License Agreement</a>.
