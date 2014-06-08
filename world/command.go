@@ -2,8 +2,10 @@ package world
 
 import (
 	"fmt"
-	"github.com/natefinch/natemud/config"
 	"strings"
+
+	"github.com/natefinch/natemud/config"
+	"github.com/natefinch/natemud/game/emote"
 )
 
 // Represents a command sent by a player
@@ -75,13 +77,13 @@ func (c *Command) HandleAt(loc *Location) {
 func (c *Command) exit(loc *Location) (handled bool) {
 	// TODO: Handle custom exits
 	// TODO: do we reject directions with a target, like "north Bob"?
-	valid, room := loc.Exits().Find(c.Action())
+	valid, room := loc.Exits.Find(c.Action())
 	if !valid {
 		return false
 	}
 
 	if room != nil {
-		c.Actor.SetLocation(room)
+		c.Actor.Move(room)
 	} else {
 		c.Actor.Write("You can't go that way!")
 	}
@@ -90,29 +92,26 @@ func (c *Command) exit(loc *Location) (handled bool) {
 
 // checks if the command is an existing emote, and if so, handles it
 func (c *Command) emote(loc *Location) (handled bool) {
-	templ := config.FindEmote(c.Action())
-	if templ != nil {
-		target := loc.Target(c)
-		var em *config.Emote
-		if target == nil {
-			em = config.MakeGlobalEmote(c.Actor, templ)
-		} else {
-			em = config.MakeTargetEmote(c.Actor, target, templ)
-		}
-		if em != nil {
-			c.Actor.Write(em.ToSelf)
-			for _, p := range loc.Players {
-				if p.Id() != c.Actor.Id() {
-					p.Write(em.ToOthers)
-				}
-			}
-			if target != nil && em.ToTarget != "" {
-				target.Write(em.ToTarget)
-			}
-			return true
+	target := loc.Target(c)
+	output, err := emote.Do(c.Action(), c.Actor, target)
+	if err == emote.NotFoundError {
+		return false
+	}
+	if err != nil {
+		c.Actor.Write("You can't do that.")
+		return true
+	}
+
+	c.Actor.Write(output.ToSelf)
+	for _, p := range loc.Players {
+		if p.Id != c.Actor.Id {
+			p.Write(output.ToOthers)
 		}
 	}
-	return false
+	if target != nil && output.ToTarget != "" {
+		target.Write(output.ToTarget)
+	}
+	return true
 }
 
 // handles the look command
@@ -120,7 +119,7 @@ func (c *Command) look(loc *Location) {
 	if c.Target() != "" {
 		p := loc.Target(c)
 		if p != nil {
-			c.Actor.Write(p.Desc())
+			c.Actor.Write(p.Desc)
 		} else {
 			// TODO: actually implement looking at things other than players
 			c.Actor.Write("You don't see that here.")
@@ -133,9 +132,9 @@ func (c *Command) look(loc *Location) {
 
 func (c *Command) say(loc *Location) {
 	msg := strings.Join(c.Cmd[1:], " ")
-	toOthers := fmt.Sprintf("%v says %v", c.Actor.Name(), msg)
+	toOthers := fmt.Sprintf("%v says %v", c.Actor.Name, msg)
 	for _, p := range loc.Players {
-		if p.Id() != c.Actor.Id() {
+		if p.Id != c.Actor.Id {
 			p.Write(toOthers)
 		}
 	}
@@ -146,8 +145,8 @@ func (c *Command) tell() {
 	p := FindPlayer(c.Target())
 	if p != nil {
 		msg := strings.Join(c.Cmd[2:], " ")
-		p.Write("%v tells you %v", c.Actor.Name(), msg)
-		c.Actor.Write("You tell %v %v", p.Name(), msg)
+		p.Write("%v tells you %v", c.Actor.Name, msg)
+		c.Actor.Write("You tell %v %v", p.Name, msg)
 	} else {
 		p.Write("No one with that name exists.")
 	}
@@ -169,7 +168,7 @@ func (c *Command) help() {
 	lines = append(lines, "")
 	lines = append(lines, "-- Movement --")
 	for _, dir := range config.AllDirections() {
-		lines = append(lines, fmt.Sprintf("%v, %v", dir.Name(), strings.Join(dir.Aliases(), ", ")))
+		lines = append(lines, fmt.Sprintf("%v, %v", dir.Name, strings.Join(dir.Aliases, ", ")))
 	}
 	lines = append(lines, "")
 	lines = append(lines, "-- Emotes --")

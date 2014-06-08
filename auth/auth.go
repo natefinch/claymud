@@ -5,12 +5,13 @@ package auth
 import (
 	"bufio"
 	"errors"
-	"github.com/natefinch/natemud/config"
-	"github.com/natefinch/natemud/util"
-	"github.com/natefinch/natemud/world"
 	"io"
 	"log"
 	"net"
+
+	"github.com/natefinch/natemud/config"
+	"github.com/natefinch/natemud/util"
+	"github.com/natefinch/natemud/world"
 )
 
 var (

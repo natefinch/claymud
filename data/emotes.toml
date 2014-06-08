@@ -1,0 +1,96 @@
+# This is an example emote configuration file.  For those that know what it
+# means, it is written in TOML. If you don't know what that means, don't worry,
+# it's easy to figure out.
+# 
+# Each emote starts with the section header [[emote]].  Under that you define
+# the emote's name.  Note that names must be unique.
+# 
+# Below that, there are three sub-sections, which may exist in any order. Each
+# section defines the behavior of the emote when it is used in a particular way.
+# 
+# ToSelf is what happens when you use an emote targetted at yourself. 
+# For example, "smile <myname>"
+# 
+# ToNoOne is what happens when you use an emote without a target.
+# For example "smile"
+# 
+# ToOther is what happens when you use an emote with a target that is not you.
+# For example "smile Bob".  In this case, the target would be Bob.
+#
+# If you leave out a sub-section, you effectively disable using the emote in
+# that way, and if someone tries to use the emote in that way, they will get a
+# message like "You cannot do that."  This is useful for emotes that don't make
+# sense in certain circumstances.
+#
+# Each section has values which are templates for the text that will be output
+# to people in the same location as the person performing the emote.
+#
+# self   - The text to output to the person performing the emote.
+# target - The text to output to the person who was the target of the emote. 
+#          (only applicable in the ToOther section)
+# around - The text to output to everyone else in the room. 
+#          (not including the person performing the action, or the target if 
+#          there is one)
+#
+# There are a few special fields that you can put into emote text, which will be
+# filled out with data from the game, all are enclosed in double squiggly
+# braces and start with a period, for example: {{.Actor}}.  Note that these are 
+# case sensitive.
+#
+# Actor  - The name of the person performing the emote.
+# Target - The name of the target of the emote.
+#          (this value is only usable in the ToOther section).
+# Xself  - "himself", "herself", or "itself" 
+#          (depending on the gender of the person performing the emote)
+#
+
+[[emote]]
+name = smile
+
+[ToSelf]
+self = You smile to yourself.
+around = {{.Actor}} smiles to {{.Xself}}.
+
+[ToNoOne]
+self = You smile.
+around = {{.Actor}} smiles.
+
+[ToOther]
+self = You smile at {{.Target}}.
+target = {{.Actor}} smiles at you.
+around = {{.Actor}} smiles at {{.Target}}.
+
+
+[[emote]]
+name = evil
+
+[ToSelf]
+self = You grin evilly to yourself.
+around = {{.Actor}} grins evilly to {{.Xself}}.
+
+[ToNoOne]
+self = You grin evilly.
+around = {{.Actor}} grins evilly.
+
+[ToOther]
+self = You grin evilly at {{.Target}}.
+target = {{.Actor}} grins evilly at you.
+around = {{.Actor}} grins evilly at {{.Target}}.
+
+
+[[emote]]
+name = jump
+
+# note there is no ToSelf section, since jumping yourself doesn't really make 
+# sense, so if you do "jump <myname>" you will get a message like "You cannot 
+# do that."
+
+[ToNoOne]
+self = You jump around like a crazy person.
+around = {{.Actor}} jumps around like a crazy person.
+
+[ToOther]
+self = You smile at {{.Target}}.
+target = {{.Actor}} smiles at you.
+around = {{.Actor}} smiles at {{.Target}}.
+

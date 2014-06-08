@@ -6,7 +6,7 @@ import (
 
 // An exit is a direction that connects to a location
 type Exit struct {
-	Direction   *config.Direction
+	config.Direction
 	Destination *Location
 }
 
@@ -21,10 +21,8 @@ func (e Exits) Swap(i, j int) {
 	e[i], e[j] = e[j], e[i]
 }
 
-type ExitsById struct{ Exits }
-
-func (e ExitsById) Less(i, j int) bool {
-	return e.Exits[i].Direction.Id() < e.Exits[j].Direction.Id()
+func (e Exits) Less(i, j int) bool {
+	return e[i].Order < e[j].Order
 }
 
 // Returns the room that exists in the given direction.  Returns valid == false if the alias is
@@ -35,7 +33,7 @@ func (e Exits) Find(alias string) (valid bool, dest *Location) {
 		return false, nil
 	}
 	for _, exit := range e {
-		if exit.Direction.Id() == dir.Id() {
+		if exit.Direction.Id == dir.Id {
 			return true, exit.Destination
 		}
 	}
