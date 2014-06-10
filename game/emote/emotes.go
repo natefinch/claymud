@@ -1,48 +1,44 @@
 package emote
 
 import (
-	"bufio"
-	"errors"
 	"fmt"
 	"io"
 	"log"
-	"strings"
 	"text/template"
 
-	"github.com/natefinch/natemud/config"
-	"github.com/natefinch/natemud/util"
+	"github.com/natefinch/natemud/game/gender"
 )
 
 var (
-	emotes map[string]*emote
+	emotes map[string]emote
 )
 
-// Emotes is a list of the names of the available emotes in the game
-var Emotes []string
+// Names is a list of the names of the available emotes in the game
+var Names []string
 
-// template is a struct that lets us unmarshal directly into a template.
-type template struct {
+// templ is a struct that lets us unmarshal directly into a template.
+type templ struct {
 	*template.Template
 }
 
 // UnmarshalText implements TextUnmarshaler.UnmarshalText.
-func (e *emoteTemplate) UnmarshalText(text []byte) error {
+func (e *templ) UnmarshalText(text []byte) error {
 	var err error
-	e.Template, err = template.New("t").Parse(text)
-	return fmt.Errorf("can't parse emote template: %s", err)
+	e.Template, err = template.New("t").Parse(string(text))
+	return fmt.Errorf("can't parse emote template %q: %s", text, err)
 }
 
 // noTarget is a collection of templates for an emote that doesn't have a
 // target.
 type noTarget struct {
-	Self   template
-	Around template
+	Self   templ
+	Around templ
 }
 
 // withTarget is a collection of templates for an emote that has a target.
 type withTarget struct {
 	noTarget
-	Target template
+	Target templ
 }
 
 // emote is a struct that holds data about an emote.
@@ -53,11 +49,15 @@ type emote struct {
 	ToOther *withTarget
 }
 
+func (e emote) String() string {
+	return e.Name
+}
+
 // Person is an interface that is used when filling the messages from an
 // EmoteTemplate.
 type Person interface {
 	Name() string
-	Gender() Sex
+	Gender() gender.Gender
 	io.Writer
 }
 
@@ -99,65 +99,65 @@ func Perform(cmd string, actor Person, target Person, others io.Writer) bool {
 	return true
 }
 
-func performToSelf(emote emote, actor Person, others io.Writer) {
+func performToSelf(emote emote, data emoteData, actor Person, others io.Writer) {
 	if emote.ToSelf == nil {
 		_, _ = actor.Write([]byte("You can't do that to yourself."))
 		return
 	}
 	err := emote.ToSelf.Self.Execute(actor, data)
 	if err != nil {
-		logFillErr(cmd, "ToSelf.Self", data, err)
+		logFillErr(emote, "ToSelf.Self", data, err)
 		// if there's an error running the emote to the actor, just bail early.
 		return
 	}
 
 	err = emote.ToSelf.Around.Execute(others, data)
 	if err != nil {
-		logFillErr(emote.Name, "ToSelf.Around", data, err)
+		logFillErr(emote, "ToSelf.Around", data, err)
 	}
 }
 
-func performToNoOne(emote emote, actor Person, others io.Writer) {
+func performToNoOne(emote emote, data emoteData, actor Person, others io.Writer) {
 	if emote.ToNoOne == nil {
 		_, _ = actor.Write([]byte("You can't do that."))
 		return
 	}
 	err := emote.ToNoOne.Self.Execute(actor, data)
 	if err != nil {
-		logFillErr(cmd, "ToNoOne.Self", data, err)
+		logFillErr(emote, "ToNoOne.Self", data, err)
 		// if there's an error running the emote to the actor, just bail early.
 		return
 	}
 
 	err = emote.ToNoOne.Around.Execute(others, data)
 	if err != nil {
-		logFillErr(emote.Name, "ToNoOne.Around", data, err)
+		logFillErr(emote, "ToNoOne.Around", data, err)
 	}
 }
 
-func performToOther(emote emote, actor Person, target Person, others io.Writer) {
+func performToOther(emote emote, data emoteData, actor Person, target Person, others io.Writer) {
 	if emote.ToOther == nil {
 		_, _ = actor.Write([]byte("You can't do that to someone else."))
 		return
 	}
 	err := emote.ToOther.Self.Execute(actor, data)
 	if err != nil {
-		logFillErr(cmd, "ToOther.Self", data, err)
+		logFillErr(emote, "ToOther.Self", data, err)
 		// if there's an error running the emote to the actor, just bail early.
 		return
 	}
 
 	err = emote.ToOther.Target.Execute(target, data)
 	if err != nil {
-		logFillErr(cmd, "ToOther.Target", data, err)
+		logFillErr(emote, "ToOther.Target", data, err)
 	}
 
 	err = emote.ToOther.Around.Execute(others, data)
 	if err != nil {
-		logFillErr(emote.Name, "ToOther.Around", data, err)
+		logFillErr(emote, "ToOther.Around", data, err)
 	}
 }
 
-func logFillErr(emote, template string, data emoteData, err error) {
+func logFillErr(emote emote, template string, data emoteData, err error) {
 	log.Printf("ERROR filling emote template %q for %s with data %v: %s", emote, template, data, err)
 }

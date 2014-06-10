@@ -2,6 +2,7 @@ package world
 
 import (
 	"fmt"
+	"io"
 	"strings"
 
 	"github.com/natefinch/natemud/config"
@@ -68,7 +69,7 @@ func (c *Command) HandleAt(loc *Location) {
 		c.help()
 	default:
 		if !c.emote(loc) {
-			c.Actor.Write("That is not a valid command.")
+			c.Actor.Writef("That is not a valid command.")
 		}
 	}
 }
@@ -85,7 +86,7 @@ func (c *Command) exit(loc *Location) (handled bool) {
 	if room != nil {
 		c.Actor.Move(room)
 	} else {
-		c.Actor.Write("You can't go that way!")
+		c.Actor.Writef("You can't go that way!")
 	}
 	return true
 }
@@ -93,25 +94,13 @@ func (c *Command) exit(loc *Location) (handled bool) {
 // checks if the command is an existing emote, and if so, handles it
 func (c *Command) emote(loc *Location) (handled bool) {
 	target := loc.Target(c)
-	output, err := emote.Do(c.Action(), c.Actor, target)
-	if err == emote.NotFoundError {
-		return false
-	}
-	if err != nil {
-		c.Actor.Write("You can't do that.")
-		return true
-	}
-
-	c.Actor.Write(output.ToSelf)
+	others := []io.Writer{}
 	for _, p := range loc.Players {
-		if p.Id != c.Actor.Id {
-			p.Write(output.ToOthers)
+		if p.Id() != c.Actor.Id() {
+			others = append(others, p)
 		}
 	}
-	if target != nil && output.ToTarget != "" {
-		target.Write(output.ToTarget)
-	}
-	return true
+	return emote.Perform(c.Action(), c.Actor, target, io.MultiWriter(others...))
 }
 
 // handles the look command
@@ -119,36 +108,36 @@ func (c *Command) look(loc *Location) {
 	if c.Target() != "" {
 		p := loc.Target(c)
 		if p != nil {
-			c.Actor.Write(p.Desc)
+			c.Actor.Writef(p.Desc)
 		} else {
 			// TODO: actually implement looking at things other than players
-			c.Actor.Write("You don't see that here.")
+			c.Actor.Writef("You don't see that here.")
 		}
 		return
 	}
 
-	c.Actor.Write(loc.RoomDesc(c.Actor))
+	c.Actor.Writef(loc.RoomDesc(c.Actor))
 }
 
 func (c *Command) say(loc *Location) {
 	msg := strings.Join(c.Cmd[1:], " ")
 	toOthers := fmt.Sprintf("%v says %v", c.Actor.Name, msg)
 	for _, p := range loc.Players {
-		if p.Id != c.Actor.Id {
-			p.Write(toOthers)
+		if p.Id() != c.Actor.Id() {
+			p.Writef(toOthers)
 		}
 	}
-	c.Actor.Write("You say %v", msg)
+	c.Actor.Writef("You say %v", msg)
 }
 
 func (c *Command) tell() {
 	p := FindPlayer(c.Target())
 	if p != nil {
 		msg := strings.Join(c.Cmd[2:], " ")
-		p.Write("%v tells you %v", c.Actor.Name, msg)
-		c.Actor.Write("You tell %v %v", p.Name, msg)
+		p.Writef("%v tells you %v", c.Actor.Name(), msg)
+		c.Actor.Writef("You tell %v %v", p.Name(), msg)
 	} else {
-		p.Write("No one with that name exists.")
+		p.Writef("No one with that name exists.")
 	}
 }
 
@@ -172,8 +161,8 @@ func (c *Command) help() {
 	}
 	lines = append(lines, "")
 	lines = append(lines, "-- Emotes --")
-	lines = append(lines, config.GetEmoteNames()...)
-	c.Actor.Write(strings.Join(lines, "\r\n"))
+	lines = append(lines, emote.Names...)
+	c.Actor.Writef(strings.Join(lines, "\r\n"))
 }
 
 func (c *Command) helpdetails(command string) {

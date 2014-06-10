@@ -5,12 +5,12 @@ package auth
 import (
 	"bufio"
 	"errors"
+	"fmt"
 	"io"
 	"log"
 	"net"
 
 	"github.com/natefinch/natemud/config"
-	"github.com/natefinch/natemud/util"
 	"github.com/natefinch/natemud/world"
 )
 
@@ -26,10 +26,9 @@ const (
 // logs a player in from an incoming connection, creating a player
 // in the world if they successfully connect
 func Login(rwc io.ReadWriteCloser, ip net.Addr) {
-	rw := bufio.NewReadWriter(bufio.NewReader(rwc), bufio.NewWriter(rwc))
-	showTitle(rw)
+	showTitle(rwc)
 	for i := 0; i < retries; i++ {
-		user, err := authenticate(rw)
+		user, err := authenticate(rwc)
 		switch err {
 		case nil:
 			world.SpawnPlayer(rwc, user, ip)
@@ -37,17 +36,17 @@ func Login(rwc io.ReadWriteCloser, ip net.Addr) {
 
 		case ErrAuth:
 			log.Printf("Failed login from %s", ip)
-			err = util.WriteLn(rw, "Incorrect username or password, please try again")
-			continue
-
+			_, err = rwc.Write([]byte("Incorrect username or password, please try again\n"))
+			if err != nil {
+				break
+			}
 		case ErrDupe:
-			ok, err := handleDupe(user, rw)
+			ok, err := handleDupe(user, rwc)
 			if ok && err == nil {
 				kick(user)
 				world.SpawnPlayer(rwc, user, ip)
 				return
 			}
-			continue
 		}
 		if err != nil {
 			log.Printf("Error during login of user from %s: %s", ip, err)
@@ -56,35 +55,44 @@ func Login(rwc io.ReadWriteCloser, ip net.Addr) {
 	}
 }
 
-func showTitle(rw *bufio.ReadWriter) {
-	util.WriteLn(rw, config.MainTitle())
+func showTitle(w io.Writer) error {
+	_, err := w.Write([]byte(config.MainTitle()))
+	return err
 }
 
 // Queries the user for username and password, then authenticates the credentials
-func authenticate(rw *bufio.ReadWriter) (user string, err error) {
-	err = util.Write(rw, "Username: ")
+func authenticate(rw io.ReadWriter) (user string, err error) {
+	_, err = rw.Write([]byte("Username: "))
 	if err != nil {
-		return
+		return user, err
 	}
 
-	user, err = util.ReadLn(rw)
-	if err != nil {
-		return
+	scanner := bufio.NewScanner(rw)
+	if !scanner.Scan() {
+		if err = scanner.Err(); err != nil {
+			return user, err
+		}
+		return user, fmt.Errorf("Connection closed")
 	}
+	user = scanner.Text()
+
 	// TODO: remove this before production!
 	log.Printf("User logging in: %v", user)
 
-	err = util.Write(rw, "Password: ")
+	_, err = rw.Write([]byte("Password: "))
 	if err != nil {
-		return user, util.ErrClosed
+		return user, err
 	}
 
-	pass, err := util.ReadLn(rw)
-	if err != nil {
-		return
+	if !scanner.Scan() {
+		if err = scanner.Err(); err != nil {
+			return user, err
+		}
+		return user, fmt.Errorf("Connection closed")
 	}
+	pass := scanner.Text()
 	err = checkPass(user, pass)
-	return
+	return user, err
 }
 
 func checkPass(user, pass string) error {
@@ -99,10 +107,10 @@ func checkPass(user, pass string) error {
 	return nil
 }
 
-func handleDupe(user string, rw *bufio.ReadWriter) (bool, error) {
+func handleDupe(user string, w io.Writer) (bool, error) {
 	// TODO: actually handle duplicate logins
-	util.WriteLn(rw, "This account is already logged in.")
-	return false, nil
+	_, err := w.Write([]byte("This account is already logged in."))
+	return false, err
 }
 
 func kick(user string) {

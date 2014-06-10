@@ -11,23 +11,24 @@ var (
 
 // Direction is a direction that a standard exit can use
 type Direction struct {
-	// Order determines the sort order for the exits in room descriptions.
-	Order int
-	// Name is what will be shown in room descriptions
+	// Id is the unique id of the exit, and determines sort order.
+	Id int
+	// Name is what will be shown in room descriptions.
 	Name string
-	// From what is used when displaying enter/exit notifications for players
+	// From is used when displaying enter/exit notifications for players.
 	From string
-	// Aliases is a list of alternate names for the direction
+	// Aliases is a list of alternate names for the direction.
 	Aliases []string
 }
 
 // FindDir will find a direction by name or alias.  This method is not case
 // sensitive.
-func FindDirection(alias string) Direction {
-	return dirMap[strings.ToLower(alias)]
+func FindDirection(alias string) (dir Direction, found bool) {
+	dir, found = dirMap[strings.ToLower(alias)]
+	return dir, found
 }
 
-// AllExits returns a list of all the exit types that exist in the world
+// AllDirections returns a list of all the directions that exist in the world.
 func AllDirections() []Direction {
 	return dirs
 }
@@ -42,9 +43,7 @@ func addDir(dir Direction) {
 	}
 }
 
-// init loads all the directions that exist in the world
 func init() {
-
 	// TODO: move this to a config file
 
 	n := Direction{0, "North", "the North", []string{"n"}}

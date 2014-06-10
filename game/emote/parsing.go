@@ -3,12 +3,13 @@ package emote
 import (
 	"fmt"
 	"io"
-	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
 
 	"github.com/BurntSushi/toml"
+
+	"github.com/natefinch/natemud/config"
 )
 
 const (
@@ -17,7 +18,7 @@ const (
 
 // init creates the emoteTemplate map and loads emotes into it
 func init() {
-	emotes = make(map[string]*emote)
+	emotes = make(map[string]emote)
 
 	filename := filepath.Join(config.DataDir, templFile)
 
@@ -35,7 +36,7 @@ func init() {
 		panic(err)
 	}
 
-	log.Printf("Loaded %v emotes", len(Emotes))
+	log.Printf("Loaded %v emotes", len(Names))
 }
 
 // emoteConfigs is a struct for getting the emote templates out of a config.
@@ -61,13 +62,13 @@ func decodeEmotes(r io.Reader) ([]emote, error) {
 }
 
 // loadEmotes populates the game's list of emotes and checks for duplicates.
-func loadEmotes(em []emotes) error {
+func loadEmotes(em []emote) error {
 	for _, emote := range em {
 		if _, ok := emotes[emote.Name]; ok {
 			return fmt.Errorf("Duplicate emote defined: %q", emote.Name)
 		}
 
-		Emotes = append(Emotes, emote.Name)
+		Names = append(Names, emote.Name)
 		emotes[emote.Name] = emote
 	}
 	return nil

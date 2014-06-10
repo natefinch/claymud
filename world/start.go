@@ -1,6 +1,10 @@
 package world
 
 import (
+	"fmt"
+	"log"
+	"sort"
+
 	"github.com/natefinch/natemud/config"
 	"github.com/natefinch/natemud/util"
 )
@@ -44,19 +48,29 @@ func init() {
 			exits := make([]Exit, 0)
 
 			if x > 0 {
-				exits = append(exits, Exit{config.FindDirection("w"), locs[x-1][y]})
+				exits = append(exits, Exit{dir("w"), locs[x-1][y]})
 			}
 			if x < (size - 1) {
-				exits = append(exits, Exit{config.FindDirection("e"), locs[x+1][y]})
+				exits = append(exits, Exit{dir("e"), locs[x+1][y]})
 			}
 			if y > 0 {
-				exits = append(exits, Exit{config.FindDirection("n"), locs[x][y-1]})
+				exits = append(exits, Exit{dir("n"), locs[x][y-1]})
 			}
 			if y < (size - 1) {
-				exits = append(exits, Exit{config.FindDirection("s"), locs[x][y+1]})
+				exits = append(exits, Exit{dir("s"), locs[x][y+1]})
 			}
-			loc.SetExits(exits)
+			e := Exits(exits)
+			sort.Sort(e)
+			loc.Exits = e
 		}
 	}
 	start = locs[0][0]
+}
+
+func dir(d string) config.Direction {
+	dir, ok := config.FindDirection(d)
+	if !ok {
+		panic(fmt.Errorf("Can't find direction %s", d))
+	}
+	return dir
 }

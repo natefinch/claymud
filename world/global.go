@@ -7,6 +7,8 @@ import (
 	"strings"
 )
 
+// TODO: make all this less terrible
+
 var (
 	adds    = make(chan *Player)
 	deletes = make(chan *Player)
@@ -19,7 +21,6 @@ func AddPlayer(p *Player) {
 }
 
 func RemovePlayer(p *Player) {
-	p.Close()
 	deletes <- p
 }
 

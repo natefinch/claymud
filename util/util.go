@@ -2,10 +2,7 @@
 package util
 
 import (
-	"bytes"
 	"errors"
-	"log"
-	"text/template"
 )
 
 var (
@@ -24,13 +21,3 @@ const (
 	CYAN    = "\033[36m"
 	WHITE   = "\033[37m"
 )
-
-// FillTemplate is a helper function that parses and fills a template with values from the map
-func FillTemplate(t *template.Template, data interface{}) (result string, err error) {
-	var b bytes.Buffer
-	err = t.Execute(&b, data)
-	if err != nil {
-		return "", err
-	}
-	return b.String(), nil
-}

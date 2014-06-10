@@ -10,23 +10,23 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/natefinch/natemud/config"
+	"github.com/natefinch/natemud/game/gender"
 	"github.com/natefinch/natemud/lock"
 	"github.com/natefinch/natemud/util"
 )
 
 var (
-	ErrTimeout = errors.New("Player timed out")
+	TimeoutError = errors.New("Player timed out")
 )
 
 // Player is a struct representing a user in the world
 type Player struct {
-	Name string
-	Desc string
-	IP   net.Addr
-	Id   util.Id
-	Loc  *Location
-	Sex  config.Sex
+	name   string
+	Desc   string
+	IP     net.Addr
+	id     util.Id
+	loc    *Location
+	gender gender.Gender
 
 	writer io.Writer
 	closer io.Closer
@@ -40,43 +40,57 @@ func SpawnPlayer(rwc io.ReadWriteCloser, name string, ip net.Addr) {
 	// TODO: Persistence
 	loc := Start()
 	p := &Player{
-		Name: name,
-		Desc: fmt.Sprintf("You see %v here.", name),
-		IP:   ip,
-		Id:   <-util.Ids,
-		Loc:  loc,
-		Sex:  config.SEX_NONE,
+		name: name,
+		// TODO: make this a template
+		Desc:   fmt.Sprintf("You see %v here.", name),
+		IP:     ip,
+		id:     <-util.Ids,
+		loc:    loc,
+		gender: gender.NONE,
 
 		closer:  rwc,
 		writer:  rwc,
 		Scanner: bufio.NewScanner(rwc),
 	}
 	AddPlayer(p)
-	go p.runLoop()
 	go p.readLoop()
 	loc.AddPlayer(p)
 }
 
-// Write writes out text to the user.
-func (p *Player) Write(msg string, args ...string) {
-	if _, err := p.Writer.Write("\n"); err != nil {
-		p.exit(err)
-	}
+func (p *Player) Writef(format string, args ...interface{}) {
+	p.Write([]byte(fmt.Sprintf(format, args...)))
+}
 
-	if _, err := p.Writer.Write([]byte(fmt.Sprintf(msg, args...))); err != nil {
+// Write implements io.Writer.  It will never return an error.
+func (p *Player) Write(b []byte) (int, error) {
+	defer p.Unlock()
+	p.Lock()
+
+	p.safeWrite([]byte("\n"))
+	p.safeWrite(b)
+	p.prompt()
+
+	return len(b), nil
+}
+
+func (p *Player) safeWrite(b []byte) {
+	if _, err := p.writer.Write(b); err != nil {
 		p.exit(err)
 	}
-	p.prompt()
 }
 
 // Id returns the unique Id of this Player
 func (p *Player) Id() util.Id {
-	return p.Id
+	return p.id
+}
+
+func (p *Player) Name() string {
+	return p.name
 }
 
 // String returns a string reprentation of the player (primarily for logging)
 func (p *Player) String() string {
-	return fmt.Sprintf("%v [%v]", p.Name, p.Id)
+	return fmt.Sprintf("%v [%v]", p.name, p.id)
 }
 
 // Move changes the player's location and adds the player to the location's map
@@ -85,17 +99,18 @@ func (p *Player) String() string {
 // room to another including keeping the user's location and the location map in
 // sync
 func (p *Player) Move(loc *Location) {
-	if loc != p.Loc {
-		locks := []IdLocker{p, loc, p.Loc}
+	if loc.Id() != p.loc.Id() {
+		locks := []lock.IdLocker{p, loc, p.loc}
 		lock.All(locks)
 
-		p.loc.Remove(p)
-		loc.Add(p)
-		p.Loc = loc
+		p.loc.RemovePlayer(p)
+		loc.AddPlayer(p)
+		p.loc = loc
 
 		lock.UnlockAll(locks)
 
-		p.handleCmd([]string{"look"})
+		// TODO: make this less hacky?
+		p.handleCmd("look")
 	}
 }
 
@@ -107,20 +122,14 @@ func (p *Player) Location() *Location {
 func (p *Player) exit(err error) {
 	p.Lock()
 	if err != nil {
-		log.Printf("Removing user %v from world. Error: %v", p.name, err)
+		log.Printf("EXIT: Removing user %v from world. Error: %v", p, err)
 	}
 	RemovePlayer(p)
 	p.Unlock()
 }
 
-// Title implements config.Person.Title()
-func (p *Player) Title() string {
-	return p.Name
-}
-
-// Gender implements config.Person.Gender()
-func (p *Player) Gender() config.Sex {
-	return p.Sex
+func (p *Player) Gender() gender.Gender {
+	return p.gender
 }
 
 // readLoop is a goroutine that just passes info from the player's input to the
@@ -129,27 +138,23 @@ func (p *Player) readLoop() {
 	for p.Scan() {
 		p.handleCmd(p.Text())
 	}
-	err := p.in.Err()
+	err := p.Err()
 	if err != nil {
 		log.Printf("Error reading from user %v: %v", p.Name, err)
 	}
 	p.exit(err)
 }
 
-// promp shows the user's prompt to the user
+// prompt shows the user's prompt to the user
 func (p *Player) prompt() {
 	// TODO: standard/custom prompts
-	if _, err := p.out.Write(">"); err != nil {
-		log.Print("Failed writing prompt to %s: %s", p, err)
-		p.exit(err)
-	}
+	p.safeWrite([]byte(">"))
 }
 
 // timeout times the player out of the world
 func (p *Player) timeout() {
-	util.WriteLn(p.out, "")
-	util.WriteLn(p.out, "You have timed out... good bye!")
-	p.exit <- ErrTimeout
+	p.Writef("You have timed out... good bye!")
+	p.exit(TimeoutError)
 }
 
 // HandleCommand handles commands specific to the player, such as inventory and
@@ -167,7 +172,7 @@ func (p *Player) HandleCommand(cmd *Command) bool {
 
 // handleQuit asks the user if they really want to quit, and if they do, does so
 func (p *Player) handleQuit() {
-	_, err := p.Write("Are you sure you want to quit? (y/n)")
+	p.safeWrite([]byte("Are you sure you want to quit? (y/n) "))
 
 	if p.Scan() {
 		tokens := tokenize(p.Text())
@@ -178,7 +183,7 @@ func (p *Player) handleQuit() {
 			p.prompt()
 		}
 	}
-	if err := p.Err(); ert != nil {
+	if err := p.Err(); err != nil {
 		p.exit(err)
 	}
 }
