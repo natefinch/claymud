@@ -45,52 +45,50 @@
 #
 
 [[emote]]
-name = smile
+name = "smile"
 
-[ToSelf]
-self = You smile to yourself.
-around = {{.Actor}} smiles to {{.Xself}}.
+[emote.toSelf]
+self = "You smile to yourself."
+around = "{{.Actor}} smiles to {{.Xself}}."
 
-[ToNoOne]
-self = You smile.
-around = {{.Actor}} smiles.
+[emote.toNoOne]
+self = "You smile."
+around = "{{.Actor}} smiles."
 
-[ToOther]
-self = You smile at {{.Target}}.
-target = {{.Actor}} smiles at you.
-around = {{.Actor}} smiles at {{.Target}}.
+[emote.toOther]
+self = "You smile at {{.Target}}."
+target = "{{.Actor}} smiles at you."
+around = "{{.Actor}} smiles at {{.Target}}."
+
+[[emote]]
+name = "evil"
+
+[emote.toSelf]
+self = "You grin evilly to yourself."
+around = "{{.Actor}} grins evilly to {{.Xself}}."
+
+[emote.toNoOne]
+self = "You grin evilly."
+around = "{{.Actor}} grins evilly."
+
+[emote.toOther]
+self = "You grin evilly at {{.Target}}."
+target = "{{.Actor}} grins evilly at you."
+around = "{{.Actor}} grins evilly at {{.Target}}."
 
 
 [[emote]]
-name = evil
-
-[ToSelf]
-self = You grin evilly to yourself.
-around = {{.Actor}} grins evilly to {{.Xself}}.
-
-[ToNoOne]
-self = You grin evilly.
-around = {{.Actor}} grins evilly.
-
-[ToOther]
-self = You grin evilly at {{.Target}}.
-target = {{.Actor}} grins evilly at you.
-around = {{.Actor}} grins evilly at {{.Target}}.
-
-
-[[emote]]
-name = jump
+name = "jump"
 
 # note there is no ToSelf section, since jumping yourself doesn't really make 
 # sense, so if you do "jump <myname>" you will get a message like "You cannot 
-# do that."
+# do that."  
 
-[ToNoOne]
-self = You jump around like a crazy person.
-around = {{.Actor}} jumps around like a crazy person.
+[emote.toNoOne]
+self = "You jump around like a crazy person."
+around = "{{.Actor}} jumps around like a crazy person."
 
-[ToOther]
-self = You smile at {{.Target}}.
-target = {{.Actor}} smiles at you.
-around = {{.Actor}} smiles at {{.Target}}.
-
+[emote.toOther]
+self = "You jump {{.Target}}."
+target = "{{.Actor}} jumps you."
+around = "{{.Actor}} jumps {{.Target}}."

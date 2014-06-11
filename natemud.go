@@ -5,17 +5,23 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/natefinch/natemud/auth"
 	"log"
 	"net"
+	"os"
 	"runtime"
 	"strconv"
+
+	"github.com/natefinch/natemud/auth"
+	"github.com/natefinch/natemud/game/emote"
+	"github.com/natefinch/natemud/game/gender"
 )
 
 var port int
 
 func init() {
-	runtime.GOMAXPROCS(runtime.NumCPU())
+	if os.Getenv("GOMAXPROCS") == "" {
+		runtime.GOMAXPROCS(runtime.NumCPU())
+	}
 
 	const (
 		defaultPort = 8888
@@ -23,6 +29,9 @@ func init() {
 	)
 	flag.IntVar(&port, "port", defaultPort, usage)
 	flag.IntVar(&port, "p", defaultPort, fmt.Sprintf("%v%v", usage, " (shorthand)"))
+
+	gender.Initialize()
+	emote.Initialize()
 }
 
 func main() {

@@ -46,7 +46,7 @@ func SpawnPlayer(rwc io.ReadWriteCloser, name string, ip net.Addr) {
 		IP:     ip,
 		id:     <-util.Ids,
 		loc:    loc,
-		gender: gender.NONE,
+		gender: gender.None,
 
 		closer:  rwc,
 		writer:  rwc,

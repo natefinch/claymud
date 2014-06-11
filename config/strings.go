@@ -28,6 +28,6 @@ func MainTitle() string {
 }
 
 // init loads the main title text
-func init() {
+func Initialize() {
 	LoadMainTitle()
 }

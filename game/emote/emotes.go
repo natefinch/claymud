@@ -24,8 +24,11 @@ type templ struct {
 // UnmarshalText implements TextUnmarshaler.UnmarshalText.
 func (e *templ) UnmarshalText(text []byte) error {
 	var err error
-	e.Template, err = template.New("t").Parse(string(text))
-	return fmt.Errorf("can't parse emote template %q: %s", text, err)
+	e.Template, err = template.New("emoteTemplate").Parse(string(text))
+	if err != nil {
+		return fmt.Errorf("can't parse emote template %q: %#v", text, err)
+	}
+	return nil
 }
 
 // noTarget is a collection of templates for an emote that doesn't have a
@@ -65,7 +68,7 @@ type Person interface {
 type emoteData struct {
 	Actor  string
 	Target string
-	XSelf  string
+	Xself  string
 }
 
 // Perform attempts to perform the emote named by cmd given the actor and target.
@@ -81,7 +84,7 @@ func Perform(cmd string, actor Person, target Person, others io.Writer) bool {
 	// TODO: Support more params?   Him/He/etc?
 	data := emoteData{
 		Actor: actor.Name(),
-		XSelf: actor.Gender().Xself(),
+		Xself: actor.Gender().Xself(),
 	}
 
 	if target != nil {

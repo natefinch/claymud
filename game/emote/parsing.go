@@ -16,11 +16,9 @@ const (
 	templFile = "emotes.toml"
 )
 
-// init creates the emoteTemplate map and loads emotes into it
-func init() {
-	emotes = make(map[string]emote)
-
-	filename := filepath.Join(config.DataDir, templFile)
+// Initialize creates the emoteTemplate map and loads emotes into it.
+func Initialize() {
+	filename := filepath.Join(config.DataDir(), templFile)
 
 	f, err := os.Open(filename)
 	if err != nil {
@@ -36,7 +34,7 @@ func init() {
 		panic(err)
 	}
 
-	log.Printf("Loaded %v emotes", len(Names))
+	log.Printf("Loaded emotes: %v", Names)
 }
 
 // emoteConfigs is a struct for getting the emote templates out of a config.
@@ -63,12 +61,14 @@ func decodeEmotes(r io.Reader) ([]emote, error) {
 
 // loadEmotes populates the game's list of emotes and checks for duplicates.
 func loadEmotes(em []emote) error {
-	for _, emote := range em {
+	emotes = make(map[string]emote, len(em))
+	Names = make([]string, len(em))
+	for i, emote := range em {
 		if _, ok := emotes[emote.Name]; ok {
 			return fmt.Errorf("Duplicate emote defined: %q", emote.Name)
 		}
 
-		Names = append(Names, emote.Name)
+		Names[i] = emote.Name
 		emotes[emote.Name] = emote
 	}
 	return nil
