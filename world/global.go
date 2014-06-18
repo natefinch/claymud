@@ -30,8 +30,9 @@ func FindPlayer(name string) (p *Player) {
 	return
 }
 
-func init() {
+func Initialize() {
 	go playerListLoop()
+	genWorld()
 }
 
 // This method runs as a goroutine that communicates via

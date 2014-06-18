@@ -20,7 +20,7 @@ func Start() *Location {
 	return start
 }
 
-func init() {
+func genWorld() {
 	log.Printf("Generating world locations")
 
 	// generate some rooms so we have somewhere to walk around

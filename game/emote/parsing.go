@@ -17,24 +17,25 @@ const (
 )
 
 // Initialize creates the emoteTemplate map and loads emotes into it.
-func Initialize() {
+func Initialize() error {
 	filename := filepath.Join(config.DataDir(), templFile)
 
 	f, err := os.Open(filename)
 	if err != nil {
-		panic(fmt.Errorf("Error reading emote config file: %s", err))
+		return fmt.Errorf("Error reading emote config file: %s", err)
 	}
 	defer f.Close()
 	em, err := decodeEmotes(f)
 	if err != nil {
-		panic(err)
+		return err
 	}
 
 	if err := loadEmotes(em); err != nil {
-		panic(err)
+		return err
 	}
 
 	log.Printf("Loaded emotes: %v", Names)
+	return nil
 }
 
 // emoteConfigs is a struct for getting the emote templates out of a config.

@@ -12,8 +12,10 @@ import (
 	"strconv"
 
 	"github.com/natefinch/natemud/auth"
+	"github.com/natefinch/natemud/config"
 	"github.com/natefinch/natemud/game/emote"
 	"github.com/natefinch/natemud/game/gender"
+	"github.com/natefinch/natemud/world"
 )
 
 var port int
@@ -29,13 +31,21 @@ func init() {
 	)
 	flag.IntVar(&port, "port", defaultPort, usage)
 	flag.IntVar(&port, "p", defaultPort, fmt.Sprintf("%v%v", usage, " (shorthand)"))
-
-	gender.Initialize()
-	emote.Initialize()
 }
 
 func main() {
 	flag.Parse()
+
+	if err := config.Initialize(); err != nil {
+		log.Fatalf("Error during natemud configuration init: %s", err)
+	}
+	if err := gender.Initialize(); err != nil {
+		log.Fatalf("Error during gender init: %s", err)
+	}
+	if err := emote.Initialize(); err != nil {
+		log.Fatalf("Error during emote init: %s", err)
+	}
+	world.Initialize()
 
 	host := net.JoinHostPort("127.0.0.1", strconv.Itoa(port))
 	log.Printf("Running NateMUD on %v", host)
@@ -48,7 +58,7 @@ func main() {
 
 	listener, err := net.ListenTCP("tcp", addr)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatalf("Failed listening for connections: %s", err)
 	}
 	for {
 		conn, err := listener.AcceptTCP()
