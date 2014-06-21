@@ -1,12 +1,11 @@
 package emote
 
 import (
-	"fmt"
 	"io"
 	"log"
-	"text/template"
 
 	"github.com/natefinch/natemud/game/gender"
+	"github.com/natefinch/natemud/util"
 )
 
 var (
@@ -16,32 +15,17 @@ var (
 // Names is a list of the names of the available emotes in the game
 var Names []string
 
-// templ is a struct that lets us unmarshal directly into a template.
-type templ struct {
-	*template.Template
-}
-
-// UnmarshalText implements TextUnmarshaler.UnmarshalText.
-func (e *templ) UnmarshalText(text []byte) error {
-	var err error
-	e.Template, err = template.New("emoteTemplate").Parse(string(text))
-	if err != nil {
-		return fmt.Errorf("can't parse emote template %q: %#v", text, err)
-	}
-	return nil
-}
-
 // noTarget is a collection of templates for an emote that doesn't have a
 // target.
 type noTarget struct {
-	Self   templ
-	Around templ
+	Self   util.Template
+	Around util.Template
 }
 
 // withTarget is a collection of templates for an emote that has a target.
 type withTarget struct {
 	noTarget
-	Target templ
+	Target util.Template
 }
 
 // emote is a struct that holds data about an emote.
@@ -162,5 +146,5 @@ func performToOther(emote emote, data emoteData, actor Person, target Person, ot
 }
 
 func logFillErr(emote emote, template string, data emoteData, err error) {
-	log.Printf("ERROR filling emote template %q for %s with data %v: %s", emote, template, data, err)
+	log.Printf("ERROR: filling emote template %q for %s with data %v: %s", emote, template, data, err)
 }

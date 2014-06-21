@@ -30,9 +30,13 @@ func FindPlayer(name string) (p *Player) {
 	return
 }
 
-func Initialize() {
+func Initialize() error {
+	if err := loadLocTempl(); err != nil {
+		return err
+	}
 	go playerListLoop()
 	genWorld()
+	return nil
 }
 
 // This method runs as a goroutine that communicates via

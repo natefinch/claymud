@@ -2,12 +2,9 @@
 package util
 
 import (
-	"errors"
-)
-
-var (
-	// Error returned when a reader or writer is closed when you try to use it
-	ErrClosed = errors.New("utils.ErrClosed: reader closed")
+	"fmt"
+	"io"
+	"text/template"
 )
 
 const (
@@ -21,3 +18,31 @@ const (
 	CYAN    = "\033[36m"
 	WHITE   = "\033[37m"
 )
+
+// templ is a struct that lets us unmarshal directly into a template.
+type Template struct {
+	*template.Template
+}
+
+// UnmarshalText implements TextUnmarshaler.UnmarshalText.
+func (e *Template) UnmarshalText(text []byte) error {
+	var err error
+	e.Template, err = template.New("template").Parse(string(text))
+	if err != nil {
+		return fmt.Errorf("can't parse template %q: %#v", text, err)
+	}
+	return nil
+}
+
+type SafeWriter struct {
+	Writer io.Writer
+	OnErr  func(error)
+}
+
+func (s SafeWriter) Write(b []byte) (int, error) {
+	n, err := s.Writer.Write(b)
+	if err != nil {
+		s.OnErr(err)
+	}
+	return n, nil
+}

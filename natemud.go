@@ -45,7 +45,9 @@ func main() {
 	if err := emote.Initialize(); err != nil {
 		log.Fatalf("Error during emote init: %s", err)
 	}
-	world.Initialize()
+	if err := world.Initialize(); err != nil {
+		log.Fatalf("Error during world init: %s", err)
+	}
 
 	host := net.JoinHostPort("127.0.0.1", strconv.Itoa(port))
 	log.Printf("Running NateMUD on %v", host)

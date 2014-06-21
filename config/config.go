@@ -15,14 +15,21 @@ import (
 
 var (
 	mainTitle string
-	dataDir   string
+	dataDir   = getDataDir()
 )
 
 // Initialize sets up the application's configuration directory.
 func Initialize() error {
-	if err := setupDataDir(); err != nil {
-		return err
+	_, err := os.Stat(dataDir)
+	if os.IsNotExist(err) {
+		return fmt.Errorf("can't find data directory: %s", dataDir)
 	}
+	if err != nil {
+		return fmt.Errorf("can't read data directory: %s", err)
+	}
+
+	log.Printf("Using data directory %s", dataDir)
+
 	if err := configLogging(); err != nil {
 		return err
 	}
@@ -42,23 +49,7 @@ func DataDir() string {
 	return dataDir
 }
 
-func setupDataDir() error {
-	dataDir = getDataDir()
-	log.Printf("Using data directory %s", dataDir)
-
-	_, err := os.Stat(dataDir)
-	if os.IsNotExist(err) {
-		if err := os.MkdirAll(dataDir, 0755); err != nil {
-			return fmt.Errorf("can't create datadir: %s", err)
-		}
-	} else if err != nil {
-		// some other error
-		return fmt.Errorf("can't get info about data dir: %s", err)
-	}
-
-	return copyGopath()
-}
-
+// getDataDir returns the platform-specific data directory.
 func getDataDir() string {
 	v := os.Getenv("NATEMUD_DATADIR")
 	if v != "" {
@@ -70,67 +61,6 @@ func getDataDir() string {
 	}
 
 	return filepath.Join(os.Getenv("HOME"), ".config", "natemud")
-}
-
-func copyFile(name, dir string) error {
-	src, err := os.Open(name)
-	if err != nil {
-		return fmt.Errorf("can't read file from config dir: %s", err)
-	}
-	defer src.Close()
-	newname := filepath.Join(dir, filepath.Base(name))
-
-	log.Printf("Copying %s", filepath.Base(name))
-
-	dst, err := os.OpenFile(newname, os.O_WRONLY|os.O_CREATE, 0644)
-	if err != nil {
-		return fmt.Errorf("can't create new file for config dir: %s", err)
-	}
-	defer src.Close()
-	if _, err := io.Copy(dst, src); err != nil {
-		return fmt.Errorf("can't create new file for config dir: %s", err)
-	}
-	return nil
-}
-
-func copyGopath() error {
-	// TODO: this is a dirty hack, find a better way to do this
-	// let's copy the data from the repo to the expected directory.
-	files, err := ioutil.ReadDir(dataDir)
-	if err != nil {
-		return fmt.Errorf("can't get file list from data dir: %s", err)
-	}
-	if len(files) > 0 {
-		// folder already populated
-		return nil
-	}
-
-	gopath := os.Getenv("GOPATH")
-
-	if gopath == "" {
-		return nil
-	}
-
-	paths := filepath.SplitList(gopath)
-	for _, p := range paths {
-		p = filepath.Join(p, "src", "github.com", "natefinch", "natemud", "data")
-		if _, err := os.Stat(p); err != nil {
-			continue
-		}
-		log.Printf("Dev setup: copying files from repo dir %q to dataDir\n", p)
-		infos, err := ioutil.ReadDir(p)
-		if err != nil {
-			return fmt.Errorf("can't read data files from config dir %q: %s", p, err)
-		}
-		for _, info := range infos {
-			filename := filepath.Join(p, info.Name())
-			if err := copyFile(filename, dataDir); err != nil {
-				return err
-			}
-		}
-		break
-	}
-	return nil
 }
 
 func configLogging() error {

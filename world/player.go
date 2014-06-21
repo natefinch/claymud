@@ -9,6 +9,7 @@ import (
 	"net"
 	"strings"
 	"sync"
+	"text/template"
 
 	"github.com/natefinch/natemud/game/gender"
 	"github.com/natefinch/natemud/lock"
@@ -28,15 +29,16 @@ type Player struct {
 	loc    *Location
 	gender gender.Gender
 
-	writer io.Writer
+	writer util.SafeWriter
 	closer io.Closer
 	*bufio.Scanner
 
-	*sync.RWMutex
+	sync.RWMutex
 }
 
 // Attaches the connection to a player and inserts it into the world
 func SpawnPlayer(rwc io.ReadWriteCloser, name string, ip net.Addr) {
+	log.Printf("Spawning player %s (%v)", name, ip)
 	// TODO: Persistence
 	loc := Start()
 	p := &Player{
@@ -49,34 +51,40 @@ func SpawnPlayer(rwc io.ReadWriteCloser, name string, ip net.Addr) {
 		gender: gender.None,
 
 		closer:  rwc,
-		writer:  rwc,
 		Scanner: bufio.NewScanner(rwc),
 	}
+	p.writer = util.SafeWriter{rwc, p.exit}
 	AddPlayer(p)
 	go p.readLoop()
 	loc.AddPlayer(p)
+	p.prompt()
 }
 
+// Writef is a helper function to write the formatted string to the player.
 func (p *Player) Writef(format string, args ...interface{}) {
 	p.Write([]byte(fmt.Sprintf(format, args...)))
 }
 
+// Execute executes the given template and writes the output to the player as a
+// single locked write. If we try to run the template from outside the player's
+// lock, you get multiple writes which behaves badly.
+func (p *Player) Execute(t *template.Template, data interface{}) {
+	p.writer.Write([]byte("\n"))
+	if err := t.Execute(p.writer, data); err != nil {
+		log.Printf("ERROR: problem writing template to user: %s", err)
+	}
+}
+
 // Write implements io.Writer.  It will never return an error.
 func (p *Player) Write(b []byte) (int, error) {
-	defer p.Unlock()
 	p.Lock()
+	defer p.Unlock()
 
-	p.safeWrite([]byte("\n"))
-	p.safeWrite(b)
+	p.writer.Write([]byte("\n"))
+	p.writer.Write(b)
 	p.prompt()
 
 	return len(b), nil
-}
-
-func (p *Player) safeWrite(b []byte) {
-	if _, err := p.writer.Write(b); err != nil {
-		p.exit(err)
-	}
 }
 
 // Id returns the unique Id of this Player
@@ -84,6 +92,7 @@ func (p *Player) Id() util.Id {
 	return p.id
 }
 
+// Name returns the player's Name.
 func (p *Player) Name() string {
 	return p.name
 }
@@ -102,15 +111,11 @@ func (p *Player) Move(loc *Location) {
 	if loc.Id() != p.loc.Id() {
 		locks := []lock.IdLocker{p, loc, p.loc}
 		lock.All(locks)
+		defer lock.UnlockAll(locks)
 
 		p.loc.RemovePlayer(p)
-		loc.AddPlayer(p)
 		p.loc = loc
-
-		lock.UnlockAll(locks)
-
-		// TODO: make this less hacky?
-		p.handleCmd("look")
+		loc.AddPlayer(p)
 	}
 }
 
@@ -119,21 +124,25 @@ func (p *Player) Location() *Location {
 	return p.loc
 }
 
+// exit removes the player from the world, logging the error if not nil.
 func (p *Player) exit(err error) {
 	p.Lock()
+	defer p.Unlock()
 	if err != nil {
 		log.Printf("EXIT: Removing user %v from world. Error: %v", p, err)
+	} else {
+		log.Printf("EXIT: Removing user %v from world.", p)
 	}
 	RemovePlayer(p)
-	p.Unlock()
 }
 
+// Gender returns the player's gender.
 func (p *Player) Gender() gender.Gender {
 	return p.gender
 }
 
 // readLoop is a goroutine that just passes info from the player's input to the
-// runLoop
+// runLoop.
 func (p *Player) readLoop() {
 	for p.Scan() {
 		p.handleCmd(p.Text())
@@ -145,20 +154,20 @@ func (p *Player) readLoop() {
 	p.exit(err)
 }
 
-// prompt shows the user's prompt to the user
+// prompt shows the player's prompt to the user.
 func (p *Player) prompt() {
 	// TODO: standard/custom prompts
-	p.safeWrite([]byte(">"))
+	p.writer.Write([]byte(">"))
 }
 
-// timeout times the player out of the world
+// timeout times the player out of the world.
 func (p *Player) timeout() {
 	p.Writef("You have timed out... good bye!")
 	p.exit(TimeoutError)
 }
 
 // HandleCommand handles commands specific to the player, such as inventory and
-// player stats
+// player stats.
 func (p *Player) HandleCommand(cmd *Command) bool {
 
 	// TODO: implement player commands
@@ -170,9 +179,10 @@ func (p *Player) HandleCommand(cmd *Command) bool {
 	return false
 }
 
-// handleQuit asks the user if they really want to quit, and if they do, does so
+// handleQuit asks the user if they really want to quit, and if they say yes,
+// does so.
 func (p *Player) handleQuit() {
-	p.safeWrite([]byte("Are you sure you want to quit? (y/n) "))
+	p.writer.Write([]byte("Are you sure you want to quit? (y/n) "))
 
 	if p.Scan() {
 		tokens := tokenize(p.Text())
@@ -189,14 +199,16 @@ func (p *Player) handleQuit() {
 }
 
 // handleCmd converts tokens from the user into a Command object, and attempts
-// to handle it
+// to handle it.
 func (p *Player) handleCmd(s string) {
 	cmd := NewCommand(p, tokenize(s))
 	if !p.HandleCommand(cmd) {
 		p.loc.HandleCommand(cmd)
 	}
+	p.prompt()
 }
 
+// tokenize returns a list of space separated tokens from the given string.
 func tokenize(s string) []string {
 	return strings.Split(strings.TrimSpace(s), " ")
 }

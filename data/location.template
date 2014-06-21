@@ -1,0 +1,18 @@
+{{ .Name }}
+
+
+{{ .Desc }}
+
+
+[Exits]
+{{ range .Exits }}
+{{ .Name }} - {{ .Destination.Name }}
+
+{{ else }}
+There are no exits!
+{{ end }}
+{{ range .Players }}
+{{ if ne $.Actor.Id .Id }}
+$player.Desc
+{{ end }}
+{{ end }}

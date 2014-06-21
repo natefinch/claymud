@@ -2,12 +2,19 @@ package world
 
 import (
 	"fmt"
-	"sort"
+	"io/ioutil"
+	"log"
+	"path/filepath"
+	"regexp"
 	"strings"
 	"sync"
+	"text/template"
 
+	"github.com/natefinch/natemud/config"
 	"github.com/natefinch/natemud/util"
 )
+
+var locTemplate *template.Template
 
 // A location in the mud, such as a room
 type Location struct {
@@ -15,9 +22,11 @@ type Location struct {
 	Name string
 	Desc string
 	Exits
+	Area          *Area
+	Zone          *Zone
 	Players       map[util.Id]*Player
 	PlayersByName map[string]*Player
-	*sync.RWMutex
+	sync.RWMutex
 }
 
 // Creates a new location and starts its run loop
@@ -53,6 +62,7 @@ func (l *Location) HandleCommand(cmd *Command) {
 func (l *Location) AddPlayer(p *Player) {
 	l.Players[p.Id()] = p
 	l.PlayersByName[strings.ToLower(p.Name())] = p
+	l.ShowRoom(p)
 }
 
 func (l *Location) RemovePlayer(p *Player) {
@@ -72,41 +82,36 @@ func (l *Location) Target(cmd *Command) (p *Player) {
 	return l.PlayersByName[cmd.Target()]
 }
 
-// creates the room description from the point of view of the given actor
-func (l *Location) RoomDesc(actor *Player) string {
-	// construct the output for describing the room
-	// TODO: Make this a template
-	lines := make([]string, 0)
+// ShowRoom displays the room description from the point of view of the given
+// actor.
+func (l *Location) ShowRoom(actor *Player) {
+	actor.Execute(locTemplate, locData{actor, l})
+}
 
-	lines = append(lines, l.Name)
-	lines = append(lines, "")
-	lines = append(lines, l.Desc)
-	lines = append(lines, "")
+func loadLocTempl() error {
+	path := filepath.Join(config.DataDir(), "location.template")
+	log.Printf("Loading location template from %s", path)
 
-	if len(l.Exits) == 0 {
-		lines = append(lines, "There are no exits!")
-	} else {
-		lines = append(lines, "[Exits]")
-
-		// the exits are sorted, so this always prints out in the same order
-		sort.Sort(l.Exits)
-		for _, exit := range l.Exits {
-			lines = append(lines, fmt.Sprintf("%v - %v", exit.Name, exit.Destination.Name))
-		}
+	b, err := ioutil.ReadFile(path)
+	if err != nil {
+		return fmt.Errorf("error reading location template file: %s", err)
 	}
 
-	first := true
-	for _, p := range l.Players {
-		if p.Id() != actor.Id() {
-			if first {
-				lines = append(lines, "")
-				first = false
-			}
-			lines = append(lines, p.Desc)
-		}
+	locTemplate, err = template.New("location.template").Parse(preprocess(b))
+	if err != nil {
+		return fmt.Errorf("can't parse location template: %s", err)
 	}
+	return nil
+}
 
-	// TODO: implement showing items on the ground
+type locData struct {
+	Actor *Player
+	*Location
+}
 
-	return strings.Join(lines, "\r\n")
+var strip = regexp.MustCompile("}}\n")
+var repl = []byte("}}")
+
+func preprocess(b []byte) string {
+	return string(strip.ReplaceAll(b, repl))
 }

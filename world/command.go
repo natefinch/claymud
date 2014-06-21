@@ -116,7 +116,7 @@ func (c *Command) look(loc *Location) {
 		return
 	}
 
-	c.Actor.Writef(loc.RoomDesc(c.Actor))
+	loc.ShowRoom(c.Actor)
 }
 
 func (c *Command) say(loc *Location) {
