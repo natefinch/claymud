@@ -8,8 +8,11 @@ import (
 	"log"
 	"net"
 	"os"
+	"path/filepath"
 	"runtime"
 	"strconv"
+
+	"github.com/boltdb/bolt"
 
 	"github.com/natefinch/natemud/auth"
 	"github.com/natefinch/natemud/config"
@@ -36,15 +39,19 @@ func init() {
 func main() {
 	flag.Parse()
 
-	if err := config.Initialize(); err != nil {
-		log.Fatalf("Error during natemud configuration init: %s", err)
+	maybeFatal(config.Initialize())
+	maybeFatal(gender.Initialize())
+	maybeFatal(emote.Initialize())
+	maybeFatal(auth.Initialize())
+
+	path := filepath.Join(config.DataDir(), "natemud.db")
+
+	var err error
+	config.DB, err = bolt.Open(path, 0644, nil)
+	if err != nil {
+		log.Fatalf("Error opening database file %q: %s", path, err)
 	}
-	if err := gender.Initialize(); err != nil {
-		log.Fatalf("Error during gender init: %s", err)
-	}
-	if err := emote.Initialize(); err != nil {
-		log.Fatalf("Error during emote init: %s", err)
-	}
+
 	if err := world.Initialize(); err != nil {
 		log.Fatalf("Error during world init: %s", err)
 	}
@@ -73,5 +80,11 @@ func main() {
 
 		log.Printf("New connection from %v", conn.RemoteAddr())
 		go auth.Login(conn, conn.RemoteAddr())
+	}
+}
+
+func maybeFatal(err error) {
+	if err != nil {
+		log.Fatal(err)
 	}
 }

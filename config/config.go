@@ -10,12 +10,14 @@ import (
 	"runtime"
 
 	"github.com/BurntSushi/toml"
+	"github.com/boltdb/bolt"
 	"github.com/natefinch/lumberjack"
 )
 
 var (
 	mainTitle string
 	dataDir   = getDataDir()
+	DB        *bolt.DB
 )
 
 // Initialize sets up the application's configuration directory.

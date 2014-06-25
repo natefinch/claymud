@@ -20,38 +20,43 @@ var (
 	TimeoutError = errors.New("Player timed out")
 )
 
-// Player is a struct representing a user in the world
-type Player struct {
-	name   string
-	Desc   string
-	IP     net.Addr
-	id     util.Id
-	loc    *Location
-	gender gender.Gender
-
-	writer util.SafeWriter
-	closer io.Closer
+type User struct {
+	IP       net.Addr
+	Username string
+	writer   util.SafeWriter
+	closer   io.Closer
+	rwc      io.ReadWriteCloser
 	*bufio.Scanner
-
 	sync.RWMutex
 }
 
+// Player is a struct representing a user in the world
+type Player struct {
+	id     util.Id
+	name   string
+	Desc   string
+	loc    *Location
+	gender gender.Gender
+
+	*User
+}
+
 // Attaches the connection to a player and inserts it into the world
-func SpawnPlayer(rwc io.ReadWriteCloser, name string, ip net.Addr) {
-	log.Printf("Spawning player %s (%v)", name, ip)
+func SpawnPlayer(rwc io.ReadWriteCloser, user *User) {
+	log.Printf("Spawning player %s (%v)", user.Username, user.IP)
+	user.rwc = rwc
+	user.Scanner = bufio.NewScanner(rwc)
 	// TODO: Persistence
 	loc := Start()
 	p := &Player{
-		name: name,
+		name: user.Username,
 		// TODO: make this a template
-		Desc:   fmt.Sprintf("You see %v here.", name),
-		IP:     ip,
-		id:     <-util.Ids,
+		Desc:   fmt.Sprintf("You see %v here.", user.Username),
+		id:     0,
 		loc:    loc,
 		gender: gender.None,
 
-		closer:  rwc,
-		Scanner: bufio.NewScanner(rwc),
+		User: user,
 	}
 	p.writer = util.SafeWriter{rwc, p.exit}
 	AddPlayer(p)
@@ -182,19 +187,16 @@ func (p *Player) HandleCommand(cmd *Command) bool {
 // handleQuit asks the user if they really want to quit, and if they say yes,
 // does so.
 func (p *Player) handleQuit() {
-	p.writer.Write([]byte("Are you sure you want to quit? (y/n) "))
-
-	if p.Scan() {
-		tokens := tokenize(p.Text())
-		switch tokens[0] {
-		case "y", "yes":
-			RemovePlayer(p)
-		default:
-			p.prompt()
-		}
+	answer, err := p.Query([]byte("Are you sure you want to quit? (y/n) "))
+	if err != nil {
+		return
 	}
-	if err := p.Err(); err != nil {
-		p.exit(err)
+	tokens := tokenize(answer)
+	switch tokens[0] {
+	case "y", "yes":
+		RemovePlayer(p)
+	default:
+		p.prompt()
 	}
 }
 
@@ -211,4 +213,17 @@ func (p *Player) handleCmd(s string) {
 // tokenize returns a list of space separated tokens from the given string.
 func tokenize(s string) []string {
 	return strings.Split(strings.TrimSpace(s), " ")
+}
+
+// Query asks the player a question and receives an answer
+func (p *Player) Query(q []byte) (answer string, err error) {
+	p.Lock()
+	defer p.Unlock()
+	defer func() {
+		if err != nil {
+			p.exit(err)
+		}
+	}()
+
+	return util.Query(p.rwc, q)
 }

@@ -36,7 +36,7 @@ func NewLocation(name string, desc string) *Location {
 	return &Location{
 		Name:          name,
 		Desc:          desc,
-		id:            <-util.Ids,
+		id:            1,
 		Players:       make(map[util.Id]*Player),
 		PlayersByName: make(map[string]*Player),
 	}

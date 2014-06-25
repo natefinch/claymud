@@ -2,9 +2,10 @@
 package world
 
 import (
-	"github.com/natefinch/natemud/util"
 	"log"
 	"strings"
+
+	"github.com/natefinch/natemud/util"
 )
 
 // TODO: make all this less terrible

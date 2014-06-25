@@ -1,23 +1,40 @@
 package util
 
+import (
+	"errors"
+)
+
+// somebody shoot me if I ever need more than 256 buckets
+
+// BucketType makes ids unique across buckets by scoping them with another byte.
+type BucketType byte
+
+const (
+	User BucketType = iota
+)
+
+var ErrBadId = errors.New("Invalid Id")
+
 // Id is a type that allows for unique identification of an object
-type Id uint64
+type Id int64
 
-var Ids <-chan (Id) = idGenerator()
+func (i Id) Key() []byte {
+	key := make([]byte, 8)
+	for n := range key {
+		key[n] = byte(i >> uint(56-8*n))
+	}
 
-// idGenerator creates a channel that will continuously generate new unique Ids
-//
-// Thanks to Andrew Rolfe of WolfMUD fame for this snippet of code -
-// http://www.wolfmud.org
-func idGenerator() <-chan (Id) {
-	// TODO: initialize at startup with highest Id created previously
-	next := make(chan Id)
-	id := Id(0)
-	go func() {
-		for {
-			next <- id
-			id++
-		}
-	}()
-	return next
+	return key
+}
+
+func ToId(key []byte) (Id, error) {
+	if len(key) != 8 {
+		return 0, ErrBadId
+	}
+
+	var i Id
+	for n := range key {
+		i |= Id(key[n]) << uint(56-8*n)
+	}
+	return i, nil
 }
