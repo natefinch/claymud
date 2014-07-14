@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/natefinch/natemud/config"
-	"github.com/natefinch/natemud/game/emote"
+	"github.com/natefinch/claymud/config"
+	"github.com/natefinch/claymud/game/emote"
 )
 
 // Represents a command sent by a player

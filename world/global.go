@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/natefinch/natemud/util"
+	"github.com/natefinch/claymud/util"
 )
 
 // TODO: make all this less terrible

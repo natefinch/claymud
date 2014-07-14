@@ -4,7 +4,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/natefinch/natemud/util"
+	"github.com/natefinch/claymud/util"
 )
 
 var _ sync.Locker = IdLocker(nil)

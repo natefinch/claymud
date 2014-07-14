@@ -13,10 +13,10 @@ import (
 	"code.google.com/p/go.crypto/bcrypt"
 	"github.com/BurntSushi/toml"
 
-	"github.com/natefinch/natemud/config"
-	"github.com/natefinch/natemud/db"
-	"github.com/natefinch/natemud/util"
-	"github.com/natefinch/natemud/world"
+	"github.com/natefinch/claymud/config"
+	"github.com/natefinch/claymud/db"
+	"github.com/natefinch/claymud/util"
+	"github.com/natefinch/claymud/world"
 )
 
 var (
@@ -148,7 +148,7 @@ func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
 
 func showIntro(rw io.ReadWriter) error {
 	_, err := fmt.Fprintln(rw, `
-Greetings, Administrator.  Welcome to NateMUD.
+Greetings, Administrator.  Welcome to ClayMUD.
 
 Since you are the first one here, you hold all the keys.  You will be asked to
 create an account, this account will be the first administrator account (you
@@ -160,9 +160,9 @@ Do not forget your password.  There is no password reset feature (yet).`)
 
 func showNotSetup(rw io.ReadWriter) {
 	fmt.Fprintln(rw, `
-Greetings, User.  Welcome to NateMUD.
+Greetings, User.  Welcome to ClayMUD.
 
-This instance of NateMUD has not been set up and is not ready for public
+This instance of ClayMUD has not been set up and is not ready for public
 consumption.  If you are the administrator of this MUD, please connect from the
 machine where the MUD runs to start setup.`)
 }

@@ -5,8 +5,8 @@ import (
 	"log"
 	"sort"
 
-	"github.com/natefinch/natemud/config"
-	"github.com/natefinch/natemud/util"
+	"github.com/natefinch/claymud/config"
+	"github.com/natefinch/claymud/util"
 )
 
 var (

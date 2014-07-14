@@ -1,7 +1,7 @@
 package world
 
 import (
-	"github.com/natefinch/natemud/util"
+	"github.com/natefinch/claymud/util"
 )
 
 // Area is a small collection of related locations, such as the rooms in a

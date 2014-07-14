@@ -11,9 +11,9 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/natefinch/natemud/game/gender"
-	"github.com/natefinch/natemud/lock"
-	"github.com/natefinch/natemud/util"
+	"github.com/natefinch/claymud/game/gender"
+	"github.com/natefinch/claymud/lock"
+	"github.com/natefinch/claymud/util"
 )
 
 var (

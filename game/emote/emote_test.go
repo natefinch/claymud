@@ -8,9 +8,9 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/natefinch/natemud/config"
-	"github.com/natefinch/natemud/game/gender"
-	"github.com/natefinch/natemud/testutil"
+	"github.com/natefinch/claymud/config"
+	"github.com/natefinch/claymud/game/gender"
+	"github.com/natefinch/claymud/testutil"
 )
 
 func (*Tests) TestParse(c *C) {
@@ -78,7 +78,7 @@ func (*Tests) TestPerformSelf(c *C) {
 func patchGender(c *C) func() {
 	d := c.MkDir()
 	ioutil.WriteFile(filepath.Join(d, "gender.toml"), genderData, 0666)
-	f := testutil.PatchEnv(config.NATEMUD_DATADIR, d)
+	f := testutil.PatchEnv(config.CLAYMUD_DATADIR, d)
 	gender.Initialize()
 	return f
 }

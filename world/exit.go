@@ -1,7 +1,7 @@
 package world
 
 import (
-	"github.com/natefinch/natemud/config"
+	"github.com/natefinch/claymud/config"
 )
 
 // Exit is a direction that connects to a location.

@@ -1,5 +1,5 @@
-// Package main is the entry point for NateMud.  This defines the command line args
-// and listens for incoming connections
+// Package main is the entry point for ClayMUD.  This defines the command line
+// args and listens for incoming connections.
 package main
 
 import (
@@ -10,12 +10,12 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/natefinch/natemud/auth"
-	"github.com/natefinch/natemud/config"
-	"github.com/natefinch/natemud/db"
-	"github.com/natefinch/natemud/game/emote"
-	"github.com/natefinch/natemud/game/gender"
-	"github.com/natefinch/natemud/world"
+	"github.com/natefinch/claymud/auth"
+	"github.com/natefinch/claymud/config"
+	"github.com/natefinch/claymud/db"
+	"github.com/natefinch/claymud/game/emote"
+	"github.com/natefinch/claymud/game/gender"
+	"github.com/natefinch/claymud/world"
 )
 
 var port int
@@ -29,6 +29,10 @@ func init() {
 }
 
 func main() {
+	Main()
+}
+
+func Main() {
 	flag.Parse()
 
 	// config must be first!
@@ -45,7 +49,7 @@ func main() {
 	maybeFatal(world.Initialize())
 
 	host := net.JoinHostPort("127.0.0.1", strconv.Itoa(port))
-	log.Printf("Running NateMUD on %v", host)
+	log.Printf("Running ClayMUD on %v", host)
 
 	addr, err := net.ResolveTCPAddr("tcp", host)
 	if err != nil {

@@ -1,4 +1,4 @@
-NateMUD Design Notes
+ClayMUD Design Notes
 ====================
 
 ## Locks
@@ -8,7 +8,7 @@ always lock the entities in Id order, to prevent deadlocks.
 
 ## DB 
 
-NateMUD uses BoltDB to store data.  This removes any dependency on an outside
+ClayMUD uses BoltDB to store data.  This removes any dependency on an outside
 application to store data.
 
 Entities from the game are stored in the db using encoding/gob, keyed by a

@@ -9,7 +9,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	"github.com/natefinch/natemud/config"
+	"github.com/natefinch/claymud/config"
 )
 
 const (

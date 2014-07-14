@@ -45,7 +45,7 @@ func MainTitle() string {
 	return mainTitle
 }
 
-// DataDir returns the directory where natemud configuration and game data is
+// DataDir returns the directory where claymud configuration and game data is
 // stored.  By default it is in ~/.config/
 func DataDir() string {
 	return dataDir
@@ -53,16 +53,16 @@ func DataDir() string {
 
 // getDataDir returns the platform-specific data directory.
 func getDataDir() string {
-	v := os.Getenv("NATEMUD_DATADIR")
+	v := os.Getenv("CLAYMUD_DATADIR")
 	if v != "" {
 		return v
 	}
 
 	if runtime.GOOS == "windows" {
-		return filepath.Join(os.Getenv("USERPROFILE"), "NateMUD")
+		return filepath.Join(os.Getenv("USERPROFILE"), "ClayMUD")
 	}
 
-	return filepath.Join(os.Getenv("HOME"), ".config", "natemud")
+	return filepath.Join(os.Getenv("HOME"), ".config", "claymud")
 }
 
 func configLogging() error {
@@ -73,12 +73,12 @@ func configLogging() error {
 		return fmt.Errorf("can't decode logging config file %q: %s", path, err)
 	}
 	if lj.Filename == "" {
-		lj.Filename = filepath.Join(dataDir, "logs", "natemud.log")
+		lj.Filename = filepath.Join(dataDir, "logs", "mud.log")
 	}
 	log.Printf("Logging to %s", lj.Filename)
 	log.SetOutput(io.MultiWriter(lj, os.Stdout))
 
-	log.Println("******************* NateMUD Starting *******************")
+	log.Println("******************* ClayMUD Starting *******************")
 	log.Printf("Using data directory %s", dataDir)
 	if len(md.Undecoded()) > 0 {
 		log.Printf("WARNING: unrecognized values in logging config: %v", md.Undecoded())
@@ -93,7 +93,7 @@ func loadMainTitle() {
 	if err != nil {
 		log.Printf("WARNING: Couldn't read maintitle from path %q: %s", path, err)
 		log.Printf("Using default title.")
-		mainTitle = "Welcome to NateMUD"
+		mainTitle = "Welcome to ClayMUD"
 	} else {
 		mainTitle = string(b)
 	}

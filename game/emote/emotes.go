@@ -4,8 +4,8 @@ import (
 	"io"
 	"log"
 
-	"github.com/natefinch/natemud/game/gender"
-	"github.com/natefinch/natemud/util"
+	"github.com/natefinch/claymud/game/gender"
+	"github.com/natefinch/claymud/util"
 )
 
 var (
