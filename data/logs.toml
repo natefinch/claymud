@@ -3,14 +3,14 @@
 # gets too big, NateMUD will create a new file to log to and optionally clean up
 # old log files.
 
-# dir controls the directory where log files are written. By default logs are
-# written to the NateMUD data directory in a subdirectory called logs.  You may
-# uncomment this setting to change the default.
-# dir = "/path/to/your/log/dir"
+# filename controls where the log file is written. By default logs are written
+# to the NateMUD data directory in a subdirectory called logs in a file called
+# natemud.log.  You may uncomment this setting to change the default.
+# filename = "/path/to/your/foo.log"
 
-# maxsize is the maximum size in bytes of the logfile before it gets rotated.
-# this is 100 megabytes
-# maxsize = 100000000 
+# maxsize is the maximum size in megabytes of the logfile before it gets
+# rotated.
+maxsize = 100
 
 # maxbackups controls how many old log files are allowed to be retained.  If 0
 # or not specified, there's no maximum on the number of log files that are

@@ -10,18 +10,18 @@ import (
 	"runtime"
 
 	"github.com/BurntSushi/toml"
-	"github.com/boltdb/bolt"
-	"github.com/natefinch/lumberjack"
+	"gopkg.in/natefinch/lumberjack.v2"
 )
 
 var (
 	mainTitle string
-	dataDir   = getDataDir()
-	DB        *bolt.DB
+	dataDir   string
 )
 
 // Initialize sets up the application's configuration directory.
 func Initialize() error {
+	dataDir = getDataDir()
+
 	_, err := os.Stat(dataDir)
 	if os.IsNotExist(err) {
 		return fmt.Errorf("can't find data directory: %s", dataDir)
@@ -72,13 +72,14 @@ func configLogging() error {
 	if err != nil {
 		return fmt.Errorf("can't decode logging config file %q: %s", path, err)
 	}
-	if lj.Dir == "" {
-		lj.Dir = filepath.Join(dataDir, "logs")
+	if lj.Filename == "" {
+		lj.Filename = filepath.Join(dataDir, "logs", "natemud.log")
 	}
-	log.Printf("Logging to %s", lj.Dir)
+	log.Printf("Logging to %s", lj.Filename)
 	log.SetOutput(io.MultiWriter(lj, os.Stdout))
 
 	log.Println("******************* NateMUD Starting *******************")
+	log.Printf("Using data directory %s", dataDir)
 	if len(md.Undecoded()) > 0 {
 		log.Printf("WARNING: unrecognized values in logging config: %v", md.Undecoded())
 	}

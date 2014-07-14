@@ -1,4 +1,4 @@
-package util
+package db
 
 import (
 	"bytes"
@@ -7,10 +7,10 @@ import (
 	"github.com/boltdb/bolt"
 )
 
-// Get gob decodes the value for key in the given bucket into val.  It reports
+// get gob decodes the value for key in the given bucket into val.  It reports
 // if a value with that key exists, and any error in retrieving or decoding the
 // value.
-func Get(b *bolt.Bucket, key []byte, val interface{}) (exists bool, err error) {
+func get(b *bolt.Bucket, key []byte, val interface{}) (bool, error) {
 	v := b.Get(key)
 	if v == nil {
 		return false, nil
@@ -21,9 +21,9 @@ func Get(b *bolt.Bucket, key []byte, val interface{}) (exists bool, err error) {
 
 var buf = &bytes.Buffer{}
 
-// Put gob encodes the value and puts it in the given bucket with the given key.
+// put gob encodes the value and puts it in the given bucket with the given key.
 // This function assumes b was created from a writeable transaction.
-func Put(b *bolt.Bucket, key []byte, val interface{}) error {
+func put(b *bolt.Bucket, key []byte, val interface{}) error {
 	// we reuse the buffer here since this is, by definition locked by being in
 	// a bolt write action.
 	defer buf.Reset()

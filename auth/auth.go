@@ -9,13 +9,12 @@ import (
 	"log"
 	"net"
 	"path/filepath"
-	"time"
 
 	"code.google.com/p/go.crypto/bcrypt"
 	"github.com/BurntSushi/toml"
-	"github.com/boltdb/bolt"
 
 	"github.com/natefinch/natemud/config"
+	"github.com/natefinch/natemud/db"
 	"github.com/natefinch/natemud/util"
 	"github.com/natefinch/natemud/world"
 )
@@ -26,8 +25,12 @@ var (
 	ErrExists   = errors.New("auth: username already exists")
 	ErrNotSetup = errors.New("auth: mud not set up")
 
-	users      = []byte("users")
 	bcryptCost int
+
+	// fakehash is a fake hashed password created with the current bcryptcost.
+	// It exists to allow us to fake out password hashing time when a username
+	// doesn't exist.
+	fakehash []byte
 )
 
 const (
@@ -53,7 +56,9 @@ func Initialize() error {
 	if und := res.Undecoded(); len(und) > 0 {
 		log.Printf("WARNING: Unknown values in auth config file: %v", und)
 	}
-	return nil
+
+	fakehash, err = bcrypt.GenerateFromPassword([]byte("password"), bcryptCost)
+	return err
 }
 
 // logs a player in from an incoming connection, creating a player
@@ -99,12 +104,12 @@ func showTitle(w io.Writer) error {
 // authenticate queries the user for username and password, then authenticates
 // the credentials.
 func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
-	first, err := checkFirstSetup()
+	setup, err := db.IsSetup()
 	if err != nil {
 		return nil, fmt.Errorf("can't authenticate: %s", err)
 	}
 	// first time anyone has logged in.
-	if first {
+	if !setup {
 		host, _, err := net.SplitHostPort(ip.String())
 		if err != nil {
 			return nil, err
@@ -131,7 +136,7 @@ func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
 	case 'c':
 		return showCreate(rw, ip)
 	case 'l':
-		u, p, err := getUserPwd(rw)
+		u, p, err := queryUser(rw)
 		if err != nil {
 			return nil, err
 		}
@@ -139,22 +144,6 @@ func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
 	default:
 		panic(fmt.Errorf("Should be impossible, got %v from login options", a))
 	}
-}
-
-func checkFirstSetup() (first bool, err error) {
-	err = config.DB.View(func(tx *bolt.Tx) error {
-		b := tx.Bucket(users)
-		if b == nil {
-			// bucket doesn't exist
-			first = true
-			return nil
-		}
-		k, v := b.Cursor().First()
-		// bucket empty
-		first = k == nil && v == nil
-		return nil
-	})
-	return first, err
 }
 
 func showIntro(rw io.ReadWriter) error {
@@ -189,7 +178,7 @@ and will not be visible to non-admins.
 	}
 
 	for {
-		u, pw, err := newUserPwd(rw)
+		u, pw, err := queryUser(rw)
 		if err != nil {
 			return nil, err
 		}
@@ -208,8 +197,34 @@ and will not be visible to non-admins.
 	}
 }
 
-// getUserPwd asks the user for their username and password.
-func getUserPwd(rw io.ReadWriter) (user, pwd string, err error) {
+// createUser creates the user if it does not exist.  If it does exist,
+// createUser will return ErrExists.
+func createUser(username, pw string, ip net.Addr) (user *world.User, err error) {
+	// do the expensive hash outside the critical section!!
+	hash, err := bcrypt.GenerateFromPassword([]byte(pw), bcryptCost)
+	if err != nil {
+		return nil, err
+	}
+
+	exists, err := db.UserExists(username)
+	if err != nil {
+		return nil, err
+	}
+	if exists {
+		return nil, ErrExists
+	}
+
+	if err := db.SaveUser(username, ip, hash); err != nil {
+		return nil, err
+	}
+	user = &world.User{
+		Username: username,
+	}
+	return user, nil
+}
+
+// queryPwd asks the user for their username and password.
+func queryPwd(rw io.ReadWriter) (user, pwd string, err error) {
 	user, err = util.Query(rw, []byte("Username: "))
 	if err != nil {
 		return "", "", err
@@ -221,15 +236,15 @@ func getUserPwd(rw io.ReadWriter) (user, pwd string, err error) {
 	return user, pwd, nil
 }
 
-// newUserPwd asks the user to create a new username and password.
-func newUserPwd(rw io.ReadWriter) (user, pwd string, err error) {
+// queryUser asks the user to create a new username and password.
+func queryUser(rw io.ReadWriter) (user, pwd string, err error) {
 	user, err = util.QueryVerify(rw, []byte("Username: "),
 		func(user string) (string, error) {
-			ex, err := exists(user)
+			exists, err := db.UserExists(user)
 			if err != nil {
 				return "", fmt.Errorf("error checking for existence of username: %s", err)
 			}
-			if !ex {
+			if !exists {
 				return "", nil
 			}
 			return "That username already exists, please choose another.", nil
@@ -250,95 +265,26 @@ func newUserPwd(rw io.ReadWriter) (user, pwd string, err error) {
 	return user, pwd, nil
 }
 
-// userDoc is the structure that is stored in the database for a User.
-type userDoc struct {
-	PwdHash   []byte
-	LastIP    net.Addr
-	LastLogin time.Time
-}
-
-// createUser creates the user account in the db.
-func createUser(username, pw string, ip net.Addr) (user *world.User, err error) {
-	// do the expensive hash outside the critical section!!
-	hash, err := bcrypt.GenerateFromPassword([]byte(pw), bcryptCost)
-	if err != nil {
-		return nil, err
-	}
-	err = config.DB.Update(func(tx *bolt.Tx) error {
-		b, err := tx.CreateBucketIfNotExists(users)
-		if err != nil {
-			return err
-		}
-
-		// make sure the username doesn't exist.  Since we're in a write
-		// transaction, we have exclusive access, so don't need to worry about
-		// race conditions.
-		if b.Get([]byte(username)) != nil {
-			return ErrExists
-		}
-
-		u := userDoc{
-			PwdHash:   hash,
-			LastIP:    ip,
-			LastLogin: time.Now(),
-		}
-
-		return util.Put(b, []byte(username), u)
-	})
-	if err != nil {
-		return nil, err
-	}
-	user = &world.User{
-		Username: username,
-	}
-	return user, err
-}
-
-// exists reports whether the username exists.
-func exists(username string) (bool, error) {
-	exists := false
-	err := config.DB.View(func(tx *bolt.Tx) error {
-		b := tx.Bucket(users)
-		if b == nil {
-			return nil
-		}
-		exists = b.Get([]byte(username)) != nil
-		return nil
-	})
-	return exists, err
-}
-
 // checkPass verifies that the given user exists and that the password matches.
 func checkPass(username, pass string, ip net.Addr) (user *world.User, err error) {
 	if world.FindPlayer(username) != nil {
 		return nil, ErrDupe
 	}
-	var hash []byte
-	err = config.DB.View(func(tx *bolt.Tx) error {
-		b := tx.Bucket(users)
-		var u userDoc
-		exists, err := util.Get(b, []byte(username), &u)
-		if err != nil {
-			return err
-		}
-		if !exists {
-			return ErrAuth
-		}
-		hash = u.PwdHash
-		return nil
-	})
-	if err == ErrAuth {
-		// fake out the time we would otherwise take to run the hash
-		bcrypt.CompareHashAndPassword([]byte("somefakehash"), []byte(pass))
-		return nil, err
-	}
+	hash, err := db.Password(username)
 	if err != nil {
 		return nil, err
 	}
 
-	// TODO: handle bcryptcost changes
+	passb := []byte(pass)
+	if hash == nil {
+		// User does not exist. Fake out the time we would otherwise take to run
+		// the hash.  Ignore the error, we really only care about sucking up
+		// some CPU cycles here.
+		_ = bcrypt.CompareHashAndPassword(fakehash, passb)
+		return nil, ErrAuth
+	}
 
-	err = bcrypt.CompareHashAndPassword(hash, []byte(pass))
+	err = bcrypt.CompareHashAndPassword(hash, passb)
 	if err == bcrypt.ErrMismatchedHashAndPassword {
 		return nil, ErrAuth
 	}
@@ -346,19 +292,25 @@ func checkPass(username, pass string, ip net.Addr) (user *world.User, err error)
 		return nil, err
 	}
 
-	// login successful, update info
-	err = config.DB.Update(func(tx *bolt.Tx) error {
-		u := userDoc{
-			PwdHash:   hash,
-			LastIP:    ip,
-			LastLogin: time.Now(),
+	cost, err := bcrypt.Cost(hash)
+	if err != nil {
+		return nil, err
+	}
+
+	// Handle bcrypt cost change, rehash with new cost.
+	if cost != bcryptCost {
+		hash, err = bcrypt.GenerateFromPassword(passb, bcryptCost)
+		if err != nil {
+			return nil, err
 		}
+	}
 
-		return util.Put(tx.Bucket(users), []byte(username), u)
-	})
+	// Login successful, update info.
+	if err := db.SaveUser(username, ip, hash); err != nil {
+		return nil, err
+	}
 
-	user = &world.User{Username: username, IP: ip}
-	return user, nil
+	return &world.User{Username: username, IP: ip}, nil
 }
 
 func handleDupe(user *world.User, w io.Writer) (bool, error) {

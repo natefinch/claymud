@@ -4,18 +4,15 @@ package main
 
 import (
 	"flag"
-	"fmt"
 	"log"
 	"net"
 	"os"
-	"path/filepath"
 	"runtime"
 	"strconv"
 
-	"github.com/boltdb/bolt"
-
 	"github.com/natefinch/natemud/auth"
 	"github.com/natefinch/natemud/config"
+	"github.com/natefinch/natemud/db"
 	"github.com/natefinch/natemud/game/emote"
 	"github.com/natefinch/natemud/game/gender"
 	"github.com/natefinch/natemud/world"
@@ -28,33 +25,24 @@ func init() {
 		runtime.GOMAXPROCS(runtime.NumCPU())
 	}
 
-	const (
-		defaultPort = 8888
-		usage       = "specifies the port the server listens on"
-	)
-	flag.IntVar(&port, "port", defaultPort, usage)
-	flag.IntVar(&port, "p", defaultPort, fmt.Sprintf("%v%v", usage, " (shorthand)"))
+	flag.IntVar(&port, "port", 8888, "specifies the port the server listens on")
 }
 
 func main() {
 	flag.Parse()
 
+	// config must be first!
 	maybeFatal(config.Initialize())
+
 	maybeFatal(gender.Initialize())
 	maybeFatal(emote.Initialize())
 	maybeFatal(auth.Initialize())
 
-	path := filepath.Join(config.DataDir(), "natemud.db")
+	// db must be before world!
+	maybeFatal(db.Initialize())
 
-	var err error
-	config.DB, err = bolt.Open(path, 0644, nil)
-	if err != nil {
-		log.Fatalf("Error opening database file %q: %s", path, err)
-	}
-
-	if err := world.Initialize(); err != nil {
-		log.Fatalf("Error during world init: %s", err)
-	}
+	// World needs to be last.
+	maybeFatal(world.Initialize())
 
 	host := net.JoinHostPort("127.0.0.1", strconv.Itoa(port))
 	log.Printf("Running NateMUD on %v", host)
