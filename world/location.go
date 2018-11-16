@@ -29,6 +29,18 @@ type Location struct {
 	sync.RWMutex
 }
 
+var locIDs = make(chan util.Id)
+
+func init() {
+	go func() {
+		var x util.Id
+		for {
+			locIDs <- x
+			x++
+		}
+	}()
+}
+
 // Creates a new location and starts its run loop
 func NewLocation(name string, desc string) *Location {
 	// TODO: fix chicken an egg problem with two rooms that need to be created with exits
@@ -36,7 +48,7 @@ func NewLocation(name string, desc string) *Location {
 	return &Location{
 		Name:          name,
 		Desc:          desc,
-		id:            1,
+		id:            <-locIDs,
 		Players:       make(map[util.Id]*Player),
 		PlayersByName: make(map[string]*Player),
 	}

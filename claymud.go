@@ -6,8 +6,6 @@ import (
 	"flag"
 	"log"
 	"net"
-	"os"
-	"runtime"
 	"strconv"
 
 	"github.com/natefinch/claymud/auth"
@@ -21,10 +19,6 @@ import (
 var port int
 
 func init() {
-	if os.Getenv("GOMAXPROCS") == "" {
-		runtime.GOMAXPROCS(runtime.NumCPU())
-	}
-
 	flag.IntVar(&port, "port", 8888, "specifies the port the server listens on")
 }
 

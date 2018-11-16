@@ -10,8 +10,8 @@ import (
 	"net"
 	"path/filepath"
 
-	"code.google.com/p/go.crypto/bcrypt"
 	"github.com/BurntSushi/toml"
+	"golang.org/x/crypto/bcrypt"
 
 	"github.com/natefinch/claymud/config"
 	"github.com/natefinch/claymud/db"
@@ -136,7 +136,7 @@ func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
 	case 'c':
 		return showCreate(rw, ip)
 	case 'l':
-		u, p, err := queryUser(rw)
+		u, p, err := queryPwd(rw)
 		if err != nil {
 			return nil, err
 		}

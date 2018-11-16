@@ -100,7 +100,11 @@ func (c *Command) emote(loc *Location) (handled bool) {
 			others = append(others, p)
 		}
 	}
-	return emote.Perform(c.Action(), c.Actor, target, io.MultiWriter(others...))
+	var t emote.Person
+	if target != nil {
+		t = target
+	}
+	return emote.Perform(c.Action(), c.Actor, t, io.MultiWriter(others...))
 }
 
 // handles the look command

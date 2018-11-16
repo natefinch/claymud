@@ -14,7 +14,7 @@ var (
 // userDoc is the structure that is stored in the database for a User.
 type userDoc struct {
 	PwdHash   []byte
-	LastIP    net.Addr
+	LastIP    string
 	LastLogin time.Time
 }
 
@@ -54,7 +54,7 @@ func Password(username string) ([]byte, error) {
 func SaveUser(username string, ip net.Addr, hash []byte) error {
 	u := userDoc{
 		PwdHash:   hash,
-		LastIP:    ip,
+		LastIP:    ip.String(),
 		LastLogin: time.Now(),
 	}
 
