@@ -1,6 +1,8 @@
 package util
 
 import (
+	"bytes"
+	"encoding/binary"
 	"errors"
 )
 
@@ -19,22 +21,16 @@ var ErrBadId = errors.New("Invalid Id")
 type Id int64
 
 func (i Id) Key() []byte {
-	key := make([]byte, 8)
-	for n := range key {
-		key[n] = byte(i >> uint(56-8*n))
-	}
+	buf := make([]byte, binary.MaxVarintLen64)
+	binary.PutVarint(buf, int64(i))
 
-	return key
+	return buf
 }
 
 func ToId(key []byte) (Id, error) {
-	if len(key) != 8 {
-		return 0, ErrBadId
+	i, err := binary.ReadVarint(bytes.NewReader(key))
+	if err != nil {
+		return 0, err
 	}
-
-	var i Id
-	for n := range key {
-		i |= Id(key[n]) << uint(56-8*n)
-	}
-	return i, nil
+	return Id(i), nil
 }

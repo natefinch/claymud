@@ -125,7 +125,7 @@ func (c *Command) look(loc *Location) {
 
 func (c *Command) say(loc *Location) {
 	msg := strings.Join(c.Cmd[1:], " ")
-	toOthers := fmt.Sprintf("%v says %v", c.Actor.Name, msg)
+	toOthers := fmt.Sprintf("%v says %v", c.Actor.Name(), msg)
 	for _, p := range loc.Players {
 		if p.Id() != c.Actor.Id() {
 			p.Writef(toOthers)

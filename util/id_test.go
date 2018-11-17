@@ -1,17 +1,17 @@
 package util
 
 import (
-	. "gopkg.in/check.v1"
+	"testing"
 )
 
-func (*Tests) TestIdToKey(c *C) {
-	var id Id = 0x12345678
+func TestIdRoundTrip(t *testing.T) {
+	var id Id = 45
 	key := id.Key()
-	c.Assert(key, Equals, []byte{1, 2, 3, 4, 5, 6, 7, 8})
-}
-
-func (*Tests) TestKeyToId(c *C) {
-	key := []byte{1, 2, 3, 4, 5, 6, 7, 8}
-	id, err := ToId(key)
-	c.Assert(key, Equals, []byte{1, 2, 3, 4, 5, 6, 7, 8})
+	id2, err := ToId(key)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if id != id2 {
+		t.Fatalf("expected %v, but got %v", id, id2)
+	}
 }

@@ -3,16 +3,74 @@ package emote
 import (
 	"bytes"
 	"io/ioutil"
+	"os"
 	"path/filepath"
 	"strings"
+	"testing"
 
-	. "gopkg.in/check.v1"
-
-	"github.com/natefinch/claymud/config"
 	"github.com/natefinch/claymud/game/gender"
-	"github.com/natefinch/claymud/testutil"
 )
 
+func TestParse(t *testing.T) {
+	ems, err := decodeEmotes(strings.NewReader(data))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(ems) != 2 {
+		t.Fatalf("expected len 2, got %#v", ems)
+	}
+
+	e := ems[0]
+	if e.Name != "smile" {
+		t.Fatalf("expected to see smile, got %#v", e)
+	}
+
+	e = ems[1]
+	if e.Name != "jump" {
+		t.Fatalf("expected jump, got %#v", e)
+	}
+}
+
+func TestPerformOther(t *testing.T) {
+	defer patchGender(t)()
+
+	ems, err := decodeEmotes(strings.NewReader(data))
+	if err != nil {
+		t.Fatal(err)
+	}
+	err = loadEmotes(ems)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	a := testActor{
+		name: "fooName",
+		sex:  gender.Male,
+		buf:  &bytes.Buffer{},
+	}
+	b := testActor{
+		name: "fooName2",
+		sex:  gender.Female,
+		buf:  &bytes.Buffer{},
+	}
+
+	others := &bytes.Buffer{}
+	found := Perform("smile", a, b, others)
+	if !found {
+		t.Fatal("smile emote not found")
+	}
+	expected := "You smile at fooName2."
+	if a.buf.String() != expected {
+		t.Errorf("expected actor to get %q, but got %q", expected, a.buf.String())
+	}
+	expected = "fooName smiles at you."
+	if b.buf.String() != expected {
+		t.Errorf("expected actor to get %q, but got %q", expected, a.buf.String())
+	}
+
+}
+
+/*
 func (*Tests) TestParse(c *C) {
 	ems, err := decodeEmotes(strings.NewReader(data))
 	c.Assert(err, IsNil)
@@ -74,13 +132,16 @@ func (*Tests) TestPerformSelf(c *C) {
 	c.Assert(a.buf.String(), Equals, "You smile to yourself.")
 	c.Assert(others.String(), Equals, "fooName smiles to himself.")
 }
+*/
 
-func patchGender(c *C) func() {
-	d := c.MkDir()
+func patchGender(t *testing.T) func() {
+	d, err := ioutil.TempDir("", "")
+	if err != nil {
+		t.Fatal(err)
+	}
 	ioutil.WriteFile(filepath.Join(d, "gender.toml"), genderData, 0666)
-	f := testutil.PatchEnv(config.CLAYMUD_DATADIR, d)
-	gender.Initialize()
-	return f
+	gender.Initialize(d)
+	return func() { os.RemoveAll(d) }
 }
 
 var _ Person = testActor{}

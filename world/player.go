@@ -58,7 +58,7 @@ func SpawnPlayer(rwc io.ReadWriteCloser, user *User) {
 
 		User: user,
 	}
-	p.writer = util.SafeWriter{rwc, p.exit}
+	p.writer = util.SafeWriter{Writer: rwc, OnErr: p.exit}
 	AddPlayer(p)
 	go p.readLoop()
 	loc.AddPlayer(p)
@@ -87,7 +87,6 @@ func (p *Player) Write(b []byte) (int, error) {
 
 	p.writer.Write([]byte("\n"))
 	p.writer.Write(b)
-	p.prompt()
 
 	return len(b), nil
 }
@@ -154,7 +153,7 @@ func (p *Player) readLoop() {
 	}
 	err := p.Err()
 	if err != nil {
-		log.Printf("Error reading from user %v: %v", p.Name, err)
+		log.Printf("Error reading from user %v: %v", p.Name(), err)
 	}
 	p.exit(err)
 }
@@ -162,7 +161,7 @@ func (p *Player) readLoop() {
 // prompt shows the player's prompt to the user.
 func (p *Player) prompt() {
 	// TODO: standard/custom prompts
-	p.writer.Write([]byte(">"))
+	p.writer.Write([]byte("\n>"))
 }
 
 // timeout times the player out of the world.

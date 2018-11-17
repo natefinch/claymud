@@ -126,8 +126,8 @@ func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
 
 	// normal case
 	a, err := util.QueryOptions(rw, nil,
-		util.Opt{'c', []byte("Create account")},
-		util.Opt{'l', []byte("Log in with existing account")})
+		util.Opt{Key: 'c', Text: []byte("Create account")},
+		util.Opt{Key: 'l', Text: []byte("Log in with existing account")})
 	if err != nil {
 		return nil, err
 	}
@@ -136,7 +136,7 @@ func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
 	case 'c':
 		return showCreate(rw, ip)
 	case 'l':
-		u, p, err := queryPwd(rw)
+		u, p, err := queryCreds(rw)
 		if err != nil {
 			return nil, err
 		}
@@ -169,16 +169,17 @@ machine where the MUD runs to start setup.`)
 
 // showCreate leads the user through the process of creating a user.
 func showCreate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
-	_, err = fmt.Fprintln(rw, `
+	_, err = fmt.Fprint(rw, `
 Please enter a username.  Note that this is only for use in logging into the MUD
 and will not be visible to non-admins.
+
 `)
 	if err != nil {
 		return nil, err
 	}
 
 	for {
-		u, pw, err := queryUser(rw)
+		u, pw, err := queryNewUser(rw)
 		if err != nil {
 			return nil, err
 		}
@@ -217,14 +218,15 @@ func createUser(username, pw string, ip net.Addr) (user *world.User, err error) 
 	if err := db.SaveUser(username, ip, hash); err != nil {
 		return nil, err
 	}
+	log.Printf("created user %q", username)
 	user = &world.User{
 		Username: username,
 	}
 	return user, nil
 }
 
-// queryPwd asks the user for their username and password.
-func queryPwd(rw io.ReadWriter) (user, pwd string, err error) {
+// queryCreds asks the user for their username and password.
+func queryCreds(rw io.ReadWriter) (user, pwd string, err error) {
 	user, err = util.Query(rw, []byte("Username: "))
 	if err != nil {
 		return "", "", err
@@ -236,8 +238,8 @@ func queryPwd(rw io.ReadWriter) (user, pwd string, err error) {
 	return user, pwd, nil
 }
 
-// queryUser asks the user to create a new username and password.
-func queryUser(rw io.ReadWriter) (user, pwd string, err error) {
+// queryNewUser asks the user to create a new username and password.
+func queryNewUser(rw io.ReadWriter) (user, pwd string, err error) {
 	user, err = util.QueryVerify(rw, []byte("Username: "),
 		func(user string) (string, error) {
 			exists, err := db.UserExists(user)

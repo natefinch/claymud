@@ -32,7 +32,7 @@ func Main() {
 	// config must be first!
 	maybeFatal(config.Initialize())
 
-	maybeFatal(gender.Initialize())
+	maybeFatal(gender.Initialize(config.DataDir()))
 	maybeFatal(emote.Initialize())
 	maybeFatal(auth.Initialize())
 

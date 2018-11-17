@@ -8,13 +8,11 @@ import (
 	"path/filepath"
 
 	"github.com/BurntSushi/toml"
-
-	"github.com/natefinch/claymud/config"
 )
 
 // Initialize loads the gender configuration file from the data directory.
-func Initialize() error {
-	filename := filepath.Join(config.DataDir(), "gender.toml")
+func Initialize(dir string) error {
+	filename := filepath.Join(dir, "gender.toml")
 
 	f, err := os.Open(filename)
 	if err != nil {
