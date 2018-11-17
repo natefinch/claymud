@@ -109,18 +109,17 @@ func (c *Command) emote(loc *Location) (handled bool) {
 
 // handles the look command
 func (c *Command) look(loc *Location) {
-	if c.Target() != "" {
-		p := loc.Target(c)
-		if p != nil {
-			c.Actor.Writef(p.Desc)
-		} else {
-			// TODO: actually implement looking at things other than players
-			c.Actor.Writef("You don't see that here.")
-		}
+	if c.Target() == "" {
+		loc.ShowRoom(c.Actor)
 		return
 	}
-
-	loc.ShowRoom(c.Actor)
+	p := loc.Target(c)
+	if p != nil {
+		c.Actor.Writef(p.Desc)
+	} else {
+		// TODO: actually implement looking at things other than players
+		c.Actor.Writef("You don't see that here.")
+	}
 }
 
 func (c *Command) say(loc *Location) {

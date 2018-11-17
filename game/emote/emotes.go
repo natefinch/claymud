@@ -3,6 +3,7 @@ package emote
 import (
 	"io"
 	"log"
+	"text/template"
 
 	"github.com/natefinch/claymud/game/gender"
 	"github.com/natefinch/claymud/util"
@@ -45,6 +46,7 @@ func (e emote) String() string {
 type Person interface {
 	Name() string
 	Gender() gender.Gender
+	Execute(t *template.Template, data interface{}) error
 	io.Writer
 }
 
@@ -91,7 +93,7 @@ func performToSelf(emote emote, data emoteData, actor Person, others io.Writer) 
 		_, _ = actor.Write([]byte("You can't do that to yourself."))
 		return
 	}
-	err := emote.ToSelf.Self.Execute(actor, data)
+	err := actor.Execute(emote.ToSelf.Self.Template, data)
 	if err != nil {
 		logFillErr(emote, "ToSelf.Self", data, err)
 		// if there's an error running the emote to the actor, just bail early.
@@ -109,7 +111,7 @@ func performToNoOne(emote emote, data emoteData, actor Person, others io.Writer)
 		_, _ = actor.Write([]byte("You can't do that."))
 		return
 	}
-	err := emote.ToNoOne.Self.Execute(actor, data)
+	err := actor.Execute(emote.ToNoOne.Self.Template, data)
 	if err != nil {
 		logFillErr(emote, "ToNoOne.Self", data, err)
 		// if there's an error running the emote to the actor, just bail early.
@@ -127,14 +129,14 @@ func performToOther(emote emote, data emoteData, actor Person, target Person, ot
 		_, _ = actor.Write([]byte("You can't do that to someone else."))
 		return
 	}
-	err := emote.ToOther.Self.Execute(actor, data)
+	err := actor.Execute(emote.ToOther.Self.Template, data)
 	if err != nil {
 		logFillErr(emote, "ToOther.Self", data, err)
 		// if there's an error running the emote to the actor, just bail early.
 		return
 	}
 
-	err = emote.ToOther.Target.Execute(target, data)
+	err = target.Execute(emote.ToOther.Target.Template, data)
 	if err != nil {
 		logFillErr(emote, "ToOther.Target", data, err)
 	}

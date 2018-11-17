@@ -62,7 +62,7 @@ func SpawnPlayer(rwc io.ReadWriteCloser, user *User) {
 	AddPlayer(p)
 	go p.readLoop()
 	loc.AddPlayer(p)
-	p.prompt()
+	loc.ShowRoom(p)
 }
 
 // Writef is a helper function to write the formatted string to the player.
@@ -73,11 +73,11 @@ func (p *Player) Writef(format string, args ...interface{}) {
 // Execute executes the given template and writes the output to the player as a
 // single locked write. If we try to run the template from outside the player's
 // lock, you get multiple writes which behaves badly.
-func (p *Player) Execute(t *template.Template, data interface{}) {
+func (p *Player) Execute(t *template.Template, data interface{}) error {
 	p.writer.Write([]byte("\n"))
-	if err := t.Execute(p.writer, data); err != nil {
-		log.Printf("ERROR: problem writing template to user: %s", err)
-	}
+	err := t.Execute(p.writer, data)
+	p.prompt()
+	return err
 }
 
 // Write implements io.Writer.  It will never return an error.
@@ -114,12 +114,13 @@ func (p *Player) String() string {
 func (p *Player) Move(loc *Location) {
 	if loc.Id() != p.loc.Id() {
 		locks := []lock.IdLocker{p, loc, p.loc}
-		lock.All(locks)
 		defer lock.UnlockAll(locks)
+		lock.All(locks)
 
 		p.loc.RemovePlayer(p)
 		p.loc = loc
 		loc.AddPlayer(p)
+		loc.ShowRoom(p)
 	}
 }
 

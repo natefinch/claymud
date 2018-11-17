@@ -105,6 +105,10 @@ func QueryOptions(
 		if r == utf8.RuneError {
 			continue
 		}
-		return r, nil
+		for _, o := range options {
+			if r == o.Key {
+				return r, nil
+			}
+		}
 	}
 }
