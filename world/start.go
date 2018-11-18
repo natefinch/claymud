@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"sort"
+	"sync"
 
 	"github.com/natefinch/claymud/config"
 	"github.com/natefinch/claymud/util"
@@ -20,8 +21,16 @@ func Start() *Location {
 	return start
 }
 
-func genWorld() {
+func genWorld(zoneLock sync.Locker, shutdown <-chan struct{}, wg *sync.WaitGroup) {
 	log.Printf("Generating world locations")
+
+	zone := SpawnZone("The Town of Momentary", zoneLock, shutdown, wg)
+
+	momentary := &Area{
+		ID:   <-ids,
+		Name: "Downtown",
+	}
+	zone.Add(momentary)
 
 	// generate some rooms so we have somewhere to walk around
 	// TODO: actually implement creation of rooms in-game
@@ -37,8 +46,10 @@ func genWorld() {
 
 			l := NewLocation(
 				fmt.Sprintf("Room X%d Y%d", x, y),
-				fmt.Sprintf("This is the description of room Room X%d Y%d", x, y))
-			locMap[l.Id()] = l
+				fmt.Sprintf("This is the description of room Room X%d Y%d", x, y),
+				momentary,
+			)
+			locMap[l.ID] = l
 			locs[x][y] = l
 		}
 	}

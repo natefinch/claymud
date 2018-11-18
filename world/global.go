@@ -2,65 +2,34 @@
 package world
 
 import (
-	"log"
-	"strings"
-
-	"github.com/natefinch/claymud/util"
+	"sync"
 )
 
-// TODO: make all this less terrible
+var players = map[string]*Player{}
 
-var (
-	adds    = make(chan *Player)
-	deletes = make(chan *Player)
-	finds   = make(chan string)
-	findRes = make(chan *Player)
-)
-
-func AddPlayer(p *Player) {
-	adds <- p
+// addPlayer adds a new player to the world list.
+func addPlayer(p *Player) {
+	players[p.Name()] = p
 }
 
-func RemovePlayer(p *Player) {
-	deletes <- p
+// removePlayer removes a player from the world list.
+func removePlayer(p *Player) {
+	delete(players, p.Name())
 }
 
-func FindPlayer(name string) (p *Player) {
-	finds <- name
-	p = <-findRes
-	return
+// FindPlayer returns the player for the given name.
+func FindPlayer(name string) (*Player, bool) {
+	p, ok := players[name]
+	return p, ok
 }
 
-func Initialize() error {
+// Initialize spawns the zones and their attendant workers, creates all areas
+// and locations.
+func Initialize(zoneLock sync.Locker, shutdown <-chan struct{}, wg *sync.WaitGroup) error {
 	if err := loadLocTempl(); err != nil {
 		return err
 	}
-	go playerListLoop()
-	genWorld()
+
+	genWorld(zoneLock, shutdown, wg)
 	return nil
-}
-
-// This method runs as a goroutine that communicates via
-// channels with the rest of the mud.  This is our global
-// list of players, and by using channels to communicate,
-// we synchronize access to it
-func playerListLoop() {
-	log.Print("Initializing player list loop")
-
-	playerIds := make(map[util.Id]*Player)
-
-	// note that all username lookups are case insensitive
-	playerNames := make(map[string]*Player)
-	for {
-		select {
-		case p := <-adds:
-			playerIds[p.Id()] = p
-			playerNames[strings.ToLower(p.Name())] = p
-		case p := <-deletes:
-			delete(playerIds, p.Id())
-			delete(playerNames, strings.ToLower(p.Name()))
-		case name := <-finds:
-			findRes <- playerNames[strings.ToLower(name)]
-		}
-	}
 }

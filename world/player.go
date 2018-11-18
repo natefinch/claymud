@@ -8,17 +8,28 @@ import (
 	"log"
 	"net"
 	"strings"
-	"sync"
 	"text/template"
 
+	"github.com/natefinch/claymud/game"
 	"github.com/natefinch/claymud/game/gender"
-	"github.com/natefinch/claymud/lock"
 	"github.com/natefinch/claymud/util"
 )
 
 var (
 	TimeoutError = errors.New("Player timed out")
 )
+
+var ids = make(chan util.Id)
+
+func init() {
+	go func() {
+		var id util.Id
+		for {
+			ids <- id
+			id++
+		}
+	}()
+}
 
 type User struct {
 	IP       net.Addr
@@ -27,22 +38,23 @@ type User struct {
 	closer   io.Closer
 	rwc      io.ReadWriteCloser
 	*bufio.Scanner
-	sync.RWMutex
 }
 
-// Player is a struct representing a user in the world
+// Player represents a player-character in the world.
 type Player struct {
-	id     util.Id
-	name   string
-	Desc   string
-	loc    *Location
-	gender gender.Gender
-
+	id      util.Id
+	name    string
+	Desc    string
+	Actions chan func()
+	loc     *Location
+	gender  gender.Gender
+	global  *game.Worker
 	*User
 }
 
-// Attaches the connection to a player and inserts it into the world
-func SpawnPlayer(rwc io.ReadWriteCloser, user *User) {
+// Attaches the connection to a player and inserts it into the world.  This
+// function runs for as long as the player is in the world.
+func SpawnPlayer(rwc io.ReadWriteCloser, user *User, global *game.Worker) {
 	log.Printf("Spawning player %s (%v)", user.Username, user.IP)
 	user.rwc = rwc
 	user.Scanner = bufio.NewScanner(rwc)
@@ -51,18 +63,21 @@ func SpawnPlayer(rwc io.ReadWriteCloser, user *User) {
 	p := &Player{
 		name: user.Username,
 		// TODO: make this a template
-		Desc:   fmt.Sprintf("You see %v here.", user.Username),
-		id:     0,
-		loc:    loc,
-		gender: gender.None,
-
-		User: user,
+		Desc:    fmt.Sprintf("You see %v here.", user.Username),
+		Actions: make(chan func()),
+		id:      <-ids,
+		loc:     loc,
+		gender:  gender.None,
+		global:  global,
+		User:    user,
 	}
 	p.writer = util.SafeWriter{Writer: rwc, OnErr: p.exit}
-	AddPlayer(p)
-	go p.readLoop()
-	loc.AddPlayer(p)
-	loc.ShowRoom(p)
+	global.Handle(func() {
+		addPlayer(p)
+		loc.AddPlayer(p)
+		loc.ShowRoom(p)
+	})
+	p.readLoop()
 }
 
 // Writef is a helper function to write the formatted string to the player.
@@ -82,9 +97,6 @@ func (p *Player) Execute(t *template.Template, data interface{}) error {
 
 // Write implements io.Writer.  It will never return an error.
 func (p *Player) Write(b []byte) (int, error) {
-	p.Lock()
-	defer p.Unlock()
-
 	p.writer.Write([]byte("\n"))
 	p.writer.Write(b)
 
@@ -111,16 +123,21 @@ func (p *Player) String() string {
 // This is the function that does the heavy lifting for moving a player from one
 // room to another including keeping the user's location and the location map in
 // sync
-func (p *Player) Move(loc *Location) {
-	if loc.Id() != p.loc.Id() {
-		locks := []lock.IdLocker{p, loc, p.loc}
-		defer lock.UnlockAll(locks)
-		lock.All(locks)
+func (p *Player) Move(to *Location) {
+	if to.ID == p.loc.ID {
+		return
+	}
 
+	move := func() {
 		p.loc.RemovePlayer(p)
-		p.loc = loc
-		loc.AddPlayer(p)
-		loc.ShowRoom(p)
+		to.AddPlayer(p)
+		p.loc = to
+		to.ShowRoom(p)
+	}
+	if p.loc.LocalTo(to) {
+		p.loc.Handle(move)
+	} else {
+		p.global.Handle(move)
 	}
 }
 
@@ -131,14 +148,12 @@ func (p *Player) Location() *Location {
 
 // exit removes the player from the world, logging the error if not nil.
 func (p *Player) exit(err error) {
-	p.Lock()
-	defer p.Unlock()
 	if err != nil {
 		log.Printf("EXIT: Removing user %v from world. Error: %v", p, err)
 	} else {
 		log.Printf("EXIT: Removing user %v from world.", p)
 	}
-	RemovePlayer(p)
+	p.global.Handle(func() { removePlayer(p) })
 }
 
 // Gender returns the player's gender.
@@ -194,7 +209,7 @@ func (p *Player) handleQuit() {
 	tokens := tokenize(answer)
 	switch tokens[0] {
 	case "y", "yes":
-		RemovePlayer(p)
+		p.exit(nil)
 	default:
 		p.prompt()
 	}
@@ -217,8 +232,6 @@ func tokenize(s string) []string {
 
 // Query asks the player a question and receives an answer
 func (p *Player) Query(q []byte) (answer string, err error) {
-	p.Lock()
-	defer p.Unlock()
 	defer func() {
 		if err != nil {
 			p.exit(err)

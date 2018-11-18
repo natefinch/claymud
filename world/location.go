@@ -7,7 +7,6 @@ import (
 	"path/filepath"
 	"regexp"
 	"strings"
-	"sync"
 	"text/template"
 
 	"github.com/natefinch/claymud/config"
@@ -18,80 +17,62 @@ var locTemplate *template.Template
 
 // A location in the mud, such as a room
 type Location struct {
-	id   util.Id
+	ID   util.Id
 	Name string
 	Desc string
 	Exits
-	Area          *Area
-	Zone          *Zone
-	Players       map[util.Id]*Player
-	PlayersByName map[string]*Player
-	sync.RWMutex
+	Area    *Area
+	Players map[string]*Player
 }
 
-var locIDs = make(chan util.Id)
-
-func init() {
-	go func() {
-		var x util.Id
-		for {
-			locIDs <- x
-			x++
-		}
-	}()
-}
-
-// Creates a new location and starts its run loop
-func NewLocation(name string, desc string) *Location {
-	// TODO: fix chicken an egg problem with two rooms that need to be created with exits
-	// that point to each other
-	return &Location{
-		Name:          name,
-		Desc:          desc,
-		id:            <-locIDs,
-		Players:       make(map[util.Id]*Player),
-		PlayersByName: make(map[string]*Player),
+// NewLocation creates a new location.
+func NewLocation(name string, desc string, area *Area) *Location {
+	l := &Location{
+		Name:    name,
+		Desc:    desc,
+		ID:      <-ids,
+		Players: make(map[string]*Player),
 	}
-}
-
-// Returns the unique Id of this location
-func (l *Location) Id() util.Id {
-	return l.id
+	area.Add(l)
+	return l
 }
 
 // returns a string representation of this location (primarily for logging)
 func (l *Location) String() string {
-	return fmt.Sprintf("%v [%v]", l.Name, l.id)
+	return fmt.Sprintf("%v [%v]", l.Name, l.ID)
 }
 
 func (l *Location) HandleCommand(cmd *Command) {
-	if !l.handleCommand(cmd) {
-		cmd.HandleAt(l)
-	}
+	cmd.HandleAt(l)
 }
 
+// LocalTo returns true if the other location uses the same Worker as this
+// location.
+func (l *Location) LocalTo(other *Location) bool {
+	return l.Area.Zone.Worker == other.Area.Zone.Worker
+}
+
+// AddPlayer syncs the player's location with the location's player list.
 // TODO: Handle enter/exit notifications for others in the room
 func (l *Location) AddPlayer(p *Player) {
-	l.Players[p.Id()] = p
-	l.PlayersByName[strings.ToLower(p.Name())] = p
-	l.ShowRoom(p)
+	l.Players[strings.ToLower(p.Name())] = p
 }
 
+// Handle handles a zone-local event.
+func (l *Location) Handle(event func()) {
+	l.Area.Zone.Handle(event)
+}
+
+// RemovePlayer removes a player from this room.
 func (l *Location) RemovePlayer(p *Player) {
-	delete(l.Players, p.Id())
-	delete(l.PlayersByName, strings.ToLower(p.Name()))
-}
-
-func (l *Location) handleCommand(cmd *Command) bool {
-	// TODO: implement plugins to handle custom commands
-	return false
+	delete(l.Players, strings.ToLower(p.Name()))
 }
 
 // Determine the target in the room from the command's target
 // returns nil if no target exists
 func (l *Location) Target(cmd *Command) (p *Player) {
 	// TODO: support aliases
-	return l.PlayersByName[cmd.Target()]
+	return l.Players[cmd.Target()]
 }
 
 // ShowRoom displays the room description from the point of view of the given
