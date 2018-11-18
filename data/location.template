@@ -11,8 +11,12 @@
 {{ else }}
 There are no exits!
 {{ end }}
-{{ range .Players }}
-{{ if ne $.Actor.Id .Id }}
-$player.Desc
-{{ end }}
-{{ end }}
+
+[Players]
+    {{- range .Players }}
+        {{-  if ne $.Actor.Id .Id }}
+        
+{{.Desc}}
+        {{- end }}
+    {{- end }}
+

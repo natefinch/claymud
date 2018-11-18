@@ -55,7 +55,8 @@ type Player struct {
 // Attaches the connection to a player and inserts it into the world.  This
 // function runs for as long as the player is in the world.
 func SpawnPlayer(rwc io.ReadWriteCloser, user *User, global *game.Worker) {
-	log.Printf("Spawning player %s (%v)", user.Username, user.IP)
+	id := <-ids
+	log.Printf("Spawning player %s (%v) id: %v", user.Username, user.IP, id)
 	user.rwc = rwc
 	user.Scanner = bufio.NewScanner(rwc)
 	// TODO: Persistence
@@ -63,9 +64,9 @@ func SpawnPlayer(rwc io.ReadWriteCloser, user *User, global *game.Worker) {
 	p := &Player{
 		name: user.Username,
 		// TODO: make this a template
-		Desc:    fmt.Sprintf("You see %v here.", user.Username),
+		Desc:    user.Username + " is hanging out here.",
 		Actions: make(chan func()),
-		id:      <-ids,
+		id:      id,
 		loc:     loc,
 		gender:  gender.None,
 		global:  global,

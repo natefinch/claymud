@@ -54,7 +54,7 @@ func (c *Command) HandleAt(loc *Location) {
 	// emotes are least important (so if you configure an emote named "north" you won't
 	// prevent yourc from going north... your emote just won't work
 
-	if c.exit(loc) {
+	if c.handleExit(loc) {
 		return
 	}
 
@@ -75,7 +75,7 @@ func (c *Command) HandleAt(loc *Location) {
 }
 
 // Check to see if the command corresponds to an exit in the room
-func (c *Command) exit(loc *Location) (handled bool) {
+func (c *Command) handleExit(loc *Location) (handled bool) {
 	// TODO: Handle custom exits
 	// TODO: do we reject directions with a target, like "north Bob"?
 	valid, room := loc.Exits.Find(c.Action())
@@ -93,55 +93,64 @@ func (c *Command) exit(loc *Location) (handled bool) {
 
 // checks if the command is an existing emote, and if so, handles it
 func (c *Command) emote(loc *Location) (handled bool) {
-	target := loc.Target(c)
-	others := []io.Writer{}
-	for _, p := range loc.Players {
-		if p.Id() != c.Actor.Id() {
-			others = append(others, p)
+	loc.Handle(func() {
+		target := loc.Target(c)
+		others := []io.Writer{}
+		for _, p := range loc.Players {
+			if p.Id() != c.Actor.Id() {
+				others = append(others, p)
+			}
 		}
-	}
-	var t emote.Person
-	if target != nil {
-		t = target
-	}
-	return emote.Perform(c.Action(), c.Actor, t, io.MultiWriter(others...))
+		var t emote.Person
+		if target != nil {
+			t = target
+		}
+		handled = emote.Perform(c.Action(), c.Actor, t, io.MultiWriter(others...))
+	})
+	return handled
 }
 
 // handles the look command
 func (c *Command) look(loc *Location) {
-	if c.Target() == "" {
-		loc.ShowRoom(c.Actor)
-		return
-	}
-	p := loc.Target(c)
-	if p != nil {
-		c.Actor.Writef(p.Desc)
-	} else {
-		// TODO: actually implement looking at things other than players
-		c.Actor.Writef("You don't see that here.")
-	}
+	loc.Handle(func() {
+		if c.Target() == "" {
+			loc.ShowRoom(c.Actor)
+			return
+		}
+		p := loc.Target(c)
+		if p != nil {
+			c.Actor.Writef(p.Desc)
+		} else {
+			// TODO: actually implement looking at things other than players
+			c.Actor.Writef("You don't see that here.")
+		}
+	})
 }
 
 func (c *Command) say(loc *Location) {
-	msg := strings.Join(c.Cmd[1:], " ")
-	toOthers := fmt.Sprintf("%v says %v", c.Actor.Name(), msg)
-	for _, p := range loc.Players {
-		if p.Id() != c.Actor.Id() {
-			p.Writef(toOthers)
+	loc.Handle(func() {
+		msg := strings.Join(c.Cmd[1:], " ")
+		toOthers := c.Actor.Name() + " says " + msg
+		for _, p := range loc.Players {
+			if p.Id() != c.Actor.Id() {
+				p.Writef(toOthers)
+			}
 		}
-	}
-	c.Actor.Writef("You say %v", msg)
+		c.Actor.Writef("You say %v", msg)
+	})
 }
 
 func (c *Command) tell() {
-	p, ok := FindPlayer(c.Target())
-	if ok {
-		msg := strings.Join(c.Cmd[2:], " ")
-		p.Writef("%v tells you %v", c.Actor.Name(), msg)
-		c.Actor.Writef("You tell %v %v", p.Name(), msg)
-	} else {
-		p.Writef("No one with that name exists.")
-	}
+	c.Actor.global.Handle(func() {
+		p, ok := FindPlayer(c.Target())
+		if ok {
+			msg := strings.Join(c.Cmd[2:], " ")
+			p.Writef("%v tells you %v", c.Actor.Name(), msg)
+			c.Actor.Writef("You tell %v %v", p.Name(), msg)
+		} else {
+			p.Writef("No one with that name exists.")
+		}
+	})
 }
 
 func (c *Command) help() {
