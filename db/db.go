@@ -5,8 +5,6 @@ import (
 	"path/filepath"
 
 	"github.com/boltdb/bolt"
-
-	"github.com/natefinch/claymud/config"
 )
 
 var (
@@ -14,8 +12,8 @@ var (
 )
 
 // Initialize sets up the application's configuration directory.
-func Initialize() error {
-	path := filepath.Join(config.DataDir(), "mud.db")
+func Initialize(dir string) error {
+	path := filepath.Join(dir, "mud.db")
 
 	var err error
 	db, err = bolt.Open(path, 0644, nil)

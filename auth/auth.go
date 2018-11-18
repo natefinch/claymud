@@ -15,6 +15,7 @@ import (
 
 	"github.com/natefinch/claymud/config"
 	"github.com/natefinch/claymud/db"
+	"github.com/natefinch/claymud/game"
 	"github.com/natefinch/claymud/util"
 	"github.com/natefinch/claymud/world"
 )
@@ -37,8 +38,8 @@ const (
 	retries = 3
 )
 
-func Initialize() error {
-	filename := filepath.Join(config.DataDir(), "auth.toml")
+func Initialize(dir string) error {
+	filename := filepath.Join(dir, "auth.toml")
 
 	cfg := struct {
 		BcryptCost int
@@ -63,13 +64,13 @@ func Initialize() error {
 
 // logs a player in from an incoming connection, creating a player
 // in the world if they successfully connect
-func Login(rwc io.ReadWriteCloser, ip net.Addr) {
+func Login(rwc io.ReadWriteCloser, ip net.Addr, global *game.Worker) {
 	showTitle(rwc)
 	for i := 0; i < retries; i++ {
 		user, err := authenticate(rwc, ip)
 		switch err {
 		case nil:
-			world.SpawnPlayer(rwc, user)
+			world.SpawnPlayer(rwc, user, global)
 			return
 
 		case ErrAuth:
@@ -82,7 +83,7 @@ func Login(rwc io.ReadWriteCloser, ip net.Addr) {
 			ok, err := handleDupe(user, rwc)
 			if ok && err == nil {
 				kick(user)
-				world.SpawnPlayer(rwc, user)
+				world.SpawnPlayer(rwc, user, global)
 				return
 			}
 		case ErrNotSetup:
@@ -269,7 +270,7 @@ func queryNewUser(rw io.ReadWriter) (user, pwd string, err error) {
 
 // checkPass verifies that the given user exists and that the password matches.
 func checkPass(username, pass string, ip net.Addr) (user *world.User, err error) {
-	if world.FindPlayer(username) != nil {
+	if _, ok := world.FindPlayer(username); ok {
 		return nil, ErrDupe
 	}
 	hash, err := db.Password(username)
@@ -315,9 +316,9 @@ func checkPass(username, pass string, ip net.Addr) (user *world.User, err error)
 	return &world.User{Username: username, IP: ip}, nil
 }
 
-func handleDupe(user *world.User, w io.Writer) (bool, error) {
+func handleDupe(user *world.User, w io.Writer) (kick bool, err error) {
 	// TODO: actually handle duplicate logins
-	_, err := w.Write([]byte("This account is already logged in."))
+	_, err = w.Write([]byte("This account is already logged in."))
 	return false, err
 }
 

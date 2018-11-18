@@ -8,8 +8,6 @@ import (
 	"path/filepath"
 
 	"github.com/BurntSushi/toml"
-
-	"github.com/natefinch/claymud/config"
 )
 
 const (
@@ -17,8 +15,8 @@ const (
 )
 
 // Initialize creates the emoteTemplate map and loads emotes into it.
-func Initialize() error {
-	filename := filepath.Join(config.DataDir(), templFile)
+func Initialize(dir string) error {
+	filename := filepath.Join(dir, templFile)
 
 	f, err := os.Open(filename)
 	if err != nil {

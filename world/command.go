@@ -134,8 +134,8 @@ func (c *Command) say(loc *Location) {
 }
 
 func (c *Command) tell() {
-	p := FindPlayer(c.Target())
-	if p != nil {
+	p, ok := FindPlayer(c.Target())
+	if ok {
 		msg := strings.Join(c.Cmd[2:], " ")
 		p.Writef("%v tells you %v", c.Actor.Name(), msg)
 		c.Actor.Writef("You tell %v %v", p.Name(), msg)

@@ -6,7 +6,12 @@ import (
 	"flag"
 	"log"
 	"net"
+	"os"
 	"strconv"
+	"sync"
+	"time"
+
+	"github.com/natefinch/claymud/game"
 
 	"github.com/natefinch/claymud/auth"
 	"github.com/natefinch/claymud/config"
@@ -23,37 +28,69 @@ func init() {
 }
 
 func main() {
-	Main()
+	if err := Main(); err != nil {
+		log.Print(err)
+		os.Exit(1)
+	}
 }
 
-func Main() {
+// Main is the main entrypoint to the server
+func Main() error {
 	flag.Parse()
 
 	// config must be first!
-	maybeFatal(config.Initialize())
-
-	maybeFatal(gender.Initialize(config.DataDir()))
-	maybeFatal(emote.Initialize())
-	maybeFatal(auth.Initialize())
+	if err := config.Initialize(); err != nil {
+		return err
+	}
+	dir := config.DataDir()
+	if err := gender.Initialize(dir); err != nil {
+		return err
+	}
+	if err := emote.Initialize(dir); err != nil {
+		return err
+	}
+	if err := auth.Initialize(dir); err != nil {
+		return err
+	}
 
 	// db must be before world!
-	maybeFatal(db.Initialize())
+	maybeFatal(db.Initialize(dir))
 
-	// World needs to be last.
-	maybeFatal(world.Initialize())
+	shutdown := make(chan struct{})
+	wg := &sync.WaitGroup{}
+	defer func() {
+		close(shutdown)
+		done := make(chan struct{})
+		go func() {
+			wg.Wait()
+			close(done)
+		}()
+		select {
+		case <-done:
+		case <-time.After(10 * time.Second):
+			log.Print("Timed out waiting for all goroutines to clean up.  Killing process.")
+		}
+	}()
+	lock := &sync.RWMutex{}
+
+	// World needs to be last.  WE
+	if err := world.Initialize(lock.RLocker(), shutdown, wg); err != nil {
+		return err
+	}
+
+	global := game.SpawnWorker(lock, shutdown, wg)
 
 	host := net.JoinHostPort("127.0.0.1", strconv.Itoa(port))
 	log.Printf("Running ClayMUD on %v", host)
 
 	addr, err := net.ResolveTCPAddr("tcp", host)
 	if err != nil {
-		log.Printf("Error resolving host %v: %v", host, err)
-		return
+		return err
 	}
 
 	listener, err := net.ListenTCP("tcp", addr)
 	if err != nil {
-		log.Fatalf("Failed listening for connections: %s", err)
+		return err
 	}
 	for {
 		conn, err := listener.AcceptTCP()
@@ -65,7 +102,7 @@ func Main() {
 		conn.SetLinger(0)
 
 		log.Printf("New connection from %v", conn.RemoteAddr())
-		go auth.Login(conn, conn.RemoteAddr())
+		go auth.Login(conn, conn.RemoteAddr(), global)
 	}
 }
 
