@@ -42,10 +42,6 @@ func (l *Location) String() string {
 	return fmt.Sprintf("%v [%v]", l.Name, l.ID)
 }
 
-func (l *Location) HandleCommand(cmd *Command) {
-	cmd.HandleAt(l)
-}
-
 // LocalTo returns true if the other location uses the same Worker as this
 // location.
 func (l *Location) LocalTo(other *Location) bool {

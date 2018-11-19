@@ -1,6 +1,7 @@
 package emote
 
 import (
+	"bytes"
 	"io"
 	"log"
 	"text/template"
@@ -12,6 +13,12 @@ import (
 var (
 	emotes map[string]emote
 )
+
+// Exists reports whether the given emote exists as a command in the game.
+func Exists(name string) bool {
+	_, ok := emotes[name]
+	return ok
+}
 
 // Names is a list of the names of the available emotes in the game
 var Names []string
@@ -99,11 +106,18 @@ func performToSelf(emote emote, data emoteData, actor Person, others io.Writer) 
 		// if there's an error running the emote to the actor, just bail early.
 		return
 	}
+	around(emote, data, others)
+}
 
-	err = emote.ToSelf.Around.Execute(others, data)
+func around(emote emote, data emoteData, others io.Writer) {
+	buf := &bytes.Buffer{}
+	err := emote.ToSelf.Around.Execute(buf, data)
 	if err != nil {
-		logFillErr(emote, "ToSelf.Around", data, err)
+		logFillErr(emote, "Around", data, err)
+		return
 	}
+	// ignore write errors here
+	_, _ = others.Write(buf.Bytes())
 }
 
 func performToNoOne(emote emote, data emoteData, actor Person, others io.Writer) {
@@ -118,10 +132,7 @@ func performToNoOne(emote emote, data emoteData, actor Person, others io.Writer)
 		return
 	}
 
-	err = emote.ToNoOne.Around.Execute(others, data)
-	if err != nil {
-		logFillErr(emote, "ToNoOne.Around", data, err)
-	}
+	around(emote, data, others)
 }
 
 func performToOther(emote emote, data emoteData, actor Person, target Person, others io.Writer) {
@@ -141,10 +152,7 @@ func performToOther(emote emote, data emoteData, actor Person, target Person, ot
 		logFillErr(emote, "ToOther.Target", data, err)
 	}
 
-	err = emote.ToOther.Around.Execute(others, data)
-	if err != nil {
-		logFillErr(emote, "ToOther.Around", data, err)
-	}
+	around(emote, data, others)
 }
 
 func logFillErr(emote emote, template string, data emoteData, err error) {

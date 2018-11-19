@@ -77,6 +77,7 @@ func SpawnPlayer(rwc io.ReadWriteCloser, user *User, global *game.Worker) {
 		addPlayer(p)
 		loc.AddPlayer(p)
 		loc.ShowRoom(p)
+		p.prompt()
 	})
 	p.readLoop()
 }
@@ -92,7 +93,6 @@ func (p *Player) Writef(format string, args ...interface{}) {
 func (p *Player) Execute(t *template.Template, data interface{}) error {
 	p.writer.Write([]byte("\n"))
 	err := t.Execute(p.writer, data)
-	p.prompt()
 	return err
 }
 
@@ -100,7 +100,6 @@ func (p *Player) Execute(t *template.Template, data interface{}) error {
 func (p *Player) Write(b []byte) (int, error) {
 	p.writer.Write([]byte("\n"))
 	p.writer.Write(b)
-
 	return len(b), nil
 }
 
@@ -119,6 +118,20 @@ func (p *Player) String() string {
 	return fmt.Sprintf("%v [%v]", p.name, p.id)
 }
 
+func (p *Player) handleLocal(event func()) {
+	p.loc.Handle(func() {
+		event()
+		p.prompt()
+	})
+}
+
+func (p *Player) handleGlobal(event func()) {
+	p.global.Handle(func() {
+		event()
+		p.prompt()
+	})
+}
+
 // Move changes the player's location and adds the player to the location's map
 //
 // This is the function that does the heavy lifting for moving a player from one
@@ -134,6 +147,7 @@ func (p *Player) Move(to *Location) {
 		to.AddPlayer(p)
 		p.loc = to
 		to.ShowRoom(p)
+		p.prompt()
 	}
 	if p.loc.LocalTo(to) {
 		p.loc.Handle(move)
@@ -187,19 +201,6 @@ func (p *Player) timeout() {
 	p.exit(TimeoutError)
 }
 
-// HandleCommand handles commands specific to the player, such as inventory and
-// player stats.
-func (p *Player) HandleCommand(cmd *Command) bool {
-
-	// TODO: implement player commands
-	switch cmd.Action() {
-	case "quit":
-		p.handleQuit()
-		return true
-	}
-	return false
-}
-
 // handleQuit asks the user if they really want to quit, and if they say yes,
 // does so.
 func (p *Player) handleQuit() {
@@ -212,7 +213,6 @@ func (p *Player) handleQuit() {
 	case "y", "yes":
 		p.exit(nil)
 	default:
-		p.prompt()
 	}
 }
 
@@ -220,15 +220,12 @@ func (p *Player) handleQuit() {
 // to handle it.
 func (p *Player) handleCmd(s string) {
 	cmd := NewCommand(p, tokenize(s))
-	if !p.HandleCommand(cmd) {
-		p.loc.HandleCommand(cmd)
-	}
-	p.prompt()
+	cmd.HandleAt(p.loc)
 }
 
 // tokenize returns a list of space separated tokens from the given string.
 func tokenize(s string) []string {
-	return strings.Split(strings.TrimSpace(s), " ")
+	return strings.Fields(s)
 }
 
 // Query asks the player a question and receives an answer
