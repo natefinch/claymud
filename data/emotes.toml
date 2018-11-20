@@ -34,7 +34,7 @@
 #
 # There are a few special fields that you can put into emote text, which will be
 # filled out with data from the game, all are enclosed in double squiggly
-# braces and start with a period, for example: {{.Actor}}.  Note that these are 
+# braces and start with a period, for example: {{.Actor.Name}}.  Note that these are 
 # case sensitive.
 #
 # Actor  - The name of the person performing the emote.
@@ -44,37 +44,44 @@
 #          (depending on the gender of the person performing the emote)
 #
 
+# arrival defines what it looks like when a player is added to the world at the
+# starting location.  It uses the emote structure, but is by definition an emote
+# ToNoOne, so you only need to define "self" and "around".
+[arrival]
+self = ".\n.\n.\n.\nYou arrive in a puff of smoke."
+around = "{{.Actor.Name}} arrives in a puff of smoke."
+
 [[emote]]
 name = "smile"
 
 [emote.toSelf]
 self = "You smile to yourself."
-around = "{{.Actor}} smiles to {{.Xself}}."
+around = "{{.Actor.Name}} smiles to {{.Actor.Gender.Xself}}."
 
 [emote.toNoOne]
 self = "You smile."
-around = "{{.Actor}} smiles."
+around = "{{.Actor.Name}} smiles."
 
 [emote.toOther]
-self = "You smile at {{.Target}}."
-target = "{{.Actor}} smiles at you."
-around = "{{.Actor}} smiles at {{.Target}}."
+self = "You smile at {{.Target.Name}}."
+target = "{{.Actor.Name}} smiles at you."
+around = "{{.Actor.Name}} smiles at {{.Target.Name}}."
 
 [[emote]]
 name = "evil"
 
 [emote.toSelf]
 self = "You grin evilly to yourself."
-around = "{{.Actor}} grins evilly to {{.Xself}}."
+around = "{{.Actor.Name}} grins evilly to {{.Actor.Gender.Xself}}."
 
 [emote.toNoOne]
 self = "You grin evilly."
-around = "{{.Actor}} grins evilly."
+around = "{{.Actor.Name}} grins evilly."
 
 [emote.toOther]
-self = "You grin evilly at {{.Target}}."
-target = "{{.Actor}} grins evilly at you."
-around = "{{.Actor}} grins evilly at {{.Target}}."
+self = "You grin evilly at {{.Target.Name}}."
+target = "{{.Actor.Name}} grins evilly at you."
+around = "{{.Actor.Name}} grins evilly at {{.Target.Name}}."
 
 
 [[emote]]
@@ -86,9 +93,9 @@ name = "jump"
 
 [emote.toNoOne]
 self = "You jump around like a crazy person."
-around = "{{.Actor}} jumps around like a crazy person."
+around = "{{.Actor.Name}} jumps around like a crazy person."
 
 [emote.toOther]
-self = "You jump {{.Target}}."
-target = "{{.Actor}} jumps you."
-around = "{{.Actor}} jumps {{.Target}}."
+self = "You jump {{.Target.Name}}."
+target = "{{.Actor.Name}} jumps you."
+around = "{{.Actor.Name}} jumps {{.Target.Name}}."

@@ -126,9 +126,9 @@ func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
 	}
 
 	// normal case
-	a, err := util.QueryOptions(rw, nil,
-		util.Opt{Key: 'c', Text: []byte("Create account")},
-		util.Opt{Key: 'l', Text: []byte("Log in with existing account")})
+	a, err := util.QueryOptions(rw, "",
+		util.Opt{Key: 'c', Text: "Create account"},
+		util.Opt{Key: 'l', Text: "Log in with existing account"})
 	if err != nil {
 		return nil, err
 	}
@@ -228,11 +228,11 @@ func createUser(username, pw string, ip net.Addr) (user *world.User, err error) 
 
 // queryCreds asks the user for their username and password.
 func queryCreds(rw io.ReadWriter) (user, pwd string, err error) {
-	user, err = util.Query(rw, []byte("Username: "))
+	user, err = util.Query(rw, "Username: ")
 	if err != nil {
 		return "", "", err
 	}
-	pwd, err = util.Query(rw, []byte("Password: "))
+	pwd, err = util.Query(rw, "Password: ")
 	if err != nil {
 		return "", "", err
 	}
@@ -241,7 +241,7 @@ func queryCreds(rw io.ReadWriter) (user, pwd string, err error) {
 
 // queryNewUser asks the user to create a new username and password.
 func queryNewUser(rw io.ReadWriter) (user, pwd string, err error) {
-	user, err = util.QueryVerify(rw, []byte("Username: "),
+	user, err = util.QueryVerify(rw, "Username: ",
 		func(user string) (string, error) {
 			exists, err := db.UserExists(user)
 			if err != nil {
@@ -255,7 +255,7 @@ func queryNewUser(rw io.ReadWriter) (user, pwd string, err error) {
 	if err != nil {
 		return "", "", err
 	}
-	pwd, err = util.QueryVerify(rw, []byte("Password: "),
+	pwd, err = util.QueryVerify(rw, "Password: ",
 		func(pw string) (string, error) {
 			if len(pw) > 1024 {
 				return "The maximum length for a password is 1024 characters.", nil

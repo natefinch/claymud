@@ -8,7 +8,8 @@ import (
 	"log"
 	"net"
 	"strings"
-	"text/template"
+
+	"github.com/natefinch/claymud/game/emote"
 
 	"github.com/natefinch/claymud/game"
 	"github.com/natefinch/claymud/game/gender"
@@ -42,7 +43,7 @@ type User struct {
 
 // Player represents a player-character in the world.
 type Player struct {
-	id      util.Id
+	ID      util.Id
 	name    string
 	Desc    string
 	Actions chan func()
@@ -50,6 +51,7 @@ type Player struct {
 	gender  gender.Gender
 	global  *game.Worker
 	*User
+	needsLF bool
 }
 
 // Attaches the connection to a player and inserts it into the world.  This
@@ -66,46 +68,69 @@ func SpawnPlayer(rwc io.ReadWriteCloser, user *User, global *game.Worker) {
 		// TODO: make this a template
 		Desc:    user.Username + " is hanging out here.",
 		Actions: make(chan func()),
-		id:      id,
+		ID:      id,
 		loc:     loc,
 		gender:  gender.None,
 		global:  global,
 		User:    user,
+		needsLF: true,
 	}
 	p.writer = util.SafeWriter{Writer: rwc, OnErr: p.exit}
-	global.Handle(func() {
+
+	// intentionally directly call the global handler so we skip the autoprompt
+	// here.
+	p.global.Handle(func() {
 		addPlayer(p)
-		loc.AddPlayer(p)
-		loc.ShowRoom(p)
-		p.prompt()
 	})
-	p.readLoop()
+	p.HandleLocal(func() {
+		loc.AddPlayer(p)
+		others := make([]io.Writer, 0, len(loc.Players))
+		for _, other := range loc.Players {
+			if !p.Is(other) {
+				others = append(others, other)
+			}
+		}
+		emote.DoArrival(p, io.MultiWriter(others...))
+		p.WriteString("\n\n")
+		loc.ShowRoom(p)
+	})
+	if err := p.readLoop(); err != nil {
+		p.exit(err)
+	}
 }
 
-// Writef is a helper function to write the formatted string to the player.
-func (p *Player) Writef(format string, args ...interface{}) {
-	p.Write([]byte(fmt.Sprintf(format, args...)))
+// Printf is a helper function to write the formatted string to the player.
+func (p *Player) Printf(format string, args ...interface{}) {
+	p.maybeNewline()
+	fmt.Fprintf(p.writer, format, args...)
 }
 
-// Execute executes the given template and writes the output to the player as a
-// single locked write. If we try to run the template from outside the player's
-// lock, you get multiple writes which behaves badly.
-func (p *Player) Execute(t *template.Template, data interface{}) error {
-	p.writer.Write([]byte("\n"))
-	err := t.Execute(p.writer, data)
-	return err
+var newline = []byte("\n")
+
+func (p *Player) maybeNewline() {
+	if p.needsLF {
+		p.writer.Write(newline)
+		p.needsLF = false
+	}
+}
+
+// Write implements io.Writer.  It will never return an error.
+func (p *Player) WriteString(s string) (int, error) {
+	p.maybeNewline()
+	io.WriteString(p.writer, s)
+	return len(s), nil
 }
 
 // Write implements io.Writer.  It will never return an error.
 func (p *Player) Write(b []byte) (int, error) {
-	p.writer.Write([]byte("\n"))
+	p.maybeNewline()
 	p.writer.Write(b)
 	return len(b), nil
 }
 
-// Id returns the unique Id of this Player
-func (p *Player) Id() util.Id {
-	return p.id
+// Is reports whether the other player is the same as this player.
+func (p *Player) Is(other *Player) bool {
+	return p.ID == other.ID
 }
 
 // Name returns the player's Name.
@@ -115,17 +140,19 @@ func (p *Player) Name() string {
 
 // String returns a string reprentation of the player (primarily for logging)
 func (p *Player) String() string {
-	return fmt.Sprintf("%v [%v]", p.name, p.id)
+	return fmt.Sprintf("%s [%v]", p.name, p.ID)
 }
 
-func (p *Player) handleLocal(event func()) {
+// HandleLocal runs the given event for the player on its zone-local thread.
+func (p *Player) HandleLocal(event func()) {
 	p.loc.Handle(func() {
 		event()
 		p.prompt()
 	})
 }
 
-func (p *Player) handleGlobal(event func()) {
+// HandleGlobal runs the given event for the player on the global thread.
+func (p *Player) HandleGlobal(event func()) {
 	p.global.Handle(func() {
 		event()
 		p.prompt()
@@ -136,7 +163,8 @@ func (p *Player) handleGlobal(event func()) {
 //
 // This is the function that does the heavy lifting for moving a player from one
 // room to another including keeping the user's location and the location map in
-// sync
+// sync.  It will run on the appropriate thread depending on if this is a local
+// move or a move between zones.
 func (p *Player) Move(to *Location) {
 	if to.ID == p.loc.ID {
 		return
@@ -147,16 +175,15 @@ func (p *Player) Move(to *Location) {
 		to.AddPlayer(p)
 		p.loc = to
 		to.ShowRoom(p)
-		p.prompt()
 	}
 	if p.loc.LocalTo(to) {
-		p.loc.Handle(move)
+		p.HandleLocal(move)
 	} else {
-		p.global.Handle(move)
+		p.HandleGlobal(move)
 	}
 }
 
-// Location returns the user's location in the world
+// Location returns the user's location in the world.
 func (p *Player) Location() *Location {
 	return p.loc
 }
@@ -178,58 +205,74 @@ func (p *Player) Gender() gender.Gender {
 
 // readLoop is a goroutine that just passes info from the player's input to the
 // runLoop.
-func (p *Player) readLoop() {
+func (p *Player) readLoop() (err error) {
+	// need this because scan can panic if you send it too much stuff
+	defer func() {
+		panicErr := recover()
+		if panicErr == nil {
+			return
+		}
+		if e, ok := panicErr.(error); ok {
+			err = e
+			return
+		}
+		err = fmt.Errorf("%v", panicErr)
+	}()
 	for p.Scan() {
+		// The user entered a command, so by definition has hit enter.
+		p.needsLF = false
 		p.handleCmd(p.Text())
 	}
-	err := p.Err()
-	if err != nil {
-		log.Printf("Error reading from user %v: %v", p.Name(), err)
-	}
-	p.exit(err)
+	return p.Err()
 }
 
 // prompt shows the player's prompt to the user.
 func (p *Player) prompt() {
 	// TODO: standard/custom prompts
-	p.writer.Write([]byte("\n>"))
+	io.WriteString(p.writer, "\n>")
+	p.needsLF = true
+}
+
+// reprompt shows the player's prompt to the user, but without the preceding
+// newline. This only occurs when the user hits enter with no command.
+func (p *Player) reprompt() {
+	// TODO: standard/custom prompts
+	io.WriteString(p.writer, ">")
+	p.needsLF = true
 }
 
 // timeout times the player out of the world.
 func (p *Player) timeout() {
-	p.Writef("You have timed out... good bye!")
+	p.WriteString("You have timed out... good bye!")
 	p.exit(TimeoutError)
 }
 
 // handleQuit asks the user if they really want to quit, and if they say yes,
 // does so.
 func (p *Player) handleQuit() {
-	answer, err := p.Query([]byte("Are you sure you want to quit? (y/n) "))
+	answer, err := p.Query("Are you sure you want to quit? (y/N) ")
 	if err != nil {
 		return
 	}
-	tokens := tokenize(answer)
+	tokens := strings.Fields(answer)
+	if len(tokens) == 0 {
+		return
+	}
 	switch tokens[0] {
 	case "y", "yes":
 		p.exit(nil)
-	default:
 	}
 }
 
 // handleCmd converts tokens from the user into a Command object, and attempts
 // to handle it.
 func (p *Player) handleCmd(s string) {
-	cmd := NewCommand(p, tokenize(s))
-	cmd.HandleAt(p.loc)
-}
-
-// tokenize returns a list of space separated tokens from the given string.
-func tokenize(s string) []string {
-	return strings.Fields(s)
+	cmd := Command{Actor: p, Cmd: strings.Fields(s), Loc: p.loc}
+	cmd.Handle()
 }
 
 // Query asks the player a question and receives an answer
-func (p *Player) Query(q []byte) (answer string, err error) {
+func (p *Player) Query(q string) (answer string, err error) {
 	defer func() {
 		if err != nil {
 			p.exit(err)

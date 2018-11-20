@@ -1,22 +1,18 @@
 {{ .Name }}
 
-
 {{ .Desc }}
 
-
 [Exits]
-{{ range .Exits }}
+{{- range .Exits }}
 {{ .Name }} - {{ .Destination.Name }}
-
-{{ else }}
+{{- else }}
 There are no exits!
 {{ end }}
-
+{{if gt (len .Players) 1 -}}
 [Players]
     {{- range .Players }}
-        {{-  if ne $.Actor.Id .Id }}
-        
+        {{-  if ne $.Actor.ID .ID }}
 {{.Desc}}
         {{- end }}
     {{- end }}
-
+{{- end}}

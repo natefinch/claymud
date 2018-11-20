@@ -6,6 +6,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"text/template"
 
 	"github.com/BurntSushi/toml"
 )
@@ -13,6 +14,13 @@ import (
 const (
 	templFile = "emotes.toml"
 )
+
+var arrival *noTarget
+
+// DoArrival runs the standard emote that occurs when you
+func DoArrival(actor Person, others io.Writer) {
+	performToNoOne("arrival", arrival, emoteData{Actor: actor}, actor, others)
+}
 
 // Initialize creates the emoteTemplate map and loads emotes into it.
 func Initialize(dir string) error {
@@ -23,12 +31,19 @@ func Initialize(dir string) error {
 		return fmt.Errorf("Error reading emote config file: %s", err)
 	}
 	defer f.Close()
-	em, err := decodeEmotes(f)
+	cfg, err := decodeConfig(f)
 	if err != nil {
 		return err
 	}
+	arrival = &cfg.Arrival
+	if arrival.Self.Template == nil {
+		arrival.Self.Template = template.Must(template.New("arrival.self").Parse("You arrive in a puff of smoke."))
+	}
+	if arrival.Around.Template == nil {
+		arrival.Around.Template = template.Must(template.New("arrival.around").Parse("{{Actor}} arrives in a puff of smoke."))
+	}
 
-	if err := loadEmotes(em); err != nil {
+	if err := loadEmotes(cfg.Emotes); err != nil {
 		return err
 	}
 
@@ -36,18 +51,21 @@ func Initialize(dir string) error {
 	return nil
 }
 
-// emoteConfigs is a struct for getting the emote templates out of a config.
-type emoteConfigs struct {
-	// yes, Emote, singular. This lets the section header be [[emote]] instead
-	// of [[emotes]] which is a lot clearer.
-	Emote []emote
+// emoteConfig is a struct for getting the emote templates out of a config.
+type emoteConfig struct {
+	// the emote for a player arriving in the world at the starting location.
+	Arrival noTarget
+
+	// yes, the toml is emote, singular. This lets the section header be
+	// [[emote]] instead of [[emotes]] which is a lot clearer.
+	Emotes []emote `toml:"emote"`
 }
 
 // decodeEmotes parses the data from the reader into a list of emotes.
-func decodeEmotes(r io.Reader) ([]emote, error) {
-	cfgs := emoteConfigs{}
+func decodeConfig(r io.Reader) (*emoteConfig, error) {
+	cfg := emoteConfig{}
 
-	res, err := toml.DecodeReader(r, &cfgs)
+	res, err := toml.DecodeReader(r, &cfg)
 	if err != nil {
 		return nil, fmt.Errorf("Error parsing emote config file: %s", err)
 	}
@@ -55,7 +73,7 @@ func decodeEmotes(r io.Reader) ([]emote, error) {
 	if und := res.Undecoded(); len(und) > 0 {
 		log.Printf("WARNING: Unknown values in emote config file: %v", und)
 	}
-	return cfgs.Emote, nil
+	return &cfg, nil
 }
 
 // loadEmotes populates the game's list of emotes and checks for duplicates.

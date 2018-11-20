@@ -5,7 +5,6 @@ import (
 	"io/ioutil"
 	"log"
 	"path/filepath"
-	"regexp"
 	"strings"
 	"text/template"
 
@@ -74,7 +73,7 @@ func (l *Location) Target(cmd *Command) (p *Player) {
 // ShowRoom displays the room description from the point of view of the given
 // actor.
 func (l *Location) ShowRoom(actor *Player) {
-	actor.Execute(locTemplate, locData{actor, l})
+	locTemplate.Execute(actor, locData{actor, l})
 }
 
 func loadLocTempl() error {
@@ -86,7 +85,7 @@ func loadLocTempl() error {
 		return fmt.Errorf("error reading location template file: %s", err)
 	}
 
-	locTemplate, err = template.New("location.template").Parse(preprocess(b))
+	locTemplate, err = template.New("location.template").Parse(string(b))
 	if err != nil {
 		return fmt.Errorf("can't parse location template: %s", err)
 	}
@@ -96,11 +95,4 @@ func loadLocTempl() error {
 type locData struct {
 	Actor *Player
 	*Location
-}
-
-var strip = regexp.MustCompile("}}\n")
-var repl = []byte("}}")
-
-func preprocess(b []byte) string {
-	return string(strip.ReplaceAll(b, repl))
 }
