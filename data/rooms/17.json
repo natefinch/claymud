@@ -1,0 +1,3477 @@
+{
+    "rooms": [
+        {
+            "ID": 1700,
+            "Zone": 17,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1701,
+            "Zone": 17,
+            "Name": "The narrow trail.",
+            "Description": "A narrow trail through the forest.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6150
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1702
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1702,
+            "Zone": 17,
+            "Name": "The narrow trail.",
+            "Description": "A narrow trail through the forest.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1701
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1703
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1703,
+            "Zone": 17,
+            "Name": "The narrow trail.",
+            "Description": "A narrow trail through the forest.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1704
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1702
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1704,
+            "Zone": 17,
+            "Name": "End of the trail.",
+            "Description": "You have reached the end of the trail.  Ahead of you lies a strange castle\nwhich you don't recall ever seeing before.  It has many guards atop it's\nwalls, and a large iron portcullis blocking the entrance.  Obviously they \nare not too hospitable.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1705
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1703
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1705,
+            "Zone": 17,
+            "Name": "Before the Portcullis of Castle Grymourne.",
+            "Description": "You stand at the entrance to Castle Grymourne, home of the infamous Lord\nGlum Grymourne himself.  A large iron portcullis bars the way forward.\nA small guardhouse has been constructed beside the gate, possibly containing\nthe winch for the gate.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A large iron portcullis bars the way north.\n",
+                    "Keywords": [
+                        "gate",
+                        "portcullis"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 1705,
+                    "Destination": 1706
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1704
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1706,
+            "Zone": 17,
+            "Name": "Inside the gatehouse.",
+            "Description": "You have entered the gatehouse to the castle.  Straight ahead lies the \ncourtyard to the keep, with access to all the guard towers.  In the middle\nof the courtyard is the central tower of the lord of this castle.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1707
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A large iron gate bars the way south.\n",
+                    "Keywords": [
+                        "gate",
+                        "portcullis"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 1706,
+                    "Destination": 1705
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1707,
+            "Zone": 17,
+            "Name": "The courtyard.",
+            "Description": "You are inside the courtyard of Castle Grymourne.  Guard towers are located\nat the four corners of the yard, while in the middle lies the main tower.\nDirectly north of here is the entryway to the central tower, which is\nsealed off by a large iron-bound door.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The entrance to the central tower.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 1720,
+                    "Destination": 1720
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1709
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1717
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1708
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1711
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1710
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1706
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1708,
+            "Zone": 17,
+            "Name": "The courtyard.",
+            "Description": "You are inside the courtyard of Castle Grymourne. Guard towers are located\nat the four corners of the yard, while in the middle lies the main tower.\nInside the central tower is the location of the infamous Lord Glum, by all\nreports a mighty and fearsome warrior of grim and evil temperment.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1710
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1707
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1715
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1709,
+            "Zone": 17,
+            "Name": "The courtyard.",
+            "Description": "You are inside the courtyard of Castle Grymourne. Guard towers are located\nat the four corners of the yard, while in the middle lies the main tower.\nInside the central tower is the location of the infamous Lord Glum, by all\nreports a mighty and fearsome warrior of grim and evil temperment.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1711
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1707
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1716
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1710,
+            "Zone": 17,
+            "Name": "The courtyard.",
+            "Description": "You are inside the courtyard of Castle Grymourne. Guard towers are located\nat the four corners of the yard, while in the middle lies the main tower.\nInside the central tower is the location of the infamous Lord Glum, by all\nreports a mighty and fearsome warrior of grim and evil temperment.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1712
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1708
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1713
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1707
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1711,
+            "Zone": 17,
+            "Name": "The courtyard.",
+            "Description": "You are inside the courtyard of Castle Grymourne. Guard towers are located\nat the four corners of the yard, while in the middle lies the main tower.\nInside the central tower is the location of the infamous Lord Glum, by all\nreports a mighty and fearsome warrior of grim and evil temperment.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1714
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1709
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1713
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1707
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1712,
+            "Zone": 17,
+            "Name": "The courtyard.",
+            "Description": "You are inside the courtyard of Castle Grymourne. Guard towers are located\nat the four corners of the yard, while in the middle lies the main tower.\nInside the central tower is the location of the infamous Lord Glum, by all\nreports a mighty and fearsome warrior of grim and evil temperment.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1713
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1710
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1718
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1713,
+            "Zone": 17,
+            "Name": "The courtyard.",
+            "Description": "You are inside the courtyard of Castle Grymourne. Guard towers are located\nat the four corners of the yard, while in the middle lies the main tower.\nInside the central tower is the location of the infamous Lord Glum, by all\nreports a mighty and fearsome warrior of grim and evil temperment.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1714
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1712
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1711
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1710
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1714,
+            "Zone": 17,
+            "Name": "The courtyard.",
+            "Description": "You are inside the courtyard of Castle Grymourne. Guard towers are located\nat the four corners of the yard, while in the middle lies the main tower.\nInside the central tower is the location of the infamous Lord Glum, by all\nreports a mighty and fearsome warrior of grim and evil temperment.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1711
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1713
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1719
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1715,
+            "Zone": 17,
+            "Name": "A guard tower.",
+            "Description": "You are below one of the guard towers of this castle.  Arrow slots line the\nwalls, and pots for boiling oil are stored down here as well.  Stairs lead\nup to the top of the tower above.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1721
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1708
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1716,
+            "Zone": 17,
+            "Name": "A guard tower.",
+            "Description": "You are below on of the guard towers of this castle.  Arrow slots line the\nwalls, and pots for boiling oil are stored down here as well.  Stair lead\nup to the top of the tower above.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1722
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1709
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1717,
+            "Zone": 17,
+            "Name": "The central courtyard",
+            "Description": "You see before you a small alter and dried blood everywhere.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1707
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1708
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1709
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1710
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1711
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1712
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1713
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1716
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1714
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1715
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1718,
+            "Zone": 17,
+            "Name": "A guard tower.",
+            "Description": "You are below on of the guard towers of this castle.  Arrow slots line the\nwalls, and pots for boiling oil are stored down here as well.  Stair lead\nup to the top of the tower above.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1723
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1712
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1719,
+            "Zone": 17,
+            "Name": "A guard tower.",
+            "Description": "You are below on of the guard towers of this castle.  Arrow slots line the\nwalls, and pots for boiling oil are stored down here as well.  Stair lead\nup to the top of the tower above.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1724
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1714
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1720,
+            "Zone": 17,
+            "Name": "Inside the central tower.",
+            "Description": "The entryway to this tower is dark and forboding.  The air is stale and evil\nsmelling, and cobwebs cover the ceiling.  Passages run north-west and north-\neast of here.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "A large iron-bound door.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 1720,
+                    "Destination": 1707
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1726
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1725
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1721,
+            "Zone": 17,
+            "Name": "Atop the guard tower.",
+            "Description": "You are atop a guard tower.  You can see all the surrounding countryside,\nas well as the inner courtyard below.  A walkway runs along the top of the\ncastle wall, connecting all the guard towers. Stairs lead downward.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1731
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1742
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1715
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1722,
+            "Zone": 17,
+            "Name": "Atop the guard tower.",
+            "Description": "You are atop a guard tower.  You can see all the surrounding countryside,\nas well as the inner courtyard below.  A walkway runs along the top of the\ncastle wall, connecting all the guard towers. Stairs lead downward.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1739
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1740
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1716
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1723,
+            "Zone": 17,
+            "Name": "Atop the guard tower.",
+            "Description": "You are atop a guard tower.  You can see all the surrounding countryside,\nas well as the inner courtyard below.  A walkway runs along the top of the\ncastle wall, connecting all the guard towers. Stairs lead downward.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1734
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1733
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1718
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1724,
+            "Zone": 17,
+            "Name": "Atop the guard tower.",
+            "Description": "You are atop a guard tower.  You can see all the surrounding countryside,\nas well as the inner courtyard below.  A walkway runs along the top of the\ncastle wall, connecting all the guard towers. Stairs lead downward.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1737
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1736
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1719
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1725,
+            "Zone": 17,
+            "Name": "Western passage.",
+            "Description": "This passage curves around the western side of this massive tower.  The feel\ninside this structure dark and sinister, unlike the rest of the castle.\nApparently, the interior and exterior of this keep are worlds apart.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1727
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1720
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1726,
+            "Zone": 17,
+            "Name": "Eastern passage.",
+            "Description": "This passage runs around the eastern interior of the tower.  A sense of\nforeboding enters your spirit as you walk these halls, as if a great and\nmalevolent evil waits within.  Ahead of you, stairs lead upwards into the\ntop of this tower.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1729
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1727
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1720
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1727,
+            "Zone": 17,
+            "Name": "Northern passage.",
+            "Description": "This passage runs along the interior of this massive tower.  To the southeast,\nyou see stairs that lead upwards.  All around you, the stench of decay and\nmold lingers in the air.  Upon the south wall is a tattered tapestry.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "secret",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 1719,
+                    "Destination": 1728
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1726
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1725
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "tapestry"
+                    ],
+                    "Description": "The tapestry concealed a secret door!\n"
+                }
+            ]
+        },
+        {
+            "ID": 1728,
+            "Zone": 17,
+            "Name": "The secret staircase.",
+            "Description": "You have entered a well hidden staircase leading down into the depths of the\ncastle.  From below, you hear moans and screams, which would indicate that \nthe torture chambers lie in that direction.  As you start to descend, a \nwave of nausea washes over you, and you wonder if you are brave enough to\nconfront the horrors below.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "secret",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 1719,
+                    "Destination": 1727
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1743
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1729,
+            "Zone": 17,
+            "Name": "The second floor.",
+            "Description": "This second floor of the tower is obviously barracks for the dreaded \nBloodguards.  Near-mindless killers, they are fanatically loyal to Lord\nGlum, and their leader is Lord Grymourne's younger brother, Tangi.  To\nfight them is to fight death itself.  Stairs lead down to the first level,\nand up into the topmost level of the tower.\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1730
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1726
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1730,
+            "Zone": 17,
+            "Name": "Top of the tower.",
+            "Description": "You have reached the top of the central tower.  There is no roof here, and\nthe top is open to the sky.  Lord Glum is said to repose here quite often,\nin order to look upon the world and see which lands he has yet to conquer.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1729
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1731,
+            "Zone": 17,
+            "Name": "Atop the western wall",
+            "Description": "You are atop the western wall.  The wall runs north and south from here.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1732
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1721
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1732,
+            "Zone": 17,
+            "Name": "Atop the western wall",
+            "Description": "You are atop the western wall.  The wall runs north and south from here.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1733
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1731
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1733,
+            "Zone": 17,
+            "Name": "Atop the western wall",
+            "Description": "You are atop the western wall.  The wall runs north and south from here.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1723
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1732
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1734,
+            "Zone": 17,
+            "Name": "Atop the northern wall",
+            "Description": "You are atop the northern wall.  The wall runs east and west from here.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1735
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1723
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1735,
+            "Zone": 17,
+            "Name": "Atop the northern wall",
+            "Description": "You are atop the northern wall.  The wall runs east and west from here.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1736
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1734
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1736,
+            "Zone": 17,
+            "Name": "Atop the northern wall",
+            "Description": "You are atop the northern wall.  The wall runs east and west from here.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1724
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1735
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1737,
+            "Zone": 17,
+            "Name": "Atop the eastern wall",
+            "Description": "You are atop the eastern wall.  The wall runs north and south from here.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1724
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1738
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1738,
+            "Zone": 17,
+            "Name": "Atop the eastern wall",
+            "Description": "You are atop the eastern wall.  The wall runs north and south from here.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1737
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1739
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1739,
+            "Zone": 17,
+            "Name": "Atop the eastern wall",
+            "Description": "You are atop the eastern wall.  The wall runs north and south from here.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1738
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1722
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1740,
+            "Zone": 17,
+            "Name": "Atop the southern wall",
+            "Description": "You are atop the southern wall.  The wall runs east and west from here.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1722
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1741
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1741,
+            "Zone": 17,
+            "Name": "Atop the southern wall",
+            "Description": "You are atop the southern wall.  The wall runs east and west from here.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1740
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1742
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1742,
+            "Zone": 17,
+            "Name": "Atop the southern wall",
+            "Description": "You are atop the southern wall.  The wall runs east and west from here.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1741
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1721
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1743,
+            "Zone": 17,
+            "Name": "The secret staircase.",
+            "Description": "As you descend deeper into the earth, you feel a sense of change coming\nover the environment.  It seems to be warping, somehow, as if you are not\ngoing into the ground, but are moving into a different plane altogether.\nYou hope it is just paranoia which makes you feel this way.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1728
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1744
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1744,
+            "Zone": 17,
+            "Name": "The secret staircase.",
+            "Description": "This staircase is descending even farther down than you ever thought possible,\nand you wonder at what could lie at the end of it.  The sounds of torture and\npain drift upwards from somewhere far below you.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1743
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1745
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1745,
+            "Zone": 17,
+            "Name": "Bottom of the staircase.",
+            "Description": "You have finally reached the bottom of the staircase.  North of here a\ndank and musty passage has been carved from solid rock.  Torches line the\nwalls, allowing decent visibility.  All around you, you hear the sounds of\npeople in pain and agony, and you pray you don't join them.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1746
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1744
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1746,
+            "Zone": 17,
+            "Name": "A four-way intersection.",
+            "Description": "You have reached a four-way intersection of stone corridors.  To the east, \nyou hear chanting and prayer.  To the west, screams and wails.  To the north,\nyou hear nothing, which is even more ominous.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1748
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1749
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1745
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1747
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1747,
+            "Zone": 17,
+            "Name": "A red hallway.",
+            "Description": "The hall here is a deep rusty red, and you fear you know the source of the\nunique color.  From the west you can hear ever louder the sounds of poor\nsouls in torment.  You almost vomit from it all.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1746
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1759
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1748,
+            "Zone": 17,
+            "Name": "A white hallway.",
+            "Description": "The hall here is made of pure unstained marble.  You wonder how such purity\ncould exist here within this hall of darkness and evil.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1755
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1746
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1757
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1749,
+            "Zone": 17,
+            "Name": "A black hallway.",
+            "Description": "The walls of this hall are covered with frescos of demons and unholy powers.\nAll the scenes are carved from black obsidian, giving this entire hall\na dark and evil look.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1750
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1746
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1750,
+            "Zone": 17,
+            "Name": "A black hallway.",
+            "Description": "This hallway, like the one before it, is covered in stone carvings of black\nunholy beings in full dominion of the world.  The chanting that pervades this\narea is loudest directly south of here.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1752
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "obsidian"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1751
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1749
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1751,
+            "Zone": 17,
+            "Name": "The Chapel of Chaos",
+            "Description": "You see before you a chapel of some sort, entirely devoted to the powers\nof Chaos.  Paintings of human enslavement by demonic beings cover the walls,\nand in the center of the room is a large altar, covered in dried blood.\nAs you enter, all the worshipers turn towards you, with murder in their eyes.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "obsidian"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1750
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1752,
+            "Zone": 17,
+            "Name": "A grey hallway.",
+            "Description": "This stone hallway leads south, towards the source of the chanting, and\nto the west.  The walls here are plain and unadorned.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1750
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1753
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1753,
+            "Zone": 17,
+            "Name": "A grey hallway.",
+            "Description": "This is a plain stone hallway.  You can hear the sounds of chanting to the\neast.  The hall leads north and east from here.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1754
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1752
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1754,
+            "Zone": 17,
+            "Name": "A grey hallway.",
+            "Description": "This plain hallway leads south and west from here.  To the south you hear\nfaint sounds, almost like chants.  To the west, you see that the corridor\nbecomes marble, and almost pristine is color.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1753
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1755
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1755,
+            "Zone": 17,
+            "Name": "A white hallway.",
+            "Description": "The corridor here is made of pure white marble, with no adornments of any\nkind.  It is quite a contrast to the darkness and gloom of the rest of this\nunderground complex, and you wonder if it is a harbinger of things to come.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1754
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1748
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1756
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1756,
+            "Zone": 17,
+            "Name": "Entrance to the throne room.",
+            "Description": "This is obviously the main entrance into the throne room of Lord Glum.  Two\nmassive bronzewood doors are set into the west wall, with the eight pointed\nsign of chaos emblazoned upon them.  You can feel the awesome power that \nradiates from behind the doors, and you fear to open them.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1755
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "bronzewood"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 1700,
+                    "Destination": 1762
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1757,
+            "Zone": 17,
+            "Name": "A brown hallway.",
+            "Description": "This hallway is of more recent construction is seems.  The walls are rough\nand coarse, with no markings upon them.  From the west you hear tortured\nscreams coming from what you assume are human throats.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1748
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1758
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1758,
+            "Zone": 17,
+            "Name": "A brown hallway.",
+            "Description": "This hall is a continuation of the one to the east.  It too is of newer\nconstruction, with nothing fancy added to it.  To the south you hear the\nsounds of the torture chambers.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1757
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1759
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1759,
+            "Zone": 17,
+            "Name": "A red hallway.",
+            "Description": "This hallway is coloured a shade of red almost identical to dried blood. In\nfact, you are pretty sure it is exactly the shade of dried blood.  The thought\nof that, plus the cacophony of screams from the west, make you sick with\nrevulsion.  Your head is pounding and you feel nauseated.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1758
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1747
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1760
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1760,
+            "Zone": 17,
+            "Name": "A red hallway.",
+            "Description": "You have reached the end of this hall.  Directly to the west, you hear the \nsounds of inhuman torment on all too human victims.  A large iron door blocks\nthe way west.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1759
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "iron"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1761
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1761,
+            "Zone": 17,
+            "Name": "The Cathedral of Pain and Suffering.",
+            "Description": "This is the place where Tangi, brother to Lord Glum, makes his fearsome\nBloodguard.  By means of torture and sorcery, he destroys their mind, and\nreprograms them to be killing machines loyal only to Lord Glum.  It is said\nthat Lord Glum first used this technique to turn Tangi himself into the \nbloodthirsty monster he is today.\nImplements of torture line the walls, and the entire place is filled with\nthe stench of death.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "iron"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1760
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1762,
+            "Zone": 17,
+            "Name": "Hall of Chaos.",
+            "Description": "The walls here seem to shift and pulse, as if alive.  You are unsure of your\nfooting, and you feel as if you have left the lands of Midgaard and entered\na part of the plane of chaos.  You fear for your safety.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "bronzewood"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 1700,
+                    "Destination": 1756
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 1700,
+                    "Destination": 1763
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1763,
+            "Zone": 17,
+            "Name": "Throne of Chaos.",
+            "Description": "You have entered the sanctum sanctorum of Lord Glum Grymourne himself.\nFew have entered here, fewer still have left alive.  He is power and evil\nincarnate, and not even your soul is safe from him.\nA large malachite throne is set against the west wall, and all around the\nroom you see statuettes and figurines of great value, as well as the finest\ntapestries and rugs.  Also covering the walls are a variety of arms and\narmament, all of them powerful.  You wonder if he got them from the bodies of\nthose foolish enough to oppose him, and you wonder if you will be next.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 1700,
+                    "Destination": 1762
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1764,
+            "Zone": 17,
+            "Name": "The Realm of Chaos",
+            "Description": "All around you, the scene shifts and warps.  You can no longer maintain\nyour sanity.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1765,
+            "Zone": 17,
+            "Name": "Deep in the forest of northern Xanth",
+            "Description": "You almost soil your armor as you hear something huge fluttering in the trees\nabove you. This place is getting VERY frightening, and you really don't feel\nlike being here any longer. You feel you definitely MUST be getting back to\nthat safe path, wherever it is...all you see is trackless forest to the east\nand south, though, so you'd better start looking!\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1766
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1767
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1766,
+            "Zone": 17,
+            "Name": "Deep in the forest of northern Xanth",
+            "Description": "Something is very wrong here...somwhow it seems as if the plants are closing in\naround you. You stop and turn around, but can detect no movement from the\nlocal flora. Still, you had probably better move on before something finds\nyou. The forest continues to the west and south.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1768
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1765
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1767,
+            "Zone": 17,
+            "Name": "The forest of northern Xanth",
+            "Description": "The forest seems to be getting denser here, which most likely means that you\nare getting further away from civilization. Still, things are fairly quiet\nhere, so perhaps you can continue exploring. The forest extends to the north,\nsouth, and east from here.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1765
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1768
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1771
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1768,
+            "Zone": 17,
+            "Name": "The forest of northern Xanth",
+            "Description": "The forest is getting pretty dense here, and you are having to use your\nweapon to cut through some of the underbrush. Recalling how most of the\nplants in Xanth have their own ideas about being cut, you are only doing it\nwhen absolutely necessary, but you have a sinking feeling that it is only a\nmatter of time before one of them cuts back. The forest extends in all four\ncardinal directions from here.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1766
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1769
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1772
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1767
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1769,
+            "Zone": 17,
+            "Name": "Deep in the forest of northeastern Xanth",
+            "Description": "You freeze in your tracks as you hear something moving around very VERY close\nto where you are standing, but after a few minutes of waiting, nothing seems\nto happen. This place is enough to give someone a heart attack! The forest\nextends to the south, west, and east from here.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1770
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1773
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1768
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1770,
+            "Zone": 17,
+            "Name": "Deep in the forest of northeastern Xanth",
+            "Description": "You have come across something very strange and unsettling in this portion\nof the forest. A LARGE number of trees have been knocked down and smashed\nto matchwood, fairly recently it looks like. Some of them were as big around\nas you are tall! What could have caused such a thing? Whatever it was, you\ndecide that you definitely don't want to meet it. The forest continues to\nthe south and the west.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1774
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1769
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1771,
+            "Zone": 17,
+            "Name": "The forest of northern Xanth",
+            "Description": "You have left the magic path in order to explore the dangerous forest of\nnorthern Xanth. Strange and disturbing noises from all around you make you\nwonder if perhaps this was not such a good idea after all. The magic path\nlies to the west and south of you, and the forest continues to the north\nand east, if you dare to continue.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1767
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1772
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1616
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1618
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1772,
+            "Zone": 17,
+            "Name": "The forest of northern Xanth",
+            "Description": "You have entered the dangerous, treacherous, perilous forest of northern\nXanth. Strange flora and fauna abound here, and you feel very nervous about\nstraying too far from the path, which lies to the south. However, you can\nexplore more forest to the north, east, or west, if you choose.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1768
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1773
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1615
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1771
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1773,
+            "Zone": 17,
+            "Name": "The forest of northeastern Xanth",
+            "Description": "You have strayed quite a ways from the path, and you are wandering through\nthe forest of northeastern Xanth. All seems pretty quiet so far, but the\nwarning on the sign at the entrance was quite explicit. At any rate, the\nforest continues in all four cardinal directions from here.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1769
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1774
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1647
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1772
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1774,
+            "Zone": 17,
+            "Name": "The forest of northeastern Xanth",
+            "Description": "You are wending your way through the trackless forest of northeastern Xanth.\nYou are endeavoring to be as quiet as possible, so as not to attract unwanted\nattention, but so far this is only allowing you to hear the disquieting sounds\nof the forest more clearly. The forest continues to the north, south, and\nwest. You seem to remember that the magic path lies a ways south from here.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1770
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1646
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1773
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1775,
+            "Zone": 17,
+            "Name": "The forest of central Xanth",
+            "Description": "You are in a small, isolated alcove of forest within the bend of the magic\npath. So far, the only thing to be said about this place is that it would be\neasy to flee to safety from here. You just hope that it doesn't come to that\npoint... The forest continues to the south, and the magic path awaits to the\nnorth, east, and west.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1623
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1621
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1776
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1625
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1776,
+            "Zone": 17,
+            "Name": "The forest of central Xanth",
+            "Description": "This portion of the forest seems alive with noise: chirping, squeaking,\nbuzzing, moaning, and other, less reassuring noises practically surround you.\nThe disconcerting part about it is that you don't see ANY life other than\nplants around here. You shiver slightly at the eeriness of it all. The forest\nextends to the north, east, and south, and the magic path lies to the west.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1775
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1777
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1780
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1626
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1777,
+            "Zone": 17,
+            "Name": "The forest of central Xanth",
+            "Description": "You are off the magic path now, and wending your way through the dark and\ngloomy forest of central Xanth. A strange hissing sound is coming from some\nplace not too far away from you, and you notice that your knuckles are\nturning white on the handle of your weapon. The forest extends east, west,\nand south from here, and the magic path is to the north.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1778
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1781
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1776
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1778,
+            "Zone": 17,
+            "Name": "The forest of central Xanth",
+            "Description": "There is a strange smell coming from somewhere in the vicinity...something\nrather like vinegar or bad wine. It rather reminds you of urine, too. You\nare beginning to feel sick to your stomach, so perhaps it would be best to\npush on now. The forest extends to the south, east, and west; the magic path\nis to the north of you.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1620
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1779
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1652
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1777
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1779,
+            "Zone": 17,
+            "Name": "The forest of central Xanth",
+            "Description": "You are in the forest of central Xanth, not too far from the magic path.\nThings seem pretty quiet around here so far, but you can never be completely\nsure of that, especially in Xanth. The forest extends to the south, west, and\neast, and the magic path is just north of you.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1619
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1650
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1653
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1778
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1780,
+            "Zone": 17,
+            "Name": "The forest of central Xanth",
+            "Description": "You seem to be hearing a lot of birds in this area, for some reason. Perhaps\nthis is a good place for nesting, or something like that. At any rate, the\nforest continues to the north, east, and south, and the magic path is west.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1776
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1781
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1792
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1627
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1781,
+            "Zone": 17,
+            "Name": "Deep in the forest of central Xanth",
+            "Description": "You are stumbling your way through a particularly impassable part of the forest\nwhen you almost tumnble over the edge of a sharp precipice that was completely\ninvisible until you were almost on top of it. Fascinated, you stare down into\nthe huge gorge...it must be miles long! You literally cannot see either of\nthe edges to west or east. Perhaps it extends all the way across Xanth? At any\nrate, this part of the forest is too dangerous to engage in idle geographical\nspeculation, so you had best move on. The forest extends to the north, west, and\neast from here. There is no way to get into the gorge safely.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1777
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1652
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1780
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1782,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "You are deep in the forest of southern Xanth, and things around here are\nabsolutely silent. Not quiet: SILENT. This is too eerie...you'd better get\nout of here before something horrbile happens. The forest extends to the\nsouth, east, and west.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1783
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1784
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1658
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1783,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "You have wandered quite a long ways from the magic path, and you are getting\nworried that you might not be able to find your way back. Maybe you had best\nturn around...The forest extends to the south and west.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1785
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1782
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1784,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "Wait a minute! You just saw something slink past you into the bushes! You\nwait a few minutes, but nothing seems to happen. Still, you circle around\nthe area where you saw it moving, just in case. The forest extends in all\nfour cardinal directions from here.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1782
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1785
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1787
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1661
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1785,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "Hmmm...the ground has been trampled pretty thoroughly here, by something\npretty big and heavy. Looking down, you see hoofprints. Wonder what sort of\nbeast is raoming around here? Hope it's not dangerous...The forest extends\nto the north, south, and west.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1783
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1788
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1784
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1786,
+            "Zone": 17,
+            "Name": "The forest of southern Xanth",
+            "Description": "You are in the forest of southern Xanth. Strange and terrible noises come\nfrom all around you, making you wish you had stayed home. The forest extends\nto the north, south, and east, and the magic path lies to the west.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1661
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1787
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1789
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1636
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1787,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "You seem to have gotten turned around somehow...you are sure you have seen\nthis place before, but you haven't turned around...or have you? You'd better\nhope you aren't lost in here...that would be BAD. The forest extends in all\nfour cardinal directions.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1784
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1788
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1790
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1786
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1788,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "You hear some growling noises coming from the underbrush around you, but you\ncan't see anything. Maybe you ought to think about getting back to that magic\npath, before something untoward happens. The forest extends to the north,\nsouth, and west from here.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1785
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1791
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1787
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1789,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "You are way off of the magic path, so you had better watch yourself around\nhere. There's no telling what may be lurking in a forest like this. The\nforest continues to the north and east.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1786
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1790
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1790,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "The plants around here are moving...and there is no wind. You notice that you\nseem to be gripping your weapon rather tightly. The forest continues to the\nnorth, east, and west.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1787
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1791
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1789
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1791,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "Things are getting stranger in the forest...the plants appear to be closing in\non you. Every time you turn around to look, they stop, but resume their slow,\ninexorable advance when you begin moving again. Unnerving! The forest extends\nto the north and west from here.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1788
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1790
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1792,
+            "Zone": 17,
+            "Name": "The forest of southern Xanth",
+            "Description": "You have left the magic path, and are now exploring the treacherous forest\nof southern Xanth. The trees around here look very odd...some of the trunks\nhave actually been chewed on by something very big, strong, and stupid. This\nis pretty disconcerting. Maybe you'd better go back to the path, which lies\nto the west of you. However, the forest continues to the north and south.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1780
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1795
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1628
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1793,
+            "Zone": 17,
+            "Name": "The forest of southern Xanth",
+            "Description": "The forest here has suffered some heavy damage, from some undeterminable \nsource. Many trees have been smashed to matchwood, bushes torn right out of\nthe ground and chewed on, and rocks pounded into sand. This whole effect is\nvery disquieting...perhaps you should leave. The magic path lies to the\nnorth, and the forest continues to the south and east.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1629
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1794
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1796
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1794,
+            "Zone": 17,
+            "Name": "The forest of southern Xanth",
+            "Description": "You are off of the magic path, and walking around in the dangerous forests\nos southern Xanth. This area is very pretty, but you know better than to\ntrust it simply for that reason. Especially since an earth-shattering roar\nfrom deeper in the forest has just scared you half to death! The forest\nextends to the south, east, and west, and the magic path lies just north\nof where you are.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1628
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1795
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1797
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1793
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1795,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "This place has been TRASHED. Broken pieces of trees lie all over the place,\nand you see a bunch of gravel piles that were probably big hunks of granite\nat one time. Something very strong and very destructive is in the area, which\nmeans that you probably shouldn't be. The forest extends to the north, south,\nand west from where you are.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1792
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1798
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1794
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1796,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "This place is getting very scary. The air all around you has erupted with great\nbig roaring and screaming noises, and you hear some stomping further into the\nforest.  There's a cute little cottage south of here that seems untouched\nby whatever is down here.  What kind of person could live in a place like\nthis?  Certainly someone very powerful...\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1793
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1797
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8280
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1797,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "More howling and roaring is going on here...this is not a good place to be!\nThen you put your foot in something so vile that you almost throw up. It looks\nlike dung, but dung so vile and disgusting that it's almost unbelievable.\nScraping your foot off as best you can, you consider your options. The forest\ncontinues to the north, east, and west.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1794
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1798
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1796
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1798,
+            "Zone": 17,
+            "Name": "Deep in the forest of southern Xanth",
+            "Description": "The forest is getting darker and uglier now. It looks as if these trees have\nbeen wilted by something. Suddenly, the wind shifts, and you get a whiff of\nsomething so foul that you nearly choke on bile, and have to spit it out\ninto the bushes. Perhaps the two are connected! The forest extends to the\nnorth, east, and west.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1795
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1797
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1799,
+            "Zone": 17,
+            "Name": "The forest of southern Xanth",
+            "Description": "You are standing in a forest glen in southern Xanth. There is a foul smell\nin the air, and very loud roaring noises coming from further in the forest.\nYou catch a glimpse of the magic path to the east, and the forest continues\nto the west of your current location.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1633
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1798
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

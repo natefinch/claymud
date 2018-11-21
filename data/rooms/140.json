@@ -1,0 +1,3274 @@
+{
+    "rooms": [
+        {
+            "ID": 14000,
+            "Zone": 140,
+            "Name": "Entrance to a Large Mansion",
+            "Description": "You appear on the steps of a large mansion with strange and intriguing\nlights in the windows.  You can go north to the door of the mansion or go\nback to the south through the Portal!\nA sign catches your eye!  It reads....\nWARNING!!!!  DO NOT GO IN HERE IF UNDER LEVEL 100!!!\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14001
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10302
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14001,
+            "Zone": 140,
+            "Name": "Door to a Large Mansion",
+            "Description": "This is the front door to the mansion of Professor Xavier, and the common\nhome/headquarters for those Uncanny X-Men.  Your curiosity is bubbling\nbut you also fear what you may find!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "Door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 14002
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14000
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14002,
+            "Zone": 140,
+            "Name": "Main Hall of the Xavier Mansion",
+            "Description": "It is a really large entrance foyer that you have walked into, it gives those\nentering time to put away their coats, sticks, weapons, boots, and the like\nIt has stairs going up in front of you and the hall continues east and west.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14003
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14004
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "The",
+                        "Door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 14001
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14011
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14003,
+            "Zone": 140,
+            "Name": "Stairway",
+            "Description": "A spiraling staircase leading to the second floor, nothing to spectacular \nabout this particular staircase, but you better watch your step, there's no\ntelling what kinda surprises the X-Men could have up their sleeves.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14002
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14042
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14004,
+            "Zone": 140,
+            "Name": "North-Eastern Hall of the Mansion",
+            "Description": "A extravagant hall with pictures and murals of great warriors but they are\nsomehow different, almost mutated.  the hall continues north and there is a\ndoor to the east!\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14006
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14002
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14005,
+            "Zone": 140,
+            "Name": "North-Western Hall of the Mansion",
+            "Description": "More intriguing pictures line the walls and battles of old appear to decorate\nthe already lavish walls that appear to have a marble look to them!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14008
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14006
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14006,
+            "Zone": 140,
+            "Name": "Before the Dead End",
+            "Description": "More intriguing pictures line the walls and battles of old appear to decorate\nthe already lavish walls that appear to have a marble look to them!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14007
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14005
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14007,
+            "Zone": 140,
+            "Name": "Dead-End",
+            "Description": "It is a end to the hall this way, perhaps it would be better to not get cornered in by anything in this huge house!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14006
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14008,
+            "Zone": 140,
+            "Name": "North-Western Hall of the Mansion",
+            "Description": "This hall just seems to go on endlessly but you swear you can smell something\ncooking, you can almost smell the spices!!!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14009
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14005
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14009,
+            "Zone": 140,
+            "Name": "Outside the Kitchen",
+            "Description": "The hall does have an end!!  And its by the kitchen...you can hear\nsomeone complaining about trying to clean up Gumbo!!!!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14010
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14008
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14010,
+            "Zone": 140,
+            "Name": "The Kitchen",
+            "Description": "You are standing in a space age kitchen that has become a disaster area.  There\nis crap lying everywhere.  Pots and pans are strewn about the floor, as well\nas chunks of whatever is being cooked.  As you survey the room closely, you\nrealize that a man is cooking here, and cussing as you have never heard.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14009
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14011,
+            "Zone": 140,
+            "Name": "West of the Main Hall",
+            "Description": "There are exits to the north, east and west.  To the east is the main hall,\nnorth takes you through another hallway, and the west you hear some vague\nnoise of maybe a tv.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14025
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14002
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14012
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14012,
+            "Zone": 140,
+            "Name": "Hallway in the Mansion",
+            "Description": "The hallway goes east and west, a common direction you have noticed.  Nothing\nis really standing out other than the fact this place is REALLY BIG!!!!\nYou hear noise to the west, someone arguing about the remote or something.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14011
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14013
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14013,
+            "Zone": 140,
+            "Name": "Intersection in the Hall",
+            "Description": "You can go either north or west from here, you can hear those ramblings to\nthe west getting louder and you wonder what is going on here.  Your curiosity\nis overwhelming!!!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14019
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14012
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14014
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "bookshelf"
+                    ],
+                    "Description": "You see rows and rows of classical books.  One book seems to stand out among\nthe others.  It is called the CURRENT EXPLOITS of the XMEN.  Pull to enter.\nwhoa, a clue to the secret test lab and rec areas of the mutants.\n"
+                },
+                {
+                    "Keywords": [
+                        "painting"
+                    ],
+                    "Description": "WOW, HOLY CRAP, a FRIGGIN PAINTING :P\nYou should really look at the BOOKSHELF\n"
+                },
+                {
+                    "Keywords": [
+                        "equipment"
+                    ],
+                    "Description": "It is lying here in a neat order.  It is all conspicuously pointing toward\nthe bookshelf\nHINT HINT\n"
+                }
+            ]
+        },
+        {
+            "ID": 14014,
+            "Zone": 140,
+            "Name": "Hallway of the Mansion",
+            "Description": "You can smell something from the north and you hear something from the west.\nThe battle for the remote is continuing as you hear crashes and battle noises.\nAt least that is your thoughts as you hear \"I WANNA WATCH OPRAH!\"\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14018
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14013
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14015
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14015,
+            "Zone": 140,
+            "Name": "End of the Hall",
+            "Description": "The end of the hall leaves you with two choices north or south.\nNorth, you can hear the ramblings of a TV commercial, and there is silence\nfrom the south, maybe this should be checked out!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14017
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14014
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14016
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14016,
+            "Zone": 140,
+            "Name": "Observation Lounge",
+            "Description": "There is a big bay window in this room for you to stare out onto the land.\nThe whole yard can be seen here, there are also chairs and couches to relax\non.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14015
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14017,
+            "Zone": 140,
+            "Name": "The Main Living Room of the Mansion",
+            "Description": "There are a couple worn in couches and chairs, it appears this room is used\nquite often, it has a very relaxing atmosphere, you feel the need to sit\ndown and enjoy the tv that is on and kick back for a while.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14018
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14015
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "You try and make it out, you just can't see it...\n"
+                }
+            ]
+        },
+        {
+            "ID": 14018,
+            "Zone": 140,
+            "Name": "Dining Hall of the Mansion",
+            "Description": "This is where the X-Men break bread at the end of a hard day!  It would not\nbe wise to interfere with any part of their dining practices!!!\nExits to the east and west are visual.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14019
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 14014
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14017
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14019,
+            "Zone": 140,
+            "Name": "Another Hallway of the Mansion",
+            "Description": "The hall continues north and there is a dining hall to the west. You smell\nsomething odd from the dining room, maybe you should order a pizza, or just\ngo on ahead north!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14020
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14013
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14018
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14020,
+            "Zone": 140,
+            "Name": "Another Hallway of the Mansion",
+            "Description": "The hallway is getting darker and more narrow as you move, it feels like the\nwalls are closing in! You can continue north or go back south, however your\ncuriousity is pulling you north to see what is at the end of this hall!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14021
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14019
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14021,
+            "Zone": 140,
+            "Name": "Corner of the Hallway",
+            "Description": "It is dark and creepy in this part of the hallway, you can almost feel eyes\nwatching you from every shadow!  You can feel the warm breath of something\non your neck!  As your eyes adjust you see a camera in the upper corner!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14020
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14022
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14022,
+            "Zone": 140,
+            "Name": "Hallway to the Library",
+            "Description": "It is still pitch black but you can make out a door frame at the end of the\nhall to the west, the feeling of dread is semi past as you walk towards the\nwest, but it returns if you go east!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14021
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14023
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14023,
+            "Zone": 140,
+            "Name": "Library of the Mansion",
+            "Description": "There are bookshelves to be sure here, loaded with books for everyone in the\nXavier's School for the Gifted.  You notice all the books are remarkable in\nthat each one is so clean except one, might be a reason!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14022
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A Bookshelf\n",
+                    "Keywords": [
+                        "book"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 14024
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14024,
+            "Zone": 140,
+            "Name": "Hidden Command Center for the X-Men",
+            "Description": "The brain of the mansion, a huge super computer with monitors everywhere.\nYou notice that dark hallway on one of them, that explains the feeling of\nbeing watched! This is usually Professor X's main stay!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "A Bookshelf\n",
+                    "Keywords": [
+                        "book"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 14023
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14025,
+            "Zone": 140,
+            "Name": "Side Hallway",
+            "Description": "A side hallway with a long stretch going north, you are not sure where it goes\nhowever in a place as big as this, it has got to be an adventure!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14026
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14011
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14026,
+            "Zone": 140,
+            "Name": "Side Hallway",
+            "Description": "The hallway continues north and south, it is dimly lit, but you can hear some\nnoise and other racket that sounds of metal and concrete meeting!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14027
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14025
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14027,
+            "Zone": 140,
+            "Name": "Side Hallway",
+            "Description": "The hall continues to run north and south, you can still faintly hear noise\nfrom the north, but you cannot tell what exactly it is!  You can see some\nscrathes along the wall, looks like Wolverine frequents this route!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14028
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14026
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14028,
+            "Zone": 140,
+            "Name": "Back Hallway Intersection",
+            "Description": "The hallway comes to a T-intersection, you hear running water and a steamy\nfog is coming from the east, and there is the sound of grunting to the west\nthat would tell you to be cautious!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14034
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14027
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14029
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14029,
+            "Zone": 140,
+            "Name": "Back Hallway of the Mansion",
+            "Description": "This hallway has a musty type of odor to it, but not to bad that you can't\ncontinue.  You can go try your luck at the weight room of the X-Men or you\ncan take your girly self back east!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14028
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14030
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14030,
+            "Zone": 140,
+            "Name": "Back Hallway of the Mansion",
+            "Description": "You are in a back hallway of the mansion, the size of this place is incredible\nYou can see gym equipment to the north and the hallways continues to the west.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14031
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14029
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14032
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14031,
+            "Zone": 140,
+            "Name": "Gymnasium of the Uncanny X-Men",
+            "Description": "This is no ordinary Gymnasium, you can tell by the strange and utterly devious\nlooking equipment in this room.  There are things here that look more like\ntorture devices than exercise equipment, but these are the X-Men!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14030
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14032,
+            "Zone": 140,
+            "Name": "Back Hallway of the Mansion",
+            "Description": "This like the rest of the back hallway doesn't have anything to intriguing,\nbut there is a work-out gym to the north, you hope you don't interrupt any\nlessons or you may be the next example!!!!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14033
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14030
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14033,
+            "Zone": 140,
+            "Name": "Work-Out Room of the X-Men",
+            "Description": "This room is slightly less deadly than the room next door, but you notice\nmarks on the wall where it appears some of the lessons might have gotten out\nof hand, you wonder when the next lesson is!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14032
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14034,
+            "Zone": 140,
+            "Name": "Back Hallway of the Mansion",
+            "Description": "The hall goes east and west, and the fog is getting a lil thicker but you\ncan still see where you are going quite easily.  The temperature is rising\nas well, you wonder what is down this hall and should you find out?\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14035
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14028
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14035,
+            "Zone": 140,
+            "Name": "Back Hallway of the Mansion",
+            "Description": "It is getting warmer every step you take but it is more of a relaxing heat\nit is soothing your muscles that are sore from your combat of the day!\nYou feel the need to go find out where this refreshing steam is from!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14036
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14034
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14036,
+            "Zone": 140,
+            "Name": "Back Hallway of the Mansion",
+            "Description": "You see the end of the hall to the east and you can always go back west.\nThe steamy fog is a little more light here and cooler air can be felt!\nYou also can smell the scent of chlorine from somewhere!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14037
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14035
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14037,
+            "Zone": 140,
+            "Name": "Back Hallway of the Mansion",
+            "Description": "This end of the hallway has a distinct odor of chlorine and running water can\nbe heard north as well, you wonder what kind of water sports the X-Men take\npart in, and if it is safe!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14038
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14036
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14038,
+            "Zone": 140,
+            "Name": "Relaxation Quad",
+            "Description": "This is the room that adjoins all the relaxation rooms of the mansion!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14039
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14040
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14037
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14041
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14039,
+            "Zone": 140,
+            "Name": "The Pool",
+            "Description": "This is an olympic sized pool with a strong odor of chlorine and it looks like\nsome of the water sports here have gotten a lil rough, there are scratches on\nthe sides of the pool.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14038
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14040,
+            "Zone": 140,
+            "Name": "The Hot-Tub of the Mansion",
+            "Description": "A larger than usual hot-tub, I guess to fit some of the other larger \"gifted\"\nstudents here at Professor X's school.  It is nice and warm and the water \ncalls to your battle racked body!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14038
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14041,
+            "Zone": 140,
+            "Name": "Steam Room",
+            "Description": "You can hardly see when you enter, but your eyes quickly adjust.  It is the\nsteam room where the X-Men can lose some tension and maybe get a rub down\nafter the long hard battles.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14038
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14042,
+            "Zone": 140,
+            "Name": "Flight of Stairs",
+            "Description": "A spiraling staircase that leads downward to the first floor.  It is carpeted\nand is very old looking but well kept.  You still might want to watch your\nstep on the way down!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14043
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14003
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14043,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14045
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14042
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14014,
+                    "Destination": 14044
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14044,
+            "Zone": 140,
+            "Name": "Wolverine's Bedroom",
+            "Description": "With scratches all over the walls, and the shredded picture of Cyclops, you \ncan make the assumption this is Wolverine's room.  His hate for how Cyclops\ngot Jean has made him bitter, but still a worthy ally.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14014,
+                    "Destination": 14043
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14045,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14046
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14043
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14046,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14048
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14015,
+                    "Destination": 14047
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14045
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14047,
+            "Zone": 140,
+            "Name": "Storm's Bedroom",
+            "Description": "This is obviously Storm's bedroom, there is a clothes closet the size of some\nbedrooms, and the fact the air in this room is so comfortable shows its\nowners control of the environment!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14015,
+                    "Destination": 14046
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14048,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14049
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14046
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14051
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14049,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14050
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14048
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14050,
+            "Zone": 140,
+            "Name": "Dead End of the 2nd Floor",
+            "Description": "The end of the hallway where it seems a good hiding spot to jump those coming\nup the stairs, it is also the darkest corner of the mansion.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14049
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14051,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14048
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14052
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14052,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14019,
+                    "Destination": 14053
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14051
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14020,
+                    "Destination": 14054
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14055
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14053,
+            "Zone": 140,
+            "Name": "Cyclops' Room",
+            "Description": "A picture on a nightstand by the bed of Jean Grey tells you this is Cyclops'\nroom, and there are plans and maps of past and future missions scattered all\nabout the room, it appears he takes his duties VERY seriously, you better go!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14019,
+                    "Destination": 14052
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14054,
+            "Zone": 140,
+            "Name": "Jean's Room",
+            "Description": "Although she is rarely here, and when she is it is not alone, this is her room\nand she likes it left undisturbed, so I advise leaving before her or Cyclops\nstops in for something!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14020,
+                    "Destination": 14052
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14014,
+                    "Destination": 14099
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14055,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14052
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14056
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14059
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14056,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14055
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14057
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14057,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14056
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14018,
+                    "Destination": 14058
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14058,
+            "Zone": 140,
+            "Name": "Nightcrawler's Bedroom",
+            "Description": "You have NO idea what has lived here, and from the looks of the door it has \nnever been opened!!!  Whoever lives here must have a pretty neat way of \ngetting around the mansion!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14018,
+                    "Destination": 14057
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14059,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14060
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14055
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14061
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14060,
+            "Zone": 140,
+            "Name": "Steps to the 3rd Floor",
+            "Description": "Yet another spiraling staircase leading upwards further...You fear what else\nthe mansion may have yet to discourage you with!  This is not a place for the\ntimid!!!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14059
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14071
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14061,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14059
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14016,
+                    "Destination": 14062
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14063
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14062,
+            "Zone": 140,
+            "Name": "Rogue's Bedroom",
+            "Description": "A quaint little piece of south is in the room, you can sense it!  There is\npictures of Mardi Gras and other southern events that you don't recognize.\nAnd you can also see a picture of Gambit tucked away on a dresser!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14016,
+                    "Destination": 14061
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14063,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14061
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 14064
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14066
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14064,
+            "Zone": 140,
+            "Name": "Gambit's Room",
+            "Description": "A room filled with playing cards everywhere, but none more seen than the Ace\nof Spades, you assume the owners calling card!!  There is a picture of Rogue\non a dresser in the corner and the smell of Gumbo in the air!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 14063
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14065,
+            "Zone": 140,
+            "Name": "Beast's Abode",
+            "Description": "There is a endless supply of books in this room!!!  The owner is quite\nthe scholar and takes great pride in his library of sorts...however smaller\nthan the Mansion's library still a handsome collection!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14017,
+                    "Destination": 14068
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14066,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14068
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14063
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The door",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14022,
+                    "Destination": 14067
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14067,
+            "Zone": 140,
+            "Name": "A REALLY BIG ROOM!!!!!",
+            "Description": "This room was obviously made for the largest and strongest of the X-Men, and\nthey made this room none to weak, it has a metal on the walls that looks like\nit could withstand a tank blast close range!!!!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14022,
+                    "Destination": 14066
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14068,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14069
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14017,
+                    "Destination": 14065
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14066
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14069,
+            "Zone": 140,
+            "Name": "2nd Floor Hallway",
+            "Description": "",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14068
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14021,
+                    "Destination": 14070
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14070,
+            "Zone": 140,
+            "Name": "Jubilee's Room",
+            "Description": "A room with a few knicks in it!  A FEW???  Who are we kidding, it looks like\nsomeone hasn't mastered their special talent yet, this room has more holes\nthan a screen.  At least the door was made solid and hasn't blown up yet!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14021,
+                    "Destination": 14069
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14071,
+            "Zone": 140,
+            "Name": "Stairs",
+            "Description": "Stairs spiraling downward to the second floor, and after hearing some of the\nsounds and screams from this floor you feel like going down more and more!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14060
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14072,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14071
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14073
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14089
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14073,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14074
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14074,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14073
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14075
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14075,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14095
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14076
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14074
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14076,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14075
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14078
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14077
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14077,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14076
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14078,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14076
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14079
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14079,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14080
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14078
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14080,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14083
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14081
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14079
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14081,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14080
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14082
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14082,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14081
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14083,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14084
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14080
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14084,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14083
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14085
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14085,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14086
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14084
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14086,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14092
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14087
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14085
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14087,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14088
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14086
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14088,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14089
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14087
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14089,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through, however you hears noises to the\neast, but that just might be what you don't want!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14090
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14088
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14090,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through, but there is noises even louder\ncoming from around you, you can't see anything but it is close!!!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The wall\n",
+                    "Keywords": [
+                        "wall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14026,
+                    "Destination": 14091
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14089
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14091,
+            "Zone": 140,
+            "Name": "THE DANGER ROOM",
+            "Description": "This is the REAL DEAL, there are no games in this room, it's all or nothing.\nYou will have to be extra cautious or extra dead! The X-Men made this room\nto hone their powers, can you survive? We shall see!\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The simulation\n",
+                    "Keywords": [
+                        "simulation"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14025,
+                    "Destination": 14097
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The simulation\n",
+                    "Keywords": [
+                        "simulation"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14023,
+                    "Destination": 14096
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The wall\n",
+                    "Keywords": [
+                        "wall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14026,
+                    "Destination": 14090
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The simulation\n",
+                    "Keywords": [
+                        "simulation"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14024,
+                    "Destination": 14098
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14092,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14086
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14093
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14093,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14094
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14092
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14095
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14094,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14093
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14095,
+            "Zone": 140,
+            "Name": "Maze of the Danger Room",
+            "Description": "A baffling array of rooms that has no apparent direction that is correct!\nYou will have to guess your way through!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14093
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 14075
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14096,
+            "Zone": 140,
+            "Name": "Magneto's Simulation",
+            "Description": "This is the simulation with the king of all evil mutants!  The X-Men made this\nsimulation for one reason, to add all the new techniques they encounter from\nMagneto to it so they can be ready and train for when they battle!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The simulation\n",
+                    "Keywords": [
+                        "simulation"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14023,
+                    "Destination": 14091
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14097,
+            "Zone": 140,
+            "Name": "Juggernaut's Simulation",
+            "Description": "This simulation pits you against the X-Men's favorite ramming dim-witted\nsometimes, foe.  He is a tough sim to beat, but the X-Men can do it, so can\nyou if you are strong enough, Good Luck!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The simulation\n",
+                    "Keywords": [
+                        "simulation"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14025,
+                    "Destination": 14091
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14098,
+            "Zone": 140,
+            "Name": "Basic Simulation",
+            "Description": "This is a basic simulation filled with terrors and booby traps for the X-Men,\nmade to help them count on agility and fighting teamed together, this is \nstill a formiddable room, and do not underestimate it!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The simulation\n",
+                    "Keywords": [
+                        "simulation"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14024,
+                    "Destination": 14091
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 14099,
+            "Zone": 140,
+            "Name": "A storage attic",
+            "Description": "As you look around you see a room filled with old discarded memories that\nJean is trying to forget, and when you look you see something glowing in\nthe corner.  What could it be, it appears to be OH NO, it is the DARK Phoenix\nand it never left Jean's side, it has just been hiding here awaiting to be\ndiscovered by her again, maybe this is hy Jean never comes up here, she knows\nand keeps the door locked...you had beeter run before it absorbs your soul!\n",
+            "Bits": [
+                "DEATH",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 14014,
+                    "Destination": 14054
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

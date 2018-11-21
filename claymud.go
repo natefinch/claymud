@@ -12,6 +12,7 @@ import (
 	"time"
 
 	"github.com/natefinch/claymud/game"
+	"github.com/natefinch/claymud/util"
 
 	"github.com/natefinch/claymud/auth"
 	"github.com/natefinch/claymud/config"
@@ -39,7 +40,8 @@ func Main() error {
 	flag.Parse()
 
 	// config must be first!
-	if err := config.Initialize(); err != nil {
+	cfg, err := config.Initialize()
+	if err != nil {
 		return err
 	}
 	dir := config.DataDir()
@@ -73,11 +75,13 @@ func Main() error {
 	}()
 	lock := &sync.RWMutex{}
 
-	// World needs to be last.  WE
-	if err := world.Initialize(lock.RLocker(), shutdown, wg); err != nil {
+	// World needs to be last.
+	if err := world.Initialize(dir, lock.RLocker(), shutdown, wg); err != nil {
 		return err
 	}
-
+	if err := world.SetStart(util.Id(cfg.StartRoom)); err != nil {
+		return err
+	}
 	global := game.SpawnWorker(lock, shutdown, wg)
 
 	host := net.JoinHostPort("127.0.0.1", strconv.Itoa(port))

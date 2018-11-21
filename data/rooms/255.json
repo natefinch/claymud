@@ -1,0 +1,3282 @@
+{
+    "rooms": [
+        {
+            "ID": 25500,
+            "Zone": 255,
+            "Name": "The Studio",
+            "Description": "This is Sargon's favorite place, his space at the craft center.  Two large\r\r\r\r\r\r\r\r\r\r\r\ntables define the north and south boundries.  On these tables are several\r\r\r\r\r\r\r\r\r\r\r\nclay vessels in various stages of completion.  The concrete wall to the east\r\r\r\r\r\r\r\r\r\r\r\nis covered with posters.  Against the wall is a desk full of clay tools and\r\r\r\r\r\r\r\r\r\r\r\nceramics books.  Next to the desk is a large garbage can of aging clay and\r\r\r\r\r\r\r\r\r\r\r\nseveral recycle buckets.  The western border is a heavy shelving unit full\r\r\r\r\r\r\r\r\r\r\r\nof completed ceramic wares.  In the center of the floor is a crappy Shimpo\r\r\r\r\r\r\r\r\r\r\r\nthrowing wheel.\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1204
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25501,
+            "Zone": 255,
+            "Name": "Opening Credits",
+            "Description": "Along time ago, in a galaxy far, far away...\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25502,
+            "Zone": 255,
+            "Name": "In Space - Outside the Hanger Bay - Exploding into a Thousand Bits.",
+            "Description": "----------------------------------------------------------------------------\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r  \"The Hitchhikers Guide to the Galaxy says that if you can hold a lungful\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r       of air you can survive the total vacuum of space. However, it does\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r       go on to say that with space being the mind boggling size that it is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r       your chances of being picked up in that thirty seconds are 2 to the \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r       power of 267709 to 1 against.\"\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r   Congratulations on Finding One of the \"Top 3 most obvious Dt's\" on \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r     mud.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rPlease stop by again!!!!!\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOFLEE",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "Hatch"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25568
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "blastdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 25500,
+                    "Destination": 25510
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25503,
+            "Zone": 255,
+            "Name": "Entrance Ramp of the Millenium Falcon",
+            "Description": "You have just stepped onto the ramp leading into the Millenium Falcon.  At \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe top you see a scruffy looking man waiting for nothing in particular.  The\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rFalcon looks prepped and ready to leave for some exotic location.  You hurry\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rup the ramp to talk to the man who is the only one that will let you in.  \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rHope you brought your wallet because it's going to cost you to ride.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25582
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "hatch",
+                        "ramp",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 25523,
+                    "Destination": 25510
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25504,
+            "Zone": 255,
+            "Name": "Tie Pilot's Rec Room",
+            "Description": "This is where all the Tie Fighter pilots come after a long day shooting\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rRebel star-fighters out of the sky.  It's quite cozy.  Posters all over\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe wall and carpeting with nice soft beds.  The Empire likes to treat\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit's pilots well, mainly because the first mission is usually a rookies\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rlast.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the Hangar Bay continues.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25505
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25534
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25505,
+            "Zone": 255,
+            "Name": "Death Star Hangar Bay 1824",
+            "Description": "This is the secondary hanger bay, actually one of the many secondary bays.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThe hanger is as large as the one you entered in the Falcon.  The ships \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\routside the bay are buzzing around coming and going from here never allowing\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe grass to grow beneath the pilot's feet.  You feel sorry for the many\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rpilots leaving from this bay.  Most won't return.  Oh well at least it's \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rnot you.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "To the south, you can see the Hangar Bay's Landing Zone.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25510
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the Hangar Bay continues.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25504
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25509
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25506,
+            "Zone": 255,
+            "Name": "Garbage Compactor",
+            "Description": "The walls in this room are large and very slick.  The room is strewn with\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rgarbage.  The stench is very bad.  You wish you had a gas mask to filter\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthis overpowering gas.  Of course the gas is not where the real danger lies\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rin this room.  As you entered the walls started closing in.  Fortunately\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rfor you after crushing you the machine just stops.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "INDOORS",
+                "NOFLEE",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25507
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25507,
+            "Zone": 255,
+            "Name": "Service Tunnel",
+            "Description": "These tunnels allow service personel to fix whatever goes wrong on the \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rDeath Star if the lifts don't work.  They all look the same to you, but\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe service personel must be able to tell the difference.  The tunnel\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ris all grey and very cold.  Fortunately it's safe.  And that's all that \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rmatters to you right now.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "TUNNEL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25508
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25567
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25562
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25508,
+            "Zone": 255,
+            "Name": "Service Tunnel",
+            "Description": "These tunnels allow service personel to fix whatever goes wrong on the \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rDeath Star if the lifts don't work.  They all look the same to you, but\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe service personel must be able to tell the difference.  The tunnel\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ris all grey and very cold.  Fortunately it's safe.  And that's all that \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rmatters to you right now.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "TUNNEL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "\r\r\r\r\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25507
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25514
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25534
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25509,
+            "Zone": 255,
+            "Name": "Starfighter Maintenance Shed",
+            "Description": "This small room is where the maintenance crews come for tools or spare parts.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rYou can't see anything really special about the room other then that it is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rquite cluttered and some really neat looking space ship peices.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, you see the Hangar Bay's Landing Zone\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25510
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25515
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "Door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25535
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the Hangar Bay continues.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25505
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25510,
+            "Zone": 255,
+            "Name": "Death Star Hanger Bay 1823",
+            "Description": "From here all the arriving ships land.  Be they friend or foe it doesn't\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rmatter.  The Millenium Falcon is sitting in this bay, an innocent victim\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rin an enemy territory.  The huge tractor beam projectors are also in this \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rroom ready to snare any ship without the proper clearance codes.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rFortunately there are no guards here so you can escape from the Falcon without\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rfear of capture.  Enjoy your stay on the Death Star, may it be your first of\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rmany.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the Hangar Bay continues.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25505
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the East is outer space. Get a flight suit before you enter.",
+                    "Keywords": [
+                        "blastdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 25500,
+                    "Destination": 25502
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the Hangar Bay continues.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25516
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the Hangar Bay continues.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25509
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "hatch",
+                        "ramp",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 25523,
+                    "Destination": 25584
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25511,
+            "Zone": 255,
+            "Name": "Space",
+            "Description": "You can see stars all around you. The ones in space and the ones infront of\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ryour eyes.  The oxygen deprevation is getting to you.  That and the \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rpressure.  You could stay but there really is no reason to.  After all your\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rabout to be dead.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "NOMOB",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25577
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, you can see the Hangar Bay's Landing Zone.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25510
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25512,
+            "Zone": 255,
+            "Name": "Service Tunnel",
+            "Description": "Of all the places to go you had to pick here.  This is the chute that\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rruns to the compactor.  The piles of moving trash are wierd mutations\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rand nothing at all to worry about.  Unfortunately once you've passed you\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcan't go back.  Oh well it's a swell ride.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "TUNNEL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25506
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25513,
+            "Zone": 255,
+            "Name": "Dimly Lit Corridor",
+            "Description": "Your encounter with the Emperor is over.  You feel relieved.  This room is\r\r\r\nkept dark to try to get you to still feeling afraid.  Of course after meeting\r\r\r\nthe Emperor this room is just a walk in the park.\r\r\r\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 25501,
+                    "Destination": 25560
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3001
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25514,
+            "Zone": 255,
+            "Name": "Death Star Hangar Bay - Western Wall",
+            "Description": "--------------------------------------------------------------------------------\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rBelow you, the polished black floor echos your footsteps as you make your\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rway through the numerous Stormtrooper Squads assembled for the arrival of\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe Emperor's private shuttle escort.  Various power cell chargers and\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rdroid maintenance workers populate the area.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the Hangar Bay continues.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25508
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the Hangar Bay continues.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25515
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25515,
+            "Zone": 255,
+            "Name": "Death Star Hangar Bay - Main Platform",
+            "Description": "--------------------------------------------------------------------------------\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rBelow you, the polished black floor echos your footsteps as you make your\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rway through the numerous Stormtrooper Squads assembled for the arrival of\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe Emperor's private shuttle escort.  Various power cell chargers and\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rdroid maintenance workers populate the area.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the Hangar Bay continues.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25509
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the Hangar Bay continues.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25516
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the Hangar Bay continues.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25514
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, you can see the Hangar Bay's Landing Zone.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25510
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25516,
+            "Zone": 255,
+            "Name": "Unshielded Hanger Bay",
+            "Description": "This hangar is currently under repair. The magnetic shielding is faulty\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rand offers no protection from the harshness of space.  As you keep standing\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rhere you can feel your blood start to burst.  You realize you had better\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rleave if you want to survive.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DEATH",
+                "NOMOB",
+                "INDOORS",
+                "NOFLEE",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, you can see the Hangar Bay's Landing Zone.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25510
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25515
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25517,
+            "Zone": 255,
+            "Name": "Turbo Lift",
+            "Description": "This high speed elevator platform is a much better impovement to the cable\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rand counterweight elevators of old.  It works on repulsor-lift technology.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThe lift is extremely fast and can rise fifty floors in what seems like a \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rheartbeat.  Hold on it's about to move.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "\r\r\r\r\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25518
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25528
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25518,
+            "Zone": 255,
+            "Name": "Detention Level Corridor",
+            "Description": "This corridor is short and dimly lit.  Suiting the detention level spirit.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThe prisoners are brought in through this corridor and lead to either a\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rlong jail stay with little or no chance of leaving, or a long and painful\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rdeath.  Enjoy your visit to this level.  You might be staying awhile.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "\r\r\r\r\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25519
+                },
+                {
+                    "Direction": "West",
+                    "Description": "\r\r\r\r\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25517
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25519,
+            "Zone": 255,
+            "Name": "Detention Level Security Checkpoint",
+            "Description": "This security checkpoint is armed with your average security Laser cannon. \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThe cannon is turning towards you so you better run.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25520
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25518
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25520,
+            "Zone": 255,
+            "Name": "Detention Level Cell-block A",
+            "Description": "This is the last sight many inmates see before they are imprisoned.  Not a \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rpretty sight.  The hall is short with what looks like red running lights\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rin it.  Not a great sight to see when you're about to be imprisoned.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rOf course this isn't a cruise this is a prison, and most of the inmates\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rare either gone mentally or just plain gone.  Hopefully you don't become\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rone of them.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "\r\r\r\r\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25521
+                },
+                {
+                    "Direction": "East",
+                    "Description": "\r\r\r\r\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25524
+                },
+                {
+                    "Direction": "South",
+                    "Description": "\r\r\r\r\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25522
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25519
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25521,
+            "Zone": 255,
+            "Name": "Cell",
+            "Description": "This is quite a bare cell.  The only furniture in it is the bench for\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rprisoners to sleep on.  You are glad you aren't one of the poor\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rhelpless prisoners.  This would be a horrible place to die.  Nothing\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rto look at or do.  No wonder many prisoners give the Empire the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rinformation that the Empire wants to hear.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "\r\r\r\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25520
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25522,
+            "Zone": 255,
+            "Name": "Cell",
+            "Description": "This is quite a bare cell.  The only furniture in it is the bench for\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rprisoners to sleep on.  You are glad you aren't one of the poor\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rhelpless prisoners.  This would be a horrible place to die.  Nothing\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rto look at or do.  No wonder many prisoners give the Empire the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rinformation that the Empire wants to hear.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25520
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "panel"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25527
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25523,
+            "Zone": 255,
+            "Name": "Cell",
+            "Description": "This is quite a bare cell.  The only furniture in it is the bench for\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rprisoners to sleep on.  You are glad you aren't one of the poor\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rhelpless prisoners.  This would be a horrible place to die.  Nothing\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rto look at or do.  No wonder many prisoners give the Empire the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rinformation that the Empire wants to hear.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25524
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25524,
+            "Zone": 255,
+            "Name": "Detention Level Cell-block B",
+            "Description": "This is the last sight many inmates see before they are imprisoned.  Not a \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rpretty sight.  The hall is short with what looks like red running lights\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rin it.  Not a great sight to see when you're about to be imprisoned.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rOf course this isn't a cruise this is a prison, and most of the inmates\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rare either gone mentally or just plain gone.  Hopefully you don't become\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rone of them.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25523
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25526
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25525
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25520
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25525,
+            "Zone": 255,
+            "Name": "Cell",
+            "Description": "This is quite a bare cell.  The only furniture in it is the bench for\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rprisoners to sleep on.  You are glad you aren't one of the poor\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rhelpless prisoners.  This would be a horrible place to die.  Nothing\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rto look at or do.  No wonder many prisoners give the Empire the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rinformation that the Empire wants to hear.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25524
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25526,
+            "Zone": 255,
+            "Name": "Cell",
+            "Description": "This is quite a bare cell.  The only furniture in it is the bench for\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rprisoners to sleep on.  You are glad you aren't one of the poor\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rhelpless prisoners.  This would be a horrible place to die.  Nothing\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rto look at or do.  No wonder many prisoners give the Empire the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rinformation that the Empire wants to hear.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25524
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25527,
+            "Zone": 255,
+            "Name": "Service Tunnel",
+            "Description": "Of all the places to go you had to pick here.  This is the chute that\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rruns to the compactor.  The piles of moving trash are wierd mutations\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rand nothing at all to worry about.  Unfortunately once you've passed you\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcan't go back.  Oh well it's a swell ride.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "TUNNEL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "panel"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25522
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25512
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25528,
+            "Zone": 255,
+            "Name": "Turbo Lift",
+            "Description": "This high speed elevator platform is a much better impovement to the cable\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rand counterweight elevators of old.  It works on repulsor-lift technology.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThe lift is extremely fast and can rise fifty floors in what seems like a \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rheartbeat.  Hold on it's about to move.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25517
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25537
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25531
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25530
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25529,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25536
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25530
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25530,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25531
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25528
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25529
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25531,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25530
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25532
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25528
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25532,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25566
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25533
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25531
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25533,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25567
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25532
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25534
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25534,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25504
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25535
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25508
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25533
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25535,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25534
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25509
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25536
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25536,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25529
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25535
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25537,
+            "Zone": 255,
+            "Name": "Turbo Lift",
+            "Description": "This high speed elevator platform is a much better impovement to the cable\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rand counterweight elevators of old.  It works on repulsor-lift technology.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThe lift is extremely fast and can rise fifty floors in what seems like a \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rheartbeat.  Hold on it's about to move.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25538
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25528
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25538,
+            "Zone": 255,
+            "Name": "Security Checkpoint",
+            "Description": "The walls, floors, and ceiling in this room are polished, grey metal.  This\r\r\r\nis a standard security checkpoint.  A Red security computer monitors the \r\r\r\nstation.  You were scanned for intent and concealed weapons the moment you\r\r\r\nstepped into the room.  Cameras are recording your every movement and the\r\r\r\ndefensive grid has been charged.\r\r\r\n",
+            "Bits": [
+                "DEATH",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25539
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25537
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25539,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25540
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25548
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25538
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25547
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25540,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25541
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25539
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25542
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25548
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25541,
+            "Zone": 255,
+            "Name": "Tractor Beam Control Room",
+            "Description": "This is where the tractor beam controls are.  The room is alive with flashing\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rlights and a powerful hum.  The hum is coming from just behind the wall.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThe actual control for the tractor beam is several large levers on the wall.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rYou can look down over the edge of the ledge and see a huge chasm.  You\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rwish you could see the bottom.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25542
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25540
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25576
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25542,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25543
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25541
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25540
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25543,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25542
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": 25501,
+                    "Destination": 25556
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25544
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25544,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25554
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25545
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25543
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25549
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25545,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25544
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25553
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25549
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25546
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25546,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25553
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25552
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25547
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25545
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25547,
+            "Zone": 255,
+            "Name": "Main Corridor",
+            "Description": "This is a long winding corridor through the Death Star.  The floors are clean\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renough to eat off of, and you can see your smiling(or maybe fearful) face in\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit.  The walls are nondescript mainly because this battle station is the size\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof a small moon and finding pretty pictures for all of them would take a   \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcouple of years to do.  You look around and realize that one corridor is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ridentical to another save for the way it leads.  Hopefully you don't get lost.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25546
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25551
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25539
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25548,
+            "Zone": 255,
+            "Name": "Radiation Shield Room",
+            "Description": "This is a very large room with a very large warning symbol in it.  \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r\"The Reactor is guarded from intrusion, enter at your own risk\". \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThe room you are in is safe enough but do you really want to try your\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rluck in the next room.  A small part of you is saying go for it\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rwhile another is saying don't even think about it.  Of course you\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rneed to get the key to enter.  To get the key you have to persuade\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe Moff to let go of it.  Think you can do it?\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "shield"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 25502,
+                    "Destination": 25550
+                },
+                {
+                    "Direction": "West",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25539
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25540
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25549,
+            "Zone": 255,
+            "Name": "Radiation Shield Room",
+            "Description": "This is a very large room with a very large warning symbol in it.  \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r\"The Reactor is guarded from intrusion, enter at your own risk\". \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThe room you are in is safe enough but do you really want to try your\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rluck in the next room.  A small part of you is saying go for it\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rwhile another is saying don't even think about it.  Of course you\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rneed to get the key to enter.  To get the key you have to persuade\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe Moff to let go of it.  Think you can do it?\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "shield"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 25502,
+                    "Destination": 25550
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25544
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25545
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25550,
+            "Zone": 255,
+            "Name": "Inside the Reactor",
+            "Description": "This large room is the home of the reactor.  The room is big enough\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rto fit several small fighters in it.  The reactor itself dominates the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rmiddle of the room.  It glows and pulses giving off an ominous light.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThis room is big enough to hide a ship in it.  Wonder what else it may\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rhide?\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "shield"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 25502,
+                    "Destination": 25549
+                },
+                {
+                    "Direction": "West",
+                    "Description": "\r",
+                    "Keywords": [
+                        "shield"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 25502,
+                    "Destination": 25548
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25551,
+            "Zone": 255,
+            "Name": "Grand Moff Tarkin's Office",
+            "Description": "This is the Moff's lavish office.  It has art from many an extinct\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcultures.  The chairs and the couch are pure leather.  From here you can \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rsee outside to a limited degree.  The dark cieling and dark floor help\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ryou to see the starry sky from a little window in the wall.  The Moff\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rusually hides in here from the many nagging questions of the lower\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rranking officials.  If you want to stay onboard to fight the Dark Lord \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rmaybe you should hide in here also.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25547
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25552
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25552,
+            "Zone": 255,
+            "Name": "War Room",
+            "Description": "This is where the strategy for destroying the Rebels and for keeping planets\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rloyal to the Empire takes place.  The Officers are always bickering about\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rwhose territory to protect more.  This room is sometimes graced by the Moff\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rbut usually the quarrels are not worth the Moff's time.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThere is a long table with many chairs seated around it here.  The Moff\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rsits at the head of the table while the others sit on the sides.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25546
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25551
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25553
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25553,
+            "Zone": 255,
+            "Name": "Observation Room",
+            "Description": "From here you can see what the super laser destroys.  It's almost a front\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rrow seat.  Except for the poor souls on the planet who get a better view.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThe viewport is very large to accommadate all the viewers.  It also \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rprovides you with an excellent view of space.  The rest of the room is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rquite dull so as to not distract the viewers.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25545
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25546
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25552
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25554,
+            "Zone": 255,
+            "Name": "Super Laser Control Room",
+            "Description": "This is where the real power of the Death Star is controlled.  These screens\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ranalyze the makeup of a planet and then allow the controllers to blow up \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe planet.  This one laser is more powerful then half the entire fleet.  The\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rmany computers display different planets and technical reports for the \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rlaser firing crew.  With the levers and dials in this room life as we know\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rit on some planets will cease to exhist.  Mainly because the planet will \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rbe gone.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25544
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "grate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25555
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25555,
+            "Zone": 255,
+            "Name": "In the Super Laser Cannon",
+            "Description": "This is where the super laser originates.  This cannon can vaporize planets\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rwith a single blast.  The cannon is just huge.  You can't see where the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rlaser exits the cannon from.  Hopefully you are not present when they fire t\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthis thing.  The blast would be quite deadly to a single person.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "TUNNEL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "grate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25554
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25556,
+            "Zone": 255,
+            "Name": "Security Checkpoint",
+            "Description": "The walls, floors, and ceiling in this room are polished, grey metal.  This\r\r\r\nis a standard security checkpoint.  A Red security computer monitors the \r\r\r\nstation.  You were scanned for intent and concealed weapons the moment you\r\r\r\nstepped into the room.  Cameras are recording your every movement and the\r\r\r\ndefensive grid has been charged.\r\r\r\n",
+            "Bits": [
+                "DEATH",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25557
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25543
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25557,
+            "Zone": 255,
+            "Name": "Secondary Security Checkpoint.",
+            "Description": "This check point has a similar setup to the room you just left.  The room is\r\r\r\ngrey and sterile, because NOTHING that comes in here without proper clearance\r\r\r\nleaves this room alive.  Warning sirens blare, warning the station of your\r\r\r\nattempted....\r\r\r\nSorry, you're dead.\r\r\r\n",
+            "Bits": [
+                "DEATH",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25556
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25558
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25558,
+            "Zone": 255,
+            "Name": "Royal Guard's Post",
+            "Description": "Here stands the Emperor's personnally trained bodyguards.  The two of them\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ralone are usually enough.  If not then the Emperor has two with him at all\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rtimes.  The room is rather small.  The only real space in here is for\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe few visitors and for the guards.  The room is an off-white color with\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe Death Stars usual grey floors.  This room is rather cramped.  Maybe\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ryou won't have to fight in this tight space.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25559
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25557
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25559,
+            "Zone": 255,
+            "Name": "Dimly Lit Corridor",
+            "Description": "This is a very dark hall.  The floor is hard to see in the low lighting.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThis lighting adds to the mood of seeing the almighty Emperor Palpatine.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rTo the south you can barely see a small room.  And to the east is the \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthrone room.  Do you dare go in?\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 25501,
+                    "Destination": 25560
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25561
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25558
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25560,
+            "Zone": 255,
+            "Name": "Emperor Palpatine's Throne Room",
+            "Description": "From this room the Emperor controls most of the galaxy.  He sits in a\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rhigh backed, swiveling chair.  This allows him to peer out the viewport\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ror look at his humble subjects.  You can feel immense power radiating\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rfrom this room.  The fact that the two openings to the north and south\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rlead straight to the reactor doesn't help.  Don't get to close or you\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rmight fall in.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25576
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 25501,
+                    "Destination": 25513
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25576
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25559
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25561,
+            "Zone": 255,
+            "Name": "Dignitary's Lodgings",
+            "Description": "This is where the dignitaries from around the Empire come to wait for\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ran audience with the Emperor.  The room is very plush.  The walls\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rare covered with paintings of faraway places.  The room is lined with\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rseveral very comfortable couches. Maybe you should rest here a bit\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rbefore you seek out the Emperor.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25559
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25562,
+            "Zone": 255,
+            "Name": "Service Tunnel",
+            "Description": "These tunnels allow service personel to fix whatever goes wrong on the \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rDeath Star if the lifts don't work.  They all look the same to you, but\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe service personel must be able to tell the difference.  The tunnel\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ris all grey and very cold.  Fortunately it's safe.  And that's all that \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rmatters to you right now.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "TUNNEL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25507
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25564
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25563,
+            "Zone": 255,
+            "Name": "Stormtrooper Garrison - Locker Area",
+            "Description": "This is where all the Stormtroopers keep their belongings.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThis room is a soothing grey compared to the cold grey of the hall.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rEach locker has an identification number so that the Stormtroopers\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rknow which locker is theirs.  None of these lockers are empty.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rUnless something has happened to the owner.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25566
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25564
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25564,
+            "Zone": 255,
+            "Name": "Stormtrooper Garrison - Kitchen Area",
+            "Description": "Here is where all the Stormtroopers prepare their meals.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rActually all they have to do is heat the pre-prepared meals.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThe kitchen is white all the way down to the grey floors.  An\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\roccasional food stain is on the wall, but that will soon be cleaned\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rup.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25563
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25565
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25562
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25566
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25565,
+            "Zone": 255,
+            "Name": "Stormtrooper Garrison - Sleeping Quarters",
+            "Description": "Welcome to the bedroom of Stormtroopers.  All the beds look very\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rcomfortable.  Nobody is sleeping in any of them thanks to the reports\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof intruders being onboard the station.  This room is kept dark so that\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe stormtroopers don't have to deal with the lights.  Hopefully they\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rdon't come back while you are napping here.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25564
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25566
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25566,
+            "Zone": 255,
+            "Name": "Stormtrooper Garrison",
+            "Description": "This is where the Stormtroopers live.  They are treated very well.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThis room appears to be a living room.  There are tables and chairs\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rand a couch scattered around.  The room is a nice soothing tan.  It\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rconveys peace to the stormtroopers who get to go out and blow stuff\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rup.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25563
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25567
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25532
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25565
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25564
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25567,
+            "Zone": 255,
+            "Name": "Armory",
+            "Description": "This is the Stormtrooper's Armory.  All of there weapons are kept here\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rwhen not in use.  The room is bathed in a bright white light.  With\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthe white walls in here the light is reflected around leaving no nook\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rwithout at least a splash of light.  The weapons in here are arranged\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rnicely in long rows all the around the room.  The armor is also stored\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rin here.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25507
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25533
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25566
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25568,
+            "Zone": 255,
+            "Name": "Access Ramp",
+            "Description": "This is the entrance to the Modified Corvette Mescue.  It is one of the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rbest corvettes in the fleet.  This ship was designed as a blockade\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rrunner and has served that purpose time and again.  You look around and\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rsee the hydrolics that work the hatch.  Occasionally a jet of steam will\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rshoot out of the coolant outlets.  \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "hatch"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25502
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25569
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25569,
+            "Zone": 255,
+            "Name": "Main Hall of Corvette Mescue",
+            "Description": "The hall you are in as well as the others in this corvette are all white,\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rsave for the grey steel floor.  The hall lacks pizazz.  It just is a hall.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rYou wonder as you stare out ahead of you, how could anybody stand to work\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rin these conditions day in and day out.  Then you realize your job is \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rlife or death and the people on this corvette have it easy.  You stare at\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthese walls that remind you of the life you lead and think, \"I hate these\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rwalls\".\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25570
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25574
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25573
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25568
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25570,
+            "Zone": 255,
+            "Name": "Hall of the Corvette Mescue",
+            "Description": "The hall you are in as well as the others in this corvette are all white,\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rsave for the grey steel floor.  The hall lacks pizazz.  It just is a hall.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rYou wonder as you stare out ahead of you, how could anybody stand to work\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rin these conditions day in and day out.  Then you realize your job is \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rlife or death and the people on this corvette have it easy.  You stare at\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthese walls that remind you of the life you lead and think, \"I hate these\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rwalls\".\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25571
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25569
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25572
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25571,
+            "Zone": 255,
+            "Name": "Engine Room",
+            "Description": "This is the maintenance area for the engine system of the corvette.  You can\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rhear the roar of the engines through the bulkhead.  The engine room is bare\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rwith no real need for any decorations.  The white walls and the grey of the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rfloor are shiny enough to see your face in.  The engine compartment itself \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ris off limits.  The noise alone would deafen you without earprotection.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rFortunately for you the room is sealed shut.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25570
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25572,
+            "Zone": 255,
+            "Name": "Bottom Gun Turret",
+            "Description": "This is the other major gun emplacement.  The view is quite similar to the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rtop view.  All of space can be seen, save for the part blocked by the ships\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rown hull.  This gun has seen better days.  The fireing mechanism seems to\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rbe broken.  Maybe that is why the corvette is orbiting the Death Star.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25570
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25573,
+            "Zone": 255,
+            "Name": "Top Gun Turret",
+            "Description": "This is one of the main gun emplacements on the ship.  It gives a great view\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rof space.  This is needed of course.  This is where the gunners shoot down\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\renemy craft.  From here you can see the Death Star and several battle scars\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ron the top of the craft.  Almost everywhere you look are Tie squadrons \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rpatrolling for incoming enemy craft.  Hopefully this turret won't come into\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\ruse while you are here.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25569
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25574,
+            "Zone": 255,
+            "Name": "Hall of the Corvette Mescue",
+            "Description": "The hall you are in as well as the others in this corvette are all white,\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rsave for the grey steel floor.  The hall lacks pizazz.  It just is a hall.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rYou wonder as you stare out ahead of you, how could anybody stand to work\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rin these conditions day in and day out.  Then you realize your job is \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rlife or death and the people on this corvette have it easy.  You stare at\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rthese walls that remind you of the life you lead and think, \"I hate these\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rwalls\".\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25569
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25575
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25575,
+            "Zone": 255,
+            "Name": "Bridge",
+            "Description": "This is where all the command decesions are made on the corvette Mescue.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rCaptain Rhein makes all the decisions here.  You can see many terminals\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rablaze with activity.  The crewman are very busy.  The Emperor wants\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rsecurity tight around here and these men are just the ones to do it.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rThe viewport shows the Death Star in all it's glory.  This corvette is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rjust waiting to take the Emperor back to Coruscant after he finishes\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\rapproving the construction.  \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25574
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25576,
+            "Zone": 255,
+            "Name": "Central Chasm",
+            "Description": "That wasn't too smart, jumping over the railing like that.  You are sailing\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nthrough the central chasm of the battle station on a direct course to the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nreactor.  The walls are made of smooth metal so there is nothing you can grab\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nto stop your fall.  Gravity is your captain and we hope you enjoy your flight.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "SOUNDPROOF",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25550
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25577,
+            "Zone": 255,
+            "Name": "Beginning of the Movie",
+            "Description": "...\r\r\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\r\nLittle does Luke know that the GALACITC EMPIRE has secretly begun\r\r\r\r\r\r\r\r\r\r\nconstruction on a new armored space station even more powerful than the\r\r\r\r\r\r\r\r\r\r\nfirst dreaded Death Star.\r\r\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\r\nWhen completed, this ultimate weapon will spell certain doom for the\r\r\r\r\r\r\r\r\r\r\nsmall band of rebels struggling to restore freedom to the galaxy...\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25592
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25511
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25578,
+            "Zone": 255,
+            "Name": "Pain Chamber",
+            "Description": "Pain... Yep, that's what you are feeling right now.  This room is all that\r\r\r\r\r\r\r\r\r\r\r\r\r\nis left of the alternate universe brought on by the ion storm.  Dr. F. still\r\r\r\r\r\r\r\r\r\r\r\r\r\nuses this room to torture TV's Frank.\r\r\r\r\r\r\r\r\r\r\r\r\r\nDEEP HURTING... DEEEEEEEEEP HUUUUURTING...\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "DEATH",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25594
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25579,
+            "Zone": 255,
+            "Name": "Elevator to the Surface",
+            "Description": "You are now 13 floors below the surface.  The walls were roughly hewn\r\r\r\r\r\r\r\r\r\r\r\r\r\ninto the rock.  Is the green lighting coming from the photoelectric mosses\r\r\r\r\r\r\r\r\r\r\r\r\r\ngrowing on the ceiling, or just the cheap studio lights.  Up leads to\r\r\r\r\r\r\r\r\r\r\r\r\r\nsafety and the other exit leads to insanity.\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "NOMOB",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25594
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25580,
+            "Zone": 255,
+            "Name": "Inside the Millenium Falcon",
+            "Description": "You are standing in the center of the crew quarters.  One wall is occupied \r\r\r\r\r\r\r\r\r\r\r\nby the navi-computer.  In another corner is a Dejarik table.  Han installed\r\r\r\r\r\r\r\r\r\r\r\nsmuggling compartments in the floor.  A few chairs are scattered around the\r\r\r\r\r\r\r\r\r\r\r\nroom. This is a cargo ship and not a passenger liner so comfort isn't in\r\r\r\r\r\r\r\r\r\r\r\nabundance.\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25503
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25581
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "smuggling",
+                        "compartments"
+                    ],
+                    "Description": "Under the movable floorboards are large holes, used for smuggling.\r\r\r\r\r\r\r\r\r\r\r\n"
+                },
+                {
+                    "Keywords": [
+                        "Dejarik",
+                        "table"
+                    ],
+                    "Description": "Dejarik is a game similar to chess.  The board is round and the pieces are\r\r\r\r\r\r\r\r\r\r\r\ngenerated holographically.\r\r\r\r\r\r\r\r\r\r\r\n"
+                }
+            ]
+        },
+        {
+            "ID": 25581,
+            "Zone": 255,
+            "Name": "Cockpit of the Millenium Falcon",
+            "Description": "This is a rather small compartment.  The back three walls are covered with\r\r\r\r\r\r\r\r\r\r\r\nbuttons, switches, dials, and flashing lights.  In front of you are the main\r\r\r\r\r\r\r\r\r\r\r\ncontrols that fly this ship.  Through the canopy, the stars appear as white\r\r\r\r\r\r\r\r\r\r\r\nstreaks because you are traveling at .5 past light speed.  There are four\r\r\r\r\r\r\r\r\r\r\r\ncaptain's chairs so you can sit back and enjoy the ride.\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25582
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25582,
+            "Zone": 255,
+            "Name": "Inside the Millenium Falcon",
+            "Description": "You are standing in the center of the crew quarters.  One wall is occupied \r\r\r\r\r\r\r\r\r\r\r\nby the navi-computer.  In another corner is a Dejarik table.  Han installed\r\r\r\r\r\r\r\r\r\r\r\nsmuggling compartments in the floor.  A few chairs are scattered around the\r\r\r\r\r\r\r\r\r\r\r\nroom. This is a cargo ship and not a passenger liner so comfort isn't in\r\r\r\r\r\r\r\r\r\r\r\nabundance.\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25584
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25583
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "Dejarik",
+                        "table"
+                    ],
+                    "Description": "Dejarik is similar to chess.  The board is round and the pieces are generated\r\r\r\r\r\r\r\r\r\r\r\nholographically.\r\r\r\r\r\r\r\r\r\r\r\n"
+                },
+                {
+                    "Keywords": [
+                        "smuggling",
+                        "compartments"
+                    ],
+                    "Description": "Under the movable floorboards are large holes, used for smuggling.\r\r\r\r\r\r\r\r\r\r\r\n"
+                }
+            ]
+        },
+        {
+            "ID": 25583,
+            "Zone": 255,
+            "Name": "Cockpit of the Millenium Falcon",
+            "Description": "This is a rather small compartment.  The back three walls are covered with\r\r\r\r\r\r\r\r\r\r\r\nbuttons, switches, dials, and flashing lights.  In front of you are the main\r\r\r\r\r\r\r\r\r\r\r\ncontrols that fly this ship.  Through the canopy, the stars appear as white\r\r\r\r\r\r\r\r\r\r\r\nstreaks because you are traveling at .5 past light speed.  There are four\r\r\r\r\r\r\r\r\r\r\r\ncaptain's chairs so you can sit back and enjoy the ride.\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25582
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25584,
+            "Zone": 255,
+            "Name": "Entrance Ramp of the Millenium Falcon",
+            "Description": "You have just stepped onto the ramp leading into the Millenium Falcon.  The\r\r\r\r\r\r\r\r\r\r\r\nguy who brought you here is nowhere to be found.  Hope that the old man got\r\r\r\r\r\r\r\r\r\r\r\nthe tractor beam out of comission and pray you can fly this bucket of bolts.\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25580
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "hatch",
+                        "ramp",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 25523,
+                    "Destination": 24513
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25590,
+            "Zone": 255,
+            "Name": "Control room of the S.O.L.",
+            "Description": "You are standing in the control room of the Satellite of Love.  It looks\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nlike the walls have been decorated with household garbage then spray\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\npainted with gray primer.  Then there's that corny blue mood lighting.  On\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nthe west wall is a Hex-field viewscreen, on which a nuclear bomb is whining\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nabout not being needed.  In the east wall is a porthole that looks into the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nvastness of space.  The opening to the Umbilicon is in the floor, and a large\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nset of double doors is south.  In the center of the room is a long\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\ncountertop with three warning lights in the center.  The lights begin to\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nflash....Oh No, It's Movie Sign!\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "It's a door, so it looks like a door.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+                    "Keywords": [
+                        "door",
+                        "doors",
+                        "double"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25591
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The opening leads to a dark tube.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25593
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25591,
+            "Zone": 255,
+            "Name": "Hall of doors",
+            "Description": "On a regular basis as you walk down the hall, a door slides, swings, falls\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nopen in front of you.  It seems like you are walking from one end of the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nsatellite to the other.  It also feels like you are in some kind of countdown.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nThe decor of this hallway leaves something to be desired, being the same as\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nis the control room.  A cockroach barely avoids the underside of your shoe as\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nit scurries across the floor.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "double"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25590
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The hatch looks like a round, heavy safe door, complete with a wheel latch.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+                    "Keywords": [
+                        "door",
+                        "hatch"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25592
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "roach",
+                        "cockroach"
+                    ],
+                    "Description": "Ack, the roach looks like every other roach you've ever seen; brown, six legs,\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nlong antennae. This one has an attitude, almost daring you to step on it.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n"
+                }
+            ]
+        },
+        {
+            "ID": 25592,
+            "Zone": 255,
+            "Name": "Theatre",
+            "Description": "This room, like every other theatre, is completely dark.  The only lights come\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nthe door which you just entered and from the projector, so it is almost\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nimpossible to make out the details of this room.  You can see that there is\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nonly one row of seats.  Some silly 'B' rated Sci-Fi movie is playingso sit\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\ndown and make a few cracks about it.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "It's dark...\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+                    "Keywords": [
+                        "door",
+                        "hatch"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 25591
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A long time ago, in a galaxy far, far away...\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25577
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "movie",
+                        "screen"
+                    ],
+                    "Description": "A long time ago in a galaxy far, far away...\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n"
+                }
+            ]
+        },
+        {
+            "ID": 25593,
+            "Zone": 255,
+            "Name": "In the Umbili-con",
+            "Description": "The Umbili-con is a scientific breakthrough, making the Satellite of Love the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nfirst tethered object in orbit.  You can't believe that you actually squeezed\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nyourself into this tube, the Umbili-con just isn't wide enough to fit people.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nIt is a thirty-mile long, one-foot diameter, corrugated, black pipe.  You\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nfeel yourself getting heavier, so you must be getting closer to the surface.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nRemember to hold your breath, because space is a vacuum...\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "NOMOB",
+                "TUNNEL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25590
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25594
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25594,
+            "Zone": 255,
+            "Name": "Deep 13",
+            "Description": "Deep 13 is the lab where Dr. Forrester runs the experiment on Mike and the\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nBots.  Deep 13 is aptly named, this room was carved out of the rock thirteen\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nstories below the surface by the Gizmonic Institute.  The room's lack of\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nlight gives off an eerie feeling of Hell.  One corner of the room is filled\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nwith cheesy movies, the worst we can find.  On one of the walls\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nis a large viewscreen so that Deep 13 is always in contact with the S.o.L.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nAhhhh, push the button Frank.\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25579
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25578
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 25593
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 25599,
+            "Zone": 255,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        }
+    ]
+}

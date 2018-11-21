@@ -1,0 +1,418 @@
+{
+    "rooms": [
+        {
+            "ID": 16200,
+            "Zone": 162,
+            "Name": "On to Caemlyn, Perrins Camp",
+            "Description": "Hunger, fear, and weariness plague every movement in your body.  Will you\never get to Caemlyn?  There hasnt even been a farmhouse in the distance for\ndays.  Every day wolves follow you, and every night they circle you like\nvultures waiting for you to drop dead.  Here, Perrin and Egwene made a small\nencampment to rest in during their journey.  The ashes look pretty fresh.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16201
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16199
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16201,
+            "Zone": 162,
+            "Name": "On to Caemlyn, Elyass Encampment",
+            "Description": "After several more days of walking you come upon the heavenly smell of\nroasting rabbit and wood smoke.  As you get nearer to the smell you see that\na strange man has erected a encampment here.  Slowly, and cautiously you walk\ntowards then encampment, only to hear, \"Are you going to stand there drooling\nin the underbrush or are you going to come introduce yourself and eat some\nrabbit meat.\"  Thus you have your first meeting with Elyas Machera.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16200
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16202
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16202,
+            "Zone": 162,
+            "Name": "On to Caemlyn, Running with the wolves",
+            "Description": "After a long, friendly talk with Elyas you are now back on track for Caemlyn.\nArmed with newfound understanding, you welcome the company of Dapple and his\npack mates. With the aid of Elyas and the wolves you make excellent time.\nAfter 5 days of traveling you can see a group of the Traveling people in the\ndistance.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16201
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16203
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16203,
+            "Zone": 162,
+            "Name": "On to Caemlyn, The Traveling People",
+            "Description": "With the guide of Dapple, Hopper and Wind you have made the hard trek through\nthe Forest in good time. After days of walking you come upon a long train of\nwagons. On close inspection you see that the wagons are little more then\nhouses on wheels.  The color of the houses are only slightly dulled by the\nbrightly colored clothes of the occupants. Smells of cooking food, and the\nsound of merry fiddle music overcome your senses and you long for home.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16204
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16202
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16204,
+            "Zone": 162,
+            "Name": "Traveling People, Middle of Camp",
+            "Description": "Laughter, good food, and happy people surround you.  As you stroll about the\ncenter of the Mahdi camp you can't help but pick up the lengend of the\npeople. It is said that the Mahdi shall travel the world, looking for a\nspecial song.  When the Mahdi find the song the paradise of the Age of\nLegends will return. The Mahdi are a cheery and non-violent people.  To the\nnorth you see the Seeker's wagon.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16205
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16206
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16203
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16205,
+            "Zone": 162,
+            "Name": "Traveling People, Seekers Wagon",
+            "Description": "Bright colors cover the wagon like much of the rest of the camp.  This wagon\nis home to the leader Raen, and his wife Ila.  It is obvious that no warrior\nhas ever inhabited this place. A small table holds a loot, that looks well\nplayed.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16204
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "loot",
+                        "table"
+                    ],
+                    "Description": "It looks like even the leader of the Mahdi is a bard at heart.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16206,
+            "Zone": 162,
+            "Name": "Traveling People, Around the cook fire",
+            "Description": "Here Mahdi and visitors have formed a circle, and are passing out the daily\nmeal.  The dinner looks to be a tasty stew with bread on the side.  As people\nfinish their meal some pick up instruments and play a merry tune, which the\nyounger people dance to. Slightly to your north, a group of the Mahdi dances.\nA trail here forks away from the camp to the east, into the wilderness.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16207
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16208
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16204
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16207,
+            "Zone": 162,
+            "Name": "Traveling People, Dancing",
+            "Description": "Groups of Mahdi dance in joyful circles around a medium sized group of\nmusicians.  You hear many popular songs being played on a wide assortment of\ninstruments.   Among the tunes being played you hear, \"Pretty Maids Dancing\",\n\"Toss the Feathers\", and \"Hard Rain falling.\"  As you sit and listen to the\nmusic you can almost swear you hear a bit of electric guitar music very odd,\nas there is no electricity.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16206
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16208,
+            "Zone": 162,
+            "Name": "On to Camelyn, just past the Mahdi Camp",
+            "Description": "As you journey away from the camp you hear the words of the seeker saying,\n\"As you came in peace, Depart now in peace.  Always will out fires welcome\nyou, in peace. The Way of the Leaf is peace.\" You return the reply with,\n\"Peace be on you always, and all the People.  I will find the song, or\nanother will find the song, but the song will be sung, this year or the year\nto come.  As it once was, so shall it be again, world without end. \"  As you\nfinally leave the camp, you journey into a dry grassland.  The grassland\ncontinues to the south.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16206
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16209
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16209,
+            "Zone": 162,
+            "Name": "On to Camelyn, before a ridge",
+            "Description": "After days of travel the grassland becomes more hilly.  Here and there very\nsmall thickets of hardy trees and thorn bushes cover the land providing the\nonly vegitation, aside from sparse patches of brown winter grass. As you\nfinally take a moment to rest you come to a large ridge, too big to circle\naround.  Luckily, the ridge looks climbable, and you can continue up and\nclimb it.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16210
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16208
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16210,
+            "Zone": 162,
+            "Name": "On to Camelyn, top of the ridge",
+            "Description": "You creep slowly up the ridge, and rightly too, because in the distance you\nsee a huge flock of jet-black ravens roosting in a large tree.  While\nnormally the easiest of the dark ones troops to kill, a huge flock or ravens\ncan pick a human clean in a matter of seconds.   It looks like you should be\nable to pick your way boulder to boulder, to the south.\n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16209
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16211
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16211,
+            "Zone": 162,
+            "Name": "On to Caemlyn, Dangerous Area #1",
+            "Description": "As you pick your way from boulder to boulder you can't help but shiver in\nterror at the ravens.  Evidence of their passing is clear, as you walk\nthrough piles of bloody animal fragmants at every other step. To the north a\nhuge flock of ravens is tearing apart an animal, and to the northwest you see\na stedding.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16213
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16212
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16212,
+            "Zone": 162,
+            "Name": "On to Caemlyn, A stedding",
+            "Description": "Description: As you enter the stedding, a ripple of coldness sweeps through\nyour body as if you had jumped into a river in mid-winter.  Built by the\nOgier, the stedding provides the one thing you need right now, safety.\nSteddings are sort of a safety area that the Ogier used for their homes.  No\nevil, and no magic may exist inside of a stedding.  This stedding seems to\nhave served some grand purpose in some ancient time. A huge piece of\nstonework is to the north.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16214
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16211
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16213,
+            "Zone": 162,
+            "Name": "Surrounded by Ravens",
+            "Description": "Here the sky is thick and black with ravens.  Blood red beady eyes gaze at\nyou with violence.  I hope your flesh is made of stone, because if not you\nare about to have it ripped from your bones. Good luck, you'll need it.\n",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16211
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16214,
+            "Zone": 162,
+            "Name": "Arthur Hawking's Hand",
+            "Description": "In times long past, a huge statue of Arthur Hawking was built here, but it\nhas long been torn to pieces.   It looks like a fight was fought here very\nrecently. The bodies of several White Cloaks, and a wolf lie here in a pool\nof blood.  One of the White Cloaks has huge gashes from an axe, maybe Perrin\nwas here? Far to the east you see a camp of the Children of the Light.\n",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16212
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

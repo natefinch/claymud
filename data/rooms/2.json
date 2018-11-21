@@ -1,0 +1,3170 @@
+{
+    "rooms": [
+        {
+            "ID": 200,
+            "Zone": 2,
+            "Name": "The Portal into the Outworld",
+            "Description": "Stepping through the portal, you find yourself in a lousy looking place.\nThe path looks like a steam roller waltzed over it. The fields look like a war\nhas been through the area.  The place finishes it's masterpiece by some\ndark sky above you.  Maybe you should leave now.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 201
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1309
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 201,
+            "Zone": 2,
+            "Name": "On the path in the Outworld",
+            "Description": "As you continue on your path, you notice that the sky is getting blacker. You\nsay to yourself, \"Uh, let's go back.\" Suddenly you see a bunch of people in\nfront of you. You rush forward, anxious to meet anyone in this area.\n",
+            "Bits": [
+                "NOMOB",
+                "PEACEFUL",
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 202
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 200
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 202,
+            "Zone": 2,
+            "Name": "On the path into the Outworld",
+            "Description": "As soon as you begin to walk toward these people, they begin to scream in fear\nand terror and begin to run as if the devil himself was on their heels.  You\nwonder what has happened here.  As you look around you notice a castle in\nthe north.  You might find some answers there.\n",
+            "Bits": [
+                "NOMOB",
+                "PEACEFUL",
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 203
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 201
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 203,
+            "Zone": 2,
+            "Name": "Just Before the City in the Outworld",
+            "Description": "Just before the gates the air seems to get worse.  Your eyes are burning now\nand you are also coughing and wheezing trying to get this air (they call this\nair?) into your lungs.  Where's an oxygen mask when you need one?  With your\nlast ounce of strength, you pull yourself toward the gates of the city.\n",
+            "Bits": [
+                "NOMOB",
+                "PEACEFUL",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 204
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 202
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 204,
+            "Zone": 2,
+            "Name": "At the gates of the city in the Outworld.",
+            "Description": "Finally you reach the gates.  As you breathe oxygen into your lungs, you\nlook around.  You hear a source of shouting and cheering, but you can't figure\nout where it's coming from.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The gates to the city are in front of you.\n",
+                    "Keywords": [
+                        "gates"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 205
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 203
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 205,
+            "Zone": 2,
+            "Name": "Within the city of the Outworld",
+            "Description": "As you look around, you know you have seen disaster zones that look better than\nthis.  Nothing but trash and filth as far as the eyes can see.  The cheering you\nheard earlier seems to be coming form the north.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 206
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 223
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "gates"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 204
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 227
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 206,
+            "Zone": 2,
+            "Name": "Main Street",
+            "Description": "People are all over the place doing everything from stealing to killing as\nwell as other gruesome tasks.  Many notice you and begin whispering to others\nabout you.  As you strain your ears, the only words you can here are \"fight,\"\n\"Combat,\" and \"Shao Kahn.\"  You have no idea what is meant by any of these\nwords, but you have a bad feeling that you might find out soon.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 207
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 205
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 207,
+            "Zone": 2,
+            "Name": "Fountain Square",
+            "Description": "This is the best place that you have been at since you arrived here, but it\nstill looks terrible.  The fountain looks decent enough to drink from though.\nAll the commotion you are hearing is still coming from the north.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 208
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 217
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 206
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 214
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 208,
+            "Zone": 2,
+            "Name": "In Front of Shao Kahn's Castle",
+            "Description": "Here you finally find what all the commotion is about.  There are hundreds of\npeople here eagerly trying to get into the castle.  And why you ask?  To\neither watch or take part in the goriest and perhaps deadliest battle\nof all time.  Are you prepared to walk in?  If so, come in and prepare\nyourself for Mortal Kombat.  If not, turn around and go back home.  But\ndon't say I didn't warn you.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The Castle Doors lead into the tournament grounds.\n",
+                    "Keywords": [
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 209
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 211
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 207
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 210
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 209,
+            "Zone": 2,
+            "Name": "Preparation Room",
+            "Description": "You notice many people here checking their armor and equipment very carefully.\nYou notice that it's very quiet, except for the occasional curse. Suddenly a\ncharred corpse is tossed into the room.  You hear from the speakers \"Will the\nnext contestant please enter the arena?\" There's still a chance to turn back\nso you better take it NOW!\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A set of double doors lead the way into the tournament.\n",
+                    "Keywords": [
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 236
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 208
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 210,
+            "Zone": 2,
+            "Name": "A Ticket Booth",
+            "Description": "Here you find some ticket booths where hundreds of people are standing in line\ntrying to get one of these tickets.  You wonder if your favorite band is in\ntown or something like that.  You quit wondering as you look at a life size\nposter on the wall. It shows a well built person with what looks like a mask\nmade out of bone.  He's pointing at you and the caption at the bottom says\n\"Is that your best?\"  You start to worry about what you have gotten yourself\ninto.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 208
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 211,
+            "Zone": 2,
+            "Name": "Tv Cameras and Tons of Cords",
+            "Description": "This combat thing you have been hearing about must be bigger than you thought.\nThere are televsion crews and reporters all over the place talking to \nparticipants, and some faithful fans.  You notice a news van south of you.  \nYou always wondered what's goes on behind the scenes and now here's your big\nchance.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 213
+                },
+                {
+                    "Direction": "South",
+                    "Description": "2\nThe doors of the newsvan are right behind you.\n",
+                    "Keywords": [
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 212
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 208
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 212,
+            "Zone": 2,
+            "Name": "Inside the News Van",
+            "Description": "As you sneak inside the van, you notice all of the equipment used behind\nthe scenes.  Everything from video screens to footage editing machines.\nSuddenly someone notices you and orders you out.  Looks like you better\nsplit before things really get ugly.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 211
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 213,
+            "Zone": 2,
+            "Name": "Yelling and Screaming",
+            "Description": "Looks like a pier six brawl going on here.  After what you have seen though,\nit doesn't surprise you. You drill a couple of people who thought you were an\neasy target, but you feel you should probably leave before things really get\nout of hand.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 211
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 214,
+            "Zone": 2,
+            "Name": "A Side Street",
+            "Description": "Flies are buzzing everywhere around here, thanks to all the garbage, and to your\nsurprise some corpses that have half rotted here.  The stench is terrible.\nYou hold your breath (and your lunch) and get outta here.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 215
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 207
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 231
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 215,
+            "Zone": 2,
+            "Name": "Entrance to the Paladin's Guild",
+            "Description": "This area doesn't look like it belongs in this city.  The main reason is that\nit's clean.  I mean white glove test clean.  You see some flowers in a vase\nhere.  It looks a lot better than the rest of the city does.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 214
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 216
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 216,
+            "Zone": 2,
+            "Name": "Into the Holy Light",
+            "Description": "Standing here you feel the power of your clan running through you.  You\nremember taking your oath as a Paladin.  Before you leave, as you know you\nmust do, you bow your head in a silent prayer asking for strength to carry\nyou on into doing right.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 232
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 215
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 217,
+            "Zone": 2,
+            "Name": "A Side Street",
+            "Description": "You hold your nose as you come into this area.  This place is definitely the\nworst you have ever seen.  Suddenly a throwing star blows by your head and\nsticks itself in the wall behind you.  You decide to leave while you still\ncan.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 220
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 218
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 207
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 218,
+            "Zone": 2,
+            "Name": "Entrance to Cleric's Guild",
+            "Description": "A few small crosses are all over the walls here.  Maybe they believe that\nreligion helps in healing the soul and the body as well as the mind.  There\nare steps leading upstairs.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 217
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 219
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 219,
+            "Zone": 2,
+            "Name": "Sanctuary",
+            "Description": "You feel a sense of safety as you stand here.  It feels kind of nice after\neverything you have been through in your life so far. Such peace, such\ntranquillity, such.... aww the heck with it.  You know you want to go fight\nsome more, so get going.  Why waste your time here?\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 234
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 218
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 220,
+            "Zone": 2,
+            "Name": "Entrance to Anti-Paladin's Guild",
+            "Description": "This place has a creepy feel to it.  The ax that's in the wall that is about\nyour height doesn't make you feel better.  This place is definitely bad for\nyour health.  You might want to bail out while the bailing is good.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 217
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 221
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 221,
+            "Zone": 2,
+            "Name": "A Dark and Secret Room",
+            "Description": "Thanks to your special Anti-Paladin abilities, you are the only one able to\nsee in this total darkness.  Looks like some others were discussing plans\nuntil you showed up. Maybe you best be getting along.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 220
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 222
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 222,
+            "Zone": 2,
+            "Name": "Too Dark to See Anything",
+            "Description": "It's too dark to see anything. You better keep going.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 221
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 233
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 223,
+            "Zone": 2,
+            "Name": "A Side Street",
+            "Description": "Some trashcans are barely seen with all the mounds of trash that is lying here.\nAs you look around you see a poster on the wall.  It's a bounty poster.\nThe picture is that of a male with some type of metal implant in his head.\nUnfortunately, the name of the character has been ripped off.  But for now\nyou have your own mission (whatever that is.)\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 224
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 205
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 224,
+            "Zone": 2,
+            "Name": "Entrance To Warrior's Guild",
+            "Description": "You feel a sense of good friendship as you enter here.  You feel that whatever\nhappens out there, all of it stops at the door.  Here you could relax and enjoy\ngood company.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 223
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 225
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 225,
+            "Zone": 2,
+            "Name": "Peace and Tranquility",
+            "Description": "You feel a sense of deep calm and peacefulness here.  You feel emotions that\nyou could never explain to others.  Sadly you wipe a tear from your eye as you\nknow you must leave the area.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 226
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 224
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 226,
+            "Zone": 2,
+            "Name": "The Practice Room",
+            "Description": "People are showing new attack skills to others here.  You notice that the\nswords are blunt, and that it is padded along the walls and floor.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 225
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 227,
+            "Zone": 2,
+            "Name": "A Side Street",
+            "Description": "There's enough garbage around here to make this place a dump.  Suddenly a wind\nblows some paper into your face.  As you look at it, you notice that it's a\npicture.  It shows 2 creatures with four arms and underneath the caption says\n\"ARE YOU PREPARED?\"  As you drop the photo back to the ground, you wonder\nwhat other surprises are here.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 205
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 228
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 228,
+            "Zone": 2,
+            "Name": "Entrance to The Theives Guild",
+            "Description": "Not exactly the most cheeriest place you've been to.  Suddenly you notice\nthat all around you there is an array of weapons and armor that is just\nlaying here.  As you look closer at all this stuff,  it is either worseless\njunk or it is stamped \"Property of Theives Guild.\"  Looks like though there\nisn't anything here that is worth taking.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 227
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 229
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 229,
+            "Zone": 2,
+            "Name": "A Smoky Area",
+            "Description": "Where is all that smoke coming from?  This question keeps popping up in your\nmind as you look (look? yeah right) around in here.  You think you see a way\nnorth but it might be easier to go back down the way you came.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 230
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 228
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 230,
+            "Zone": 2,
+            "Name": "The Room of Stealth and Darkness",
+            "Description": "Shadows move swiftly here in the gloom.  In the smoky dark you can barely see\nshapes standing rigid around the area.  You think you see somebody that is in\nthe middle of the room.  Looks like the boss.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 229
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 231,
+            "Zone": 2,
+            "Name": "The Trading Store of The Chipmunks and The Chipettes",
+            "Description": "Of all the places to find, you would never think to find a place like this\nhere.  Yet here it is in the middle of nowhere.  This is the only trading\ncenter for miles around so you hope there is something good here.  At least\nthe place is clean.  You hope the goods here are as clean as the store.\nKnowing Alvin's reputation though you seriously doubt it.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 214
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 287
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 235
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "secret",
+                        "special"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 278,
+                    "Destination": 291
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 286
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 288
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 232,
+            "Zone": 2,
+            "Name": "A Small Church",
+            "Description": "A large cross is on the front wall here.  This doesn't look like a practice\narea but it is.  You notice other paladins looking at you.  They smile and go\nback to their prayers in silence.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 216
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 233,
+            "Zone": 2,
+            "Name": "The Anti-Paladin's Training Center",
+            "Description": "With books of sinister spells on the shelves, a dark atmosphere, and plenty\nof weapons covered with a dry sticky stuff (probably blood), you feel there's\nno place like home.  In fact you could call this home.  But you have other\nthings to do now, so you decide to practice now and come back and \"play\"\nwith your \"friends\" later.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 222
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 234,
+            "Zone": 2,
+            "Name": "The Cleric's Room of Silence",
+            "Description": "You hear absolutely nothing in this room.  You notice rows and rows of jars\nwith faded labels on them and many books of magic on the shelves and on the\ntables.  Definitely a place of knowledge.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 219
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 235,
+            "Zone": 2,
+            "Name": "The Post Office",
+            "Description": "A small post office is set up here.  You may want to send a letter to someone\nbut like anything else around here, it will probably be delayed quite a while.\nStill, it's the only one around.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 231
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 236,
+            "Zone": 2,
+            "Name": "Your First Battle",
+            "Description": "Welcome to the Arena of Mortal Kombat.  Here you will find that there is no\nretreat, no surrender.  People from all over come here to fight (and die)\nto have a crack at winning the big one.  But it all starts here.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 237
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 242
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 209
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 242
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 237,
+            "Zone": 2,
+            "Name": "The Courtyard",
+            "Description": "Congratulations on beating your first challenge, but it only gets worse the\nfurther you continue in the tournament. By now the crowds have gathered on the\nsides above you because of course they want to see death and destruction but\nthey wouldn't want to sit on the spikes that have now suddenly appeared on\nyour left and right.  There's no way out of here now. You have to go on.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 238
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 242
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 236
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 242
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 238,
+            "Zone": 2,
+            "Name": "The Courtyard",
+            "Description": "You've done well to get this far in the tournament.  As you look on the spikes\nyou see dried blood, a few destroyed pieces of equipment and a head or two on\nthe spikes.  Suddenly you hear a scream from above and watch in horror as a\nbody drops onto the spikes right beside you.  The blood splashes everywhere\nall over you.  You try to get your mind back onto the business at hand.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 239
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 242
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 237
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 242
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 239,
+            "Zone": 2,
+            "Name": "Hall of Champions",
+            "Description": "You notice statues of people who first defeated Shang Tsung here.  You see the\nstatues of Liu Kang, Sonya Blade, Kano, Sub-Zero, Johhny Cage, Rayden, and\nScorpion.  You also see a statue of a four armed creature. Aren't you glad\nyou don't have to face it?  Right now you better worry about your next\nopponent because it's time to get down to business.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A stone door is in the wall here\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 293,
+                    "Destination": 240
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 242
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 238
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 242
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 240,
+            "Zone": 2,
+            "Name": "First Leg Completed",
+            "Description": "Nice job in making it here.  As you look around you see that others have made\nit this far as well.  They notice you and smile, but you wonder how far they\nwill go to actually win this tournament.  You can relax here but don't put\nyour guard down too much.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 293,
+                    "Destination": 239
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 241
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 241,
+            "Zone": 2,
+            "Name": "Beginning the Second Leg of the Tournament",
+            "Description": "As you prepare yourself to continue on in the rankings of the tounament, you\nnotice a sign.\nThe sign says,\n\nBECAUSE YOU HAVE MADE IT THIS FAR IN THE TOUNRNAMENT, WE HAVE DECIDED TO RAISE\nTHE STAKES HIGHER.  FOR YOUR NEXT BATTLES, YOU WILL BE FIGHTING OVER \"THE PIT\"\nWHERE THERE IS NO CHANCE TO FLEE.  IF YOU FLEE, WELL LET'S JUST SAY IT WON'T\nBE PLEASEANT. HAVE A NICE DAY.\n\nSIGNED,\n\nSHAO KAHN\n\nThis might be a good time to bail out while you can.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "A door is here leading to the second part of the tournament.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 243
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 240
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 242,
+            "Zone": 2,
+            "Name": "Onto The Spikes",
+            "Description": "This wasn't exactly the wisest move you've ever done.  Once you stepped\nonto the floor, hundreds upon hundreds of spikes rise up through the floor.\nYou can only stare helplessly in agony as the spikes go thorugh your feet\n(EWW!), your legs (CRACK!), and through the rest of your body.....\n\nFortunately, you are dead by the time the spikes have reached your brain.\n\nSorry Mortal, but your Quest for Mortal Kombat Master is over.\n",
+            "Bits": [
+                "DEATH",
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 209
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 243,
+            "Zone": 2,
+            "Name": "A Stone Walkway Above The Pit",
+            "Description": "You step out upon a solid stone walkway.  As you look around, you see that you\ncan fight and defend on it, but if you flee, well that's a different story.\nBut you have no time to think about that now.  Because one screwup and you might\nfind yourself on the \"sharp\" (not short) end of the stick.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 241
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 250
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 244
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 250
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 244,
+            "Zone": 2,
+            "Name": "Further along the Stone Walkway",
+            "Description": "Now that you are used to fighting on such narrow grounds, you decide to take a \nlook around below you.  All you see around you are dozens and dozens of spikes\nwith a few dead bodies sticking on some of them.  You get so engrossed in this\ngrisly sight that you almost are hit by a kick that your latest opponent sends\nat you.  It's time that you concentrate on the task at hand.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 243
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 250
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 245
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 251
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 245,
+            "Zone": 2,
+            "Name": "Travelling the Stone Pathway",
+            "Description": "You notice that this place is kept pretty clean (except of course those blood\nspots you see everywhere).  Suddenly you notice somebody is just standing\nthere ABOVE the spikes in The Pit!.  How the heck did they do that?  Maybe\nit's a clan secret cause you don't have a clue.  Either way, the road to\nbecome Master does not come by a few cheap parlour tricks (though they could\nhelp).\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 244
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 250
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 246
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 250
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 246,
+            "Zone": 2,
+            "Name": "Near the End of the Stone Pathway over The Pit",
+            "Description": "You can see the end of this most deadly and dangerous path in sight.  But\nthere is another opponent here waiting to take you on.  You look your opponent\nover and think \"This one doesn't look so tough.\" You stick with that thought\nuntil your opponent unleashes one heck of an attack.  You better get going\nbefore your over confidence causes your downfall.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 245
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 254
+                },
+                {
+                    "Direction": "South",
+                    "Description": "There's a door leading outta here.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 294,
+                    "Destination": 247
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 250
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 247,
+            "Zone": 2,
+            "Name": "You Made It!",
+            "Description": "You made it this far which is impressive.  You notice that there are very \nfew others here with you.  Obviously they weren't prepared as you were.\nGood luck on the final leg!\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 246
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 248
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 248,
+            "Zone": 2,
+            "Name": "Begining of the Third Leg of the Tournament",
+            "Description": "The only thing of real importance here is another sign.\nThis one says:\n\nCONGRATULATIONS MORTAL FOR ARRIVING THIS FAR IN THE TOURNAMENT.  WE NOW\nWILL INCREASE THE DIFFICULTY OF THE TOURNAMENT.  YOU WILL BE ENTERING WHAT\nIS CALLED THE PIT II AND THE WARRIOR SHRINE. NOT ONLY WILL YOU MEET A FATEFUL\nDEATH BELOW YOU BUT NOW YOU CAN DIE IF YOU JUMP TOO HIGH (ie. go up).  YOU\nHAVE SHOWN WISDOM, COURAGE, AND POWER TO GET THIS FAR. CONTINUE AND PERHAPS\nI WILL SEE YOU.\n\nYou notice at the bottom of the sign it says in small letters:\n\"so I can destroy you personally.\"\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The door leading to the final leg is to the north.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 249
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 247
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 249,
+            "Zone": 2,
+            "Name": "Warrior Shrine/The Pit II",
+            "Description": "Wow!  Looks like Shao Kahn wasn't kidding about the spikes.  You notice them\nvery quickly since you almost ran into one entering the area.  As you look\ndown, you see some cement with what looks like cracks in it.  You wonder how\nthey got there.  In fact you're wondering so much you almost forgot about\nyour opponent.  Unfortunately, your opponent didn't.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 257
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 262
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 248
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 262
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 263
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 250,
+            "Zone": 2,
+            "Name": "The Pit",
+            "Description": "Remember those spikes you passed as you walked through the first leg of your\njourney?  Well now you are going to get a real up close and personal view of\nthem because YOU'RE FALLING.....\n\n                                AND FALLING......\n\n                                                 AND FALLING......\n\nUntil you SLAM onto the spikes below.\n\nSorry Mortal, but your Quest to be Master of Mortal Kombat ends here.\n",
+            "Bits": [
+                "DEATH",
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 209
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 251,
+            "Zone": 2,
+            "Name": "The Pit",
+            "Description": "It looks like you made a big mistake because YOU'RE FALLING.........\n\nAND FALLING.....\n\n                  AND FALLING......\n                                 SLAM! You landed on a ledge about 15 feet\nabove the spikes in the pit. (aren't you lucky).  To any other person you look\nlike you are walking on air.  The path leads west or there is a ladder taking\nyou back where you fell off.\n",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 252
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 244
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 252,
+            "Zone": 2,
+            "Name": "Hovering over the Spikes in The Pit",
+            "Description": "You follow the see through path to the wall on the far side of The Pit. Looks\nlike there is no where else to go but back the way you came.\n",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 251
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A door is in the wall here.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 253
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 253,
+            "Zone": 2,
+            "Name": "Shao Kahn's Communication Center",
+            "Description": "You come into the Central Communications Center of the castle.  In the room\nyou see various pieces of equipment. Some of this includes walkie-talkies, a\ntelephone (in this era hmmm weird), a computer (even weirder), and a long\nrange two way radio.  You notice you aren't the only one in here.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 252
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 254,
+            "Zone": 2,
+            "Name": "The Pit",
+            "Description": "Did you screw up big time here. Whether it was a typo or whatever your taking\na long drop. In other words YOU'RE FALLING......\n\n                                                AND FALLING\n\n                                                           AND FALLING......\n\nSLAM!  You land on a ledge about 15 feet down. Lucky you. You see that the\nledge continues to the east. You also see a ladder going back up the way you\nfell. Take your choice.\n",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 255
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 246
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 255,
+            "Zone": 2,
+            "Name": "Along the Ledge Above The Pit",
+            "Description": "At the end of the ledge, you end up right beside the wall.  Looks like\nyou won't find a shortcut to the top this way, so you might as well as go\nback the way you came.\n",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "There is a well worn door here in the wall.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 256
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 254
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 256,
+            "Zone": 2,
+            "Name": "Shao Kahn's Prision",
+            "Description": "As you enter here, you notice two cells. One of them is open and so you check out the door.  You notice that the door\nis freshly picked and you wonder who escaped from here.  Suddenly the door to\nthe other cage opens up and out comes a well muscled guy with a metal plate\nthat covers his right eye.  Looks like you're in trouble now.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 255
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 257,
+            "Zone": 2,
+            "Name": "Warrior Shrine/The Pit II",
+            "Description": "You begin to wonder if all this effort is really worth it to get this far.\nSuddenly THREE fireballs come from out of nowhere and miss you by inches.\nNow while your trying to regroup from that, your opponent is trying to get\nan early advantage. You better get moving before your either dead meat or\nwell done.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 258
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 267
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 249
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 262
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 263
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 258,
+            "Zone": 2,
+            "Name": "Warrior Shrine/The Pit II",
+            "Description": "It's Practically raining fireballs here!!!! While whoever is shooting these\nhas lousy aim, once in a while one of these gets too close for comfort.  You \nbetter finish your opponent completely and get out of here while you are\nstill in one piece.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 259
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 262
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 257
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 264
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 263
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 259,
+            "Zone": 2,
+            "Name": "Sanctuary",
+            "Description": "Now that you got past the first eleven Kombatants, Shao Kahn decides to give\nyou an early break.  You might as well take it because it will get worse\nfrom here.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A door is here to take you to the final areas of the tournament.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 295,
+                    "Destination": 260
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 262
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 258
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 262
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 263
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 260,
+            "Zone": 2,
+            "Name": "Relief!!!!",
+            "Description": "You see another sign here.\nThis one reads:\n\nMORTAL YOU HAVE EARNED THE RIGHT TO CONTINUE INTO THE HEART OF THE OUTWORLD\nWHERE YOU SHALL FACE THE GREATEST OPPONENTS IN THE TOURNAMENT.  IF YOU SHOW\nTHAT YOU ARE POWERFUL ENOUGH, YOU MAY LIVE TO FACE ME, SHAO KAHN.\n\nBy the looks of the dust in this room, it seems that no one has been here for\nquite some time (maybe never at all).  A portal suddenly opens up above you.\nThere's no turning back now.  Check your armor and equipment, catch your\nbreath and get going.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 259
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 261
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 261,
+            "Zone": 2,
+            "Name": "Through the Portal",
+            "Description": "Stepping through the portal, you enter a dark forest.  Shadows wisp by you,\nmoaning and groaning.  You realize that these shadows are the souls of the\ndead who have partaken in this tournament and failed.  As their punishment,\nthey now have to spend eternity here.  With a shiver down your spine, you may\nthink that you are now way over your head and that you should go no further.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 270
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 260
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 262,
+            "Zone": 2,
+            "Name": "The Pit II",
+            "Description": "Here's a mathematical equation for you.  What do you get when you have your weight.....\n \n           plus all the weight of your equipment......\n \n                                                      dropping about thirty stories.....\n \n            multiplied by about 9.8 meters/sec which is the speed you are falling.....\n \n           and slam so hard into the concrete below that you actually bury\nyourself six feet under?\n \nThe Answer is simple.  It equals YOUR DEATH!\n \nSorry Mortal, The Quest ends here for you.\n",
+            "Bits": [
+                "DEATH",
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 209
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 263,
+            "Zone": 2,
+            "Name": "Warrior Shrine Spikes",
+            "Description": "Looks like your opponent must have nailed you a real good uppercut.  In fact\nit was so good that you were lifted straight up.  Too bad you forgot about the\nspiked ceiling.\n\nLook at the bright side.  You won't have to worry about remembering anything\never again.\nSorry Mortal, this ends this Quest for you.\n",
+            "Bits": [
+                "DEATH",
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 209
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 264,
+            "Zone": 2,
+            "Name": "The Pit II",
+            "Description": "You know... taking drops off of very high ledges is not my idea of a good time.\n\n\nIn other words YOU ARE DROPPING LIKE A ROCK!\n\nTHUD!  Fortunately you found a ledge to be on. Aren't you a lucky person.\nMaybe the gods are smiling on you or whatever.  The ledge leads to the west\nand there's a ladder going back up to the other ledge.  Watch the spikes on \nthe way back up.\n",
+            "Bits": [
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 265
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 258
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 265,
+            "Zone": 2,
+            "Name": "Along the Ledge",
+            "Description": "Not much to look at here.  Just the spikes above you and the spikes and cement\nbelow you in the two Pits. Suddenly three fireballs land all around you! It's\ntime to get moving and quickly!!!\n",
+            "Bits": [
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 264
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A Green-Colored door is here in the wall.  Looks like a jade color.\n",
+                    "Keywords": [
+                        "jade"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 266
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 266,
+            "Zone": 2,
+            "Name": "Jade's Room",
+            "Description": "As you come in here, you notice everything is made up of colored jade\nglass.  From the light shades to even the jade-colored flooring.  You are so\nmuch in awe that not until the last second you notice the Occupant of this\nroom.  Her name is Jade and she doesn't like trespassers.\n",
+            "Bits": [
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 265
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 267,
+            "Zone": 2,
+            "Name": "The Pit II",
+            "Description": "This is not what I would call a good career move.  Unfortuantely, you took a \nwrong step and now YOUR ENTIRE LIFE IS FLASHING IN FRONT OF YOUR EYES!!!!!!!!!\n\nA\n H\n  H\n   H\n    H\n     H\n      H\n       H\n          H.........\n\n                   THUD!!!!  But what is this?  You landed on a ledge about\n20 feet down from the other ledge.  You notice a ladder is going back up to\nthe ledge that you dropped from, and that the ledge also goes to the east.\nPick your pleasure.\n",
+            "Bits": [
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 268
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 257
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 268,
+            "Zone": 2,
+            "Name": "Along the ledge",
+            "Description": "With the spikes above and below you, you hope that the ground is firm below\nyou or the spikes won't drop on you.  Suddenly, three fireballs scatter the\nground around you. You better get out of here now cause right now you are a\nsitting duck!\n",
+            "Bits": [
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "A smoking black door is in the wall here.\n",
+                    "Keywords": [
+                        "black"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 269
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 267
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 269,
+            "Zone": 2,
+            "Name": "Smoke's Room",
+            "Description": "What is this place? There's enough shadows and smoke to put anyone to serious\ncoughing spells.  Although you can't be sure.  You think you see a figure in the\nsmoke.  As you look closer, you notice that smoke is actually coming from this\nperson.  Unfortunately, you ran into Smoke's domain, and he detests trespassers.\nLooks like your luck just ran out.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 268
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 270,
+            "Zone": 2,
+            "Name": "Shang Tsung's Room",
+            "Description": "Shang Tsung has lived well off of the tournament.  All around you you see\nbeautifully crafted works of art and dozens and dozens of paintings with\nframes made out of gold, silver, and other precious metals.  Each of these\nhave embedded in them dozens upon dozens of gems such as diamonds, rubys,\nemeralds, and sapphires.  Upon a solid gold throne you see Shang Tsung.\nShang Tsung notices you, then all of a sudden he turns into Reptile and then\njust disappears.  Suddenly he reappears three feet in front of you, prepared\nfor battle.  You have a feeling that this won't be easy.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A big, solid gold throne is here.\n",
+                    "Keywords": [
+                        "throne"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 292,
+                    "Destination": 271
+                },
+                {
+                    "Direction": "South",
+                    "Description": "There's a door here to escape the throne room.  Better use it quick.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 261
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 271,
+            "Zone": 2,
+            "Name": "Goro's Lair",
+            "Description": "If Shang Tsung's room was very nice, this place is a disaster zone.  In the\nbackground, you see a lot of eyes and they're looking at YOU! Suddenly, you\nhear a roar and you look around quickly.  There you come to face to face with\nGoro, Prince of the Outworld.  He sees you and sends forth a massive fireball\nbut you duck it.  Get ready because this battle is going to take a while.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A stone wall is blocking any furthur attempt to go on.\n",
+                    "Keywords": [
+                        "wall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 296,
+                    "Destination": 272
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "throne"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 270
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 272,
+            "Zone": 2,
+            "Name": "Furthur into the Lair",
+            "Description": "Farther into the lair you notice that there are more eyes now then there were\nbefore.  You feel like you are on parade for all these eyes and you want to\nget out of here quickly.  To the north you see a glint of light.  It might be\nthe way out of this mess.  Suddenly a huge form steps in front of the light.\nYou think to yourself \"This is not going to be pretty.\"\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 273
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "wall"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 271
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 273,
+            "Zone": 2,
+            "Name": "Kintaro's Lair",
+            "Description": "As soon as you enter the room you run face to chest with Kintaro.  He heard\nthe battle sounds with you and Goro.  Now that you have stepped into his\ndomain, you are now his prey.  To your fortune you see a ladder leading up and\nnotices your desperate attempt to escape and yells \"MORTAL YOU MUST FACE ME TO\nGET THE KEY!!!!\"  He then sends a fireball that knocks you off the ladder.\nYou better get ready to rumble 'cause it's going to be a long one.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 272
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "A trapdoor is above the ladder.\n",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 261,
+                    "Destination": 274
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 274,
+            "Zone": 2,
+            "Name": "Your Final Resting Place",
+            "Description": "As you leave the tunnel, you find yourself before a huge set of doors. Above\nthe doors you read \"BEYOND THESE DOORS LIES THE ALL POWERFUL SHAO KAHN. MORTALS\nTREMBLE IN FEAR!!!!\"  With your fist you bang three times on the door.  The door\nopens, and you step in.........\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 275
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 273
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 275,
+            "Zone": 2,
+            "Name": "Shao Kahn's Throne Room",
+            "Description": "\"Welcome to your final battle Mortals!!!\" Shao Kahn shouts and then he dashes\nliterally at you.  You've never seen a guy that large move that fast.  You \nbarely escaped getting rammed and head toward the door that's north of you.\nUnfortunately you find it locked up tight.  With a sigh of resignation, you\nprepare yourself for the final battle.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The door to finally end this journey is to the north.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 262,
+                    "Destination": 276
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 274
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 276,
+            "Zone": 2,
+            "Name": "Victory!",
+            "Description": "Congratulations!  You have become one of the few, the proud, The Supreme\nMortal Kombat Master!  All the people are cheering you as you go around\nthe stadium.  Yet somehow you still get the feeling you aren't out of trouble\nyet.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 277
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 278
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 275
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 284
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 277,
+            "Zone": 2,
+            "Name": "The Throne of Mortal Kombat!!!",
+            "Description": "Here you are greeted by your new found fans.   Congratulations you have become\na Supreme Mortal Kombat Master.  Good job.  Now you can stay here and bask in\nall your glory, but if you go down you'll return to Midgaard.\n",
+            "Bits": [
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 276
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3001
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 278,
+            "Zone": 2,
+            "Name": "The East Side of the Stadium",
+            "Description": "Looks like everyone came out in full force to meet you.  There's people\nclapping, cheering, and just having a good time.  One person grabs you and\ngives you a big kiss.  You could learn to like this.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 279
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 276
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 279,
+            "Zone": 2,
+            "Name": "Along the East Side of the Stadium",
+            "Description": "Just more people cheering for you.  Some people are even throwing flowers.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 280
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 278
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 280,
+            "Zone": 2,
+            "Name": "Edge of the Stadium Wall",
+            "Description": "While you are enjoying all this praise you better be careful up here.  Looking\ndown over the edge you see some green goo at the bottom of the castle. This \ngoo doesn't look too friendly either.\n",
+            "Bits": [
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 285
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 279
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 281
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 281,
+            "Zone": 2,
+            "Name": "Behind The Throne",
+            "Description": "You keep looking around cause you have this feeling of being attacked. But you\ndon't see anyone or anything around.  While you are looking you look at this\n\"goo\" down at the bottom of the castle.  Definitely not friendly looking, in\nfact it looks downright nasty.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 285
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 280
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 282
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 282,
+            "Zone": 2,
+            "Name": "Western Edge of the Stadium",
+            "Description": "You love these fans.  They cheer you on and on and you are loving every minute\nof it.  Yet somehow you feel you are being stalked and you can't shake the\nfeeling.\n",
+            "Bits": [
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 285
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 281
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 283
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 283,
+            "Zone": 2,
+            "Name": "Along the Western Edge of the Stadium",
+            "Description": "You are being showered by tons of flowers and coins.  When you look closely\nat the coins, you notice they have Shao Kahn's picture on them.  In other\nwords the coins are worthless.  You might keep one though for a souvenir.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 282
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 284
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 284,
+            "Zone": 2,
+            "Name": "Western Side of the Stadium",
+            "Description": "You are loved and adored as you come over here.  You shake some hands, give\nout your autograph, and are even kissed by some women.  They cheer more when\nyou show off some of your fighting moves.  But you can't help feeling that\nsomeone's out there and he's watching you........\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 283
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 276
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 285,
+            "Zone": 2,
+            "Name": "The Acid Pool",
+            "Description": "With you being so over-confident, you didn't notice you were too far to the\nedge until it was too late.  As you fall you hear screams of fear and dismay,\nand your own scream is of terror.\n\nDOWN........\n\n           DOWN......\n\n                       DOWN you go all the way to the bottom......\n\nSPLASH!  Right into the goo.  Suddenly this goo begins EATING YOU! This isn't\ngoo, It's ACID!!! You scream desperately as the acid begins to eat through \nyour equipment, your skin, and finally your muscles.....\n\nFortunately you died before the acid got to your brain.\n*Anyone for nice fresh skeleton?*\nSorry Master, you just died.\n",
+            "Bits": [
+                "DEATH",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 281
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 286,
+            "Zone": 2,
+            "Name": "T\u0026E's Pizza Parlor",
+            "Description": "MMMMMM Boy!  Does it smell good in here.  The smell of pizza here fills the\nwhole room.  Looking around you see other mouthwatering goodies as well.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 231
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 287,
+            "Zone": 2,
+            "Name": "Brittany's Armor Shop",
+            "Description": "Talk about being in the pink here.  This entire place is painted pink.  Looking\naround you also see dozens of pictures covering the place.  Looking closer you\nsee that most of the pictures are of Brittany herself but every now and then\nyou see a picture of the Chipettes in general or even one including the\nChipmunks as well.  But this isn't Memory Lane, so I guess you better go about \nyour business.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 231
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 288,
+            "Zone": 2,
+            "Name": "Alvin's Weapons Shop",
+            "Description": "Boy is this place a mess!!!  You see boxes and crates of stuff just lying around\nand you begin to wonder if this place is even ready to open.  Yet you do\nsee some glass cases with some weapons with price tags on them so they must be\nready to sell (at least you guess anyway).\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 231
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 289,
+            "Zone": 2,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 290,
+            "Zone": 2,
+            "Name": "MK Shang Morphs holding block",
+            "Description": "This room holds all extra morphs of Shang Tsung.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 291,
+            "Zone": 2,
+            "Name": "Nightwolf's Sanctuary",
+            "Description": "Steping into the Earth Realm, you find yourself on holy ground.  The only person\nhere you see is a strong Native Americain chanting a prayer for the Earth\nWarriors fighting for the survival of the realm.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "secret",
+                        "special"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 278,
+                    "Destination": 231
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

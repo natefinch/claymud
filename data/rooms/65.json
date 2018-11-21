@@ -1,0 +1,1579 @@
+{
+    "rooms": [
+        {
+            "ID": 6500,
+            "Zone": 65,
+            "Name": "Path to Dwarven Village",
+            "Description": "You are walking down a path that leads to the dwarven village.  Above you\r\r\r\r\r\n\ryou see the Turning Point, and to the north the path continues toward\r\r\r\r\r\n\rthe mountains.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The path continues.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6501
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3078
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6501,
+            "Zone": 65,
+            "Name": "Path, base of mountain",
+            "Description": "Now you are at the bottom of a rugged mountain.  The forest around you is\r\r\r\r\r\n\rvery dense, and it seems very dark to the north.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The path coninues up the mountain.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6502
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The path heads toward the main city.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6500
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6502,
+            "Zone": 65,
+            "Name": "Path, middle of mountain",
+            "Description": "Standing on the middle of the mountain, you can easily see the city to\r\r\r\r\r\n\rthe south, and the top of the mountain is very near to the north.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The top of the mountain is easilly seen from here.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6503
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The base of the mountain is near.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6501
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6503,
+            "Zone": 65,
+            "Name": "Top of mountain",
+            "Description": "You are now on the top of the mountain.  To the south you see a path\r\r\r\r\r\n\rleading down the mountain.  To the east and west you see entrances to\r\r\r\r\r\n\rwhat seems like mines.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "An entrance to the mountain which seems to lead underground.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6540
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The path leads down the mountain to the main city.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6502
+                },
+                {
+                    "Direction": "West",
+                    "Description": "There is an entrance to the mountain.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6505
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6504,
+            "Zone": 65,
+            "Name": "Narrow Path",
+            "Description": "This is a narrow path leading to the Dwarven Kingdom.  It looks less\r\r\r\r\r\n\rtravelled than the others, and it is very creepy.  The path opens up\r\r\r\r\r\n\rto the south, and continues to the north.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6506
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6540
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6505,
+            "Zone": 65,
+            "Name": "Entrance to Mountain",
+            "Description": "Here is an entrance to the mountain.  The door looks very well built,\r\r\r\r\r\n\rand you can hear noise coming from within.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6503
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 6550,
+                    "Destination": 6513
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6506,
+            "Zone": 65,
+            "Name": "Bend in Narrow Path",
+            "Description": "This is a narrow path that bends to the east here.  The trees hang over\r\r\r\r\r\n\rthe path, and it is very overgrown.  The narrow path continues to the\r\r\r\r\r\n\rsouth and to the east.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6507
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6504
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "tree",
+                        "trees"
+                    ],
+                    "Description": "They hang over the road in the most ominous of ways.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 6507,
+            "Zone": 65,
+            "Name": "Narrow path",
+            "Description": "This path is very narrow, and it continues to the north and west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6508
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6506
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6508,
+            "Zone": 65,
+            "Name": "Narrow north-south path",
+            "Description": "This path leads to the north and south.  To the north you can see a\r\r\r\r\r\n\rdoor, and to the south the path continues.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6509
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6507
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6509,
+            "Zone": 65,
+            "Name": "Door to Kingdom",
+            "Description": "Here the path turns to the west.  You can see a door in front of you,\r\r\r\r\r\n\rand the path continues to the west and south.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "This door leads no where. The castle which once resided beyond this door\r\r\r\r\r\n\rhas been destroyed by time and the elements. If you even try to go past\r\r\r\r\r\n\rthis door, you will find yourself unable to move. And you shall die.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 6503,
+                    "Destination": 6510
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6508
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6522
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6510,
+            "Zone": 65,
+            "Name": "Path to the Castle",
+            "Description": "You are on a path that will eventually lead to the castle.  It\r\r\r\r\r\n\rcontinues north to the castle, and there is a door on the southern\r\r\r\r\r\n\rwall.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6511
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 6503,
+                    "Destination": 6509
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6511,
+            "Zone": 65,
+            "Name": "Still on the path to the Castle",
+            "Description": "You are still on the path to the castle, or back to the\r\r\r\r\r\n\rDwarven village, whichever way you wish to go.  The path\r\r\r\r\r\n\rcontinues to the north and south.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6512
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6510
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6512,
+            "Zone": 65,
+            "Name": "Door to Castle",
+            "Description": "Here there is a door to the castle to the east.  The castle\r\r\r\r\r\n\ris elegantly designed, and looks much like a roll of toilet paper\r\r\r\r\r\n\rstanding on it's end.  There is a sign which says:\r\r\r\r\r\n\r\r\r\r\r\r\n\r              ******************************************\r\r\r\r\r\n\r              *  WELCOME TO THE CASTLE OF STRANGELOVE  *\r\r\r\r\r\n\r              *      Here, celibacy is uninvited       *\r\r\r\r\r\n\r              ******************************************\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 6514,
+                    "Destination": 6525
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6511
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6513,
+            "Zone": 65,
+            "Name": "Inside the entrance",
+            "Description": "Everything here is covered in soot and very grimy.  The path continues\r\r\r\r\r\n\rto the east and north, and there is a door to the west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The little underground path continues to the north.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6514
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The path leads outside the entrance.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 6550,
+                    "Destination": 6505
+                },
+                {
+                    "Direction": "West",
+                    "Description": "This looks like an entrance to some type of store room.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6526
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6514,
+            "Zone": 65,
+            "Name": "Path",
+            "Description": "You are on a path in the dwarven village which leads north to the shops\r\r\r\r\r\n\rand south to the corner of the area.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6515
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6513
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6515,
+            "Zone": 65,
+            "Name": "Turn in road",
+            "Description": "You are on a path that leads to a Hide \u0026 Tooth shop to the west, and the\r\r\r\r\r\n\rpath continues to the south.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6514
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The Hide \u0026 Tooth shop is seen to the west.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6516
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6516,
+            "Zone": 65,
+            "Name": "Hide \u0026 Tooth Shop",
+            "Description": "You are in the Hide \u0026 Tooth shop.  Here you may buy the finest in Dwarven\r\r\r\r\r\n\rweapons and armors. The path continues to the north and east.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6517
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6515
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6517,
+            "Zone": 65,
+            "Name": "Path to the north of shop",
+            "Description": "You are on a path to the north of the Hide \u0026 Tooth shop.  The path continues\r\r\r\r\r\n\rto the north, and there is Granite Head's bakery to the west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6518
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6516
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6535
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6518,
+            "Zone": 65,
+            "Name": "North of Shops",
+            "Description": "Here the path bends to the east towards the barracks. To the\r\r\r\r\r\n\rsouth you can see the shops.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6519
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6517
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6519,
+            "Zone": 65,
+            "Name": "Path by Hospital",
+            "Description": "Here the path passes by the Hospital to the north.  It continues\r\r\r\r\r\n\rto the east to the barracks, and to the west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6534
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6520
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6518
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6520,
+            "Zone": 65,
+            "Name": "Path next to barracks",
+            "Description": "Here the path continues west, and east to the barracks.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6521
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6519
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6521,
+            "Zone": 65,
+            "Name": "Entrance to barracks",
+            "Description": "Here there is an entrance to the barracks to the south, and\r\r\r\r\r\n\rthe path continues to the west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 6523
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6520
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6522,
+            "Zone": 65,
+            "Name": "Guard House",
+            "Description": "You are in the guard house to the west of the entrance\r\r\r\r\r\n\rto the castle.  There are nudie posters covering the walls.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6509
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "poster"
+                    ],
+                    "Description": "There is a wall poster of a nude Minne Pearl.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 6523,
+            "Zone": 65,
+            "Name": "First Barrack room",
+            "Description": "Here is the first of two main rooms of barracks.  The\r\r\r\r\r\n\rbarracks continue to the south, and you can leave the room\r\r\r\r\r\n\rto the north.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 6521
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6524
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6524,
+            "Zone": 65,
+            "Name": "Back of Barracks",
+            "Description": "Here is the back of the dwarven barracks.  There are rows\r\r\r\r\r\n\rof beds here, and there is a stench that is unbearable.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6523
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6525,
+            "Zone": 65,
+            "Name": "Inside of Castle Strangelove",
+            "Description": "You are just inside the castle.  It is very tubular in shape,\r\r\r\r\r\n\rand it is very featureless.  There is a set of stairs that lead\r\r\r\r\r\n\rup, and the door leads out of the castle to the west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 6514,
+                    "Destination": 6512
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6528
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6526,
+            "Zone": 65,
+            "Name": "A store room",
+            "Description": "There is a layer of dust on the floor at least 3 inches thick!  It is\r\r\r\r\r\n\rprobable that not many people have been in here for many months.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "A lighted area that looks like a well worn path.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6513
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 6527
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "floor",
+                        "dust"
+                    ],
+                    "Description": "After blowing all the dust off the floor, you notice a trapdoor!\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 6527,
+            "Zone": 65,
+            "Name": "Wine cellar",
+            "Description": "This room smells like wine, and you can only assume it used to be\r\r\r\r\r\n\ra wine cellar at one time.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 6526
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6528,
+            "Zone": 65,
+            "Name": "Stairs in castle",
+            "Description": "The stairs continue to circle up and down here.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6529
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6525
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6529,
+            "Zone": 65,
+            "Name": "Stairs",
+            "Description": "You are still circling around on the stairs.  You are starting to\r\r\r\r\r\n\rget dizzy from going around and around and around and around and\r\r\r\r\r\n\raround.  The stairs continue up and down.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6530
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6528
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6530,
+            "Zone": 65,
+            "Name": "Top of stairs",
+            "Description": "You are at the top of the stairs in the castle.  There is an exit\r\r\r\r\r\n\rto the east, and the stairs lead down.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6531
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6529
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6531,
+            "Zone": 65,
+            "Name": "Queen's waiting room",
+            "Description": "This is the Queen's waiting room.  Here the men literally\r\r\r\r\r\n\r\"wait\" for the queen.  You've heard that the queen really likes\r\r\r\r\r\n\rto get to 'know' her people, in the biblical sense.  The queen's\r\r\r\r\r\n\rbedroom is to the north, and you can see stairs to the west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 6532
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6530
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6532,
+            "Zone": 65,
+            "Name": "Bedroom",
+            "Description": "This is the Queen's bedroom.  The bed is all ruffled, and there\r\r\r\r\r\n\ris a stack of dirty sheets piled in the corner.  There is a ladder\r\r\r\r\r\n\rthat leads down, out of the castle, and you can leave the room\r\r\r\r\r\n\rto the south.\r\r\r\r\r\n\rThere is a sign that says:\r\r\r\r\r\n\r      -------------------------\r\r\r\r\r\n\r      |  I'm busy right now,  |\r\r\r\r\r\n\r      |  and don't know when  |\r\r\r\r\r\n\r      |  Ill be back, but if  |\r\r\r\r\r\n\r      |  there is a key here  |\r\r\r\r\r\n\r      |  take it and PLEASE,  |\r\r\r\r\r\n\r      |  try to get my birth  |\r\r\r\r\r\n\r      |  control pills back!  |\r\r\r\r\r\n\r      |  I've heard they can  |\r\r\r\r\r\n\r      |  be found somewhere,  |\r\r\r\r\r\n\r      |  deep in the mines..  |\r\r\r\r\r\n\r      -------------------------\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 6531
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6533
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6533,
+            "Zone": 65,
+            "Name": "North side of Castle Strangelove",
+            "Description": "You are standing on the north side of Castle Strangelove.  You\r\r\r\r\r\n\rnotice that you are no longer inside the mountain anymore either.\r\r\r\r\r\n\rAlong the southern horizon you see towering mountains.\r\r\r\r\r\n\rTHIS AREA IS NOT OPEN SO GO BACK UP!\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6532
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6534,
+            "Zone": 65,
+            "Name": "Hospital",
+            "Description": "You are inside the Dwarven Hospital.  It smells like rubbing\r\r\r\r\r\n\ralcohol, and there is blood all over the walls.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6519
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6535,
+            "Zone": 65,
+            "Name": "Granite Head's Bakery",
+            "Description": "The aroma coming from this room is astonishing.  You can almost taste\r\r\r\r\r\n\rthe pastry's dissolving in your mouth.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6517
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6540,
+            "Zone": 65,
+            "Name": "Dark path",
+            "Description": "This path is very well worn, and there is an entrance to the mines to the\r\r\r\r\r\n\reast, while the path continues to the north and west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6504
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 6502,
+                    "Destination": 6541
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6503
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6541,
+            "Zone": 65,
+            "Name": "Mine entrance",
+            "Description": "The little path here leads down toward the mines, while the worn path\r\r\r\r\r\n\rcontinues to the west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 6502,
+                    "Destination": 6540
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6542
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6542,
+            "Zone": 65,
+            "Name": "Bottom of mineshaft",
+            "Description": "You are at the bottom of the mineshaft.  The air here is very sooty, and\r\r\r\r\r\n\rit is very hard to breath.  The mineshaft leads up and east.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6543
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6541
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6543,
+            "Zone": 65,
+            "Name": "Path in the mine",
+            "Description": "You are deep inside the mine, and you feel very uncomfortable.  The\r\r\r\r\r\n\rpath continues to the east, and leads to the mineshaft to the west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6544
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6542
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6544,
+            "Zone": 65,
+            "Name": "Mine crossroad",
+            "Description": "You are at a crossroad in the mine.  There is a door to the north,\r\r\r\r\r\n\rand the path continues to the south, east, and west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 6516,
+                    "Destination": 6546
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6545
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6551
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6543
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6545,
+            "Zone": 65,
+            "Name": "Coal Room",
+            "Description": "You are inside the storage area for the raw materials\r\r\r\r\r\n\rthat are found down here.  The room is very unsturdy as the\r\r\r\r\r\n\rsupports are very rickety.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6544
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6546,
+            "Zone": 65,
+            "Name": "Mine Maze",
+            "Description": "You have entered the maze of the mines.  To the east you\r\r\r\r\r\n\rcan see some inscriptions, and you can exit to the south.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6547
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 6516,
+                    "Destination": 6544
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6547,
+            "Zone": 65,
+            "Name": "Maze inscription",
+            "Description": "You are inside the maze, but not far enough in that you could\r\r\r\r\r\n\rget lost.  There is an enscription on the wall which says:\r\r\r\r\r\n\r\r\r\r\r\r\n\r          1    3    2    4\r\r\r\r\r\n\r          N    W    N    S\r\r\r\r\r\n\r\r\r\r\r\r\n\rThis isn't too tough, so don't take it so rough.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6548
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6544
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6546
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6548,
+            "Zone": 65,
+            "Name": "Maze",
+            "Description": "You are in a maze.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6549
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6547
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6548
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6549,
+            "Zone": 65,
+            "Name": "Maze",
+            "Description": "You are in a maze.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6548
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6548
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6550
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6550,
+            "Zone": 65,
+            "Name": "Maze",
+            "Description": "You are in a maze.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6549
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6549
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6552
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6548
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6551,
+            "Zone": 65,
+            "Name": "Mining equipment room",
+            "Description": "This is the storage room for equipment used by the\r\r\r\r\r\n\rDwarven miners.  It is very small, and you can tell that\r\r\r\r\r\n\rnot many miners actually use any equipment.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6544
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6552,
+            "Zone": 65,
+            "Name": "Solved the Maze.",
+            "Description": "You have solved the maze.  You can tell by the last few moves\r\r\r\r\r\n\rthat there is no way that a dumb worker could have figured that\r\r\r\r\r\n\rout.  It seems pretty desolate here.  To the south is a bleak room.\r\r\r\r\r\n\rTo the north, you see the maze.  There is a sign above the south exit:\r\r\r\r\r\n\r\r\r\r\r\r\n\rTHOSE WHO ENTER, PLAN ON A TIMELY DEATH.\r\r\r\r\r\n\r(ESPECIALLY IF YOU'RE LOYAL TO THE QUEEN)\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6550
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6553
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 6553,
+            "Zone": 65,
+            "Name": "The Mazekeeper's Room",
+            "Description": "You have entered the Mazekeeper's room.  There are pictures of\r\r\r\r\r\n\rthe Queen with darts thrown in it.  Spraypainted on the wall are\r\r\r\r\r\n\rthings like 'the queen shall suffer' and 'Catholics Rule'.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6552
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

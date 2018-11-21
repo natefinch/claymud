@@ -1,0 +1,3286 @@
+{
+    "rooms": [
+        {
+            "ID": 24300,
+            "Zone": 243,
+            "Name": "Section Chief Scott Blevins' office",
+            "Description": "The first thing you notice upon entering this office is how tidy it is.\nThis office is well-lit and the windows are wide-opened to allow fresh air\nto ventilate throughout.  There's a man sitting behind a desk working on a\npersonal computer.  He seems to be writing a report or a personnel profile\nof someone.  The man doesn't seem to sense your presence in this room as he\nis busy working hard on his task.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24304
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24301,
+            "Zone": 243,
+            "Name": "Walter Skinner's office",
+            "Description": "This office is not very well-lit and it's pretty stuffy in here.  The\nwindows are kept shut and the main light switches are taped so that they\nwill not be turned on.  There are couches here on both sides of the room\nand the walls here are bare.  A large desk is lying on the middle of this\noffice and someone is sitting behind it.  He looks like a smei bald-headed\nman with glasses.  He seems to be busy talking on the phone and he's\ncareful not to speak too loud...because the walls have ears...\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24302
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24302,
+            "Zone": 243,
+            "Name": "The 3rd Floor (north hallway)",
+            "Description": "There's a door here guarded by two alert security officers.  They seem to\nhave their hands on their side arms everytime someone approaches them.\nSomeone in there must be pretty darn important for the guards to behave in\nthis manner.  The name label on the door reads 'Assistant Director of the\nF.B.I. Walter S. Skinner.'\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 24386,
+                    "Destination": 24301
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24310
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24303,
+            "Zone": 243,
+            "Name": "The 3rd Floor (west hallway)",
+            "Description": "There's nothing unusual about this area of the floor.  Security guards are\nwalking behind you and you can feel them staring at you as though you were\na shoplifter in a store.  The elevator entrance is just east of where\nyour're standing and the hallway continues south.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24310
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24304
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24304,
+            "Zone": 243,
+            "Name": "The 3rd Floor (west hallway)",
+            "Description": "There are lots of guards here passing you by and looking you up and down as\nthough you're under suspicion.  A door is located west of here and there's\na name label on this door thtat reads 'Section Chief Scott Blevins.'  The\nhallway continues south and north of here.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24303
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24305
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24300
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24305,
+            "Zone": 243,
+            "Name": "The 3rd Floor (south hallway)",
+            "Description": "You can feel the security cameras immediately zoom into your direction as\nyou walk into this area of the floor.  The cameras here record all areas\nin the building making sure that foreign spies could not leave here with\ntop-secret files.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24304
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24306
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24306,
+            "Zone": 243,
+            "Name": "The 3rd Floor (south hallway)",
+            "Description": "Security guards are still here checking ID badges and security is tighter\nthan ever.  Anyone who is caught in a suspicious act is immediately\nconfined to a holding cell.  This hallway continues east and west of where\nyou're standing.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24307
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24305
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24307,
+            "Zone": 243,
+            "Name": "The 3rd Floor (south hallway)",
+            "Description": "This entire hallway seems to go in circles and you're beginning to wonder\nwhere's the exit from this floor.  This hallway is dull much like the other\nhallways on the other floors.  Each area is so much alike that it's hard to\nremeber where you've been or came in from.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24308
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24306
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24308,
+            "Zone": 243,
+            "Name": "The 3rd Floor (east hallway)",
+            "Description": "There's nothing different in this area of the hallway.  The guards are\nstill behind you making sure that you're not here to cause any problems.  A\ndoor is located east of here and the label on that door reads 'Section\nChief Joseph McGrath.'\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24309
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24399
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24307
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24309,
+            "Zone": 243,
+            "Name": "The 3rd Floor (east hallway)",
+            "Description": "You notice that the security guards here are checking your every movement\nand they seem to be following you to make sure you're not trying anything\nfunny.  There are hidden security cameras on all parts of this floor.  The\nhallway continues west and south of here.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24308
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24310
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24310,
+            "Zone": 243,
+            "Name": "The 3rd Floor (elevator entrance)",
+            "Description": "There seems to be more security officers here than the two previous floors\nbeneath you.  The officers seem to be checking badges of every single\nvisitor on this floor and they're about to check yours as well.  This\nhallway continues east and west of here, and to your north there's a door\nguarded by two security officers.  The elevator entrance/exit is just south\nof where you're standing.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24302
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24309
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "elevator",
+                        "door",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 24300,
+                    "Destination": 24311
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24303
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24311,
+            "Zone": 243,
+            "Name": "Inside the elevator (at the 3rd Floor)",
+            "Description": "As soon as you arrive at this level of the elevator, a computerized voice\ntells you that only personnel with priority one clearance may pass through\nthis door.  The computer access panel is here waiting for you to slide in\nyour access card so that they can validate your ID.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "elevator",
+                        "door",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 24300,
+                    "Destination": 24310
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24331
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24312,
+            "Zone": 243,
+            "Name": "Fox Mulder's secret files",
+            "Description": "There are about ten large file cabinets stacked on top of one another.  \nEach cabinet seems to be filled with information of top-secret files that\neven the most higher-ups in the Pentagon have never seen.  Each cabinet\nseems to be locked and probably only Fox Mulder has the key to access to\nthese files.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24313
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24313,
+            "Zone": 243,
+            "Name": "Further inside a secret entrance",
+            "Description": "The darkness is making you trip and bump into anything that is lying in the\nmiddle of the walkway.  This entrance seems to be built within the very\nwalls of the F.B.I. building and probably only this 'Agent Mulder' knows\nabout this secret area.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24314
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24312
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24314,
+            "Zone": 243,
+            "Name": "Inside a secret entrance",
+            "Description": "It's very dark in here...  What could be lying south of this secret\nentrance, you think to yourself.  There is no light switch in this room and\nyou can't sense anything dangerous near here.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "secret",
+                        "entrance",
+                        "north",
+                        "n",
+                        "wall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 24315,
+                    "Destination": 24315
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24313
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24315,
+            "Zone": 243,
+            "Name": "Fox Mulder's office",
+            "Description": "This office is a complete mess.  Everywhere you look there are documents,\nbooks, journals, and research paper lying on the tables, chairs, and even\nthe floor.  There are also food cartons and coffee cups stacked to the top\nin a small garbage can.  The walls are covered corner to corner by hundreds\nof articles that seem to focus mostly on U.F.O. sitings and abductions.  In\nthe middle of the room, there's a small desk and two agents are here\nsitting next together discussingon something.  One of the special agents is\na man and he seems to be doing his research using his computer, and the\nother special agent is a gorgeous red-haired woman who is here studying\ncuriously on what the other agent is doing.  As you look around this small\noffice, you notice an outline on the wall of what seems to be some sort of\na secret entrance south of here.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24316
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "secret",
+                        "entrance",
+                        "south",
+                        "s",
+                        "wall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 24315,
+                    "Destination": 24314
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24316,
+            "Zone": 243,
+            "Name": "The 2nd Floor (south hallway)",
+            "Description": "There's a door south of here and on that door a label reads 'Special Agent\nFox Mulder.'  A poster is also taped to the door.  It's a picture of a\nflying saucer of some sort and the words on it reads 'The Truth is Out\nThere...'  There are people inside this office as you try to listen in on\ntheir conversation.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24317
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24315
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24317,
+            "Zone": 243,
+            "Name": "The 2nd Floor (south hallway)",
+            "Description": "The south hallway seems to a complete stop here but it really\ncontinues south of here.  And at a distance, south of where you're standing\nthere's a door there.  The lights around this area seem to be dimmer than\nthe rest of the hallway.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24318
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24316
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24318,
+            "Zone": 243,
+            "Name": "The 2nd Floor (south hallway)",
+            "Description": "The tedium of walking back and forth trying to find your way around this\nfloor is beginning to make you think twice about getting out of this area.\nThis hallway seems to continue all the way east and west of here.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24319
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24317
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24319,
+            "Zone": 243,
+            "Name": "The 2nd Floor (south hallway)",
+            "Description": "The southern hallway of this floor seems to be endless.  The walk from\neast-to-west and west-to-east is beginning to confuse your sense of\ndirection.  There are agents here moving quickly passing you by as though\nthey seem to be in a hurry.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24325
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24318
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24320,
+            "Zone": 243,
+            "Name": "Dana Scully's office",
+            "Description": "Amazingly this office is tidy unlike most of the offices here in the\nbuilding.  Not only is the place clean but it also smells nice.  There's a\ndesk in the middle of the room and on top of it, there's a picture of a\nbeautiful woman.  She has pretty shoulder-length red hair and pouty red\nlips to match...she's just gorgeous.  Suddenly, you sense you're not alone\nin this room.  Someone else is here and she seems to be waiting patiently\nfor someone, probably the cute woman-agent in the photo.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24321
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24321,
+            "Zone": 243,
+            "Name": "The 2nd Floor (south hallway)",
+            "Description": "You're standing before a door south of here.  The label on this door reads\n'Special Agent Dana Scully.'  As you were about to walk away you sense\nsomeone is inside this room.  It's probably just this 'Agent Scully' doing\nher business in there.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24322
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24320
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24322,
+            "Zone": 243,
+            "Name": "The 2nd Floor (south hallway)",
+            "Description": "There's nothing special to look at around here.  Agents and security\nofficers are just everywhere on this floor and everyone here seems busy\nwith some task at hand.  From a distance, south of where you're standing,\nan office door is located there.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24326
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24321
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24323,
+            "Zone": 243,
+            "Name": "The 2nd Floor (west hallway)",
+            "Description": "There are no paintings on the walls and monuments standing on the sides of\nthe hallway.  All you see around this section of the floor are special\nagents walking pass you carrying loads of documents on their arms.  From a\ndistance, you can see the elevator is just located east of here.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24330
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24324
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24324,
+            "Zone": 243,
+            "Name": "The 2nd Floor (west hallway)",
+            "Description": "You are immediately bored by this area of the hallway because there's nothing\nexciting going on around this place.  The special agents here are just\nworking diligently on their tasks and they don't have time to give you a\ntour to their rooms.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24323
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24325
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24325,
+            "Zone": 243,
+            "Name": "The 2nd Floor (south hallway)",
+            "Description": "Special agents from all departments in the building are moving back and\nforth trying to get things done.  Everyone here looks hard-working and\ndedicated to their work.  The south hallway continues all the way east and\nwest of here and the west hallway is to your north.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24324
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24326
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24319
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24326,
+            "Zone": 243,
+            "Name": "The 2nd Floor (south hallway)",
+            "Description": "You've reached an intersection between three hallways.  The southern\nhallway seems to lead to an office there.  The west hallway looks like it\nstretches for miles and the east hallway seems much shorter.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24327
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24322
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24325
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24327,
+            "Zone": 243,
+            "Name": "The 2nd Floor (east hallway)",
+            "Description": "The hallway here looks like a maze to confuse people.  The walls and floors\nare all alike and there's no way to track a route from one place to\nanother.  The confusion has made you go in circles as you try to find your\nway around this labyrinth.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24328
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24326
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24328,
+            "Zone": 243,
+            "Name": "The 2nd Floor (east hallway)",
+            "Description": "You notice there are security cameras placed at a ceiling everywhere you\ngo.  The F.B.I. wants to make sure that no one without authorization may\nwander into this building without notice.  This hallway continues south and\nnorth of here.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24329
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24327
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24329,
+            "Zone": 243,
+            "Name": "The 2nd Floor (east hallway)",
+            "Description": "There's nothing exciting happening around here.  All you see are special\nagents moving from room to room carry research documents and security\nequipment from one place to another.  This hallway continues west and south\nof where you're standing.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24328
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24330
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24330,
+            "Zone": 243,
+            "Name": "The 2nd Floor (elevator entrance)",
+            "Description": "An elevator is located south of here and there's an access panel that's\nready to validate your access card.  You can see the security camera up on\nthe ceiling zooming in to your direction making sure you don't fool around \nwith panel.  This 2nd Floor hallway continues east and west.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24329
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "elevator",
+                        "door",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 24305,
+                    "Destination": 24331
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24323
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24331,
+            "Zone": 243,
+            "Name": "Inside the elevator (at the 2nd Floor)",
+            "Description": "The elevator stops here at the 2nd Floor but the doors doesn't\nautomatically open.  Instead a computerized voice coming out from a speaker\npanel requests for an identification card.  It seems all floor in this\nF.B.I. building requires an access verification of some sort.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "elevator",
+                        "door",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 24305,
+                    "Destination": 24330
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24311
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24367
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24332,
+            "Zone": 243,
+            "Name": "Inside a research confinement",
+            "Description": "The first thing you notice upone entering this room is the frightened man\nsitting in the corner with his arms and hands covering his face.  It's as\nthough he fears someone or something would come inside this room and take\nhim away.  The poor man keeps muttering about 'them' coming back for him.\nThis mental patient looks harmless but WATCHOUT!  He's know to have killed\na few people and kidnapped an F.B.I. agent.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "cell"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24341
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24333,
+            "Zone": 243,
+            "Name": "Inside a research confinement",
+            "Description": "As you walk inside this room, you sense that there's danger all around you.\nA danger by the name of Eugene Tooms, a mental patient who loves to murder\nand mutilate his victims for their livers!  You can hear heavy breathing in\nthe darkness but you can't see where Tooms is around this room.  He's\nhiding like a natural predator until he's ready to strike...\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "cell"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24337
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24334,
+            "Zone": 243,
+            "Name": "A top-secret research laboratory",
+            "Description": "You are amazed by what you see around you.  Some of the patients here\naren't like any human on earth...these patients look more like outer space\naliens!  You can't take your eyes off the strange patients all around you.\nThere's also a strange humanoid 'fish-man' chained inside a large fish tank\nnext to a wall.  Also you see a grey-skin man with lesions covering most of\nhis face.  This laboratory is more like a circus freak show than any\nresearch department.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24335
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24335,
+            "Zone": 243,
+            "Name": "A top-secret research laboratory",
+            "Description": "There are things here that are not meant for anyone outside the department\nto see.  Everywhere you look, there are patients here in straitjackets and\ntheir mouths are in protective muffles.  The patients here must be pretty\ndangerous to let loose around this room and some of them are acting\nviolently as you walk close to them.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24334
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 24385,
+                    "Destination": 24336
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24336,
+            "Zone": 243,
+            "Name": "The Research for the Unexplained Department",
+            "Description": "There's a large door with an access card panel next to it.  There must be\nsomething important behind this door that only the most qualified, rank and\nexperience, may enter inside.  The large sign on this door reads \n'AUTHORIZED PERSONNEL ONLY - trespassers will be prosecuted.'\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24337
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 24385,
+                    "Destination": 24335
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24337,
+            "Zone": 243,
+            "Name": "The Research for the Unexplained Department",
+            "Description": "There are a lot of activities going on west of here and most of the\nscientists stationed in this department are crowded there.  A door is\nlocated south of where you're standing and the door label reads 'Mental\nPatient: Eugene Victor Tooms - DO NOT ENTER.'\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "cell"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24333
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24338
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24336
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24338,
+            "Zone": 243,
+            "Name": "The Research for the Unexplained Department",
+            "Description": "You've been inside this department for some time now and you notice that\nthere's a 'whispering' on the loud speakers.  You try to make out the words\nfrom this whispering and the only words you can understand are 'deny\neverything...'  The F.B.I. must be trying to brainwash their employees with\nsubliminal messages so that they would not leak out top-secret information.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24339
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24337
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24339,
+            "Zone": 243,
+            "Name": "The Research for the Unexplained Department",
+            "Description": "This strange area of the building is beginning to make you think twice\nbefore going any further.  Security guards are everywhere and you can see\nsurveillance cameras on the ceiling zooming back and forth.  This Research\nDepartment continues east and west.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24340
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24338
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24340,
+            "Zone": 243,
+            "Name": "The Research for the Unexplained Department",
+            "Description": "Everywhere you look, doctors and scientists are running back and forth\ntending to their tasks.  You can see doctors and their assistants here\nmoving patients on medical emergency beds.  The patients on these beds\ndon't look anything like human beings to you -- they have large, dark\nalmond eyes and their skin pigment is unlike anything you've seen on a\nnormal person.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24341
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24339
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24341,
+            "Zone": 243,
+            "Name": "The Research for the Unexplained Department",
+            "Description": "Only the most qualified scientists and doctors may enter this section of\nthe floor.  This is the area where the F.B.I. doesn't want anyone to know\nabout and what Fox Mulder and the 'Lone Gunmen' are trying to uncover to\nthe public.  The secrets in this large department could put the nation in a\nwidespread panic and thus everything in this department is national\nsecurity.  There's a door north of here and the label on this door reads\n'Mental Patient: Duane Barry - DO NOT ENTER.'\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24332
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "south",
+                        "southdoor",
+                        "2.door",
+                        "sdoor",
+                        "2door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 24385,
+                    "Destination": 24352
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24340
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24342,
+            "Zone": 243,
+            "Name": "A smoke-filled room",
+            "Description": "It's dark as heck in here!  The light-switch doesn't seem to be functional\nand the smoke doesn't help much either.  Someone is definitely here and\nhe's sitting behind a desk.  The silhouette figure behind the desk seems to\nbe that of a man smoking a cigarette.  He's talking on the phone and \nwhispering every single word from his mouth.  The conversation must be \nimportant that he didn't sense your presence here in his office.  As you\nlook over his desk you see his ash tray filled to the top with ashes and\ncigarette butts.  This strange man is going to die from lung cancer before\nhe reaches his prime.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24350
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24343,
+            "Zone": 243,
+            "Name": "The Paranormal/Psychic Research Department",
+            "Description": "There are a lot of scientists and doctors here performing tests of all\nsorts in this room.  You notice a strange 'sensation' as you walk inside\nthis laboratory.  There's an aura that surrounds some of the patients here\nand the feeling you get from what the auras emit is something you can't\nfind the words to explain.  Suddenly, you feel a sharp pain in your head\nas though something is 'squeezing' your brain for information.  The blood\nfrom your nose pour out quickly and you feel yourself losing consciousness.\nThe psychic energy in this room is too much to bear for someone who has no\nexperience dealing with psychics and paranormals.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24348
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24344,
+            "Zone": 243,
+            "Name": "The Cryogenics Research Lab",
+            "Description": "You are in awe as you walk inside this large research laboratory.  There\nare large steel cannisters here lying beside the walls and tubes of strange\nliquid are being fed into them.  It's about thirty degrees in this room and\nyou feel yourself shivering from this freezing temperature.  There's a\nstrange man here just sitting there and staring at one of the cannisters.\nHe doesn't look like he works around this lab and you're not about to ask\nhim what is his business in this room.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24356
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24345,
+            "Zone": 243,
+            "Name": "Inside a dark holding cell",
+            "Description": "It's getting darker and darker as you go further and further into this\nstrange holding cell.  You sense you're not alone inside this room -- you\ncan hear heavy breathing, not from one person but by many.  There must be\nan army in here that is surrounding you and preparing to strike!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24346
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24346,
+            "Zone": 243,
+            "Name": "Inside a dark holding cell",
+            "Description": "It's dark and dank inside this strange room.  The windows here are all\nbarred and boarded shut.  Someone wants this place to remain locked but why\nwould anyone want to do that unless of course, there's someone or\nsomethings locked inside this large cell.  You can feel something is\nwatching you from the darkness...something that doesn't seem friendly...\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24345
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 24385,
+                    "Destination": 24354
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24347,
+            "Zone": 243,
+            "Name": "Basement Floor (main hallway - south)",
+            "Description": "There's a lot of doctors/scientists here walking back and forth attending\nto their tasks at hand.  The guards are carefully looking for any possible\nintruders that enter this section of the floor.  The main hallway continues\neast and west of here.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24357
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24348
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24348,
+            "Zone": 243,
+            "Name": "Basement Floor (main hallway - southwest corner)",
+            "Description": "There's a door south of here and the label on this door reads\n'Paranormal/Psychic Research.'  You are curious to enter this room and find\nwhat's behind this door.  Doctors and scientists from around this section\nseem to walk in and out from this research office.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24349
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24347
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24343
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24349,
+            "Zone": 243,
+            "Name": "Basement Floor (main hallway - west)",
+            "Description": "As you walk along this section of the hallway, you notice immediately the\nlight coming from the north.  It's bright and very strong...something is\ndefinitely happening there.  There are not a lot of guards here patrolling\nthis area and they seem to be staying away as far as possible from what \nlies north of here.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24350
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24348
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24350,
+            "Zone": 243,
+            "Name": "Basement Floor (main hallway - west)",
+            "Description": "There's a light coming from north of here and it's very bright.  You are\ncurious to find out what is causing this light from that direction.  A door\nis also west of here and something in there smells funny.  There are \ncigarette smokes coming from beneath that door, and you can hear a faint\nwhispering inside.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24351
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24349
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24342
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24351,
+            "Zone": 243,
+            "Name": "A white laboratory room",
+            "Description": "This entire room is completely white!  There are strange metallic patient-\nbeds on the sides of the room and funny-looking medical equipments lying on\ntables.  In the middle of the room, there are doctors here dressed in\nweird 'costumes' as though they are trying to look like aliens.  These\n'doctors' seem to be operating on a woman patient and she looks very\nnervous and frightened even in her near-unconscious state.  One of the\ndoctors here are instructing the others on their performance and he's \nspeaking to them in a foreign language...\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24350
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24352,
+            "Zone": 243,
+            "Name": "Basement Floor (main hallway - east)",
+            "Description": "Almost every scientists and doctors on this floor are going inside that\nnorthern entrance.  The door is guarded by two soldiers who make sure that\nthe person has the proper access card.  The access panel is next to that\ndoor and it is the only thing that will unlock this heavily-guarded door.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "access"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 24385,
+                    "Destination": 24341
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24353
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24353,
+            "Zone": 243,
+            "Name": "Basement Floor (main hallway - east)",
+            "Description": "Doctors and scientists are moving everywhere around this area as though\nsomething important is happening here.  All the doctors/scientists seem to\nhead north of here...there must be something there that draws them to that\ndirection.  You are curious (very curious) to find out what lies north.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24352
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24354
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24354,
+            "Zone": 243,
+            "Name": "Basement Floor (main hallway - east)",
+            "Description": "The first thing you notice when you step into this room is a door east of\nwhere you're standing.  The door is made of the same armored metal as the\nelevator door you came from.  Something important must lie behind this\ntough barrier and the only thing that keeps you from entering inside is a\ncertain access card... \n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24353
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 24385,
+                    "Destination": 24346
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24355
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24355,
+            "Zone": 243,
+            "Name": "Basement Floor (main hallway - southeast corner)",
+            "Description": "As you walk along this main hallway, you notice that this floor is much\nlarger than most floors on this building.  There must be something \nimportant going on in this floor that the F.B.I. doesn't want anyone to\nfind out about.  The main hallway continues north and west.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24354
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24356
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24356,
+            "Zone": 243,
+            "Name": "Basement Floor (main hallway - south)",
+            "Description": "There's nothing unusual about this area of the hallway.  A room lies just\nsouth of here and the label on that door reads 'Cryogenics Research.'  The\ndoor is left wide open and someone seems to be in there probably testing or\nresearching on this subject.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24355
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24344
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24357
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24357,
+            "Zone": 243,
+            "Name": "Basement Floor (main hallway - south)",
+            "Description": "Just as you step into this area of the hallway, you notice that this place\nsmells like a hospital.  There are doctors and scientists walking \neverywhere around the hallway back and forth.  Security guards are also\nvery active as they make sure that no one around here is an 'unauthorized'\nvisitor.  They are verifying badges and checking on their list to make sure\neveryone on this floor are what they seem to be.  It would be smart for you\nto avoid these guards when exploring around this section of the hallway.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24361
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24356
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24347
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24358,
+            "Zone": 243,
+            "Name": "Basement Floor (west elevator-hallway)",
+            "Description": "This floor doesn't look like any basement floor from any building you've\nbeen in.  The hallway is well-lit and the walls here are painted light blue.\nThere are also doctors and scientists here walking pass you, and you wonder\nto yourself, what would doctors and scientists be doing at the basement\nfloor of the F.B.I. building?\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24365
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24359
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24359,
+            "Zone": 243,
+            "Name": "Basement Floor (west elevator-hallway)",
+            "Description": "The scientists and doctors are beginning to annoy you as they accidentally\nbump into you when they try making their way to their destination point.\nEveryone here seems to be in a hurry to get to somewhere.  This hallway\ncontinues north and south of here.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24358
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24360
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24360,
+            "Zone": 243,
+            "Name": "Basement Floor (west elevator-hallway)",
+            "Description": "There's nothing unusual about this area of the hallway.  More doctors and\nscientists are passing you going east as though something is happening\nthere.  Not far east of here, you can see that there is an entrance that\ncan take you to another hallway.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24359
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24361
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24361,
+            "Zone": 243,
+            "Name": "Basement Floor (exit/entrance elevator-hallway)",
+            "Description": "The entrance to another hallway lies south of here and there seems to be\nmore activities going on there.  The doctors and scientists are mostly\nentering into that part of the area.  There must be something important\nthat's happening there and it might be dangerous for you to find out what!\nFrom a distance, you can see security guards walking around making sure \nthere's no one here that'll cause any trouble.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24362
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24357
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24360
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24362,
+            "Zone": 243,
+            "Name": "Basement Floor (east elevator-hallway)",
+            "Description": "The sounds of footsteps by doctors and scientists are pretty loud as they\nwalk along the concrete hallway.  Some of the doctors here are scampering\nquickly about as though they are in a hurry to deliver a baby.  The hallway\ncontinues north and west of here.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24363
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24361
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24363,
+            "Zone": 243,
+            "Name": "Basement Floor (east elevator-hallway)",
+            "Description": "More and more doctors/scientists are passing you by as they seem to be in a\nhurry to get to a sick patient.  The basement floor of this building is\nsuprisingly well-lit and the walls are painted white.  This doesn't look\nlike any basement floor in any building you've seen.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24364
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24362
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24364,
+            "Zone": 243,
+            "Name": "Basement Floor (east elevator-hallway)",
+            "Description": "There are no soldiers with guns around this area and hardly any special\nagents here carrying loads of documents.  This entire area is occupy by\npeople wearing long white doctor's uniforms.  Hmmm...  what would doctors\n(or scientists) be doing here working in the basement floor of this \nbuilding, you think to yourself.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24363
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24365
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24365,
+            "Zone": 243,
+            "Name": "Basement Floor (elevator-hallway)",
+            "Description": "Just as soon as you step into this area you notice a large gold-plated sign\nreading 'Top-Secret area, Authorized Personnel Only.'  The sign is so huge\nthat it's impossible not to notice it.  There's also a small phrase beneath\nthis warning sign that reads 'Deny Everything...'  What a strange place\nthis is, you think to yourself.  This hallway continues east and west.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24364
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "elevator",
+                        "door",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 24300,
+                    "Destination": 24366
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24358
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24366,
+            "Zone": 243,
+            "Name": "Inside the elevator (at the Basement)",
+            "Description": "This underground level of the building looks quite suspicious.  To open\nthis door one must have priority one status and an access card that can be\nvalidated by the slider.  The door is impossible to pry open because it's\nmade of some sort of armored metal that you've never seen before...\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "elevator",
+                        "doors",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 24300,
+                    "Destination": 24365
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24367
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24367,
+            "Zone": 243,
+            "Name": "Inside the elevator (at the Main Floor)",
+            "Description": "This elevator looks large from the inside and it may probably fit more than\ntwenty people.  The walls of the elevator are covered by shiny metal plates\nmuch like the elegant hotels in Beverly Hills.  There's a large panel that\nis placed next to the exit/entrance of this elevator.  An access card \nslider is also there next to the control panel.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "elevator",
+                        "door",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 24305,
+                    "Destination": 24371
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24331
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24366
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24368,
+            "Zone": 243,
+            "Name": "The Main Floor (east hallway)",
+            "Description": "The people around you are moving quickly back and forth, moving documents\nfrom one place to the other.  The F.B.I. building is always busy during the\nday and even during night-time.  This hallway continues north and the\nentrance/exit is just west of where you're standing.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24369
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24375
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24369,
+            "Zone": 243,
+            "Name": "The Main Floor (east hallway)",
+            "Description": "As soon as you enter this section of the main floor, you notice a door just\nnorth of here.  It's a plain office door in the department.  The name plate\non the door reads 'Special Agent Alex Krycek'...he must be one of the\nspecial agents here in the building.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "STASIS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24370
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24368
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24370,
+            "Zone": 243,
+            "Name": "Alex Krycek's office",
+            "Description": "This office looks neat and tidy.  All you see is a desk in the middle of\nthe room with a big pile of documents stacked almost close to the ceiling.\nThis office doesn't seem to have a window much like the other offices here\nin the building.  There's a special agent here sitting behind the desk \nwhispering on the phone.  He seems to be talking secretly to someone who is\nimportant (judging by the expression on his face).  The agent doesn't seem\nto notice your presence in his office.  That phone call must be from\nsomeone of great importance.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24369
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24371,
+            "Zone": 243,
+            "Name": "The Main Floor (elevator entrance)",
+            "Description": "It's not a good idea to fool around with the access panel.  It might alert\nthose hundreds or even thousands of F.B.I. agents to your location.  The\npanel requires an insertion of an appropriate access card and only some of\nthe special agents carry that card.  You might as well just turn back now\nbecause without a special access card, you can't get anywhere besides the\nMain Floor.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "elevator",
+                        "door",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 24305,
+                    "Destination": 24367
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24372
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24372,
+            "Zone": 243,
+            "Name": "The Main Floor (west hallway)",
+            "Description": "Special agents are walking back and forth carrying tons of documents on\ntheir arms.  There's a lot of research and development that need to be \ndone around this building in order for a thorough investigation.  To the\neast, there seems to be an elevator but there's also an ID validation/\nsecurity panel beside it.  Without a proper access card there's no way\nyou can enter into the other floors.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24371
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24373
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24373,
+            "Zone": 243,
+            "Name": "The Main Floor (west hallway)",
+            "Description": "This building is nicely maintained by the janitors who work here.  The nice\nred carpet looks dustfree and the walls look clear of any dirty fingerprints.\nThe lighting in this hallway is perfect for any person to conduct their\ndaily business.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24372
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24374
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24374,
+            "Zone": 243,
+            "Name": "The Main Floor (west hallway)",
+            "Description": "There's nothing special about this section of the main floor.  The agents\nhere are too busy minding their own business to stop and chat with you.\nThe west hallway seems to continue north and the entrance/exit from this\nbuilding is just east of here.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24373
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24375
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24375,
+            "Zone": 243,
+            "Name": "Inside the F.B.I. building",
+            "Description": "Everywhere you look there are special agents walking around the building.\nThere's nothing special around here that you notice, the interior of this\ncomplex is just like any other building you've been in.  This looks like\nthe first floor of this building and you can't find the elevator anywhere\nclose to you.  It must be on the opposite end of this floor.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24368
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24376
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24374
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24376,
+            "Zone": 243,
+            "Name": "On the F.B.I. building perimeter",
+            "Description": "As you pass the gates, you notice the guards here standing close by to make\nsure you don't try anything funny.  After you passed that fencing behind\nyou, the guards suspect that you already had proper authorization to enter\nthe building so they were not suspicious of your motives.  The F.B.I.\nbuilding is just north of here and the door there seems to be unlocked.\n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24375
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "gate",
+                        "gates",
+                        "fence",
+                        "fencing"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 24310,
+                    "Destination": 24377
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24377,
+            "Zone": 243,
+            "Name": "The F.B.I. checkpoint",
+            "Description": "As you walk into this area, you notice a small checkpoint booth.  There's a\nguard inside this booth who looks like he's ready to pull out his pistol\nand shoot someone.  Without verification, no one may pass the tall electric\nfencing that surrounds this entire complex.  Only the F.B.I. agents and\nmaybe a few government officials may pass through this gate.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "gate",
+                        "gates",
+                        "fence",
+                        "fencing"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 24310,
+                    "Destination": 24376
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24378
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "gate",
+                        "door",
+                        "entrance",
+                        "gates",
+                        "doors"
+                    ],
+                    "Description": "This gate is the only entrance to the F.B.I. building and it's locked\ntight.  The only way to get pass it is to either get the key from the\nguard or get someone who has the skill to pick a lock.  \n"
+                }
+            ]
+        },
+        {
+            "ID": 24378,
+            "Zone": 243,
+            "Name": "End of President Avenue",
+            "Description": "Finally, you've arrived at the end of this long road.  The activities\naround here are lesser than the other parts of this street.  To your north,\nthere's a walkway that'll take you to a large complex.  The sign there seems\nto read 'Federal Bureau of Investigations.'  That must be the building where\nthose F.B.I. people gather together for a nation-wide assignment.  There's\na large fence from a distance and there are security guards that surrounds\nthe building.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24377
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24379
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24379,
+            "Zone": 243,
+            "Name": "President Avenue",
+            "Description": "There's nothing unusual about this area of the road.  More people are\nwalking pass you and they seem to be in a hurry.  No one is taking time to\nslow down and everyone seems to be trying to beat a deadline.  Cars on the\nroad are just as busy as the people on the sidewalks but they don't move as\nfast due to this street's one-lane traffic.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24378
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24380
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24380,
+            "Zone": 243,
+            "Name": "President Avenue",
+            "Description": "As you walk further along this road, you see more and more people \nscampering all along the sidewalk.  Everyone is busy with something and no\none seems to have time to stop to say 'hi' to you.  The business men and\nwomen here are all carrying the same boring brown briefcases and wearing\ndull grey/blue suits.  You're the only person here who dresses like a \n'normal' person but people around here are too busy to notice that.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24379
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24381
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24381,
+            "Zone": 243,
+            "Name": "President Avenue",
+            "Description": "There's nothing going on around you.  Everyone looks like they're busy with\none thing or another and no one here has time to show you directions.  This\nscenic route is beginning to bore you.  There's no excitement here and\neverything seems to look dull to you.  The people here all dress the same\nand the buildings look alike.  This road seems to continue north and west\nof where you're standing.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24380
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24388
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24382,
+            "Zone": 243,
+            "Name": "Fox Mulder's apartment",
+            "Description": "You notice this room is dark, very dark...  But the television is left on\nby someone who may or may not be still here.  It looks like a taping of an\nalien autopsy program of some sort.  As you look around this smelly, messy\napartment you'll notice the large stacks of tabloid magazines left all over\nthe floor.  There are also source books and journals everywhere.  The nut\nliving here must be a paranoid 'alien-researcher' judging by his taste in\nreading materials and his selected programming.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24383
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24383,
+            "Zone": 243,
+            "Name": "13th Floor",
+            "Description": "This is the only floor where there is a light coming from the hallway.\nThere must be someone living on this floor, probably the only person living\nin this entire building.  The hallway seems to look nice unlike the\ndownstair's.  The red carpet is vacuumed and the cobwebs on the ceiling seem\nto be absent.  To your east, you notice an old wooden door.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24382
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24384
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24384,
+            "Zone": 243,
+            "Name": "Walking on the old concrete stairway",
+            "Description": "You feel you're not alone just as soon as you reach this part of the\nstairway.  There is something that is staring down at you but you can't see\nwhat it is.  Your heart is starting to pound so fast that it's about to\nburst.  You notice a dim light just a few more steps from you.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24383
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24385
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24385,
+            "Zone": 243,
+            "Name": "Walking on the old concrete stairway",
+            "Description": "You are appalled by the conditions in this large building.  There are\ncockroaches everywhere and you can hear yourself stepping over and cracking\ntheir tiny hard eggs which are scattered everywhere.  It's dark in this\nstairway and there's no light here that'll guide you towards your destination.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24384
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24386
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24386,
+            "Zone": 243,
+            "Name": "Inside a 3rd-rate hotel",
+            "Description": "Just as soon as you enter this old building, you can see rats on the floor\ngnawing at your shoes.  You gasp in horror as you kick them away and\nsquish some of them with your large boots.  Who could live in such a\ndump, you think to yourself.  There's a stairway that will take you to the\nupper floors.  The antique elevator seems to be out-of-order.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24387
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24385
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24387,
+            "Zone": 243,
+            "Name": "Alien Road",
+            "Description": "The sunlight from above is quickly covered by a strange mist!  This road\nlooks more like an alley for bums to live in.  It's so dark in here you\ncan bearly even move around.  There's a large building on the end of this\nshort and narrow road.  The old building looks like some cheap hotel and\nit doesn't look very sturdy as you can see the cracks all along the sides\nof this mammoth complex.\n",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24388
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24386
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24388,
+            "Zone": 243,
+            "Name": "President Avenue",
+            "Description": "There's nothing unusual about this road nor this part of the area.  People\nall around you are scampering as though they have a deadline of some sort\nin a business project.  As you walk further along this road you notice an\nintersection that stretches to your south.  This southern road looks narrow\nand dark much like that eerie roadway that you came from earlier...\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24381
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24387
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24389
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24389,
+            "Zone": 243,
+            "Name": "President Avenue",
+            "Description": "The sky is beginning to clear as you walk further along this well-paved\nroad.  the fog is disappearing as quickly as the clouds in the sky.  You\ncan feel the sunlight shining above you and the sounds of birds singing\neverywhere.  There are a few people walking this street doing their daily\nbusiness.  The road continues east and west.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24388
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24395
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24390,
+            "Zone": 243,
+            "Name": "The research lab/library",
+            "Description": "Books and books are everywhere you look...  The shelves that hold these\nbooks seem to be getting weaker and weaker by the moment.  There are \nscientific newspapers and journals stacked head-high on the floor which\nleaves very little space for you to walk on.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24391
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24391,
+            "Zone": 243,
+            "Name": "The printing press",
+            "Description": "There's a large printing press that is lying in the middle of the room.  It\nlooks as though it has been turned on all night and has been printing non-\nstop.  You can see the articles that are being printed by this large\npress...it reads 'Government denies everything...Clinton has been abducted\nby aliens...'  This must be some sort of a tabloid newspaper operation but\nwhy are the people here printing this paper inside this place, you think to\nyourself.  Why the secrecy over these unbelievable, exaggerated stories?\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24392
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24393
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24390
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24392,
+            "Zone": 243,
+            "Name": "The computer/surveillance room",
+            "Description": "Everywhere you look there's a computer there that is turned on and \nconfiguring some strange data.  Wires and circuit breakers are everywhere\nalong the floor.  There are research papers and science books that are left\nall over the place.  As you turn your head towards the corner of the room,\nyou notice a poorly-dressed man working diligently on his computer.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24391
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24393,
+            "Zone": 243,
+            "Name": "Inside the Lone Gunmen",
+            "Description": "It's dark in here but you sense someone or something is living in this\ndump.  You can hear whispering and the tapping of keys as though someone\nwas typing on a computer keyboard.  There are some dim, flickering lights\njust a few feet from where you're standing.  Now you know there are \ndefinitely someone living in this supposedly abandoned building.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "board",
+                        "exit",
+                        "boards"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24394
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24391
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24394,
+            "Zone": 243,
+            "Name": "President Avenue",
+            "Description": "The fog seems to suddenly disappear...  You can feel the warm sunshine\nshowering you from above, and the birds around you are singing a beautiful\ntune.  To the west there's a small white building standing there.  It looks\ndeserted because the windows and all of its exits are boarded up.  The\nboard that covers the small back exit seems to be loose...\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24395
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "board",
+                        "exit",
+                        "boards"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24393
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24395,
+            "Zone": 243,
+            "Name": "The end of X Street",
+            "Description": "It seems this street ends here and you see an intersection from your left\nand right.  You try to point your light-source at the street sign to find\nwhere you're at.  The street sign reads 'President Avenue.'  You must be in\nWashington D.C. and walking along one of this State's most popular road.\nAs you look around you notice some people walking around, some people here\nare jogging and walking their dogs, etc.  Everything here looks normal\nunlike the abandon road that you came from.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24396
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24389
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24394
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24396,
+            "Zone": 243,
+            "Name": "Walking on X Street",
+            "Description": "The fog is so thick that you're beginning to run into things.  You try hard\nto find your way out of this fog but it seems to follow you wherever you\ngo.  Even with your light-source you find it difficult to see where you are\nheaded.  This street looks like it ends close by but you're not sure...\n",
+            "Bits": [
+                "DARK",
+                "NOMOB"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24397
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24395
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24397,
+            "Zone": 243,
+            "Name": "Walking on X Street",
+            "Description": "You sense the fog around you is beginning to thicken.  It's only mid-day\nand the sky is beginning to go dark.  You can hear the dogs howling as you\nwalk closer and closer down the street.  The houses that you pass by look\nas though they're vacant.  Everywhere you look there are no lights coming\nfrom the porches nor the streetlights.\n",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24398
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24396
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 24398,
+            "Zone": 243,
+            "Name": "The beginning of X Street",
+            "Description": "As soon as you walk onto this road, you notice something is watching you.\nYou can hear footsteps and whispering behind you.  There's something moving\nbehind those thick bushes but it could be just cats prowling around the\nnight.  You sense a light fog is surrounding you as you walk slowly, slowly\ndown this eerie street...\nThere's a small, painted sign on the side of this road.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3071
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24397
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign",
+                        "board",
+                        "painted"
+                    ],
+                    "Description": "    \n      Welcome to Nigel's         XXXX     XXXX\n                                   X       X\n                                     X   X\n            T H E          ( X ) - F I L E S          Z O N E\n                                     X   X\n                                   X       X\n                                 XXXX     XXXX\n\n                     \"The Truth is Out There...\"\n\n      The X-Files (tm) (c) is produced by Ten Thirteen Productions in\n      association with Fox Television and Chris Carter.\n\n"
+                }
+            ]
+        },
+        {
+            "ID": 24399,
+            "Zone": 243,
+            "Name": "Section Chief Joseph McGrath's office",
+            "Description": "There's nothing special about this room except for the steel file cabinets\nthat are set against the walls.  You can see a man sitting behind a desk\nlooking through personnel files and writing long notes.  The room here is\nwell-lit and the windows are wide-opened.  This entire room looks pretty\nclean except for the hundreds and thousands of files that are neatly\npiled up on almost every available space.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "office"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 24308
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

@@ -1,0 +1,2006 @@
+{
+    "rooms": [
+        {
+            "ID": 10501,
+            "Zone": 105,
+            "Name": "Wild Valley",
+            "Description": "   You move slowly through the green vines and thick undergrowth that\ncover the valley floor.  It would appear that not many have come here\nin ages.  To the west, the land rises to leave the valley.  To the\neast the vegetation clears to give way to a strange uprising of stone.\n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10599
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The uprising looks like some huge beast set to pounce.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10502
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12066
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10598
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "uprising",
+                        "stone"
+                    ],
+                    "Description": "The uprising looks like some huge beast set to pounce.\n"
+                }
+            ]
+        },
+        {
+            "ID": 10502,
+            "Zone": 105,
+            "Name": "Before the Dragon",
+            "Description": "   You stand before the Dragon Ancalador.  You can still make out its\npetrified form despite the earth that has filled in the crevices\nbetween its limbs and the huge oaks, dwarfed by the dragon itself,\nwhich have grown there.  A vague evil emanates from the once-alive\nstone that terrorized nations long ago.\n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The huge maw lies frozen in midsnarl.  You could find enough purchase\nto scale the tongue and enter inside, should you want to.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10503
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10501
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10503,
+            "Zone": 105,
+            "Name": "In the Dragon's Mouth",
+            "Description": "   Rows of stone teeth as large as trolls line the walls here.  A\ntongue of pitted stone leads east, behind stone molars as large as\niron shields.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10504
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10502
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10504,
+            "Zone": 105,
+            "Name": "By Stone Tonsils",
+            "Description": "   You are in the back of the dragon's mouth.  The throat continues\ndown and something oozes from petrified sinuses above.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10503
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10505
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10505,
+            "Zone": 105,
+            "Name": "Throat of Stone",
+            "Description": "   The floor is uneven -- the middle of the passage being lower than\nthe sides, which rise up to the walls.  The whole passage is slightly\ngraded, moving east and downward.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10504
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10506
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10506,
+            "Zone": 105,
+            "Name": "Further Down the Dragon's Throat",
+            "Description": "   The tunnel begins to lose its steepness and merely runs eastward\nnow.  The shapes of what might be petrified muscles line the walls.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10507
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10505
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10507,
+            "Zone": 105,
+            "Name": "Junction",
+            "Description": "\n   You are in a four way junction.  The dragon's throat continues east\nand west, but by squeezing under some stone flaps you can make out\ntunnels leading north and south.\n\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You peer under the petrified flap and see a faint light amid darkness.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10508
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10560
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You peer under the petrified flap and see a faint light amid darkness.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10511
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10506
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "flaps",
+                        "flap"
+                    ],
+                    "Description": "Who can say which part of draconian anatomy this might be?\n"
+                }
+            ]
+        },
+        {
+            "ID": 10508,
+            "Zone": 105,
+            "Name": "Stone Tunnel",
+            "Description": "   This circular passage of stone gradually curves up to a place of\ngreat light and heat.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10507
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "All you can see upwards in a great glare followed by gusts of hot wind.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10509
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10509,
+            "Zone": 105,
+            "Name": "Dragon Lung",
+            "Description": "   Ancient fires burns here, awaiting the rebirth of their master.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10508
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10510,
+            "Zone": 105,
+            "Name": "Heart of the Dragon",
+            "Description": "   Runes which glow with a blue light are carved into the stone walls\nof Ancalagor's heart chamber here.  Their magical purity counters his\nevil and makes for a holy balance that is Neutrality.  It seems some\nmusic lover has set up residence here, judging by all the instruments\nand sheet music floating here.\n",
+            "Bits": [
+                "INDOORS",
+                "PRIVATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the chamber wall dilate open for you, leading to the tunnel beyond.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10560
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "A disc of sparking energy opens to the Midgaard temple below.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3001
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10511,
+            "Zone": 105,
+            "Name": "Stone Tunnel",
+            "Description": "   This stone passage is lit by a great light and fierce heat from its\nfar end, which lies above.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10507
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You must cover your eyes rather than peer into the sun-like brightness.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10512
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10512,
+            "Zone": 105,
+            "Name": "Dragon Lung",
+            "Description": "   The nuclear fires that empowered the dragon with its frightful\nbreath are here, and though they have been smoldered for so very\nlong, they scorch you and make you rue the choice wearing of metal\narmor.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10511
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10513,
+            "Zone": 105,
+            "Name": "Ancalagor's Stomach",
+            "Description": "   The dragon's throat ends, revealing a huge cavern lit from below by\neerie and diffuse lights of yellow and green.  Even more amazingly, a\nwooden bridge spans the the stalactite-roofed cavern!  A steep grade\nleads down to the cavern floor safely enough and the bridge leads\neast.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10514
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10560
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Though steep, the climb down seems arduous, but not overly hazardous.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10521
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10514,
+            "Zone": 105,
+            "Name": "Wooden Bridge",
+            "Description": "   You cannot imagine who would want to build a bridge in this\nfantastic cavern.  Large stalagmites sit and rise up while the eerie\nlights seem to move in the mists below.  The bridge continues to the\neast.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10515
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the entrance ledge to the stomach chamber.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10513
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The stalagmites look up menacingly at you.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10517
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10515,
+            "Zone": 105,
+            "Name": "Wooden Bridge",
+            "Description": "   You are in the middle of the wooden bridge. Large stalagmites rise\naround you and the eerie lights continue to dance in the mists below.\nThe bridge continues to the east and west.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10516
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10514
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The stalagmites look up menacingly at you.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10517
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10516,
+            "Zone": 105,
+            "Name": "Wooden Bridge",
+            "Description": "   The wood here is old and acid eaten, similar to the rest of the\nbridge. The deadly stalagmites jut up from below and more of the green\nand yellow light can be seen to move in the mists below.  The bridge\nends at a small plateau to the east.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the bridge meet the end of the cavern.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10527
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10515
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The stalagmites look up menacingly at you.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10517
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10517,
+            "Zone": 105,
+            "Name": "Stalagmite",
+            "Description": "   You take the plunge and find yourself impaled upon a rainbow hued\nstalagmite.  THAT REALLY HURT!  Your lifeblood seeps from you as you\nthrash your limbs ineffectually to pry your self off.  Things become\ndark...\n",
+            "Bits": [
+                "DEATH",
+                "INDOORS",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10516
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10515
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10514
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10518,
+            "Zone": 105,
+            "Name": "Acid Forest",
+            "Description": "   Sharp stalagmites reach up wards, created by the mineral ichors\ndripping off stalactites far above.  Pools of acid fill every crevice\non the craggy cavern floor.  The cavern continues to the south and\neast.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10519
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10521
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10519,
+            "Zone": 105,
+            "Name": "Acid Forest",
+            "Description": "   The stalagmites here are large and rainbow-hued, like giants in\njester's garb.  Puddles of weak stomach acid are pooled on the floor.\nThe cavern stretches in all directions but north.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10520
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10522
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10518
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10520,
+            "Zone": 105,
+            "Name": "Acid Forest",
+            "Description": "   Sharp stalagmites reach upwards, created by the mineral ichors\ndripping off stalactites far above.  Pools of acid fill every crevice\non the craggy cavern floor.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10523
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10519
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10521,
+            "Zone": 105,
+            "Name": "Acid Forest",
+            "Description": "   You stand before an amazing sight.  Wrapped within the mists here\non the cavern floor is a forest of oddly shaped stalagmites surrounded\neverywhere by puddles of what must be the remnants of the dragons\nstomach acid.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10518
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10522
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10524
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see the ledge at the entrance to the stomach cavern.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10513
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10522,
+            "Zone": 105,
+            "Name": "Acid Forest",
+            "Description": "   You are in the center of the dragons stomach cavern.  A wooden\nbridge passes far overhead.  Sharp stalagmites poise here to meet\nthose who would drop from it.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10519
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10523
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10525
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10521
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10523,
+            "Zone": 105,
+            "Name": "Acid Forest",
+            "Description": "   The stalagmites here are large and rainbow-hued, like giants in\njester's garb.  Puddles of weak stomach acid are pooled on the floor.\nA steep climb up leads to a large plateau at the end of the cavern.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10520
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10526
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10522
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "u",
+                        "up"
+                    ],
+                    "Description": "Apparently it is too steep a climb to go back up.\n"
+                }
+            ]
+        },
+        {
+            "ID": 10524,
+            "Zone": 105,
+            "Name": "Acid Forest",
+            "Description": "   Mists swirl around strange crystal egg shells here.  The cavern\ncontinues to the north and to the east.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10521
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10525
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10525,
+            "Zone": 105,
+            "Name": "Acid Forest",
+            "Description": "   Sharp stalagmites reach upwards, created by the mineral ichors\ndripping off stalactites far above.  Pools of acid fill every crevice\non the craggy cavern floor.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10522
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10526
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10524
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10526,
+            "Zone": 105,
+            "Name": "Acid Forest",
+            "Description": "   The stalagmites here are large and rainbow-hued, like giants in\njester's garb.  Puddles of weak stomach acid are pooled on the floor.\nThe cavern stretches to the north and west.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10523
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10525
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10527,
+            "Zone": 105,
+            "Name": "End of the Stomach",
+            "Description": "   The wooden bridge ends here, on a large plateau above the cavern\nfloor. The plateau overlooks the entire forest of acid and stone\nbelow.  A tunnel set in the cavern wall to the east has been shored up\nwith a wall of plaster and bones.  Two very large skull-knobbed doors\nhave been set in it.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a huge set of doors fashioned from bones.\n",
+                    "Keywords": [
+                        "door",
+                        "doors",
+                        "skull"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 10519,
+                    "Destination": 10561
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the wooden bridge.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10516
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see a steep climb down to the cavern floor.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10523
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10528,
+            "Zone": 105,
+            "Name": "The Dragon's Pancreas",
+            "Description": "   You are in an oddly shaped chamber, what might have been some foul\norgan of Ancalador.  A yellowish light fills the room from nowhere, as\nif only by the dragon's will alone.  The feeling of malignant evil is\ngreat here, which is only compounded by the large sign overhead which\nreads, 'Memento Mori', or in the common tongue, 'Remember to Die.'\nThe chamber has exits worked into it, to the east and down.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a fissure in the organ wall.\n",
+                    "Keywords": [
+                        "fissure"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 10561
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10550
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10554
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10529,
+            "Zone": 105,
+            "Name": "Small Intestine",
+            "Description": "   You enter a featureless tunnel of what must be the beginning of the\ndragon's small intestine.  Small piles of human bones and armor bits\nhave been left here.  The tunnel continues north and to the west a\nrougher tunnel can be seen.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10530
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10561
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10530,
+            "Zone": 105,
+            "Name": "Small Intestine",
+            "Description": "   The tunnel twists to the south and to the east.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10531
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10529
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10531,
+            "Zone": 105,
+            "Name": "Small Intestine",
+            "Description": "   The smooth tunnel curves to the west and to the south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10532
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10530
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10532,
+            "Zone": 105,
+            "Name": "Small Intestine",
+            "Description": "   The blank walls of the tunnel run north and south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10531
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10533
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10533,
+            "Zone": 105,
+            "Name": "Small Intestine",
+            "Description": "   The tunnel comes from the north and dips sharply downward here.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10532
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10534
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10534,
+            "Zone": 105,
+            "Name": "Small Intestine",
+            "Description": "   The featureless tunnel leads up and north.  Echo bounce off the\nblank walls, whether from near or far, you cannot tell.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10535
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10533
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10535,
+            "Zone": 105,
+            "Name": "Small Intestine",
+            "Description": "   Bits of broken equipment from long dead adventurers have been\ncollected here.  The tunnel runs north and south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10536
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10534
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10536,
+            "Zone": 105,
+            "Name": "Small Intestine",
+            "Description": "   The tunnel bends from the south to the east.  You imagine the\nremains of many a brave warrior who dared the dragon passed here, torn\nand unmourned.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10537
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10535
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10537,
+            "Zone": 105,
+            "Name": "Small Intestine",
+            "Description": "   The blank walls of the tunnel lead west and south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10538
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10536
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10538,
+            "Zone": 105,
+            "Name": "Small Intestine",
+            "Description": "   The smooth tunnel contracts to the south of here into a new tunnel.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10537
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The new tunnel seems composed of different textures.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10541
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10541,
+            "Zone": 105,
+            "Name": "Large Intestine",
+            "Description": "   Unlike the the small intestine, the walls here have a nook and\ncranny quality about them.  They are quite rough and dust fills many\nof the spaces.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10538
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10542
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10542,
+            "Zone": 105,
+            "Name": "Large Intestine",
+            "Description": "   The smell of dust is thick in this section of the tunnel that runs\nto the west and to the north.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10543
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10541
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10543,
+            "Zone": 105,
+            "Name": "Large Intestine",
+            "Description": "   The rough walls of the tunnel scrape your armor and cuts your\nexposed skin as you travel north or south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10544
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10542
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10544,
+            "Zone": 105,
+            "Name": "Large Intestine",
+            "Description": "   The tunnel drops to the east but you find many handholds among the\nnooks and crannies.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10545
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10543
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10545,
+            "Zone": 105,
+            "Name": "Large Intestine",
+            "Description": "   The roughly hewn tunnel constricts to the south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10546
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10544
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10546,
+            "Zone": 105,
+            "Name": "Stony Sphincter",
+            "Description": "   You are in a narrow tunnel, barely able to walk upright without\nknocking your head.  A breeze from the south swirls the dust here and\nyou begin to believe that safety is not far off.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10545
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10547
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10547,
+            "Zone": 105,
+            "Name": "Dragon's Tail",
+            "Description": "   You have never been so happy to see the light of day!  You are by\nthe dragon's stone tail, which is covered with green, growing vines\nand small, violet flowers.  The birds sing and you can make out a\nfaint path to the west, leading back around the dragon-hill.  A\nskull-topped signpost flanks an unused road to the north.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A winding dirt road leads into a strange, futuristic city!\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 641
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a path leading around the dragon, back to it's toothy maw.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10502
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign",
+                        "signpost"
+                    ],
+                    "Description": "The Penultimate Tower of Wizardry was rumored to exist, once, just\ndown this road...who knows if this is true?  For though many have went\non to see, none have returned to claim it true...\n\n--Mercutio the Bard of the Realm\n"
+                }
+            ]
+        },
+        {
+            "ID": 10550,
+            "Zone": 105,
+            "Name": "Undead Garden",
+            "Description": "   Shaking shrubberies and quivering palms surround a few skeletal\ntrees that make up this gruesome garden.  The shriveled plantlife, set\nin niches within the deformed chamber walls, seem to have all died and\ncome back from the afterlife somehow.  Openings in the petrified organ\nwall lead west and down.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10528
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10555
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10551,
+            "Zone": 105,
+            "Name": "Private Chambers",
+            "Description": "   This small room seems to have been carved by hand from the pancreas\nof Ancalador.  It has some amenities, like a soft bed and a small\nalchemist's workbench, but if the dragon is ever freed from his stone\nprison, he will surely be quite unhappy about this situation. The only\nexit is west.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "Outside is the ampitheatre chamber.\n",
+                    "Keywords": [
+                        "door",
+                        "coffin"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 10552
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10552,
+            "Zone": 105,
+            "Name": "Macabre Ampitheather",
+            "Description": "   You are in on a wide, circular ledge overlooking a large slab of\nstone in the chamber below.  Crude seats are fashioned here from the\nsurrounding porous rock and the walls are decorated with various\nbonesaws and a quote in blood, 'That fell arrest without bail.'  A\ncoffin lid door is set in the east wall, while steps cut into the rock\nlead down and west.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a doorway made from a coffin's lid.\n",
+                    "Keywords": [
+                        "door",
+                        "coffin"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 10551
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10553
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10556
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10553,
+            "Zone": 105,
+            "Name": "Temple to Death",
+            "Description": "   You are in a small shrine in honor of the 'Pale Priest of the Mute\nPeople.'  Here, Hell's Grim Tyrant is sought as a source of\ninspiration and wisdom by the Guildmembers.  The chamber walls open to\nexits heading down and east.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10552
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10557
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10554,
+            "Zone": 105,
+            "Name": "Cold Storage",
+            "Description": "   The stink of this storage chamber make you balk at once.  Through\nyour nausea you make out cadavers kept cool in niches in the stone\nwalls.  Barrels of dust and decanters of blood fill the room.  On the\nwall, in some dark ink, is scrawled, 'That dreamless sleep.'  The\nchamber exits south and up.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10557
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10528
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10555,
+            "Zone": 105,
+            "Name": "Kennel of the Demised",
+            "Description": "   This chamber of hard stone is empty save for a sturdy iron ring set\nin the floor.  A large, heavy chain with collar at one end is attached\nto the ring.  Small print on the collar reads, 'Quietus.'\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10556
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10550
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10556,
+            "Zone": 105,
+            "Name": "Operating Room",
+            "Description": "   This circular chamber is dominated by a large stone slab in the\ncenter which bears the stains of countless horrible experiments.  The\ncruel work that goes on here is generally viewed from the ampitheatre\nabove by the guild apprentices and patrons.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10555
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10552
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10557,
+            "Zone": 105,
+            "Name": "Guildhall",
+            "Description": "   This is the largest chamber cut from Ancalagor's pancreas.  A long\nfeasting table made of coffins lashed together fills the length of the\nroom.  On the wall, in the dried ichor that passes for blood in\ndemons, is written, 'A debt we must all pay.'  A set of double\ncoffin-lid doors is to the west, and other exits are to the north and\nup.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10554
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "doors",
+                        "coffin"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 10558
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10553
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10558,
+            "Zone": 105,
+            "Name": "The Altar of Annihilation",
+            "Description": "   You stand before the horrific Altar of Annihilation where the magic\nand power of extinguishment and dissolution are full explored.  You\nfeel the countless ceremonies of extinction performed here, like a\ngloom that pervades the altar, which looks like a huge rib cage\ncentered with a demon's skull.  Before the altar is a black iron\ngrating covering a dark pit where the ebb of life is glorified in\nsacrifice.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "doors",
+                        "coffin"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 10557
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You can't see much, but you don't like the little you do see.\n",
+                    "Keywords": [
+                        "grating",
+                        "grate"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 10506,
+                    "Destination": 10559
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10559,
+            "Zone": 105,
+            "Name": "The Darken Pit",
+            "Description": "   The very evil of this place seeks to extinguish your light as if\nthe gloom had a nefarious soul of its own.  You know true fear as\nsomething moves in the darkness...toward you.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "You see a black iron grating above you.\n",
+                    "Keywords": [
+                        "grating",
+                        "grate"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 10506,
+                    "Destination": 10558
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10560,
+            "Zone": 105,
+            "Name": "Stone Tunnel",
+            "Description": "   The dragon's throat continues east and west on a path which neither\nrises nor falls.  On the south wall, to the dragon's left, a warmth\ncan be felt, followed by a feeling of pure evil.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the tunnel open up to a great cavern beyond.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10513
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10507
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10561,
+            "Zone": 105,
+            "Name": "Stone Corridor",
+            "Description": "   You are in a circular tunnel of stone.  The walls are irregular and\npockmarked.  The tunnel continues east and west.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the beginning of a new, smoother tunnel.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10529
+                },
+                {
+                    "Direction": "South",
+                    "Description": "It seems you might be able to pry the fissure open.\n",
+                    "Keywords": [
+                        "fissure"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 10528
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the bone doorway leading towards the stomach cavern.\n",
+                    "Keywords": [
+                        "door",
+                        "doors",
+                        "bone"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 10519,
+                    "Destination": 10527
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "walls"
+                    ],
+                    "Description": "A small fissure appears to be set in the south wall.\n"
+                }
+            ]
+        },
+        {
+            "ID": 10562,
+            "Zone": 105,
+            "Name": "Muddy Riverbank",
+            "Description": "   You are on the south bank of a rushing river.  An old, mossy and\nhuge stone slab hangs over the riverbank, allowing you to cross\ntowards a great forest.  A verdant valley stretches before you to the\neast, while the terrain to the west and south quickly become\nmountainous, and impassible.\n",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the forest of Haon-Dor across a roiling river with bits of\njunk floating by occasionally from Midgaard, to the northeast.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6121
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10501
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10598,
+            "Zone": 105,
+            "Name": "Before a strange portal",
+            "Description": "You are standing on what seems to be an ancient road of some sort, grass and\nsmall saplings grow up between cobblestones half buried in dirt.  The road is\nvery wide and perfectly flat, master builders must have crafted this road for\nit to have lasted for so long.  Noticing that there's a big portal in the\nmiddle of the road you forget about the stonework and gaze upon what must be\na rip in the fabric of time itself.  Waves of power emanate from the portal\nmaking your hair stand on end.  Moving closer, you barely see through it, a\ngreat sprawling city with spectacular stone buildings... perhaps this portal\nleads back to the time when this abandoned road was used regularly.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10501
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12065
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 10599,
+            "Zone": 105,
+            "Name": "The beginning of a long pier",
+            "Description": "You walk down a long pier towards the Endless Sea.. Strangely enough there\nare no birds caling above your head, and the beach is lacking shells of any\nsort.  This is a fearful place, this Endless Sea. You look down the rocky\nbeach to each side of you, the seascape stretching as far as the eye can see.\nA chill wind blows from offshore... the waves crash against the rocks, yet\neverything is silent, and you have a feeling of stillness, almost stagnation.\nThe boards creak under your feet as your heart begins to pound harder and\nlouder in your chest.  Perhaps the rumors were true about this fell sea.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4700
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10501
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18703
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

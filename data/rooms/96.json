@@ -1,0 +1,2890 @@
+{
+    "rooms": [
+        {
+            "ID": 9600,
+            "Zone": 96,
+            "Name": "Mountain Tunnel Entrance",
+            "Description": "\nAs your walking along a mountain seems to rise out of no-where,\nblocking your travels to where you were going.  The mountain is to\nsteep to climb and too long to go around.  Just as you are about to\ngive up in frustration and turn around, you notice a hole in the \nmountainside hiding behind a rock and some bushes.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9601
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4025
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9601,
+            "Zone": 96,
+            "Name": "Mountain Tunnel",
+            "Description": "You enter the mountain even though you're not sure it's in your\nbest interest.  The air seems cooler here and it is a relief from\nall the walking you've been doing.  You sniff the air, trying to \nmake sure nothing dangerous is in here before you venture farther,\nbut the only smell that comes to you is the smell of a stream.  Yes,\nnow that you think of it, you can hear water running off to the north.\nIt seems to be calm here, but you think it might get stonger later.\n",
+            "Bits": [
+                "DARK",
+                "TUNNEL",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9602
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9600
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9602,
+            "Zone": 96,
+            "Name": "Farther in the Mountain Tunnel",
+            "Description": "You follow the stream and as you walk, you beging to believe that\nthere is someone following you.  You can hear them walking around, \nbut you're not sure what direction they are in, so you don't know\nwhich way to be on guard.  The smell of dirt running in with the \nwater is strong here and you feel like you're going to sneeze letting\nthe person following you know exactly where you are.\n",
+            "Bits": [
+                "DARK",
+                "TUNNEL",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9603
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9601
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9603,
+            "Zone": 96,
+            "Name": "Even Farther along the Tunnel",
+            "Description": "A-CHOO! You sneeze and quickly stop, but so does the person following\nyou.  Slowly you begin to walk and so do they, so you stop again and \nthey do too.  You move VERY SLOWLY, and can hear that they do the same.\nFinally tired of this nonsense you yell out, \"ENOUGH, WHO ARE YOU!\"\nand the only response is the echo of your voice. Echo?  You move a \nlittle and you hear the echo of your armor.  That's the sound of the\nperson you thought was following you.  You begin to laugh, but the sound\nsoon get's too lound with all of the echoing so you stop and continue\nfollowing the stream wich has picked up speed a bit.\n",
+            "Bits": [
+                "DARK",
+                "TUNNEL",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9604
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9602
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9604,
+            "Zone": 96,
+            "Name": "End of the Mountain Tunnel",
+            "Description": "Rocks jet out of the stream causing waves of water to break on them.\nThe stream seems quite rough here and further ahead you can see that \nit drops off.  Your passage north and south are safe and you feel \nhappy that your aren't going to be going down the waterfall, because\nit looks like it would be a LONG DEADLY fall to the bottom.\n",
+            "Bits": [
+                "DARK",
+                "TUNNEL",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9605
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9603
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9605,
+            "Zone": 96,
+            "Name": "Top of the Waterfall",
+            "Description": "As you emerge from the darkness of the tunnel north, you hear\nthe sounds of rushing water.  You look ahead and see the river \nseems to end suddenly.  You see a dry opening to the east side\nof the river.  If you can make it there you should be safe.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9604
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9607
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The water crashes violently onto the rocks below, where it gathers in \npools frothing with fishes that seem like they could feed off the rocks\nitself.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9606
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9606,
+            "Zone": 96,
+            "Name": "Over the Waterfall",
+            "Description": "You go over the waterfall and bash into the rocks ripping your skin.\nBlood fills the water around you as it pours from your wounds.\nLarge piranha begin darting around you in a wild frenzy.\nOUCH THAT REALLY HURT!\nYOU ARE DEAD!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9607
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9607,
+            "Zone": 96,
+            "Name": "Overlooking the Valley",
+            "Description": "You dry yourself off and take a moment to look around your \nsurroundings.  To the west is the waterfall you barley escaped.\nDown you see what looks like a steep cliff to the valley floor.\nAs you look across the beautiful lake and valley below you a\ncalming joy flows through you.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9606
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9608
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9608,
+            "Zone": 96,
+            "Name": "Steep Cliff",
+            "Description": "You see a rope anchored here that has been worn by the weather.\nAs you grab hold of the rope, small rocks slide out from under\nyour feet.  Sheer cliffs lie to the east and west and you can't \nfind footing there.  You move slowly trying to find safe footing,\nso that you dont slip and fall down the cliff.  Up is the overlook,\nand the cliff continues down.\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9607
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9609
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9609,
+            "Zone": 96,
+            "Name": "Steep Cliff",
+            "Description": "You see a rope anchored here that has been worn by the weather.\nAs you grab hold of the rope, small rocks slide out from under\nyour feet.  Sheer cliffs lie to the east and west, but you can't\nfind footing there.  You move slowly trying to find safe footing,\nso that you dont slip and fall down the cliff.  The cliff continues\nup and down.\n",
+            "Bits": [
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9608
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9610
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9610,
+            "Zone": 96,
+            "Name": "Bottom of the Cliff",
+            "Description": "You are at the bottom of a steep cliff.  The cliff walls \nare jagged and you may be able to climb them with some \ndoing.  Sheer cliffs lie to the east and west, but you \ncant find safe footing there.  The cliff continues up\nand below you see the valley floor.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9609
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9611
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9611,
+            "Zone": 96,
+            "Name": "The Valley Floor",
+            "Description": "The beauty of the valley before you cast a calmness apon your\nsoul.  You have never seen any place so lush and green.  The \nair is clean and fresh far from civilization.  The vally floor\ncontinues to the east.  To the south you see a lake.  West leads\nunder the waterfall, and up you see the bottom of a steep cliff.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9632
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9625
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9612
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9610
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9612,
+            "Zone": 96,
+            "Name": "Under the Waterfall",
+            "Description": "You are standing in a shallow pool of water from the waterfall\nabove.  A fine mist of water floats down filling the air and \ncovering your body.  As you wipe the mist from your brow you see\nto the north an entrance to a cavern in the mountain.  To the \neast is the valley floor, and south is the lake.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9613
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9611
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9624
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9613,
+            "Zone": 96,
+            "Name": "Entrance to the Caverns",
+            "Description": "Sounds of water trickling from the celing echo throughout\nthe caverns.  Cool damp air surrounds you.  The only light\ncomes from the south, wich leads back under the waterfall.\nThe caverns continue to the west.\n",
+            "Bits": [
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9612
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9614
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9614,
+            "Zone": 96,
+            "Name": "The Caverns",
+            "Description": "Sounds of water trickling from the celing echo throughout the\ncaverns.  Cool damp air surrounds you.  There is no light here,\nand you have a hard time seeing wich way to go.  There is a small\ncave within the caverns to the south.  The cavers continue down,\nand east leads back to the entrance.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9613
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9615
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9616
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9615,
+            "Zone": 96,
+            "Name": "The Caverns",
+            "Description": "Sounds of water trickling from the celing echo throughout\nThe caverns.  Cool damp air surrounds you.  You are in a small\ndark cave within the caverns.  As you look around you see\nyour only exit is to the north.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9614
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9616,
+            "Zone": 96,
+            "Name": "Deepest Caverns",
+            "Description": "Sounds of water trickling from the ceiling echo throughout \nthe caverns.  Cool damp air surrounds you.  You see a faint\nlight comming from the south.  Up leads back to the upper\ncaverns.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9617
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9614
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9617,
+            "Zone": 96,
+            "Name": "Lair of the Rautym",
+            "Description": "It is very dark inside the lair.  Faint phosphorescent light\neminates from a few rocks scattered on the walls and floors.\nThere is just enough light to show the outline of many dark\nfigures moving around in the darkness.  North leads back to \nthe caverns.  The lair continues south and west.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9616
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9620
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9618
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9618,
+            "Zone": 96,
+            "Name": "Lair of the Rautym",
+            "Description": "It is very dark inside the lair.  Faint phosphorescent light\neminates from a few rocks scattered on the walls and floor.\nThere is just enough light to show the outline of many dark\nfigures moving around in the darkness.  The lair continues\neast and south.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9617
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9619
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9619,
+            "Zone": 96,
+            "Name": "Lair of the Rautym",
+            "Description": "It is very dark inside the lair.  Faint phosphorescent light\neminates from a few rocks scattered on the walls and floor.\nThere is just enough light to show the outline of many dark\nfigures moving around in the darkness.  The lair continues \nnorth and east.  You see a tunnel to the west.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9618
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9620
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9621
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9620,
+            "Zone": 96,
+            "Name": "Lair of the Rautym",
+            "Description": "It is very dark inside the lair.  Faint phosphorescent light\neminates from a few rocks scattered on the walls and floor.\nThere is just enough light to show the outline of many dark\nfigures moving around in the darkness.  The air around you is\ncold and still.  The lair continues north and west.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9617
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9619
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9621,
+            "Zone": 96,
+            "Name": "Tunnel in the Cavern",
+            "Description": "You have enterd a small dark tunnel off the Rautym lair.\nDarkness and cool damp air surround you.  The Rautym lair\nis to the east.  Something is to the south, but your not\nquite sure what it is.\n",
+            "Bits": [
+                "DARK",
+                "TUNNEL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9619
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9614,
+                    "Destination": 9622
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9622,
+            "Zone": 96,
+            "Name": "Treasure Room",
+            "Description": "The stone rolls back to reveal a small alcove.  Your eyes\nimmediatly catch a pile of treasure in the corner.  There\nare strange stones stacked in a small pile on the floor.\nFar back against the wall you catch the glint of gold amongst\nthe pile of things.  Your only exit is to the north.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9614,
+                    "Destination": 9621
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9623,
+            "Zone": 96,
+            "Name": "Walking in the Shallows",
+            "Description": "This is the northwest corner of the lake.  The water is\nshallow and crystal clear.  Your passage north is blocked by\nthe mountain that towers above you.  The lake contines to the\neast and south.  West the lake is lined with majestic trees.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9624
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9626
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9624,
+            "Zone": 96,
+            "Name": "Top of the Lake",
+            "Description": "You are on the top of the lake.  This spot seems to be deep from\nthe rich blue color of the water.  You can see small aquatic\nlife just below the surface.  To the north you go under the\nwaterfall.  The lake continues in all other directions.\n",
+            "Bits": [
+                "NORELOCATE",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9612
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9625
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9627
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9623
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9665
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9625,
+            "Zone": 96,
+            "Name": "Walking in the Shallows",
+            "Description": "This is the northeast corner of the lake.  The water here is\nshallow, and crystal clear.  You see small aquatic life just\nbelow the surface.  Land lies to the north and east.  The\nlake continues south and west.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9611
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9633
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9628
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9624
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9626,
+            "Zone": 96,
+            "Name": "Top of the Lake",
+            "Description": "You are on the top of the lake.  THis spot sees deep from the\ndark color of the water.  You can see small aquatic life just\nbelow the surface.  The lake continues north, south, east and\ndown.  Large majestic trees block your passage west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9623
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9627
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9629
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9661
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9627,
+            "Zone": 96,
+            "Name": "Center of the Lake",
+            "Description": "This is the center of the lake.  You feel cold water swelling\nup from below.  The water here is dark,  and you can not see\nto the bottom.  The lake continues in all directions.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9624
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9628
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9630
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9626
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9660
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9628,
+            "Zone": 96,
+            "Name": "Top of the Lake",
+            "Description": "You are on top of the lake.  This spot seems deep from the \ncolor of the water.  You can see small aquatic life just \nunder the surface.  The lake continues north, south, west\nand down.  You see the edge of the lake to the east.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9625
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9634
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9631
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9627
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9662
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9629,
+            "Zone": 96,
+            "Name": "Top of the Lake",
+            "Description": "You have arrived at the southwest corner of the lake.  This\nspot seems deep from the dark color of the water.  Tall dence\ntrees line the lake to the west and south blocking your passage\nin that direction.  The lake continues north, east and down.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9626
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9630
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9663
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9630,
+            "Zone": 96,
+            "Name": "Top of the Lake",
+            "Description": "You are on top of the lake.  This spot seems to be deep\nfrom the color of the water.  The lake continues north,\neast, west and down.  Large dence trees line the lake to\nthe south blocking yur passage in that direction.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9627
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9631
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9629
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9664
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9631,
+            "Zone": 96,
+            "Name": "Walking in the Shallows",
+            "Description": "This is the southeast corner of the lake.  The water here\nis shallow and crystal clear.  You see small aquatic life\njust below the surface.  The lake continues north and west.\nThe edge of the lake is to the east and south.\n\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9628
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9635
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9642
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9630
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9632,
+            "Zone": 96,
+            "Name": "The Valley Floor",
+            "Description": "The beauty of the valley before you casts a calmness apon\nyour soul.  You have never seen any place so lush and green.\nThe air is clean and fresh far from civilization.  To the\nsouth you can see the edge of the lake.  The valley floor\ncontinues east and west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9670
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9633
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9611
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9633,
+            "Zone": 96,
+            "Name": "Edge of the Lake",
+            "Description": "You are standing at the edge of the lake.  The water laps\nat you feet beckoning you.  You look down and see your\nown reflextion shimmering on the surface of the water.\nyou can see all the way to the other side.  North leads\nback to the valley floor.  To the east you see a grassy\nmeadow.  South continues along the edge of the lake, and\nto the west is the lake.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9632
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9637
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9634
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9625
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9634,
+            "Zone": 96,
+            "Name": "Edge of the Lake",
+            "Description": "You are standing at the edge of the lake.  The water laps at\nyour feet beckoning you.  You look down and see your own \nreflection shimmering on the surface of the water.  You can\nsee all the way to the other side.  The edge of the lake continues \nnorth and south.  East you see a grassy meadow, and to the west\nis the lake.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9633
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9638
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9635
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9628
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9635,
+            "Zone": 96,
+            "Name": "Along the Edge of the Lake",
+            "Description": "You are standing at the edge of the lake.  The water laps at\nyour feet beckoning you.  You look down and see your reflection\nshimmering on the surface of the water.  You can see all the way\nto the other side.  The edge of the lake continues to the north.\nTo the east is a grassy meadow.  To the south is an overgrown\nfield, and to the west is the lake.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9634
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9639
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9640
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9631
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9636,
+            "Zone": 96,
+            "Name": "Den of Black Annis",
+            "Description": "The blood on the floor here is fresh and your feet stick\nto it as you try and move about.  Sick fear grows in your\nheart as you relize you may be this creatures next meal.\nYou look for a quick exit out.  Your only exit is south.\n",
+            "Bits": [
+                "DARK",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9656
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9637,
+            "Zone": 96,
+            "Name": "Grassy Meadow",
+            "Description": "The sun warms your skin as you stand here.  You hear birds\nsinging, and see the long blades of grass swaying in the\nwarm breeze.  North you see the valley floor.  The meadow\ncontinues to the east and south.  To the west you can see\nthe edge of the lake.\n",
+            "Bits": [
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9670
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9667
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9638
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9633
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9638,
+            "Zone": 96,
+            "Name": "Grassy Meadow",
+            "Description": "The sun warms your skin as you stand here.  You hear birds\nsinging, and see the long blades of grass swaying in the\nwarm breeze.  The meadow continues north, east and south.\nTo the west you see the edge of the lake.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9637
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9668
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9639
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9634
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9639,
+            "Zone": 96,
+            "Name": "Grassy Meadow",
+            "Description": "The sun warms your skin as you stand here.  You hear birds\nsinging, and see the long blades of grass swaying in the warm\nbreeze.  The meadow continues north and east.  To the south you\nsee the tall trees of the evergreen forest.  West is the edge \nof the lake.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9638
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9669
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9641
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9635
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9640,
+            "Zone": 96,
+            "Name": "Overgrown Field",
+            "Description": "The brush tugs at your clothes as you walk through the field.\nYou step and hear a squeel.  Something scurries off into the\nbrush.  To the north and west you see the edge of the lake.  \nEast you see the evergreen forest.  The field continues south.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9635
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9641
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9648
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9642
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9641,
+            "Zone": 96,
+            "Name": "Evergreen Forest",
+            "Description": "Tall evergreen trees are thriving here.  They surround you\nstretching towards the sky.  The pine trees stand here like\nguardians watching over you.  You can't help but smile as the\nsweet scent of pine tickles your nose.  You hear the sound of\nbirds picking through the needle covered forest floor.  To the\nnorth is a grassy meadow, and to the west is an overgrown field.\nThe forest extends to the east and south.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9639
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9655
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9649
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9640
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9642,
+            "Zone": 96,
+            "Name": "Edge of the Lake.",
+            "Description": "You are standing at the edge of the lake.  The water laps at your\nfeet beckoning you.  You look down and see your reflection shimmering\non the surface of the water.  You can see all the way to the other\nside.  North is the lake.  To the east and south is an overgrown\nfield.  To the west you can see the evergreen forest.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9631
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9640
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9647
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9643
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9643,
+            "Zone": 96,
+            "Name": "Evergreen Forest",
+            "Description": "Tall evergreen trees are thriving here.  They surround you\nstretching towards the sky.  The pine trees stand here like\nguardians watching over you.  You can't help but smile as the\nsweet scent of pine tickles your nose.  You hear the sound of\nbirds picking throught the needle covered forest floor.  The\npassage north is blocked by dence trees.  The edge of the lake\nis to the east.  The forest continues to the south and west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9642
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9646
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9644
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9644,
+            "Zone": 96,
+            "Name": "Evergreen Forest",
+            "Description": "Tall evergreen trees are thriving here.  They surround you\nstretching towards the sky.  The pine trees stand here like\nguardians watching over you.  You can't help but smile as the\nsweet scent of pine tickles your nose.  You hear the sound of \nbirds picking through the needle covered forest floor.  Your\nmovement north is blocked by dence trees.  The forest continues\neast and south.  To the west you see a small trail.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9643
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9645
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9653
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9645,
+            "Zone": 96,
+            "Name": "Evergreen Forest",
+            "Description": "Tall evergreen trees are thriving here.  They surround you\nstretching towards the sky.  The pine trees stand here like\nguardians watching over you.  You can't help but smile as the\nsweet scent of pine tickles your nose.  You hear the sound of\nbirds picking throught the needle covered forest floor.  The \nforest continues north and east.  Large mountain block your\npassage south and west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9644
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9646
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9646,
+            "Zone": 96,
+            "Name": "Evergreen Forest",
+            "Description": "Tall evergreen trees are thriving here.  They surround you\nstretching towards the sky.  The pine trees stand here like\nguardians watching over you.  You can't help but smile as the\nsweet scent of pine tickles your nose.  You hear the sound of\nbirds picking through the needle covered forest floor.  The\nforest continues north and west.  Your passage south is blocked\nby the mountains.  An overgrown field lies east.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9643
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9647
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9645
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9647,
+            "Zone": 96,
+            "Name": "Overgrown Field",
+            "Description": "The brush tugs at you clothes as you walk through the field.\nYou step and hear a squeal;  Something scurries off into the\nbrush.  North you can see the edge of the lake.  The field\ncontinues to the east.  To the west is the evergreen forest.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9642
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9648
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9646
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9648,
+            "Zone": 96,
+            "Name": "Overgrown Field",
+            "Description": "The brush tugs at your clothes as you walk through the field.\nYou step and hear a squeal;  Something scurries off into the\nbrush.  The field continues north, south and west.  To the\neast is the evergreen forest.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9640
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9649
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9657
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9647
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9649,
+            "Zone": 96,
+            "Name": "Evergreen Forest",
+            "Description": "Tall evergreen trees are thriving here.  They surround you\nstretching towards the sky.  The pine trees stand here like\nguardians watching over you.  You can't help but smile as the\nsweet scent of pine tickles your nose.  Ypu hear the sound of\nbirds picking throught the neelde covered forest floor.  The\nforest continues north and south.  To the west is an overgrown\nfield, and east is a small clearing.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9641
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9654
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9658
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9648
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9650,
+            "Zone": 96,
+            "Name": "End of the Trail",
+            "Description": "You are at the end of the tail.  North the mountain rises high\nabove you making you feel very small.  The trees are dense to the\neast and west preventing your passage.  South leads back down\nthe trail to the evergreen forest.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9651
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9651,
+            "Zone": 96,
+            "Name": "Along the Trail to Nowhere",
+            "Description": "You are on a small trail that leads through the forest.  The\ntrees are thick all around you and prevent your passage east\nand west.  North the trail seems to lead towards the mountains.\nYou see the peeks peer over the tree tops.  South leads back \ntoward the evergreen forest.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9650
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9652
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9652,
+            "Zone": 96,
+            "Name": "Along the Trail to Nowhere",
+            "Description": "You are on a small trail that leads through the forest.  The \ntrees are thick and prevent your passage east and west.  \nNorth the trail seems to lead towards the mountains.  You\ncan see the peeks peer throught the tree tops.  South leads\nback toward the evergreen forest.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9651
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9653
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9653,
+            "Zone": 96,
+            "Name": "Trail to Nowhere",
+            "Description": "You are on a small trail that leads throught the forest.  The\ntrees are thick all around you and prevent your passage south\nand west.  North the tail seems to lead toward the mountains.\nYou can see the peeks peering throught the tree tops.  East \nleads back to the evergreen forest.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9652
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9644
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9654,
+            "Zone": 96,
+            "Name": "Dead Silence",
+            "Description": "An eerie dead silence surrounds you.  Nothing is alive in this\nclearing except you.  The trees of the forest lie north, south \nand west.  A cave is to the east.  A powerful stench comes from\nwithin it.  Piles of bones lie on the ground.  As you examine them\nsome look to be human.  Your inner sences tell you that you don't\nwant to be here.\n",
+            "Bits": [
+                "NOMOB",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9655
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9656
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9659
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9649
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9655,
+            "Zone": 96,
+            "Name": "Evergreen Forest",
+            "Description": "Tall evergreen trees are thriving here.  They surround you\nstretching towards the sky.  The pine trees stand here like\nguardians watching over you.  You can't help but smile as the\nsweet scent of pine tickles your nose.  You hear the sound of\nbirds picking through the needle covered forest floor.  The\ngrassy meadow lies to the north.  Your passage east is blocked\nby the side of a cave.  To the south there is a small clearing.\nThe forest continues to the west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9669
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9654
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9641
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9656,
+            "Zone": 96,
+            "Name": "Cave of Black Annis",
+            "Description": "The stench of death is strong here and overwhelms you.  You\nsee blood stained shredded clothing scattered about.  You\nrealize that whatever lives there must have a horendous appitite\nfor human flesh.  You really DO NOT want to be here.  The stench\nis comming from the north.  To the west of the clearing.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9636
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9654
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9657,
+            "Zone": 96,
+            "Name": "Overgrown Field",
+            "Description": "The brush tugs at your clothes as you walk through the field.\nYou step and hear a squeal;  Something scurries off into the\nbrush.  The field continues to the north.  East you can see \nthe tall trees of the evergreen forest.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9648
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9658
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9658,
+            "Zone": 96,
+            "Name": "Evergreen Forest",
+            "Description": "Tall evergreen trees are thriving here.  They surround you\nstretching towards the sky.  The pine trees stand here like\nguardians watching over you.  You can't help but smile as the\nsweet scent of pine tickles your nose.  You hear the sound of\nbirds picking through the needle covered forest floor.  The\nforest extends north and east.  Your passage south is blocked\nby the mountains.  To the west is an overgrown field.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9649
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9659
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9657
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9659,
+            "Zone": 96,
+            "Name": "Evergreen Forest",
+            "Description": "Tall evergreen trees are thriving here.  They surround you\nstretching towards the sky.  The pine trees stand here like\nguardians watching over you.  You can't help but smile as the\nsweet scent of pine tickles your nose.  You hear the sound of\nbirds picking through the needle covered forest floor.  A small\nclearing lies to the north.  Your passage east and south is blocked\nby the mountains.  The forest continues to the west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9654
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9658
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9660,
+            "Zone": 96,
+            "Name": "Under the Lake",
+            "Description": "This is the center of the lake.  Cold water swells from\nbelow.  Rays of light peirce down through the surface of\nthe lake, and dance before your eyes.  Fish swim all\naround you.  You can look up and see the water sparkling\nsky.  The lake continues in all directions.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9665
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9662
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9664
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9661
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9627
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9666
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9661,
+            "Zone": 96,
+            "Name": "Under the Lake",
+            "Description": "Rays of light peirce down through the surface of the lake,\nand dance before your eyes.  Fish swim all around you.  You\ncan look up and see the water sparkling sky.  The lake continues\neast, south and up.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9660
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9663
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9626
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9662,
+            "Zone": 96,
+            "Name": "Under the Lake.",
+            "Description": "Rays of light peirce down through the surface of the lake,\nand dance before your eyes.  Fish swim all around you.  You\ncan look up and see the water sparkling sky.  The lake continues\nwest and up.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9660
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9628
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9663,
+            "Zone": 96,
+            "Name": "Under the Lake",
+            "Description": "Rays of light peirce down through the surface of the lake,\nand dance before your eyes.  Fish swim all around you.\nYou can look up and see the water sparkling sky.  The lake\ncontinues north, east and up.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9661
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9664
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9629
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9664,
+            "Zone": 96,
+            "Name": "Under the Lake",
+            "Description": "Rays of light peirce down through the surface of the lake,\nand dance before your eyes.  Fish swim all around you.\nYou can look up and see the water sparkling sky.  The lake\ncontinues north, west and up.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9660
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9663
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9630
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9665,
+            "Zone": 96,
+            "Name": "Under the Lake",
+            "Description": "Rays of light peirce down through the surface of the lake,\nand dance before your eyes.  Fish swim all around you.  You\ncan look up and see the water sparkling sky.  The lake \ncontinues south and up.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9660
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9624
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9666,
+            "Zone": 96,
+            "Name": "Bottom of the Lake",
+            "Description": "This is the deepest part of the lake.  The sun does not reach\nthis far and the water is very cold.  You feel chilled as you\nstand here.  Your only exit is back up.\n",
+            "Bits": [
+                "DARK",
+                "NOMAGIC",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9660
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9667,
+            "Zone": 96,
+            "Name": "Grassy Meadow",
+            "Description": "The sun warms your skin as ayou stand here.  You hear birds\nsinging, and see the long blades of grass swaying in the warm\nbreeze.  The meadow continues to the south and west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9668
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9637
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9668,
+            "Zone": 96,
+            "Name": "Grassy Meadow",
+            "Description": "The sun warms your skin as you stand here.  You hear birds\nsinging, and see the long blades of grass swaying in the warm\nbreeze.  The meadow continues north, south and west.\n",
+            "Bits": [
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9667
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9669
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9638
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9669,
+            "Zone": 96,
+            "Name": "Grassy Meadow",
+            "Description": "The sun warms your skin as you stand here.  You hear birds\nsinging, and see the long blades of grass swaying in the \nwarm breeze.  The meadow continues north and west.  To the\nsouth is the evergreen forest.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9668
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9655
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9639
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9670,
+            "Zone": 96,
+            "Name": "The Valley Floor",
+            "Description": "The beauty of the valley before you casts a calmness apon\nyour soul.  You have never seen any place so lush and green.\nThe air is clean and fresh far from civilization.  To the\nsouth you see a grassy meadow.  The valley floor continues\nto the west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9637
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9632
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9671,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9672,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9673,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9674,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9675,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9676,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9677,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9678,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9679,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9680,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9681,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9682,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9683,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9684,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9685,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9686,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9687,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9688,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9689,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9690,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9691,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9692,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9693,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9694,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9695,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9696,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9697,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9698,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9699,
+            "Zone": 96,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        }
+    ]
+}

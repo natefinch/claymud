@@ -1,0 +1,2025 @@
+{
+    "rooms": [
+        {
+            "ID": 15001,
+            "Zone": 150,
+            "Name": "The King's Road",
+            "Description": "   You come out onto the great King's Road.  The road is very well\r\r\r\r\r\n\rbuilt, and goes in a straight line due east-west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The King's Road continues in a straight line to the east.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15002
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "pearl",
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3079
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15002,
+            "Zone": 150,
+            "Name": "The King's Road",
+            "Description": "   You stand on the King's Road, which leads east and west. The\r\r\r\r\r\n\rskill of the builders is apparent, since it is impossible to notice\r\r\r\r\r\n\rany turn or irregularity in the road.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a Castle in the far east.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15003
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The King's Road continues in a straight line to the west.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15001
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15003,
+            "Zone": 150,
+            "Name": "On the King's Road outside the Castle",
+            "Description": "   You are standing on the King's Road. Before you is a large\r\r\r\r\r\n\rCastle, evidently built not so much for strength as for beauty.\r\r\r\r\r\n\rIt is not totally without defences, though, for it is surrounded\r\r\r\r\r\n\rby a deep moat, and its windows are just narrow slits for archers\r\r\r\r\r\n\rto shoot through. To the north there is a drawbridge across the moat.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the drawbridge.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15004
+                },
+                {
+                    "Direction": "East",
+                    "Description": "Entrance to the Chessboard.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10600
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The King's Road continues in a straight line to the west.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15002
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15004,
+            "Zone": 150,
+            "Name": "On the Drawbridge",
+            "Description": "   You have arrived at the drawbridge leading into the Castle. Before\r\r\r\r\r\n\ryou is a huge, double-doored gate. It seems very strong. You see some\r\r\r\r\r\n\rwhirls in the moat.\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The gate has huge, but intricately carved hinges. As the Castle itself,\r\r\r\r\r\n\rit seems designed not only for strength, but also for beauty.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "gate",
+                        "door"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15007
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the King's Road.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15003
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "whirls",
+                        "whirl",
+                        "moat"
+                    ],
+                    "Description": "You can't see much, but it seems that something beneath the surface\r\r\r\r\r\n\ris creating them.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15005,
+            "Zone": 150,
+            "Name": "The Kitchen",
+            "Description": "   You are in the Kitchen. Lots of helpers hurry to do the Chief Cook's\r\r\r\r\r\n\rbidding, and there is a wonderful smell that makes you feel very hungry.\r\r\r\r\r\n\rAll around the room, there are shelves with different kinds of cooking \r\r\r\r\r\n\rgear stacked on them. There is an exit to the north, and one to the east;\r\r\r\r\r\n\rboth leading to small passages.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a small, dimly lit passage.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15010
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a small, dimly lit passage.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15006
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15006,
+            "Zone": 150,
+            "Name": "A small passage.",
+            "Description": "   You are standing in a small passage, that is clearly intended mostly\r\r\r\r\r\n\rfor the servants of the Castle. It is only dimly lit and quite narrow.\r\r\r\r\r\n\rThe passage leads west, and to the east there is a small door.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The door is small and uninteresting.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "small"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15007
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You hear clanging of pots, and smell cooking meat.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15005
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15007,
+            "Zone": 150,
+            "Name": "The Entrance Hall",
+            "Description": "   You are standing in the impressive Entrance Hall of the Castle.\r\r\r\r\r\n\rTo the north is an exit into the Great Hall. There is also an exit\r\r\r\r\r\n\reast, and a small door to the west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15012
+                },
+                {
+                    "Direction": "East",
+                    "Description": "There seems to be a small guard room to the east.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15008
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, there is a gate, that leads to the Drawbridge.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15004
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The door is small and uninteresting.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "small"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15006
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15008,
+            "Zone": 150,
+            "Name": "The Guard Room",
+            "Description": "   You are in a small room, evidently meant for guards currently\r\r\r\r\r\n\rnot on duty. There is only one exit, back to the entrance hall.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see the Castle Entrance.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15007
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15009,
+            "Zone": 150,
+            "Name": "Under the Tower",
+            "Description": "   You are below one the three mighty towers of the Castle. There are\r\r\r\r\r\n\rno guards here, and you sense that this part of the Castle is largely\r\r\r\r\r\n\runused. There are stairs going up to the tower, and there is also an\r\r\r\r\r\n\rexit to the north.\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a small, dimly lit passage.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15014
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "The stairs are old, but in good repair. They lead up into the tower.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15034
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "stairs"
+                    ],
+                    "Description": "The stairs are old, but in good repair. They lead up into the tower.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15010,
+            "Zone": 150,
+            "Name": "The Small Passage",
+            "Description": "   You are standing in a small passage, that is clearly intended \r\r\r\r\r\n\rmainly for the servants of the Castle. The passage leads north\r\r\r\r\r\n\rand south.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a small, dimly lit passage.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15015
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You hear the clanging of pots, and smell cooking meat.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15005
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15011,
+            "Zone": 150,
+            "Name": "The Great Hall",
+            "Description": "   You are standing in the south-west end of the Great Hall. It \r\r\r\r\r\n\ris truly vast; the roof is so high above your head, that it seems no\r\r\r\r\r\n\rcloser than the clouds outside. The roof is beautifully painted, by\r\r\r\r\r\n\rsomeone who must have been a true master. The hall is very large,\r\r\r\r\r\n\rand could easily seat several hundred people at a banquet.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15016
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15012
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "roof",
+                        "paintings",
+                        "paint"
+                    ],
+                    "Description": "The paintings on the roof depict the great heroes and gods. One of \r\r\r\r\r\n\rthe gods is fairly heavy-bellied and incredibly hairy, with a massive beard.\r\r\r\r\r\n\rAlso among them are the great enemies and wrongdoers, such as the evil\r\r\r\r\r\n\rGoddess Yochlol and the powerful evil Wizard Tharoecon.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15012,
+            "Zone": 150,
+            "Name": "The Great Hall",
+            "Description": "   You are standing in the southern end of the Great Hall. It \r\r\r\r\r\n\ris truly vast; the roof is so high above your head, that it seems no\r\r\r\r\r\n\rcloser than the clouds outside. The roof is beautifully painted, by\r\r\r\r\r\n\rsomeone who must have been a true master. The hall is very large,\r\r\r\r\r\n\rand could easily seat several hundred people at a banquet. To your\r\r\r\r\r\n\rnorth, you see King Welmar's great throne, and to the south is the\r\r\r\r\r\n\rCastle Entrance.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the part of the Great Hall where the throne is.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15017
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15013
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the Castle Entrance.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15007
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15011
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "roof",
+                        "paintings",
+                        "paint"
+                    ],
+                    "Description": "The paintings on the roof depict the great heroes and gods. One of \r\r\r\r\r\n\rthe gods is fairly heavy-bellied and incredibly hairy, with a massive beard.\r\r\r\r\r\n\rAlso among them are the great enemies and wrongdoers, such as the evil\r\r\r\r\r\n\rGoddess Yochlol and the powerful evil Wizard Tharoecon.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15013,
+            "Zone": 150,
+            "Name": "The Great Hall",
+            "Description": "   You are standing in the south-east end of the Great Hall. It \r\r\r\r\r\n\ris truly vast; the roof is so high above your head, that it seems no\r\r\r\r\r\n\rcloser than the clouds outside. The roof is beautifully painted, by\r\r\r\r\r\n\rsomeone who must have been a true master. The hall is very large,\r\r\r\r\r\n\rand could easily seat several hundred people at a banquet.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15018
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15012
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "roof",
+                        "paintings",
+                        "paint"
+                    ],
+                    "Description": "The paintings on the roof depict the great heroes and gods. One of\r\r\r\r\r\n\rthe gods is fairly heavy-bellied and incredibly hairy, with a massive beard.\r\r\r\r\r\n\rAlso among them are the great enemies and wrongdoers, such as the evil\r\r\r\r\r\n\rGoddess Yochlol and the powerful, evil Wizard Tharoecon.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15014,
+            "Zone": 150,
+            "Name": "A passage",
+            "Description": "   You are standing in a passage, that leads north and south. To the south\r\r\r\r\r\n\rit leads towards one of towers.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the small passage continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15019
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15009
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15015,
+            "Zone": 150,
+            "Name": "The passage",
+            "Description": "   You are in a passage, that leads north and south. To the east there\r\r\r\r\r\n\ris an exit to the Great Hall.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the passage continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15020
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15016
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the passage continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15010
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15016,
+            "Zone": 150,
+            "Name": "The Great Hall",
+            "Description": "   You are standing in the north-west end of the Great Hall. It \r\r\r\r\r\n\ris truly vast; the roof is so high above your head, that it seems no\r\r\r\r\r\n\rcloser than the clouds outside. The roof is beautifully painted, by\r\r\r\r\r\n\rsomeone who must have been a true master. The hall is very large,\r\r\r\r\r\n\rand could easily seat several hundred people at a banquet. To your\r\r\r\r\r\n\reast, you see King Welmar's great throne, and to the west there is\r\r\r\r\r\n\ran exit to a passage.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the part of the Great Hall where the throne is.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15017
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15011
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a passage.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15015
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "roof",
+                        "paintings",
+                        "paint"
+                    ],
+                    "Description": "The paintings on the roof depict the great heroes and gods. One of \r\r\r\r\r\n\rthe gods is fairly heavy-bellied and incredibly hairy, with a massive beard.\r\r\r\r\r\n\rAlso among them are the great enemies and wrongdoers, such as the evil\r\r\r\r\r\n\rGoddess Yochlol and the powerful evil Wizard Tharoecon.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15017,
+            "Zone": 150,
+            "Name": "By the Throne in the Great Hall",
+            "Description": "   You are standing by the King's huge ivory throne. The throne is, to\r\r\r\r\r\n\ran even greater degree than the Hall itself, a masterpiece. It is\r\r\r\r\r\n\rintricately and beautifully carved, and it seems to be made out of a \r\r\r\r\r\n\rsingle block of ivory, though you shiver at the thought of meeting\r\r\r\r\r\n\rthe animal that died to yield a piece of that size. The Hall continues\r\r\r\r\r\n\rto the east, west and south.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15018
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15012
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15016
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "throne",
+                        "ivory"
+                    ],
+                    "Description": "It is large and very beautiful. The carvings are mainly of animals and\r\r\r\r\r\n\rmagic beasts.\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "roof",
+                        "paintings",
+                        "paint"
+                    ],
+                    "Description": "The paintings on the roof depict the great heroes and gods. One of \r\r\r\r\r\n\rthe gods is fairly heavy-bellied and incredibly hairy, with a massive beard.\r\r\r\r\r\n\rAlso among them are the great enemies and wrongdoers, such as the evil\r\r\r\r\r\n\rGoddess Yochlol and the powerful evil Wizard Tharoecon.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15018,
+            "Zone": 150,
+            "Name": "The Great Hall",
+            "Description": "   You are standing in the north-east end of the Great Hall. It \r\r\r\r\r\n\ris truly vast; the roof is so high above your head, that it seems no\r\r\r\r\r\n\rcloser than the clouds outside. The roof is beautifully painted, by\r\r\r\r\r\n\rsomeone who must have been a true master. The hall is very large,\r\r\r\r\r\n\rand could easily seat several hundred people at a banquet. To your\r\r\r\r\r\n\rwest, you see King Welmar's great throne, and to the east there is\r\r\r\r\r\n\ran exit to a small passage.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a passage.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15019
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the King's Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15013
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the part of the Great Hall where the throne is.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15017
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "roof",
+                        "paintings",
+                        "paint"
+                    ],
+                    "Description": "The paintings on the roof depict the great heroes and gods. One of \r\r\r\r\r\n\rthe gods is fairly heavy-bellied and incredibly hairy, with a massive beard.\r\r\r\r\r\n\rAlso among them are the great enemies and wrongdoers, such as the evil\r\r\r\r\r\n\rGoddess Yochlol and the powerful evil Wizard Tharoecon.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15019,
+            "Zone": 150,
+            "Name": "The small passage",
+            "Description": "   You are standing in a small passage, that leads north and south.\r\r\r\r\r\n\rTo the west, there is an exit into the Great Hall.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The passage continues to the north.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15024
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The passage continues to the south.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15014
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see the Great Hall.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15018
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15020,
+            "Zone": 150,
+            "Name": "The passage",
+            "Description": "   You are standing in a north-south leading passage. There is a door\r\r\r\r\r\n\rto the east.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The passage leads to a staircase.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15025
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The door is quite small and unobtrusive.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15021
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The passage continues to the south.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15015
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15021,
+            "Zone": 150,
+            "Name": "The servants' corridor",
+            "Description": "   You are standing in a corridor, that stretches further to the east.\r\r\r\r\r\n\rThere are doors to the north and west. The corridor itself is mainly\r\r\r\r\r\n\rused by servants, and lacks some of the beauty of the rest of the\r\r\r\r\r\n\rcastle.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "There is door there!!!\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15026
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The corridor seems to come to its end a bit further east.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15022
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The door is made out of wood.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "wood"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15020
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15022,
+            "Zone": 150,
+            "Name": "The end of the servants' corridor",
+            "Description": "   The corridor leads only west from here, but there is a door to\r\r\r\r\r\n\rthe north.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The door leads to a room intended for the butler.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 15009,
+                    "Destination": 15027
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15021
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15023,
+            "Zone": 150,
+            "Name": "The Training Room",
+            "Description": "   This is the Training Room of the men of the Castle guard. It is \r\r\r\r\r\n\rvery large, with weapons standing in racks by all the walls. Most\r\r\r\r\r\n\rof the weapons seem to be intended for training only, with blunt\r\r\r\r\r\n\redges and the like, but there are some that might be useful for\r\r\r\r\r\n\rreal fighting. There is a door to the north.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The door is large and heavy.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "large",
+                        "heavy"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15028
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a small passage.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15024
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15024,
+            "Zone": 150,
+            "Name": "The small passage",
+            "Description": "   You are standing in a small passage leading north and south. There\r\r\r\r\r\n\ris also an exit to the west, from which grunts, cheers and heavy \r\r\r\r\r\n\rblows can be heard.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The passage leads north to some stairs.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15029
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the passage continuing.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15019
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the Training Room.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15023
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15025,
+            "Zone": 150,
+            "Name": "The Stair Room",
+            "Description": "   You are standing below a great staircase, that leads up to the\r\r\r\r\r\n\rsecond floor of the Castle. The stairs are made of marble, and there\r\r\r\r\r\n\rare pillars carved in the likenesses of trees with little animals running\r\r\r\r\r\n\rup and down the trunks.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the passage.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15020
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "The stairs lead up to the second floor.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15049
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "pillar",
+                        "pillars",
+                        "tree",
+                        "trees"
+                    ],
+                    "Description": "Very nice. Squirrels and little birds all over.\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "stairs",
+                        "stair"
+                    ],
+                    "Description": "Made out of marble, and as all the rest of the Castle made primarily\r\r\r\r\r\n\rfor beauty and with great skill.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15026,
+            "Zone": 150,
+            "Name": "The servants' quarters",
+            "Description": "   You are standing in a large room, that seems to house many of the\r\r\r\r\r\n\rservants. The room is full of comfortable-looking beds. There is also\r\r\r\r\r\n\ra large chest, probably containing some of the servants' belongings.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The door is made out of wood.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "wood"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15021
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "bed"
+                    ],
+                    "Description": "The beds all look comfortable, despite the fact that this is just\r\r\r\r\r\n\rthe servants' place.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15027,
+            "Zone": 150,
+            "Name": "The butler's quarters",
+            "Description": "   You see at once that this must be the butler's room, for it lies\r\r\r\r\r\n\rin the servants' wing, and still it is large and comfortable; almost\r\r\r\r\r\n\rluxurious, in fact. There is a large bed and a drawer in the room.\r\r\r\r\r\n\rThe only exit is via the door to the south.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the corridor.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 15009,
+                    "Destination": 15022
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "bed"
+                    ],
+                    "Description": "Looks very comfortable indeed.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15028,
+            "Zone": 150,
+            "Name": "The Guards' Barracks",
+            "Description": "   You are standing in a very large room with bunks all over. It is\r\r\r\r\r\n\robvious, that this is where the guards off duty spend most of their\r\r\r\r\r\n\rtime, drinking and gambling or, probably, mostly sleeping.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The door is large and heavy.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "large",
+                        "heavy"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15023
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "bunk",
+                        "bunks"
+                    ],
+                    "Description": "They look a bit hard, but you could sleep in them.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15029,
+            "Zone": 150,
+            "Name": "The stairs",
+            "Description": "   You are standing by a staircase leading down. As you look down,\r\r\r\r\r\n\ryou notice that for the first time since you entered the castle,\r\r\r\r\r\n\rthings are not aesthetically made. Instead it looks more functional\r\r\r\r\r\n\rand prison-like.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the small passage.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15024
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "d",
+                        "do",
+                        "dow",
+                        "down"
+                    ],
+                    "Description": "The stairs go down to a dimly lit room.\r\r\r\r\r\n"
+                },
+                {
+                    "Keywords": [
+                        "stairs",
+                        "stair",
+                        "staircase"
+                    ],
+                    "Description": "They seem to be made of granite, and stretch down into a more dimly\r\r\r\r\r\n\rlit area than where you come from.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15030,
+            "Zone": 150,
+            "Name": "At a bend in the corridor",
+            "Description": "  You are standing where the corridor bends from east to north.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15035
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15031
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15031,
+            "Zone": 150,
+            "Name": "The corridor",
+            "Description": "   You are standing in a long corridor, decorated with tapestries\r\r\r\r\r\n\rdepicting old times and old heroes. It leads east and west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15032
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15030
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15032,
+            "Zone": 150,
+            "Name": "The corridor",
+            "Description": "   You are standing in a long corridor, decorated with tapestries\r\r\r\r\r\n\rdepicting old times and old heroes. It leads east and west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15033
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15031
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15033,
+            "Zone": 150,
+            "Name": "The corridor",
+            "Description": "   You are standing in a long corridor, decorated with tapestries\r\r\r\r\r\n\rdepicting old times and old heroes. The corridor continues west,\r\r\r\r\r\n\rand to the north you see the luxurious guest wing.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the guest wing.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15038
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15032
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15034,
+            "Zone": 150,
+            "Name": "In the south-east tower.",
+            "Description": "   This part of the tower is fairly uninteresting, but it leads further\r\r\r\r\r\n\rupwards...\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "The room at the top of the tower seems darkish for some reason.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15052
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see the stairs at the bottom of the tower.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15009
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15035,
+            "Zone": 150,
+            "Name": "The corridor",
+            "Description": "   You are standing in a long corridor, decorated with tapestries\r\r\r\r\r\n\rdepicting old times and old heroes. It leads north and south. There\r\r\r\r\r\n\ris also an exit to the east here.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15040
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a small room.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15036
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15030
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15036,
+            "Zone": 150,
+            "Name": "By the treasure room",
+            "Description": "   You are standing by a great iron door. The door is very large, and\r\r\r\r\r\n\rseems very solid indeed. There is a sign posted by it. \r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a large steel door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "steel",
+                        "large"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15007,
+                    "Destination": 15037
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the corridor.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15035
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "\r\r\r\r\r\n\r              TREASURE ROOM\r\r\r\r\r\n\r\r\r\r\r\r\n\r   Authorized personnel only - all others keep out.\r\r\r\r\r\n\r   ANY trespassing will be SEVERELY punished!!\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15037,
+            "Zone": 150,
+            "Name": "The Great Treasury",
+            "Description": "   As you enter this room, you are astonished by the riches that\r\r\r\r\r\n\rare stowed away here; not so much in gold, but paintings, tapestries,\r\r\r\r\r\n\rskillful carvings and sculptures all over the vast room. You realise,\r\r\r\r\r\n\rhowever, that most of these things are too well known to be sold\r\r\r\r\r\n\ranywhere, without branding yourself as a thief, and condemning yourself\r\r\r\r\r\n\rto instant death at the hands of the Royal Guard.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see a large steel door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "large",
+                        "steel"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15007,
+                    "Destination": 15036
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "painting",
+                        "paintings",
+                        "carving",
+                        "carvings",
+                        "sculptures",
+                        "tapestries"
+                    ],
+                    "Description": "It seems they are stored here temporarily to enable changing\r\r\r\r\r\n\rof the decoration in the Castle on a regular basis.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15038,
+            "Zone": 150,
+            "Name": "The Guest Wing",
+            "Description": "   You have arrived at the part of the Castle where prominent\r\r\r\r\r\n\rguests are housed. To the east there is a large, ornamented\r\r\r\r\r\n\rdoor, and a somewhat smaller one leads north. \r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The door seems to lead to a guest room.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "small"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15043
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the guest suite behind the door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "ornament",
+                        "ornamented"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15039
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the corridor.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15033
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15039,
+            "Zone": 150,
+            "Name": "The Guest Suite",
+            "Description": "   This must be where only the most highly regarded guests stay, since\r\r\r\r\r\n\rit is luxurious beyond your wildest imagination. This is only the living\r\r\r\r\r\n\rroom of the suite, but it is huge and tastefully decorated. All the \r\r\r\r\r\n\rfurniture is not only beautiful, but also made for comfort. To the \r\r\r\r\r\n\rnorth, there is an exit to the bedroom, and there is a door to the west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the bedroom.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15044
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Behind the door you see the entrance to the Guest Wing.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15038
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15040,
+            "Zone": 150,
+            "Name": "The corridor",
+            "Description": "   You are standing in a long corridor, decorated with tapestries\r\r\r\r\r\n\rdepicting old times and old heroes. It leads north and south.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15045
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15035
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15041,
+            "Zone": 150,
+            "Name": "The Ball Room",
+            "Description": "   You are standing in the great Ball Room. It is a truly large room,\r\r\r\r\r\n\rwith a stage for an orchestra in the south-east end.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the Ball Room.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15046
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see the stage.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15042
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15042,
+            "Zone": 150,
+            "Name": "By the stage",
+            "Description": "   Before you you see the stage. It is large enough for some 40 \r\r\r\r\r\n\rmusicians to play on at the same time. The Ball Room continues\r\r\r\r\r\n\rto the west and north.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the Ball Room.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15047
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the Ball Room.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15041
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "stage"
+                    ],
+                    "Description": ""
+                }
+            ]
+        },
+        {
+            "ID": 15043,
+            "Zone": 150,
+            "Name": "A Guest Room",
+            "Description": "   You are standing in a large room. Although it is comfortable enough,\r\r\r\r\r\n\ryou can tell it is not meant for any of the most illustrious guests,\r\r\r\r\r\n\rsince it lacks that extreme luxury found elsewhere in the Castle.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "Behind the door, you see the entrance to the Guest Wing.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15038
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15044,
+            "Zone": 150,
+            "Name": "The Bedroom",
+            "Description": "   This room is dominated by the huge four-poster bed, that stands\r\r\r\r\r\n\ragainst the northern wall. The room is large and cosy, and the bed\r\r\r\r\r\n\rvirtually begs you to lie down in it and sleep.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the living room of the suite.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15039
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "bed"
+                    ],
+                    "Description": "Large, comfortable, bolstered... Invites you to sleep in it.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15045,
+            "Zone": 150,
+            "Name": "The corridor",
+            "Description": "   You are standing in a long corridor, decorated with tapestries\r\r\r\r\r\n\rdepicting old times and old heroes. It leads north and south. There\r\r\r\r\r\n\ris an exit to the east, that leads to a large room.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15049
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the Ball Room.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15046
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the corridor continue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15040
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15046,
+            "Zone": 150,
+            "Name": "The Ball Room",
+            "Description": "   You are standing in the great Ball Room. It is a truly large room,\r\r\r\r\r\n\rwith a stage for an orchestra in the south-east end.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the Ball Room.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15047
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the Ball Room.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15041
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the corridor.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15045
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15047,
+            "Zone": 150,
+            "Name": "The Ball Room",
+            "Description": "   You are standing in the great Ball Room. It is a truly large room,\r\r\r\r\r\n\rwith a stage for an orchestra in the south-east end.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, you can enter a tower.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15048
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see the stage.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15042
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the Ball Room.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15046
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15048,
+            "Zone": 150,
+            "Name": "In the Tower",
+            "Description": "   You are standing in the north-eastern of the three great watch-\r\r\r\r\r\n\rtowers of the Castle. To the west, you can enter the Ball Room and\r\r\r\r\r\n\rthere are stairs leading up into the Tower.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see the Ball Room.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15047
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "The stairs lead a long way up to the top of the Tower.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15054
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "stairs"
+                    ],
+                    "Description": "The stairs are made out of granite, and seem solid enough.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15049,
+            "Zone": 150,
+            "Name": "The Grand Staircase",
+            "Description": "   You are standing on a great staircase, that leads up and down. To \r\r\r\r\r\n\rthe east, there is a large oak door, and a corridor leads south.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The door is large and made out of oak.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "oak",
+                        "large"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 15014,
+                    "Destination": 15050
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the corridor.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15045
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "The stairs continue up to the top of the tower.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15053
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The stairs lead down to the first floor of the Castle.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15025
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "stairs"
+                    ],
+                    "Description": " The stairs are made of marble, and there are pillars carved in the\r\r\r\r\r\n\rlikenesses of trees with little animals running up and down the trunks.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15050,
+            "Zone": 150,
+            "Name": "The Cosy Room",
+            "Description": "   You have entered a large, cosy living room. There is a fireplace\r\r\r\r\r\n\rwith a fire burning, and a few comfortable chairs around a little\r\r\r\r\r\n\rtable. There is a door to the west, and also an exit to the east.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a large bedroom.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15051
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The door is large, and made out of oak.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "large",
+                        "oak"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 15014,
+                    "Destination": 15049
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "chairs"
+                    ],
+                    "Description": "The chairs are arranged around the fireplace.\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "table"
+                    ],
+                    "Description": "The table is made of mahogany, and elegant in a cosy way(!)\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "fire",
+                        "fireplace"
+                    ],
+                    "Description": "The fire is built out of logs, and seems to be able to burn for \r\r\r\r\r\n\rquite a while longer.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15051,
+            "Zone": 150,
+            "Name": "The King's Bedroom",
+            "Description": "   This is a large room, with a wonderful view. To one side of the\r\r\r\r\r\n\rroom, stands a large four-poster bed. All around the room there are\r\r\r\r\r\n\rmassive bookshelves, filled with all kinds of books. The titles include\r\r\r\r\r\n\rworks such as: 'A Treatise on the History of Midgaard and surrounding\r\r\r\r\r\n\rareas', 'Magic - A Beginner's Introduction' and many others. There is\r\r\r\r\r\n\ran exit to the west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "There is a large and cosy room to the west.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15050
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "magic"
+                    ],
+                    "Description": "Beginner? This book goes beyond most of what YOU know about magic\r\r\r\r\r\n\ranyway. But then, there are levels of magical knowledge, it seems.\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "history",
+                        "midgaard"
+                    ],
+                    "Description": "A dry tome, filled with boring knowledge.\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "bed"
+                    ],
+                    "Description": "Seems nice enough to sleep in, though you would never dare to, since\r\r\r\r\r\n\rit is a Royal Bed!\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "books",
+                        "book",
+                        "shelf",
+                        "shelves",
+                        "bookshelf",
+                        "bookshelves"
+                    ],
+                    "Description": "Most of the books seem worn, as if thoroughly studied. The King\r\r\r\r\r\n\revidently is interested in keeping himself educated.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15052,
+            "Zone": 150,
+            "Name": "Up in the Tower",
+            "Description": "   After a long climb, you finally reach the top of the tower. This\r\r\r\r\r\n\rroom is small, and the only light source is a flickering candle, on\r\r\r\r\r\n\ra cluttered table, in the middle of the room. The only obvious exit\r\r\r\r\r\n\ris back down the stairs.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "The stairs go down the tower.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15034
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "table"
+                    ],
+                    "Description": "On the table are various objects, all very strange-looking.\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "candle"
+                    ],
+                    "Description": "Small, uninteresting... A candle that is as normal as can be.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15053,
+            "Zone": 150,
+            "Name": "The Top of the Tower",
+            "Description": "   You have arrived at the top of the tower. This tower is pretty\r\r\r\r\r\n\runinteresting, and seems made purely for reasons of defence and \r\r\r\r\r\n\rguarding. The windows are slits for bowmen, very narrow on the \r\r\r\r\r\n\routward side and broad inwards to allow a wide shooting angle.\r\r\r\r\r\n\rThe only evident exit is down the stairs again.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "The stairs go down to the second floor.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15049
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "window",
+                        "slit"
+                    ],
+                    "Description": "As you look out the windows, you are granted a view of the country..\r\r\r\r\r\n\r(To be filled in when I have YOUR part of the area..:-) ggg )\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15054,
+            "Zone": 150,
+            "Name": "The Top of the Tower",
+            "Description": "   This is the highest of all the towers, and is obviously used for\r\r\r\r\r\n\rlookout purposes. The view is splendid in all four directions. All\r\r\r\r\r\n\raround you, the rich countryside spreads out to the horizon. To the \r\r\r\r\r\n\rnorth and east you see a vast mountain range, and far to the west\r\r\r\r\r\n\ra beautiful lake. A bit closer, the town of Midgaard lies at the\r\r\r\r\r\n\rend of the King's Road. The only exit you can see is down again.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "You see the stairs going back down to the second floor.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15048
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "n",
+                        "no",
+                        "nor",
+                        "nort",
+                        "north"
+                    ],
+                    "Description": "To the north, the tall White Mountains have their highest peaks.\r\r\r\r\r\nThe mountaintops disappear in the white clouds, far above the\r\r\r\r\r\nplains. The sight of those high, far mountains fills you with a\r\r\r\r\r\ndesire to scale them, to see the world from that vantage.\r\r\r\r\r\n"
+                },
+                {
+                    "Keywords": [
+                        "e",
+                        "ea",
+                        "eas",
+                        "east"
+                    ],
+                    "Description": "In the east you see an arm of the dominating mountain range on this\r\r\r\r\r\ncontinent, the White Mountains. Though not as high as those in the\r\r\r\r\r\nnorth, the sight of those mountains fills you with awe.\r\r\r\r\r\n"
+                },
+                {
+                    "Keywords": [
+                        "s",
+                        "so",
+                        "sou",
+                        "sout",
+                        "south"
+                    ],
+                    "Description": "To the south, rolling hills stretch away, as far as you can see.\r\r\r\r\r\n"
+                },
+                {
+                    "Keywords": [
+                        "w",
+                        "we",
+                        "wes",
+                        "west"
+                    ],
+                    "Description": "As you look west, you see a river flowing through all of Midgaard\r\r\r\r\r\nand continuing beyond it towards a great lake. Still further\r\r\r\r\r\naway, you can glimpse something silvery that has to be the Sea.\r\r\r\r\r\n"
+                }
+            ]
+        }
+    ]
+}

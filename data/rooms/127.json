@@ -1,0 +1,3399 @@
+{
+    "rooms": [
+        {
+            "ID": 12700,
+            "Zone": 127,
+            "Name": "Entering the slum sections",
+            "Description": "You enter a garbage-infested alleyway. Amidst abandoned wreckages of human\nwaste, soiled needles can be seen in plain sight beneath the bare feet of\nplaying children. Decaying buildings surround you on all sides, and you\nrealize that brick is not permanent when acid rain, smog, and urban wear\nsets in. An old drainage pipe leads upwards along one wall...\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The alley opens unto the Concourse.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3127
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The slums continue to the south. You see no real signs of law enforcement.\nYou're on your own.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12701
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "A old waterdrain leads upwards into the heavens.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12719
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "graffiti"
+                    ],
+                    "Description": "\nA brief, pulsing flare reveals golden-hued script. It suddenly\ndies down and disappears, leaving only a retina burn that\nslowly fades away...\n\nMidgaard Add-ons brought to you by Yendle (10/94)\nComplete revision and alteration by Raul (5/95)\n"
+                },
+                {
+                    "Keywords": [
+                        "pipe"
+                    ],
+                    "Description": "\nA rusty pipe bolted against a wall leads up. It might just be the\nway to see the slums from above.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12701,
+            "Zone": 127,
+            "Name": "In the slum sections",
+            "Description": "You are stricken by the overall poverty of this area. What is even worse\nis that people don't seem to really care about this place. Trash litters\nthe ground, and in a corner are a pile of boxes from which emerges a\nstrong, repulsive smell. Puddles fill up potholes in the street.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The entrance of the slums lies north.",
+                    "Keywords": [
+                        "The",
+                        "Beginnings",
+                        "of",
+                        "the",
+                        "Slums"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12700
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "A",
+                        "Dirt",
+                        "Filled",
+                        "Alley"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12702
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "boxes",
+                        "pile"
+                    ],
+                    "Description": "A pair of dirty human feet can be seen poking out from behind the pile\nof abandoned wooden and cardboard boxes. They appear blackened, and flies\nbuzz around, occasionally alighting upon the leaking yellow puss of open\nsores. Approaching closer, you nose is offended by the rotting smell.\nYou decide to leave the corpse alone and hurry on through this area.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12702,
+            "Zone": 127,
+            "Name": "In the slum sections",
+            "Description": "You are assaulted by the noises and sights and smells of this alleyway.\nTenement buildings overhead block out much of the light of the sky, and the\nstreetlamps are in disrepair. Trash litters the streets, and occasional\nsights of rat corpses fought over by stray dogs turn your stomach. Puddles\nform in potholes in the alleyway. Dark figures in a corner catch your eye.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "A",
+                        "Dirt",
+                        "Ridden",
+                        "Alley"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12701
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "Widened",
+                        "Alley"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12703
+                },
+                {
+                    "Direction": "South",
+                    "Description": "For some strange reason, the alley to the south seems to be avoided\nby most of the slum inhabitants... It appears empty, which is odd\nin a crowded city.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12761
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A crummy wooden door protects those within from the weather.\n",
+                    "Keywords": [
+                        "door",
+                        "wooden"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12718
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "dogs",
+                        "corpses",
+                        "rat"
+                    ],
+                    "Description": "\nWell, it looks like a rat's corpse all right. It's being fought over\nby two mangy, fleabitten dogs with sharp yellowed fangs and foaming\nmouths. They nip at each other, fighting for control of the meat and\nan opportunity to gulp it down before the other snatches possession\naway. Eventually, both have a grasp of one part of the corpse with their\njaws, and the two rip the bloated rat's corpse apart with a sickening\ncrunch of breaking bones. The two dogs are apart now, the halves of rat\nin their respective mouths connected by a long, droopy thread of\nintestine, dark red blood dripping from torn flesh. You turn away in\ndisgust, though you cannot avoid hearing the sickening sounds of jaws\nchomping on flesh...\n"
+                },
+                {
+                    "Keywords": [
+                        "figures",
+                        "corner"
+                    ],
+                    "Description": "\nIn the shadows behind a couple of trash containers, you make out two\nmoving figures. Approaching closer to investigate, you begin to hear\nmuffled grunting noises. As your eyes adjust to the darkness, you make out\na gaudily dressed woman lying back upon a pile of burlap sacks. Her\ndress is lifted up and her legs are spread wide apart. Between them,\na man is hunched, grunting as he thrusts in and out of her. He is\ngarbed in dirty grey work clothes stained with sweat and soot. As his\ngrunting continues, you realize they are oblivious to your presence.\nYou don't know whether this is a rape or whether the woman is merely\nearning her living, so you decide it is best to leave them alone and\nwalk away.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12703,
+            "Zone": 127,
+            "Name": "More crowded and dirty streets",
+            "Description": "The filthy and run-down conditions of the street and tenement buildings\naround you continue to affront your sense of order and neatness. The\nfilthy and ragged people around you ignore the garbage, potholes, and\ntrodden animal corpses that litter the street, picking their way through\nnonchalantly. All around are buildings and street. All smelling badly.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "What looks to be a building gutted by fire stands before you.\nThere is a sign nailed to the entrance door, saying 'Condemned'.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12704
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The slums seem to sprawl out in that direction.\nStreets are crowded and noisy. It still smells.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12708
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "Darkened",
+                        "Alleyway"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12705
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "A",
+                        "Dirty",
+                        "Alley"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12702
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "smell",
+                        "smells"
+                    ],
+                    "Description": "\nYou look about for the source of the smells, but after a while realize\n(as you should have earlier) that it is from everywhere - the people,\nthe garbage, the human wastes...\n     As your mind begins to truly digest this discovery, a faint, pitiful\nwhine comes from beneath you. Looking down, you see a poor street waif\nkneeling before you and crying. You are about to offer a few coins, but\nthen look further down at your feet, and see the child's frail hand stuck\nunder the crush of your footwear. Apparently you had accidentally hurt\nthis child while shifting around trying to locate the source of the smell.\n     You remove your foot and begin to apologize profusely, but the child\nquickly clambers up and runs away. You stare flabbergasted, and as you\ntake a step back, your foot bumps into a hard crust of bread... So that\nwas what the kid was after... It's no use going returning the bread now,\nthe child has disappeared into the crowd.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12704,
+            "Zone": 127,
+            "Name": "A rundown and gutted tenement building",
+            "Description": "As you wander about this burned out place, you see that despite the barred\nwindows and the 'Condemned' sign out front, this building still serves as\na home for some people. The elevator is not working, and you find the\nstairwell entrance blocked off from inside. Around you are piles of debris\nand occasional muddy puddles formed from rain let in by the newly torn in\nskylights above the central atrium. Bits of laundry hang from railings.\nThe air smells of burnt ashes and unwashed bodies.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "Widened",
+                        "Alley"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12703
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12705,
+            "Zone": 127,
+            "Name": "A dark, cold street",
+            "Description": "The tall tenement buildings surrounding this section of the slums leave\na perpetrual gloom. A dramatic drop in temperature was felt as you\narrived - whether physical or psychological in basis, you cannot tell.\nTo the east of you is a makeshift door leading somewhere.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "Widened",
+                        "Alley"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12703
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12707
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Raucus laughter and merrymaking can be heard south.",
+                    "Keywords": [
+                        "Dead",
+                        "End"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12706
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12706,
+            "Zone": 127,
+            "Name": "A dead end alleyway",
+            "Description": "You stumble across a powwow of scabs and addicts 'jecting juice up into\ntheir arms and snorting dandelion patches. They blissfully ignore you\nand those around them. Some are comatose, and a few might be dead, but\nit's no big deal, because someone will come around and haul their body in\nfer parts. This isolated alleyway is illuminated by a flickering\nfluorescent light mounted to a wall. The groans and mutterings and ravings\nof the people are sure signs of their current incoherent state of mind.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "Darkened",
+                        "Alley"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12705
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "dead",
+                        "addicts",
+                        "scabs",
+                        "addict",
+                        "scab"
+                    ],
+                    "Description": "\nThe one next to you seems to be out cold. He's neglected to remove the\nhypodermic after injecting himself, and it's now sticking out obscenely\nfrom his arm like it was a flagpole. His ragged clothes and grimey\nskin, his falling-apart boots and filthy hair, attest as well to the\nstate of being he has sunken to. Others around him sit back and lean\nagainst the wall, eyes closed to better experience their brief, euphoric\ndreams. In a far corner, where it's dark, there lies a woman.\n"
+                },
+                {
+                    "Keywords": [
+                        "woman",
+                        "corner"
+                    ],
+                    "Description": "\nShe appears dead, her eyes rolled up into the back of her head at an\nimpossible set of angles. Approaching closer, you see that one hand\nholds an empty dust packet. Another hand seems to disappear into the\nsleeve of her denim jacket. Lighting a match, you gasp in surprise as\nyou realize she has no clothing on below her waist. Her legs are spread\nout, and yellowed puss glistens sicky from her vulva. Holding your nose\nand bending closer, you make out tiny little black dots moving up and\ndown over the skin. Ants.\n     As far as you can tell, she is dead. You are repulsed, yet\nstrangely fascinated by this macabre sight. You turn away sadly, then\nwhirl around to face the corpse as something moves in the corner of your\neye! You look down at her sleeve, which is shaking, and it appears she\nis lifting her hand at you. From the sleeve emerges a mangy rat,\nface and fur covered with grisly blood and bits of flesh.\nYou back away quickly and decide to keep at a distance.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12707,
+            "Zone": 127,
+            "Name": "A burned out apartment",
+            "Description": "The walls and ceiling are darkened by soot from a recent fire, and water-\npipes are laid bare beneath broken and singed floorboards. In a corner\nlies a soiled crib smelling of dried urine. Upon a shaky table opposite\nthe entry is an old hotplate, the remains of yesterday's meager meal in\na battered saucepan atop it. A bare dirty mattress is on the floor.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12705
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12708,
+            "Zone": 127,
+            "Name": "More crowded and dirty streets",
+            "Description": "For a brief moment, sunlight streams past the hazy smog overhead and\nalights upon some of the buildings, bathing them in a soft, radiant glow.\nThen it disappears, and you rub your eyes. Beauty it seems, can strike at\nthe ugliest of places, if only for a while. People continue to walk the\ntrash ridden streets amidst broken down vehicles tagged with graffiti.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Before you is and old, dilapidated building that looks even more\nworn and falling apart than its neighbors (is that possible?).\nThere seems to be not a door, but a crack one may pass through to\nenter.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12710
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A open doorway.\n",
+                    "Keywords": [
+                        "A",
+                        "Open",
+                        "Doorway"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12709
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The area of the city to the south seems to be somewhat more\nprosperous, with signs of a few shops. You must be in the\nmore northerly residential sectors - the slums.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12751
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "Widened",
+                        "Alley"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12703
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "graffiti"
+                    ],
+                    "Description": "Different slogans and different tags put up by various gangs and single\nindividuals in gaudy colors. Groups such as Reds, Spits, Slayers, and\nChromies seem to have placed their work over each others', with Reds and\nSpits tags most prominent on the vehicle next to you.\n     Behind you is a brick wall scored with more graffiti. There is also\nand old, dilapidated 'NO TRESPASSING' sign on it that has had the 'TRESP'\npart sprayed over. Evidently something about the posterior.\n"
+                },
+                {
+                    "Keywords": [
+                        "vehicles",
+                        "vehicle"
+                    ],
+                    "Description": "\nDismantled, nonfunctioning, torn apart, all of them are no longer usable.\nThe one nearest to you is an old foreign model rusting on it's axles and\nshowing alittle of the original red paint underneath the mass of graffiti\nsprayed and scratched over it.\n     As you examine the wreck, a shudder overcomes it as a pale, thin\nstreet waif exits the rear and slams the hatch shut. Is this a home?\n"
+                }
+            ]
+        },
+        {
+            "ID": 12709,
+            "Zone": 127,
+            "Name": "A sparsely decorated domicile",
+            "Description": "It is heartwarming to find that at least a few individuals have made an\neffort to pierce the all-pervading gloom by attempting to decorate their\ndomicile with whatever is at hand. A few half-wilted daisies stand in a\njar of water upon a table, trying to cheer up the interior...\nThen you see the spaced out mother in the corner, sitting amidst a ring\nof dust packets and used hypodermics and plastic bags. Her children peer\nat you and at her from around the corner, wondering whether they should\ncome out. You turn away in disgust.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "A",
+                        "Open",
+                        "Doorway"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12708
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12710,
+            "Zone": 127,
+            "Name": "A passageway amongst crumbling walls",
+            "Description": "The surrounding walls seem to have crumbled downward to form cave-in's\nblocking your left or right. This area appears to be some kind of a\nsecret. At least to you, not to the people around you. A place that\nprovides even some shelter from the elements will draw inhabitants.\nTo the north you notice a tarp draped and hanging from the wall there.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A canvas tarp is laid here over a section of the wall, tacked to it\nby nails at the top. Some smoke and noises seem to be drifting to you\nfrom the edges of it. ",
+                    "Keywords": [
+                        "tarp"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12711
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The street outside can be seen from here.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12708
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "graffiti"
+                    ],
+                    "Description": "\nThe graffiti here all belong to one gang or another, the Reds, the Spits,\nBlack Slayers, Chromies, etc. The Reds and Black Slayers are combat gangs,\nthe most organized of any. The Chromies and Spits are rival raker gangs,\nthat is, juvies who ride around on motorized skateboards and have raking\ncontests in abandoned alleys and swimming pools. They 'rake' each other\nwith short, 1-inch blades attached to their gloves. The Chromies and Spits\ndon't really hate each other, they realize they need competition and fun.\nRaking someone is good and gives you honor. Having raking scars means\nyou're a veteran, not a newbie. Anyway, the graffiti mostly says stuff\nlike 'Reds Rule!' or 'Spits rake you!' or 'Fuck da Chromies!' and all\nthe regular graffiti stuff.\n     Alot of people here have scrawled things in pencil and pen as well,\nhowever. Stuff about good lays if you call a certain number, and the\ngood (or bad) drugs around, and who was here and at what time. It's stuff\n"
+                }
+            ]
+        },
+        {
+            "ID": 12711,
+            "Zone": 127,
+            "Name": "A building serving as a drug haven",
+            "Description": "The structural interior of this building looks just like any other\nrun-down tenement building in the slums. It is infested with roaches\nand other vermin, lacking in utilities services, and in severe disrepair.\nAs you enter, you immediately know this to be a drug haven, where addicts\nof juice, dust, and a host of other illegal substances come to get their\ndose. The air is permeated with the smell of harsh chemicals that burn\nyour nasal passages. Good thing too! It masks the stink of human wastes.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Another part of the building, with more drugs, addicts, and other\nsuch individuals. Basically, this entire building houses people and\nthings tied in one way or another to drugs.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12712
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A leather tarp covers the entrance.\n",
+                    "Keywords": [
+                        "tarp"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12710
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12712,
+            "Zone": 127,
+            "Name": "Further in this building",
+            "Description": "You are further in the building now, and fully experiencing the complex\nmix of harsh chemical smells. There is alot of smoke, from cigarettes,\njoints, cigarette lighters used to heat chem vials - you seriously are\ngetting dizzy. This place still looks dirty and trashed. Bits of cheap\nfoam furniture, old circa 1970s sofas and chairs are set against the\ncrumbling walls. A cheap floor-lamp provides illumination.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The wall was originally painted white, but now is very dirty, bits of\npaint peeled off to reveal a red undercoat. Set in the wall is a\ndilapidated door. ",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12714
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see another room somewhat like this one, and an exit leading from\nthere. It's rather dark in there.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12711
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12713,
+            "Zone": 127,
+            "Name": "A smoke-filled room",
+            "Description": "Blacklights have been mounted along the edges of floor and wall, illumi-\nnating in fluorescence floating holographic images set up by a several\nprojectors. The floor is covered in shaggy carpet burned in places and\nlittered with bits and pieces of discarded drug paraphernalia. Old sofas\nand armchairs are scattered about. You notice how tiny flecks of light\nare scattered about by an old disco ball slowly twirling from the ceiling.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "A bead curtain hangs in disarray over the door that leads out of here.\nIt is somewhat tangled, and missing some beads.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12714
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "floor",
+                        "litter",
+                        "paraphernalia"
+                    ],
+                    "Description": "\nIt's just old shag carpet in a tacky avocado green. They last made\ncarpets like this back in the 60s, almost 60 years ago. Amazing this\npiece has lasted so long. It's stained all over, stuck with cig burns,\nand just littered with old discarded vials and other things that just\ncrunch underfoot. Hopefully you're wearing some sturdy footwear...\n"
+                },
+                {
+                    "Keywords": [
+                        "images",
+                        "holograms",
+                        "holos",
+                        "projectors"
+                    ],
+                    "Description": "\nThe projectors emit constantly shifting shapes and globules that glow\nand pulse slowly in a myriad of different colors. The effect is similar\nto having several giant lava lamps floating in the center of the room,\nexcept there are no clumsy bases, and the colors and shifts are much,\nMUCH more detailed, almost as if this entire room was the interior of\nsuch a lamp. The floating globules of colors cause a trance-like state\ntruly enhanced by the various hallucinogenics and euphorics available\nto the customers of this drug haven.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12714,
+            "Zone": 127,
+            "Name": "A messy hallway",
+            "Description": "You are in a long hallway that is very dimly lit by a precious few\nlightbulbs mounted into jury-rigged socket bases nailed to the ceiling.\nBits of plaster litter the ground, fallen from holes gouged or punched\ninto the ceiling and walls. The floor is rightfully called the ground\nbecause it is so soiled and muddied, with piles of trash along the sides.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The plaster of the wall has been knocked down in places, revealing\nparts of the underlying structural members of this building. Some\nrusty waterstains near the ceiling reveal bad plumbing and roofing\njobs. There is a dilapidated door set in the wall.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12712
+                },
+                {
+                    "Direction": "West",
+                    "Description": "There is a door at the end of this hallway.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12713
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "A mustiness can be scented, as you peer up a flight of stairs at one\nend of this messy hallway.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12715
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12715,
+            "Zone": 127,
+            "Name": "A musty hallway",
+            "Description": "You find yourself in a dank, smelly hallway on the second floor of this\nbuilding. Heavily boarded doors and windows prevent anyone from entering\nor leaving except by the stairway that leads down. Bits of broken glass\nand crumpled, stained napkins litter the floor. To the east, at the end\nof this hallway is a door. Nailed to it is a crudely lettered sign.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a warped wooden door upon which an old cardboard sign has\nbeen nailed firmly in front with 3-inch nails.\n",
+                    "Keywords": [
+                        "door",
+                        "wooden"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12716
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "Zoner",
+                        "Guard",
+                        "Room"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12714
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "The sign is crudely drawn with a black marker upon a stiff white\ncardboard background. It reads, 'The Room uv the Suprim Taco'. In\nsmaller script below it, but just as crudely done, is:\n'mak sure to bring an offfuring to the grate one'.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12716,
+            "Zone": 127,
+            "Name": "Room of the Almighty Supreme Taco",
+            "Description": "Whoa! And you thought downstairs smelled bad... The air here is dripping\nwith the heady smell of trace scents of every illegal substance imaginable\nmixed with sweat, urine, and feces. Bright gaudy ornaments hang from the\nceiling and walls. The windows have been boarded up, and the only source\nof light is an old relic disco sphere propped up on the floor. A black\ndoor is against the south wall, probably leading to the bathroom.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "This exit probably leads to the bathroom. It might just be the cleanest\nplace in this entire joint.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12717
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A squeaky, rust-hinged wooden door leads out into the hallway.\n",
+                    "Keywords": [
+                        "door",
+                        "wooden"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12715
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12717,
+            "Zone": 127,
+            "Name": "A dark back room",
+            "Description": "Weird tribal industrial blasts from an old, banged up tape player in the\nback. It's odd fusion of undeciphered rhythmic chanting and techno would\nbe interesting were the tape not so worn and scratchy. Shelves line the\nback walls, various vials and bottles and packets scattered on them. If\nthere is an illegal substance for abortion or a quack cure for any of a\ndozen venereal diseases, it can be found here at Ganja's Emporium.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "PRIVATE",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "There is an old bead curtain that hangs over the door, supposedly to\nprevent any evil spirits from entering, according to old Eastern myths.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12716
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "shelves",
+                        "walls"
+                    ],
+                    "Description": "You see many dirty bottles and half-empty vials. Even a set of rust-pitted\nsurgical gear and a bottle of liquid ether. There's also an odd plastic\nbox in the back beneath the shelves that has a dirt-smudged label.\nIt reads, 'Coalition Pharmaceuticals - Field Cryo Kit.'\nHmm... What is he doing with a Cryo Kit?\n"
+                }
+            ]
+        },
+        {
+            "ID": 12718,
+            "Zone": 127,
+            "Name": "Within a tenement building",
+            "Description": "You have entered a dark, dank tenement building. As you wander about the\nsmall hallways and climb the endless stairs, you find every door opening\ninto an apartment to be solidly shut, no doubt locked and barred from the\ninside in no less than six different ways. Rats and cockroaches scurry\nalong the floor, navigating - as you are - hazards that include broken\nfurniture, passed out drunks and addicts, and running children in ragged\nclothing. The air smells of stale smoke and beer, urine and feces.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Outside this crummy wooden door to the east is the rest of the slums.\n",
+                    "Keywords": [
+                        "door",
+                        "wooden"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12702
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12719,
+            "Zone": 127,
+            "Name": "Along a rusted drainage pipe",
+            "Description": "You are climbing along an old, rusted drainage pipe bracketed to the\nbrick wall of a tenement building. It seems surprisingly stable for such\nan old metal piece. A fire escape is directly within arms reach to your\nleft. Soft music filters through an open window to your ear, and you\nnotice flickerings of candlelight behind some drapery.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "A rickety old fire escape leads to a partially open window.\n",
+                    "Keywords": [
+                        "window"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12721
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "Above you is the roof of this decrepit tenement building.\n",
+                    "Keywords": [
+                        "0"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12720
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Below are the slums. Even from here the smell seems to rise upward.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12700
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12720,
+            "Zone": 127,
+            "Name": "A rooftop overlooking the slums",
+            "Description": "Peering over the edge, you find yourself given a bird's eye view of the\nentire slum section. The dismal sight saddens you. Above you is hazy smog,\noccasional bursts of lightning crashing overhead, unnoticed by the masses\nbelow. A few scraggy pigeons wing their way across the darken sky.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "A great mountain view can be had from the next rooftop over.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12722
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The drainage pipe leans precariously close to a fire escape.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12719
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12721,
+            "Zone": 127,
+            "Name": "A disarrayed art studio",
+            "Description": "A lone flickering candle lights your view of a once modest art studio. Torn\nup paintings and crumpled sketches lie unfulfilled within the sooty grave\nof a musty fireplace. Hanging askew on a far wall is the remains of a\ncracked mirror. For some reason, you are acutely aware of your own distorted\nfeatures within it's depths, and the sharpness of the jagged shards. A tiny\ncrystal figurine of a ballet dancer lies shattered on the floor.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The partially open window leads unto a rickety fire escape.\n",
+                    "Keywords": [
+                        "window"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12719
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "figurine"
+                    ],
+                    "Description": "A delicate crystal figure of a ballet dancer performing the heart wrenching\npiece known as the Dying Swan lies shattered in it's former grace.\n"
+                },
+                {
+                    "Keywords": [
+                        "mirror"
+                    ],
+                    "Description": "You are drawn to the myriad images of yourself in the broken mirror.\nThe broken shards distort your image, and seem by their mere presence to\nquestion your very being...\n     You turn away shaken.\n"
+                },
+                {
+                    "Keywords": [
+                        "fireplace"
+                    ],
+                    "Description": "Singed remains of sketches and paintings lie amongst the ashes and soot.\nIt is as if whoever once lived here just gave up... and went away.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12722,
+            "Zone": 127,
+            "Name": "A rooftop view of the surrounding area",
+            "Description": "From here you feel dwarfed by the overwhelming view of the surroundings\nbelow you. You bask in the breathtaking glory of Nature, awed by the sight\nof sunlight glinting off snowcapped peaks in the distance. Then an errant\nupdraft brings to you the smells of the city below.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A rooftop is in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12720
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see an endless array of roofs.\n",
+                    "Keywords": [
+                        "roof",
+                        "over",
+                        "the",
+                        "city"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12723
+                },
+                {
+                    "Direction": "South",
+                    "Description": "More rooftops are to the south of you. You feel lucky you can\njump about and not fall to the ground, but land on roof after roof.\nIs it magic?\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12726
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12723,
+            "Zone": 127,
+            "Name": "A rooftop above the city",
+            "Description": "You are standing atop one of many buildings in this city. Below you\nare masses of people going about their routines and errands, crowding\nthe streets and alleyways. Around you are many other rooftops similar\nto this. The sky overhead is dark and bleak.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The city's rooftops stretch before your eyes to the east.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12725
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You think you might get a nice view from that rooftop!\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12722
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12724,
+            "Zone": 127,
+            "Name": "Along a busy street",
+            "Description": "Many shops and business establishments line busy Lyonis Avenue here.\nThe people walk by, brushing against you with nary a word of apology,\ntheir minds on more important things, you gather. The buildings on either\nside of this traffic-laden avenue seem to be in much better repair, and\nthere are less graffiti around. Additionally, the sidewalks seem somewhat\nlooked after. Overhead, hovers and scraggy pigeons wing the dreary sky.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "There are a few more shops and establishments in that direction, but\nyou know that past that would be the poor residential sectors.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12751
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A small side street seems to lead off to the east, away from this\nbusy avenue. There are even houses, some trees, and grass! Few\ncare to wander in that direction though.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12773
+                },
+                {
+                    "Direction": "South",
+                    "Description": "As you walk around, you see that the heart of the commercial areas of\nthe city lies to the south. You even see a few armed corp police.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12794
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A small, residential-type sidestreet adjoins busy Lyonis Avenue.\nA street sign reads, 'Sethe Way', but it is also sometimes known\nas the Street of Pleasures by certain elements of the population.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12744
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "graffiti"
+                    ],
+                    "Description": "\nPaper stencils are a cheap, effective way to get your message across\nto the public and yet be able to escape quickly. Paper cutouts are\nquickly laid down, sprayed over, and then wadded up and tossed into\ntrashcans. A single sheet of 8.5\"x11\" can have enough letters cut out\nof it to have a choice phrase sprayed through. Do this repeatedly and\nyou have a serious cleaning problem...\n     Anyway, what you have at your feet on the white concrete sidewalks\nare occasional bits of urban guerilla propaganda:\n\n     'Kill the Parasites!'\n     'Sneaky Sniper = Dead Corp Boss'\n     'Stop Complacency!'\n     'Question Authority'\n     'Slap the Pigs from the Trough!'\n     'Tax Corps!\n      Tax the Rich!'\n\nThese illustrate some of the problems of the society here, you'd gather.\nIt makes you glad you don't really live here. These taggers must be up\nagainst alot of shit.\n"
+                },
+                {
+                    "Keywords": [
+                        "sky",
+                        "hovers",
+                        "pigeons"
+                    ],
+                    "Description": "The sky is dark and dreary at all hours of the day, masking the sun\neven in daytime. Pigeons wing their way across from rooftop to rooftop,\nrisking their lives in the airways utilized by transportation hovers.\n"
+                },
+                {
+                    "Keywords": [
+                        "shops",
+                        "establishments",
+                        "buildings"
+                    ],
+                    "Description": "\nThe buildings are all multi-storied, with businesses on the ground floor\nand the upper stories leased out as apartments and offices. You stand\nbefore Metro Comics, it's windows plastered with posters of Captain\nAmerica, The Hive Queen, and other such comic chipcard heroes.\n     Across the street from you is Fatburgers, reputed to be one of the\nbest places in town - you get a free holo T-shirt with their logo on\nit if you can down their Triple Cheese King burger in under 10 minutes.\n     There is Sauron's Coffee Imports just to the left of Fatburgers.\nThey offer fine Imperium-grown and orbital grown coffees, as well as the\nstandard cappuchino, expresso, and their trademark Sauron's special, a\nquadruple shot expresso mixed with a shot of 190 proof Kylee. Called\n'The Caffeine Dragon', it's one of the best tricks you can play on a\ngreenhorn just come into town who doesn't know about it. Some say this\ndrink cures every illness known to man. Surely that cannot be true...\n"
+                }
+            ]
+        },
+        {
+            "ID": 12725,
+            "Zone": 127,
+            "Name": "A rooftop overlooking the city",
+            "Description": "You stand atop the roof of an apartment building. About you are bits of\ntrash and a small thicket of holovision antennas and satellite dishes.\nThey seem to want to reach out and trip you or poke your eyes out. The\nsky above is dark and smoggy, while to the south is a view of the streets\nbelow. Buildings are all around, and this roof continues on north as well.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A collection of raggedly dressed children seem to have made a rooftop\nshelter to the north.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12728
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see another rooftop to the east.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12729
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You catch a glimpse of greenery.\n",
+                    "Keywords": [
+                        "roof"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12723
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "buildings"
+                    ],
+                    "Description": "\nThey are all about you, though you see mostly rooftops where a few lone\nindividuals slink about. This roof extends somewhat to the north, where\nit joins a few taller buildings.\n"
+                },
+                {
+                    "Keywords": [
+                        "streets",
+                        "below"
+                    ],
+                    "Description": "\nLots of people and vehicles crowd the streets with their traffic. The\nnoises they generate down there luckily is muffled somewhat by the time\nit reaches you. Two gangers seem to be having a scuffle in an alley to\nthe southwest. It looks like they're just having fun though.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12726,
+            "Zone": 127,
+            "Name": "Atop a slum area building",
+            "Description": "From here, situated on the roof of a building, you have a clear view of\nthe slums for a good distance. It seems to stretch all around for miles\nand miles! The entire city is grey and bleak, matching the sky. At your\nfeet, feral pigeons walk about and coo. By the splotches of skin seen\nthrough feathers on some, you gather they are diseased. Best not touch.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the immediate north, you see a vantage point that would give you\na good view of the mountains to the west.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12722
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A fire escape leads up to the rooftop of the building to the south.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12746
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12727,
+            "Zone": 127,
+            "Name": "A curve along Sethe Way",
+            "Description": "This part of Sethe Way is at a bend, with the other two parts leading\noff east and south. The streets are not very crowded, not at all littered\nwith debris. Well maintained buildings line the edges of the sidewalks.\nAll the windows inside are heavily curtained to prevent prying eyes, and\nyou only see occasional shadows behind them. Most of the buildings have\na somewhat discreet sign on the front entrance, or hanging over.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Sethe Way continues in that direction, eventually ending up\nintersecting with Lyonis Avenue. There are small buildings all\nup and down the street.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12744
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A large number of parked vehicles mark the end of Sethe Way. That is\nwhere the most popular houses are.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12731
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "signs",
+                        "sign",
+                        "buildings"
+                    ],
+                    "Description": "\nLike the buildings to the east, each has a sign, neatly and professionally\ndone. Evidently, these are the names of the establishments along this\nStreet of Pleasures. You make some out to be:\n\n     Turkish Baths\n     Oriental Delights\n     Nubia House\n     The Boardinghouse\n     Mistress Linna's\n"
+                }
+            ]
+        },
+        {
+            "ID": 12728,
+            "Zone": 127,
+            "Name": "A rooftop haven",
+            "Description": "You stumble onto a small rooftop area hemmed in on the east, north, and\nwest by tall, windowless buildings. This area seems to be the haven for\na collection of kids ranging from toddlers to teens. Blankets and plastic\ntarps have been hastily drawn over wires attached to the walls of the\nbuildings, and walls are composed of empty wooden crates and bits of old\nsticks and plastic sheeting. More blankets and old clothing are piled\nabout on the concrete roof to serve as bedding areas and areas to sit.\nThe children stare at you with their hollow, wary eyes, and you notice\nall are dirty, unwashed, and painfully skinny and malnourished.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You shelter your eyes and scan the rooftops.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12725
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12729,
+            "Zone": 127,
+            "Name": "Crossing from rooftop to rooftop",
+            "Description": "As you wander from rooftop to rooftop across this concrete-and-shingles\nterrain, you wonder how you can keep on going after so many climbing\nand jumping attempts that have so far left you unharmed. The rooftop to\nthe east, however, looks to be a _very_ difficult jump. You stand here\non this roof, contemplating the effort. A rat scurries by, annoying you.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a hard-to-jump-across rooftop over to the east.\nBe careful!! A single miscalculation could cost you your life!\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12732
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a thicket of antennas and satellite dishes atop the roof\nto the west.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12725
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12730,
+            "Zone": 127,
+            "Name": "Deeper in the city's commercial district",
+            "Description": "You are definitely further in the heart of the city's commerical district\nnow, your view of the sky hemmed in by tall buildings that house offices\nand banking institutions, as well as small-time corporations not yet able\nto afford a spot in the city's Corporate Zone. Throngs of people walk the\nstreets, all on their way to someplace important. You are bumped and\npushed every which way, by people you see once, and never will see again.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "More shops and businesses line this busy avenue to the north.\nThe press of people all around makes the claustrophobic part of\nyou feel nauseous.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12794
+                },
+                {
+                    "Direction": "South",
+                    "Description": "An extremely high and thick wall to the south prevents access to the\ncity's Corporate Zone, where mega-corporations and government buildings\nare located, and where no one without a valid pass may enter. It is a \nstart reminder of the barrier between the have and the have-nots.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12795
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "buildings",
+                        "offices"
+                    ],
+                    "Description": "\nAll about you are signs of business. Buildings here are as high as 20 to\n40 stories, not as high as the skyline of the Corporate Zone further\nsouth, but surely impressive. The Helm Building, main branch of the local\nHelm Bank, is to the right. It has been inexistence for over 100 years,\nand still manages to exist despite competition from larger, more global,\nbanks. Across from the Helm Building is a white 30-story that houses the\noffices of the Sant'angelo Investment Group, which owns, among other\nthings, all 10 Fatburgers restaurants in this city and a great deal of\nlocal real estate.\n"
+                },
+                {
+                    "Keywords": [
+                        "graffiti"
+                    ],
+                    "Description": "\nA brave tagger somehow managed to scale the heights of building\n(or maybe he or she lowered him/herself from the roof) and\nsprayed:\n\n      Sy  C o   p H a Nt !#$$%\n\nover a good number of plate glass windows. No one seems to have\nnoticed. Or maybe it's just fresh from last night. You wonder\nwhat it means, or rather, what message the tagger is trying to\nconvey...\n"
+                }
+            ]
+        },
+        {
+            "ID": 12731,
+            "Zone": 127,
+            "Name": "The end of Sethe Way",
+            "Description": "Sethe Way ends here, with establishments on all three sides except to\nthe north. The street here has the heaviest concentration of parked\nvehicles and pleasure houses. Parking here is rather haphazard, and you\nrealize those who are here first are also the last to go. A few trees\nline the sidewalks, and there are actual bits of lawn in front of the\nhouses here. You'd gather the best places are at this end of the street.\nOne in particular beckons to you from the east.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Sethe Way (or the Street of Pleasures, as you've now come to regard this\narea) curves east, eventually intersecting with Lyonis Avenue.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12727
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The front lawn of a rather impressive Victorian era house is to\nthe east. A good number of people are waiting to get in.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12760
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12732,
+            "Zone": 127,
+            "Name": "A low ledge bridging two rooftops",
+            "Description": "Alas! Your jump is unsuccessful! Rather than dropping to your death\nseveral stories below, however, you have managed to catch onto this ledge\njutting out between the two buildings - that is, if you've been tough\nenough to survive even this fall. If not, well, goodbye...\nIf you have survived, best rest for a while and get yourself back together\nbefore proceeding. In the meantime, look around.\n",
+            "Bits": [
+                "DEATH",
+                "NOMOB",
+                "NOFLEE"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "A rusty-looking, but stable fire escape leads up from this ledge\nto the rooftop of the building to your east.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12734
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "around"
+                    ],
+                    "Description": "\nYou appear to be on a ledge between two buildings, having survived your\nfailed jump attempt to land here. A fire escape leads up and onto the\nrooftop of your destination.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12733,
+            "Zone": 127,
+            "Name": "A low ledge bridging two rooftops",
+            "Description": "Alas! Your jump is not successful! Rather than falling to your death\nseveral stories below, you've managed to catch onto this ledge - that is,\nif you've been tough enough to survive even this fall. If not, goodbye...\nIf you have, it's best if you pause here awhile and rest up before\ncontinuing. In the meantime, look around.\n",
+            "Bits": [
+                "DEATH",
+                "NOMOB",
+                "NOFLEE"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "A rusted fire escape offers a precarious route to the top of the\nbuilding to your west.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12729
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "around"
+                    ],
+                    "Description": "\nYou appear to be on a ledge between two buildings, having survived your\nfailed jump attempt to land here. A fire escape leads up and onto the\nrooftop of your destination.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12734,
+            "Zone": 127,
+            "Name": "A seemingly ordinary rooftop",
+            "Description": "The entire city spreads out below as you look around from this vantage\npoint. The skies are not very clear, and you see little of the sun (or\nat night, the moon) through the thick haze of smog and clouds. Scraggly\npigeons wing their way across the sky, as do a few planes, hovers, and\nchoppers. Far to the south, a deserted courtyard can be seen.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "Going there, you might get a better, close-up view of a\ndeserted courtyard.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12737
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Careful now! There's a jump ahead that looks very dangerous! Perhaps\nyou might want to rest up until you feel ready. Even so, success is\nnot guaranteed.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12733
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "A concrete panel lies here, amidst some ancient cigarette butts.\n",
+                    "Keywords": [
+                        "secret",
+                        "panel"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12774,
+                    "Destination": 12774
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12735,
+            "Zone": 127,
+            "Name": "An isolated rooftop",
+            "Description": "Somehow you've managed to end up here at one of the many isolated city\nrooftops. This building is surrounded on all sides by streets, and the\nroof-access is locked from the inside, leaving you out here all alone.\nOr maybe not all alone... Strange how you find strangeness in such places.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12736,
+            "Zone": 127,
+            "Name": "An isolated rooftop",
+            "Description": "Somehow you've managed to end up here at one of the many isolated city\nrooftops. This building is surrounded on all sides by streets, and the\nroof-access is locked from the inside, leaving you out here all alone.\nOr maybe not all alone... Strange how you find strangeness in such places.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12737,
+            "Zone": 127,
+            "Name": "Overlooking a deserted courtyard",
+            "Description": "From here, looking south and down, you get a good view of a deserted\ncourtyard. It appears hemmed in by buildings in every side, and has no\nexits. You gather it was closed off from the rest of the world a good\nwhile ago, and is now forgotten. This rooftop is much like any other\nyou've seen, though you keep getting the feeling of being watched...\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see more of this expansive rooftop to the north.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12734
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Below you is the unkempt courtyard. you see a silken rope leading\nhalfway down the building.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12789
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12738,
+            "Zone": 127,
+            "Name": "An isolated rooftop",
+            "Description": "Somehow you've managed to end up here at one of the many isolated city\nrooftops. This building is surrounded on all sides by streets, and the\nroof-access is locked from the inside, leaving you out here all alone.\nOr maybe not all alone... Strange how you find strangeness in such places.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12739,
+            "Zone": 127,
+            "Name": "An isolated rooftop",
+            "Description": "Somehow you've managed to end up here at one of the many isolated city\nrooftops. This building is surrounded on all sides by streets, and the\nroof-access is locked from the inside, leaving you out here all alone.\nOr maybe not all alone... Strange how you find strangeness in such places.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12740,
+            "Zone": 127,
+            "Name": "An isolated rooftop",
+            "Description": "Somehow you've managed to end up here at one of the many isolated city\nrooftops. This building is surrounded on all sides by streets, and the\nroof-access is locked from the inside, leaving you out here all alone.\nOr maybe not all alone... Strange how you find strangeness in such places.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12741,
+            "Zone": 127,
+            "Name": "An isolated rooftop",
+            "Description": "Somehow you've managed to end up here at one of the many isolated city\nrooftops. This building is surrounded on all sides by streets, and the\nroof-access is locked from the inside, leaving you out here all alone.\nOr maybe not all alone... Strange how you find strangeness in such places.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12742,
+            "Zone": 127,
+            "Name": "An isolated rooftop",
+            "Description": "Somehow you've managed to end up here at one of the many isolated city\nrooftops. This building is surrounded on all sides by streets, and the\nroof-access is locked from the inside, leaving you out here all alone.\nOr maybe not all alone... Strange how you find strangeness in such places.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12743,
+            "Zone": 127,
+            "Name": "An isolated rooftop",
+            "Description": "Somehow you've managed to end up here at one of the many isolated city\nrooftops. This building is surrounded on all sides by streets, and the\nroof-access is locked from the inside, leaving you out here all alone.\nOr maybe not all alone... Strange how you find strangeness in such places.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12744,
+            "Zone": 127,
+            "Name": "A small sidestreet",
+            "Description": "This is Sethe Way, also known as the Street of Pleasures by those in\nthe know. This is the city's rather modest red light district, an area\nof converted apartment buildings now serving as small-time establishments:\nmassage parlors, brothels, spas and bathhouses - often combining features\nof all! All up and down the street are three or four story buildings, each\nwith a nice, professionally made sign out front.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Busy Lyonis Avenue connects to this small sidestreet.\nThe noise of traffic and the large flashing holoverts make\nyou feel somewhat nauseous. Why go that way when there are\ncertainly better places around...\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12724
+                },
+                {
+                    "Direction": "West",
+                    "Description": "This street curves south in the distance.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12727
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "signs",
+                        "buildings",
+                        "establishments",
+                        "sign"
+                    ],
+                    "Description": "\nThe buildings are rather non-descript - well maintained, yet not so\nsparkling clean as to attract too much attention. Most of\nthe buildings have signs on the front door, a few of which you\ncan easily make out:\n\n     Le Chat\n     Morgan House\n     Othello\n     Mistress Ann's\n"
+                }
+            ]
+        },
+        {
+            "ID": 12745,
+            "Zone": 127,
+            "Name": "An isolated rooftop",
+            "Description": "Somehow you've managed to end up here at one of the many isolated city\nrooftops. This building is surrounded on all sides by streets, and the\nroof-access is locked from the inside, leaving you out here all alone.\nOr maybe not all alone... Strange how you find strangeness in such places.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12746,
+            "Zone": 127,
+            "Name": "A tenement rooftop overlooking the slums",
+            "Description": "You have ventured upon the high rooftop of a tenement building, after\nhaving climbed a rusty metal fire escape. You share space with holovision\nantennas, satellite link dishes, furnace exhaust vents, and such the like.\nAround and about you, shadows seem to be moving, as you seem to detect\nmovement out of the corners of your eyes, only to find nothing when you\nturn. A spooky feeling overcomes you as you shiver involuntarily.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The roof to the north is barely within jumping distance, though\nyou could more easily climb down the fire escape and have an easier\njump.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12726
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a lower rooftop that overlooks an empty alley.\nSome shadows seem to be moving across the roof there.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12749
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12747,
+            "Zone": 127,
+            "Name": "An isolated rooftop",
+            "Description": "Somehow you've managed to end up here at one of the many isolated city\nrooftops. This building is surrounded on all sides by streets, and the\nroof-access is locked from the inside, leaving you out here all alone.\nOr maybe not all alone... Strange how you find strangeness in such places.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12748,
+            "Zone": 127,
+            "Name": "An isolated rooftop",
+            "Description": "Somehow, you've managed to land here, upon one of the many isolated\nrooftops of the city. Constantly around you is a buzzing noise, though\nit is so faint you pass it off as just the noise of a furnace or the\ngeneral hum of air conditioning all around. Where's an exit?\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "A crack in the roofing leads down into a hole or an attic.\nIt is dark in there.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12750
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12749,
+            "Zone": 127,
+            "Name": "A building rooftop overlooking an obscure alley...",
+            "Description": "The Slayers intent becomes obvious as you survey the surroundings. This\nroof directly overlooks the alleyway entrance to the underground lair\nof their hated rivals, the Reds! Before you have a chance to fully\ndigest this piece of information, the squad leader snaps his fingers\nand motions to his squad to silence you... permanently!!\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A rusty fire escape leads up to the roof of a higher building north\nof here.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12746
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "A thin silken rope leads down to ground level.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12761
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12750,
+            "Zone": 127,
+            "Name": "Within a nest",
+            "Description": "Cobwebs and dust cling to your clothes, as you enter this hole from\nabove. You see bits of feathers and dried, regurgitated bones strewn\nabout. A faint buzzing sound is your only warning as you realize you've\nentered a communal nest...\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "Weak light filters in from the world outside.\n",
+                    "Keywords": [
+                        "roof"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12748
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12751,
+            "Zone": 127,
+            "Name": "Along a busy street",
+            "Description": "You continue to travel about the streets of the city, encountering more\nof the grimy old building structures. Your senses are constantly assaulted\nby the noises, the smells, the masses of people, and the glaringly bright\nholovert projections constantly exhorting you to spend money on things.\nTo the south are more commercial areas. Going north would take you to the\npoor northern residential sectors - the slums. Overhead, framed by roofs\non either side, is the bleak grey sky. A few hovers dart about overhead.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Going in that direction would probably take you out of the downtown\ncommercial districts and into the poor innercity slums.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12708
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Shops and establishments continue on to the south, eventually reaching\nthe southern commercial downtown areas and the heart of the city.\nBuildings in that direction slowly begin to look more in repair.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12724
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "graffiti"
+                    ],
+                    "Description": "Yet more defacement of public and private property brought about by\nthe ease of availability (from street fixers, of course) of advanced\nbio-molecular bonding spray pants. The city and local businesses are\nhard put to clean up the mess, due to lack of funding and the fact\nthat new tags are sprayed up all the time.\n     (In)famous taggers such as Allanon-17, Toran, Janfr, and Ann-X\nhave become well-known throughout the city due to the wide dispersement\nand sheer numbers of their tags. They and others like them make nightly\nforays out and about the city, vandalizing property in a way that gains\nthem fame. While some would discount them as young hoodlums, others\ntake a different view. It is well known that taggers also happen to\nknow things, and powerful people who harm the innocent often have their\ncaricatures and deeds drawn out for everyone to see...\n"
+                },
+                {
+                    "Keywords": [
+                        "holos",
+                        "holovert",
+                        "projections",
+                        "holoverts"
+                    ],
+                    "Description": "Constantly shifty, flashy holographic advertisements try hard to entice\nyou into spending money to buy things, go places, and see people...\n     Atop a building to your left is a giant holo projection demonstrating\nthe features of ToyoFord's newest '21 model Sonic 3000, a sleek, sportsy\n6x6 fancar with a powerful 22.9 liter backmount engine, standard double\nfuel injection, and optional cyber-plugs - all for only 5mil in nuyens.\n     Other projections depict sunny vacation spots in Free Namibia,\nthe Seychelles Republic, and Merry Olde England. These, apparently, are\nthe hot tour spots of the 2020s.\n     You also see a few not-so-good-quality holo-signs (even a few cheap\nneon ones!) that proclaim the establishments up and down this street.\n"
+                },
+                {
+                    "Keywords": [
+                        "buildings",
+                        "establishments"
+                    ],
+                    "Description": "\nThis area is beginning to show signs of commercial life, definitely a\nchange from the poor slum areas to the north. All up and down this\nstreet are arranged the typical small establishments you would see.\nThere is a small neighborhood grocery store, a holo repair shop, a\nsmall storefront church (amazing that people still believe in this day\nand age!), a grungy eatery or two...\n"
+                },
+                {
+                    "Keywords": [
+                        "sky",
+                        "overhead",
+                        "hovers"
+                    ],
+                    "Description": "\nThe sky above is rather bleak, a perpetual gloom hangs over this\ncity. Expensive hover-cars belonging to the rich elite of the city\ntravel around overhead, though there are not many that fly over this\npart of the city. You see a Trauma-Team hover-van traveling at high\nspeed off to some medical emergency, sirens screaming and lights\nflashing.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12752,
+            "Zone": 127,
+            "Name": "A private hallway",
+            "Description": "This upstairs hallway is lit by dimply glowing red light strips artfully\nconcealed by dark panels of rare cherrywood set near where the walls and\nceiling join. The overall effect is an illusion that the ceiling is the\nlightsource. A number of doors line the walls, two which seem unlocked...\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "At the end of this hallway is a wooden door leading to a private\nbedroom. From the knob hangs a white placard with words stenciled in\nan elegant script, 'Do Not Disturb'.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12753
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Set flush against the west wall is a wooden door painted a dark pink\ncolor (just like the door to the north). There is also a 'Do Not Disturb'\nsign hanging from the knob. ",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12754
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "By the noise of things, that's where all the indiscreet customers romp.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12755
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12753,
+            "Zone": 127,
+            "Name": "A softly lit bedroom",
+            "Description": "This is a plushly appointed room, with a mirrored ceiling and a large \nking-sized bed in the center.  Soft light from a bedside lamp bathes the\narea in a dim, relaxing glow.  This room was obviously designed for sex!\nIn fact, you see a few bodies writhing and squirming upon the bed already.\nYou gasp in shock as you recognize that one of them is our beloved mayor's\nfavorite son, well in the embrace of two of this house's luscious vixens!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "There is an nice-looking wooden door to the south.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12752
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12754,
+            "Zone": 127,
+            "Name": "A private bedroom",
+            "Description": "This room was dark until you burst in here with your light and surprised\nthe occupants! There are used latex condoms lying around on the shag\ncarpet of this rather dingy little room. The only furnishings in this room\nare a bed and a chair. That is fine, because your attention is not drawn\nto them, but to that familiar-looking man and a street whore in the center!\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "A door serves as the exit from this room. Leaving out it would\ntake you to the hallway. ",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12752
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12755,
+            "Zone": 127,
+            "Name": "The Animal Bar",
+            "Description": "This is the Animal Bar! The entire room has been decorated in a jungle \nsafari theme, with trophies, furs, and stuffed animals used as impromptu\nracks for hanging panties and bras. Beautiful women walk around in skimpy\nanimal costumes, carrying trays loaded with drinks for the patrons. You\nfeel an intense urge to beat your chest and refer to yourself as Tarzan...\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Murmurs of delight pierce the loud banter in this room.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12758
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Nude figures cavort in a pool brimming with squishy jelly.\nYou see an old African American man standing at one end, holding\nup a plastic spoon.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12756
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "A plush carpeted stairway leads up to more private rooms...\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12752
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12756,
+            "Zone": 127,
+            "Name": "The room of the Jello Baths",
+            "Description": "A large pool here has been filled to almost overflowing with Jello. It\ncovers much of this room, and goes down to a depth of about a foot or so.\nThe fact that it's brimming over with jelly of all flavors does nothing to\nhamper the many nude bodies seen squirming and squishing in delight within\nit's jiggling depths. You sure wish you could join them! Whoopee!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Raucous laughter and plentiful booze and breasts - that's your\nimpression of the room nearby.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12755
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12757,
+            "Zone": 127,
+            "Name": "The foyer of Diva's House of Pleasure",
+            "Description": "The heat permeating this room is distinctive of... well... body heat!\nBeautiful portraits of nude women fitting every delightful description\nadorn the walls here. A few potted plants share floorspace with sofas\nand armchairs. This must be the foyer room. The Pink Room would be east.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Murmurs of pleasure waft in from that direction.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12758
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The entrance doors are laid over with fuzzy black velvet cloth.\n",
+                    "Keywords": [
+                        "doors",
+                        "entrance"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12760
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "portraits",
+                        "women",
+                        "walls"
+                    ],
+                    "Description": "These portraits are _very_ tastefully done, and truly fascinating.\nMost are of women, either nude or scantily clad, though there is one of\na handsome-looking, darkhaired man with intriguing reddish-brown eyes...\n     Various artists have painted these... You need to look closer to\nsee the signatures though...\n"
+                },
+                {
+                    "Keywords": [
+                        "closer"
+                    ],
+                    "Description": "\nA painting of a beautiful, buxom brunette, dark brown eyes staring\ncoquettishly at you and smooth alabaster skin glowing softly: by Dritz.\n     Another of a slender violet-eyed blonde, tastefully dressed in a\nskimpy lavender bikini bottom is signed at the bottom by a mysterious\nperson known only as Tron.\n     The one immediately to your left, above a potted plant, is of\nanother blonde, blue-eyed this time, rather pleasingly plump. She is\nstaring at you, it seems, and her nipples are very large and pink.\nDromacus must have done this one. She looks to be his type. Hmm... Yes,\nthere's the abbreviated 'Drom' insignia.\n     The last one, of a wiry-muscled, darkhaired man, draws the most\nattention. His hair is tied back in a ponytail, and his reddish eyes seem\nto be looking down at his hands, which are bound together by chains.\nHe seems amused! This painting is by Adriana Imagene, a noted artist of\nthe Imperium.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12758,
+            "Zone": 127,
+            "Name": "The Pink Room",
+            "Description": "You feel so comfortable, gazing about you at the many delights in this\ncozy room. Large, fluffy pillows and cushions - each and every one of them\nin beautiful shades of pink - are plopped against the walls. And the\nnude bodies! You never dreamed of so much variety, so much abundance!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "Bawdy laughter and merrymaking attract your attention for the\nbarest of instances. There's much more fun to be had here!\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12755
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A door leads out of this delightful Pink Room out to the foyer of\nthis house. ",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12757
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Shrieks of delight echo upwards from a below a set of stairs\nset in the corner of this room. The stairs end at an exit.\n",
+                    "Keywords": [
+                        "exit"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12759
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12759,
+            "Zone": 127,
+            "Name": "The dungeon of Mistress Diva",
+            "Description": "You have ventured where few sane individuals would dare enter without first\nconsulting a physician... Chains, racks, whipping posts, and other devious\nand devilish implements of torture align the walls in this most perfect\nreplica of a medieval dungeon. Yet though you see pain, you see no signs of\nsuffering. Some people truly are into sadism and masochism...\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "Up rickety wooden stairs is the exit to the Pink Room. You hear\nlittle from that direction, as screams of terror (pleasure?) fill\nyour ears.\n",
+                    "Keywords": [
+                        "exit"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12758
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12760,
+            "Zone": 127,
+            "Name": "On the front lawn of Diva's House of Pleasure",
+            "Description": "You stand upon the well manicured, tree-lined lawn before a Victorian\nstyle house with gables and all, grinning in sinful anticipation as you\nprepare to embark upon a journey to explore the carnal pleasures of the\nbody. This is the outside of Diva's House of Pleasure, here at the end\nof Sethe Way. Two smartly dressed bouncers guard the doors.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The tastefully done velvet doors of Diva's House beckon to you.\nExciting sounds waft out from within.\n",
+                    "Keywords": [
+                        "doors",
+                        "entrance"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12757
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The end of Sethe Street meets the sidewalk.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12731
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12761,
+            "Zone": 127,
+            "Name": "An obscure alley",
+            "Description": "This is an out-of-the-way place, hemmed in by tall buildings on three\nsides, leaving the only exit back north. Yet this alley seems to show\nsigns of recent traffic, and you see fresh boot tracks leading amidst\nrandom bits of rubbish and rusty trash containers to what seems to be\na sewer hatch... You have this strange feeling of being watched...\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "More of the slums lie to the north.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12702
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "A round sewer hatch is here beneath some scattered rubbish.\n",
+                    "Keywords": [
+                        "hatch",
+                        "manhole"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12762
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "manhole"
+                    ],
+                    "Description": "A rusty manhole with a the symbol of a heavy double bladed axe etched on it's center.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12762,
+            "Zone": 127,
+            "Name": "In the sewers",
+            "Description": "The first thing you notice as your eyes get adjusted to the dim torchlight\nis that there are others here... Beyond that, this looks like an ordinary\nsewers, though there is not much of a smell beyond simple dampness - no\nserious rot or raw sewage, just water going drip-drip-drip...\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The tunnel continues in that direction.\n",
+                    "Keywords": [
+                        "tunnels"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12763
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "There is a hatch here leading up.\n",
+                    "Keywords": [
+                        "hatch"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12761
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12763,
+            "Zone": 127,
+            "Name": "A sewer intersection",
+            "Description": "You've arrived at a T-intersection in this relatively 'clean' sewer tunnel.\nThere are exits north, west, and east. Water at your feet rises to about\na height of six inches or so. A few old cigarette butts float by. You see\nRed guards all around you. Now what? Run?\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "TUNNEL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The sewers continue in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12762
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A large room carved out of the surrounding rocks.\n",
+                    "Keywords": [
+                        "tunnel"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12764
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The sewers continue in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12765
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12764,
+            "Zone": 127,
+            "Name": "An underground checkpoint",
+            "Description": "This tunnel room is hewn out of the rock, a construction not part of the\ngeneral sewer layout. You wonder about the fate of the people who were\nbrought here to dig this and other rooms - certainly the Reds are too\ndisorganized to do it themselves! There is a desk and some chairs here.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Loud laughter and some music flood in from the east.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12776
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a sewer intersection off in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12763
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "desk",
+                        "chairs"
+                    ],
+                    "Description": "\nThe desk is an old, beat up and badly scratched piece of plastic\nsynthwood furniture. Knifes have carved in names and slogans the likes\nof which I will not mention for fear of insulting the more sensitive.\nThe chairs are the same, pieces of touchened up plastic furniture that\nhas seen alot of use since their molding in... ahh, there you see it...\njust behind the back of one, there's a small stamp... since their\nmolding in 2004. These chairs are sixteen years old! They've been around\nsince you were a kid! They look like it too. Tough as they are, they've\ntaken abuse and look as worn and scratched as the table.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12765,
+            "Zone": 127,
+            "Name": "A drier tunnel",
+            "Description": "It is still damp here, but there is no water at your feet. By now, with all\nthe Reds running around here, you've realized this must be the hideout\nof the notorious gang known as the Reds. There is graffiti all over the\nwalls, scrawled or chiseled or painted. A few trophies adorn the walls.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see an intersection in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12763
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Some Reds can be seen south of here...\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12766
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see more of these tunnel-like areas in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12771
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "trophies"
+                    ],
+                    "Description": "Bleached skulls, mummified hands, particularly hirsuite scalps taken from\nvictims of every gender, race, sexual persuasion, age, social and ethnic\nand economic background. The Reds are rather indiscriminate. They are even\nmore indiscriminate in placement of these trophies - nailing them to the\nwalls in no particular decorative pattern that you can ascertain.\n"
+                },
+                {
+                    "Keywords": [
+                        "graffiti"
+                    ],
+                    "Description": "\nJust general obscene comments about the Slayers, about the Reds, about\neveryone and anyone they hate or love. Do I really have to tell you\neverything in detail??\n"
+                }
+            ]
+        },
+        {
+            "ID": 12766,
+            "Zone": 127,
+            "Name": "A recessed guard post",
+            "Description": "Weapons of all kinds are locked up in racks that line the walls of this\npost. This room is hewn out of the solid rock (probably during the days\nof the Great War), but has now, along with the rest of this section of\nthe sewers, been taken over by the Reds. Some are seated around a card\ntable, concentrating on the game at hand. They don't seem to notice you.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The tunnels are in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12765
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A group of Reds can be seen guarding a door.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12767
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12767,
+            "Zone": 127,
+            "Name": "Passageway, before a large metal door",
+            "Description": "A large metal door, rusting slightly in some places, occupies the\nsouth wall of this end of underground passageway. A large Reds\nbodyguard stands before it, picking his ears with a metal key. He\nleers at you, while his companions snort derisively.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "A large metal door is set into the concrete wall. It bears the\ndouble-axe symbol of the Reds.\n",
+                    "Keywords": [
+                        "door",
+                        "metal"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12768,
+                    "Destination": 12768
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A card table and weapons racks can be seen from this vantage point.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12766
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12768,
+            "Zone": 127,
+            "Name": "The main room of the Reds leaders",
+            "Description": "The furnishings are messy at best, without much semblance of order, much\nlike the Reds themselves, who rely mostly on extortions, robberies, and\nan occassionall honest job to fund their leisure. It's a wonder the\nSlayers haven't wiped them out already! Then again, you get your first\nsight of Mr. Tyco Kain... VERY big, not at all too pleasant to look at,\nand the meanest bloodthirsty bastard to grace the Arena. A rusty grate\nis set into the floor beneath him.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A large metal door is set into the wall before you.\n",
+                    "Keywords": [
+                        "door",
+                        "metal"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12768,
+                    "Destination": 12767
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "A metal grate leads into a murky pit.\n",
+                    "Keywords": [
+                        "grate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12769
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12769,
+            "Zone": 127,
+            "Name": "The Arena Pit",
+            "Description": "You land knee-deep in icky brown sludge. The room is actually cool, like\na vast cavern. Up above is a very large grate that hangs to about where\nyour head is - just about a foot above, in fact. The drip-drip-drip of\nwater can be heard coming from somewhere in the darkness, but before you\ncan investigate, you suddenly begin to hear sloshing sounds in the sludge.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "There is a missing brick in this part of the arena wall...\n",
+                    "Keywords": [
+                        "wall",
+                        "stone"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 12770,
+                    "Destination": 12770
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "A iron grate.\n",
+                    "Keywords": [
+                        "grate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12768
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12770,
+            "Zone": 127,
+            "Name": "A secret equipment room",
+            "Description": "In this little cubby just barely large enough for a few people to fit\nin, you find piles of treasure all around! Many are too heavy to take\n- like the old metal chests against the walls that are bolted to the\nstone floor. But perhaps there are things you can take...\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "A stone wall.\n",
+                    "Keywords": [
+                        "wall",
+                        "stone"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 12770,
+                    "Destination": 12769
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12771,
+            "Zone": 127,
+            "Name": "A underground tunnel",
+            "Description": "The tunnel is drier here, with only occasional signs of dampness. It is\nstill rather dark, the only illumination is your lightsource. East of\nhere are more tunnels. And to the west, you see only darkness, though an\nawful smell emanates from there. You see muddy boot tracks on the floor.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "More tunnels and sewers are to the east.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12765
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A thin trail of dried blood leads west.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12772
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "tracks",
+                        "floor"
+                    ],
+                    "Description": "\nThere are muddy tracks all over the floor. If you'd look closer, you\nwould discover that there are traces of blood and bits of human hair\nmixed with the wet dirt and shit. Obviously the Reds never cared much\nfor cleaniless or sanitation. It could help explain their high mortality\nrates.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12772,
+            "Zone": 127,
+            "Name": "A grisly torture chamber",
+            "Description": "This cheap torture chamber is in fact the latrine, or shithouse, of the\nReds. What they have devised for amusement is to nick their victims with\nrazors, salt their wounds, and then lower them screaming into the leech-\ninfested shitwater below. A few 'bumped off' comrades also provide fun\nfor these crude people. Right now there is even a corpse floating in there.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The tunnels are in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12771
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "corpse",
+                        "shitwater"
+                    ],
+                    "Description": "\nThe water looks brackish and very much full of shit, piss, blood, and\nalot of other stuff. There is a corpse floating in there right now.\nFace up, stomach bloated from the gas created by organic decay in his\nbody, you'd judge that it's a week old. The face looks crusty, probably\nbecause it's been used for target pissing. A leech is currently crawling\nabout in the ear. By the Reds tattoo on his chest, you'd gather he was\nformer 'comrade'. By the way, did I mention how his eyes have shriveled\nup and looks infested with maggots and a few bits of fungus?\n"
+                }
+            ]
+        },
+        {
+            "ID": 12773,
+            "Zone": 127,
+            "Name": "A small sidestreet",
+            "Description": "You find yourself upon a Suede Street, a small side street leading off\nfrom Lyonis Avenue to the west. Small brick homes dating to the late 1960s\nline either side of this street, their front lawns well watered and neatly\ntrimmed, flowerbeds abloom. Trees line the old, cracked sidewalks you are\nwalking along, providing shade in daytime. You seem ready to forget the\nrest of the city as you stand here. You feel like smiling.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Suede Street continues to the east, with more small homes and\ntrees lining the street.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12792
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west is a very busy and crowded street.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12724
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "graffiti"
+                    ],
+                    "Description": "\nNo, there is no graffiti here. The taggers wouldn't think of it!\nGo look somewhere else, but not on this street.\n"
+                },
+                {
+                    "Keywords": [
+                        "flowerbeds",
+                        "flowers",
+                        "lawns",
+                        "trees"
+                    ],
+                    "Description": "\nAlot of green, at least more than you would ever have expected. Flowerbeds\nhave been tended with care, and now sport poppies, daisies, and marigolds,\namong other flowers. The trees are decades-old magnolias that add a charm\nto this street with their fallen petals littering the sidewalk. The lawns\nare all neatly manicured, the blades of grass ripple in the gentle breeze.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12774,
+            "Zone": 127,
+            "Name": "A sumptuously furnished office",
+            "Description": "The furnishings of this room are simple, yet give it a grace and charm\ndue to their understated elegance. You grudgingly admire the Slayer\nleader's decorative flair. Adorning walls of pure white are holo-paintings\nthat truly capture your attention. Dully glowing empstones orbit in lazy\ncircles above the smoothly polished black desk behind which stands the\nSlayer leader herself. Herself?!? She is a woman? How interesting...\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A holo-painting is mounted in the center of this north wall.\nA black-lacquered door is set in a corner. ",
+                    "Keywords": [
+                        "door",
+                        "black"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12775
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "A ceiling panel up there seems slightly different, you wonder why...\n",
+                    "Keywords": [
+                        "panel",
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12774,
+                    "Destination": 12734
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "holo",
+                        "paintings"
+                    ],
+                    "Description": "The holo-paintings are of breathtaking, beautiful scenery. They show the\nnatural majesty of the lands, their captivating aura, from the massive\nsand dunes of the Great Eastern Desert portrayed against a sky of deep,\nclear blue, to the haunted solitude of dark forest glades in the Haon'Dor.\n"
+                },
+                {
+                    "Keywords": [
+                        "desk"
+                    ],
+                    "Description": "A heavyset black-lacquered wood desk, polished to a glossy shine - so\nspotless and smooth you can see your reflection in it.\n     Upon it are some papers, olde style fountain pens, bottle and rest\nrack, and a souvenir from Jitta's years in the Coalition Special Forces.\nThe souvenir is a polished human skull, slightly yellowed with age. This\nmust have marked her first kill.\n"
+                },
+                {
+                    "Keywords": [
+                        "empstones",
+                        "stones"
+                    ],
+                    "Description": "Another product imported from the Coalition Imperium that you've never\nlearned to use. The multi-coloured orbs do contain a fascinating quality,\ndrawing your gaze to them like a moth to the fire...\n"
+                }
+            ]
+        },
+        {
+            "ID": 12775,
+            "Zone": 127,
+            "Name": "A brightly lit hallway",
+            "Description": "This upper hallway looks to be in much better condition than the ones on\nthe floor below. The walls are painted a clean white, and there is rich\ngrey carpeting covering the floor. There are no windows, though there is\nare doors, especially promiment is one south of here.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "At the end of this long hallway is a large black door. This seems the\nnatural culmination of your visit to this complex - to go through.\n",
+                    "Keywords": [
+                        "door",
+                        "black"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12774
+                },
+                {
+                    "Direction": "West",
+                    "Description": "There is a door set into the wall here. It is all black, lacquered thus\nand polished until it now shines. ",
+                    "Keywords": [
+                        "door",
+                        "black"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 12774,
+                    "Destination": 12778
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Spiral staircase leads down to the lower chambers.\n",
+                    "Keywords": [
+                        "stair"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12779
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12776,
+            "Zone": 127,
+            "Name": "The Reds' den",
+            "Description": "This is what the Reds do best! Pool tables, fridge, and an old, beat up\nCD player - these are their most prized possessions. No one causes mayhem\nnor parties harder than a Red ganger! It looks like it too. Most of the\nfurniture is thrashed, and the vintage heavy metal music hurts your ears!!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "A wide archway shows a series of bunks and sleeping bags.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12777
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see nothing out of the ordinary.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12764
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "juke",
+                        "box"
+                    ],
+                    "Description": "A old rustic juke box with fizzing neon lights sits in the corner, playing all\nthe oldies bests and the new techno-cyber, from Great Balls of Fire to Electric\nCowboys newest thrashing tune: Cyberjak Blues.\n"
+                },
+                {
+                    "Keywords": [
+                        "pool",
+                        "table"
+                    ],
+                    "Description": "Chipped and banged up from over use, many of the tables show signs of blood\nflakes from sore losers.\n"
+                },
+                {
+                    "Keywords": [
+                        "bar"
+                    ],
+                    "Description": "What constitutes a bar is actually a multituted of ice chests, magically chilled to keep all the best brews cool.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12777,
+            "Zone": 127,
+            "Name": "A communal sleep room",
+            "Description": "Bunks, sleeping bags, and mounds of dirty synthetic furs crowd the floor.\nObviously the Reds are not known for their cleanliness or finesse. The\nentire place smells of unwashed bodies (there are no showers in this\nentire hideout) and you are bothered by the snoring of Reds sleeping out\ntheir hangovers. You suddenly feel itchy... Did a flea just... Hmm... Eww!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Loud music blares in from the rec room to the north.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12776
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12778,
+            "Zone": 127,
+            "Name": "A small storage room",
+            "Description": "A few large chests sit on the floor of this small room. Racks filled with\nequipment, supplies, and gear line the walls, bolted and locked in place.\nThe entire area is dimly lit and smells musty. This place must not be\nvisited often. You'd gather they rarely need to delve into these stores.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Before you is a door of lacquered black, though there is much dust on it.\nIt is set into the thick concrete wall. ",
+                    "Keywords": [
+                        "door",
+                        "black"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 12774,
+                    "Destination": 12775
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12779,
+            "Zone": 127,
+            "Name": "A dimly lit hallway",
+            "Description": "The walls and ceiling are a drab grey that by now is getting on your\nnerves! This long, dimly lit hallway connects to an intersection to\nthe west, and just nearby you are stairs leading up. You see that this\narea is slightly better lit, because of the brightness of the upper\nstory above you. From here you can hear the hum of air conditioning.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "A open door sits opposite you.\n",
+                    "Keywords": [
+                        "inner",
+                        "chambers"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12780
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You can't see much from this vantage point.\n",
+                    "Keywords": [
+                        "stair"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12775
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12780,
+            "Zone": 127,
+            "Name": "An intersection of hallways",
+            "Description": "You are at an intersection of hallways. The lighting here is still dim,\nand there seems little improvement in the quality of paint or the quality\nof concrete at your feet. What did you expect anyway? This is a defense\ncomplex - a hideout, not a vacation home! A large door leads north, and\nyou espy sleeping quarters to the west. Hallways are south and east.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "There is a door to the north, and through a window set in it, you can\nsee a common dining area. This must be where the Slayers eat.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12796
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A dimly lit hallway continues to the east, ending at stairs.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12779
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The dimly lit hallway continues south.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12782
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Bunk beds can be seen through the open doorway.\n",
+                    "Keywords": [
+                        "sleep"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12781
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12781,
+            "Zone": 127,
+            "Name": "Sleeping quarters",
+            "Description": "You are in a long hall that features an aisle down the center and\nrows of bunks on either side. And the end of each set of bunks\nis a locked cabinet and two footlockers. This must be the place where\nthe Black Slayers sleep. It's almost like the military!\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see an intersection of hallways to the east.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12780
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south are more bunks.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12783
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12782,
+            "Zone": 127,
+            "Name": "A dimly lit hallway",
+            "Description": "Long fluorescent light tubes provide poor illumination, their light\npartially blocked by thick metal grille cages bolted under them to\nprovide protection against breakage. You'd gather these Slayers must\nhave some kind of vandalization problem, especially considering they\nrecruit from the streets. The walls are painted a drab grey, almost\nmatching the color of the concrete floor. Very monotonous.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Doors to the east and west form a T to the north.\n",
+                    "Keywords": [
+                        "inner"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12780
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The door to the city can be seen south.\n",
+                    "Keywords": [
+                        "sentry"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12784
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Bunks can be seen through the open door.\n",
+                    "Keywords": [
+                        "sleep"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12783
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12783,
+            "Zone": 127,
+            "Name": "Sleeping quarters",
+            "Description": "This room contains bunks for members who need to sleep here when they are\nworking here. They are arranged in an orderly fashion indicative of the\ndisciplining they receive in training. The Slayers are not slouches.\nThere is also a showers and stalls area to the west, though uninteresting.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "More of these bunks are deployed north of here.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12781
+                },
+                {
+                    "Direction": "East",
+                    "Description": "Through the doorway is revealed a hallway.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12782
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12784,
+            "Zone": 127,
+            "Name": "The entry checkpoint",
+            "Description": "This room is sparsely furnished with a desk and a chair for the head\nsentry on duty. The rest of the room is bare of everything, though you\nnotice that the grey concrete floor at your feet is the only surface\nthat is not whitewashed. Fluorescent tubes protected by metal grilles\nprovide illumination.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A hallway continues on.\n",
+                    "Keywords": [
+                        "inner"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12782
+                },
+                {
+                    "Direction": "East",
+                    "Description": "Muffled laughter can be heard eastwards.\n",
+                    "Keywords": [
+                        "inner"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12785
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A lethal-looking spiked gate stands between you and the outside.\n",
+                    "Keywords": [
+                        "gate",
+                        "spiked"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12784,
+                    "Destination": 12788
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12785,
+            "Zone": 127,
+            "Name": "A long hallway",
+            "Description": "You walk about on the plain concrete floors, looking about at the drab\ngrey walls and the equally dismal ceiling for any signs of a break from\nthe monotonous grey. An occassional light panel here and there catches\nyour eye, but even so, after a while they, too, become an eyesore.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You hear sounds of fighting and blowing whistles from a door to the\nnorth. It seems there is some kind of commotion going on in there.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12786
+                },
+                {
+                    "Direction": "East",
+                    "Description": "Some music can be heard drifting through from past a door at that\nend of the hallway to your ears. You also hear faint laughter.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12787
+                },
+                {
+                    "Direction": "West",
+                    "Description": "In that direction, you see a few sentries at the checkpoint that\nregulats access into this building.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12784
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12786,
+            "Zone": 127,
+            "Name": "The training gym",
+            "Description": "Various pieces of training equipment are on racks here: weights, gloves,\nhelmets, bodyprots. Large circles have been drawn out on the floor to\nindicate combat zones. In each circle you see a life-sized dummy being\nused as a mock opponent. Before your very eyes, the dummies stir to life!\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see a dim grey hallway to the south.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12785
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12787,
+            "Zone": 127,
+            "Name": "The lavishly appointed recreation lounge",
+            "Description": "Aside from assassinations for hire, pleasuring themselves at Diva's,\nand slitting the throats of unwary Reds, the Slayers also like to hang\nout here, especially after a hard day of training sessions.\n     Plush red carpeting grace the floor, and comfortable armchairs\nand couches litter the entire area. One end features casino tables,\narcade games, and pool tables, while at the other end is a long automated\nwet bar. All about you are Slayers, relaxing and enjoying themselves.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see past the exit doors a long, dim hallway that would\nlead you to a checkpoint at the far end.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12785
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "bar"
+                    ],
+                    "Description": "\nYou are decidedly impressed by the expensive crystal bar and the\nquality of the imported beverages. The entire bar is automated, tended\nby a roving bot behind the counter.\n"
+                },
+                {
+                    "Keywords": [
+                        "games",
+                        "arcade"
+                    ],
+                    "Description": "A few antiquated pinball and old-time video arcade games sit there.\nOne seems to be a hacked version of some Commandos-type game, except\nthe enemies are all wearing distinctive Reds attire. You smile to\nyourself as you see the Slayers miniatures blasting away at the enemy\nReds on the screen. If only life were so easy...\n"
+                },
+                {
+                    "Keywords": [
+                        "tables",
+                        "casino",
+                        "pool"
+                    ],
+                    "Description": "\nAt the moment, none of the gambling tables seem to be manned. Some of\nthe Slayers, however, are playing a game of high-stakes pool in a corner.\nOne of their dead comrades - at least his upper half anyways - is perched\nprecariously upon a stool, with his face propped over a corner pocket.\nHis lower jaw has been completely sliced off so his head can rest over it\nand yet still allow incoming shots to the pocket. That unfortunate fool\nmust have forgotten his money...\n     Amazingly, there are no signs of blood or body parts or stains!\nAhhh! Now you see it! There is a cleaning bot meticulously wiping away\neach drip of blood as it leaves the body. It must have already cleared\naway the large pieces of mess...\n"
+                }
+            ]
+        },
+        {
+            "ID": 12788,
+            "Zone": 127,
+            "Name": "Before the main gate of the Slayers complex",
+            "Description": "You are before the main gate of the Slayer complex.  The caulking on the\nwalls has begun to crack and deteriorate with age.  Even so, this room is\neasily one of the most defensive sites in the city.  Small wooden doors\nlead east and west into darkness, while a large spiked gate is north.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A large spiked gate blocks your path.\n",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12784,
+                    "Destination": 12784
+                },
+                {
+                    "Direction": "East",
+                    "Description": "Small gates lead into the gloom.\n",
+                    "Keywords": [
+                        "murder"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12791
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The steel gate entrance to this entire complex is to the\nsouth. Beyond it would be the unkempt courtyard.\n",
+                    "Keywords": [
+                        "gate",
+                        "door",
+                        "steel"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12789
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Small gates lead into the gloom.\n",
+                    "Keywords": [
+                        "murder"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12790
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12789,
+            "Zone": 127,
+            "Name": "An unkempt courtyard",
+            "Description": "You drop into a large, unkempt courtyard surrounded on all sides by tall\nbuildings. The pavement of cracked white flagstones is ridden with weeds\nand bits of windblown debris - dried leaves, ashes, etc. In the center of\nthis square is a fountain, long dried up. A weathered stone statue of a\nwoman stands in its center. The only visible exit is north - a steel door.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A large, rusted steel door is recessed in an imposing stone\nwall to the north. It appears to be the main entrance to a\nbuilding, though the appearance of this courtyard would lead one\nto assume there are no inhabitants in this area.\n",
+                    "Keywords": [
+                        "gate",
+                        "door",
+                        "steel"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12788
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "statue",
+                        "stone",
+                        "fountain",
+                        "figure"
+                    ],
+                    "Description": "\nThe fountain in the center of this courtyard is all dried up. Debris\npile up against parts of the low circular wall that would in better\ndays contain the pool.\n     In the center of this is a weathered stone statue of a woman.\nShe is sculpted very realistically in the classical style, with an\nexpression of peace on her face, almost radiating an aura of calmness\nand serenity. She wears a simple dress that manages to cover all, yet\nnot detract from the beauty of her form. You notice you like the way\nthe artist has shaped the hair, putting it up in a bun, yet allowing\ntiny wisps of hair to escape... She appears to be carrying what used to\nbe a water vessel and bending over gently to pour out the contents.\nAlas, the source is dry, and she stands there, long forsaken.\n\nA small inscription is at the base, a few inches below the watermark.\nYou'd have to get closer for a better look.\n"
+                },
+                {
+                    "Keywords": [
+                        "closer"
+                    ],
+                    "Description": "\nA word has been chiseled in here. It reads, 'Jera'.\nYou wonder what that means...\n"
+                }
+            ]
+        },
+        {
+            "ID": 12790,
+            "Zone": 127,
+            "Name": "The west murder room",
+            "Description": "Dubbed 'murder rooms' for their strategic placement to one side of a\nfortress entrance, these rooms are notorious for crossbows and spears\noccupants can aim at would-be intruders. These days, the Slayers go for\nspears still, for fear of maiming their fellows in the room opposite.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The main entrance can be seen from here.\n",
+                    "Keywords": [
+                        "entrance"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12788
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12791,
+            "Zone": 127,
+            "Name": "The east murder room",
+            "Description": "Dubbed 'murder rooms' for their strategic placement to one side of a\nfortress entrance, these rooms are notorious for crossbows and spears\noccupants can aim at would-be intruders. These days, the Slayers go for\nspears still, for fear of maiming their fellows in the room opposite.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The main entrance can be seen from here.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12788
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12792,
+            "Zone": 127,
+            "Name": "A small side street",
+            "Description": "More quaint homes line the street, their well-cared-for lawns and large\nleafy trees help make this area look nicer. The sidewalks and homes are\nold, but have been kept in good repair. Suede Street continues to exist\nbecause local residents fought hard back in '09 to prevent new zoning\nregulations from turning this place into a commercial area. There is\ntruly a sense of community here, and people help their fellow neighbors.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Suede Street ends in a cul-de-sac to the east. It appears\nthe trees there are somewhat closer together and much more leafy.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12793
+                },
+                {
+                    "Direction": "West",
+                    "Description": "More of this peaceful street can be seen to the west. Further along\nand you would encounter a busy and crowded street.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12773
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12793,
+            "Zone": 127,
+            "Name": "A cul-de-sac at the end of Suede Street",
+            "Description": "Suede street ends here in this cul-de-sac. The small brick homes all\nlook very pretty, and it is especially here that the trees along the\nsidewalk grow in such close proximity. You admire the efforts of this\ntiny community of people who have made this place a nice place to live.\nSomehow the sky does not appear so dark and bleak, and the air smells nice.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24800
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The rest of Suede Street is in that direction, where, in the\ndistance, it connects up to a busy intersection.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12792
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12794,
+            "Zone": 127,
+            "Name": "In the commercial district",
+            "Description": "The streets are truly crowded now, as you are in the heart of the\nbusy downtown commercial district. Tall skyscrapers dot the skyline\nto the south, businesses and office buildings are all around. A few\nshops are around, but most are the trendy eateries and such. Not much\ntrash litters the streets and sidewalk, and many hovers can be seen\ntaking off and landing from various of the tall buildings around here.\nThere are even a few armed security guards keeping the peace.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "This busy avenue continues north, hustling and bustling with\nenergy. Far to the north would be the poor residential slums\nof the city. Surely you'd rather stay around here!\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12724
+                },
+                {
+                    "Direction": "South",
+                    "Description": "More of this city's downtown can be seen from here, along with\nthe towering skyline of this city's Corporate Zone. The traffic\nand smog and masses of people really make you feel dizzy.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12730
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "graffiti"
+                    ],
+                    "Description": "\nThere is no graffiti here. In fact, don't bother looking much.\nYou won't find much, I promise you. Or do I?\n"
+                },
+                {
+                    "Keywords": [
+                        "buildings",
+                        "offices",
+                        "office",
+                        "businesses"
+                    ],
+                    "Description": "A good number of trendy shops are all around, occupying the ground\nfloors of the tall buildings around you. Above them are offices and\ncorporate apartments. Places you see include:\n\n     The Cardinal - a luxurious five-star hotel located in the heart\n          of the city that boasts penthouses with spectacular views\n     Adriana's - a high-priced store catering to the ultra rich and\n          ultra fashionable, they only sell their own line, none other\n     MacLeod's of Dublin - A cigar and tobacco import \u0026 export shop,\n          reputed to have the best blends and Imperium leaf-rolls\n"
+                }
+            ]
+        },
+        {
+            "ID": 12795,
+            "Zone": 127,
+            "Name": "The end of the line",
+            "Description": "There are few people here, perhaps because this is where a major check-\npoint has been installed, and there are several guards standing here to\nprevent entry into the downtown Corporate Zone, where skyhigh buildings\nhouse the office and residential complexes of the rich multinational\ncorporations. There is no way in, for the gate is electronically locked\nfrom the other end, and the guards here are merely for show. Overhead,\na few hovers flitter about, unconcerned with the traffic below.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The commercial district of the city leads north from here, away from\nthis harsh reminder of reality.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12730
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Before you is an extremely high wall made of solid concrete that must\nbe several feet thick. A large steel door capable of letting entire\nvehicles through has been installed here, and is guarded day and night.\nThere is no way in. Sorry, best turn back.\n",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 1204,
+                    "Destination": 12798
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12796,
+            "Zone": 127,
+            "Name": "The kitchen and dining area",
+            "Description": "This is a large room given over to the gastronomic needs of the Slayers.\nThe front of this area consists of dining tables and chairs arranged in\nstrict order. The rear area houses the food preparation area, as well as\nan exit to the street. A few Slayers mill about here, eating or resting.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The hallway intersection would be in that direction, past a door.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 12780
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12797,
+            "Zone": 127,
+            "Name": "SPARE ROOM",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12798,
+            "Zone": 127,
+            "Name": "Past the checkpoint",
+            "Description": "You should not be here. This is a restricted room.\nNotes for immortals:\n\n     This area was first built by Yendle, and consisted of add-ons\nto the original Midgaard area. He completed his work around October\nof 1994. I, Raul, took on revision of this zone with his permission\n(as the area was still his by rights), and altered/changed many\nrooms, mobs, items. In fact, I changed almost everything either\nslightly, or alot. Work was completed May 1995.\n     If there are any problems, please report to me.\n\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "GODROOM"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12799,
+            "Zone": 127,
+            "Name": "Passiflora's Room",
+            "Description": "A threadbare Persian carpet covers the sandy floor. On a curiously carved\ncoffee table between two old armchairs a half-empty box of handmade\nchocolates and two well-thumbed books: _Decline and Fall of the Feline\nEmpire_ and _1000 Years of Mousitude. Several oil paintings in heavy gilt\nframes adorn the walls. They all feature mysterious morphmouse maidens\nwith torrents of wavy hair and bee-stung lips, their heavy-lidded eyes\ngazing challengingly into yours. Each painting is signed 'FRB', indicating\nthey are the work of the Furry Raphaelite Brotherhood, probably Dante\nGabriel Moussettis. On one wall hangs a tapestry with a Celtic knot woven\ninto it's centre. A rope ladder uncoils from a hole in the ceiling.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        }
+    ]
+}

@@ -1,0 +1,478 @@
+{
+    "rooms": [
+        {
+            "ID": 4200,
+            "Zone": 42,
+            "Name": "Step one - Olc basics",
+            "Description": "HI everyone.  Welcome to your olc training.  If you have built with a\r\r\r\r\r\r\r\r\r\nmenu based olc before there are not many changes...But the changes that \r\r\r\r\r\r\r\r\r\nexist are important ones.  So.. first thing we need to do is to make\r\r\r\r\r\r\r\r\r\nsure that you have olc to the practice zones.  Type the following and\r\r\r\r\r\r\r\r\r\nsee what responce you get : Type olc \u003cyour name\u003e \u003cReturn\u003e.  What you \r\r\r\r\r\r\r\r\r\nshould see is a line that looks like the following:\r\r\r\r\r\r\r\r\r\n    \u003cYour name\u003e has OLC privileges to zones 265-265 and 265-265\r\r\r\r\r\r\r\r\r\nYour numbers may be different but they should always be 255+ when you \r\r\r\r\r\r\r\r\r\nare building your newbie zone.  Now.. if you have privileges then you can \r\r\r\r\r\r\r\r\r\nbegin learning how to build rooms by going to step two.. if not then ask \r\r\r\r\r\r\r\r\r\none of the admin's to give you olc privileges to your practice zone..\r\r\r\r\r\r\r\r\r\nYou will get your practice numbers in step two.\r\r\r\r\r\r\r\r\r\nThanks Teddy\r\r\r\r\r\r\r\r\r\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4201
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4201,
+            "Zone": 42,
+            "Name": "Step two - Building rooms",
+            "Description": "Ok.. now you know what zone you have privileges to.. So let's show you \r\r\r\r\r\r\r\r\nhow to build a room.. First type help redit, read through that so you get  \r\r\r\r\r\r\r\r\nan idea of how the menu works.  To begin editting rooms you must use a \r\r\r\r\r\r\r\r\ncommand called redit.  The correct command useage is redit \u003crm#\u003e \u003creturn\u003e.\r\r\r\r\r\r\r\r\nSo.. for example say your room numbers are in zone 255 and your room number\r\r\r\r\r\r\r\r\nrange is 25500-25509.. to begin editting your first room you would type\r\r\r\r\r\r\r\r\nredit 25500.  There is an example room to the north of here so you can \r\r\r\r\r\r\r\r\nsee what a finished room should look like.\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\nOTHER HELP FILES OF INTEREST WHEN BUILDING ROOMS: help redit, help xdesc,\r\r\r\r\r\r\r\r\nhelp sectors, help deathtraps, help rflags, help doors.\r\r\r\r\r\r\r\r\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4202
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4200
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "poster"
+                    ],
+                    "Description": "Zone #            Rm #'s          obj #'s           Mob #'s\r\r\r\r\r\r\r\r\r\n256            25600-25609      25600-25609      25600-25609\r\r\r\r\r\r\r\r\r\n257            25610-25619      25610-25619      25610-25619\r\r\r\r\r\r\r\r\r\n258            25620-25629      25620-25629      25620-25629\r\r\r\r\r\r\r\r\r\n"
+                }
+            ]
+        },
+        {
+            "ID": 4202,
+            "Zone": 42,
+            "Name": "Example room ",
+            "Description": "You are strolling through a lovely park.  As you look around you notice\r\r\r\r\r\r\r\r\nall the families that are in the park.  Everyone must have thought of the\r\r\r\r\r\r\r\r\nsame thing.. cause everyone is having a picnic at the picnic tables \r\r\r\r\r\r\r\r\nscattered through out the park.  There is a large pond nearby that is home\r\r\r\r\r\r\r\r\nto lots of ducks.  There are children standing around the pond offering \r\r\r\r\r\r\r\r\nthe ducks lots of tasty snacks.  The sun is shining high in the sky and \r\r\r\r\r\r\r\r\nwhen you look up you can feel it beaming down on your face.  As you move\r\r\r\r\r\r\r\r\nfuther into the park you notice the flowers.. everywhere.  They are in\r\r\r\r\r\r\r\r\nlots of brilliant colors and the smell is overwhelming.  The sounds\r\r\r\r\r\r\r\r\nof children playing makes you smile just a little as you continue on\r\r\r\r\r\r\r\r\nyour walk.\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\nNotice that I meantioned ducks and flowers in my desc. If you type look\r\r\r\r\r\r\r\r\nducks or flowers.. you will see that I put in extra descs in on both \r\r\r\r\r\r\r\r\nof these.. That's how extra descs work.\r\r\r\r\r\r\r\r\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4203
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4201
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "flower",
+                        "flowers"
+                    ],
+                    "Description": "These flowers are all colors.  They look almost like a rainbow.. but with\r\r\r\r\r\r\r\r\nmore colors.  The smell coming off the flowers is terrific.. it's almost\r\r\r\r\r\r\r\r\nintoxicating.\r\r\r\r\r\r\r\r\n"
+                },
+                {
+                    "Keywords": [
+                        "duck",
+                        "ducks"
+                    ],
+                    "Description": "Awww... aren't they cute.. They have white feathers and they are just as \r\r\r\r\r\r\r\r\nfluffy as they can be.  They waddle up to the short of the pond and get \r\r\r\r\r\r\r\r\nfood from the kids.\r\r\r\r\r\r\r\r\n"
+                }
+            ]
+        },
+        {
+            "ID": 4203,
+            "Zone": 42,
+            "Name": "Step three - building mobs.",
+            "Description": "OK.. so how you know how to make a room.. now lets show you how to make\r\r\r\r\r\r\r\r\na mob to put in that room.  The mob numbers you will use are the same as\r\r\r\r\r\r\r\r\nthe room numbers you use.. but you use a different command to start\r\r\r\r\r\r\r\r\neditting them.  Medit is the command.  Type help medit and look over\r\r\r\r\r\r\r\r\nthe menu so that you know what each slot is for.  So.. if you have numbers\r\r\r\r\r\r\r\r\n25500-25509 and you want to edit the first one.. you would type\r\r\r\r\r\r\r\r\nmedit 25500.\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\nOTHER HELP FILES OF INTEREST WHEN BUILDING MOBS:  Help medit, help mflag,\r\r\r\r\r\r\r\r\nhelp aflag, help specproc.\r\r\r\r\r\r\r\r\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "\r\r\r\r\r\r\r\r\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4204
+                },
+                {
+                    "Direction": "South",
+                    "Description": "\r\r\r\r\r\r\r\r\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4202
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4204,
+            "Zone": 42,
+            "Name": "Step four - building items",
+            "Description": "This is where you will learn to make items for your mobs.  Just like with \r\r\r\r\r\r\r\r\nrooms and mobs there is a special command for objects too.  The command\r\r\r\r\r\r\r\r\nto start editting objects is oedit.  Ok so now.. before you start building\r\r\r\r\r\r\r\r\ntype help oedit and take a look at the menu and see what each slot will do.\r\r\r\r\r\r\r\r\nJust as with mobs and rooms, the numbers will be the same, but you will\r\r\r\r\r\r\r\r\nuse oedit (instead of medit or redit).\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\nOTHER FILES OF INTEREST WHEN BUILDING ITEMS: help oedit, help otype, \r\r\r\r\r\r\r\r\nhelp oaff, help oflags.\r\r\r\r\r\r\r\r\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4205
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4203
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4205,
+            "Zone": 42,
+            "Name": "Step Five - Locking the zone.",
+            "Description": "With the mobs, items and rooms done you will need to learn to load items. The\r\r\r\r\r\r\r\r\nfirst thing you must do before loading mobs and items is to lock the zone.  I\r\r\r\r\r\r\r\r\nhave made extra descs out of those so that you can see all the info that\r\r\r\r\r\r\r\r\nwouldn't fit here.. so type look lock and look unlock.  Also one thing to\r\r\r\r\r\r\r\r\nremember.. NEVER LOCK A ZONE THAT HAS BEEN THROUGH THE ZEDIT PROCESS\u003e\r\r\r\r\r\r\r\r\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4206
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4204
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "lock"
+                    ],
+                    "Description": "Ok.. after you have all the rooms done and you want to load the mobs and\r\r\r\r\r\r\r\r\nitems then you need to lock the zone.  The command to lock the zone is zlock.\r\r\r\r\r\r\r\r\nThe correct command usage is zlock \u003czone#\u003e.  REMEMBER NEVER LOCK A ZONE THAT\r\r\r\r\r\r\r\r\nHAS BEEN THROUGH THE ZEDIT PROCESS.\r\r\r\r\r\r\r\r\n"
+                },
+                {
+                    "Keywords": [
+                        "unlock"
+                    ],
+                    "Description": "Ok.. So all the rooms mobs and objects are done.. and you have them all\r\r\r\r\r\r\r\r\nloaded in the right rooms..and all items on the right mobs... You want all\r\r\r\r\r\r\r\r\nthe mobs to save so that everything remains the way that you put it. Now..\r\r\r\r\r\r\r\r\nwhen you lock a zone and unlock and save it.. it all saves to a zedit file so\r\r\r\r\r\r\r\r\nthat when the zone resets it has a script to follow as to what goes where.\r\r\r\r\r\r\r\r\nTo save all the changes in the zone you will have to do zunlock.. you have\r\r\r\r\r\r\r\r\ntwo options when unlocking a zone.. either to save all the changes or if you\r\r\r\r\r\r\r\r\nmade a mistake then you can unlock and not save any changes.  IF you wish to\r\r\r\r\r\r\r\r\nsave the changes then type zunlock save \u003czone#\u003e, if however you made some\r\r\r\r\r\r\r\r\nmistakes ( OR IF YOU LOCKED A ZONE THAT ALREADY WENT THROUGH THE ZEDIT\r\r\r\r\r\r\r\r\nPROCESS)  then you type zunlock nosave \u003czone#\u003e.\r\r\r\r\r\r\r\r\n"
+                }
+            ]
+        },
+        {
+            "ID": 4206,
+            "Zone": 42,
+            "Name": "Step six - loading mobs",
+            "Description": "Loading mobs is a fairly simple process.  You have already done all the work.\r\r\r\r\r\r\r\r\nand now you have the rooms done and the zone locked.  So what you need to do\r\r\r\r\r\r\r\r\nis to be in the room you want to load the mob in and type load m(for mob)\r\r\r\r\r\r\r\r\n\u003cvnum of the mob\u003e.  So if you wanted to load mob #25600..You would type load\r\r\r\r\r\r\r\r\nm 25600.\r\r\r\r\r\r\r\r\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "\r\r\r\r\r\r\r\r\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4207
+                },
+                {
+                    "Direction": "South",
+                    "Description": "\r\r\r\r\r\r\r\r\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4205
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4207,
+            "Zone": 42,
+            "Name": "Step seven - Loading items and making mobs use them.",
+            "Description": "Loading items is just as easy as loading mobs.   Instead of M (for mobs) we\r\r\r\r\r\r\r\r\nuse o for objects.  So load o \u003cvnum of object\u003e  .  For example if you wanted\r\r\r\r\r\r\r\r\nto load item #25600 then you would type load o 25600.  The item will load in\r\r\r\r\r\r\r\r\nyour hands and if you want to have the mob wear/wield/hold the items you will\r\r\r\r\r\r\r\r\nneed to use force commands. Since I didn't have space to explain force\r\r\r\r\r\r\r\r\ncommands please type look force and it will give you a list of the commands\r\r\r\r\r\r\r\r\nand how to use them.\r\r\r\r\r\r\r\r\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4208
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4206
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "force"
+                    ],
+                    "Description": "Ok.. now you have your mob loaded and you have loaded the item and you have\r\r\r\r\r\r\r\r\nit in your inventory.. How can you make the mob wear/wield/hold the item..\r\r\r\r\r\r\r\r\nWell we use force commands to do this and there are seperate force commands\r\r\r\r\r\r\r\r\nfor wear wield and hold. For our examples we will use a mob named Fido. Say\r\r\r\r\r\r\r\r\nthat we have fido a weapon to use.. we will load it.. and hand it to fido (\r\r\r\r\r\r\r\r\nwe will use dagger as our example object) and then type forcewield fido\r\r\r\r\r\r\r\r\ndagger. Now.. Fido needs some eq to wear.. so we will use cloak for this\r\r\r\r\r\r\r\r\nexample.. we load the cloak, give the cloak to fido and type the following\r\r\r\r\r\r\r\r\nforcewear fido cloak. And if we are giving mobs lights or holdables we will\r\r\r\r\r\r\r\r\nneed to use the forcehold command ( we will use torch for this example).. We\r\r\r\r\r\r\r\r\nwould load the torch hand the torch to fido and type forcehold fido torch.\r\r\r\r\r\r\r\r\nRemember when making items for mobs be sure not to put restrictions on the\r\r\r\r\r\r\r\r\nitems that will keep mobs from using the item.  For example  making a !evil\r\r\r\r\r\r\r\r\nobject for an evil mob.\r\r\r\r\r\r\r\r\n"
+                }
+            ]
+        },
+        {
+            "ID": 4208,
+            "Zone": 42,
+            "Name": "Step Eight - Just a couple of reminders.",
+            "Description": "Ok.. you have learned several things up to this point.  But I need to remind\r\r\r\r\r\r\r\r\nyou of a few things before you go on to the last and probably the most\r\r\r\r\r\r\r\r\ninvolved and complicated step.  Remember that since now you have loaded mobs\r\r\r\r\r\r\r\r\nand items to zunlock your zone.. saving all the changes. Remember that after\r\r\r\r\r\r\r\r\nthe next step you will not be able to lock the zone. So.. review all that you\r\r\r\r\r\r\r\r\nhave learned.. and then make the next step. If you feel like you'd rather\r\r\r\r\r\r\r\r\nfinish all the rooms mob and items before handling zedit.. then do so.. but\r\r\r\r\r\r\r\r\nremember that zedit is more complicated and thus will take a little more time\r\r\r\r\r\r\r\r\nto explain and understand.\r\r\r\r\r\r\r\r\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4209
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4207
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4209,
+            "Zone": 42,
+            "Name": "Step nine - Zedit",
+            "Description": "Zedit helps us with our areas by giving us greater versatility.  We can set a\r\r\r\r\r\r\r\r\ncertain mob to load only when another mob loads.. Or only sometimes we can\r\r\r\r\r\r\r\r\nset alternate loads and we can set load probabilities.  If you have loaded\r\r\r\r\r\r\r\r\nthings with the zone locked and have saved the changes then your zedit will\r\r\r\r\r\r\r\r\nalready be mostly completed.  The zedit is essentially a script that the mud\r\r\r\r\r\r\r\r\nwill use when it resets the zone.  The correct command useage will be zedit\r\r\r\r\r\r\r\r\n\u003cZone #\u003e.  Once you do this you will be given a list of commands.  To get a\r\r\r\r\r\r\r\r\nmore detailed description of the commands type help zedit and it will give\r\r\r\r\r\r\r\r\nyou a better understanding of zedit.  So.. once the zone is ready you can\r\r\r\r\r\r\r\r\nzedit it.   When you are ready to zedit you will need to get Either Sarnoth\r\r\r\r\r\r\r\r\nor Me (Teddy) and we will help you with each step so that you can get a\r\r\r\r\r\r\r\r\nbetter idea of how it works and what exactly it can do.\r\r\r\r\r\r\r\r\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4210
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4208
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4210,
+            "Zone": 42,
+            "Name": "Step ten - The end.",
+            "Description": "Ok.. this should give you a basic knowledge of how to build.  I will from\r\r\r\r\r\r\r\r\ntime to time check in on you while you are building and if you have any\r\r\r\r\r\r\r\r\nquestions please just mail me and I will answer any questions you have or\r\r\r\r\r\r\r\r\ngive you any help I can.  If you type look tips, I have left a couple of\r\r\r\r\r\r\r\r\nlittle helps you might find you can use. I want to thank you for taking the\r\r\r\r\r\r\r\r\ntime to go through this school and making this a much easier job to do.. but\r\r\r\r\r\r\r\r\nif you need anything please let me know and if you have any suggestions on\r\r\r\r\r\r\r\r\nhow I can make this school better.. just mail me and let me know. Thanks\r\r\r\r\r\r\r\r\nTeddy\r\r\r\r\r\r\r\r\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4211
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4209
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "tips"
+                    ],
+                    "Description": "Sometimes as a new builder it's hard to remember to hit return at the end of\r\r\r\r\r\r\r\r\neach line.. So in responce to that Sarnoth has coded in something called\r\r\r\r\r\r\r\r\nformat.  If you just type format it will make all the lines the correct\r\r\r\r\r\r\r\r\nlength regardless of if you hit return at the end of the line or not.\r\r\r\r\r\r\r\r\nSometimes when I am building I can't seem to get my desc to come out right\r\r\r\r\r\r\r\r\ncause of all the syslog messages and gossips that come through so.. If you\r\r\r\r\r\r\r\r\njust type nodis it will keep that from happening.\r\r\r\r\r\r\r\r\nTo turn off either of these things just type it again and it will turn it off\r\r\r\r\r\r\r\r\nfor you. Teddy\r\r\r\r\r\r\r\r\n"
+                }
+            ]
+        },
+        {
+            "ID": 4211,
+            "Zone": 42,
+            "Name": "Practice zones... starting point.",
+            "Description": "We have done something a little differently than we have normally done in the\r\r\r\r\r\r\r\r\npast.. rather than have everyone working in the same zone we have made\r\r\r\r\r\r\r\r\n\"mini-zones\".  They start at zone 256 and go from there. The problem is\r\r\r\r\r\r\r\r\nthis.. Usually the zone number is the first two or three numbers of all your\r\r\r\r\r\r\r\r\nrooms.. But in this case.. we took one zone and made it 10.. so.. You will\r\r\r\r\r\r\r\r\nlock your zone number and your room numbers won't match up. So... I have put\r\r\r\r\r\r\r\r\na list in here with all the room numbers and what zone they are.. you should\r\r\r\r\r\r\r\r\nget your zone number in step two.. so just look at this list.. match up your\r\r\r\r\r\r\r\r\nzone number and that gives you your room numbers.. Please write those down.\r\r\r\r\r\r\r\r\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4210
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "list"
+                    ],
+                    "Description": "256           25600-25609\r\r\r\r\r\r\r\r\n257           25610-25619\r\r\r\r\r\r\r\r\n258           25620-25629\r\r\r\r\r\r\r\r\n259           25630-25639\r\r\r\r\r\r\r\r\n260           25640-25649\r\r\r\r\r\r\r\r\n261           25650-25659\r\r\r\r\r\r\r\r\n262           25660-25669\r\r\r\r\r\r\r\r\n263           25670-225679\r\r\r\r\r\r\r\r\n264           25680-25689\r\r\r\r\r\r\r\r\n265           25690-25699\r\r\r\r\r\r\r\r\n"
+                }
+            ]
+        },
+        {
+            "ID": 4289,
+            "Zone": 42,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4290,
+            "Zone": 42,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4291,
+            "Zone": 42,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4292,
+            "Zone": 42,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4293,
+            "Zone": 42,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4294,
+            "Zone": 42,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4295,
+            "Zone": 42,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4296,
+            "Zone": 42,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4297,
+            "Zone": 42,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4298,
+            "Zone": 42,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4299,
+            "Zone": 42,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        }
+    ]
+}

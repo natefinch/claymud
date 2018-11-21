@@ -1,0 +1,1596 @@
+{
+    "rooms": [
+        {
+            "ID": 2900,
+            "Zone": 29,
+            "Name": "The center of town",
+            "Description": "You're standing in the center of a small town.  The streets are strangely\nbare, though a few hardy shopkeepers have kept their businesses open.  A wise\nold man stands next to the fountain here, ready to help those who are in need\nof information.  You can get anything you need from the friendly people of\nthis town, for the right price.  The sky is blue and cloudless, yet there is\nan unnatural gloom that has settled over this place.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2913
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2924
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2901
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2904
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2903
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2902
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2901,
+            "Zone": 29,
+            "Name": "In front of the healer's home",
+            "Description": "You stand in front of a small home just to the south of the town center.\nThe house is simple, but has a real homey quality to it.  You can hear\nthe fountain in the town square gurgling, and birds fly high above you,\ncrying out in beautiful song.  Everything is serene and beautiful, and\nit seems like anything is possible.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2900
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2902,
+            "Zone": 29,
+            "Name": "In front of the tavern",
+            "Description": "You are standing in front of what was probably once a bustling tavern.  The\nbar where dozens of people used to drink now sits empty.  Ogden still keeps\nthe place a clean as a whistle for the occasional customer.  He'll sell you a\ndrink or a bite to eat for a reasonable price.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2913
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2904
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2923
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2900
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2904
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2903,
+            "Zone": 29,
+            "Name": "In front of the blacksmith's shop",
+            "Description": "You're standing in front of the town's smithy.  A large man stands before\nyou, his arms crossed.  As you look at his wares he keeps an eye on you, just\nin case you become a little sticky fingered.  The forge burns hotly just a\nfew feet back in the building, and you start to sweat even from this\ndistance.\n\nA big sign sits on the wall.  Read it for information about item repairs.\n\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2913
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2923
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2924
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2900
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign",
+                        "repair"
+                    ],
+                    "Description": "Welcome to the smithy. Here I can repair armor that has been damaged\nby corrosion, or acid, or items which have durability. This is not an \neasy task, so it will not be cheap.\n\nTo get a price for fixing a piece of armor type Appraise item name. \nTo have it repaired type Repair item name.\n\n"
+                }
+            ]
+        },
+        {
+            "ID": 2904,
+            "Zone": 29,
+            "Name": "Between the tavern and the healer's home",
+            "Description": "You are standing between two buildings.  Light pours out of the tavern\nto the north, and you can hear birds singing from above Pepin's home\nto the south.  A small path leads off to the northwest towards the bar\nrun by Gillian.  Loud music floats down from the bar, drawing your\nattention.  Perhaps Gillian would like to talk for a while, she always\nhas some piece of gossip to pass around.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2902
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2900
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2903
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2931
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2905,
+            "Zone": 29,
+            "Name": "A path between the rocks",
+            "Description": "This small path winds between huge boulders that jut out of the ground,\nleading towards a bridge over a river to the west.  To the south a\nfissure has opened up in the ground, and hot, noxious fumes waft up out\nof it.  You can feel the presence of pure evil emanating from the crack\nand you somehow know that it will lead you to hell itself.\n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2931
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2906
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2907
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2906,
+            "Zone": 29,
+            "Name": "The entrance to hell",
+            "Description": "You have entered a large fissure in the ground.  The vapors rising up\nout of it cloud your mind and make you dizzy.  The heat is oppressive,\nmaking it even harder to breathe than it already is.  \n\nYou see a big sign here posted by MidKnight:\n\nDO NOT GO INTO THIS PART OF DIABLO UNLESS YOU ARE PART OF A VERY VERY\nLARGE GROUP OF LEVEL 100 CHARACTERS WHO ARE READY TO TAKE ON THE\nHARDEST MOBS IN THE MUD.  ALL OTHERS SHOULD *TURN* *BACK* *NOW*!!!!\n",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2905
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2949
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2907,
+            "Zone": 29,
+            "Name": "Before the bridge",
+            "Description": "You are standing at the end of a small path.  To the east you can see a small\nwooden bridge leading to the opposite shore.  A medium sized river runs\nperpendicular to this path, and goes under the bridge to fall away to the\nsouth.  There are large rocks all around, and across the river you can see\nwhat looks like a cave.\n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2905
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2908
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2908,
+            "Zone": 29,
+            "Name": "On the bridge",
+            "Description": "You are standing on a bridge overlooking a rushing river.  The water flows\nunder your feet and droplets splash up onto you.  The wood creaks as you walk\nacross and a sudden unconnected thought comes into your head.  You wonder if\nthere are trolls under the bridge, but no, this isn't a fairy tale.  Across\nthe river you can see an opening in the side of a rock which looks to be a\nsmall cave.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2907
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2909
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2909,
+            "Zone": 29,
+            "Name": "Beyond the bridge",
+            "Description": "To the west you see a large dark opening in the rocks, the mouth of a cave.\nThe path which ended on the other side of the bridge continues here, turning\nto the north.  This place is riddled with boulders, but up to the north you\ncan see a tree rising above the rocks, with something small sitting under it.\nFrom the mouth of the cave you can hear what sounds like moaning, but perhaps\nit's just the wind.\n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2910
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2908
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2912
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2910,
+            "Zone": 29,
+            "Name": "A small path",
+            "Description": "This small path winds in and around the rocks, turning left and right with\nbarely enough room for you to squeeze through.  Ahead you can see a large,\nlone tree growing amid the rocks.  A small boy sits under its branches,\nwatching you as you approach.  The path begins to widen slightly as it nears\nthe small clearing under the tree.\n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2911
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2909
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2911,
+            "Zone": 29,
+            "Name": "Under a small tree",
+            "Description": "A large tree grows here, standing high and proud, in defiance of the\nbarrenness of the surrounding land.  Its branches have long since lost their\nleaves, yet it still seems majestic.  Sitting up against it is a small boy,\none of his legs replaced by a wooden stick.  Grass grows in this small\nclearing in the rocks, not thickly but enough to soften the edges of the\nrocks all around.\n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2910
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2912,
+            "Zone": 29,
+            "Name": "The entrance to the caves",
+            "Description": "The wind whistles through the caves, making the room resonate with\nwhat sounds like moans.  The cave goes into the rock for about twenty\nfeet and then turns sharply downward.  As you move in deeper, the\nmoaning sounds grow louder, and you're not entirely sure that they're\nactually just the wind.  Agonized cries chill you to the bone, and\nthe howling of a thousand trapped souls fills you with fear.\n\nA sign posted by MidKnight is here:\n\nDO NOT ENTER THIS PLACE UNLESS YOU ARE AT LEAST LEVEL 90 WITH VERY\nGOOD EQUIPMENT.  DANGER LIES AROUND EVERY TURN, AND THE SLIGHTEST\nMISTAKE WILL MEAN YOUR DOOM.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2909
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2948
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2913,
+            "Zone": 29,
+            "Name": "Between the blacksmith's shop and the tavern",
+            "Description": "A chill wind blows from the east, whipping your clothing about your body. You\nget goosebumps for a minute and shiver.  The broad blue sky opens above you,\nyet you get the feeling that it's all just an illusion.  The wind tells tales\nno human would dare.  On the wind you can feel the true terror that runs\nthrough the town.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2923
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2903
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2900
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2902
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2914,
+            "Zone": 29,
+            "Name": "Behind the blacksmith's shop",
+            "Description": "The unending pounding from the blacksmith is finally muffled as you get\nbehind the building.  There's a small house to the north which seems to have\nbeen abandonded by its owner.  The town square turns into a path that leads\neast towards the river and west around the house and behind the tavern.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2930
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2929
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2923
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2916
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2915,
+            "Zone": 29,
+            "Name": "Behind the tavern",
+            "Description": "A small house sits to the north of the tavern, across the path which is\nquickly becoming a road.  Ruts from carts have shaped the road into two long\nchannels, though from the grass that is growing up along it, this road is not\ntravelled much anymore.  What used to be a busy trading route is now nothing\nbut a path for the wind to blow down.  The echoes of your footsteps off the\nwalls of the buildings around you seem hollow and empty.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2923
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2937
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2916,
+            "Zone": 29,
+            "Name": "Along the river",
+            "Description": "You're walking along the river, a little ways off to the west you can see a\nhouse, and this one seems to be occupied, unlike many of the others around\nhere.  There is a large field to the northwest and off in the distance you\ncan see a gazebo and cows grazing.  Up ahead is a small wooden bridge that\nspans the river.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2917
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2929
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2914
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2917,
+            "Zone": 29,
+            "Name": "In front of the bridge",
+            "Description": "The path here runs up to a small wooden bridge spanning the river.  You can\nsee a large field across the river, dotted with a couple trees.  To the\nnortheast you can see a small gazebo in a field full of cows.  The grass\nspreads out lush and thick as your gaze leaves the confines of the town\nproper.  A low rock wall surrounds the area, keeping the cows to their\ngrazing pasture.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2918
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2916
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2932
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2918,
+            "Zone": 29,
+            "Name": "On the bridge",
+            "Description": "You are standing on a small wooden bridge.  The planks beneath your feet are\ndamp and slightly slippery from the spray of the river.  You gaze down the\nlength of the river and can envision days spent fishing from this very spot.\nPoles made of simple sticks and string, sitting back and fishing not to catch\nfish but just for the joy of sitting in the outdoors and talking.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2919
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2917
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2919,
+            "Zone": 29,
+            "Name": "Beyond the bridge",
+            "Description": "You've crossed over the bridge and are now at the southern end of a large\nfield.  Trees dot the landscape, and the path continues to the northeast,\nthough it seems less travelled than before the bridge.  The grass is green\nand untouched, left to grown naturally.  A breeze stirs the blades, creating\nwaves that ripple across the field.  The weeds and grass have begun to\nencroach on the path, giving the area an earthy feel.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2918
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2920
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2920,
+            "Zone": 29,
+            "Name": "A small field",
+            "Description": "You are standing in the middle of a large field.  The path you have been\nfollowing has all but peetered out, the grass growing over the dirt track.\nSmall animals scurry amidst the tall grass, and the wind cools your face as\nit blows across the field.  Up ahead a ways, at the northern side of the\ngrassy field, you can see a small shack perched on a hill.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2921
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2919
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2921,
+            "Zone": 29,
+            "Name": "Further in the field",
+            "Description": "You have reached the northern end of the field.  Up ahead is a small shack on\na low hill.  It seems to be run down, at first glance, but as you get closer,\nyou can see that there are flowers around the base of the structure, and the\narea surrounding it is well taken care of.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2922
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2920
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2922,
+            "Zone": 29,
+            "Name": "In front of the witch's shack",
+            "Description": "You are standing in front of a small run down shack.  It looks so run down,\nit is hard to believe anyone actually lives there.  Adria does though, so it\nis obviously not that bad.  The grass around here is lush and green, and the\nshack does have a nice view of the river.  After the long walk from the town\nproper, you can appreciate the privacy this woman has.\n\nThere is a sign sitting on the wall. Read it for info about recharging wands.\n\n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2921
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign",
+                        "recharge"
+                    ],
+                    "Description": "To recharge a wand, simple type Recharge \u003citem name\u003e.\nIt costs 1,800 gold per charge per level to recharge a wand or staff.\n\n"
+                }
+            ]
+        },
+        {
+            "ID": 2923,
+            "Zone": 29,
+            "Name": "A space between three buildings",
+            "Description": "You are on a small path just to the north of the town square.  The hustle and\nbustle (what little there is) fades into the distance.  The dirt path goes\noff to the east behind the smithy and continues west behind the tavern.  You\ncan see trees off to the northwest, as the town becomes more sparsely\npopulated.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2914
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2913
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2915
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2903
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2902
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2924,
+            "Zone": 29,
+            "Name": "Between two buildings",
+            "Description": "To the north you can see Griswold's blacksmith shop, and to the south\nis a small house.  The river is just a little ways off to the east, you\ncan hear the water rushing down and away from the town.  A path to the\neast runs along the river, going behind the house and the smithy.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2925
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2900
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2903
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2925,
+            "Zone": 29,
+            "Name": "By the river",
+            "Description": "You are walking along the banks of a good sized river.  A small path winds\nalong beside it, leading down in front of a small house to the south, and up\nbehind the smithy to the north.  Sounds of a hammer on an anvil echo down the\nriver, carried along with the water.  A fish jumps from the water to snap at\na fly.  The rush of the water is soothing and peaceful and makes you want to\nsit down to an impromptu picnic.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2928
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2926
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2924
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2926,
+            "Zone": 29,
+            "Name": "Behind a building",
+            "Description": "The river to the east runs down and away from the town to some sea far away.\nA small, run down house sits to your east, looking all but abandoned.  The\npaint on the shingles has long ago peeled off, leaving the wood bare to the\nelements.  A window in the attic is broken, and as run down as it is, it\nseems someone does live here, as smoke curls up lazily from the chimney.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2925
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2927
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2927,
+            "Zone": 29,
+            "Name": "A small nook beside the building",
+            "Description": "A small space between the old house and the rocks to the south is filled by a\nsmall tree and the withered form of a man past his prime. The tree looks well\ncared for, though the terrain makes it hard to flourish.  The branches scrape\nagainst the side of the house, and the lack of paint on the shingles tell of\ntime now lost.  The shadows grow long and fortell of a darker time ahead.\n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2926
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2928,
+            "Zone": 29,
+            "Name": "Between the blacksmith's shop and the river",
+            "Description": "The heat from the smithy and the cool spray from the river compete for\ndominance as this small path skirts between them.  The back of the smithy is\ngrey with the spray of water from the river, as the water crashes against the\nrocks along its banks.  The rush of the water and pounding of the hammer on\nthe anvil war against each other, each trying to drown out the other.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2929
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2925
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2929,
+            "Zone": 29,
+            "Name": "Next to the river",
+            "Description": "You have reached an intersection in the path.  You can go south behind the\nblacksmith shop, or west towards the center of town, or north along the\nriver.  Up ahead you can see a bridge spanning the river, and there's a small\nhouse off to the northeast.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2916
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2928
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2914
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2930,
+            "Zone": 29,
+            "Name": "A small path leading away from town",
+            "Description": "You're walking on a small path that terminates up ahead.  It seems to go\ntowards the field and then just end at the edge of the house to the left.\nThe house is one of the few you've seen occupied.  Smoke billows out of the\nchimney and the sounds of dinner being made inside cause your stomach to\ngrumble.  Up ahead you can see a large field, and at the other end of it, a\nsmall gazebo.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2932
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2914
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2940
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2931,
+            "Zone": 29,
+            "Name": "In front of the bar",
+            "Description": "loud music assaults your ears from inside the bar.  Gillian stands at\nthe swinging doors, ready to greet all those who would patronize her\nestablishment.  Though the player piano is playing up a storm and smoke\nwafts out of the doorway, when you look inside you see only a few old\nmen trying to drown their problems in their cups.  Perhaps things\naren't as good as they seem.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2905
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2904
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2932,
+            "Zone": 29,
+            "Name": "A large field",
+            "Description": "You are at the southern end of a large field to the north of town. Cows graze\non the grass all around you, and if you poke them, they moo at you.   The\ngrass is green and lush, cut low from the cows' grazing. Up ahead to the\nnorth is a small white gazebo and off to the west is an old church surrounded\nby a small cemetary.  A stone wall surrounds this field and cordons off the\ncemetary, but there's a portion that's since crumbled and you could make it\nover the wall there.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2933
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2930
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2917
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2933,
+            "Zone": 29,
+            "Name": "In the middle of a large field",
+            "Description": "Grass surrounds you for yards and yards on all sides.  Cows are milling\naround the area minding their own business and grazing.  A low stone wall\nfences the field in on two sides, with the town on the south and the river on\nthe east side.  There are a couple trees here, and you suddenly feel like\nrolling around in the grass for no other reason than because you can. A small\nwhite gazebo is off to the northwest, it looks like it's worth looking into.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2932
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2934
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2934,
+            "Zone": 29,
+            "Name": "In front of a small gazebo",
+            "Description": "You are standing in front of a small white gazebo.  It looks like it was once\na place where young lovers could go to be alone, or a site for town fairs to\ntake place.  A slight breeze blows through the  latticework, and you feel a\nchill run down your spine.  This is supposed to be a quiet haven from the\nrigors of every day life, yet you feel a sense of forboding.  Looking inside\nthe gazebo you notice the floor has been ripped out and beneath it is a deep\nhole, travelling into the bowels of the earth.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2935
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2936
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2933
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2935,
+            "Zone": 29,
+            "Name": "The entrance to the catacombs",
+            "Description": "The inside of the gazebo has been ripped out, a large hole in the floor runs\ndown below ground and you can feel the warm musty air waft up out of it.\nThere is a feeling of evilness and dread coming from below, and you all but\nturn away in fear.  Whatever is down there is evil beyond compare and not\nsomething you want to deal with on your own.\n\nMidKnight has posted a sign here:\n\nWARNING:  THIS PLACE IS FOR LEVELS 40-60.  IF YOU ARE LOWER THAN THAT DO NOT\nCOME HERE.  THERE ARE AGGRESSIVE MOBS IN THIS ZONE, PROCEED WITH CAUTION.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2934
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2947
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2936,
+            "Zone": 29,
+            "Name": "The rear of the cemetary",
+            "Description": "You are in the rear of a small cemetary.  The headstones of dozens of people\nlie broken on the ground.  Claw marks mar the surfaces of the polished\ngranite.  Whatever did this had no respect for the dead, and no fear of the\nliving.  The townsfolk must be really scared of this place if they dare not\ncome even to restore the graves of their relatives and friends.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2934
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2945
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2937,
+            "Zone": 29,
+            "Name": "A small road",
+            "Description": "After turning the corner in the road you find yourself walking along next to\none of the few occupied houses you've seen around here.  There is a light on\ninside and you can see smoke rising from the chimney. The smell coming from\ninside is heavenly, almost makes you want to turn around and ask if they have\nany extra.  But the thrill of adventure draws you ever onward, toward glory\nand fame.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2938
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2915
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2938,
+            "Zone": 29,
+            "Name": "On the road",
+            "Description": "The road passes north out of town, and splits east and west just ahead.\nBeyond the intersection is a low stone wall which follows the road closely.\nThere is a small grove of trees off to the west and you can see an old church\nto the northwest.  You can see a gathering of large rocks far to the south.\nThe road travels onward, pulling you towards your destiny.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2939
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2937
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2939,
+            "Zone": 29,
+            "Name": "A T intersection",
+            "Description": "The road splits here, going west towards the church you saw before, and\nheading east towards a large field.  A stone wall stops passage north, but\nyou can see over it into the area surrounding the church.  A small cemetary\nsits between the wall and the church, though from the overturned gravestones\nit must not be tended often.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2940
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2938
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2941
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2940,
+            "Zone": 29,
+            "Name": "Behind a small house",
+            "Description": "You are at the corner of a stone wall that turns north here and heads of to\nthe west, parallel to this road.  There is a large field to the northeast,\nand inside the stone wall you can see a small church.  The house to the south\nseems warm and cozy, yet the sense of adventure that brought you here, drives\nyou onward.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2930
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2939
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2941,
+            "Zone": 29,
+            "Name": "Along a stone wall",
+            "Description": "The road runs along the stone wall for another dozen yards or so and up ahead\nyou can see it turns into a break in the wall, angling north to the entrance\nto a small church.  The trees around it are leafless and dying, whether from\nneglect or the pure defilement you feel oozing from the place, you cannot\ntell.  The warm friendly town beckons you back, and a voice echoes in the\nback of your mind, warning you against going any further.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2939
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2942
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2942,
+            "Zone": 29,
+            "Name": "A break in the stone wall",
+            "Description": "The road turns north here, going inside the stone wall.  A small church sits\ninside the wall, strangely silent.  You notice the overgrown grass all around\nthe building, and overturned tombstones scattered about.  You approach the\ncourtyard of the place with a sense of dread.  There is evil here and it\ntakes every ounce of your courage to keep from turning around and running\naway.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2943
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2941
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2943,
+            "Zone": 29,
+            "Name": "In front of a large abandoned church",
+            "Description": "You are standing in front of what probably used to be a church frequented by\nthe people of the town.  The windows are broken and the doors are off their\nhinges.  The outside hasn't been painted in ages, and the cemetary off to the\neast is terribly run down.  You can feel an evil presence in this place, a\ntingling that sets your hairs on end.  There's something wrong here,\nsomething awfully, dangerously wrong.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2944
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2945
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2942
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2944,
+            "Zone": 29,
+            "Name": "Inside the church, to the dungeons",
+            "Description": "You walk into the church and all of a sudden you can feel the evil of the\nplace pressing in around you.  There is a large pair of steps leading down\ninto the ground, and you can hear wails and moans from below.  The church has\nbeen ripped to shreds, pews overturned and windows smashed.  It's a wonder it\nstill stands up.  You feel fear rise in your throat as you start down the\nsteps into the unknown.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2943
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2946
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2945,
+            "Zone": 29,
+            "Name": "A small, ruined cemerary",
+            "Description": "As you walk around the side of the church you can see dozens of headstones\nthat have been knocked over or hacked apart.  Not one was left untouched.\nCracked and shattered pieces of tombstones lie scattered across the ground,\npieces of words staring up at you.  Dates and names all jumbled together now,\nlast words and eternal quotes mixed into one huge jigsaw puzzle.\n",
+            "Bits": [],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2936
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2943
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2946,
+            "Zone": 29,
+            "Name": "Stairs down to the dungeons",
+            "Description": "The steps down to the underground are covered in dirt and grime.  The air is\nstale and musty, as if it hasn't been disturbed in centuries.  The stone of\nthe walls around you seems to close in around you as you walker deeper and\ndeeper into the ground.  You see the bones of someone who didn't quite make\nit out, one fleshless hand stretched out towards the light trickling down\nfrom above.  As you descend further, it becomes darker and more frightening.\n\nYou see a sign posted by MidKnight:\n\nThis level of Diablo is suitable for those people of levels 15-30.  There are\nsome harder mobs in here, and if you're not careful they could kill you.\nAlmost all are aggressive, though not extremely so.  Be careful, and fame and\nfortune could be yours. \n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2944
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2537
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2947,
+            "Zone": 29,
+            "Name": "Stairs down to the catacombs",
+            "Description": "This area is not yet finished, come back later and it will be.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2935
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": [
+                        "PICKPROOF",
+                        "SECRET"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2642
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2948,
+            "Zone": 29,
+            "Name": "Stairs down to the caves",
+            "Description": "This area is not quite done yet.  I'll let you know when you can\ncome here to die.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2912
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2949,
+            "Zone": 29,
+            "Name": "Stairs down to hell",
+            "Description": "This level is still being worked on, please come back later and\nit will be ready for you to die in.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2906
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": [
+                        "PICKPROOF",
+                        "SECRET"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3390
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2950,
+            "Zone": 29,
+            "Name": "A utility room for silent mob progs",
+            "Description": "",
+            "Bits": [
+                "NOTRACK",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        }
+    ]
+}

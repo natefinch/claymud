@@ -1,0 +1,3868 @@
+{
+    "rooms": [
+        {
+            "ID": 15100,
+            "Zone": 151,
+            "Name": "A Waterfall",
+            "Description": "This is the violent, rushing waterfall on the soulease river.  You find that\r\r\r\r\n\rthe water pressure is too severe, and you are pummeled against the rocks\r\r\r\r\n\rat the base of the fall.  It hurts.  A lot.\r\r\r\r\n\r",
+            "Bits": [
+                "DEATH",
+                "NOMOB",
+                "NOFLEE"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the Soulease river winds it's way westward.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15125
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15101,
+            "Zone": 151,
+            "Name": "A Modern City Street",
+            "Description": " You find yourself standing on the edge of a busy, modern city street.  Cars\r\r\r\r\n\rare whizzing past you at breakneck speeds, and the smell of exhaust and burnt\r\r\r\r\n\rrubber fill the air.  This is a busy 5-lane city highway, but you think you\r\r\r\r\n\rcan make it across to the other side safely, you hope.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the busy city street\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15102
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, you can see a small dirt path, leading to a dirt road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3080
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15102,
+            "Zone": 151,
+            "Name": "City Street",
+            "Description": " You were, unfortunately, wrong.  As you step off the curb, ready to dash\r\r\r\r\n\racross the street, you hear a squealing noise, followed by a sudden, VERY\r\r\r\r\n\rstrong \u003cTHUD\u003e, and you suddenly find yourself sailing through the air, only\r\r\r\r\n\rto impact on the pavement rather painfully.  As you try to crane your neck\r\r\r\r\n\raround to see what hit you, things start to fade to black.  The only thing\r\r\r\r\n\ryou can see is a bright red light, pulsing through the darkness...\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "FLY"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "To the south, you can see the sidewalk along a busy city street.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15101
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15103,
+            "Zone": 151,
+            "Name": "Kevin's Watch",
+            "Description": " You find yourself standing on a VERY high stone plateau, cut into the side\r\r\r\r\n\rof an enourmous cliff.  From here, you can see for miles the lush, green,\r\r\r\r\n\rnatural beauty of a land filled with life.  As you look back, you can see\r\r\r\r\n\rno entrance into the cliff.  Wherever you just came from is gone.  The only\r\r\r\r\n\rexit you can see is a LONG staircase, cut into the very rock, which leads\r\r\r\r\n\rdown through the wispy clouds.  They looks solid, but if one were to slip,\r\r\r\r\n\rthe fall would be....very painful.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "These stairs are very sturdy, but the winds make the climb treacherous.\r\r\r\r\n\rBe careful on the climb down.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15194
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15104,
+            "Zone": 151,
+            "Name": "Outside Mithil Stonedown",
+            "Description": "Here, at the base of the stairway leading up to Kevin's Watch, as you look\r\r\r\r\n\raround, you see the beauty of the land was not exaggerated by the extreme\r\r\r\r\n\rheight from which you first saw it.  Lush and vibrant, this land seems the\r\r\r\r\n\rvery essence of life!  To the east, you can see the small village of Mithil\r\r\r\r\n\rStonedown.  A path leads directly into the the heart of town.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "This path leads into the center of Mithil Stonedown\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15108
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "This is the beginning of the LONG stairway up to Kevin's Watch\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15103
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15105,
+            "Zone": 151,
+            "Name": "A small, private home",
+            "Description": "This is a small house, made of cobbled stones mortared together.  It is very\r\r\r\r\n\rsimply made, but very durable, and almost resonates with earthpower, in a\r\r\r\r\n\rsubdued way.  It feels very inviting and warm.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "This door leads to the western edge of Mithil Stonedown\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15108
+                },
+                {
+                    "Direction": "East",
+                    "Description": "This door leads to the southern edge of Mithil Stonedown\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15106
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15106,
+            "Zone": 151,
+            "Name": "The southern edge of Mithil Stonedown",
+            "Description": "You are in a clearing between a small home and an older looking building,\r\r\r\r\n\rsouth of the town square.  The wonderful smell of fresh baked bread is\r\r\r\r\n\rwafting from the east, a small stonedown home sits to the west, and to the\r\r\r\r\n\rsouth, the Southron Range provides a secure shield for the village.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, you see the Mithil Stonedown village square\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15109
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The smell of freshly baked bread is coming from behind this door\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15107
+                },
+                {
+                    "Direction": "West",
+                    "Description": "This door leads to a small village home\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15105
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15107,
+            "Zone": 151,
+            "Name": "The Mithil Stonedown Bakery",
+            "Description": "This room smells of flour and fresh baked bread.  It is obvious this is the\r\r\r\r\n\rplace the village gets its baked goods, and from the smell, you can guess\r\r\r\r\n\rwhy.  ",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "This door leads to the southern edge of Mithil Stonedown\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15106
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15108,
+            "Zone": 151,
+            "Name": "The western edge of Mithil Stonedown",
+            "Description": "This is the western edge of the small village of Mithil Stonedown.  Here,\r\r\r\r\n\rin the shadow of Kevin's Watch and the western edge of the Southron Range,\r\r\r\r\n\rthis community thrives with the help of the Gravelingases of the Rhadhamaerl,\r\r\r\r\n\rwho have mastered the art of coaxing the earthpower innate in stone from it,\r\r\r\r\n\rand learned to shape this power and the stone it inhabits.  This is a close\r\r\r\r\n\rknit, family oriented community, and you can see this in the way they greet\r\r\r\r\n\reach other, and in the way they nod politely to you as they see you entering\r\r\r\r\n\rthe village limits.  To the south, you can see a small stonedown home.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, you can see the village square of Mithil Stonedown\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15109
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a small stonedowner dwelling\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15105
+                },
+                {
+                    "Direction": "West",
+                    "Description": "This path leads west out of Mithil Stonedown, towards Kevin's Watch\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15104
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15109,
+            "Zone": 151,
+            "Name": "Mithil Stonedown Village Square",
+            "Description": "This is the center of Mithil Stonedown proper, as well as being the obvious\r\r\r\r\n\rcenter of this village's social life.  Here wives share the local gossip,\r\r\r\r\n\rchildren come out to play, and men come to exaggerate stories about their\r\r\r\r\n\rvarious youths.  The sense of community here is staggering.  A building to\r\r\r\r\n\rthe east bears a strange symbol on the door.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, you can see the northern edge of Mithil Stonedown, as well\r\r\r\r\n\ras a path leading out of town.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15112
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east sits a building with an odd rune inscribed upon the door\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15110
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, you can see the southern edge of Mithil Stonedown\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15106
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, you can see the western edge of town\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15108
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "rune"
+                    ],
+                    "Description": " Above this door, a strange rune, resembling a mountain peak, has been\r\r\r\r\n\rpainstakingly carved.  This is the smoothest carving you have ever seen,\r\r\r\r\n\rand it appears to signify something (or someone) of great importance.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15110,
+            "Zone": 151,
+            "Name": "Gravelingases Workshop",
+            "Description": "This is the workplace of Mithin Stonedown's Rhadhamaerl.  It is in this place\r\r\r\r\n\rthe light and heat are coaxed from the very rocks to light and heat the\r\r\r\r\n\rentire stonedown.  This place has that dusty smell you'd normally associate\r\r\r\r\n\rwith a quarry, but regardless, it's surprisingly warm and clean.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "This door leads to the village well\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15113
+                },
+                {
+                    "Direction": "West",
+                    "Description": "This door leads back to the Mithil Stonedown village square\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15109
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15111,
+            "Zone": 151,
+            "Name": "A small, private home",
+            "Description": "This is the home of the Rhadhamaerl for Mithil Stonedown.  Here, he, his\r\r\r\r\n\rwife and his daughter live.  This place has a well worn, but well loved feeling\r\r\r\r\n\rto it.  It is warm, well lit and inviting.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "This door leads back out to the northern edge of Mithil Stonedown\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15112
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15112,
+            "Zone": 151,
+            "Name": "Northern edge of Mithil Stonedown",
+            "Description": "This is the northern edge of Mithil Stonedown.  To the south you can see the\r\r\r\r\n\rvillage square, to the east the village well, to the west a small private\r\r\r\r\n\rhome, and to the north, a lesser-travelled path leads out of the village into\r\r\r\r\n\rthe wilder land beyond.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "This path leads out of town\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15114
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you can see the village well\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15113
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you can see the center of the stonedown.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15109
+                },
+                {
+                    "Direction": "West",
+                    "Description": "This door leads to a small, private residence\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15111
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15113,
+            "Zone": 151,
+            "Name": "Mithil Stonedown Well",
+            "Description": "This small alcove within Mithil Stonedown contains the village well.  This\r\r\r\r\n\ris the central water source for the entire village, as well as a major\r\r\r\r\n\rsocial gathering place for the villagers.  Much is duscussed here.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "This door leads to the Village Gravelingases workshop\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15110
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west is the northern edge of Mithil Stonedown, as well as a path\r\r\r\r\n\rleading north out of the village\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15112
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15114,
+            "Zone": 151,
+            "Name": "A path towards the woods",
+            "Description": "This is a well worn path, leading south into Mithil Stonedown, and northwest\r\r\r\r\n\rinto a wooded plain.  From here, you can see a single, large tree standing\r\r\r\r\n\rtall in the center of the woods, as if ruling all it can see.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "To the south you can see the northern edge of Mithil Stonedown\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15112
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northeast you can see a grassy forest\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15117
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15115,
+            "Zone": 151,
+            "Name": "A wooded plain",
+            "Description": "This wood is lush and vibrant.  Even without looking, you can just 'feel'\r\r\r\r\n\rthe life in this area.  To the northeast, you can see a clearing with a\r\r\r\r\n\rsingle, large tree in it.  From that direction, you can hear the sound of\r\r\r\r\n\rvoices...\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15118
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15116
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "You can see a large clearing with a single, towering tree in the center\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15119
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15116,
+            "Zone": 151,
+            "Name": "A wooded plain",
+            "Description": "This wood is lush and vibrant.  Even without looking, you can just 'feel' the\r\r\r\r\n\rlife in this area.  To the north, you can see a clearing with a single,\r\r\r\r\n\rlarge tree in it.  From that direction, you can hear the sound of voices...\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You can see a large clearing with a single, towering tree in it\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15119
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15117
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the wood continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15115
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15120
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15118
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15117,
+            "Zone": 151,
+            "Name": "A wooded plain",
+            "Description": "This wood is lush and vibrant.  Even without looking, you can just 'feel'\r\r\r\r\n\rthe life in this area.  To the northwest, you can see a clearing with a single\r\r\r\r\n\rlarge tree in it.  From that direction, you can hear voices...\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15120
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15116
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "You can see a large clearing with a single, towering tree in it\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15119
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "This path leads out of the wooded plains and towards Mithil Stonedown\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15114
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15118,
+            "Zone": 151,
+            "Name": "A wooded plain",
+            "Description": "This wood is lush and vibrant.  Even without looking, you can just 'feel'\r\r\r\r\n\rthe life in this area.  To the east, you can see a clearing with a single,\r\r\r\r\n\rlarge tree in it.  From that direction, you can hear the sound of voices...\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15121
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You can see a large clearing with a single, towering tree in it\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15119
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15115
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15122
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15116
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15119,
+            "Zone": 151,
+            "Name": "The base of Revelwood",
+            "Description": "This is a large clearing in the midst of this wooded and grassy area.  Here,\r\r\r\r\n\ryou can see the base of an extremely large tree, which, as you look up, \r\r\r\r\n\rreaches high into the sky.  This is the tree-village of Revelwood, home of\r\r\r\r\n\rthe art of lillianrill, the wood-lore of the Land.  It is in these branches\r\r\r\r\n\rthat the hirebrands learn their craft to aid the people of the Land.  All\r\r\r\r\n\rabout you is evidence of their success.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The path north leads back into the woods\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15122
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The path east leads back to the woods\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15120
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The path south leads back to the woods\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15116
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The path west leads back to the woods\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15118
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "Above you can be seen a large netted area\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15196
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "The path northeast leads back to the woods\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15123
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "The path northwest leads back to the woods\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15121
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "The path southeast leads back to the woods\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15117
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "The path southwest leads back to the woods\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15115
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15120,
+            "Zone": 151,
+            "Name": "A wooded plain",
+            "Description": "This wood is lush and vibrant.  Even without looking, you can just 'feel'\r\r\r\r\n\rthe life in this area.  To the west, you can see a clearing with a single,\r\r\r\r\n\rlarge tree in it.  From that direction, you can hear the sound of voices...\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15123
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15117
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You can see a large clearing with a single, towering tree in it\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15119
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15122
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15116
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15121,
+            "Zone": 151,
+            "Name": "A wooded plain",
+            "Description": "This wood is lush and vibrant.  Even without looking, you can just 'feel'\r\r\r\r\n\rthe life in this area.  To the southeast, you can see a clearing with a\r\r\r\r\n\rsingle, large tree in it.  From that direction, you can hear the sound of\r\r\r\r\n\rvoices...\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15122
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15118
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "You can see a large clearing with a single, towering tree in it\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15119
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15122,
+            "Zone": 151,
+            "Name": "A wooded shore",
+            "Description": "This part of the woods is more humid.  To the south lies the base of\r\r\r\r\n\rRevelwood, surrounded by wooded plains.  To the north, you can see the\r\r\r\r\n\rviolent waters of the Soulease river.  The roar of the water is almost\r\r\r\r\n\rdeafening as if thunders past this shoreline.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The Soulease river lies to the north, with it's dark, rushing waters\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15125
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15123
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You can see a large clearing with a single, towering tree in it\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15119
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15121
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15120
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15118
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15123,
+            "Zone": 151,
+            "Name": "A wooded plain",
+            "Description": "This wood is lush and vibrant.  Even without looking, you can just 'feel'\r\r\r\r\n\rthe life in this area.  To the southwest, you can see a clearing with a\r\r\r\r\n\rsingle, large tree in it.  From that direction, you can hear the sound of\r\r\r\r\n\rvoices...\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15120
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the woods continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15122
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "You can see a large clearing with a single, towering tree in it\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15119
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15124,
+            "Zone": 151,
+            "Name": "The Soulease river",
+            "Description": " The rough and violent waters of the Soulease here turn northerly, and\r\r\r\r\n\rease their activity, blending with the smoother waters of the White River.\r\r\r\r\n\rOn either side of the river, you can see the hills give way to smoother,\r\r\r\r\n\rmore flattened lands, which people have converted into fields, and begun\r\r\r\r\n\rfarming.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You can see the more violent waters of the Soulease stretching out to the \r\r\r\r\n\reast, leading back to the woods of Revelwood\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15125
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "You can see, to the northwest, the bend where the Soulease river ends, and\r\r\r\r\n\rthe gentler waters of the White river begin\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15126
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15125,
+            "Zone": 151,
+            "Name": "The Soulease River",
+            "Description": "You set out into the violent waters of the Soulease River.  Tossed hither\r\r\r\r\n\rand fro by the waves, you soon begin to feel the slightest bit unwell, but\r\r\r\r\n\rthis is the only way to reach Revelstone Keep.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, you can see the deadly pounding of a violent waterfall!\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15100
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You can see the shore at the northern edge of the woods of Revelwood\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15122
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You can see the waters of the Soulease becoming more gentle as then mingle\r\r\r\r\n\rwith the waters of the White river\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15124
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15126,
+            "Zone": 151,
+            "Name": "The White River",
+            "Description": "This section of the river, called the White River because of the white sands\r\r\r\r\n\ron the banks, is much smoother.  It meanders through the countryside, winding\r\r\r\r\n\rbetween hills and fields ripe with grain and feed crops, and tended to by\r\r\r\r\n\rpeople who's life has been dedicated to harvesting that which the land has\r\r\r\r\n\rto offer.  They look happy and healthy, and wave merrily at you as you float\r\r\r\r\n\rby on your way to Revelstone.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You can see a small lake that forms the end of the river, and beyond, a\r\r\r\r\n\rlarge stone keep\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15127
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "You can see, to the southeast, the bend where the White river ends, and the\r\r\r\r\n\rturbulent waters of the Soulease begin\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15124
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15127,
+            "Zone": 151,
+            "Name": "The northern end of the White River",
+            "Description": "Here the White river seems to end in a large pool.  Rumor has it that this\r\r\r\r\n\rriver continues underground, but no one was quite sure.  To the north, you\r\r\r\r\n\rcan see a white sand shore, and farther inland, a path leading towards a\r\r\r\r\n\rlarge, intimidating, walled stone keep.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, you see a beautiful white sand beach\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15128
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You can see the gentle waters of the White river\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15126
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15128,
+            "Zone": 151,
+            "Name": "A white sand beach",
+            "Description": "This beach is covered with pure white sand, giving the river whose waters lap\r\r\r\r\n\rup onto it it's name.  The beach extends a ways to the north, and extends\r\r\r\r\n\raround the edges of a small lake.  To the extreme north, you can see the\r\r\r\r\n\rbeginning of a path leading over a hill, heading towards a keep that can only\r\r\r\r\n\rbe Revelstone, the home of the Lords of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a path leading north through the hills towards Revelstone\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15129
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the small lake that ends the White rivers northward journey\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15127
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15129,
+            "Zone": 151,
+            "Name": "A path through the hills",
+            "Description": "The path beneath your feet is beaten through long grassy hills.  As you walk,\r\r\r\r\n\ryou come to an intersection of sorts, with paths going both to the north and\r\r\r\r\n\rto the east.  To the north, the walls surrounding the large keep loom closer\r\r\r\r\n\rthan before, and you can make out a gate through the walls, as well as the\r\r\r\r\n\rtower within.  To the east, the paths leads through the hills, and, far\r\r\r\r\n\raway, into a thick, green forest.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You can see the gates through the outer wall of Revelstone\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15130
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, another path leads onward through the hills.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15190
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You can see the white sand beach at the northern end of the White river\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15128
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15130,
+            "Zone": 151,
+            "Name": "The entrance to Revelstone",
+            "Description": " Through an enourmous gate, you can see a tunnel that leads into the central\r\r\r\r\n\rarea of Revelstone.  The gigantic walls look worn with the passage of time,\r\r\r\r\n\ryet still strong enough to withstand any assault.  The stone seems somehow\r\r\r\r\n\ralive and vibrant, as if it draws its strength directly from the live around\r\r\r\r\n\rit.  The keep within looks tall and resolute, and you feel somehow awed as\r\r\r\r\n\ryou stand beneath its shadow.\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You can see, through an archway, the Close, the center of Revelstone\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15133
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You can see the path leading back south through the hills\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15129
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15131,
+            "Zone": 151,
+            "Name": "The war room",
+            "Description": " This room contains several firepots for light and heat, and a waist-level\r\r\r\r\n\rtable which is covered in maps, troop lists and stategies for fighting the\r\r\r\r\n\rDespisers armies.  You also see names of places familiar to you, like Mithil\r\r\r\r\n\rStonedown and Revelwood, as well as places you've never heard of.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "This archway leads back into the hall east of the Close\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15134
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15132,
+            "Zone": 151,
+            "Name": "The stairway",
+            "Description": " These stairs, which seem almost an extension of the stone that makes up\r\r\r\r\n\rwalls of the keep, circle upwards towards the second floor.  This part of\r\r\r\r\n\rRevelstone appears a bit more comfortable, and it is on the second floor\r\r\r\r\n\rthat the Lords of the Land have their private rooms.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Through this archway you can see the Close, the center of Revelstone\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15133
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "The stairs lead up to the second floor of Revelstone\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15139
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15133,
+            "Zone": 151,
+            "Name": "The Close",
+            "Description": " This is the central hall in Revelstone Keep: The Close.  It is here that\r\r\r\r\n\rall other parts of the keep are accessable through, and it is also here that\r\r\r\r\n\rthe Lords of Revelstone meet to hear the problems of the people of the land\r\r\r\r\n\rand to decide the laws that govern all who uphold goodness and law.  A low\r\r\r\r\n\rhallway leads out to the east, a small holding cell is to the north, and\r\r\r\r\n\ra stairway is seen through an archway to the west.  The entire hall is lit\r\r\r\r\n\rwith glowing pots which are tended to by the Gravelingases.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "This door leads to a small, dark holding cell\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 15102,
+                    "Destination": 15135
+                },
+                {
+                    "Direction": "East",
+                    "Description": "This archway leads into a slightly narrow hallway\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15134
+                },
+                {
+                    "Direction": "South",
+                    "Description": "South, you see the entrance to the close, leading you back outside\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15130
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Through this archway, you see stairs going up\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15132
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15134,
+            "Zone": 151,
+            "Name": "A hallway",
+            "Description": " This is a slightly narrow hallway leading from the close to a 'T' \r\r\r\r\n\rintersection.  To the north, the smell of fresh air draws your gaze to an\r\r\r\r\n\rarchway into an enclosed courtyard.  To the south you can see a small room\r\r\r\r\n\rwith a parchment-covered table.  It appears to be a meeting room of sorts.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "This archway leads to an open-air terrace of some sort\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15136
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Through this archway, a small room with a table covered in parchments can\r\r\r\r\n\rbe seen\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15131
+                },
+                {
+                    "Direction": "West",
+                    "Description": "This archway leads back into the Close, the center of Revelstone\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15133
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15135,
+            "Zone": 151,
+            "Name": "A holding cell",
+            "Description": "This is a dark room, with no visable light source, save what filters in\r\r\r\r\n\rfrom the doorway.  There is no other exit, except the door to the south.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "Past the door, you can see the Close, the center of Revelstone\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 15102,
+                    "Destination": 15133
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15136,
+            "Zone": 151,
+            "Name": "Training field",
+            "Description": " This area is an open-air terrace which has been converted into a training\r\r\r\r\n\rfield for the warriors of Revelstone.  It is here that Warmark Quann and\r\r\r\r\n\rFirst-Haft Amorine train the young men and women to defend the peoples of\r\r\r\r\n\rthe land.\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "Through this archway, the hallway east of the Close can be seen\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15134
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15137,
+            "Zone": 151,
+            "Name": "Hall of Artifacts",
+            "Description": " This is the Hall of Artifacts.  Herein lie all the treasures of the Land\r\r\r\r\n\rthat are either unusable or undecipherable by the Lords.  There are all\r\r\r\r\n\rmanner of objects and scrolls here.  Nothing looks familiar, and you can't\r\r\r\r\n\runderstand the language the scrolls are written in, but this must be very\r\r\r\r\n\rimportant to the Lords for them to take such precautions to keep it secure.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Banded with blue-tinted iron, this door looks impenitrable\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15103,
+                    "Destination": 15139
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15138,
+            "Zone": 151,
+            "Name": "Lord Hyrims quarters",
+            "Description": " This is the room of Lord Hyrim.  You can tell from the furninshings of this\r\r\r\r\n\rchamber that this lord is one who is fond of wine and food.  This room has\r\r\r\r\n\ra simple bed, bureau and wardrobe.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "This door leads back the the stairs\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15139
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15139,
+            "Zone": 151,
+            "Name": "2nd floor stairway",
+            "Description": "The stairs end at this landing.  There are doors leading north, south, east\r\r\r\r\n\rand west, as well as a small circular staircase leading up to a trapdoor in\r\r\r\r\n\rthe ceiling.  These doors all look the same, except for the door leading\r\r\r\r\n\rsouth, which stands barred and obviously locked.  You have to wonder what\r\r\r\r\n\ris so important that it must be so heavily guarded against intrusion...\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "This door leads to Lord Mhoram's chambers\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15141
+                },
+                {
+                    "Direction": "East",
+                    "Description": "This door leads to the chambers of Lord Shetra\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15140
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Banded with blue-tinted iron, this door looks almost impenitrable\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15103,
+                    "Destination": 15137
+                },
+                {
+                    "Direction": "West",
+                    "Description": "This door leads to Lord Hyrim's chambers\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15138
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "This door leads to High Lord Elena's chambers\r\r\r\r\n\r",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15142
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "These stairs lead back down to the first floor of Revelstone\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15132
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15140,
+            "Zone": 151,
+            "Name": "Lord Shetra's quarters",
+            "Description": " This is the chamber of Lord Shetra.  Apart from the bed, bureau and small\r\r\r\r\n\rwardrobe, there is very little here to help you know her, except for a small\r\r\r\r\n\rstone heart hung on her wall, with the word \"Variol\" impressed into it.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "This door leads back to the stairway\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15139
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15141,
+            "Zone": 151,
+            "Name": "Lord Mhoram's quarters",
+            "Description": " This is Lord Mhoram's chambers.  Here are a collection of items that give\r\r\r\r\n\ryou a true sense of the compassion of this individual.  Here are several\r\r\r\r\n\rpaintings and sculptures, along with a bed, bureau and small wardrobe.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "This door leads back to the stairway\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15139
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15142,
+            "Zone": 151,
+            "Name": "High Lord Elana's quarters",
+            "Description": " This is the chambers of the Elena, the High Lord of the Council of Lords of\r\r\r\r\n\rRevelstone Keep.  She has been head of the council for over a score years, and\r\r\r\r\n\ris rumored to be the grand-daughter of Thomas Covenant himself.  Her room is\r\r\r\r\n\rrather bare, except for a beautiful stone sculpture of a bearded man in robes,\r\r\r\r\n\rwith only three fingers on his left hand.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "This door leads back down to the second floor of Revelstone\r\r\r\r\n\r",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15139
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "stone",
+                        "sculpture",
+                        "man"
+                    ],
+                    "Description": " This statues seems far too smooth to have been carved.  You surmise that it\r\r\r\r\n\rmust have been made by a special stone-melding magic.  The figure represented\r\r\r\r\n\rin the sculpture has a severe visage, but his eyes seems kind, almost gentle,\r\r\r\r\n\rand on his half-hand is the visage of a ring...\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15143,
+            "Zone": 151,
+            "Name": "The Hills of Andelain",
+            "Description": " These hills are lush with life, and a feeling of peace eiminates from the\r\r\r\r\n\rvery ground you walk upon.  That feeling of peace is shattered, though, by\r\r\r\r\n\ra very strong sense of an evil presence.  Over the hills, you can see small\r\r\r\r\n\rdancing motes of light.  Could these be the fabled wraiths of Andelain?\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north the Hills of Andelain continue\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15146
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the Hills of Andelain spread before you.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15193
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest the base of the Tree-town Soaring Woodhelven can be seen.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15145
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15144,
+            "Zone": 151,
+            "Name": "The Forest of Grimmerdhore",
+            "Description": "These forests have none of the tranquility of the Revelwood woods.  Here,\r\r\r\r\n\rthere seems an almost perceptable feeling of evil, eminating from the east.\r\r\r\r\n\rLooking eastward, you see the forest give wayto the hills of Andelain.  They\r\r\r\r\n\rappear lush and inviting, but the feeling of dread persists.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north the forest of Grimmerdhore continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15147
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east is the base of the Tree-town of Soaring Woodhelven.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15145
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the forest of Grimmerdhore continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15192
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast the forest of Grimmerdhore continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15148
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, you can see the Hills of Andelain beginning.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15193
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15145,
+            "Zone": 151,
+            "Name": "Soaring Woodhelven",
+            "Description": "This is the base of the tree-town of Soaring Woodhelven.  Poised in the\r\r\r\r\n\rforest of Grimmerdhore and on the edge of the Hills of Andelain, this large\r\r\r\r\n\rtree is home to hardy folk of the land.  They live here, far from the\r\r\r\r\n\rprotection of the Lords, and in the shadow of Mount Thunder.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the northwest is the forest of Grimmerdhore.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15148
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, you see the Hills of Andelain.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15193
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, you can see the Forests of Grimmerdhore.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15144
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "Above you is the central meeting place of Soaring Woodhelven.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15149
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest is the forest of Grimmerdhore.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15147
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast you see the Hills of Andelain\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15143
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest you see the forest of Grimmerdhore.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15192
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15146,
+            "Zone": 151,
+            "Name": "The Hills of Andelain",
+            "Description": " These hills are lush with life, and a feeling of peace eminates from the\r\r\r\r\n\rvery ground you walk upon.  That feeling of peace is shattered, though by\r\r\r\r\n\ra very strong sense of an evil presence.  Over the hills, you can see small,\r\r\r\r\n\rdancing motes of light.  Could these be the fabled wraiths of Andelain?\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "This path heads east towards Mount Thunder.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15150
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the Hills of Andelain continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15143
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the Hills of Andelain continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15193
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15147,
+            "Zone": 151,
+            "Name": "The Forest of Grimmerdhore",
+            "Description": "These forests have none of the tranquility of the Revelwood woods.  Here,\r\r\r\r\n\rthere seems an almost perceptable feeling of evil, eminating from the east.\r\r\r\r\n\rLooking eastward, you see the forest give way to the hills of Andelain.\r\r\r\r\n\rThey appear lush and inviting, but the feeling of dread persists.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the Forest of Grimmerdhore continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15148
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south the Forest of Grimmerdhore continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15144
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, you can see a beautiful field of waving grain.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15191
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast the base of the Tree-town of Soaring Woodhelven can be seen.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15145
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15148,
+            "Zone": 151,
+            "Name": "The Forest of Grimmerdhore",
+            "Description": " These forests have none of the tranquility of the Revelwood woods.  Here,\r\r\r\r\n\rthere seems an almost perceptable feeling of evil, eminating from the east.\r\r\r\r\n\rLooking southeast-ward, you see the forest give way to the Hills of Andelain.\r\r\r\r\n\rThey appear lush and inviting, but the feeling of dread persists.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "To the south you can see the base of the Tree-town Soaring Woodhelven.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15145
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west the Forest of Grimmerdhore continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15147
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest the Forest of Grimmerdhore continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15144
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15149,
+            "Zone": 151,
+            "Name": "Soaring Woodhelven",
+            "Description": "This is the central square of Soaring Woodhelven.  It is here that councils\r\r\r\r\n\rof peace and war are held.  Below is the base of this massive tree-village,\r\r\r\r\n\rand above your heads is the home and office of the Heer of the Woodhelven.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "Above you is the home of the Heer of the Woodhelven.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15195
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Below, you see the base of Soaring Woodhelven.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15145
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15150,
+            "Zone": 151,
+            "Name": "A rocky path",
+            "Description": "Here, the woods quickly give way to rocky terrain, as the path leads quickly\r\r\r\r\n\rinto the mountains.  It is here, below the peak known as Mount Thunder, that\r\r\r\r\n\rDrool Rockworm resides in Kiril Threndor, the seat of the cavewights power.\r\r\r\r\n\rThe terrain grows quickly more treacherous, and footing becomes questionable.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "To the west the path leads into the Hills of Andelain.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15146
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "This path leads into the mountains, towards Mt. Thunder.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15151
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15151,
+            "Zone": 151,
+            "Name": "A rocky path",
+            "Description": "This path leads through the mountanous countryside just west of Mount\r\r\r\r\n\rThunder.  The air is dry and uncomfortable, and the mountain looms darkly\r\r\r\r\n\rto the east, casting a death-like pall over the entire area.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the path leads onto the lower slopes of Mount Thunder.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15152
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "This path leads back towards the Hills of Andelain.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15150
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15152,
+            "Zone": 151,
+            "Name": "The Slopes of Mount Thunder",
+            "Description": " You stand on the lower slopes of Mount Thunder.  Above you, the mount\r\r\r\r\n\ritself peaks towards the sky.  It looks ominous and threatening for some\r\r\r\r\n\rreason, and you feel very small next to it.  To the southeast, the\r\r\r\r\n\rpath continues, and to the east, you can see a very small cave opening into\r\r\r\r\n\rthe mount itself.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "This cave entrance leads into Mount Thunder.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15153
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, a rocky path leads west out of the mountains.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15151
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "This path leads towards the Plains of Ra.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15159
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15153,
+            "Zone": 151,
+            "Name": "A cave entrance",
+            "Description": " This low cavern leads back and down, into the bowels of Mount Thunder.\r\r\r\r\n\rFrom somewhere below, you can hear the sounds of someone, or something, moving\r\r\r\r\n\raround, and occasionally a screech of rage filters up from the depths. You\r\r\r\r\n\rcan only imagine what lies below you.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "To the west, through the cave entrance, you can see the lower slopes of\r\r\r\r\n\rMount Thunder.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15152
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "This passage leads down into Mount Thunder.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15154
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15154,
+            "Zone": 151,
+            "Name": "The passage to Kiril Threndor",
+            "Description": "The passage leads down into a full cavern, with a bridge over a river of\r\r\r\r\n\rlava that flows through this cavern.  There is a blue barrier of some kind\r\r\r\r\n\rstretching across the center of the bridge.  This appears to be a locked word\r\r\r\r\n\rof binding, and nothing save the the conjuring staff can unlock it.  A\r\r\r\r\n\rlord could bend the binding, but you don't have one with you.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The word of binding stretches across the bridge here, blocking your path.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "word"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15120,
+                    "Destination": 15155
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "This passage leads up to the cave entrance to Kiril Threndor.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15153
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "word",
+                        "binding"
+                    ],
+                    "Description": "To the north, this sheet of blue energy stretches completely across the\r\r\r\r\n\rbridge.  The smell of ozone is sharp in the air, and as you toss a rock at\r\r\r\r\n\rthe word as a test, it is vaporized by the power of the binding.  The ONLY\r\r\r\r\n\rway you can get through this is to unlock it with the staff that created it.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15155,
+            "Zone": 151,
+            "Name": "A darkened passage",
+            "Description": " This is a low, dark, dank passage from the river of lava towards Kiril\r\r\r\r\n\rThrendor, the seat of Drool Rockworm's power.  Further down this passage,\r\r\r\r\n\ryou can see a light, and hear more clearly the rantings and ravings of a\r\r\r\r\n\rmadman.  You can only assume this is Drool.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, an antechamber can be seen.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15156
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, you see the word of binding across the lava river bridge.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "word"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15120,
+                    "Destination": 15154
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15156,
+            "Zone": 151,
+            "Name": "Antechamber",
+            "Description": "This room is the antechamber of Kiril Threndor.  To the north lies the\r\r\r\r\n\rthrone room where Drool Rockworm is said to be.  Echoes of his ranting are\r\r\r\r\n\rstill in the air as you survey this chamber.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the cavernous chamber of Kiril Threndor can be seen.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15157
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south is a dark passage back out of Kiril Threndor.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15155
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15157,
+            "Zone": 151,
+            "Name": "Kiril Threndor",
+            "Description": "  As you enter this cavernous chamber, you realize that this is Kiril\r\r\r\r\n\rThrendor, the dark heart of Mount Thunder.  The room is dimly lit by a\r\r\r\r\n\rsoftly glowing type of rock imbedded into the walls.  In the center of the\r\r\r\r\n\rroom is a raised dias of blackened rock which looks like it was once\r\r\r\r\n\rwhole, and has been melted to it's present shape by an incredible force.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The northern wall of this chamber looks a bit.....unusual.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "wall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15123,
+                    "Destination": 15158
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you can see the Antechamber to Kiril Threndor\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15156
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15158,
+            "Zone": 151,
+            "Name": "Hidden Chamber",
+            "Description": " This room is small and dark.  The only exit is south, through the hidden\r\r\r\r\n\rdoor back into Kiril Threndor.  In this room, there is a small, slender stone\r\r\r\r\n\rdias, standing about waist level.  It almost seems as though the dias was\r\r\r\r\n\rraised up out of the very stone.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The wall on the northern edge of the cavern looks a bit.....unusual.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "wall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15123,
+                    "Destination": 15157
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15159,
+            "Zone": 151,
+            "Name": "A long path",
+            "Description": " This long pathway leads from the slopes of Mount Thunder, and farther to\r\r\r\r\n\rthe southeast, into the fabled Plains of Ra.  As you travel this pathway,\r\r\r\r\n\ryou marvel at the size of the Land and the variety of life in it.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, you can see the slopes of Mount Thunder.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15152
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, you can see the beginning of the Plains of Ra.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15172
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15160,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15164
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15161
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15165
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15161,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15165
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15162
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15160
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15166
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15164
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15162,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15166
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15163
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15161
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15167
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15165
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15163,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15167
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15162
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15166
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15164,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15168
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15165
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15160
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15169
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15161
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15165,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15169
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15166
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15161
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15164
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15198
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15168
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15162
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15160
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15166,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15170
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15167
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15162
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15165
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15171
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15198
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15163
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15161
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15167,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15171
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15163
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15166
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, you see a path leading into the Shattered Hills.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15176
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15170
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15162
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15168,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15172
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15169
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15164
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15173
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15165
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15169,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15173
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15170
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15165
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15168
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15174
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15172
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15198
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15164
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15170,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15174
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15171
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15166
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15169
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15175
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15173
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15167
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15198
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15171,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15175
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, you see a path leading towards the Shattered Hills.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15176
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15167
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15170
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15174
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15166
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15172,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15173
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15168
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15159
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15169
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15173,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15174
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15169
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15172
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15170
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15168
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15174,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15175
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15170
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15173
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15171
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15169
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15175,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  These are the Plains of\r\r\r\r\n\rRa, home to the Ranyhyn, the great noble horses of the Land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15171
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15174
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, a path leads towards the Shattered Hills.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15176
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15170
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15176,
+            "Zone": 151,
+            "Name": "A path into the mountains",
+            "Description": " This path leads away from the Plains of Ra, and turns towards the crags of\r\r\r\r\n\rthe Shattered Hills.  The pathway forks here, going both northeast and\r\r\r\r\n\rsoutheast.  To the northeast, you can see the red glow of Lava as the molten\r\r\r\r\n\rRiver known as Hotash Slay flows slowly across the path.  To the southeast,\r\r\r\r\n\ryou see a treacherous path as it winds upwards along a high cliff face.\r\r\r\r\n\rIf only you knew which path was safer to travel...\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "To the west, you can see the Plains of Ra.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15171
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, you can see a deadly river of Lava!\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15177
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, you can see a treacherous looking path leading along a\r\r\r\r\n\rridge into the mountains of the Shattered Hills.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15178
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15177,
+            "Zone": 151,
+            "Name": "Hotash Slay",
+            "Description": " You have entered Hotash Slay, the lava river that runs the north-western\r\r\r\r\n\redge of the Shattered Hills.  If you were a giant, you could do this without\r\r\r\r\n\rinjury.  But, as you're not, this hurts a LOT!  What ever possessed you\r\r\r\r\n\rto wade into a lava river?\r\r\r\r\n\r",
+            "Bits": [
+                "DEATH",
+                "NOFLEE"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Southwest",
+                    "Description": "Here is the pathway into the shattered hills.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15176
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15178,
+            "Zone": 151,
+            "Name": "The Ridge Path",
+            "Description": " As you climb this treacherous path, the ground drops away beneath your\r\r\r\r\n\rfeet.  You can see, to the southeast, the path goes higher and higher into\r\r\r\r\n\rthe Shattered Hills.  There, amidst the rocky crags, lies Foul's Creche,\r\r\r\r\n\rthe seat of the evil power that is infesting this land.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, you can see a path leading out of the mountains.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15176
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, a path through the mountains can be seen.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15179
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15179,
+            "Zone": 151,
+            "Name": "Mountain Path",
+            "Description": "This pathway leave the ridge path, and travels deep into the crags of the\r\r\r\r\n\rmountains of the Shattered Hills.  To the southeast, you can see the path\r\r\r\r\n\rleads up to a large spire with a huge double door set in it.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, you can see a path along a steep ridge.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15178
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, a huge spire with doors set into it can be seen.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15180
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15180,
+            "Zone": 151,
+            "Name": "A mountain spire",
+            "Description": " This spire in the Shattered Hills reaches towards the sky in an almost\r\r\r\r\n\robscene fashion, as if hurling insults to the very stars.  Imbedded in the\r\r\r\r\n\rspire is a large set of double doors, leading east.  The doors look like\r\r\r\r\n\rthey have been there forever, and have stood the test of time against\r\r\r\r\n\rthieves and heroes alike.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, you see a large set of double doors.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "doors",
+                        "double"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15128,
+                    "Destination": 15181
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, a path meanders through the mountains.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15179
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15181,
+            "Zone": 151,
+            "Name": "Entrance Hall",
+            "Description": "This is the entrance hall to Foul's Creche.  You can feel the evil as you\r\r\r\r\n\renter this place.  It's like smoke: it chokes you, clings to you, and makes\r\r\r\r\n\ryou feel as if you will never be able to rid yourself of it.  To the east,\r\r\r\r\n\rthe ground slopes sharply down, and you can hear noises from that direction.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the tunnel slopes down towards Foul's Creche proper.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15184
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, you can see a large set of double doors.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15128,
+                    "Destination": 15180
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15182,
+            "Zone": 151,
+            "Name": "A low stone cavern",
+            "Description": "This low stone cavern has no visible light, and the rough stone walls\r\r\r\r\n\rseem to exude a sense of oily, permeating evil.  This area has a very\r\r\r\r\n\rominous feel to it, as if your death were waiting just around the bend...\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the cavern continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15184
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the cavern continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15183
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15183,
+            "Zone": 151,
+            "Name": "A low stone cavern",
+            "Description": "This low stone cavern has no visible light, and the rough stone walls\r\r\r\r\n\rseem to exude a sense of oily, permeating evil.  This area has a very\r\r\r\r\n\rominous feel to it, as if your death were waiting just around the bend...\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the cavern continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15185
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the cavern continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15182
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15184,
+            "Zone": 151,
+            "Name": "A low stone cavern",
+            "Description": "This low stone cavern has no visible light, and the rough stone walls\r\r\r\r\n\rseem to exude a sense of oily, permeating evil.  This area has a very\r\r\r\r\n\rominous feel to it, as if your death were waiting just around the bend...\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the cavern continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15186
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the cavern continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15182
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, you can see the entrance to Foul's Creche.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15181
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15185,
+            "Zone": 151,
+            "Name": "A low stone cavern",
+            "Description": "This low stone cavern has no visible light, and the rough stone walls\r\r\r\r\n\rseem to exude a sense of oily, permeating evil.  This area has a very\r\r\r\r\n\rominous feel to it, as if your death were waiting just around the bend...\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, the cavern continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15187
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the cavern opens up into a huge chamber.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15188
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the cavern continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15183
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15186,
+            "Zone": 151,
+            "Name": "A low stone cavern",
+            "Description": "This low stone cavern has no visible light, and the rough stone walls\r\r\r\r\n\rseem to exude a sense of oily, permeating evil.  This area has a very\r\r\r\r\n\rominous feel to it, as if your death were waiting just around the bend...\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the cavern continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15187
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the cavern continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15184
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15187,
+            "Zone": 151,
+            "Name": "A low stone cavern",
+            "Description": "This low stone cavern has no visible light, and the rough stone walls\r\r\r\r\n\rseem to exude a sense of oily, permeating evil.  This area has a very\r\r\r\r\n\rominous feel to it, as if your death were waiting just around the bend...\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "To the south, the cavern continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15185
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the cavern continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15186
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15188,
+            "Zone": 151,
+            "Name": "A large stone cavern",
+            "Description": "  As you enter this huge cavern, the evil hits you like a stiff wind of\r\r\r\r\n\rcorruption.  This is Foul's Creche, the seat of evil and corruption in the\r\r\r\r\n\rLand.  Towards the back of the chamber, in front of a tunnel leading further\r\r\r\r\n\rto the east, there is a large stone dias with a huge throne, made of a\r\r\r\r\n\rthick, black rock.  The throne itself seems to glow with a slight, sickened\r\r\r\r\n\rgreenish tinge, providing you with the visual equivilant of a bad smell.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, you can see a door with a sick green light glowing at the edges.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15129,
+                    "Destination": 15189
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, you see a low stone cavern.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15185
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15189,
+            "Zone": 151,
+            "Name": "A glowing green cavern",
+            "Description": "  This cavern glows with a residual green light that instantly makes you\r\r\r\r\n\rfeel like wretching.  This light seems to contain all the 'wrongness' of\r\r\r\r\n\rbetrayal, death, disease, famine, greed, despair, and corruption.  This is\r\r\r\r\n\rthe illearth chamber, the home of the illearth stone.  You feel ill.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, an odd blue portal seems to lead elsewhere.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15101
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, you can see a door leading to Foul's Creche.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15129,
+                    "Destination": 15188
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15190,
+            "Zone": 151,
+            "Name": "Path from Revelstone",
+            "Description": " This pathway leads from the entrance of Revelstone to the east.  Far off\r\r\r\r\n\rin the distance, you can see a large forest, and a beautiful tree that grows\r\r\r\r\n\rin the center of it.  It looks similar to Revelwood, but this tree seems to\r\r\r\r\n\rhave a feeling of sadness to it, even from this distance.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east, the path leads into a large, grassy field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15191
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, you can see the intersection with the path to Revelstone.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15129
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15191,
+            "Zone": 151,
+            "Name": "Path into Grimmerdhore",
+            "Description": " The hills give way to beautiful field of tall, waving grasses.  To the\r\r\r\r\n\rsoutheast, you can see the Forest of Grimmerdhore, and in the center of it,\r\r\r\r\n\rthe tree-village of Soaring Woodhelven, sitting in the shadow of Mount\r\r\r\r\n\rThunder to the east.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "To the west, the path grows more hilly, and leads back to Revelstone.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15190
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, you see the forest of Grimmerdhore\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15147
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15192,
+            "Zone": 151,
+            "Name": "The Forest of Grimmerdhore",
+            "Description": "These forests have none of the tranquility of the Revelwood woods.  Here,\r\r\r\r\n\rthere seems an almost perceptable feeling of evil, eminating from the east.\r\r\r\r\n\rLooking eastward, you see the forest give way to the hills of Andelain.\r\r\r\r\n\rThey appear lush and inviting, but the feeling of dread persists.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north the forest of Grimmerdhore continues.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15144
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you can see the Hills of Andelain.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15193
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast you can see the base of the Tree-town of Soaring Woodhelven.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15145
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15193,
+            "Zone": 151,
+            "Name": "The Hills of Andelain",
+            "Description": "These hills are lush with life, and a feeling of peace eminates from the\r\r\r\r\n\rvery ground you walk upon.  That feeling of peace is shattered, though, by\r\r\r\r\n\ra very strong sense of an evil presence.  Over the hills, you can see small,\r\r\r\r\n\rdancing motes of light.  Could these be the fabled wraiths of Andelain?\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you can see the base of the Tree-town of Soaring Woodhelven.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15145
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The the east the Hills of Andelain continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15143
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, you can see the forests of Grimmerdhore.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15192
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast the Hills of Andelain continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15146
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest you can see the forest of Grimmerdhore.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15144
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15194,
+            "Zone": 151,
+            "Name": "A long stairway",
+            "Description": "This stairway seems to go on forever.  As you finally descend through the\r\r\r\r\n\rclouds, you can see you have hundreds of feet to go.  The surface of the\r\r\r\r\n\rearth never looked so good as you approach...\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "Up these stairs is the plateau called Kevin's Watch\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15103
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Down these stairs, you can see the surface of the land\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15104
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15195,
+            "Zone": 151,
+            "Name": "The Heer's Chambers",
+            "Description": " Here is the chamber of Llaura, the Heer of Soaring Woodhelven.  It is here\r\r\r\r\n\rthat the decisions regarding the safety and properity of the entire \r\r\r\r\n\rWoodhelven is made.  The room is sparse and utilitarian, and seems to give\r\r\r\r\n\roff a sense of seriousness and dedication.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "Below, you can see the central meeting chamber of the Woodhelven.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15149
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15196,
+            "Zone": 151,
+            "Name": "The center of Revelwood",
+            "Description": " You stand within the large, central area of Revelwood.  All about you, a\r\r\r\r\n\rnet has been drawn of vine and attached to various branches, creating a\r\r\r\r\n\rflexible plateau of sorts, which allow for large numbers of people to all\r\r\r\r\n\rgather in one place.  This appears to be the main social area of this\r\r\r\r\n\rrather unusual village, and is suprisingly stable for it's construct.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "Looking up, you see a large hollow in the tree trunk\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15197
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You look down and see the base of Revelwood\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15119
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15197,
+            "Zone": 151,
+            "Name": "The Loresraat",
+            "Description": "Here is the center of learning for the land.  Here, the secrets of High\r\r\r\r\n\rLord Kevin's lore are studied.  The secrets of the lillianril are\r\r\r\r\n\rattempted by the Hirebrands, and the mysteries of the Rhadhamaerl are\r\r\r\r\n\rstudied by the Gravelingases.  All the lore that is learned here is passed\r\r\r\r\n\ron the lord of Revelstone for use by those entrusted with the care of\r\r\r\r\n\rthe land.  Here, in what seems a natural hollow in the trunk of this\r\r\r\r\n\renourmous tree, the sense of earthpower is truly staggering!\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "Looking down, you can see the netted main area of Revelwood\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15196
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15198,
+            "Zone": 151,
+            "Name": "The Plains of Ra",
+            "Description": " As far as the eye can see are acres and acres of tall grasses, waving in\r\r\r\r\n\rthe warm, mild breezes that roll across this area.  It is here that the\r\r\r\r\n\rRamen, the people whose lives are dedicated to tending the Ranyhyn, have \r\r\r\r\n\rset up their camp.  Here is where the ramen congregate, to get their\r\r\r\r\n\rwater, and to socialize.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "To the northeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15170
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15169
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To the southeast, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15166
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To the southwest, the plains continue.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15165
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15199,
+            "Zone": 151,
+            "Name": "Transition point",
+            "Description": "This is a flat, featurless point in netherspace.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "Below, you can see flat rock...\r\r\r\r\n\r",
+                    "Keywords": [
+                        "portal"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15103
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

@@ -1,0 +1,2650 @@
+{
+    "rooms": [
+        {
+            "ID": 22200,
+            "Zone": 222,
+            "Name": "Entrance to Acme Acres",
+            "Description": "You have somehow managed to find the glorious land of Acme Acres...\nBefore you is the entrance to Acme Looniversity where all your favorite\ncartoon misfits learn to be more devious!!!\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22233
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A Desert Trail.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22201
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22201,
+            "Zone": 222,
+            "Name": "Courtyard of Acme Looniversity",
+            "Description": "This is the courtyard right in front of the Looniversity, you see a large\nfountain to the south, and the School is just south past the fountain...\nHappy Learning!\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A Desert Trail.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22200
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A Desert Lane.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22202
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22202,
+            "Zone": 222,
+            "Name": "Fountain by the Courtyard",
+            "Description": "There is a large fountain here spewing forth fresh water, and spraying the\nstudents who are hurrying to class!!  You see the school to the south...\nTo the east you see a nice shady spot to study!\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A Desert Trail.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22201
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22204
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A Desert Lane.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22203
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22203,
+            "Zone": 222,
+            "Name": "Steps to the Looniversity",
+            "Description": "You have stumbled onto the steps of the Looniversity, you see before you, the\nsteps of the great school which brought forth such greats as Bugs Bunny,\nElmer Fudd, Lord knows how he got a diploma!\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A Desert Lane.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22202
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A Sandy Road.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22205
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22204,
+            "Zone": 222,
+            "Name": "Study Break",
+            "Description": "This is the room to do all your pre-battle preparation, and or studying as\nsome of the students are doing and they are asking you to be quiet too!\nHow Rude!\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22202
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "flower",
+                        "cactus"
+                    ],
+                    "Description": "They have beautiful pink, blue, and yellow blossoms.\n"
+                }
+            ]
+        },
+        {
+            "ID": 22205,
+            "Zone": 222,
+            "Name": "Entrance to Acme Looniversity",
+            "Description": "The doors to the school look a little contorted, perhaps its just you, or\nmaybe the fact they are cartoons and drawn that way, no matter...\nYou may enter through to the south or go back to the courtyard...\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22203
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22206
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22206,
+            "Zone": 222,
+            "Name": "Grand Hall of Acme Looniversity",
+            "Description": "You have entered the grand entrance hall of the school, you see students\nracing to get to their classes, you hope you are not late as Principal\nYosemite Sam is not a kind and understanding soul!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22205
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A Sandy Road.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22207
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22223
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22207,
+            "Zone": 222,
+            "Name": "Hallway in Acme Looniversity",
+            "Description": "It is a hallway as long as the eye can see, but you do see each classroom\nand frantically start to look for your class!!!  To the east the hall\ncontinues with more classrooms!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The Great Gates of Agrabah.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22208
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A Sandy Road.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22206
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22208,
+            "Zone": 222,
+            "Name": "Hallway in Acme Looniversity",
+            "Description": "The hallway continues east and west, but a classroom marked, Physics, lies\nto the north, you wonder how tough this could be, then you see the instructor\nWile E. Coyote, GULP, you hope there is a curve!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22299
+                },
+                {
+                    "Direction": "East",
+                    "Description": "Inside the Great Gates.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22209
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A Sandy Road.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22207
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "Description": "The massive gates look to be made of solid iron, and very impenetrable.\n"
+                }
+            ]
+        },
+        {
+            "ID": 22209,
+            "Zone": 222,
+            "Name": "Hallway in Acme Looniversity",
+            "Description": "The hallway continues, you can go east and west, and you notice another\nclassroom to the south, it is labeled the Home Ec. Lab\nProf. Taz will be waiting for you inside!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "West Camel Walk.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22210
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22298
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The Great Gates of Agrabah.\n",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22208
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22210,
+            "Zone": 222,
+            "Name": "Hallway in Acme Looniversity",
+            "Description": "The ever endless hallway continues to the east and west, there is also the\nclassroom to the north, labeled the Common Sense of Tooning class...\nProf. Elmer Fudd presiding, how this happened, we do not know!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22297
+                },
+                {
+                    "Direction": "East",
+                    "Description": "West Camel Walk.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22211
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Inside the Great Gates.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22209
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22211,
+            "Zone": 222,
+            "Name": "North-East corner of Acme Looniversity",
+            "Description": "You have made it to the corner of the school and can continue south or west.\nTo the south you can see more classrooms as well as to the west!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22212
+                },
+                {
+                    "Direction": "West",
+                    "Description": "West Camel Walk.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22210
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22212,
+            "Zone": 222,
+            "Name": "East Hallway of Acme Looniversity",
+            "Description": "The hallway continues north and south and there are some more classes to the\nsouth, you hope they will be as easy as the other classes were...a few students pass you and say Hi and slap your back, you feel foolish for some reason!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22211
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22213
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22213,
+            "Zone": 222,
+            "Name": "East Hallway of Acme Looniversity",
+            "Description": "The eastern hallway is no different than any other hallway in the school\nbut you do notice another class to the west, labeled Speech...\nProf. Foghorn Leghorn is your teacher, again, we don't know how this happened\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22212
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22214
+                },
+                {
+                    "Direction": "West",
+                    "Description": "West Camel Walk.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22296
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22214,
+            "Zone": 222,
+            "Name": "South-East corner of Acme Looniversity",
+            "Description": "The corner of this school is kinda messy, you wonder why then you see that\nthis is the corner where Elmira tosses her pets when she is done with them!\nYou hope to GOD she is not around or is in class! Exits to the north and west!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Palace Walk.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22213
+                },
+                {
+                    "Direction": "West",
+                    "Description": "West Camel Walk.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22215
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22215,
+            "Zone": 222,
+            "Name": "Southern Hallway of Acme Looniversity",
+            "Description": "You notice more classes to the west and a messy corner to the east!\nYou hear noise to the west as well...probably the cafeteria!!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22214
+                },
+                {
+                    "Direction": "West",
+                    "Description": "West Camel Walk.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22220
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22216,
+            "Zone": 222,
+            "Name": "Southern Hallway of Acme Looniversity",
+            "Description": "The hallway is much the same as the rest, lockers, classrooms, and the cafeteria entrance is to the west!  You hear a lot of noise coming from that direction!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22215
+                },
+                {
+                    "Direction": "West",
+                    "Description": "West Camel Walk.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22217
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22217,
+            "Zone": 222,
+            "Name": "Entrance to the Cafeteria",
+            "Description": "You see food smeared all over the windows of the cafe, it appears the good\nPrincipal Sam has not been through here lately, and God save these poor\nkids if he does, maybe you should pass on lunch today!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22216
+                },
+                {
+                    "Direction": "West",
+                    "Description": "West Camel Walk.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22216
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22219,
+            "Zone": 222,
+            "Name": "Palace Walk",
+            "Description": "You are on a walk made of sandstone leading north and south through town.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The Central Square.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22214
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22220,
+            "Zone": 222,
+            "Name": "Southern Hallway of Acme Looniversity",
+            "Description": "You catch a whiff of the lovely fragrance of the cafe to the west...you get sick\nto your stomach, and pass out, BUT when you recover you can go west or east!\nEast, back the way you came, or west, to certain doom, errr the Cafeteria!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22215
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22221
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22221,
+            "Zone": 222,
+            "Name": "Entrance to the Cafeteria",
+            "Description": "You notice food smeared all over the windows, it would appear the good Principal Sam has not seen this section of school today!\nMaybe you should tell him, or flee before you get blamed!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22220
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22222
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22222,
+            "Zone": 222,
+            "Name": "The Cafeteria of Acme Looniversity",
+            "Description": "Food is scattered all over the place, you notice some of the students just\nsitting by calmly eating their lunches, others are engaged in other\nactivities.  The special of the day...mystery meat...flee, save yourself!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22221
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22223,
+            "Zone": 222,
+            "Name": "Hallway in Acme Looniversity",
+            "Description": "Much the same as the other halls in this big establishment, long, filled with\nlockers, and classrooms all about!  You also see a big room to the west, you\nwonder what it is for?  What room could need to be so big!?\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22206
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22224
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22224,
+            "Zone": 222,
+            "Name": "Hallway in Acme Looniversity",
+            "Description": "You continue down the hallway and notice that huge room to the west seems to\nbe growing as you get closer!  You also see a classroom to the north!\nDirty Tricks to Play on Your Friends...Daffy Duck teaches this one!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22295
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22223
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22225
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22225,
+            "Zone": 222,
+            "Name": "Hallway in Acme Looniversity",
+            "Description": "The hall continues east and west, but that room to the west has continued to\ngrow and you are beginning to fear what may be inside!  There is another\nclassroom to the south titled Porky's Etiquette and Charm Class 122!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22224
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22294
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22226
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22226,
+            "Zone": 222,
+            "Name": "Hallway in Acme Looniversity",
+            "Description": "You look and see there is another classroom to the north, this is the class\nyou have been waiting for, Bugs Bunny's Class on Wit, Sly Tactics, and all\nAround Good Fun!!!!  His class is to the north, or there's east and west!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22293
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22225
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22227
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22227,
+            "Zone": 222,
+            "Name": "North-West Corner of Acme Looniversity",
+            "Description": "The hallway is much the same as the others, but to the west you see the sign\nfor Detention!!  To the south is more hallway, slightly darker however, and\nmore craziness you assume!  The choice is yours, you could go back east too!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22226
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22229
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22228
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22228,
+            "Zone": 222,
+            "Name": "Detention Room",
+            "Description": "There are enough seats in here to fill most college lecture halls, no wonder\nit is so large, most the students from the school are here everyday as if\nTHIS were a normal class as well!!!  And they looked like such nice toons!\nThere is a desk here with writing on it which reads, Reserved for Max!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22227
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22229,
+            "Zone": 222,
+            "Name": "Western Hallway in Acme Looniversity",
+            "Description": "It is very dark here, the hallway continues north and south, towards the south\nYou can slightly make out the resemblance of stairs, you hope they are stairs!\nIn this place there's no telling what it could be!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22227
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22230
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22230,
+            "Zone": 222,
+            "Name": "Western Hallway in Acme Looniveristy",
+            "Description": "The hallway still continues north and south, to the north you know whats there\nbut you do not know what awaits you at the end of this hallway, but you can\nalmost make out the shape of stairs to the south!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22229
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22231
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22231,
+            "Zone": 222,
+            "Name": "Stairs to the Principal's Office",
+            "Description": "These stairs seem to go up into the very atmosphere, but you know they go to\na much worse place!  The principal's office!!!!  Prepare yourself before you\nenter, I hear the principal isn't know for his patience!!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22230
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22292
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22233,
+            "Zone": 222,
+            "Name": "Portal to Cartoon and Disney Land(s)",
+            "Description": "There are portals, on all sides taking you to different areas of toonland!\nYou may enter the one with which you desire to visit now!!\nHave a safe trip!\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6400
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22200
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3815
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3073
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22235,
+            "Zone": 222,
+            "Name": "Hidden Lair of the Anime Legends",
+            "Description": "A secret lair where the people at Warner Brothers sit and try to figure out\nwhat makes Anime so damn popular and so they can duplicate it and make even\nmore millions off it.  All the legends of the screen stand here being looked\nat by a producer or director of some kind.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22236
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 22203,
+                    "Destination": 22246
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22236,
+            "Zone": 222,
+            "Name": "Room of Anime Legends",
+            "Description": "A continuance of the secret laboratories of Warner Brothers studios attempt\nto steal the Anime market over here.  They have more guests from the famed\ncartoons and are interrogating them tremendously.\nI doubt some of them will take much more of this.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22239
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22238
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The door",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22235
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22237
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22237,
+            "Zone": 222,
+            "Name": "A schoolyard",
+            "Description": "A schoolyard filled with children all dressed in uniforms and looking nice.\nA certain group catches your eye however, a group with a large pudgy lil guy\na cute little girl and two distinctly different styles of students.  They\nboth look like they know their way around but one has a determination while \nthe other has a look of drive and hatred that nothing will stop him from his\nplans.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22236
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22238,
+            "Zone": 222,
+            "Name": "Neo-Tokyo",
+            "Description": "A replica of the famed Neo-Tokyo where Akira is known to have destroyed the\nentire city with a mere thought.  Akira was the most powerful telekinetic\nforce to ever hit the world, and he showed it.  He aided in the saving\nof a young boy who had not yet mastered his powers, Tetsuo.  They with their\nfriend Kaneida stand here defiantly.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22236
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22239,
+            "Zone": 222,
+            "Name": "Further into the Dark hallways of the Warner Brothers Anime files",
+            "Description": "As you continue down the hallway you see more doors and wonder who has been\nhidden behind them for they are worn and slightly tattered about the hinges.\nYou wonder if now is a good time to get out of here before whatever is behind\nthe door senses you and bursts out of the room.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22241
+                },
+                {
+                    "Direction": "East",
+                    "Description": "the door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22242
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22236
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22240
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22240,
+            "Zone": 222,
+            "Name": "A castle out in a field of future Earth",
+            "Description": "A time and place in the future when mutants have come about thanks to man's\ndesire to make more money and has killed the eco structure as we know it.\nIt has brought us mutants such as werewolves and vampires and the half-breeds\nof both.  This is where you will find the more dreaded of all mutants, the\none they call D.  He is a vampeil, or half vampire, half human.  He is rumored\nto come from the greatest vampire that ever lived or still does live, Dracula!\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22239
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22241,
+            "Zone": 222,
+            "Name": "A old japanese temple",
+            "Description": "An old japanese temple brought back to its glory by the power of the goddess\nBelldandy.  She made the place brand new when her and the boy who accidentily\nwished for a girl like her to be by his side forever when she offered him one\nwish.  He later came to love the goddess and after the arrival of her sisters\nthey became a giddy little family.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22279
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22239
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22242,
+            "Zone": 222,
+            "Name": "King of Fighters Tournament",
+            "Description": "A big arena is in this room and in the arena are some of the meanest fighters\nthe world has ever known, and they want to beat you to a bloody pulp!\nYou have often pondered life and what your purpose here is, but getting killed\nby these monsters of incredible force was not it you are thinking.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "curtain"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 22238,
+                    "Destination": 22273
+                },
+                {
+                    "Direction": "West",
+                    "Description": "the door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22239
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22243,
+            "Zone": 222,
+            "Name": "Entrance to Warner Brother Studios",
+            "Description": "As you stand before the great studios that have spawned the Lethal Weapon\nseries and such family greats as those wild and crazy cartoons you all know\nand love.  You hope to get a glimpse of what is beyond the gate and maybe\nsee a movie being made, but to the north you notice a gate and a guard!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22244
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10302
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22244,
+            "Zone": 222,
+            "Name": "The Gate to Warner Brothers Studios",
+            "Description": "The gate which seperates stardom from the hum drum of everyday life is what\nlies here in front of you.  You see the guard post here that has a assortment\nof snacks and goodies to be eaten but the owner seems to off somewhere, must\nbe an emergency for him to leave the post unguarded!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The gate\n",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 22211,
+                    "Destination": 22245
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22243
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22245,
+            "Zone": 222,
+            "Name": "Warner Brothers Studio Lot",
+            "Description": "As you look upon the grand scape of everything here on this rather compact\nstudio, you still see the buildings where they actually shoot the movies\nand you wonder if maybe you could get a sneak peek at a upcoming movie!\nYou decide against it as you figure you are in here against rules anyway,\nbest not to push your luck!  There are two studios, one to the east and\non to the west, the gate is to the south.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22248
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22246
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The gate\n",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 22211,
+                    "Destination": 22244
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22247
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22246,
+            "Zone": 222,
+            "Name": "Warner Brothers Studio A",
+            "Description": "As you enter into Studio A of the Warner Brothers Studio you notice a face\nthat women die for!  Mel Gibson is standing over there, and he is as\nstudly as all the ladies remember!  This must be the new Lethal Weapon movie!\nYou wonder where that annoying little pest who played Leo Getz is!\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 22203,
+                    "Destination": 22235
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22245
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22247,
+            "Zone": 222,
+            "Name": "Warner Brothers Studio B",
+            "Description": "You enter this studio wondering what star you might bump into, and in fact,\nit is empty!  The Warner Brothers team must be slowing down a bit!  There is\nsome old movie props lying around but that is it.  This is a ghost studio\nfrom what you can see!!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22245
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22248,
+            "Zone": 222,
+            "Name": "Warner Brothers Studio Lot",
+            "Description": "As you meander through the studios lot, you notice another studio north...\nto the south is two studios and farther up north you see a huge water tower.\nYou wonder what could be in it, it looks far to old to be in use!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22249
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22245
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22249,
+            "Zone": 222,
+            "Name": "Warner Brothers Studio Lot",
+            "Description": "You look around and see a nice office building to the east, there is also\nanother studio to the west.  You can see that large water tower to the north\nand to the south is more studios.  There are people running everywhere, they\nmust be getting ready for the big production number, when a explosion from\nthe nearby studio almost rocks you to the ground!  THAT is what they were\nrunning from!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22259
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22251
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22248
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22250
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22250,
+            "Zone": 222,
+            "Name": "Warner Brothers Studio C",
+            "Description": "As you enter the studio it is filled with a dense smoke and a heat like you\nhave never experienced, as you enter you look around and see that some huge\nbomb or explosive device has been triggered and you look to see what movie\nit is.  As you scan the area you can see the director and the cameramen...\nthen while looking you see the star of the show...JEAN-CLAUDE VAN DAMME!!!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22249
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22251,
+            "Zone": 222,
+            "Name": "Office Building of Warner Brothers Studio",
+            "Description": "As you enter the nice cool air conditioned atmosphere you feel relaxed and\nfeel you can look around and maybe get to talk with one of the big wigs\nabout getting you in a movie, after all you have fought a few battles.  You\nhave definately made a few stories that you could take pride in!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22252
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22249
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22252,
+            "Zone": 222,
+            "Name": "Secretary's Office",
+            "Description": "A large wooden desk sits here with papers scattered and a cup of steaming\ncoffee on the desk.  You look for the owner of the desk to try and see about\ngetting an appointment with the director.\nTo no avail she must have just stepped out to get him something, maybe you\nshould wait, or maybe you could just walk in and talk to him.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22253
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22251
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22253,
+            "Zone": 222,
+            "Name": "Hallway of the office building",
+            "Description": "As you have snuck past the secretary, you look for the door to the directors\noffice in the hopes of getting your story put on film so you can be a multi\nmillionaire and not have to run around killing things anymore.  You hear \nsomeone coming, you duck in a doorway.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22254
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22252
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22254,
+            "Zone": 222,
+            "Name": "Hallway in a office building",
+            "Description": "As you continue down the hallway you notice two doors here...one labeled\nDr. Scratchinsniff, local psychiatrist.  The other is labeled 'Nurse'.\nThis is not the time you think for a mental examination, you have broke\ninto a movie studio, are galavanting around snooping through studios, and\nnow you want to have your life story made into a movie...your perfectly sane!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22257
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22255
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22253
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22256
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22255,
+            "Zone": 222,
+            "Name": "Dr. Scratchinsniff's Office",
+            "Description": "You walk into the office looking for the good doctor, when instead you see\nhis couch and a nice comfy pillow on it, you can't resist!  As you lay back\nand stretch out and enjoy the couch a voice from behind you says 'So! How\nare you feeling today??' That has got to be the worst accent you have ever\nheard!!  You begin to look for the exit before you have to kill him to get\nhim to shut up!!!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22254
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22256,
+            "Zone": 222,
+            "Name": "Nurse's Station",
+            "Description": "You look around in this almost blinding white room.  This is the brightest\nroom you have ever seen it is almost to much until your eyes start to adjust,\nthat's when you notice the \"hardware\" of the typical nurse, you see the\ndegree on the wall and the obvious qualifications of the nurse on staff!\nYou hear a voice call from behind the door saying \"Remove your clothes, I'll\nbe with you in a moment\"  The voice was female...you get a little jittery\nand look for the exit!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22254
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22257,
+            "Zone": 222,
+            "Name": "Hallway in a office building",
+            "Description": "You have reached the end of the hallway.  You see a big door labeled Director\nat last you have found what you have been seeking here.  You give a faint\nknock, no reply, you knock again, nothing.  You wonder if anyone is even in\nthere, and so you decide to peep your head in the door to see!!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22254
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22258
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22258,
+            "Zone": 222,
+            "Name": "Director's Office",
+            "Description": "You have stumbled upon the office of that director extrordinaire! Steven\nSpielberg is here wondering what you want with him.  He looks over something\nand you see a script in the corner that has dust and must not have made it\npast the stage it is at right now...it looks to be labeled E.T. 2!!!\nYou better make it quick, he looks to be very busy!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22257
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22259,
+            "Zone": 222,
+            "Name": "Warner Brothers Studio Lot",
+            "Description": "As you look through this part of the lot you notice that huge water tower\nis directly to the north.  You can also see the Acme Labs to the west and\na road leading back behind the studios.  Where it goes there is only one\nway to find out.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22261
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22266
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22249
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22260
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22260,
+            "Zone": 222,
+            "Name": "Acme Labs",
+            "Description": "This is the laboratory of the great minds of the Acme company!  This is where\nthose genius' of young and old can get their hands on cool equipment!\nIt is also the home of those two lovable mice that plan for world domination!\nYou look around for them to see if they are still in their cage!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The door\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22259
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22261,
+            "Zone": 222,
+            "Name": "Base of the Water Tower",
+            "Description": "You are at the base of a high water tower, it is yellow with the Warner\nBrothers symbol painted on it way at the top you can see a wheel that\nwhen turned looks like it could open the entire tower up!\nThere is a rusty ladder that goes up the tower and you can see it goes to the\nvery top, so if your feeling adventurous go for it!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22259
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22262
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22262,
+            "Zone": 222,
+            "Name": "On the Water Tower",
+            "Description": "As you climb the tower you can see the whole lay of the land.  You see the\nstudios and all the people running around and you see that pudgy little\nguard that you snuck by to get into the studio!  UT OH!! He sees you too!!\nYou better hurry up and get down before he gets some friends and comes\nand removes you the hard way!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22263
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22261
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22263,
+            "Zone": 222,
+            "Name": "On the Water Tower",
+            "Description": "You continue climbing and begin to get winded, both tired and you notice the\nwind is picking up at this altitude!  You wonder what you will find up here\nor maybe you can at least get a good vantage point to see the entire land!\nYou see the opening of the floor of the tower right above you, or you can\nclimb your way back down!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22264
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22262
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22264,
+            "Zone": 222,
+            "Name": "On top of the Water Tower",
+            "Description": "As you reach the top of the water tower you can look out and see the horizon\nand see the beginning and end of the day here.  It is a magnificent view, you\nwonder why no one else ever comes up here to enjoy the view.  You then see\nthe wheel that once you turn the tower may be opened...you fear what may be\ninside, maybe it DOES still contain water, who knows, turn it and see!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The tower\n",
+                    "Keywords": [
+                        "tower"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 22211,
+                    "Destination": 22265
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22263
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22265,
+            "Zone": 222,
+            "Name": "Inside the Water Tower",
+            "Description": "As you look around inside the tower you notice toys and clothes and fur,\nthat's right FUR everywhere!  You continue to look around in the hopes of\nfinding what dwells in this mess, this chaos gone wild, and then, as if\nan answer to your questions, you see...THEM!!!  THE WARNER BROTHERS!!!!\nAND The Warner Sister!!!!  FLEE!!!!  FLEE AT ONCE!!!!!!!!!!!!!!  CLOSE\nTHE DOOR QUICK!!!!!!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The tower\n",
+                    "Keywords": [
+                        "tower"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 22211,
+                    "Destination": 22264
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22266,
+            "Zone": 222,
+            "Name": "Back Road",
+            "Description": "A back road around the back of the studio is what you find, you wonder what\ncould live out in these back woods, but you figure something will present\nitself and if you have to you can defend yourself.  You pat your weapon just\nto check it is still there.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22267
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22259
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22267,
+            "Zone": 222,
+            "Name": "Back Road",
+            "Description": "You walk down this back road some more you see it continues to the north with\nvery little deviation.  It is a normal paved road, but why is it in the middle\nof a movie studio???  Oh well, you look north and see farther down a big tree!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22268
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22266
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22268,
+            "Zone": 222,
+            "Name": "Back Road",
+            "Description": "Moving along down the road you notice the tree to the north is a rather large\none with a mailbox in front of it, you wonder, who the hell has mail in a tree\nyou have begun to stop asking questions in this wild and crazy studio.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22269
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22267
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22269,
+            "Zone": 222,
+            "Name": "Back Road",
+            "Description": "You can keep following the road to the north and to a pretty house, or you\ncan go west here and examine this tree a little closer.  You read the mailbox\nand it reads Slappy Squirrel.  You begin to think this is a joke but stranger\nthings have happened to you on this studio!\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22271
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22268
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22270
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22270,
+            "Zone": 222,
+            "Name": "An Old Oak Tree",
+            "Description": "This tree stretches to the sky and opens up its branches as if to say HI!!!\nUnfortunately the owner of this tree does not share its happy attitude!\nYou poor soul, you have stumbled upon the home of the crankiest of creatures\nin the whole wide world, this is the home of Slappy Squirrel, a one time\nfamous cartoon star, now a old, cranky squirrel, she also lives with\nher nephew Skippy...You better go before she drops a brick on you or something\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22269
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22271,
+            "Zone": 222,
+            "Name": "End of a Back Road",
+            "Description": "The back road dead ends abruptly here for some reason, there is a rather\nnice house to the east, it is fenced in with a little blonde girl playing\nin the yard and a dog watching the little girl carefully.  The gate appears\nto be all that is holding the kid in, she is tearing around chasing butterflies\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The gate\n",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22272
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22269
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22272,
+            "Zone": 222,
+            "Name": "Mindy's House",
+            "Description": "A big colorful house that appears to show the owners to be well off.  There\nis a little girl here asking you \"What'cha doin?\" and then proceding to ask\nyou \"Why\" after every answer. GOD that is annoying!!  She exits proclaiming\n\"O.K. I love you buh bye!!!\"\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The gate\n",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22271
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22273,
+            "Zone": 222,
+            "Name": "A side room from the tournament",
+            "Description": "A shadow filled back hallway that seems to denote trouble around the bend and\nif the competition in the ring is any indication maybe you would be best to\nleave this area.  You hear someone laughing manically seemingly from all\nsides that sends a shiver to the bone.  The walls seem to close in on you and\nyou feel very claustrophobic all of the sudden.  You hate the fear and you\nwant to find what is causing it and you see it...In the shadows to the right\nyou see a IMMENSE human being in a full coat of armor and giving off enough\nenergy and ki to make your hair stand on end.  He speaks to you, \"Are you\nTerry Bogard?\"  You calmly state that you are not and he then says too bad\nand says, \"Entertain me\" you fear his kind of entertainment!  Someone shouts\nKrauser you are a fool leave these piddly insignificants alone and go find\nBogard!  At this the man in the shadows says to you, \"Another time then.\"\nYou feel relieved.\n",
+            "Bits": [
+                "DARK",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22275
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "curtain"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 0,
+                    "Destination": 22242
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "trap door",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22274
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22274,
+            "Zone": 222,
+            "Name": "Geese Howard's Office",
+            "Description": "A huge spacious office with a nice window overlooking the King of the Fighters\ntournament going on at this moment.  You look around and see that Geese is\na man of taste and has a large oak desk with a couple bookcases and a hidden\ncompartment in his desk springs open and scares you.  You look inside to see\na scroll wrapped up and as you unravel it to look at it, Geese\nis upon you demanding you to join his cause as you must be good to get by\nKrauser.  He doesn't like no by the way.  He cackles maniacally at your\nrefusal to join him and it seems to echo all over, now you know where that\ncame from earlier.  You feel humble before this great warrior who only seeks\nto gain revenge on Terry Bogard for defeating him and placing the huge\nscar on his chest as a permenent reminder of his loss.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 22273
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22275,
+            "Zone": 222,
+            "Name": "Further down the dark hallway",
+            "Description": "As you strain to see around you as the dark just seems to swallow every bit\nof light like a shark swallows a fish whole.  You notice a odd little hole\nplaced on a pedastal here.  It looks to be about the size of a retangular\nobject.  You wonder what it opens, but since you have not found what could\npossibly go there you just look around for another exit.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "pedestal",
+                    "Keywords": [
+                        "pedestal"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 22238,
+                    "Destination": 22276
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22273
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22276,
+            "Zone": 222,
+            "Name": "A hidden room",
+            "Description": "A hidden room found only by using the necklace that Sulia carries around her\nneck at all times.  It is where the story of her lineage is told and where the\nmystical Armor of Mars and it's power is explained by the pictures on the\nwall.  The pictures also demonstrate how the origins of both Terry and Andy's\nfighting style began.  As well as Krauser's!  This explains why he\nwas so powerful, he was spawned in a lineage that had the Armor of Mars.\nIt is said that whoever controls all six pieces is the most powerful\nhuman living and if you are a direct decendent of Goddemaus himself as\nLaocorn and Sulia are, you will become a GOD.  There is one minor thing though\nwhile you are staring at the pictures the guardians of the room are here.\nThey do not seem impressed by your being this close to their master.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "wall",
+                    "Keywords": [
+                        "wall"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 0,
+                    "Destination": 22277
+                },
+                {
+                    "Direction": "West",
+                    "Description": "pedestal\n",
+                    "Keywords": [
+                        "pedestal"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 22238,
+                    "Destination": 22275
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22277,
+            "Zone": 222,
+            "Name": "Deeper in the hidden room",
+            "Description": "As you stroll around looking at the other pictures in the room you notice the\ndetail and the storyline unfold more.  It shows Goddemaus ransacking villages\nleft and right being a immense ruler of the roman times and eventually \ncausing the fall of the roman empire because he defeated Alexander to a\npoint that he never recovered and started the vicious downward spiral.\nThe power Goddemaus showed was unstoppable *CRACK* you turn and see someone\nsitting indian style on the floor looking up at you.  He does not appear\npleased with you here, and looks to be the guardian of the room.  He is\ntaller if nto as tall as Krauser and seems to send out waves of energy\nfrom the ground up.  You hope he is not the kind who shoots and asks questions\nlater.  He stands up and assumes a stance and attacks you full force!\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "wall",
+                    "Keywords": [
+                        "wall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 22253,
+                    "Destination": 22278
+                },
+                {
+                    "Direction": "West",
+                    "Description": "wall",
+                    "Keywords": [
+                        "wall"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 0,
+                    "Destination": 22276
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22278,
+            "Zone": 222,
+            "Name": "The chamber of the map",
+            "Description": "This is the room with the map of where all the pieces to the Armor of Mars\nwas buried, that's right, WAS.  It seems Laocorn has succeeded in attaining\nall 6 pieces of the armor and he now plans to dominate the world.  You hope\nyour group is tough enough to stop him because he does not seem impressed\nwith your puny attacks and the fact your mortal flesh can only do so much.\nHe has surpassed humanity and become a GOD and now it appears you will be\nthe first to know what it feels like to have one beat you into a bloody\nmess because here he comes!\n",
+            "Bits": [
+                "DARK",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "wall",
+                    "Keywords": [
+                        "wall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 22253,
+                    "Destination": 22277
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22279,
+            "Zone": 222,
+            "Name": "An open field in Japan",
+            "Description": "A wide open space with nothing but flowers and wide open spaces.  You feel \nthe need to stretch out and languishly relax.  You look around and see a \nwierd looking warrior ranting and raving about how hungry he is.  He is\naccompanied by a wierd looking bird creature with pointy wings that make\nyou wonder how the thing flies by itself, lil alone with a saddle on it's\nback for the rider.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22280
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22241
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22280,
+            "Zone": 222,
+            "Name": "Another form of tournament",
+            "Description": "Another tournament is being held here much like the King of Fighters version\nbut this one is involving all races of creatures from all over the galaxy.\nIt appears the contest has been narrowed down to two contestants and they\nwould not appriciate you interrupting them.  There is a square ring with \na dragon looking female at one end and a short lil pointy eared demon at\nthe other.  They appear to mean business but if you know this anime show\nyou know it will not be without it's humor as well.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22279
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22292,
+            "Zone": 222,
+            "Name": "Principals Office",
+            "Description": "This is the office of Principal Yosemite Sam!  He is the one who keeps the\npeace in this school, if you have been summoned, begin praying now!  If you\nhave an appointment, take a seat and wait, if neither apply, WHY are you here?\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22231
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22293,
+            "Zone": 222,
+            "Name": "Bugs' Class for Humor, Wit, and Good Clean Fun!",
+            "Description": "You look around to see that this teacher loves his carrots!  There are pictures\n everywhere, and a box on his desk which looks like a cigar box but is labeled\nBig Orange, picked fresh daily!  We know where his payment goes!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22226
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22294,
+            "Zone": 222,
+            "Name": "Porky's Class for Etiquette and Charm 122",
+            "Description": "The classroom is remarkably neat and tidy, it will probably stay this way for\na long time too as this teacher is notorious for neat and cleanliness...\nAt least until Prof. Taz comes down and demolishes the place again!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22225
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22295,
+            "Zone": 222,
+            "Name": "Daffy's classroom for Dirty Tricks 101",
+            "Description": "You look to see this room is filled with all kinds of devices that would be\nmost bothersome to rabbits, you wonder if this is going to be the focus of\nthe course.  He has many volumes of books on \"How to Fool Your Friend\"\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22224
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22296,
+            "Zone": 222,
+            "Name": "Foghorn's classroom for speech",
+            "Description": "As you enter you notice a big nest in the corner, prolly for his breaks,\nthere is also a big sign by the clock saying, Pay Attention Boy!\nThis looks to be boring...flee while you can!!!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22213
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22297,
+            "Zone": 222,
+            "Name": "A basic classroom, with one minor difference, it has a old hunting rifle",
+            "Description": "This is a normal classroom, but judging from the way it is kept, it does\nnot bode well you will learn much.  There are several old posters of\nrabbits and slashes through them...the teacher doesn't like rabbits!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22210
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22298,
+            "Zone": 222,
+            "Name": "Home Ec. Class",
+            "Description": "You have walked into a classroom loaded with ovens and other kitchen items\nThere appears to be a cookbook out with a the page turned to Rabbit\nSandwich must be the chef's favorite, the book is half eaten though!\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22209
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 22299,
+            "Zone": 222,
+            "Name": "Physics Lab",
+            "Description": "You just walk in and notice the Prof. has not yet made his appearance...\nThere are beakers a plenty, and blueprints for grand devices...and a\nposter of a lil blue bird with a slash through it...\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22208
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

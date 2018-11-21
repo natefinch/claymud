@@ -1,0 +1,3269 @@
+{
+    "rooms": [
+        {
+            "ID": 11800,
+            "Zone": 118,
+            "Name": "Standing just outside the portal.",
+            "Description": "You are standing before a glowing portal and there is light all around you.\r\r\r\r\n\rTo the north the light gets brighter and brighter. Although the light\r\r\r\r\n\rseems very intense your eyes are not being hurt at all.  All around you \r\r\r\r\n\rthere are voices urging you ahead.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "NORELOCATE",
+                "FLY"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11801
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "altar"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 6155
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11801,
+            "Zone": 118,
+            "Name": "A portal of some kind.",
+            "Description": "You are standing in a spacious room that is filled with smoke and fog.  You \r\r\r\r\n\rcan barely see your hand in front of your face much less the exits out \r\r\r\r\n\rof this room.  There are images that seem to pass in front of your eyes\r\r\r\r\n\rjust barely out of reach and just barely visible to you.  You seem \r\r\r\r\n\rto be able to pick out images of your holidays from the past. Hmmmm\r\r\r\r\n\rkinda wierd.   There is a slight bit of music that is filtering in from \r\r\r\r\n\rsome where but you cannot seem to make out what it is or where it is \r\r\r\r\n\rcoming from.  There is a Large sign just before you.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11826
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11800
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11802
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11810
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign",
+                        "large"
+                    ],
+                    "Description": "The sign says:\r\r\r\r\n\r\r\r\r\r\n\rWELCOME TO HOLIDAY HELL......\r\r\r\r\n\rHASN'T YOUR FAMILY PUT YOU THROUGH THIS ALREADY?!??!\r\r\r\r\n\r\r\r\r\r\n\rThis zone is brought to you By the Teddy Construction company. \r\r\r\r\n\rWith help from independant contractors Lapo and Sheol.\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "Sign",
+                        "large"
+                    ],
+                    "Description": "The sign says:\r\r\r\r\n\r\r\r\r\r\n\r              WELCOME TO HOLIDAY HELL.....\r\r\r\r\n\r                   HASN'T YOUR FAMILY PUT YOU THROUGH THIS ALREADY???\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 11802,
+            "Zone": 118,
+            "Name": "A wintery wonderland.... You think.",
+            "Description": "There is snow all around you that glistens like flakes of pure gold.  Just \r\r\r\r\n\rbefore you there is a large castle that seems to hover and vibrate ever\r\r\r\r\n\rso slightly. The snow shows no sign of anyone traveling this way in \r\r\r\r\n\rquite some time.  As you look at the castle you notice no signs of life \r\r\r\r\n\rthere either....hmmm you wonder if anyone lives there at all.  The castle\r\r\r\r\n\ris covered in the same glistening snow that covers the trees and the \r\r\r\r\n\rground.  The sphires jut gracefully into the sky as if announcing that\r\r\r\r\n\rtehy too are royalty as well as the inhabitants of this grandios castle.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "FLY"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11801
+                },
+                {
+                    "Direction": "West",
+                    "Description": "There is a drawbridge that is leading to a castle built of gold.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "drawbridge"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 11828,
+                    "Destination": 11803
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "Castle"
+                    ],
+                    "Description": "The castle is huge and it apprears to hover before you. The caslte\r\r\r\r\n\ris so lovely and sparkly that you nearly have to shield your eyes\r\r\r\r\n\rfrom the light that it puts out.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 11803,
+            "Zone": 118,
+            "Name": "The Drawbridge.",
+            "Description": "You are standing in from of the castle.  There is a large wooden drawbridge\r\r\r\r\n\rin front of you.  The planks Of the drawbridge look like they have been \r\r\r\r\n\rjoined by golden spikes.  The rope looks like it is pure gold spun\r\r\r\r\n\rinto a large rope that would hold up anything. AS you look around you see\r\r\r\r\n\rthat nearly everything looks like it has been touched with gold.\r\r\r\r\n\rThe tree's have golden leaves on them and the Bricks of the castle \r\r\r\r\n\rlook like pure gold bricks.  There ius snow drifted up all around the \r\r\r\r\n\rcastle walls and the moat is filled with molten gold that seems to flow \r\r\r\r\n\rall around you and fill you with the warm feeling.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "NOMAGIC",
+                "FLY"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11804
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "drawbridge"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 11802
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11804,
+            "Zone": 118,
+            "Name": "Entrance foyer to the Castle.",
+            "Description": "You are in a long room.  There are tapestries on the walls that are laced\r\r\r\r\n\rwith gold thread and look to be worth a fortune.  There are large portraits\r\r\r\r\n\ron either side of this room and on each end as well.  The portaits look \r\r\r\r\n\rto be off the people who inhabit this wonderfulm castle.  There is a small\r\r\r\r\n\rtable that is long and slender and sits against on wall.  On this \r\r\r\r\n\rtable there are candlesticks and platters in gold with lovely designs \r\r\r\r\n\rengraved into them. Should you go further into the castle without the \r\r\r\r\n\rpermission of those who live here?\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC",
+                "NORELOCATE",
+                "FLY"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11805
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11803
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11818
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11808
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "You are now afk to do as you please.  Get a coke, smoke a cigerette, or \r\r\r\r\n\rjust to go potty please hurry back as all lifeless adventures are sent\r\r\r\r\n\rback to their creator after a set time.\r\r\r\r\n\r0\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 11805,
+            "Zone": 118,
+            "Name": "A hallway",
+            "Description": "You are standing in a long dark hallway in an old musty castle. There are \r\r\r\r\n\rtorches lighting the way as you creep down the hallway.  There seems to be \r\r\r\r\n\rsome light coming from somewhere up ahead.  The walls are made of rock\r\r\r\r\n\rand seem to be impentrable to the weather and enemy attacks.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11817
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11804
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11806,
+            "Zone": 118,
+            "Name": "Father Time's Clock room.",
+            "Description": "You are in a large room that has several thousand clocks lining the walls\r\r\r\r\n\rand ceiling.  There are big clocks, small clocks, Grandfather clocks, and\r\r\r\r\n\rcuckoo clocks.  The clocks are a bit odd however, they do not count\r\r\r\r\n\rhours or minutes, they count days, weeks, and the year.  The ceiling \r\r\r\r\n\ris high above you but yet it is covered in clocks too. The floor is\r\r\r\r\n\rmade of marble and it makes one huge clock that seems to vibrate below\r\r\r\r\n\ryou.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a large grandfather clock here...it seems to stand out a bit...\r\r\r\r\n\ralmost like it is standing open\r\r\r\r\n\r",
+                    "Keywords": [
+                        "clock"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 11801,
+                    "Destination": 11850
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11817
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11807,
+            "Zone": 118,
+            "Name": "Baby New Year's Nursery and Playroom.",
+            "Description": "You are in a nursery.  There are little ducks all over the wallpaper.\r\r\r\r\n\rOver the crib is a mobile that has ducks and cute little critters all\r\r\r\r\n\rover it.  The toy box is brimming with lots of things little ones \r\r\r\r\n\rlike to play with.  There is a changing table that has diapers and \r\r\r\r\n\rpowder sitting on it as if the baby just had his bath.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11819
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11808,
+            "Zone": 118,
+            "Name": "A Hallway in the damaged wing.",
+            "Description": "You are in a long hallway that appears to have been damaged by the heavy \r\r\r\r\n\ramounts of snow that must fall around here.  The ceiling looks to be \r\r\r\r\n\rdamaged and swaying in the breeze.  It seems to be dangerously \r\r\r\r\n\rclose to falling.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11820
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11804
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11809,
+            "Zone": 118,
+            "Name": "A Room in the damaged wing.",
+            "Description": "You are standing in a room in the damaged wing of the castle.  The ceiling\r\r\r\r\n\rhas caved in here and it appears to be snowing inside the building.  There\r\r\r\r\n\ris snow covered debris everywhere.\r\r\r\r\n\r",
+            "Bits": [
+                "DEATH",
+                "INDOORS",
+                "NOTELEPORT",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11821
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11820
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11810,
+            "Zone": 118,
+            "Name": "A large open field.",
+            "Description": "You are standing in a spacious field. There are all sorts of wild flowers\r\r\r\r\n\rgrowing in all directions.  The color here is amazing..and the scent.\r\r\r\r\n\rIt is like an assault on all of your senses.  The color, the feel of \r\r\r\r\n\rthe flowers brushing against your legs, and the scent of the sweet\r\r\r\r\n\rflowers wafting up to you. You could stay in this field forever \r\r\r\r\n\rand never see everything it has to offer.\r\r\r\r\n\r",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11813
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11811
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11801
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11811,
+            "Zone": 118,
+            "Name": "A hole in the ground.",
+            "Description": "As you descend into the ground you wonder if this is a good idea..it seems\r\r\r\r\n\r..risky at best.  There is dirt all arounf you and you can see the roots \r\r\r\r\n\rof trees sticking out of the dirt. There are some tracks here but you can't\r\r\r\r\n\rfigure out what kind of animal they belong into.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "PEACEFUL",
+                "TUNNEL"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11812
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11810
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11812,
+            "Zone": 118,
+            "Name": "A groundhog's home.",
+            "Description": "This is the den of some animal.  There are tracks all around and you \r\r\r\r\n\rcan just barely make out the leavings of his last meal.  From down\r\r\r\r\n\rhere you can see the tree roots a little better and there is dirt\r\r\r\r\n\rall around you and above you.  There is a no light here except for \r\r\r\r\n\rwhat you brought with you.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11842
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11811
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11813,
+            "Zone": 118,
+            "Name": "A large heart shaped arch.",
+            "Description": "You are beneath a large heart shaped red arch.  There are small hearts \r\r\r\r\n\rdangling from the larger one you are walking through.  As you look just \r\r\r\r\n\rpast the arches there is a body of water just ahead.  There are \r\r\r\r\n\rstores and other businesses on either side of the water.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMAGIC",
+                "TUNNEL"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11814
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11810
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11814,
+            "Zone": 118,
+            "Name": "The tunnel of love.",
+            "Description": "You are floating quietly down a water filled trail.  There are stores a\r\r\r\r\n\rand other business to either side of you and you see that the heart\r\r\r\r\n\rshaped arch you just came through now creates arches above your head.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11876
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11823
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11813
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11815,
+            "Zone": 118,
+            "Name": "The tunnel of love.",
+            "Description": "In this tunnel there are red arches that hang aboce your head in \r\r\r\r\n\rthe shape of hearts. The water glistens all around you and the \r\r\r\r\n\rstars twinkle above you with a golden glow.  As you float slowly \r\r\r\r\n\rdown the tunnel you think back to your love and wonder what you \r\r\r\r\n\rare doing here without them.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC",
+                "NOTELEPORT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11816
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11814
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11824
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11816,
+            "Zone": 118,
+            "Name": "The tunnel of love.",
+            "Description": "There is an entrance to Valentine manor directly north of here.  There \r\r\r\r\n\ris the sound of the water lapping against the boat and the sound o \r\r\r\r\n\r music lilting in from somewhere.  The red hearts fold out before you \r\r\r\r\n\rto a huge mansion that is covered from top to bottum in red hearts.\r\r\r\r\n\rThe mansion is the most beautiful thing you have ever seen.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11825
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11822
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11815
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11817,
+            "Zone": 118,
+            "Name": "A hallway",
+            "Description": "The hallway continues to the north from here.  There is some light streaming\r\r\r\r\n\rfrom a room just ahead of you and there is a sound of loud ticking.  The \r\r\r\r\n\rlight from the torches on the wall dance with a breeze of unknown orgin.\r\r\r\r\n\rThe flicker of the flames leaves eerie shadows cast on the hard rock \r\r\r\r\n\rwalls.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11806
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11805
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11818,
+            "Zone": 118,
+            "Name": "A hallway",
+            "Description": "You are standing in an enormous hallway and there are woven tapestries on \r\r\r\r\n\rthe walls that are several feet long and wide.  The torch light glows\r\r\r\r\n\roff of the spoils of war that are on display.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC",
+                "NOTELEPORT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11804
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11819
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11819,
+            "Zone": 118,
+            "Name": "A hallway",
+            "Description": "This is a hallway in the illustrious castle.  There are tapestries on the \r\r\r\r\n\rwalls and on the tables there are golden candle holders.  Against one\r\r\r\r\n\rwall there are a set of 8 golden plates gleaming in the torch light.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11818
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11807
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11820,
+            "Zone": 118,
+            "Name": "A Hallway in the damaged wing.",
+            "Description": "You are standing an a wing of the castle that appears to have been damaged\r\r\r\r\n\rby the heavy snow.  The roof looks as though it can't take another hard\r\r\r\r\n\rwinter.  It looks dangerous ...maybe you should turn back.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11846
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11809
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11808
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11821,
+            "Zone": 118,
+            "Name": "A Room in the damaged wing.",
+            "Description": "The ceiling caved in on you..check your wounds ...do you live?\r\r\r\r\n\r",
+            "Bits": [
+                "DEATH",
+                "INDOORS",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11809
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11822,
+            "Zone": 118,
+            "Name": "Land of Hearts Marriage chapel.",
+            "Description": "This is the guadiest place you have ever seen.  There are big red hearts \r\r\r\r\n\rappliqued to everything that would stand still for it.  The ceiling has\r\r\r\r\n\rfake stars and moon on it.  The carpet is the most hideous shade of red \r\r\r\r\n\ryou have ever seen and it is making you nauseous to jsut stand on it.\r\r\r\r\n\rThere is a big sign here.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC",
+                "NOTELEPORT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11894
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11816
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "\r\r\r\r\n\rNO SHIRT.....NO SHOES........NO SERVICE\r\r\r\r\n\rNO EXCEPTIONS!!!!!!!\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 11823,
+            "Zone": 118,
+            "Name": "Cupid's floral shop.",
+            "Description": "You are in the largest floral shop you have ever seen.  There are so \r\r\r\r\n\rmany differet colored flowers around that your eyes can't seem to find \r\r\r\r\n\raplace to rest upon.  The scent of the flowers is so overwhelming that \r\r\r\r\n\ryou cannot smell anything else.  You here a happy person singing somwhere\r\r\r\r\n\ryou might need to find that person to buy some flowers.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11814
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11824,
+            "Zone": 118,
+            "Name": "A chocolate affair confection factory.",
+            "Description": "You are standing in a large factory that makes chocolate.  There is a \r\r\r\r\n\rheavenly smell coming from the factory.  As you look around you see that\r\r\r\r\n\rthere are all kinds of chocolates sitting around in shiny papers and \r\r\r\r\n\rbright colorful boxes with bows on them.  You the noise from the factory \r\r\r\r\n\rmakes you think your ears might just start bleeding.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11815
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11825,
+            "Zone": 118,
+            "Name": "Entrance Valentine manor.",
+            "Description": "You are standing before a large mansion.  There are  large weeping willows\r\r\r\r\n\rdraping across the large rolling lawn. There are rose bushes in full bloom\r\r\r\r\n\rlining the front porch.  Above the porch is a balcony that is as long\r\r\r\r\n\ras the house itself and wraps around each side and continues around to \r\r\r\r\n\rthe back of the house.  There are a set of large gates, that are always \r\r\r\r\n\ropen, with big red hearts hanging on the black wrought iron gates.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11851
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11816
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11826,
+            "Zone": 118,
+            "Name": "A large open field bathed in color.",
+            "Description": "You are standing in a large field that is covered in knee-high weeds.\r\r\r\r\n\rThe field appears to be cast in every color of the rainbow.  There are \r\r\r\r\n\rblues and violet streams of light all around you making you a part if \r\r\r\r\n\rthe color streaked field.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "NOMAGIC",
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11829
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11827
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11801
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11827,
+            "Zone": 118,
+            "Name": "A lovely rope bridge spanning a small canyon.",
+            "Description": "There is a canyon that is far below you as you cross the quaint rope\r\r\r\r\n\rbridge.  The rocks jut out from the walls as if tell you they will \r\r\r\r\n\rcatch you, should you fall.  Their sharp edges are a reminder to you\r\r\r\r\n\rthat you do not want to hang around on this bridge any longer than \r\r\r\r\n\rnecessary.\r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL",
+                "TUNNEL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11826
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11828
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11828,
+            "Zone": 118,
+            "Name": "In front of a small cottage",
+            "Description": " Just before you is a small modest cabin.  Although it is small it is \r\r\r\r\n\rtidy and looks well cared for.  The shutters on each window looks \r\r\r\r\n\rto be freshly painted. The windows sparkle brilliantly. On the door\r\r\r\r\n\rinto the cabin there is a shamrock painted in a bright green color.\r\r\r\r\n\rWonder if that is for good luck?\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11841
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11827
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11829,
+            "Zone": 118,
+            "Name": "On a Beautiful rainbow.",
+            "Description": "You are walking across a rainbow and you are amazed by the colors. There \r\r\r\r\n\rare beams of light everywhere and they are so warm and beautiful to look \r\r\r\r\n\rat. As you continue you wonder if that story about the pot of gold is \r\r\r\r\n\rtrue.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11826
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11830
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11830,
+            "Zone": 118,
+            "Name": "On a Beautiful rainbow.",
+            "Description": "You are still walking along the rainbow and still it seems to continue\r\r\r\r\n\rforever.  The colors seem to be glowing brightly now.  You feel as \r\r\r\r\n\rif the colors are coming up through your feet and filling your whole \r\r\r\r\n\rbody with a glowing feeling.\r\r\r\r\n\r",
+            "Bits": [
+                "TUNNEL",
+                "NOQUIT",
+                "FLY"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11831
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11829
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11831,
+            "Zone": 118,
+            "Name": "On a Beautiful rainbow.",
+            "Description": "Still the rainbow continues...... The colors are starting to annoy you \r\r\r\r\n\rat this point. You have been walking along this rainbow forever and \r\r\r\r\n\rit seems to never end.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "PEACEFUL",
+                "NOTELEPORT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11830
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11832
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11832,
+            "Zone": 118,
+            "Name": "At the end of the rainbow.",
+            "Description": "FINALLY the end of the rainbow. As you sit down to rest you notice the \r\r\r\r\n\rmystic pot of gold lying at your feet...but it seems big enough to \r\r\r\r\n\rget into.  Should you really chance going into a pot?  But wait\r\r\r\r\n\rit is rumored to be filled with gold....\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "NOTELEPORT",
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11832
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11833
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11831
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11833,
+            "Zone": 118,
+            "Name": "A pot 'o Gold",
+            "Description": "You are just inside the mouth of the pot of gold.  Gold glitters all around\r\r\r\r\n\ryou.  The sight is blinding and until you eyes adjust to the brightness y\r\r\r\r\n\rsquint and your eyes water.  There is someone singing but it seems like it\r\r\r\r\n\ris coming from further down in the pot of gold\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11832
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11834
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11834,
+            "Zone": 118,
+            "Name": "A pot 'o Gold",
+            "Description": "You are further down in the pot of gold now. The singing seems to be coming \r\r\r\r\n\rfrom even further down in the pot of gold.  You eyes have now adjusted\r\r\r\r\n\rto the sight of all the gold that is glittering all around you.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11833
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11835
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11835,
+            "Zone": 118,
+            "Name": "A pot 'o Gold",
+            "Description": "You are standing at the very bottum of the pot of gold.  There is a small \r\r\r\r\n\rman here and he appears to be guarding the gold...daring you to take any.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11834
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11836,
+            "Zone": 118,
+            "Name": "A large kitchen.",
+            "Description": "You are in a Large industrial looking kitchen. On the enormous stove there\r\r\r\r\n\rare huge pots of boiling water.  In the pots of boiling water there are \r\r\r\r\n\rthousands of eggs being boiled.  The kitchen is painted with a loved pastel\r\r\r\r\n\ryellow-pink-blue color scheme. There are eggs sitting everywhere cooling and\r\r\r\r\n\rboiling ...cooling and boiling.... Who needs this many boiled eggs?\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11832
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11837
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11837,
+            "Zone": 118,
+            "Name": "The Color room.",
+            "Description": "This is a large room.  The colors in here are the same as in the kitchen. \r\r\r\r\n\rThere are huge vats of colored water here in every color you could imagine\r\r\r\r\n\r...and a few you couldn't ( puce easter eggs?)  Sitting around on all the \r\r\r\r\n\rtables there are eggs that have been colored waiting to dry and waiting \r\r\r\r\n\rto be distributed around the world.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11836
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11838
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11838,
+            "Zone": 118,
+            "Name": "The candy room.",
+            "Description": "This is an enormous room that is used to make all the easter bunnies goodies\r\r\r\r\n\rin.  There are choclates and marshmellow candies everywhere. Some are in \r\r\r\r\n\rcolorful packages while others are waiting to be wrapped.  There are \r\r\r\r\n\rcandies that are shaped as bunnies, chicks, eggs, lambs and other cute \r\r\r\r\n\rthings (YUCK!).  This room is bustling with people and you can pass-by \r\r\r\r\n\runnoticed as there is no way these people could hear you\r\r\r\r\n\reven if you screamed.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11837
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11839
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11839,
+            "Zone": 118,
+            "Name": "The egg laying room.",
+            "Description": "There are several hundred chickens here laying enough eggs so that the \r\r\r\r\n\reaster bunny might make children happy. The smell in here is horrible, \r\r\r\r\n\rthe heat is stifling and your eyes are watering from the combination.\r\r\r\r\n\r There are chicken feathers floating through the air and you are walking\r\r\r\r\n\ron something squishy, yet you don't WANT to know what it is.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11838
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11840
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11840,
+            "Zone": 118,
+            "Name": "The Easter Bunny's Basket.",
+            "Description": "You are in a sacred place.....THE basket of THE easter bunny.  There are \r\r\r\r\n\reggs of every shape and size all around it.  The eggs are all pretty \r\r\r\r\n\rmuch easter colors with the exception of one way doen in the bottom of \r\r\r\r\n\rthe basket.  This egg in the bottom of the basket is red white and blue.\r\r\r\r\n\rSeems a little odd to have a red white and blue egg for easter...\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11839
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "This is a huge egg....so large that you might could sit in it.  It has \r\r\r\r\n\rred and white stripes on it and bigh stars in it...Seems kinda strange for \r\r\r\r\n\ran easter egg\r\r\r\r\n\r",
+                    "Keywords": [
+                        "egg"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 11843
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "egg"
+                    ],
+                    "Description": "This is a large Red, White, and Blue egg here ...IT seems awful large \r\r\r\r\n\rto be an easter egg...and those colors...it seems to have a seam\r\r\r\r\n\rin the middle as if it might split open..........\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 11841,
+            "Zone": 118,
+            "Name": "Front Room in a Small Cottage",
+            "Description": "The room is modestly furnished in lovely green plaid material.  There is \r\r\r\r\n\ra sofa and a chair are here.  The shelves built into the walls appear to be\r\r\r\r\n\roverflowing with well worn books.  There is a large window on one wall that\r\r\r\r\n\rlets the sunshine in to brighten things up just a bit.  The room looks \r\r\r\r\n\rso cheerful that it brightens your day just to gaze upon it.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "FLY"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11828
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11889
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11888
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11842,
+            "Zone": 118,
+            "Name": "Groundhogs Bedroom",
+            "Description": "There is a small about of nesting material in a corner of this room.  There\r\r\r\r\n\rseems to be no one here at this time.  This room has been carved out of the \r\r\r\r\n\rdirt from the other rooms so it seems a bit more rough and the walls are not \r\r\r\r\n\rsmooth like the ones in the other rooms.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11812
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11843,
+            "Zone": 118,
+            "Name": "Red, White, and Blue Egg.",
+            "Description": "This egg seems to be a hallway or tunnel of sorts.  There is nothing much \r\r\r\r\n\rhere to see or do.   There are a few blank white washed walls and that \r\r\r\r\n\ris it.\r\r\r\r\n\r",
+            "Bits": [
+                "TUNNEL",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 11840
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "egg"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11844
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11844,
+            "Zone": 118,
+            "Name": "Red, White, and Blue Flag room.",
+            "Description": "You are standing in a large hall that seems dedicated to The United States\r\r\r\r\n\rFlag.  The entire room is Empty except for a roped off area in the center \r\r\r\r\n\rof the room that houses a Flag.  The flag is on a flag pole and seem to be\r\r\r\r\n\rquite old.  There are not that many stars on it so apparently it is rather\r\r\r\r\n\rold.  There is a skylight in the ceiling so that natural light might flow\r\r\r\r\n\rin over it. This Flag seems pretty important...though you can't recall \r\r\r\r\n\rjust why....?\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11845
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see a huge Red, White, and Blue egg here.  Wonder what it does... It\r\r\r\r\n\rappears to open.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "egg"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 11843
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11845,
+            "Zone": 118,
+            "Name": "Uncle Sam's Office",
+            "Description": "There is a enourmous oak and marble desk in the middle of this huge office.\r\r\r\r\n\rThere is a large red white and blue flag in the corner.  There is a skylight\r\r\r\r\n\rthat shines light from up above and it is centered over the desk.  The desk\r\r\r\r\n\rlooks like someone important might work there.  The name plate on the desk\r\r\r\r\n\rsays Uncle Sam...you didn't know your uncle had a cool office like this\r\r\r\r\n\rdid you?\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11844
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11847
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11846,
+            "Zone": 118,
+            "Name": "Out in a Rocky Field",
+            "Description": "You are standing in a large rocky field.  There is very littl grass and where\r\r\r\r\n\rthere is a small patch of grass it is full of sand and rocks. You could \r\r\r\r\n\rnot walk more than a few feet without having to step over some rocks.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11849
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11820
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11847,
+            "Zone": 118,
+            "Name": "Hall of Statues.",
+            "Description": "You are standing in a Large room.  The mood in this room is sober and solemn,\r\r\r\r\n\rthis rooms houses the statues of veterans that have fallen in the protection \r\r\r\r\n\rof our freedom.  Along the walls there are photographs taken of our men in \r\r\r\r\n\rthe field, away from their home.  In the center of the room is a large statue\r\r\r\r\n\rshowing several men trying to raise an american flag, In each of the faces of\r\r\r\r\n\rthe statue you can see the pride each has for the country they love.\r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11848
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11845
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11848,
+            "Zone": 118,
+            "Name": "Veteran's Memorial.",
+            "Description": "You stand before a memorial to the men who lost their lives in war.  There \r\r\r\r\n\rare a lot of people standing around, some are crying.  In this memorial \r\r\r\r\n\ryou see the faces of fathers, husbands, brothers, and sons.  There \r\r\r\r\n\rare several pictures around the room with small brass name plates \r\r\r\r\n\rtelling the names of the people who lost their lives in war and some \r\r\r\r\n\rwho are still considered missing action.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11864
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11847
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "memorial",
+                        "statue"
+                    ],
+                    "Description": "There is an enormous memorial here to the men and women that have lost their\r\r\r\r\n\rlives in war.  There are many people standing here crying and reliving \r\r\r\r\n\rsome of the darkest days in their lives.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 11849,
+            "Zone": 118,
+            "Name": "In a Dark Field.",
+            "Description": "You are in a large dark field. There is only on tree that stands in this \r\r\r\r\n\rfield and it looks as if the tree died some years ago and someone \r\r\r\r\n\rforgot to come and cut it down.  The only thing in this field that is \r\r\r\r\n\ralive is the vulture that is eyeing you suspiciously.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "PEACEFUL",
+                "FLY"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11864
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11846
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11850,
+            "Zone": 118,
+            "Name": "In a Grandfather Clock.",
+            "Description": "You are standing inside an enormous clock.  You look from side to side and y\r\r\r\r\n\rcan see the gears and interworkings of the clock.  There is a large pedalum\r\r\r\r\n\rswinging back and forth and keeping time.  \r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11806
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11851,
+            "Zone": 118,
+            "Name": "Hall in Valentine Manor",
+            "Description": "The room has high exposed beam ceilings.  The walls seem to go on and on and \r\r\r\r\n\rare covered in the latest most up to date art.  There are tapestries from \r\r\r\r\n\raustralia and paintings from paris.  There is a sculpture in the center\r\r\r\r\n\rof the room that looks like the old legend cupid.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11825
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11852
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11853
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11852,
+            "Zone": 118,
+            "Name": "Library in Valentine Manor",
+            "Description": "The walls in this room are covered with books and more books.  The greatest \r\r\r\r\n\rnumber of them look like first editions and worth a great deal of money.\r\r\r\r\n\rOff in one corner of the room is a large desk that has a light above it so \r\r\r\r\n\rthat you can read anytime at all.  On on side of the room is a huge window\r\r\r\r\n\rover looking the grounds of this enormous mansion.  Just below the window in\r\r\r\r\n\ra window seat so that you can sit and read while looking at the horse stables.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "FLY"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11854
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11851
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11853,
+            "Zone": 118,
+            "Name": "Kitchen in Valentine Manor",
+            "Description": "This looks like the kitchen you might see in a four star resteraunt. The \r\r\r\r\n\rindustrial sized stove has a huge pot of some delicious smelling substance\r\r\r\r\n\rcooking on it.  The kitchen is hot and it is humid and you can already feel \r\r\r\r\n\rthe sweat breaking out on your forehead.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOTELEPORT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11855
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11851
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11854,
+            "Zone": 118,
+            "Name": "Before the Throne",
+            "Description": "The throne before you is done in a beautiful crushed red velvet.  The arms \r\r\r\r\n\rand legs of the throne are made of oak and are polished so that they will \r\r\r\r\n\rshine.  There is a large portrait of the former St Valentine that hangs\r\r\r\r\n\rabove the throne.  There is a group of musicians here playing some sort\r\r\r\r\n\rof love song that you can never remember the words to ..except for the \r\r\r\r\n\rfirst 2 words...\"ONLY YOU\" da da dada. \r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11852
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11856
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11855,
+            "Zone": 118,
+            "Name": "Before the Throne",
+            "Description": "The throne before you is done in a beautiful crushed red velvet.  The arms \r\r\r\r\n\rand legs of the throne are made of oak and are polished so that they will \r\r\r\r\n\rshine.  There is a large portrait of the former St Valentine that hangs\r\r\r\r\n\rabove the throne.  There is a group of musicians here playing some sort\r\r\r\r\n\rof love song that you can never remember the words to ..except for the \r\r\r\r\n\rfirst 2 words...\"ONLY YOU\" da da dada. \r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11853
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11856
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11856,
+            "Zone": 118,
+            "Name": "St. Valentine's Throne of Hearts.",
+            "Description": "There is a large throne here that is in the shape of a large heart and it has\r\r\r\r\n\rlovely red velvet covering every square inch.  In fact as you look around \r\r\r\r\n\ryou can't see hardly anything that isn't red or anything that doesn't have \r\r\r\r\n\rsome red on it or in it.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "There is a heart shaped trapdoor here.  Wonder where it goes?\r\r\r\r\n\r",
+                    "Keywords": [
+                        "Trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 11845,
+                    "Destination": 11857
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11854
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11855
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11857,
+            "Zone": 118,
+            "Name": "The dungeon Of Lost Loves.",
+            "Description": "The red lined walls and halls that your eyes have become attuned to have\r\r\r\r\n\rchanged to a dingy and decaying grey of moldy blood.  The stench of lost \r\r\r\r\n\rlove hangs in the air, and the floor is littered with pieces of broken\r\r\r\r\n\rhearts and downtrodden love letters.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11862
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "There is a heart shaped trap door here.  Wonder where it goes?\r\r\r\r\n\r",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 11845,
+                    "Destination": 11856
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11858,
+            "Zone": 118,
+            "Name": "A cell in the Dungeon.",
+            "Description": "You are in a dark, dank cell.  There is little to do here and even less to \r\r\r\r\n\rlook at.  The small room is devoid of light and color.  There is a stench \r\r\r\r\n\rhere that takes your breath and leaves you gasping for air.  On one side \r\r\r\r\n\rof the room there is a small cot that contains a soul who let his pride over\r\r\r\r\n\rrule his love for his soulmate and thus must spend his life in an eternal\r\r\r\r\n\rhell with no love.\r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11862
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11859,
+            "Zone": 118,
+            "Name": "A cell in the dungeon.",
+            "Description": "The cell you are standing in is damp and hot.  There is a small slit of a w\r\r\r\r\n\rwindow at the top of one of the walls and it barely lets enough air in the \r\r\r\r\n\rbreath much less cool this small place.  There is a person here wandering \r\r\r\r\n\raround the cell like they aren't sure what to do with themselves.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11862
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11860,
+            "Zone": 118,
+            "Name": "A cell in the dungeon.",
+            "Description": "You are in a small room that has 3 cinder block walls and one wall of iron \r\r\r\r\n\rbars.  There is almost no light in here as there are no windows for light\r\r\r\r\n\rto come through.   There is a small cot to one side of the room.  On the \r\r\r\r\n\rcot is a thin mattress and a filthy blanket and pillow.  There is a person\r\r\r\r\n\rsitting here on the floor sobbing.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11863
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11861,
+            "Zone": 118,
+            "Name": "A cell in the Dungeon.",
+            "Description": "You are in a small cell that is home to the people who have thrown love \r\r\r\r\n\raway for pride, money, or other reasons.  The cell has cinder block walls\r\r\r\r\n\randthere is almost no light coming though the iron bars.  In the corner \r\r\r\r\n\ris a small cot containing a filthy blanket and a thin mattress.  There\r\r\r\r\n\ris a person here laying on the thin mattress with a despondant look \r\r\r\r\n\ron their face.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11863
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11862,
+            "Zone": 118,
+            "Name": "Tunnel of Desolution",
+            "Description": "This is where the lost loves and forgotten or abandoned affairs go after\r\r\r\r\n\rthey are thrown aside to sit and fester in the darkest corners of our\r\r\r\r\n\rhearts.  The moans of un-requited love crys from the cells to the east\r\r\r\r\n\rand the west.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11863
+                },
+                {
+                    "Direction": "East",
+                    "Description": "There are some iron bars here.. The people here must be very dangerous..\r\r\r\r\n\rTo others or is it themselves.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cell"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 11845,
+                    "Destination": 11859
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11857
+                },
+                {
+                    "Direction": "West",
+                    "Description": "There are some iron bars here.  Are the prisoners here dangerous?\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cell"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 11845,
+                    "Destination": 11858
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11863,
+            "Zone": 118,
+            "Name": "Tunnel of Desolution",
+            "Description": "Love lost and tost begins to bring a tear to your eye.  The misery of these\r\r\r\r\n\rlost causes makes you want to destroy everything in your path and tear\r\r\r\r\n\rat your eyes.  The crying of the doomed or ignored rests in this dungeon\r\r\r\r\n\rand you wish to the gods that be for escape from this fate.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "There are some iron bars here enclosing the cell.  There are crys coming \r\r\r\r\n\rfrom the other side of the bars.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cell"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 11845,
+                    "Destination": 11861
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11862
+                },
+                {
+                    "Direction": "West",
+                    "Description": "there are some iron bars here.  There is a face looking out between them \r\r\r\r\n\rwith a forlorn look on it.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cell"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 11845,
+                    "Destination": 11860
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11864,
+            "Zone": 118,
+            "Name": "Before a Large Pumpkin",
+            "Description": "The massive glowing eyes and mouth of the pumpkin before you seem to flicker\r\r\r\r\n\ras if infested with demons and shadowy ghouls of the dark.  You begin to \r\r\r\r\n\rthink twice about entering as you hear the moans and screams that issue\r\r\r\r\n\rforth from the orifaces of the Great Pumpkin.  It is more than your puny\r\r\r\r\n\rforce of will can muster just to keep you on your feet without fainting\r\r\r\r\n\rat the sight.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11865
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11848
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11886
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11865,
+            "Zone": 118,
+            "Name": "Entrance to a Haunted Pumpkin",
+            "Description": "Passing through the gaping maw of the pumpkin you almost belive all is well\r\r\r\r\n\ras the screams are drawn to the slightest muffle and a haunting laugh echoes\r\r\r\r\n\rthrough the hall as if to bid you welcome to this hall of hells.  The light\r\r\r\r\n\ryou had noticed before is emitted by a HUGE candelabra standing in the foyer\r\r\r\r\n\rof this demonically carved pumkin.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11864
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11866
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11866,
+            "Zone": 118,
+            "Name": "Front room in a haunted Pumpkin",
+            "Description": "This pumpkin seems infinitly larger on the inside than on the outside, and\r\r\r\r\n\rthe dripping goo and candlewax from the walls seems to put out an evil glow\r\r\r\r\n\rthat you can't quite understand.  The shadows seem to be almost alive as if\r\r\r\r\n\rthey are watching you enter this might foyer, and a hideous laughter erupts\r\r\r\r\n\rfrom above as you wander farther into this domain!\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11865
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11867
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11867,
+            "Zone": 118,
+            "Name": "Further in a Haunted Pumpkin",
+            "Description": "A dank stairway has been molded out of mounds of pumpkin seeds and human\r\r\r\r\n\rflesh.  The walls lining it are adorned with halloween masks and ghoulish\r\r\r\r\n\rgargoyles.  The laughter seems nearer and the darkness seems to flow from\r\r\r\r\n\rthe walls themselves.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11866
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11868
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11868,
+            "Zone": 118,
+            "Name": "2nd Floor in the haunted pumpkin",
+            "Description": "This hallway, like every other room in this moldy pumpkin, is covered with\r\r\r\r\n\rthe smell of rotting flesh and seeds.  And the odd glow is brighter here\r\r\r\r\n\ralmost blinding you to the distance to the end of the hall.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11869
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11867
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11869,
+            "Zone": 118,
+            "Name": "2nd floor in the Haunted pumpkin",
+            "Description": "The smell of burnt flesh and rotten candy bars waifs from the eastern end\r\r\r\r\n\rof this hall.  You notice trick or treat bags and half burnt masks strewn\r\r\r\r\n\rabout the floor.  The hideous laughter, or maniacal screaming, is almost\r\r\r\r\n\rdeafining.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT",
+                "FLY"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11870
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11868
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11870,
+            "Zone": 118,
+            "Name": "2nd floor in the haunted pumpkin",
+            "Description": "The halls eternal darkness is almost shattered by the glowing of what seems\r\r\r\r\n\rto be a pair of flickering red eyes.  They seem to be further east but within\r\r\r\r\n\rthis house of horrors who is to know.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11871
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11869
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11871,
+            "Zone": 118,
+            "Name": "2nd floor in the Haunted pumpkin",
+            "Description": "The Will-o-Wisp that lead you here has mysteriously disappeared and the eyes\r\r\r\r\n\rand laughter float all around you before they dissapear up these stairs made\r\r\r\r\n\rof bone and candy apple sticks.  You think to yourself what kind of madman\r\r\r\r\n\rwould be found in a house like this, and slightly remember a childhood story\r\r\r\r\n\rof a man with a pumpkin for a head.  Dismissing this notion you trudge onward\r\r\r\r\n\rand upward\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11870
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11872
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11872,
+            "Zone": 118,
+            "Name": "The Attic in the Haunted pumpkin",
+            "Description": "Clearing away cobwebs and dust covered sheets you have entered the attic of\r\r\r\r\n\rthis pumpkin without nary a sign of the owner.  Perhaps you were mistaken to\r\r\r\r\n\rhave ever entered these halls in search of adventure, for all it has brought\r\r\r\r\n\ryou to is darkness and thoughts of a childhood stomach-ache from too much\r\r\r\r\n\rHalloween candy.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11873
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11871
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11873,
+            "Zone": 118,
+            "Name": "Jack Pumpkinhead's Throne room",
+            "Description": "This room's centerpiece is a large throne made of sticks and stones welded\r\r\r\r\n\rtogether with locks of childrens hair and marrow from thier bones.  Bits\r\r\r\r\n\rof costumes and garments of long forgotten trick or treaters are strewn about\r\r\r\r\n\rthe room, as are pieces of shining razor blades and bottles of poison.  The\r\r\r\r\n\rperson who resides here is one sick individual.  A DEATHLY CHILLING wind\r\r\r\r\n\rhowls from the window set in the western wall, making you think twice about\r\r\r\r\n\rjumping out of Jack's way.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11872
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11874
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11874,
+            "Zone": 118,
+            "Name": "Out the Window",
+            "Description": "You should have looked before you lept.  After the ferocity of Jack, didn't\r\r\r\r\n\ryou figure he was letting you out just a bit too easy?  Or did you think\r\r\r\r\n\rescape was in his list of things to let you little mortals do?\r\r\r\r\n\r\r\r\r\r\n\r",
+            "Bits": [
+                "DEATH",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11864
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11875,
+            "Zone": 118,
+            "Name": "Out to sea",
+            "Description": "You are floating out to see and all you can see is the salt water of the sea.\r\r\r\r\n\rYou must be near to something as you seem to have been floating aimlessly \r\r\r\r\n\rfor days.  The salt air seems to do something to you and  it makes you \r\r\r\r\n\rjittery and anxious to get to land.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11877
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11876
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11876,
+            "Zone": 118,
+            "Name": "Tunnel Of Love",
+            "Description": "You continue to float down the water towards the Valentine mansion.  There\r\r\r\r\n\ris music floating in from someplace and it is some sweet, sappy, and just\r\r\r\r\n\rplain gross love song that is playing over and over and over....\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11815
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11875
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11814
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11877,
+            "Zone": 118,
+            "Name": "Out to sea",
+            "Description": "You are floating aimlessly out at sea.  There is nothing around you except \r\r\r\r\n\rfor lots of salt water and the occasionaly fish that might jump out of the \r\r\r\r\n\rwater. You feel like you have been floating on the sea for forever and you \r\r\r\r\n\rcan't wait to get your feet back on solid ground.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "PEACEFUL",
+                "NOTELEPORT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11878
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11875
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11878,
+            "Zone": 118,
+            "Name": "A port at sea.",
+            "Description": "You have finally come to a port at sea.   There isn't much  here it seems \r\r\r\r\n\rbesides a fort and some indians. This must be the famous plymoth rock, \r\r\r\r\n\rwhere the mayflower landed with the pilgrams.\r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11879
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11877
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11879,
+            "Zone": 118,
+            "Name": "Before the Fort",
+            "Description": "You are standing before a large fort that has been made from trees inserted \r\r\r\r\n\rinto the ground. The fort look sturdy and appears to have several families\r\r\r\r\n\rliving in it.  There are soldiers wandering around outside of the open fort\r\r\r\r\n\rand there are some indians going in and out of the fort. \r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11887
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11882
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11878
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11884
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11880,
+            "Zone": 118,
+            "Name": "Before a large table",
+            "Description": "Before you is a grand table that is full of wonderful foods. In the center\r\r\r\r\n\rof the table is a HUGE turkey that looks like it was roasted and it is \r\r\r\r\n\rthe perfect golden brown color.  There are other treats here as well.\r\r\r\r\n\rThere are pies and other desserts that are waiting on a nearby table for \r\r\r\r\n\rthe diners to finish eating their feast.\r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL",
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11887
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11881
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11896
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11897
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11881,
+            "Zone": 118,
+            "Name": "At the table",
+            "Description": "You are at the table now and you can see that the faces around this table \r\r\r\r\n\rare very different.  Seated at each end of the table are people who have \r\r\r\r\n\rbeen enemies for some time.  At one end is the Man who runs the fort and \r\r\r\r\n\rat the other end is the Indian chief.  There are men and women seated around\r\r\r\r\n\rthe table that would normally be scared of each other and be \r\r\r\r\n\rtrying to hurt each other.\r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11880
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11882,
+            "Zone": 118,
+            "Name": "By a teepee",
+            "Description": "This is a Teepee that has been made by using animal hides stretched over a\r\r\r\r\n\rframe made of wood.  There are colorful picture painted on the outside as \r\r\r\r\n\rsome sort of symbol.  Just in front of the teepee is a cooking fire and \r\r\r\r\n\rit is blazing brightly and some sort of roasting meat is in the fire.\r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11883
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11879
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11883,
+            "Zone": 118,
+            "Name": "In the teepee",
+            "Description": "You are in a the teepee of the chief os this tribe of indians.  There are \r\r\r\r\n\rcolorful pictures painted on the inner walls of this teepee.  There are\r\r\r\r\n\rhides of animals piled to one side of the teepee to keep them warm in the\r\r\r\r\n\rwinter.  To the west is the entrance that you just came in from and will \r\r\r\r\n\rlead you back out to the fort.\r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11882
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11884,
+            "Zone": 118,
+            "Name": "In a field",
+            "Description": "You are standing in a large open filed that is growing some plants. As you \r\r\r\r\n\rlook closer you realize it is the crop of some industrious farmer.  Here in\r\r\r\r\n\rthis field there are all kinds of vegatables growing.  You see the neat\r\r\r\r\n\rrows of corn, carrots, and other gourd type vegtables.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMAGIC",
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11885
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11879
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11885,
+            "Zone": 118,
+            "Name": "In the field",
+            "Description": "You are standing in a field that looks to be well cared for.  There are neat\r\r\r\r\n\rlittle rows of carrots and beans going as far as the eye can see.  You see \r\r\r\r\n\rwhat looks to be the start of a pumpkin patch here.\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11886
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11884
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11886,
+            "Zone": 118,
+            "Name": "In a large pumpkin patch.",
+            "Description": "You are standing in a large pumpkin patch, with pumpkins reaching as far \r\r\r\r\n\ras the eye can see.  There are 2 odd looking children here that seem to be \r\r\r\r\n\rwaiting for something.  It seems odd that childern would wait in a darkened\r\r\r\r\n\rpumpkin patch for anything\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11864
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11885
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11887,
+            "Zone": 118,
+            "Name": "In the fort",
+            "Description": "You are standing just inside the gate of a large fort.  There are people \r\r\r\r\n\ralking around you as they go about their day to day business.  There \r\r\r\r\n\rare several indians here as well.  It looks like they are getting ready \r\r\r\r\n\rfor quite a feast. \r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11880
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11879
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11888,
+            "Zone": 118,
+            "Name": "Bedroom in a Small cottage",
+            "Description": "There is a Twin bed in the corner of this otherwise bare room.  There are \r\r\r\r\n\ra few books on a nightstand that stands next to the small bed. This room,\r\r\r\r\n\rlike all the others, is immaculate.  The bed is covered in a tidy \r\r\r\r\n\rbedspread that is green and white plaid. The window has a curtain of the \r\r\r\r\n\rsame material.  There is a shamrock painted on the wall over the bed..\r\r\r\r\n\r....How strange.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11841
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11889,
+            "Zone": 118,
+            "Name": "In the Kitchen in the Small Cottage",
+            "Description": "The kitchen in this quaint cottage looks like it came from a magazine. \r\r\r\r\n\rThe cupboard are of the whitest white with green trim and brass handles.\r\r\r\r\n\rThe dishes are all neatly stacked in their places and the sink shines \r\r\r\r\n\rwith a star-like brillance.  There is a small breakfast alcove with a \r\r\r\r\n\rsmall wrought iron table and chairs.  The table cloth and seat covers\r\r\r\r\n\rare of the same green and white plaid that is in the front room.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "FLY"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11890
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11841
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11890,
+            "Zone": 118,
+            "Name": "Out Behind the Small cottage",
+            "Description": "You are in a field behind the cottage.  There is a hactchet where someone\r\r\r\r\n\rwas chopping wood for a fire.  Along one side of the cabin you see\r\r\r\r\n\ra large pile of neatly stacked wood.  From where you stand you can \r\r\r\r\n\rsee the mountains that surround this small cottage.  The view here is\r\r\r\r\n\rbreathtaking.\r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11889
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11891,
+            "Zone": 118,
+            "Name": "Dressing room",
+            "Description": "You are in a small room where people who are getting married come to change\r\r\r\r\n\rinto their wedding attire.  There are clothes handing from hooks on the \r\r\r\r\n\rback side of the door.  Above you a bare light bulb shines harsh light down \r\r\r\r\n\ron you.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11893
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11894
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11892,
+            "Zone": 118,
+            "Name": "Amongst the guest",
+            "Description": "You are walking amongst the guests at this quicky wedding.  There are people\r\r\r\r\n\rall around you dressed in guady clothing and crying very theatrically.  You\r\r\r\r\n\rbetter sit down if you don't want to miss any of it.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11894
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11893,
+            "Zone": 118,
+            "Name": "Amongst the guest",
+            "Description": "Youa re walking amongst the guest at a wedding ceremony, if you could call it \r\r\r\r\n\rthat.  Everyone is sobbing quietly and holding tissues to dab their eyes.  The\r\r\r\r\n\rminister is just starting the ceremony...you better sit down.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11894
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11891
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11822
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11894,
+            "Zone": 118,
+            "Name": "Aisle",
+            "Description": "You are walking down an aisle in this quicky marriage chapel.  Just before you\r\r\r\r\n\ris the minster who will change into a couple.  Are you sure your ready to be\r\r\r\r\n\rtied down to one person, to give up your freedom?  There are guests on \r\r\r\r\n\reither side of the aisle crying and lightly dabbing their eyes with tissues.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11892
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11895
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11893
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11822
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "There is a door here that  has a small sign on it that says Dressing room.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 11891
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11895,
+            "Zone": 118,
+            "Name": "Before the Minster",
+            "Description": "This is your last chance to listen to your cold feet.  RRRRUUUUUUUNNNNNNNN!\r\r\r\r\n\rThe minster stand here looking at you and has just asked you to take this\r\r\r\r\n\rperson for your spouse...forever...and ever......What are you gonna do?\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11894
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11896,
+            "Zone": 118,
+            "Name": "Before a Pilgrams house",
+            "Description": "Standing before a quaint little cottage, You notice the plume of smoke\r\r\r\r\n\rrising through the chimney and realize someone must be home. You see \r\r\r\r\n\rthe flicker of candlelight through the small panes of glass in the \r\r\r\r\n\rwindow. Through the window you see the Pilgram family sitting down \r\r\r\r\n\rto their supper.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMAGIC",
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11898
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11880
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11897,
+            "Zone": 118,
+            "Name": "Before a Pilgrams house",
+            "Description": "You stand before a small cottage built from logs.  It is small but yet looks \r\r\r\r\n\rwarm and comfy inside. There is a billowy plume of smoke coming from the \r\r\r\r\n\rchimney.  Through the windows you can see that the famil that lives there \r\r\r\r\n\rand they look perfectly happy in their homes and with their family \r\r\r\r\n\rsurrounding them.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11899
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11880
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11898,
+            "Zone": 118,
+            "Name": "In a Pilgrams House",
+            "Description": "You are standing in a one room cottage.  This house is decorated a little \r\r\r\r\n\rmore than the other one but this family must have a bit more money.  In \r\r\r\r\n\rthis house there are sleeping quarters up in the attic.  There is a ladder\r\r\r\r\n\rthat leads up to the beds.  You can see the shelves which serve as a pantry\r\r\r\r\n\rand they are stocked full for the long winter.  There is a pot on the stove\r\r\r\r\n\rthat looks to be full of some delicious smelling substance.  \r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11896
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 11899,
+            "Zone": 118,
+            "Name": "In a Pilgrams House",
+            "Description": "You are standing in a functional one room cottage.  There are sleeping cots \r\r\r\r\n\rstacked up along one side of the room.  In the fireplace there is a fire\r\r\r\r\n\rgoing that is quite warm and cozy.  There is a long wooden table in the \r\r\r\r\n\rcenter of the room with long benches on either side.  There aren't many \r\r\r\r\n\rdecorations around as it is to be functional and life here is hard.  The \r\r\r\r\n\ronly decoration you see is a large quilt that is hanging over the rocking\r\r\r\r\n\rchair in the corner.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 11897
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

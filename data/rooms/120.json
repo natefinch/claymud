@@ -1,0 +1,2628 @@
+{
+    "rooms": [
+        {
+            "ID": 12001,
+            "Zone": 120,
+            "Name": "The Judging Booth",
+            "Description": "   You stand in the midst of a small room with windows on the east and south\nwalls.  These windows provide a complete view of the competition fields.\nThere are several scorecards, pencils and other items that are used by the\njudges sitting on a table.  The only exit is a trapdoor leading down.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "There is a rickety ladder leading down.\n",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12100,
+                    "Destination": 12002
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "pencils",
+                        "pencil"
+                    ],
+                    "Description": "An ordinary #2 lead pencil.  Judging by the teeth marks on the shaft, the\nuser should see a dentist very soon!\n"
+                },
+                {
+                    "Keywords": [
+                        "scorecards"
+                    ],
+                    "Description": "The cards all have been filled in with the judges evaluations of today's \ncombatants.  It seems that Sparticus is having a good day.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12002,
+            "Zone": 120,
+            "Name": "Caesar's Private Box",
+            "Description": "   This is the best view in the house!  You can see gladiators fighting or the\nchariot races with an unobstructed view.  The seats are upholstered in red\nvelvet and are in top-notch condition.  There is a rickety ladder leading \nup and a marble staircase leading down.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "You see a rickety ladder with a trapdoor leading up.\n",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12100,
+                    "Destination": 12001
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "There is a marble staircase leading down.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12003
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12003,
+            "Zone": 120,
+            "Name": "West Side Commoner's Seating Area",
+            "Description": "   This is the western side commoner's seating area.  There are row upon row of\nrough wooden benches bolted to the floor.  There is stadium garbage every-\nwhere and the smell makes you want to puke.  Stairs lead up to Caesar's \nprivate box, a small ramp leads down to the playing field and a hallway \nleads south.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see a small hallway that leads to a larger area.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12004
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "Watch your step!\n",
+                    "Keywords": [
+                        "stairs",
+                        "stairway"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12002
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Watch your step!\n",
+                    "Keywords": [
+                        "ramp"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12010
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "seats",
+                        "benches"
+                    ],
+                    "Description": "The benches are made of rough cut lumber that has dried and split over time.\nYou would probably get splinters if sat on them.  The words \"BURT WAS HERE\"\nhave been carved into one of the benches with exquisite care.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12004,
+            "Zone": 120,
+            "Name": "Southern Commoner's Seats",
+            "Description": "This is the southeastern part of the common seating areas.  The benches here\nare made of stone and are probably centuries old.  A few scratches on one of\nthe benches catch your eye.  An acrid smell is coming from the east and a\ntunnel leads off to the north.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The tunnel looks like it leads to another seating area.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12003
+                },
+                {
+                    "Direction": "East",
+                    "Description": "There is an acrid smell coming from that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12011
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "marks",
+                        "scratches"
+                    ],
+                    "Description": "They look like they form the words \"Onivel Cinemod Semaj\"  But you could be\nmistaken.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12005,
+            "Zone": 120,
+            "Name": "The Abandoned Gate",
+            "Description": "This used to be a gateway to and from western Rome.  There is a rusted\niron gate hanging off its hinges.  Beyond the gate the road is crumbling\nand the powerful forces of nature have reclaimed the land.  A dirt road\nleads off to the east, and a store is directly south.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Through the clouds of dust, you can make out a passable road.\n",
+                    "Keywords": [
+                        "road"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12012
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You can barely make out a storefront through the foliage.\n",
+                    "Keywords": [
+                        "store"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12006
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18099
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "Description": "The gate has been permanently rusted shut and is further secured by a large \nchain and padlock.  Don't even bother THINKING about trying to open it.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12006,
+            "Zone": 120,
+            "Name": "Swords 'R  Us",
+            "Description": "Welcome to the weaponshop of Titus Andronicus!!  Rare halberds, whips, swords\nand other instruments of death are proudly displayed on the walls and in\ngleaming glass cases.  More common weapons are stacked like wood on the floor.  \nTo the north you can barely make out a gate.  There is a very secure looking \ndoor to the south.\n",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You can see a city gate to the north.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12005
+                },
+                {
+                    "Direction": "South",
+                    "Description": "There is a very secure looking door blocking your progress.  \n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 12034,
+                    "Destination": 12007
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "swords",
+                        "weapons",
+                        "armor",
+                        "halberds",
+                        "whips"
+                    ],
+                    "Description": "Titus has enough hardware in here to outfit a large army.  Maybe that's why\nhe has a lucrative contract to sell weapons to the emperor's armies for \noutrageous prices.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12007,
+            "Zone": 120,
+            "Name": "The Back Room",
+            "Description": "If you thought that there were a lot of weapons in the front of the store,\nyou haven't seen anything yet!!  There is barely enough room to walk amongst\nthe crates of armor and swords.  No wonder Rome will stand for a thousand\nyears.  The only exit is through a door to the north.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Through the piles of weapons, you can see a door leading north to the rest of \nthe store.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 12034,
+                    "Destination": 12006
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "weapons",
+                        "swords",
+                        "crates",
+                        "armor",
+                        "weapon",
+                        "sword",
+                        "crate"
+                    ],
+                    "Description": "There are literally thousands of each.  Take your pick.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12008,
+            "Zone": 120,
+            "Name": "Peanut Heaven",
+            "Description": "You are now so high up that you begin to feel lightheaded and your nose feels \nlike it is going to start bleeding.  There aren't even benches to sit on here; \njust bare dirty stone.  The view of the surrounding country is spectacular.  \nUnfortunately you can barely see the playing field.  There is a set of steps \nhere, leading down.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "Watch your step!\n",
+                    "Keywords": [
+                        "stairs",
+                        "stairway"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12015
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "landscape",
+                        "country"
+                    ],
+                    "Description": "You can see the entire city of Rome from here.  The buildings housing the \nRoman government are to the east.  To the south east, off in the distance, is\nthe massive aqueduct and further in that direction lies the Mountain of the \nGods.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12009,
+            "Zone": 120,
+            "Name": "The Practice and Warm-up Area",
+            "Description": "There are many gladiators, chariot drivers and their coaches here, warming up \nin preparation for the games.  The dust rising from the parched earth makes \nyou want to sneeze.  A short tunnel leads east and the thunder of pounding \nhooves and the clash of weapons can be heard coming from the south.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "There is a large oval dirt-track in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12016
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You can hear the clash of weapons and the thunder of hooves in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12010
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "coach",
+                        "trainer"
+                    ],
+                    "Description": "The coach tell you \"Stop bothering my athletes and get lost!\"\n"
+                },
+                {
+                    "Keywords": [
+                        "chariot"
+                    ],
+                    "Description": "You see a two wheeled open cart which is obviously meant to be pulled by \nhorses.  The flaming paint-job and the large \"01\" stenciled on the side \nidentify the chariot as belonging to Drucilis \"Lightning-whip\" Octavious,\na favorite driver of the masses.\n"
+                },
+                {
+                    "Keywords": [
+                        "driver"
+                    ],
+                    "Description": "The driver is too busy changing a wheel on his chariot to notice you.\n"
+                },
+                {
+                    "Keywords": [
+                        "gladiator"
+                    ],
+                    "Description": "He is a big muscular man with lots of armor.  He sizes you up and decides that \nyou aren't worth his time or trouble.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12010,
+            "Zone": 120,
+            "Name": "The Jousting Arena",
+            "Description": "This is a wide open grassy plane....LOOK OUT!!!!  You are almost skewered by a \ngladiator's lance as he makes his charge.  A practicing area is due north.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Through a small tunnel you can see athletes stretching and warming up for the \ngames.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12009
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see a set of steps leading up into the spectator stands.  \n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12003
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "gladiator"
+                    ],
+                    "Description": "He is in the final stages of a charge against his opponent....THUD!  CLANG!\nCRASH!!!!....judging from the blood and the amount of distance that now \nseparates the gladiators head from the rest of his body, you can safely assume \nthat this was the final combat of his life.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12011,
+            "Zone": 120,
+            "Name": "The First-Aid Station",
+            "Description": "This is the place to come to if one is overcome by the heat and gore.  (Or if \na lion gets loose)  You see a jar of live leeches and other barbaric medical \napparatus lying about here.  From the west comes the roar of the crowd, and a \nhall leads east.  The healer will be with you shortly.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see hundreds, perhaps thousands of people.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12018
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Rows of stone bleachers lie to the west.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12004
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "leech",
+                        "leeches"
+                    ],
+                    "Description": "DISGUSTING!  Each is about the size of matchbox and very slimy.  You are VERY\nglad that you have access to a cleric!\n"
+                }
+            ]
+        },
+        {
+            "ID": 12012,
+            "Zone": 120,
+            "Name": "A Dirt Road",
+            "Description": "You are on a parched and dusty rural road which runs east and west.  There is \na structure lying to the south.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Through the dust, you see a paved road.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12019
+                },
+                {
+                    "Direction": "South",
+                    "Description": "It is difficult to see through the haze and dust.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12013
+                },
+                {
+                    "Direction": "West",
+                    "Description": "It is difficult to see through the haze and dust.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12005
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12013,
+            "Zone": 120,
+            "Name": "The Commoner's House",
+            "Description": "You are standing in the main living quarters of a common Roman citizen.  The\nfurnishings are sparse and it is warm here.  A putrid odor is coming from the \neast and passages lead north and south.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A dusty road lies to the north.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12012
+                },
+                {
+                    "Direction": "East",
+                    "Description": "What is that smell??!!!  It's enough to make a yak gag!!!\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12020
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You hazard a guess that a bedroom lies in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12014
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "furnishings",
+                        "furniture"
+                    ],
+                    "Description": "The furniture that you see is very simple and plain.  It is made of rough hewn\nwood and fastened together with nails.  It looks very uncomfortable.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12014,
+            "Zone": 120,
+            "Name": "The Bedchamber",
+            "Description": "This is the bedroom.  There is a hard and lumpy bed in the far corner.  It\nlooks like the commoner's wife has been shirking her duties lately, as there\nis a big pile of soiled laundry here.  The only way out is from where you \ncame.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the living quarters to the north.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12013
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "laundry",
+                        "wash",
+                        "clothing"
+                    ],
+                    "Description": "It smells of sweat and is covered with mud.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12015,
+            "Zone": 120,
+            "Name": "The Noblemans' Box",
+            "Description": "These are the \"better\" seats used primarily by the upper class of Rome.  There \nis a large seating area to the east and a staircase leading up here.  The view \nof the chariot track is pretty good. \n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Rows upon rows of bleachers lie to the east.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12022
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "The stairs look safe enough.\n",
+                    "Keywords": [
+                        "stairs",
+                        "staircase"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12008
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12016,
+            "Zone": 120,
+            "Name": "Race Track",
+            "Description": "This is a hard dirt track about a quarter of a mile long.  There are hoof \nprints everywhere, and you see a large cloud of dust approaching.  You had\nbetter move before you get run over.  A small tunnel leads west, you can see \nthe crowd to the east.  You can hear loud snarls and roars coming from below.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see athletes warming up and stretching.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12009
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12023
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Do you like lots of live lions that haven't been fed for a few days?\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12017
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12017,
+            "Zone": 120,
+            "Name": "The Lion Pit",
+            "Description": "   As you land at the bottom of this dirt-walled pit, the realization that a \npit full of lions is NOT a good thing to be hanging around in.  Several of the\ngladiators gather around the edge of the pit to watch your demise.  You look\naround you, and all you see is tawny fur and gaping jaws...it's too late to\nrun, too late to hide.\n   Twelve lions rip you and your belongings into a gory mass of bloodied\nleather, bronze, and bone.\n\n   What's that old saying? \n   Cats killed the curious?  Something like that, I'm sure...\n\n",
+            "Bits": [
+                "DEATH",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12010
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12016
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12018,
+            "Zone": 120,
+            "Name": "South Entrance to the Coliseum",
+            "Description": "   You are standing at the south entrance to the Coliseum.  There are citizens \nof Rome everywhere, apparently in a mad rush to get in.  A statue of Caligula\nthe Mad Emperor overlooks the area.  There are long lines standing to the east, \nand an acrid smell is coming from the west.  A busy road lies to the south.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The lines are very long and people look impatient.\n",
+                    "Keywords": [
+                        "line",
+                        "lines"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12025
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A road lies in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12019
+                },
+                {
+                    "Direction": "West",
+                    "Description": "An acrid, almost medicinal smell is coming from that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12011
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "statue",
+                        "caligula"
+                    ],
+                    "Description": "A larger than life stone statue of Caligula, the Mad Emperor, looks at you. It\nlooks like it is holding a phallus.  He's got a grin on his face that seems to\nsay 'My horse would like you, I bet...'\n"
+                }
+            ]
+        },
+        {
+            "ID": 12019,
+            "Zone": 120,
+            "Name": "The Main Highway",
+            "Description": "This is a well built and heavily traveled road running from east to west and \nthere is a large structure built entirely of stone to the north.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You can hear the roar of a large crowd of people coming from that direction.\n",
+                    "Keywords": [
+                        "structure"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12018
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The highway continues to the east.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12026
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The highway continues to the west.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12012
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12020,
+            "Zone": 120,
+            "Name": "The Outhouse",
+            "Description": "PEEEEEEEEEEEEEEEE-YEEEEEWWWWWWWW!!!!!  Boy does it stink in here!!!  You taste \nbile in your mouth and your eyes begin to water.  As you wipe away your tears, \nyou see that this is a small room, in the far corner of which a hole is dug.  \nThe odor intensifies as you move closer and there is a roll of toilet paper \nsitting on the ground.  The only exit is to the west and your nose and stomach \nare strongly suggesting that you use it.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The living quarters lie in that direction.  Why don't you stop pussyfooting \naround and go that way??!!  Please?\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12013
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "roll",
+                        "paper"
+                    ],
+                    "Description": "Hey!!  This is first-class stuff!! - White Cloud brand with lotion.  The roll\nis about half-used.\n"
+                },
+                {
+                    "Keywords": [
+                        "hole",
+                        "toilet"
+                    ],
+                    "Description": "You walk over to the hole and see that there is a large turd floating in a \npool black water about 2 feet below the surface of the ground.  As you lean\ncloser to get a better look, your nose catches a concentrated dose of the \nfragrant aroma wafting upwards.  Your stomach decides that it has had enough\nof this shoddy treatment and you puke until it is empty.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12021,
+            "Zone": 120,
+            "Name": "The Slave Quarters",
+            "Description": "This is where the slaves sleep.  There are hard boards set out for use as beds\nand not much else.  The only exit is to the north.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, a well manicured path winds through the nobleman's estate.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12027
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12022,
+            "Zone": 120,
+            "Name": "Common Seating",
+            "Description": "This is where many of the common Roman citizens are seated during the games.\nThese are the cheapest seats in the house, as glare from the sun is usually a \nproblem during the afternoon.  Like the other common seating areas, this place \ncould stand extensive renovation and a thorough cleaning.  This area extends \nto the south and a much more elegant seating area can be seen to the west.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The common seating area continues.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12023
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The seating gets much fancier and elegant in that direction.\n",
+                    "Keywords": [
+                        "elegant"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12015
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12023,
+            "Zone": 120,
+            "Name": "Common Seating",
+            "Description": "This is where many of the common Roman citizens are seated during the games.\nLike the other commoners' areas in the coliseum, it could use extensive \nrenovation and cleaning.  This area extends to the north and lots of noise can \nbe heard coming from the south.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The common seating area continues.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12022
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see hundreds, perhaps thousands of people.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12024
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12024,
+            "Zone": 120,
+            "Name": "East Entrance to Coliseum",
+            "Description": "You are standing at the east entrance to the Coliseum.  There are people \neverywhere, apparently in a mad rush to get in.  A statue of Tiberius, an \nemperor of a time long since passed, stands here looking out over the crowd.  \nThere is a passage to the north, the ticket booth is to the south and a gate \nopening to the city lies to the east.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see rows upon rows of dilapidated wooden bleachers.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12023
+                },
+                {
+                    "Direction": "East",
+                    "Description": "Nero Drive lies in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12031
+                },
+                {
+                    "Direction": "South",
+                    "Description": "There are VERY long lines standing outside the ticket booth.\n",
+                    "Keywords": [
+                        "booth"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12025
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "statue",
+                        "tiberius"
+                    ],
+                    "Description": "The statue of Tiberius, made of iron, stands here.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12025,
+            "Zone": 120,
+            "Name": "Ticket Booth",
+            "Description": "Long lines are standing here, waiting to buy tickets.  There are 3 vendors \nworking furiously.  Ticket stubs litter the ground and you can see that the\npeople are getting very impatient.  There is a large, open cashbox here.  Main \nentrances to the Coliseum are to the north and west.  \n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see hundreds, if not thousands of people.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12024
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see hundreds, if not thousands of people.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12018
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "cashbox"
+                    ],
+                    "Description": "It's a shame that the exchange rate for Roman money is so low.  What amounts\nto a fortune in Rome isn't even worth one gold coin.  The contents of the box\nadd up to about .... well forget it.  It isn't worth your time or trouble to\ncarry it around.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12026,
+            "Zone": 120,
+            "Name": "Paved Road",
+            "Description": "You are on a paved road that runs east to west.  You can see an elaborate\nlooking estate to the south and to the north-west, off in the distance, you\ncan see a very large stone structure.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The road leads off to the east.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12033
+                },
+                {
+                    "Direction": "South",
+                    "Description": "It looks like a Nobleman's estate.  We are talking RICH nobleman's estate.\n",
+                    "Keywords": [
+                        "estate",
+                        "house"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12027
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The road leads west towards the highway.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12019
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "structure"
+                    ],
+                    "Description": "That would probably be the Coliseum.  There are a few good matches scheduled\nfor today.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12027,
+            "Zone": 120,
+            "Name": "Noble Estate",
+            "Description": "You are on the grounds of a nobleman's estate which is hundreds of times the\nsize and splendor of anything that a common citizen of Rome would ever hope\nto own.  Everything is lush and green.  The grass is perfectly manicured and \nthe trees are all bearing fruit.  Ornamental plants are in perfectly situated \nto enhance and adorn the three statues of dedicated to gods Jupiter, Venus and \nNeptune.  A tranquil path leads east and west, there is a paved road to the \nnorth and an extravagant house lies to the south.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a paved road in the distance.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12026
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The path leads east through the estate.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12034
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see an incredible house off in the distance.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12028
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Off through the trees, you see a small, plain hut.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12021
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "trees",
+                        "tree",
+                        "shrubs",
+                        "shrub",
+                        "plants",
+                        "plant"
+                    ],
+                    "Description": "All of the plants, trees and shrubs are perfectly trimmed, without so much as \na dead leaf anywhere to be seen.  You welcome the shade that they give from \nthe harsh sun above.\n"
+                },
+                {
+                    "Keywords": [
+                        "Neptune"
+                    ],
+                    "Description": "The statue of Neptune is made of pure jade and is holding a crystal trident.\nIt is sitting in the center of a small pond which has hundreds of beautiful\nfish swimming in it.\n"
+                },
+                {
+                    "Keywords": [
+                        "Jupiter"
+                    ],
+                    "Description": "A statue made of pure gold depicts Zeus sitting on his throne.  The throne\nlooks like it is made of silver.\n"
+                },
+                {
+                    "Keywords": [
+                        "Venus"
+                    ],
+                    "Description": "Venus, the Roman goddess of beauty and knowledge is displayed in a all of her\nsplendor.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12028,
+            "Zone": 120,
+            "Name": "An Opulent House",
+            "Description": "You stand in a house, the size and splendor of which almost defies the \nimagination.  The floor is done with hand crafted marble tile with silver \nand jeweled inlays.  The light coming through the exquisitely crafted stained \nglass windows bathes the room in splendor and the furniture looks as though it  \nwas made by master craftsmen from all over the empire.  A path through the \nestate is north of here.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a well manicured path that winds through the estate.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12027
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "furniture"
+                    ],
+                    "Description": "You hope to eventually be able to own a piece of furniture just like these \nsomeday.  These are only dreams, of course.\n"
+                },
+                {
+                    "Keywords": [
+                        "windows"
+                    ],
+                    "Description": "They are intricate and the scenes that they depict cast honor on several of\nthe gods.\n"
+                },
+                {
+                    "Keywords": [
+                        "floor",
+                        "tile"
+                    ],
+                    "Description": "Very expensive!  A lot of master craftsmen labored long and hard to produce\nsuch a work of art.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12029,
+            "Zone": 120,
+            "Name": "The Great North Gate",
+            "Description": "This is the northern gateway to the city of Rome.  The huge gate appears to be\nclosed and locked against intrusion.  A large road muddy road runs through the \ngate and into the countryside.  Nero Drive runs south from here.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A large, massive gate blocks the way to the north.  \nCryptically written in spraypaint on the walls is a single word: NAVARRE.\n",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 18998
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Nero Drive continues in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12030
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 639
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "Description": "The gate is made of solid iron and is well maintained.\n"
+                },
+                {
+                    "Keywords": [
+                        "road"
+                    ],
+                    "Description": "The road is wide and very muddy.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12030,
+            "Zone": 120,
+            "Name": "Nero Drive",
+            "Description": "You are walking on a paved road that runs south through the city of Rome.  A\ngreat gate is directly north of here.  The Roman citizens are very friendly \nand tip their hats or say hello as you pass.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, you can see a gate leading out of the city.\n",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12029
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Nero Drive continues in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12031
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the bakery of Rome.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12062
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12031,
+            "Zone": 120,
+            "Name": "Nero Drive",
+            "Description": "You are walking on a great paved road that runs north and south through the\ncity.  People are hurrying from one place to another, but always stop to say\nhello.  Most of the people are either coming from or going to the town square\nNero Drive continues to the north, and you can see a large open area to the \nsouth.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Nero drive continues in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12030
+                },
+                {
+                    "Direction": "South",
+                    "Description": "It looks like the town square.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12032
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the an opulent estate.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12024
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12032,
+            "Zone": 120,
+            "Name": "Town Square",
+            "Description": "You are standing in the middle of a large open area which is the common area\nof Rome.  During the day, this place is alive with the hustle and bustle of\nall of the citizens of Rome and everyone in the city is sure to stop by at\nsome time or another.  There are several street vendors peddling their wares\nand the overall atmosphere is carnival-like in nature.  To the southeast, off\nin the distance, you can see the aqueduct and the buildings of the Roman \ngovernment lie to the northwest.  Nero Drive leads north and south from here \nand Clay Avenue runs east.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Nero Drive heads in the direction of the northern gate.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12031
+                },
+                {
+                    "Direction": "East",
+                    "Description": "Nero Drive heads in the direction of the south gate.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12039
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A street made of hard packed clay runs in that direction towards the aqueduct\nand buildings of the Roman government.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12033
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "aqueduct"
+                    ],
+                    "Description": "To the southeast, off in the distance, stands a large stone structure that is\nused to channel water into the city.\n"
+                },
+                {
+                    "Keywords": [
+                        "vendor",
+                        "vendors"
+                    ],
+                    "Description": "There are several sidewalk vendors here, selling fresh fruits and vegetables,\nhome baked goods, fine jewelry and other items.  Most of the items for sale are \nof very high quality.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12033,
+            "Zone": 120,
+            "Name": "Nero Drive",
+            "Description": "You are walking on a paved road that runs north and south through the city of\nRome.  There are many people here, as polite as always.  Most of them are \neither coming from or going to the town square which lies to the north.  Nero \nDrive continues to the south.  There is an observation area overlooking the \naqueduct to the east and a paved road leads west.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The town square lies in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12032
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The aqueduct and mountain of the gods are in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12040
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Nero Drive continues toward the South Gate.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12034
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A paved road runs west through the city.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12026
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12034,
+            "Zone": 120,
+            "Name": "Nero Drive",
+            "Description": "This is a busy paved road that runs north through the city.  The people of \nRome are very friendly and say hello as you pass.  A gate leading out of the \ncity lies to the south and a small path goes west towards a nobleman's estate.\nTo the east, off in the distance, lies the great mountain.  It is rumored that\nthe gods watch over and protect the empire from there.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Nero Drive leads in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12033
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see many people entering and leaving the city through a large gate in the\nwalls protecting the city.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12035
+                },
+                {
+                    "Direction": "West",
+                    "Description": "It looks like a nobleman's estate.  We are talking RICH nobleman's estate.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12027
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12035,
+            "Zone": 120,
+            "Name": "The South Gate",
+            "Description": "This is the southern gateway to the city of Rome.  The bronze gate is closed \nand locked.  Looking through the bars, you see a heavily traveled road leading \nout of the city.  Nero Drive starts here and runs north and a wizard's shop \nlies to the east.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Nero Drive leads towards the center of town.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12034
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A small store, from which an occasional detonation can be heard, lies off in \nthat direction.  It appears to be surrounded by a rolling pink mist.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12042
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "s",
+                        "so",
+                        "sou",
+                        "sout",
+                        "south"
+                    ],
+                    "Description": "The gate appears to be closed and locked against intruders.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12036,
+            "Zone": 120,
+            "Name": "The Emperor's Private Office",
+            "Description": "You are standing in the emperor's private office.  The room is richly\nfurnished with the finest of the loot brought back from conquests of far \naway lands.  There is a massive, intricately carved desk here, upon which \nare important documents, decrees and other paperwork involved in running the \nempire.  On the far wall, there is a marble bookcase that is well stocked \nwith the works of Homer, Plato, Socrates and other wise men.  Further, it \nseems that the current emperor likes flowers as there are many potted and cut \nspecimens throughout the room.  There is a french door leading to the waiting\nroom and a wooden door to the south.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Through the door, you see a waiting room.\n",
+                    "Keywords": [
+                        "french"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 12036,
+                    "Destination": 12043
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The south door leads directly to the senate chambers.\n",
+                    "Keywords": [
+                        "wooden"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 12032,
+                    "Destination": 12037
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "desk"
+                    ],
+                    "Description": "The desk is made of solid walnut and gold inlay.  It is exquisitely carved \nwith superior craftsmanship, the likes of which has rarely been seen.  It was\nprobably brought to Rome from Gaul.\n"
+                },
+                {
+                    "Keywords": [
+                        "documents",
+                        "decrees",
+                        "paperwork",
+                        "document",
+                        "decree",
+                        "papers",
+                        "paper"
+                    ],
+                    "Description": "The documents are all written on reed scrolls made in Egypt and have been \nsealed with wax.  \n"
+                },
+                {
+                    "Keywords": [
+                        "bookcase",
+                        "books"
+                    ],
+                    "Description": "The books are very old and contain the wisdom of wise men from throughout the\nentire Roman empire.  They appear to be collecting dust.\n"
+                },
+                {
+                    "Keywords": [
+                        "flowers",
+                        "plants",
+                        "flower",
+                        "plant"
+                    ],
+                    "Description": "The plants contribute to a very relaxing atmosphere.  \n"
+                }
+            ]
+        },
+        {
+            "ID": 12037,
+            "Zone": 120,
+            "Name": "The Senate Chambers",
+            "Description": "This is the working room where elected senators from all over the empire \ngather to advise the emperor.  An official seal of the emperor is hanging on \nthe far wall.  There is a wooden door to the north and a bronze door to the\neast and doublehung door to the south.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The door is made of thick walnut.\n",
+                    "Keywords": [
+                        "wooden"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 12032,
+                    "Destination": 12036
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The door leads to the foyer.\n",
+                    "Keywords": [
+                        "bronze"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12032,
+                    "Destination": 12044
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "doublehung"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12033,
+                    "Destination": 12038
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12038,
+            "Zone": 120,
+            "Name": "The House of Commons",
+            "Description": "This is the lower house of the advising body to the emperor.  Common men from\nall parts of Rome work here to further assist the senators in advising the\nemperor on critical matters of state.  The seal of the emperor is painted on\nthe far wall.  The only exit is to the north.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see that the doublehung door leads to the senate chambers.\n",
+                    "Keywords": [
+                        "doublehung"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12033,
+                    "Destination": 12037
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12039,
+            "Zone": 120,
+            "Name": "Clay Avenue",
+            "Description": "You are on a wide well traveled road running east and west through the heart\nof Rome.  There are large crowds of people to the west and the road continues\nto the east.  The aqueduct is directly south of here.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Clay Avenue continues in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12046
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see an entrance to the aqueduct.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12041
+                },
+                {
+                    "Direction": "West",
+                    "Description": "There are large crowds of people in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12032
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "crowds",
+                        "people"
+                    ],
+                    "Description": "It looks like some kind of bizarre or festival is occurring to the west.  There\nare hundreds of people of all classes shopping, talking or eating.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12040,
+            "Zone": 120,
+            "Name": "Observation Lookout",
+            "Description": "You are on a platform overlooking a massive aqueduct.  There is a telescope \nmounted to the railing that surrounds the area and you can hear the gurgle of\nwater as it is channeled into the city.  Off in the distance, you can see the\nMountain of the Gods.  There is a sign mounted to the railing and a ramp leads\nwest.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You can see a busy street in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12033
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "     \n         ********************************************\n         *                                          *\n         *      The Roman Aquarian and Mountain     *\n         *           Observation Platform           *\n         *                                          *\n         *       Designed and built by the Froboz   *\n         *            Magic Platform Company        *\n         *                                          *\n         ********************************************\n\n"
+                },
+                {
+                    "Keywords": [
+                        "aqueduct"
+                    ],
+                    "Description": "The aqueduct is a massive stone structure that channels water into Rome from\nthe Mountain of the Gods.  During the rainy season, it is filled to the top.\nHowever, due to recent drought, the water level appears to be very low.\n"
+                },
+                {
+                    "Keywords": [
+                        "telescope"
+                    ],
+                    "Description": "If it were operational, it would offer a spectacular view of the Mountain of \nthe Gods.  Unfortunately, it appears to have been vandalized.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12041,
+            "Zone": 120,
+            "Name": "The Aqueduct",
+            "Description": "You are in a massive stone structure that has been designed to channel water\ninto the city of Rome.  Due to the recent drought, the water level is low, \nallowing passage without a boat.  The walls and floor are covered with algae \nand slime producing treacherous footing conditions.  There are exits to the \nnorth, south and east.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You can see a wide street to the north.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12039
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see more aqueduct.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12048
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see more aqueduct.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12041
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see more aqueduct.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12054
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "slime",
+                        "algae"
+                    ],
+                    "Description": "Due to the availability of moisture and nutrients, a green, viscous slime has \ngrown and covered everything with a slippery coating.  It seems to go out of\nits way to drip on you.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12042,
+            "Zone": 120,
+            "Name": "The Mage's Shop",
+            "Description": "You are standing in the mage's shop.  Magical ointments, charms and potions\nare sitting on shelves and behind a glass counter.  There is a dense neon\nblue fog hugging the floor here, making it impossible to see below your knees.\nYou suddenly hear mutterings coming from the back room, possibly from .... \nKKKKKAAAAAAAABBBBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMM!!!!!!\nYou are deafened by the noise from a tremendous explosion and the concussion \nfrom the blast staggers you!  The shopkeeper seems to pay no heed to this.  \nThe door to the back room opens and an older man, wearing a pointed hat, whose \nface is smudged with soot sticks his head out.  \"Is everyone alright?  Sorry \nabout that.  I was testing a new mages spell.  I'll try to give advance notice \nnext time.\", he says.  The door then closes.\n",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The door is reinforced with steel and looks VERY sturdy.  Considering the \n\"test\" that you just witnessed, you are glad that it stands between you and \nwhatever is going on in the back room.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 12037,
+                    "Destination": 12049
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the south gate through the door.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12035
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "fog",
+                        "mist"
+                    ],
+                    "Description": "This is some really strange stuff!  You have never seen anything this color\nbefore.  Your legs are totally obscured from the knee down.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12043,
+            "Zone": 120,
+            "Name": "The Waiting Room",
+            "Description": "You are standing in a very large room with a high ceiling and there are a few\npeople waiting here to see the emperor on urgent matters. The master scheduler \ntells you to have a seat and sends a page to inform the his highness of your \narrival.  There are large doors to the east and west and an exit leads south \nto the foyer.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "There is a sign on the door that says:  MUNICIPAL COURT OF ROME.  It appears \nto be open.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12050
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The foyer is directly to the south.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12044
+                },
+                {
+                    "Direction": "West",
+                    "Description": "There is a large door to the west.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 12036,
+                    "Destination": 12036
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12044,
+            "Zone": 120,
+            "Name": "The Entrance Foyer",
+            "Description": "You have just entered the main government building of the Roman Empire and are \nstanding in a massive room with an elaborately decorated domed roof.  There \nare many people here; messengers and senators being the most numerous.  There \nis a large, ornate door to the west, a hallway leads north and marble stairs \nthat lead out of the building  are to the south.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a hallway leading north to what looks like a waiting room.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12043
+                },
+                {
+                    "Direction": "West",
+                    "Description": "There is a large door to the west that blocks your path.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12032,
+                    "Destination": 12037
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see a stairway leading out of the building.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12045
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12045,
+            "Zone": 120,
+            "Name": "Outside the Capitol",
+            "Description": "You stand on white marble steps that lead up and into the Capitol Building.\nThere are several statues, none of any real significance, at the entrance to\nthe building.  The main entrance to the building is at the top of the steps.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "The steps lead into the Capitol Building.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12044
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The steps terminate onto Clay Avenue.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12046
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "statue",
+                        "statues"
+                    ],
+                    "Description": "There is really nothing noteworthy about them.\n"
+                },
+                {
+                    "Keywords": [
+                        "stairs",
+                        "stairway",
+                        "steps"
+                    ],
+                    "Description": "The stairs are immaculately polished and made of white marble.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12046,
+            "Zone": 120,
+            "Name": "Clay Avenue",
+            "Description": "You are standing on a wide, heavily traveled road that runs east and west \nthrough the heart of the city.  There are marble steps leading up.  To the \nsouth, off in the distance, you can see a large stone structure and a mountain\nthat is partially obscured by the haze.  There is a general store to the north.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The general store lies in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12063
+                },
+                {
+                    "Direction": "East",
+                    "Description": "There is what appears to be a large gate in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12051
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Clay Avenue continues.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12039
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "There are some white marble steps leading up.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12045
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "mountain"
+                    ],
+                    "Description": "Off to the southwest, you can see  a huge mountain that is partially obscured\nby the haze.  It is rumored that the gods reside there and protect the city.\n"
+                },
+                {
+                    "Keywords": [
+                        "stone",
+                        "structure",
+                        "aqueduct"
+                    ],
+                    "Description": "You see a massive stone structure, built several centuries ago, that is used\nto channel water into the city.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12047,
+            "Zone": 120,
+            "Name": "The Summit of The Mountain of the Gods",
+            "Description": "You are at the summit of a very high mountain and are standing above the \nclouds.  The sun is shining brilliantly here and the clouds below look like\nballs of cotton.  The path that you have been walking on is damp and the scent\nof lilac is in the air.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1524
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see a damp path leading back down the mountain.\n",
+                    "Keywords": [
+                        "path"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12052
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12048,
+            "Zone": 120,
+            "Name": "The Aqueduct",
+            "Description": "You are in a massive stone structure that has been designed to channel water\ninto the city of Rome.  Due to the recent drought, the water level is low, \nallowing passage without a boat.  The walls and floor are covered with algae\nand slime, producing treacherous footing conditions.  There are exits in all\nfour cardinal directions.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The aqueduct continues.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12057
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The aqueduct continues.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12041
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the entrance to a huge stadium, full of screaming people.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12048
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The aqueduct continues.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12048
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "slime",
+                        "algae"
+                    ],
+                    "Description": "Due to the availability of moisture and nutrients, a green viscous slime has\ngrown and covered everything with a slippery coating.  It seems to go out of\nits way to drip on you.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12049,
+            "Zone": 120,
+            "Name": "Froboz's Workshop",
+            "Description": "You are standing in the workshop of Froboz the Great, the most powerful and \nfamous mage that Rome has ever known.  Workbenches line the walls and are\ncovered with various test tubes, beakers, petri dishes and crucibles and there\nis an odor in here that can best be described as a combination of old sweat\nsocks and burning tires.  The only exit is back through the door through which\nyou came.  In the middle of the room, you see a pile of ashes that looks like \nit once was a body and Froboz is is busy making adjustments on a new type of \nmagic wand .... possibly the one responsible for the explosion a few minutes \nago.  He removes a jeweler's loupe from his eye as he turns around.  \"How in \nthe name of Merlin did you get in here??!!\" he asks.  \"Oh, nevermind!  Since \nyou are here, you can serve as witnesses to the final test of the new mage's \nspell:  'ectowatt'.\"  With this he makes a magical gesture and the Paladin \nKnight appears.  Crossing his fingers, Froboz waves the wand his direction and \nwhat happens next is incredible!  The Paladin is enveloped in what appears to \nbe a small, well contained, thermonuclear explosion.  When the smoke clears \nyou can see that the Paladin and all of equipment has been reduced to a large \npile of flaming cinders.  Froboz throws his head back and cackles with insane \nglee.  \"Now, my young friends, what can I do for you?\" he asks.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "There is a door, reinforced with steel, in that direction.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 12037,
+                    "Destination": 12042
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "workbench",
+                        "workbenches",
+                        "tubes",
+                        "beakers",
+                        "crucibles",
+                        "dishes"
+                    ],
+                    "Description": "These are all tools of great power.  You cannot even begin to understand what\nany of this stuff does.\n"
+                },
+                {
+                    "Keywords": [
+                        "cinders",
+                        "ashes",
+                        "pile"
+                    ],
+                    "Description": "The ashes are a very fine grayish white powder that seems to be the only \nworldly remains of Froboz's \"test specimens\". \n"
+                }
+            ]
+        },
+        {
+            "ID": 12050,
+            "Zone": 120,
+            "Name": "The Courtroom",
+            "Description": "You stand inside of a large courtroom in which common civil disputes and \ncriminal matters are decided.  There is a judge's bench and a witness stand\non the far side of the room and a jury's box along side.  The emperor's seal\nis prominently displayed on the wall behind the judge's stand, reminding all\nwho enter that he is an extension of his highness.  There is a door, possibly \nleading to the judge's chambers, to the east and the waiting room is to the \nwest.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The door might lead into the judge's private chambers.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12035,
+                    "Destination": 12055
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The holding cells lie in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12060
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The waiting room lies in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12043
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "bench",
+                        "stand",
+                        "box",
+                        "jury"
+                    ],
+                    "Description": "You see large wooden structures that are designed to separate the judge, jury\nand witnesses from the rest of the courtroom.  They are made of polished  \noak and are strictly functional.\n"
+                },
+                {
+                    "Keywords": [
+                        "seal"
+                    ],
+                    "Description": "The seal of the emperor is mounted above the judge's stand.  \n"
+                }
+            ]
+        },
+        {
+            "ID": 12051,
+            "Zone": 120,
+            "Name": "The East Gate of Rome",
+            "Description": "You are standing inside of the eastern gate of Rome.  There are two tall \nspires built into the city wall, from which the guards can see the whole \neastern side of the city.  The gate is currently open and to the east, \nthere is a heavily used road, made of packed clay, that leads out of Rome. \nAnother road leads westward into the city.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12064
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The clay street leads into the city.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12046
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "Description": "The gate is fabricated from iron and has been designed to keep intruders out \nof the city.\n"
+                },
+                {
+                    "Keywords": [
+                        "spires",
+                        "towers"
+                    ],
+                    "Description": "There are two tall spires on either side of the gate and are constantly manned\nby the city guards.  They are made of stone and stand about 40 feet tall. \n"
+                }
+            ]
+        },
+        {
+            "ID": 12052,
+            "Zone": 120,
+            "Name": "A Mountain Path",
+            "Description": "You stand on a small trail that leads up and down.  It has recently been \nraining and there are small puddles everywhere.  You are just below the\nclouds and the view of the surrounding countryside is breathtaking.  \n",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "The trail leads up and enters the clouds.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12047
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The trail leads down.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12056
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "trail"
+                    ],
+                    "Description": "The mountain trail is a little muddy, due to the recent rains.  \n"
+                }
+            ]
+        },
+        {
+            "ID": 12054,
+            "Zone": 120,
+            "Name": "The Aqueduct",
+            "Description": "You are in a massive stone structure that has been designed to channel water \ninto the city of Rome.  Due to the recent drought, the water level is low, \nallowing passage without a boat.  The walls and floor are covered with algae \nand slime, producing treacherous footing conditions.  There are exits in all \nfour cardinal directions.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The aqueduct continues.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12041
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The aqueduct continues.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12054
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The aqueduct continues.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12057
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The aqueduct continues.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12048
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "slime",
+                        "algae"
+                    ],
+                    "Description": "Due to the availability of moisture and nutrients, a green, viscous slime has\ngrown and covered the everything with a slippery coating.  It seems to go out\nof its way to drip on you.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12055,
+            "Zone": 120,
+            "Name": "Judge's Chambers",
+            "Description": "You are in a small room that is filled with legal tomes.  There is a small\ndesk here, literally buried under legal documents.  There is also a small\nwindow overlooking the northern part of the city.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The courtroom lies in that direction.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 12035,
+                    "Destination": 12050
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "papers",
+                        "documents"
+                    ],
+                    "Description": "There are hundreds of pages of petitions, lawsuits and court orders sitting\non the desk.  One particularly interesting case involves a nobleman, a slave\nand a roll of toilet paper.\n"
+                },
+                {
+                    "Keywords": [
+                        "tombs",
+                        "books"
+                    ],
+                    "Description": "The books are very large and filled with Roman legal precedent.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12056,
+            "Zone": 120,
+            "Name": "A Mountain Path",
+            "Description": "You are standing on a small trail that leads through a grove of trees.  Every\nthing is lush and green here and it appears to have been raining recently.\n\"This would be an ideal place for a picnic.\" , you think to yourself.\n",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "You see a small trail leading further up the mountain.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12052
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see a small trail, leading down.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12059
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "trail",
+                        "path"
+                    ],
+                    "Description": "The path is a little muddy, possibly due to a recent thundershower.\n"
+                },
+                {
+                    "Keywords": [
+                        "tree",
+                        "trees",
+                        "vegetation"
+                    ],
+                    "Description": "All of the vegetation is lush, green and in full bloom.  You wish that you \ncould take the time to stop and enjoy it properly.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12057,
+            "Zone": 120,
+            "Name": "The Aqueduct",
+            "Description": "You are in a massive stone structure that has been designed to channel water\ninto the city of Rome.  Due to a recent drought, the water level is low, \nallowing passage without a boat.  The walls and floor are covered with algae\nand slime, producing treacherous footing conditions.  A valley lies to the \nsouth and the other cardinal directions lead further into the aqueduct.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The aqueduct continues.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12054
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The aqueduct continues.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12054
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a gorgeous valley.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12058
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The aqueduct continues....\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12041
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "slime",
+                        "algae"
+                    ],
+                    "Description": "Due to the availability of moisture and nutrients, a green, viscous slime has\ngrown and covered everything with a slippery coating.  It seems to go out of\nits way to drip on you.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12058,
+            "Zone": 120,
+            "Name": "The Valley of the Gods",
+            "Description": "   You stand in a tranquil valley at the base of a large mountain.  A quiet \nstream, with fruit trees growing along its banks, winds its way peacefully\nthrough the valley and enters a large stone structure that lies to the west.\nThere are birds singing and every now and then a ripple breaks the surface\nof the stream.  You can see a path leading through the trees to the up.\n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A small path winds its way through the trees.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12057
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see a path leading up the mountain.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12059
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "trees",
+                        "fruit"
+                    ],
+                    "Description": "The fruit trees, nourished by the fertile ground at the edge of the stream and \nsustained by the brilliant sunshine, line the banks of the stream and are \nladen with fruit.\n"
+                },
+                {
+                    "Keywords": [
+                        "fish"
+                    ],
+                    "Description": "A variety of species swims peacefully in the cool, clear water.  \n"
+                },
+                {
+                    "Keywords": [
+                        "stream",
+                        "brook"
+                    ],
+                    "Description": "A stream of the clearest, cleanest water that you have ever seen winds its way \nthrough the valley.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12059,
+            "Zone": 120,
+            "Name": "A Mountain Path",
+            "Description": "You are standing on a path that leads up through a stand of large trees.  \nEverything is green and it seems like eternal spring - this is Mother Nature\nat her finest.  It is possible to descend into a tranquil valley from here.\n",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "The path leads further up the mountain.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12056
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The path widens out into a tranquil valley.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12058
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "trees"
+                    ],
+                    "Description": "The trees are old and tower hundreds of feet above the ground.  If you stand\nstill and listen carefully, you can hear the birds singing.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12060,
+            "Zone": 120,
+            "Name": "The Holding Cells",
+            "Description": "You are standing in the holding cell area, just off of the cortroom.  Those\nwho are recently convicted of serious crimes are brought here, pending torture\nand execution.  The courtroom lies to the north and another exit goes east.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The courtroom lies to the north.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12050
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12061
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "cells",
+                        "cell"
+                    ],
+                    "Description": "You can see small and very cramped cells which are filthy.  You shiver and \nvow to never do anything that would cause you to become a resident.\n"
+                }
+            ]
+        },
+        {
+            "ID": 12061,
+            "Zone": 120,
+            "Name": "The Torture Chamber",
+            "Description": "You are standing in a very small room in which there are many tools designed\nspecifically for inflicting pain and suffering.  Some of them are familiar,\nsuch as the rack and the iron maidens.  Others, you have never seen before\nand they make you wonder about the kind of sadistic mind that dreamt them up.\nThe only exit is to the west.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The holding cells lie in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12060
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12062,
+            "Zone": 120,
+            "Name": "The Roman Bakery",
+            "Description": "You are standing in the bakery of Rome and your mouth waters at the delicious\naromas wafting from the kitchen.  The only exit is to the east.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12030
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12063,
+            "Zone": 120,
+            "Name": "The General Store",
+            "Description": "You are standing in the only general store of Rome.  The walls and shelves \nare covered with all of the various items required by Roman citizens and \nstalwart mudders.  Clay Avenue lies to the south.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "Clay Avenue lies in that direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12046
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12064,
+            "Zone": 120,
+            "Name": "Before Rome",
+            "Description": "You travel upon an East-West road wide enough for 30 men to march\nabreast.  It is packed hard through heavy use.  To the west stands the\nGates of Rome inviting you to enter and partake of all the glory and\nsplendor that is Rome.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12065
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12051
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12065,
+            "Zone": 120,
+            "Name": "Clay Road",
+            "Description": "You travel upon an East-West road wide enough for 30 men to march\nabreast.  It is packed hard through heavy use.  To the west, you eyes\ncatch the splendors of a mighty city.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10598
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12064
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12066,
+            "Zone": 120,
+            "Name": "Midgaard north-south highway",
+            "Description": "You travel upon an East-West road wide enough for 30 men to march\nabreast.  A small path leads off through a field to the south.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10501
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3061
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 12067,
+            "Zone": 120,
+            "Name": "End of the Clay Road",
+            "Description": "The mighty clay road turns into lesser, but still well traveled roads\nhere.  You feel a surge run through your body as you look East into the\nlands that turned Rome into its mighty empire.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The might clay road leads off in this direction.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 12066
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

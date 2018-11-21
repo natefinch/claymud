@@ -1,0 +1,3486 @@
+{
+    "rooms": [
+        {
+            "ID": 16100,
+            "Zone": 161,
+            "Name": "Entrance to Turnings of the Wheel",
+            "Description": "The Wheel of Time turns, and Ages come and pass, leaving memories that become\nlegend. Legend fades to myth, and even myth is long forgotten when the Age\nthat gave it birth comes again. In one Age, called the third Age by some, an\nAge yet to come, an Age long past, a wind rose in the Mountains of Mist. The\nwind was not the beginning.  There are neither beginnings nor ending to the\nturning of the Wheel of Time. The wind was not the beginning.  There are\nneither beginnings nor ending to the turning of the Wheel of Time.\n",
+            "Bits": [
+                "NOMOB",
+                "PEACEFUL",
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16101
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3061
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16101,
+            "Zone": 161,
+            "Name": "Quarry Road, by Tam's House",
+            "Description": "You are standing on a well kept road beside an average looking farm house.\nIt looks like a major battle was once held here judging by the hacked off\nbranches and brown stains on the stony ground. A cold wind blows off the\nMountains of Mist far to the west. To your west you see Tam's house and to\nthe east the road continues into the West Wood.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16109
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16100
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16106
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "ladder"
+                    ],
+                    "Description": "The ladder looks like its of simple downhome contruction. Unfortunately it\nalso looks very unsafe.\n"
+                },
+                {
+                    "Keywords": [
+                        "house",
+                        "farm",
+                        "Tam's"
+                    ],
+                    "Description": "Made of a combination of boards and split logs this house looks quite rustic.\nThe thatched roof of the home looks well repaired and maintained. A ladder\nattached to the side of the house makes you think the house has been recently\nrepaired.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16102,
+            "Zone": 161,
+            "Name": "Tam's Barn",
+            "Description": "You walk carefully through Tam's Barn.  The Trollocs took a savage toll on\nTam's cattle when they went to seize Rand.  Brown stains mark the place where\nTam's cattle used to be milked in the morning.  The horse stalls look like\nthey have been repaired well and are in good condition.  Near the center Tam\nhas constructed a storage bin to store food for the winter.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16106
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "stall",
+                        "horse"
+                    ],
+                    "Description": "Although empty, the stall has been repaired well and is waiting for Bela's\nreturn.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16103,
+            "Zone": 161,
+            "Name": "Tam's Kitchen",
+            "Description": "Tam and Rand have used this kitchen ever since the building of the house long\nago.  Much like any other farm's kitchen, pots and pans lie slightly concealed\nin a row of cabinet near the kitchen fire and dishes lay in a wash basin to\nbe cleaned later.  The room has been carefully repaired by Tam's loving hand.\nIt looks like Tam is making dinner here as things are left out on the\ncounter.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16106
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16104,
+            "Zone": 161,
+            "Name": "Tam's Room",
+            "Description": "You stand in a simple room with few adornments.  A closet stands in the\nsouthwest corner, but contains nothing useful.  A large king size bed with a\nbump on one side lies in the center of the room.  A fairly well painted\npicture lies on the far west wall depicting Tam's long dead wife.  She was\ncertainly beautiful even for being a foreigner.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16106
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16105,
+            "Zone": 161,
+            "Name": "Rand's old room",
+            "Description": "Abandoned for over a month now, this room shows signs of the vicious attack\ninflicted by the Trollocs.  Shelves lie fallen and snapped on the west end,\nand a bed cleanly broken in three places sits in the center.  The only thing\nof interest that the room contains is a small table in one corner of the room\nwith a note on it reading, \"Rand's stuff I mean to fix sometime.\"\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16107
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16106
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "note"
+                    ],
+                    "Description": "The note reads, \"Rand's stuff I mean to fix sometime.\" and is signed Tam.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16106,
+            "Zone": 161,
+            "Name": "Tam's Front Room",
+            "Description": "After the cold wind of the Quarry Road, Tam's house is a welcome relief.  A\nwarm fire burns on the hearth, and makes you feel very much at home.  A scant\namount of furniture adorns the room, all bearing signs of repair from much\nuse.  Wonderful smells waft at you from the kitchen to the west and it looks\nlike there's a bedroom to the south.  There's a small staircase here.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16101
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 16101,
+                    "Destination": 16104
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16103
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16105
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16108
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16102
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "staircase",
+                        "stair",
+                        "stairs"
+                    ],
+                    "Description": "It looks sturdy. It lead's up to Rand's room and then the attic.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16107,
+            "Zone": 161,
+            "Name": "Tam's Attic",
+            "Description": "Dust covers everything here.  Chest and wooden crates line the walls here\ncontaining old wool and broken fragments of furniture cleared out from the\nrest of the house after the attack. A table on one side of the room holds\nwhat looks like old clothing from Tam's wife. You can see light coming from\nbelow.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16105
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16108,
+            "Zone": 161,
+            "Name": "Tam's Sheep pin",
+            "Description": "The winter and Trolloc attacks have been hard on all the farms of the West\nWood.  Hungry wolves and bears descend from the mountains and forest to\nravage the sheep pens.  Never the less, Tam has managed to keep a dozen sheep\nor so safe from the attacks so far.  The grass is very low here.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16106
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16109,
+            "Zone": 161,
+            "Name": "Quarry Road, a path through West Wood",
+            "Description": "Winter has been hard on the land.  Although it is late into spring the only\nsign of green around you is from the hearty evergreen and fur trees.  Brown,\ncrisp thorn bushes cloak the outskirts of the road and nettles are the only\nthings in the undergrowth that has survived.  No birds or squirrels stir in\nthe trees except those fouled by the dark one.   To your north and south you\nsee glowing eyes through the darkness of the trees. In the distance you can\nsee Emond's Field to your west.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16111
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16112
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16110
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16101
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "Emond's",
+                        "Field"
+                    ],
+                    "Description": "It looks like a quaint little farm village.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16110,
+            "Zone": 161,
+            "Name": "West Wood, Knot of Trees",
+            "Description": "The icy wind plays strong here as it howls though leafless trees of various\ntypes.  As you pick your way carefully through the nettles and thorn bushes\ndotting the undergrowth you feel the presence of the strange eyes on you. The\npaw prints of wolves betray their presence in the area.  To your north you\nsee the relative safety of Quarry Rode through the trees.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16109
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16111,
+            "Zone": 161,
+            "Name": "West Wood, Bloody clearing",
+            "Description": "As you walk into the clearing you are immediately repulsed by the image of a\ntraveler half torn apart by wolves.  Even though the corpse has been dead for\nseveral hours the wolves are still fighting for bits of meat and bone. Blood,\ngore, and tattered shards of clothing dot the vegetation.  To your south you\nsee the much safer confines of Quarry Road.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16109
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "blood",
+                        "gore",
+                        "traveler"
+                    ],
+                    "Description": "The traveler has been completely torn apart, organs, blood and bone marrow\ncoat the area.  If you didn't know better you'd swear it was old Bili.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16112,
+            "Zone": 161,
+            "Name": "Emond's Field, Near Nynaeve's House",
+            "Description": "After the harshness of the West Wood Emond's Field is a welcome relief.  An\nair of festival delights the air as the citizens prepare for a long awaited\nBel Tine. Small children and dogs play together in the street, and even the\nadults wear smiles.  In every yard rugs hang from clothes lines, as young and\nold alike prepare to start the traditional spring-cleaning.  To the north you\nsee the home of the Village Wisdom, Nynaeve, and to the south you see an\naverage looking house.  The road continues east, leading deeper into Emond's\nField.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16114
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16115
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16113
+                },
+                {
+                    "Direction": "West",
+                    "Description": "\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16109
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "home"
+                    ],
+                    "Description": "It looks cozy and well kept.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16113,
+            "Zone": 161,
+            "Name": "Emond's Field, Average Looking House",
+            "Description": "This house, like most others in Emond's Field, has a thatched roof and a warm\nfireplace. Despite being clean the home seems to emit a strange unpleasant\nodor. A piece of parchment adorns the wall which reads, \"Welcome to the\nCoplin home\".  After reading the parchment that funny smell finally makes\nsense. The Coplins are known throughout the Two Rivers for their total lack\nof wisdom and the extra portion of BS that the creator endowed them with. To\nthe north you can see the street.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16112
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16114,
+            "Zone": 161,
+            "Name": "Emond's Field, Nynaeve's House",
+            "Description": "Books, scrolls, and packets of herbs cram the many shelves of this larger\nthen normal house.  Four beds used to lay the wounded are on the far west\nend, and a desk lies near the door to assist the Wisdom in her duties.\nNynaeve's ever-famous \"stick she likes to thump people with\" lies in a\ndisplay case at one end of the room.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16112
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "case",
+                        "display"
+                    ],
+                    "Description": "You see a hard wooden cane.  Many a village council member has felt the cane\non their heads.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16115,
+            "Zone": 161,
+            "Name": "Emond's Field, By the Spring Pole",
+            "Description": "A huge firtree towers over you.  Stripped of all its bark and branches the\ntree is set in a deep hole, and will be used during Bel Tine. The unmarried\nwomen of the village will dance around the pole and tie colored ribbons to it\nwhile the unmarried men sing.  After the ribbons are tied to the pole the men\nand women that wish to become engaged dance together around the bonfires that\nwill soon surround the green.  The dance seals the commitment. To the north\nyou see the charred ruins of a house, and to the south you see the Congar\nHouse.  The street continues to the east towards the green.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16117
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16118
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16116
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16112
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16116,
+            "Zone": 161,
+            "Name": "Emond's Field, Congar House",
+            "Description": "As you enter the Congar home the smell of freshly baked apple pie wafts up at\nyou from the kitchen.  Although the Congars are as well known as the Coplins\nfor their negative traits, Daisy Congar does a better then average job in the\nkitchen.  The house is spotless, and looks like it has been completely\nrepaired despite its near destruction after the Trolloc attack nearly a month\nago.  There are few furnishings despite the cleanliness, Wit must not be\ndoing his job.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16115
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "furniture",
+                        "furnishings",
+                        "furnish"
+                    ],
+                    "Description": "The furniture looks badly made and uncomfortable.\n"
+                },
+                {
+                    "Keywords": [
+                        "apple",
+                        "pie"
+                    ],
+                    "Description": "The apple pie looks like it has been made with loving care.  It smells\ndelicious!\n"
+                }
+            ]
+        },
+        {
+            "ID": 16117,
+            "Zone": 161,
+            "Name": "Emond's Field, Charred Ruin",
+            "Description": "You pick your way carefully as you step through the ashes and charred wooden\nfragments of a once beautiful home.  Originally the home of the Village\nBlacksmith, this home has been scavenged as much as possible for any item of\nvalue.  It is said that the blacksmith is building a new house despite\nPerrin's departure from the Two Rivers.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16115
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "ashes",
+                        "wood",
+                        "fragments",
+                        "value"
+                    ],
+                    "Description": "There is nothing left that has any value.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16118,
+            "Zone": 161,
+            "Name": "Emond's Field, Green",
+            "Description": "Despite the long winter this small patch of ground has been carefully kept\nclear and nurtured by the Winespring of which the local Inn is famous for.\nChildren play at the edges of the field as the town's adults prepare contests\nof various types to be held during Bel Tine.  The atmosphere is light and\nfull of joy despite the coolness of the temperature. To the north you see the\noutskirts of the green, and to the south you see a bonfire.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16120
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16119
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16115
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16121
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16119,
+            "Zone": 161,
+            "Name": "Emond's Field, Bel Tine Bonfire",
+            "Description": "A huge mound of wood sits here just begging to be set ablaze as the couples\nof Bel Tine join up and begin the dance that will eventually lead to\nmarriage. Young boys and girls dance and play together here as others\npractice songs of Bel Tine.  The sounds of a quarterstaff contest emanate\nfrom the north.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16118
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "wood",
+                        "bonfire"
+                    ],
+                    "Description": "Wow. There's a lot of wood here.  Too bad you can't pick it up.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16120,
+            "Zone": 161,
+            "Name": "Emond's Field, Outskirts of the Green",
+            "Description": "Half grass and half cleared dirt, this section of the town is a common area\nfor all those that wish to run and play games.  From here you can see the\nfamous Winespring Inn, and have a clear view nearly to the Waterwood in the\nfar east.  Although the men, of the village do not know it, the Women's\nCouncil often meets here when the weather isn't bad.  Lately their talk has\nbeen about the best way to skin Wit alive for meddling with them.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16118
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16121,
+            "Zone": 161,
+            "Name": "Emond's Field, Wagon Bridge",
+            "Description": "Large enough for a wagon, the Wagon Bridge is aptly named.  As the bridge\ncrosses the Winespring so changes the road to your north from the North Road\nto the Old Road as one goes southward.  No one ever questions it though, as\nit's been that way since the days of Manetherin. Far to the east you can see\nthe Winespring gurgle away from its spring here in Emond's Field and become\nthe Winespring Water as it makes its way to flood the marshes of the\nWaterwood.  To the southeast you see the glittering tile roof of the\nWinespring Inn, and to the north you see the North Road as its makes its way\nto Watch Hill. Sounds of contest ring from southwest.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16127
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16122
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16118
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16122,
+            "Zone": 161,
+            "Name": "Winespring Inn, Common Room",
+            "Description": "The focal point of the village and the seat of power for the local\ngovernment, the Winespring Inn's Common Room is the place of discussion.\nHere the Village Council meets, and sits by the fire. In the western corners\nsit tables near the kitchen where guests of the Inn can sit and be served\nmeals cooked by the best cook in all of the Two Rivers. A staircase in the\nnorth end of the room leads to the guestroom upstairs. A small door leads\nsouthward into the stables, and a doorway to the east appears to lead to a\nsmall office.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16123
+                },
+                {
+                    "Direction": "South",
+                    "Description": "It looks like it leads to the stable\n",
+                    "Keywords": [
+                        "small",
+                        "wooden",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16124
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16125
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16126
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16121
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16123,
+            "Zone": 161,
+            "Name": "Winespring Inn, Mayor's Office",
+            "Description": "Cramped, and somewhat over burdened by classy furniture this small office\nnever the less serves its purpose very well.   Used more often as a place to\nchange money from foreigners then to deal with local politics it also serves\nas a sort of bank for the community.  A full scale sits atop Bran's Favorite\ndesk.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16122
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "scale"
+                    ],
+                    "Description": "The mayor uses this scale to weigh the currency from other countries.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16124,
+            "Zone": 161,
+            "Name": "Winespring Inn, Stable",
+            "Description": "No traveler could ever doubt that his or her horse would get royal treatment\nat the Winespring Inn.  Stable boys check the horses every hour to insure\nthey are comfortable and well fed.  Currently the stable is devoid of horses.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "It looks like it leads to the Inn.\n",
+                    "Keywords": [
+                        "small",
+                        "wooden",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16122
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16125,
+            "Zone": 161,
+            "Name": "Winespring Inn, Kitchen",
+            "Description": "Sweet delicious smells pour from this room like water pours from the\nWinespring.  Extremely well stocked even in this long winter season, the\nWinespring's kitchen is no exeption. The head cook, Mrs. Al'Vere is known to\nbe the nicest woman in all of the Two Rivers. With honey cakes baking in a\nstone oven, you are tempted to give her a big hug.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16122
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "oven",
+                        "stone"
+                    ],
+                    "Description": "The smell coming from the oven is delicious as the honey cakes bake.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16126,
+            "Zone": 161,
+            "Name": "Winespring Inn, Guest Room",
+            "Description": "All that you'd expect from a guestroom is here. A comfortable looking bed\nwith a carved wooden headboard dominates about half of the room. The rest of\nthe room is take up mainly by a metal wash basin, various cabinets, and\nclosets.  The room is spotlessly clean. You can hear the sounds of the common\nroom from down below.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK",
+                "STASIS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16122
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16127,
+            "Zone": 161,
+            "Name": "North Road, Half-way to Watch Hill",
+            "Description": "After traveling for what seems forever, you finally reach the halfway mark to\nWatch Hill As you travel north the road gets more and more hilly. Maybe\nyour mind is just playing tricks on you but you think you hear the sound of a\nDraghkar.  The Road Continues to the north towards Watch Hill.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16128
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16121
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "Draghkar"
+                    ],
+                    "Description": "Fast and deadly, the Draghkar are horrible winged demons.  The Draghkar serve\nas both spies and shock troops for Fades and the Dark One himself.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16128,
+            "Zone": 161,
+            "Name": "North Road, By Watch Hill",
+            "Description": "As you walk north you notice the great Watch Hill. Towering over the other\nlandscape nearby, the Watch Hill serves as a resting-place to those weary of\ntravel.  Atop the hill is a small village.  To the north the road continues\nto Taren Ferry.  You have the ever-present feeling you are being watched.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16129
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16127
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "village"
+                    ],
+                    "Description": "The village twinkles with lights in the darkness.  From here it looks small,\nand insignificant.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16129,
+            "Zone": 161,
+            "Name": "North Road, Half-Way to Taren Ferry",
+            "Description": "A knot of trees share space along this road with a huge tangle of brambles.\nDark shapes move in the undergrowth made more sinister by a decaying body\nlying in the road. The sound of hoofs stamping on the hard dirt of the North\nRoad makes you jump.  You can't seem to make any connection with the sound.\nThe road continues north to Taren Ferry.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16130
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16128
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "body",
+                        "corpse"
+                    ],
+                    "Description": "It looks freshly killed.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16130,
+            "Zone": 161,
+            "Name": "Village of Taren Ferry",
+            "Description": "Finally after much traveling you have reached the Village of Taren Ferry.\nStrange houses loom above you on all sides.  Built high to avoid floodwaters\nduring the summer rain, the Village of Taren is mainly a merchant town.\nCitizens look down from their houses and stick their noses up at you for\nbeing from the Two Rivers.  To the north you can see the Taren Ferry.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16131
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16129
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16131,
+            "Zone": 161,
+            "Name": "Taren Ferry",
+            "Description": "Fog surrounds you on all sides as you step towards the Taren Ferry.  A small\nline sits waiting on the dock for the ferry to come in.  A portly man stands\nhere taking the money, and ushering the people onto the ferry.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16130
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16176
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "ferry"
+                    ],
+                    "Description": "Hmm, it looks like Master Hightower has yet to fix that damage that Moiraine\ndid to the ferry. It looks like you'll have to swim if you want to get to the\nother side of the river.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16132,
+            "Zone": 161,
+            "Name": "On to Baerlon, bank of the Taren",
+            "Description": "After leaving the Taren you find yourself standing on a gently sloping bank.\nHere the land is shrouded in a carpet of salty fog that stretches along the\nTaren for miles in both directions.  Through the mist you see a forest to the\nnorth.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "PEACEFUL",
+                "NOFLEE",
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16133
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16176
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "forest"
+                    ],
+                    "Description": "The forest looks dark, yet comforting.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16133,
+            "Zone": 161,
+            "Name": "On to Baerlon, Woods",
+            "Description": "Often flooded by the Taren, the soil of this area is very rich. Depite the\nlong hard winter, a few new trees have started to grow here among towering\npine trees.  Branches thicken the shadows here and the sky is almost\ncompletely blocked out. To the west you see a cave made by many fallen trees\nand to the north the forest turns to road.  The sound of flowing water fills\nyour ears from the south.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16135
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16132
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16134
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16134,
+            "Zone": 161,
+            "Name": "Lan's encampment",
+            "Description": "Secluded from the forest, this cave is serving as a camp for Lan and\nMoiraine.  A campfire blazes merrily in a circle of stone near the center of\nthe cave, carefully guarded to prevent light from reaching outside. Leather\nleaf trees encircle the fallen trees that comprise the cave, casting strange\nshadows in the moonlight.  Stony Runes of power encircle the camp, acting as\nmagical sentinels. A path leads west, back into the forest.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16133
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "campfire"
+                    ],
+                    "Description": "The campfire adds light to the room.\n"
+                },
+                {
+                    "Keywords": [
+                        "runes"
+                    ],
+                    "Description": "Made by Aes Sedai, these runes prevent Trollocs and Fades from entering.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16135,
+            "Zone": 161,
+            "Name": "On to Baerlon, hill overlooking Baerlon",
+            "Description": "After many days of travel you finally stop to get your bearings. The ground\nhere is hilly, and in the distance you can see hundreds of roofs.\nSilhouetted in the setting sun, the City of Baerlon is easily three times the\nsize of Emond's Field. A huge wall surrounds the town, ending in gates on the\nsouth and east sides.  To your north you see the great south gate of Baerlon.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16136
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16133
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16136,
+            "Zone": 161,
+            "Name": "Baerlon, South gate",
+            "Description": "Towering above you the south gate lies open here.  Guarded carefully, this\nbusy gate admits people at almost any time of day. A drawbridge crosses a\nmoat here, providing a first line of defense before the gate. The city of\nBaerlon stretches before you to the north.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "gate",
+                        "south",
+                        "south_gate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16137
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16135
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "moat"
+                    ],
+                    "Description": "It looks like the moat is filled with ravenous gators.  Better not fall in!\n"
+                }
+            ]
+        },
+        {
+            "ID": 16137,
+            "Zone": 161,
+            "Name": "Baerlon, Narrow Street",
+            "Description": "Barely the width of two wagons this dirty street is bordered by high fences\non both sides. Empty warehouses and run down shops flank the corners of the\nstreet.  The fence to the west looks like it might have a hole in it big\nenough for you to squeeze through.  You think you hear, \"Walk in the Light\"\ncoming from the alley to the northwest.   Before you the street continues.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16138
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "fence",
+                        "hole"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16147
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "gate",
+                        "south",
+                        "south_gate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16136
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16141
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16138,
+            "Zone": 161,
+            "Name": "Baerlon, Center of Town",
+            "Description": "Spanning in all directions, the heart of town is much better off than the\nentrance.  Among the crowd on the streets you see members of almost every\nnation of the world.  Foreign merchants in strange clothing try to hawk\nstrange clothing and foodstuffs to weary citizens. As you walk through the\ncrowd you hear snatches of conversation about the Stag \u0026 Lion Inn, a local\ninn famous for its hospitality.  The road splits north and east here.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16139
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16143
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16137
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16139,
+            "Zone": 161,
+            "Name": "Baerlon, North center",
+            "Description": "A cold wind blows here from the rooftops from the mountains to the far West.\nWeaving in and out of human traffic travelers pull hats and cloaks tighter\nover their heads to avoid the chill as if blown along like leaves in fall.\nHere and there a man dressed in a long white cloak assaults a citizen only to\nbe quickly subdued by the city guards. In the distance you can see the east\nbridge to the east.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16142
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16138
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16140
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16140,
+            "Zone": 161,
+            "Name": "Baerlon, North West corner",
+            "Description": "Sheltered by the strong walls to the west and north, the wind is much lighter\nhere.  A strange mix of sweet, sour, and sharp smells all mixed together\npervades the area from the strange inns surrounding you.  The smells make you\nlong for the Winespring Inn back in Emond's Field.  A few barrels have fallen\nhere, splattering mud on a couple of the Children of Light.  A dark alley\nstretches to the south.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16139
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16141
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16141,
+            "Zone": 161,
+            "Name": "Baerlon, Dark Alley",
+            "Description": "In the shadow of two tall buildings this alley seems to pervade a sense of\nevil.  Strange men in white cloaks talk to a figure cloaked completely in\nblack with a fearsome appearance.  You feel uneasy here. To the southeast you\nsee Narrow street, and to the north you see the north west corner of town.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16140
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16137
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16142,
+            "Zone": 161,
+            "Name": "Baerlon, Before east gate",
+            "Description": "Bleak and empty, this simple street is only populated by the ever present\nWhitecloaks.  As you walk by an officer accuses an old woman of being a\ndarkfriend. To the east you see the east gate, and to the south you see the\nStag \u0026 Lion.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "It looks like the east gate\n",
+                    "Keywords": [
+                        "gate",
+                        "iron",
+                        "east"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16155
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16143
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16139
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16143,
+            "Zone": 161,
+            "Name": "Baerlon, In front of the Stag \u0026 Lion",
+            "Description": "Directly to the south you see the massive Stag \u0026 Lion Inn.  Famous for its\nhospitality, the Stag \u0026 Lion caters to people of all nations.  To the west\nyou see the center of town, and to the south you see the inn.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16142
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16144
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16138
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16144,
+            "Zone": 161,
+            "Name": "Stag \u0026 Lion, Common room",
+            "Description": "Much like the common room of the Winespring Inn, this common room is a place\nwhere weary travelers can sit and get a bite to eat.  A cheery gleeman stands\nhere chanting tales from the Age of Legends, and songs of the hunt for the\nhorn.  A staircase leads up to the guestrooms, and to the west you see the\nkitchen.  A door leads out to the north.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16143
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16145
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16150
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "gleeman"
+                    ],
+                    "Description": "He seems to be less lively when the white cloaks are in the room.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16145,
+            "Zone": 161,
+            "Name": "Stag \u0026 Lion, Kitchen",
+            "Description": "A cheery, plump looking woman stands here making delightful smelling foods.\nPots and pans sit on hooks, and look well used.  To the southwest you see a\ndoor to the stable, and to the northwest you see a backyard.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16144
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16147
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16146
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16146,
+            "Zone": 161,
+            "Name": "Stag \u0026 Lion, Stable",
+            "Description": "As you walk in you admire the large, well-stocked stalls.  A large rack lies\nagainst the wall containing various harnesses, riding crops, and other items.\nTo the northeast you can see and smell the kitchen.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16145
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16147,
+            "Zone": 161,
+            "Name": "Stag \u0026 Lion, Backyard",
+            "Description": "Whoever did the landscaping here knew what they were doing.  Despite the\nwinter, flowers grow here among soft green grasses.  An innocent looking\nwoman stands beside a doorframe here looking back at you.  To the southeast\nyou can see and smell the kitchen.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16148
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16145
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16148,
+            "Zone": 161,
+            "Name": "Stag \u0026 Lion, By doorframe",
+            "Description": "Standing beside a doorframe, the girl makes strange gestures and convulsions.\nAfter a moment or two she acts more normally and looks at you as if you were\na thousand miles away.  To the south you see the backyard. A strange haze\ncovers the east.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "It looks like it is of magical origin.\n",
+                    "Keywords": [
+                        "strange",
+                        "haze"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 16171,
+                    "Destination": 16149
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16147
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16149,
+            "Zone": 161,
+            "Name": "Min's Vision",
+            "Description": "Swirling mist surrounds you as you step into Min's Vision. Strange auras and\na haze of neon colors cloak everything you see.  Three strange people stand\nhere. To the west you can get out of the vision.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOFLEE",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "It looks like it's of magical origin.\n",
+                    "Keywords": [
+                        "strange",
+                        "haze"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 16171,
+                    "Destination": 16148
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16150,
+            "Zone": 161,
+            "Name": "Stag \u0026 Lion, Hallway",
+            "Description": "After climbing the stairs you stand in a small hallway with rooms to the\nsouth and north.  A small staircase leads to the roof of the inn.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16152
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16151
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16153
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16144
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16151,
+            "Zone": 161,
+            "Name": "Stag \u0026 Lion, Empty Room",
+            "Description": "All that you'd expect from a guestroom is here. A comfortable looking bed\nwith a carved wooden headboard dominates about half of the room. The rest of\nthe room is take up mainly by a metal wash basin and various cabinets, and\nclosets.  The room is spotlessly clean. You can hear the sounds of the common\nroom from down below.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16150
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16152,
+            "Zone": 161,
+            "Name": "Stag \u0026 Lion, Rand's Room",
+            "Description": "At first glance you notice something strange, the room is covered in dead\nrats with broken backs.  Something strange has happened here. A comfortable\nlooking bed with a carved wooden headboard dominates about half of the room.\nThe rest of the room is take up mainly by a metal wash basin and various\ncabinets, and closets. You can hear the sounds of the common room from down\nbelow. For some odd reason a mirror is mounted on the ceiling.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16150
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "The mirror has a strange unearthly glow to it.  It looks like it leads to\nsome far corner of hell.\n",
+                    "Keywords": [
+                        "mirror"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 16172,
+                    "Destination": 16154
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "mirror"
+                    ],
+                    "Description": "The mirror has a strange unearthly glow to it.  It looks like it leads to\nsome far corner of hell.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16153,
+            "Zone": 161,
+            "Name": "Stag \u0026 Lion, Roof",
+            "Description": "From your point at the top of the Inn you can see the surrounding area around\nBaerolon.  In the east you see huge dark shapes moving in the forest.  A\nlarge gale of cold wind blows violently off the mountains to the west.  A\ncarpet of clouds obscures the north. There is a stairway down to the guest\narea.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16150
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16154,
+            "Zone": 161,
+            "Name": "Rand's Hell",
+            "Description": "Like something out of a nightmare you stand in a room cloaked in black\ncolored flames.  A shape sits behind a table of carved marble offering you a\nchalice of blood.  You feel like running for your life.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "mirror"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 16172,
+                    "Destination": 16152
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16155,
+            "Zone": 161,
+            "Name": "Baerlon, East Gate",
+            "Description": "You are standing in the east gate of the City of Baerlon. Due to many\nproblems with the drawbridge here, a board has been laid across the moat\nleading slightly south of the normal route the bridge took. (The guards can\nnow more easily destroy the bridge should the need arise.) On the otherside\nof the moat dark shapes give you a sense of danger.  You feel the city guards\nmay soon block travel out of the city because of the danger.  To the west you\ncan enter the city through a large iron gate.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "It looks like the East Gate.\n",
+                    "Keywords": [
+                        "gate",
+                        "iron"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16142
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "It looks somewhat unstable.\n",
+                    "Keywords": [
+                        "board"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16156
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16156,
+            "Zone": 161,
+            "Name": "Trolloc Ambush, Dark trail",
+            "Description": "The huge limbs of many Trollocs cleave brambles and trees asunder here.  A\ndark trail leads to the east, and into greater danger. Baerlon lies to the\nNorthwest.\n",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16157
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "You see the East Gate.\n",
+                    "Keywords": [
+                        "Gate",
+                        "East"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16155
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16157,
+            "Zone": 161,
+            "Name": "Trolloc Ambush, Nexus",
+            "Description": "You stand at the nexus of a massive fist of Trollocs.  There must be hundreds of\nthem here.  A few of the more brave ones step forward to confront you.  To\nthe south you think you can see the leaders. A foot-trail leads to the north,\nand the trail continues to the west.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16158
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16161
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16159
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16156
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16158,
+            "Zone": 161,
+            "Name": "Trolloc Ambush, Foot-trail",
+            "Description": "Here some smarter Trollocs have erected a foot trail leading to a vile\nlatrine.  The stench of decay and unwashed bodies is unbearable here.  To the\nsouth you see the nexus.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16157
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16159,
+            "Zone": 161,
+            "Name": "Trolloc Ambush, Command Post",
+            "Description": "A huge circle of stones has been made here by the Fades to facilitate\ncommunications with the dark one.  Blood, gore, and bone fragments cover the\nentire area.  Several Fades stare at you with a dark gleam in their eyes.  To\nthe north you see the nexus and to the southwest you see a group of Fades.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16157
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16160
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16160,
+            "Zone": 161,
+            "Name": "Trolloc Ambush, Group of Fades",
+            "Description": "A person would have to be crazy or a dark friend to willing come up to these\nvile abominations.  You think you see the merchant that comes to Emond's\nField every year talking to the fades.   The aura of evil in this room nearly\nchokes you.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16159
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16161,
+            "Zone": 161,
+            "Name": "Trollocs Ambush, Along the trail",
+            "Description": "Here the Trollocs stand in lines waiting to be commanded by the Fades.  Most\nlook bored but a few are having fun torturing a small deer towards the\nsouthern end of the line.  A vile well stands to the north surrounded by\nTrollocs. Dark eyes are shining in the darkness to the northeast and\nsoutheast.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16162
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16157
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16163
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16164
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16162,
+            "Zone": 161,
+            "Name": "Trolloc Ambush, Vile Well",
+            "Description": "Although the Trollocs have nearly destroyed the forest in this area, some\nwolves have banded together here to try and stop them from the wiping\neverything out.  Several dead Trollocs lie here. Dark shapes move to the\nsouthwest.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16161
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "well",
+                        "vile"
+                    ],
+                    "Description": "Bones and pieces of flesh float atop a thick pool of blood.  It looks like\nthe well is almost completely full of blood.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16163,
+            "Zone": 161,
+            "Name": "Trolloc Ambush, Wolf Den",
+            "Description": "Although the Trollocs have nearly destroyed the forest in this area, some\nwolves have banded together here to try and stop them from the wiping\neverything out.  Several dead Trollocs lie here. Dark shapes move to the\nsouthwest.  You feel it is safe to rest here, provided you arn't evil like\nthe Trollocs.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16161
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16164,
+            "Zone": 161,
+            "Name": "Trollocs Ambush, Start of a crumbled city",
+            "Description": "You stand at the outskirts of a ruined forest, demolished by the Trollocs.\nTo the southeast you see the ruins of Shadar Logoth, A place so evil even the\nTrollocs shun it.  It has to be safer there then here among the Trollocs.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "NOFLEE",
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16161
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16165
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16165,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Entrance",
+            "Description": "Once the proud city of Aridhol, Shadar Logoth is now a festering ruin. A\nforce known as Mashadar swept through the kingdom and destroyed or enslaved\neveryone. Although it has been empty for many hundreds of years, no treasure\nseekers have yet to escape alive with any of the treasure of the lost\nkingdom. It is said that the proud king of Aridhol still lives here, as a\npuppet for Mashdar. You see more streets to the south and east.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16169
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16166
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16164
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16166,
+            "Zone": 161,
+            "Name": "Shadar Logoth, By a tall tower",
+            "Description": "A crumbling tower stands here, long worn smooth by the erosion of many\nseasons.  A staircase down to below the street lies beside it.  You swear you\nhear, \"Come help me carry away my treasure\" coming from below the earth.\nThere are more streets to the west and north.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16165
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16170
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16167
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16167,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Dungeon",
+            "Description": "Lit by smoky torches this strange place looks more like a disuse treasury\nthen a Dungeon. A strange man in royal clothing commands your attention here.\nA iron bound door stands here leading to the south.  A spiral staircase\nleads back to the street.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "It looks sturdy despite it's age.\n",
+                    "Keywords": [
+                        "door",
+                        "iron",
+                        "bound"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 16173,
+                    "Destination": 16168
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16166
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16168,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Treasure Room",
+            "Description": "Guarded by the fallen king Mordeth, this treasure room contains the lost\ntreasure of Shadar Logoth. Gold, jewels and many other valuable items\nbrighten the room by making your light dance on the walls. A iron bound\ndoor leads back to the dungeon.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTRACK",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "It looks very sturdy despite it's age.\n",
+                    "Keywords": [
+                        "door",
+                        "iron",
+                        "bound"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 16173,
+                    "Destination": 16167
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16169,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Empty street",
+            "Description": "With no citizens the streets of Shadar Logoth are very bare.  Crumbling stone\nbuildings, and rotted wood lays all around you.  The street continues to the\nwest and south.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16172
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16170
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16165
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16170,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Old town center",
+            "Description": "Once a grand market place, the town center is now empty.  The only sign that\nanyone ever lived here is the rotten scraps of wood that were once used to\nsupport various shop keepers awnings. Dark shadows filter around you in all\ndirections.  To the south you see someone's house. A road continues to the\nwest.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16169
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16174
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16171
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16166
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16171,
+            "Zone": 161,
+            "Name": "Shadar Logoth, someone's house",
+            "Description": "Decaying clothes and a macabre scene of disarray is the only furnishing\nadorning this house.  Set for a meal the rotted away several centuries ago a\ntable sits near the kitchen.  It looks like the family members died and\ndisintegrated before they could even put down their forks.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16170
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16172,
+            "Zone": 161,
+            "Name": "Shadar Logoth, by a Collapsed palace",
+            "Description": "This street is mainly acting as a small headquarters for a very small band of\nTrollocs that have been pushed in here by a determined Fade.  A collapsed\npalace sits to the north, and a strange fog obscures the south.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16173
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16174
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16169
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16173,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Collapsed palace",
+            "Description": "Shards of golden tile, and rich carpet litter the floors of a now collapsed\npalace. As you pick your way carefully through the ruble you notice that a\ngroup of fades has set up a small base here to help them command the\nTrollocs.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOTRACK",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16172
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16174,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Cloaked in fog",
+            "Description": "Here the road is cloaked in a vile, evil smelling fog.  A million eyes seem\nto peer out at you from the obscured ruins.  The road seems to continue to\nthe Southeast.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16172
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16170
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16175
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16175,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Darker Fog",
+            "Description": "The fog here has become a dark whirlwind threating to suck you to the\nsoutheast.  To the northeast the path is split by tendrils of Mashadar.  You\nfeel like almost certain death awaits you to the southeast.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16178
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16174
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16177
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16176,
+            "Zone": 161,
+            "Name": "The river Taren",
+            "Description": "Finally, you've made it to the center of the river Taren.  Your arms and legs\nhurt from the strain it took just to get here.  As your legs give a second\ntwinge of pain you think how plesant it would be to just stop, and slip\nquietly into the abyss.  To the northeast you can see the far bank.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16132
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16131
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16177,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Almost Certain Death",
+            "Description": "You finally understand what killed the people of Shadar Logoth. Too bad it's\nready to kill you.  Here the fog is solid and ready to try and make you one\nwith Shadar Logoth forever.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16175
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16178,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Split by Mashadar",
+            "Description": "Thick, opaque fog surrounds you here on three sides.  As you walk through the\nruined streets your path back is completely blocked by the tendrils of\nMashadar. It is said that a single touch of one of the tendrils can kill a\nman instantly. Far away in the distance you hear the horns of Trollocs as a\ngroup of Myrddraal push them further into Shadar Logoth.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16179
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16179,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Doomed Ambush",
+            "Description": "As you walk down the road a group of Trollocs appear from beside a near by\nbuilding.  With a demonic sounding noise tendrils of Mashadar snake towards\nboth you and the Trollocs. It looks like you can flee southeast between a\ngroup of buildings. If you are really dumb, you could also go east and be\nkilled and eaten alive by tendrils of Mashadar.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16180
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16178
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16181
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16180,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Eaten Alive",
+            "Description": "Gee, that was stupid wasnt it. Mashadar surrounds you completely here.  Many\ntendrils surround you, eager to take the last remaining bits of your life\naway. For some odd reason, a skeleton in one corner of the room bares a red\nStar-fleet uniform. After a quick examination of the corpse you find a small\ndevice that might just get you the heck out of here.\n",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "NOFLEE",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": null,
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "skeleton"
+                    ],
+                    "Description": "Oh! Its just that stupid guy that gets killed in every episode.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16181,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Between two buildings",
+            "Description": "Several Trollocs chase you as you enter the alley, pushed hard by a\nMyrddraal. Above you, tendrils of Mashadar steam forth from the windows of\nthe buildings, licking eagerly at the on coming Trollocs.  From the northwest\nyou can hear the sounds of dying Trollocs and Fades as they are completely\nconsumed by Mashadar.  You can continue to the east, onto a street.  Looks\nlike there's no turning back.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16182
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16180
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16182,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Mashadars Feast",
+            "Description": "You run quickly to avoid the on rushing tide of Trollocs and deadly fog.\nClosing your eyes you rush across the street and smile as you hear the\nscreams of Trollocs and Myddraal both dying as they are eaten alive by\nMashadar. Steams of blood, black with corruption flow into the gutter.  To\nthe east, the fog appears to be much lighter.  Traveling west back into\nMashadar isnt advisable.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16183
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16180
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16183,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Empty Street",
+            "Description": "The fog is much less heavy here.  Collapsed buildings on both sides help echo\nthe screams of the dead and dying legions of the Dark One that so recently\nfollowed you only to be eaten by something far more sinister.  In the\ndistance you think you hear the sound of running water. The road curves a\nlittle north as it continues east.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16182
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16184
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16184,
+            "Zone": 161,
+            "Name": "Shadar Logoth, Vine Covered Wall",
+            "Description": "It is clear that at some point this was a grand entrance to the kingdom.  A\nhuge hole about the size of a small house has been created by the collapse of\nthe city's once proud gate.  A crumbling marble fountain stands here in the\ncenter of the street, but it appears to have stopped working many years ago.\nYou may go through the hole to the east.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "PEACEFUL",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "hole"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16185
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16183
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "hole"
+                    ],
+                    "Description": "It is huge.\n"
+                }
+            ]
+        },
+        {
+            "ID": 16185,
+            "Zone": 161,
+            "Name": "Dense Forest, Near Arinelle",
+            "Description": "Whew! You finally made it out of Shadar Logoth alive. Here trees have grown\nthick, as a sort of natural defense against the evil of Shadar Logoth. Nearby\nyou hear the sound of rushing water. To your west you see Shadar Logoth, and\nto the east the forest continues.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16186
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The hole looks huge.\n",
+                    "Keywords": [
+                        "hole"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 16184
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16186,
+            "Zone": 161,
+            "Name": "Dense Forest, by the Arinelle river",
+            "Description": "The sound of rushing water overwhelms you here as you stand atop a tall bluff\nabove the Arinelle River.  The bluff looks like it is climbable if you would\nlike to go down and swim across the icy cold waters or you can jump off the\nbluff to the east. I hope you can fly.\n",
+            "Bits": [
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16191
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16185
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16187
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16187,
+            "Zone": 161,
+            "Name": "West side of the Arinelle",
+            "Description": "As you fall from the bluff icy cold water hits you with brutal force.  Strong\ncurrents rip across against you as you begin the long and dangerous swim.\nBranches cover the bluff above you. You think they could be used to climb up,\nshould you not wish to continue the swim to the east.\n",
+            "Bits": [
+                "DEATH",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16188
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16186
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16188,
+            "Zone": 161,
+            "Name": "Middle of the Arinelle",
+            "Description": "It is really, really cold here.  Frigid water attacks you on all sides as you\ndesperately attempt to continue your journey.  To the east you think you see\nthe bank in the distance.\n",
+            "Bits": [
+                "DEATH",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16189
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16187
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16189,
+            "Zone": 161,
+            "Name": "East side of the Arinelle",
+            "Description": "After traveling the width of the Arinelle you are now in the water below the\nEast bank.  Small trees and shrubs provide safe hand holds and foot holds to\nclimb to the top of the bank.  Better get out of the water quickly, the water\nis still as cold as ever.\n",
+            "Bits": [
+                "DEATH",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16188
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16190
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16190,
+            "Zone": 161,
+            "Name": "Bare Forest, East Bank of Arinelle",
+            "Description": "This side of the Arinelle is more of a field then a forest.  Hearty knee high\ngrass grows here, sheltering many rabbits and other small mammals. The grass\nis only broken occasionally by small clumps of trees. You can climb down the\nbank here to swim the Arinelle or you may jump off the bank to the west.  The\nforest continues to the east, and a small path leads along the bank to the\nsouth.\n",
+            "Bits": [
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16193
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16194
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16192
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16189
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16191,
+            "Zone": 161,
+            "Name": "Flying over the Arinelle, Above West side",
+            "Description": "Far below you, the frigid water of the Arinelle flows by.  Stretching for\nmany miles, the Arinelle is a great source of merchant traffic and a\ndeterrent to any of the Dark Ones troops that wish to cross. You can continue\nflying to the east if you wish to cross the river, or if you made a mistake\nyou are probably about to crash into the icy water below.\n",
+            "Bits": [
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FLYING",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16192
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16186
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16187
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16192,
+            "Zone": 161,
+            "Name": "Flying over the Arinelle, Middle",
+            "Description": "Far below you, the frigid water of the Arinelle flows by.  You can continue\nflying to the east if you wish to cross the river, or if you made a mistake\nyou are probably about to crash into the icy water below.\n",
+            "Bits": [
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FLYING",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16190
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16191
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16188
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16193,
+            "Zone": 161,
+            "Name": "Bare Forest, Pile of Cedar Branches",
+            "Description": "Recently a storm hit this area, ripping branches and needles from many of the\nnon-deciduous trees nearby.  A small strand of evergreens provides a small\namount of cover from the river.  It looks safe here. You can hear the roar of\nthe Arinelle to the west.\n",
+            "Bits": [
+                "NOMOB",
+                "PEACEFUL",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16190
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16194,
+            "Zone": 161,
+            "Name": "Bare Forest, Along the bank",
+            "Description": "Small strands of hardwood trees comprise what little cover there is here.\nFear creeps into your heart as you hear the sound of Trolloc horns from the\nother side of the bank.  A few must have survived Shadar Logoth.  A trail\nleads to the southeast.\n",
+            "Bits": [
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16190
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16195
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16195,
+            "Zone": 161,
+            "Name": "Bare Forest, A small encampment.",
+            "Description": "The trees are much denser here.  Leather leafs and cedars make a woven\ncurtain blocking any view from the river.  Recently someone camped here.  A\ncampfire has nearly destroyed a tree here because Egwene forgot to put it\nout. Gee that was stupid.  To the east the forest continues.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16196
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16194
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16196,
+            "Zone": 161,
+            "Name": "Caemlyn Bound, Forest travel part one",
+            "Description": "It's a really long walk to Caemlyn, but it looks like your stuck doing it.\nTrees surround you on all sides. Broken tree limbs and the occasional rabbit\nrun are all that make this part of the forest indistinguishable from any\nother part of it. The forest continues to the east.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16197
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16195
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16197,
+            "Zone": 161,
+            "Name": "Caemlyn Bound, Forest travel part two",
+            "Description": "It seems like trees are the only things around you.  The forest is a little\ndarker here, as the trees block out the sun. To the north you see some older\nlooking trees, and to the east you can continue your journey.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16198
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16199
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16196
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16198,
+            "Zone": 161,
+            "Name": "Caemlyn Bound, A mushroom patch in the forest",
+            "Description": "Old, tall trees make the forest almost dark as night here.  Sheltered by the\ntrees, and dampened by the air, various molds and mushrooms grow here in\nabundance.  Among the riff-raff of in-edible mushrooms you think you even see\nsome of the much sought after Queens Crowns.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16197
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 16199,
+            "Zone": 161,
+            "Name": "Caemlyn Bound, A ruin on a forested hill",
+            "Description": "Here the forest turns to hills covered in trees. After traveling up and down\na couple of these, you come to a hill with the ruins of stone buildings on\nit.  Long reclaimed by the forest, the ruins show no signs that they are of\nextreme age.  On the side of one large stone tower you see some writing in\nbright red spray paint. The message reads, \"Sorry folks, but this is the end\nof the zone, for now.  Commit this room to memory, because in the not so\ndistant future it will be the start of the second half of, The Wheel Turns. \"\nThe doors of a closet are below you, and you think they might just lead to\nthe dressing room in Midgaard.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16197
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "closet"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3001
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

@@ -1,0 +1,2129 @@
+{
+    "rooms": [
+        {
+            "ID": 3200,
+            "Zone": 32,
+            "Name": "Under the Bridge",
+            "Description": "   The arch under the bridge is covered by seaweed for one foot above the\nsurface of the river.  The water gently flows through an opening in the lower\npart of the city wall.\n",
+            "Bits": [],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3201
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3206
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "wall"
+                    ],
+                    "Description": "It is built from large grey rocks that have been fastened to each other with\nsome kind of mortar.  Looks pretty solid.\n"
+                }
+            ]
+        },
+        {
+            "ID": 3201,
+            "Zone": 32,
+            "Name": "On the River",
+            "Description": "   North of here you see the miserable buildings of the poor alley.  The\nriver flows west towards the bridge.  The riverbanks are too steep to climb.\n",
+            "Bits": [],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3202
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3200
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3202,
+            "Zone": 32,
+            "Name": "On the River",
+            "Description": "   North of here you see the dump.  The river flows from east to west.  The\nriverbanks are too steep to climb.\n",
+            "Bits": [],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3203
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3201
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3203,
+            "Zone": 32,
+            "Name": "On the River",
+            "Description": "   The levee is directly north of here.  The river flows in an east west\ndirection.\n",
+            "Bits": [],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3049
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3204
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3217
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3202
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3204,
+            "Zone": 32,
+            "Name": "On the River",
+            "Description": "   You see the warehouse on the northern riverbank.  East of here you see the\ncity wall.  The river flows west towards the levee.\n",
+            "Bits": [],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3205
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3203
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3205,
+            "Zone": 32,
+            "Name": "On the River",
+            "Description": "   The river enters from a hole in the eastern city wall.  The hole has been\nblocked by several vertically positioned iron bars set into the wall.\n",
+            "Bits": [],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The iron bars make it impossible to pass through the hole in the wall.\nBeyond the bars you see the great plains.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5001
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 20692
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3204
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3206,
+            "Zone": 32,
+            "Name": "On the River",
+            "Description": "You are just slowly floating downt he river, nice and lazy like.  The breeze\nruffles your hair and you just chill out.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3200
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3207
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3207,
+            "Zone": 32,
+            "Name": "On the River",
+            "Description": "You are just slowly floating down the river, nice and lazy like.  The breeze\nruffles your hair and you just chill out.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3206
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3208
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3208,
+            "Zone": 32,
+            "Name": "On the River",
+            "Description": "You are just slowly floating downt he river, nice and lazy like.  The breeze\nruffles your hair and you just chill out.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3207
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3209
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3209,
+            "Zone": 32,
+            "Name": "On the River",
+            "Description": "You are just slowly floating downt he river, nice and lazy like.  The breeze\nruffles your hair and you just chill out.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3208
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3210
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3210,
+            "Zone": 32,
+            "Name": "On the River",
+            "Description": "You are just slowly floating downt he river, nice and lazy like.  The breeze\nruffles your hair and you just chill out.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3209
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3211
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3211,
+            "Zone": 32,
+            "Name": "On the River",
+            "Description": "You are just slowly floating downt he river, nice and lazy like.  The breeze\nruffles your hair and you just chill out.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3210
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3212
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3212,
+            "Zone": 32,
+            "Name": "On the River",
+            "Description": "You are just slowly floating downt he river, nice and lazy like.  The breeze\nruffles your hair and you just chill out.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3213
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3211
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3213,
+            "Zone": 32,
+            "Name": "A faster flowing section of the river",
+            "Description": "You are on a wider, faster flowing portion of the river, there is a large\nbarge heading your way.  I would advise moving around it as the captain \ncan not see you.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3212
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3215
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3214,
+            "Zone": 32,
+            "Name": "IN THE PATH OF THE BARGE, IF YOU ARE A NEWBIE, DO NOT COME HERE!!!",
+            "Description": "You are in the direct path of the barge.  Its currect won't allow you to\nswim out of the way, you have to fight him now, or swim MUCH FASTER!!!\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3213
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3216
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3215,
+            "Zone": 32,
+            "Name": "Around the barge",
+            "Description": "Wow, that barge would have hurt if you hadn't swam over here...ahead there\nis a large port with parked barges and so on.  The port smells real\nfunny as well.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3216
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3213
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3216,
+            "Zone": 32,
+            "Name": "On the River, Before the Port of New Sparta",
+            "Description": "You are floating along and the current has pulled here.  You had it planned\nall along :)  There is a really nasty smell, but, you made it.\n",
+            "Bits": [
+                "NOMOB",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3215
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8673
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 21001
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3217,
+            "Zone": 32,
+            "Name": "The other side of the river",
+            "Description": "You are standing on the other side of the river.  There is tall grass\net cetera growing everywhere.  You can see a dirt road beginning on\nthe this side of the river.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3203
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3218
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3218,
+            "Zone": 32,
+            "Name": "A dirt road",
+            "Description": "You are standing on a dirt road.  There are trees and son on surrounding\nthe area.  You can here nature making its normal noises.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3217
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3219
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3219,
+            "Zone": 32,
+            "Name": "Standing on a well, looking over the county",
+            "Description": "You are standing on top of the well, looking over the county.  To the north\nyou can see midgaard, to the south you can see a farm.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3218
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3220
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3221
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3220,
+            "Zone": 32,
+            "Name": "A field",
+            "Description": "You are standing in a small field, you here bugs and stuff tweeting \nand so on.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3219
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3222
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3221,
+            "Zone": 32,
+            "Name": "Falling down the well, this is a DT!",
+            "Description": "You are falling down the well, this is gonna HURT like a bitch!\n",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3222,
+            "Zone": 32,
+            "Name": "A long path heading toward a barn",
+            "Description": "You are on a long path heading toward a barn, a smell of animal poop\nreigns throughout the area.  There is a wind that is blowing across you\nfrom right to left.  There is tall grass that is growing all around you.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3220
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3223
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3223,
+            "Zone": 32,
+            "Name": "A long path heading toward a barn",
+            "Description": "You are on a long path heading toward a barn, a smell of animal poop\nreigns throughout the area.  There is a wind that is blowing across you\nfrom right to left.  There is tall grass that is growing all around you.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3222
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3224
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3224,
+            "Zone": 32,
+            "Name": "A long path heading toward a barn",
+            "Description": "You are on a long path heading toward a barn, a smell of animal poop\nreigns throughout the area.  There is a wind that is blowing across you\nfrom right to left.  There is tall grass that is growing all around you.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3223
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3225
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3225,
+            "Zone": 32,
+            "Name": "A long path heading toward a barn",
+            "Description": "You are on a long path heading toward a barn, a smell of animal poop\nreigns throughout the area.  There is a wind that is blowing across you\nfrom right to left.  There is tall grass that is growing all around you.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3224
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3227
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3226,
+            "Zone": 32,
+            "Name": "Lost in the tall grass",
+            "Description": "You seem to be lost in the tall grass, it is so high you can't see anything.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3227,
+            "Zone": 32,
+            "Name": "Just outside the barn",
+            "Description": "You are standing just outside the Duke family barn.  It is white, there is\na large car sitting in the middle of the room.  It is orange with the\n# 01 on it.  On the hood is the confederate flag.  There is an old man\nhere working on something and grumbling.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3225
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3228
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3228,
+            "Zone": 32,
+            "Name": "Within the barn",
+            "Description": "You are standing within the barn, the car that you saw, dominates the center\nof the room. There is a man here in a blue jumper and a red hate, grumbling.\n",
+            "Bits": [
+                "DARK",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3227
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3230
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3229
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3229,
+            "Zone": 32,
+            "Name": "Up in the barn",
+            "Description": "You are in the loft of the barn, Bo and Luke have been shovelling hay\nall day long.  They are wondering what the hell you are doing in\ntheir loft.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3228
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3230,
+            "Zone": 32,
+            "Name": "The road in front of the Duke farm",
+            "Description": "You are standing on the road that leads out of the Duke farm.  There are\nchickens and what not that are running around here.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3228
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3231
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3231,
+            "Zone": 32,
+            "Name": "Road into downtown Hazzard",
+            "Description": "You are on the road into Hazzard county, you can see a cop car in a ditch\nto the south of here.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3230
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3232
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3232,
+            "Zone": 32,
+            "Name": "On a road into hazzard county",
+            "Description": "You are on the main road into hazzard county.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3231
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3233
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3233,
+            "Zone": 32,
+            "Name": "A fork in the road",
+            "Description": "You see a fork in the road, both ways seem the same.  It is your call as\nto which way to go, you realize though that somewhere west of here\nlies Chickesaw county.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3232
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3226
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3235
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3234
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3234,
+            "Zone": 32,
+            "Name": "a paved road",
+            "Description": "You are standing on a paved road, this is definately the road the Chickesaw,\nI would leave now before Sherieff Little catches you!\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3233
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3235,
+            "Zone": 32,
+            "Name": "a dirt road",
+            "Description": "You are on the road that definitely runs into Hazzard county, you see a\ntow truck ahead of you, fixing a car.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3233
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3236
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3236,
+            "Zone": 32,
+            "Name": "a dirt road",
+            "Description": "You are standing on what appears to be a stick up!  Better flee now before\nthe thugs get you!\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3235
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3237
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3237,
+            "Zone": 32,
+            "Name": "Outside of downtown hazzard.",
+            "Description": "You are standing just within the city limits.  There are building and what\nnot around you.  Since this is a TV show, all the buildings are fake but\none.  And that is right in front of you.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3238
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3236
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3238,
+            "Zone": 32,
+            "Name": "Outside of city hall: Hazzard County",
+            "Description": "You are standing outside a large white building, there are people walking\naround and doing what not.  Inside you see a lot of stuff and a large fat\nbuddy standing there gloating.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3237
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3239
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3239,
+            "Zone": 32,
+            "Name": "Within City Hall: Hazzard County",
+            "Description": "You are standing within city hall of Hazzard county.  You see a large fat\nman standing here, smoking a cigar and thinking of the duke's farm.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3238
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3261
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3250,
+            "Zone": 32,
+            "Name": "A sand barge",
+            "Description": "You have come apon a sand barge in the middle of the river\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3203
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3251
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3251,
+            "Zone": 32,
+            "Name": "Quick-Sand",
+            "Description": "As you look down, you realize you are sinking, but as you move your feet,\nyou realize that this stuff isn't as potent as you think..as you descend\nyour feet hit something hard, like stairs.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3250
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3252
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3252,
+            "Zone": 32,
+            "Name": "HOLD YER BREATHE!",
+            "Description": "You are now almost engulfed in the quicksand, you realize there is no\nescape now, you must continue down the steps.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3253
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3253,
+            "Zone": 32,
+            "Name": "a hole",
+            "Description": "This seems to be a hole into some lost room.\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3261
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3254,
+            "Zone": 32,
+            "Name": "A hidden room",
+            "Description": "You seem to be in some sort of ruins or something.  As you look forward, there\nare shadows dancing everywhere.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3255
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3270
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3255,
+            "Zone": 32,
+            "Name": "In the center of the room",
+            "Description": "You are standing in what is clearly some sort of temple.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3256
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3254
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3256,
+            "Zone": 32,
+            "Name": "Before an altar",
+            "Description": "You are standing before a great altar, there seems to be a corpse lying\napon it.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3255
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3257
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3257,
+            "Zone": 32,
+            "Name": "Climbing up onto the altar",
+            "Description": "You are climbing onto the altar\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3258
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3256
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3258,
+            "Zone": 32,
+            "Name": "On the altar",
+            "Description": "You are standing upon the altar.  There is some wierd square, with a keyhole\non the surface of the altar.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3259
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3257
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3258,
+                    "Destination": 3299
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3259,
+            "Zone": 32,
+            "Name": "Climbing down the altar",
+            "Description": "You are climbing down the altar, you see someone standing before you.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3258
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3260
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3260,
+            "Zone": 32,
+            "Name": "Behind the altar",
+            "Description": "You stand behind the altar of Death.  Here resides the queen of power.\nThe scales riple along her back as you enter.  She is insulted by your\npathetic mortalness.  Even the IMP Sheol fears her power over him.  She\nhas lost her pet Tiamat and sees you as something that can keep her busy\nfor a round or 2.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3259
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3261,
+            "Zone": 32,
+            "Name": "Entrance to the Great Temple of Asgaard",
+            "Description": "You are standing before a wall with a door.  Above the door lies\nthe the letter Temple of Asgaard\nThere are 2 large guardian statues that stand blankly before you.\nThe seem to form the columns that would have held up a roof.  Instead\nof their being a roof.  There is a ceiling of sand.  The doors stand about\n25 feet tall, but are glowing brightly.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3250,
+                    "Destination": 3262
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3239
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3262,
+            "Zone": 32,
+            "Name": "Within the Great Temple of Asgaard",
+            "Description": "You are standing just within the temple doors.  Before you, you see\na city in ruins.  These were the last vistages of the people that lived\nbefore the great destruction.  Before you lies what appears to be the\nmain street.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3263
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3250,
+                    "Destination": 3261
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3263,
+            "Zone": 32,
+            "Name": "Central walkway",
+            "Description": "You are walking down the central walkway.  Before you lies this lost\ncity.  Far ahead is the main temple.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3264
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3262
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3264,
+            "Zone": 32,
+            "Name": "Central Walkway",
+            "Description": "You are on the central walkway.  There are empty houses and piles of bones\neverywhere.  Everything you see here is glowing with a bright light.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3265
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3263
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3265,
+            "Zone": 32,
+            "Name": "Central Walkway",
+            "Description": "You are on the central walkway.  There are empty houses and piles of bones\neverywhere.  Everything you see here is glowing with a bright light.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3266
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3264
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3266,
+            "Zone": 32,
+            "Name": "Central Walkway",
+            "Description": "You are on the central walkway.  There are empty houses and piles of bones\neverywhere.  Everything you see here is glowing with a bright light.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3267
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3265
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3267,
+            "Zone": 32,
+            "Name": "Central Walkway",
+            "Description": "You are on the central walkway.  There are empty houses and piles of bones\neverywhere.  Everything you see here is glowing with a bright light.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3268
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3266
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3268,
+            "Zone": 32,
+            "Name": "Central Walkway",
+            "Description": "You are on the central walkway.  There are empty houses and piles of bones\neverywhere.  Everything you see here is glowing with a bright light.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3270
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3267
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3270,
+            "Zone": 32,
+            "Name": "Entrance to a small temple",
+            "Description": "You are standing outside a small temple.  The doors are closed and\nbolted from the inside.\nThe facade of the building is rusted and withered.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3254
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3268
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3299,
+            "Zone": 32,
+            "Name": "Realm of the Dead",
+            "Description": "You are standing in the ethereal realm of the Dead.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3299
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3299
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3299
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3299
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3030
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

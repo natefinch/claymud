@@ -1,0 +1,816 @@
+{
+    "rooms": [
+        {
+            "ID": 7900,
+            "Zone": 79,
+            "Name": "Outside Redferne's residence",
+            "Description": "A huge cloud forms the plateau on which you are now standing.  The wind here\r\r\r\r\r\r\n\ris absolutely quiet and the sun is shining warmly upon you.  From under the\r\r\r\r\r\r\n\rcloud you can hear the faint sounds of Midgaard.  Right before you to the\r\r\r\r\r\r\n\rnorth lies the grand Mansion of Naris, the residence of the Greater God\r\r\r\r\r\r\n\rRedferne.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "PRIVATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a HUGE arched gate leading into this magnificent building.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "gate",
+                        "door",
+                        "huge",
+                        "arched"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 7901,
+                    "Destination": 7901
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see a Huge Chain that anchors the Mansion of Naris to the ground.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7918
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7901,
+            "Zone": 79,
+            "Name": "The Southern end of the hall",
+            "Description": "You are standing in a vast hall that is dimly lit, but wherefrom the\r\r\r\r\r\r\n\rlight comes, is a mystery.  The walls seem to radiate warmth and give\r\r\r\r\r\r\n\rthe pleasant feeling of being welcome here.  A large portrait is hanging\r\r\r\r\r\r\n\ron one of the walls.  A large wooden staircase leads up into the tower.\r\r\r\r\r\r\n\rTo the east there is a high passage away from the hall.  This ends\r\r\r\r\r\r\n\rshortly after by a tall oak door.  The enormous hall extends further\r\r\r\r\r\r\n\rnorth from here.  To the south you can see a huge, and VERY heavy-\r\r\r\r\r\r\n\rlooking iron-wrought door.  It looks like this is the only exit from\r\r\r\r\r\r\n\rthis magnificent old house.  To the west you can see a large ashen door.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PRIVATE",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The hallway continues that way.  You can see more doorways under the\r\r\r\r\r\r\n\rwooden staircase in that direction.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7904
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see there a tall oak door.  It looks quite tightly closed to you.\r\r\r\r\r\r\n\rOn it little runes are chiselled into the wood.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "oak",
+                        "tall",
+                        "east",
+                        "oakdoor",
+                        "talldoor",
+                        "eastdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7910
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Here you see a REAL door.  It would be more proper to call this a\r\r\r\r\r\r\n\r\"GATE\", rather than a \"door\".  It's really HUGE!  On it hangs a large\r\r\r\r\r\r\n\rsign with very large letters spelling : \"EMERGENCY EXIT\".\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "gate",
+                        "south",
+                        "exit",
+                        "iron",
+                        "huge",
+                        "emergency"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 7901,
+                    "Destination": 7900
+                },
+                {
+                    "Direction": "West",
+                    "Description": "This looks like a \"door\" in the meaning of the word.  The ashen wood\r\r\r\r\r\r\n\ris painted in a peculiar yellow color.  Small letters are written\r\r\r\r\r\r\n\rwith black on it.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "ashen",
+                        "ash",
+                        "door",
+                        "west",
+                        "yellow"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7902
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see the staircase extending upwards into the very high tower.\r\r\r\r\r\r\n\rIt ends in what seems like a large bedroom up there.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7909
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "runes"
+                    ],
+                    "Description": "These runes are utterly strange to you, but you are in luck today: Under\r\r\r\r\r\r\n\rthe runes you can just make out a sentence in Common.  It goes : \" Stay out,\r\r\r\r\r\r\n\rif you treasure your life.  That is if you are mortal.\".\r\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "letters"
+                    ],
+                    "Description": "They read \"LIBRARY\".\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 7902,
+            "Zone": 79,
+            "Name": "Redferne's Library",
+            "Description": "This is truly a magnificent place!  Books and scrolls lie together on every\r\r\r\r\r\r\n\rshelf.  A large globe, with the map of the Mud-world upon it, stands in the\r\r\r\r\r\r\n\rdimly lit north-western corner of the room.  Two large and comfortable-\r\r\r\r\r\r\n\rlooking leather arm-chairs adorn the center of the library together with\r\r\r\r\r\r\n\ra huge oak desk.  Dim light radiates from an enormous crystal chandelier\r\r\r\r\r\r\n\rhanging down from the ceiling approximately 10 feet off the floor.  To the\r\r\r\r\r\r\n\reast there is a great old ashen door.  A large glass window is set in the\r\r\r\r\r\r\n\rwest wall.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PRIVATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You can see an old ashen door, painted in a peculiar yellow color.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "ash",
+                        "ashen",
+                        "east"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7901
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "river"
+                    ],
+                    "Description": "You see a large and winding river cut through the landscape, starting at an\r\r\r\r\r\r\n\renormous inland lake, it seeps through Midgaard and finally ends up in the\r\r\r\r\r\r\n\rGrand Sea on the West-coast of the land.\r\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "out",
+                        "outside",
+                        "beyond"
+                    ],
+                    "Description": "The clouds muster and form the ground on which this entire building is set.\r\r\r\r\r\r\n\rThrough the thinnest of the clouds you can just make out MIDGAARD with all\r\r\r\r\r\r\n\rit's magnificent activity.\r\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "window",
+                        "glass"
+                    ],
+                    "Description": "These windows are really BIG!  They reach from about 20 inches above the\r\r\r\r\r\r\n\rfloor to approximately 10 inches under the ceiling.  If you try and\r\r\r\r\r\r\n\r\"look out\", you might see what might lie beyond these windows.\r\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "chairs",
+                        "leather",
+                        "arm-chairs"
+                    ],
+                    "Description": "These two chair are exactly alike one another.  They look incredibly\r\r\r\r\r\r\n\rcomfortable.  They're both made from old leather, and yet they seem so worn\r\r\r\r\r\r\n\rthat they can be nothing but a perfect place for a long needed rest.\r\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "midgaard",
+                        "town",
+                        "city"
+                    ],
+                    "Description": "You see a small speck with woods on the west from it, plains to the east\r\r\r\r\r\r\n\rfrom it and mountains to the north from it.  To the south from it you can\r\r\r\r\r\r\n\rsee a thin trail lead to a large castle.  Finally you notice a rather large\r\r\r\r\r\r\n\rriver pour in from the east and go through Midgaard in the middle.\r\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "globe",
+                        "world",
+                        "map"
+                    ],
+                    "Description": "You see a large world map stretch out on the enormous globe.  It has towns\r\r\r\r\r\r\n\rdrawn in every spot available for such.  In the middle of the map you can\r\r\r\r\r\r\n\rspot a large town with the name 'MIDGAARD' written over it.  The rest is\r\r\r\r\r\r\n\rmountains, woods, plains and water.\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 7903,
+            "Zone": 79,
+            "Name": "The Artifact room of Naris",
+            "Description": "This is gloomy and dark room with only a faint light radiating from the\r\r\r\r\r\r\n\rwalls.  A bunch of funny-looking items fill the center of the room.  There are\r\r\r\r\r\r\n\rno furniture here what-so-ever.  The only way out seems to be west, through\r\r\r\r\r\r\n\rthe low steel door.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PRIVATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see only the back of a safe's steel door.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "steel",
+                        "door",
+                        "exit",
+                        "safe"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 7900,
+                    "Destination": 7910
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7904,
+            "Zone": 79,
+            "Name": "The Northern end of the hall",
+            "Description": "You are standing in the northern end of the huge hall.  This part is under\r\r\r\r\r\r\n\rthe grand wooden staircase so the light seems a little less bright here,\r\r\r\r\r\r\n\rbut this doesn't bother your sight at all.  To the north lies the kitchen.\r\r\r\r\r\r\n\rTo the south lies the Southern end of the hall.  To the east there is a huge\r\r\r\r\r\r\n\rmetal door.  To the west there is a large aspenwood door.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PRIVATE",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7906
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a huge metal door.  From it a foul stench emanates.  The smell is the\r\r\r\r\r\r\n\rmost awful experience in your entire life.  A thought seeps through this\r\r\r\r\r\r\n\rterrible stench and into your mind : \"Monsters\", you feel BAD about opening\r\r\r\r\r\r\n\rthat door.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "steel",
+                        "metal",
+                        "huge"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7913
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The rest of the hall lies in that direction, and so does the exit.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7901
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The door has \"SITTING ROOM\" written on it.  It is made from Aspenwood and\r\r\r\r\r\r\n\ris beautifully carved with small elves as main issue of sculpture.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "aspen",
+                        "asp"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7905
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7905,
+            "Zone": 79,
+            "Name": "The Sitting room of Naris",
+            "Description": "You are standing in the middle of a really comfortable place.  The walls are\r\r\r\r\r\r\n\rdecorated with paintings of smiling Kings and Queens.  The most attractive\r\r\r\r\r\r\n\rpicture is one of a Prince in shiny armor.  By one of the walls there is an\r\r\r\r\r\r\n\rold arm-chair.  The only exit is through the aspenwood door to the east.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PRIVATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The door seems to be a very HEAVY door, carved completely from the trunk of\r\r\r\r\r\r\n\ran Aspen tree.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "asp",
+                        "aspen",
+                        "door",
+                        "heavy"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7904
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "chair",
+                        "arm-chair"
+                    ],
+                    "Description": "This is truly a wonderful relic of the past.  In it is a large cushion.\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 7906,
+            "Zone": 79,
+            "Name": "The Kitchen of Naris",
+            "Description": "This must be the place of food and drink.  You can hear the faint noise of \r\r\r\r\r\r\n\rrats feasting on meat and bread from somewhere undeterminable.  The sound\r\r\r\r\r\r\n\rmakes you feel the agony of HUNGER.  The only visible exit is south to the\r\r\r\r\r\r\n\rNorthern end of the hall.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PRIVATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "It's dark in there.  But the sounds from there are unmistakable.  The rats are\r\r\r\r\r\r\n\rhere to your information.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "larder",
+                        "wooden",
+                        "cupboard"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7907
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You can see the fridge from here.  In it are drinks all over.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "fridge"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7908
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You can see the northern end of the hall.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7904
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7907,
+            "Zone": 79,
+            "Name": "The Larder",
+            "Description": "You can see food all over.  Among the heaps of food you notice HUGE rats\r\r\r\r\r\r\n\rscuttling around, nibbling pieces off the heaps here and there.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PRIVATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "wooden",
+                        "larder",
+                        "exit"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7906
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7908,
+            "Zone": 79,
+            "Name": "The Fridge",
+            "Description": "This place is LOADED with drink, water and booze.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PRIVATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "exit",
+                        "fridge"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7906
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7909,
+            "Zone": 79,
+            "Name": "On the stairs",
+            "Description": "You can see up and down the stairway.  It seems to take forever, either going\r\r\r\r\r\r\n\rup OR down.  It's just a seemingly insurmountable climb, either way.  Up is the \r\r\r\r\r\r\n\rbedroom of Redferne, and Down leads to the Southern end of the hall.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PRIVATE",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7911
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7901
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7910,
+            "Zone": 79,
+            "Name": "The Treasure room",
+            "Description": "This place is gloomy.  A HUGE safe is cemented into the west wall.  The only \r\r\r\r\r\r\n\rvisible exit is west, through the oak door.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PRIVATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "safe",
+                        "steel"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 7900,
+                    "Destination": 7903
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a tall oak door.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "oak",
+                        "tall"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7901
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7911,
+            "Zone": 79,
+            "Name": "Redferne's Bedroom",
+            "Description": "This is a snugly set bedroom with all the necessities for a romantic evening.\r\r\r\r\r\r\n\rA large fireplace adorns the east wall, and sizzling away is the wood that\r\r\r\r\r\r\n\ris ablaze within.  The bed is enormous, covering at least HALF of this great\r\r\r\r\r\r\n\rroom.  This stretches at least 140 square feet, so can you imagine the BED?\r\r\r\r\r\r\n\rA large staircase leads down to the hall.  A couple of doors open up to a\r\r\r\r\r\r\n\rbroad balcony to the south.  \r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PRIVATE",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The suns seems to shine out there, warmly and comforting.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7912
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7909
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7912,
+            "Zone": 79,
+            "Name": "The Balcony of Redferne's Residence",
+            "Description": "You see a splendid of the most of this world.  The valleys stretch as far as\r\r\r\r\r\r\n\rthe eye reaches to the south from here.  Down below you can see the entrance\r\r\r\r\r\r\n\rof this magnificent building.  To the north are the doors to Redferne's Bedroom.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "PRIVATE",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the comfortable bedroom of Naris, the mansion of Redferne the Greater\r\r\r\r\r\r\n\rGod.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7911
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7913,
+            "Zone": 79,
+            "Name": "The Monster Pen",
+            "Description": "This looks like the cage in which a large carnivore is being kept.  Judging by\r\r\r\r\r\r\n\rthe state the walls are in, this could very well be a large AGGRESSIVE animal.  \r\r\r\r\r\r\n\rThis makes you pretty insecure, this stating your feeling about the place\r\r\r\r\r\r\n\rquite mildly.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "This looks like the only exit from here.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "cage",
+                        "metal",
+                        "pen"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 7904
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7914,
+            "Zone": 79,
+            "Name": "On the Huge Chain",
+            "Description": "This place has quite a good view over Midgaard.  Your possibilities of movement\r\r\r\r\r\r\n\rseems to extend only to up and down.  Unless you want to let go of the secure\r\r\r\r\r\r\n\rand seemingly unmovable chain, then those are the directions you should take\r\r\r\r\r\r\n\rfrom here.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "Up the way you see the chain disappearing into the clouds above.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7915
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Down below you see the huge chain anchored to the ground in the Road Crossing.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3120
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7915,
+            "Zone": 79,
+            "Name": "The Chain where it's too windy",
+            "Description": "Hanging on to the chain you figure out that there's no way of leaving down \r\r\r\r\r\r\n\rfrom here.  The wind pulls you from left to right and back.  This seems like a\r\r\r\r\r\r\n\rtotally impossible task.  The ascend is the only way ahead for you.\r\r\r\r\r\r\n\rOtherwise you would risk death by falling to the hard ground below.  DO NOT\r\r\r\r\r\r\n\rDESCEND NOW OR YOU'LL SURELY DIE!!!!\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "That way seems to be the only way away from here.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7916
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "THAT WAY IS CERTAIN DEATH!!!!  You can see the wind tearing at the chain down\r\r\r\r\r\r\n\rbelow you.  It swings like a furious serpent from side to side!  The descend is\r\r\r\r\r\r\n\rABSOLUTELY out of the QUESTION.  \r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7920
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7916,
+            "Zone": 79,
+            "Name": "On the Great Chain of Naris",
+            "Description": "You are approximately on the middle of the treacherous Chain.  One false step\r\r\r\r\r\r\n\rand death will come and collect you quickly.  The chain leads upwards and down.\r\r\r\r\r\r\n\rNo way are you going to descend now...  You've only just begun your climb.\r\r\r\r\r\r\n\rBesides it could cost you your life.  Look down and you'll see why.",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "There seems to be only one way from here and that's up.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7918
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The chain down there is swinging wildly back and forth.  Going down there will\r\r\r\r\r\r\n\rbe pretty risky!\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7915
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7917,
+            "Zone": 79,
+            "Name": "The Chain",
+            "Description": "As you descend, the chain seems to absorb all weather around it, making it\r\r\r\r\r\r\n\rswing less and less in the very powerful wind tearing at it.  The Chain seems\r\r\r\r\r\r\n\rto chuckle quietly, and as you descend further you hear a soft whisper\r\r\r\r\r\r\n\roriginating from within the Chain *ITSELF*.  \r\r\r\r\r\r\n\rIt says, \" Welcome back some other time, stranger.  Your company is always\r\r\r\r\r\r\n\r           ...  hmmm ...  interesting.  God Speed.  \"\r\r\r\r\r\r\n\rThe chain extends further down through the now spreading clouds.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "That way seems safe enough ...  now.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7914
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7918,
+            "Zone": 79,
+            "Name": "The Mighty Chain of Naris",
+            "Description": "This place truly a splendid view of the WHOLE COUNTRY SIDE!!!  A magnificent\r\r\r\r\r\r\n\rlight shines upon you and the way up through the clouds is opened.  Up there\r\r\r\r\r\r\n\ryou can now see the Mansion of Naris, Residence of the Greater God Redferne.\r\r\r\r\r\r\n\rThe chain beneath you seems to evaporate in the mustering clouds that\r\r\r\r\r\r\n\rsurround you by now.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "You see the sunny top of the clouds.  Beyond these, the Mansion towers before\r\r\r\r\r\r\n\ryour eyes.  Beautiful!!\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7900
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see nothing but the thick clouds.  They've closed completely around the\r\r\r\r\r\r\n\rChain.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7917
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 7920,
+            "Zone": 79,
+            "Name": "Free fall from the Chain",
+            "Description": "This is probably the third worst place to be in this entire MUD right now.\r\r\r\r\r\r\n\rYou fall\r\r\r\r\r\r\n\r.  \r\r\r\r\r\r\n\r.\r\r\r\r\r\r\n\r.\r\r\r\r\r\r\n\rand fall\r\r\r\r\r\r\n\r.\r\r\r\r\r\r\n\r.\r\r\r\r\r\r\n\r.\r\r\r\r\r\r\n\rand fall\r\r\r\r\r\r\n\r.\r\r\r\r\r\r\n\r.\r\r\r\r\r\r\n\r.\r\r\r\r\r\r\n\rand HIT THE GROUND WITH SUCH A *SPLUTCH* that you die horribly, but instantly.\r\r\r\r\r\r\n\rBye Cruel World.  You lose all your things immediately, Sorry!!\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DEATH",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7914
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7915
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7916
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7917
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 7918
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3120
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

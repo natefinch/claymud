@@ -1,0 +1,4573 @@
+{
+    "rooms": [
+        {
+            "ID": 8500,
+            "Zone": 85,
+            "Name": "The Kitchen of Elminster's Tower",
+            "Description": "     For an archmage, you would expect Elminster to be a bit more tidy. All\r\r\r\r\r\r\r\r\n\raround the room are books, scrolls, and various other odds and ends, with\r\r\r\r\r\r\r\r\n\ritems more common to kitchens--such as pots and pans--taking up whatever\r\r\r\r\r\r\r\r\n\rroom is left to them.\r\r\r\r\r\r\r\r\n\r     From the little fireplace on one side of the room, you smell some sort of\r\r\r\r\r\r\r\r\n\rstew cooking in a large kettle. It smells good, and you wonder if Elminster\r\r\r\r\r\r\r\r\n\rwould mind you sampling his dinner.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8511
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8501
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "stew",
+                        "kettle"
+                    ],
+                    "Description": "*sniff sniff* your best guess would probably be that it's rabbit stew, \r\r\r\r\r\r\r\r\n\rseasoned with garlic.\r\r\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 8501,
+            "Zone": 85,
+            "Name": "Elminster's Study",
+            "Description": "They don't call Elminster \"the Sage of Shadowdale\" for nothing. It hardly\r\r\r\r\r\r\r\r\n\rseems possible that this many books could fit into a room this size (though\r\r\r\r\r\r\r\r\n\rthey might only fit by some trick of magic). Elminster's collection would\r\r\r\r\r\r\r\r\n\rseem to rival many small libraries, save that many of these tomes appear to\r\r\r\r\r\r\r\r\n\rbe hundreds of years old. A comfortable old chair, with well-worn armrests\r\r\r\r\r\r\r\r\n\rgraces one corner of the room, with a desk holding up more than its fair share\r\r\r\r\r\r\r\r\n\rof volumes, next to it. A rickety flight of stairs leads up to what you assume\r\r\r\r\r\r\r\r\n\rshould be Elminster's bedroom.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8502
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8500
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8502,
+            "Zone": 85,
+            "Name": "Elminster's Bedroom",
+            "Description": "     From the apprearance of the rest of the tower, the condition of this room\r\r\r\r\r\r\r\r\n\rdoesn't surprise you. An old wooden bed takes up the better potion of this\r\r\r\r\r\r\r\r\n\rsmallest room of the tower. The covers are all in a shambles, and it looks\r\r\r\r\r\r\r\r\n\rlike the bed hasn't been made since Myth Drannor fell. There is a chamber\r\r\r\r\r\r\r\r\n\rpot half pushed under the bed--thankfully at least THAT is kept clean. A\r\r\r\r\r\r\r\r\n\rcloset with a locked door is the only other notable feature of the room.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "closet"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 8504,
+                    "Destination": 8503
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8501
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8503,
+            "Zone": 85,
+            "Name": "Elminster's Closet",
+            "Description": "     This closet is supposed to contain the spellbooks that Elminster has\r\r\r\r\r\r\r\r\n\rgained from fallen foes over the years, to be studied later. However, it seems\r\r\r\r\r\r\r\r\n\rthat there is some sort of dimensional gate inside as well. Better be careful\r\r\r\r\r\r\r\r\n\rwhere you choose to go though. places that are safe for mighty archmages\r\r\r\r\r\r\r\r\n\raren't always so safe for everyone else.\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8423
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "closet"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8502
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "If you really need to get back to the temple, you can go this way.\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "secret",
+                        "temple",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3001
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8446
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8617
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8504,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   You are standing near the entrance to the Twisting Tower, home of\r\r\r\r\r\r\r\r\n\rMourngrym, Lord of the Dale, and his wife Laeral. The tower, as its name\r\r\r\r\r\r\r\r\n\rimplies, is somewhat of a spiral. Rumor among the dalesmen has it\r\r\r\r\r\r\r\r\n\rthat Elminster has enspelled the mortar holding the tower's bricks \r\r\r\r\r\r\r\r\n\rtogether, making it impossible to teleport inside, or to scyre the interior\r\r\r\r\r\r\r\r\n\rof the tower, or its occupants.\r\r\r\r\r\r\r\r\n\r   To your south and east, you can get a fairly good view of the rest of\r\r\r\r\r\r\r\r\n\rthe dale.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8505
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8508
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8527
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8509
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8507
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "dale",
+                        "rest",
+                        "shadowdale"
+                    ],
+                    "Description": "To the east, is Elminster's Tower. Off to the southwest is the Old Skull\r\r\r\r\r\r\r\r\n\rTavern, and to the south is Storm Silverhand's farm. The rest of the \r\r\r\r\r\r\r\r\n\rdale that you see from here is mostly farmland.\r\r\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 8505,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   This is the northern part of Shadowdale. From here you can see two\r\r\r\r\r\r\r\r\n\rolder-looking tower, in a state of some disrepair. To the south lies the\r\r\r\r\r\r\r\r\n\rrest of the dale.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8506
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8509
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8504
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8667
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8510
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8508
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8506,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   This is a remote part of Shadowdale. Here it is mostly just farmland,\r\r\r\r\r\r\r\r\n\rand few buildings can be seen from here. The one exception being an\r\r\r\r\r\r\r\r\n\rold, crumbliing tower off to the east. The entrance to the tower does\r\r\r\r\r\r\r\r\n\rnot appear to be visible from here, however.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8510
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8505
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8511
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8509
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8507,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   You are standing by what would appear to be a small farm. If anyone\r\r\r\r\r\r\r\r\n\rminds you being here, they aren't saying anything about it. But then,\r\r\r\r\r\r\r\r\n\rthat's the kind of place Shadowdale is. Most people _wouldn't_ mind\r\r\r\r\r\r\r\r\n\ryou \"tresspassing\" on their property, as long as you behave well (that\r\r\r\r\r\r\r\r\n\rmeans no fireballing crops, killing livestock, etc.)\r\r\r\r\r\r\r\r\n\r   A short ways to the north is the Twisting Tower, and to the south\r\r\r\r\r\r\r\r\n\ryou can see another farm. That farm looks like it belongs to someone\r\r\r\r\r\r\r\r\n\rimportant.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8508
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8512
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8504
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8513
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8508,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   From this part of Shadowdale you can see most of the dale. You \r\r\r\r\r\r\r\r\n\rsee the Twisting Tower to the northwest, an old-crumbling tower to the\r\r\r\r\r\r\r\r\n\rnortheast, the community well off to the east , and the local tavern to\r\r\r\r\r\r\r\r\n\rthe southeast\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8504
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8509
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8513
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8507
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8505
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8514
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8512
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8509,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   This is the site of the community well. It's a gathering place for the\r\r\r\r\r\r\r\r\n\rlocals, where gossip is exchanged and small-talk made. Since everyone\r\r\r\r\r\r\r\r\n\rhere knows everyone else, there is always something for them to talk\r\r\r\r\r\r\r\r\n\rabout...and they always seem to be talking about it. I guess when you\r\r\r\r\r\r\r\r\n\rlive in a small farming village, there isn't much else to do to amuse\r\r\r\r\r\r\r\r\n\ryourself.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8505
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8510
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8514
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8508
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8506
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8504
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8515
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8513
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "well"
+                    ],
+                    "Description": "   This is a very well-kept well. There is an angled roof over it, to keep\r\r\r\r\r\r\r\r\n\rout bird and debris, and the bucket, crank, and rope are in good repair.\r\r\r\r\r\r\r\r\n\rLooking down inside, you see that the water is pure and clean.\r\r\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 8510,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   This is a main part of Shadowdale. Men and women of the dale go\r\r\r\r\r\r\r\r\n\rabout their daily routines: caring for livestock, working their farms, and\r\r\r\r\r\r\r\r\n\rtrading goods with one another.\r\r\r\r\r\r\r\r\n\r   To the west is the community well, which anyone is welcome to\r\r\r\r\r\r\r\r\n\rdraw water from, and to the northeast, you can see an old, crumbling\r\r\r\r\r\r\r\r\n\rtower.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8506
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8511
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8515
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8509
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8505
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8516
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8514
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8511,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   You are standing before a ancient-looking tower, and not one that\r\r\r\r\r\r\r\r\n\rappears to have stood up well to the test of time. The bricks are\r\r\r\r\r\r\r\r\n\rcrumbling a bit, and the whole tower is tilted somewhat askew. The \r\r\r\r\r\r\r\r\n\rdoor is worn from centuries of use, and the doorstep is worn smooth--\r\r\r\r\r\r\r\r\n\rbeing the favorite sitting spot for a thousand-year-old archmage can\r\r\r\r\r\r\r\r\n\rtend to do that do a doorstep.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8500
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8516
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8510
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8506
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8515
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8512,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   This part of Shadowdale seems to be a favorite place for local children\r\r\r\r\r\r\r\r\n\rto play. When they're not helping out on their parents' farms, many of\r\r\r\r\r\r\r\r\n\rthem will spend their spare time playing and rough-housing, as young\r\r\r\r\r\r\r\r\n\rchildren will do (and in the process, learning how to punch and wrestle,\r\r\r\r\r\r\r\r\n\rwhich will help them later in life if they become adventurers).\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8507
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8513
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8508
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8517
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8666
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8513,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   This part of Shadowdale is mostly fields, owned by no one person,\r\r\r\r\r\r\r\r\n\rbut used by everyone for their cattle to graze on.\r\r\r\r\r\r\r\r\n\r   From this location, you can see the Twisting Tower off to the north,\r\r\r\r\r\r\r\r\n\rand the Old Skull tavern to the east.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8508
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8514
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8517
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8512
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8509
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8507
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8518
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8514,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "  You are standing on a small hill, but its added height allows you to\r\r\r\r\r\r\r\r\n\rget a good look at your surroundings. A short ways to the north is\r\r\r\r\r\r\r\r\n\rsome sort of public well. To your east is the Old Skull. Northwest you\r\r\r\r\r\r\r\r\n\rcan see the Twisting Tower, home of Lord Mourngrym. And off to the\r\r\r\r\r\r\r\r\n\rnorthwest, there is an old, crumbling tower, perhaps the oldest building\r\r\r\r\r\r\r\r\n\rin all the dales.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8509
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8515
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8518
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8513
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8510
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8508
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8519
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8517
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8515,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   You are now very near to the Old Skull tavern. You catch a whiff of\r\r\r\r\r\r\r\r\n\rsomething good being prepared for the night's meal, and your stomach\r\r\r\r\r\r\r\r\n\rstarts to growl. Maybe you should go around to the south, where the\r\r\r\r\r\r\r\r\n\rmain door to the tavern is. It's reputed to be the best food around.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8510
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8516
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8519
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8514
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8511
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8509
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8518
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8516,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   You are standing just north of an old building. Smoke is rising out\r\r\r\r\r\r\r\r\n\rof a chimney that is on this side of it. This must be the Old Skull tavern\r\r\r\r\r\r\r\r\n\rthat all the locals have been referring to. You can smell something\r\r\r\r\r\r\r\r\n\rreally good cooking, and consider that it might be a good idea to check\r\r\r\r\r\r\r\r\n\rthis place out.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8511
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8515
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8510
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8519
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8517,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   You are smanding in front of a small, stone farmhouse. It is tidy,\r\r\r\r\r\r\r\r\n\rand it seems as if the occupants are not in at the moment. You can't\r\r\r\r\r\r\r\r\n\rreally make out what is inside, despite the door being open; it's just\r\r\r\r\r\r\r\r\n\rtoo bright outside and dim inside to tell. If you're curious, you're gonna\r\r\r\r\r\r\r\r\n\rhave to go inside...\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8513
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8518
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8521
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8514
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8512
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8518,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   This part of Shadowdale runs in between most people's farms, and\r\r\r\r\r\r\r\r\n\rconsequently it is highly trafficked. Also, with many people bringing\r\r\r\r\r\r\r\r\n\rlivestock through here on a regular basis, this area is rather messy\r\r\r\r\r\r\r\r\n\rat times, and in the summer, it often has a rather rank odor. Maybe\r\r\r\r\r\r\r\r\n\ryou should consider hurrying along.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8514
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The door to the Old Skull is always open.\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8519
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8517
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8515
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8513
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8519,
+            "Zone": 85,
+            "Name": "Shadowdale",
+            "Description": "   You're right in front of the entrance to an older-looking building. The\r\r\r\r\r\r\r\r\n\rsign over the door reads: \"The Old Skull.\" The front step and the door\r\r\r\r\r\r\r\r\n\rboth appear well-worn, yet well-kept, and the most delicious smells\r\r\r\r\r\r\r\r\n\rwaft out to you. You can hear laughter coming from inside, and decide\r\r\r\r\r\r\r\r\n\rthat this is the place to be.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8515
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8520
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8655
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8518
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8516
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8514
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8520,
+            "Zone": 85,
+            "Name": "The Old Skull Tavern",
+            "Description": "  This is the palce to relax. A warm room, friendly locals, and some\r\r\r\r\r\r\r\r\n\rgreat-smelling food--all a tired adventurer could ask for. The tables and\r\r\r\r\r\r\r\r\n\rchairs are sturdy, yet comfortable, and the lighting is bright enough,\r\r\r\r\r\r\r\r\n\rbut not harsh. There is a bar at one end of the common room, where\r\r\r\r\r\r\r\r\n\rpartons can eat their meal and get drinks while talking with the inn-\r\r\r\r\r\r\r\r\n\rkeeper, Jhaele. Jhaele knows everyone in the dale, and hears all the\r\r\r\r\r\r\r\r\n\rlocal gossip. Some of the locals beckon for you to come over and sit\r\r\r\r\r\r\r\r\n\rwith them, and share a drink.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8519
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8521,
+            "Zone": 85,
+            "Name": "Storm's House",
+            "Description": "   This humble, stone farmhouse is the home of the famed Bard of Shadowdale,\r\r\r\r\r\r\r\r\n\rStorm Silverhand. Despite the bard's reputation, and the fact that she is one\r\r\r\r\r\r\r\r\n\rof the Chosen of Mystra, she still lives a simple life. There are no servants\r\r\r\r\r\r\r\r\n\raround as far as you can tell. You don't see racks of weapons and treasure, as\r\r\r\r\r\r\r\r\n\rmost former (and successful) adventurers would have. All you see is a small\r\r\r\r\r\r\r\r\n\rkitchen and pantry, with some stairs leading up to what is no doubt an equally\r\r\r\r\r\r\r\r\n\rhumble bedroom. Out of respect for the bard's privacy, you won't go up there. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8517
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8523
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8522,
+            "Zone": 85,
+            "Name": "Storm's Farm",
+            "Description": "   This tidy little farm is well-maintained. The furrows appear to have been\r\r\r\r\r\r\r\r\n\rrecently plowed, and seed has been planted. The lack of any weeds shows that\r\r\r\r\r\r\r\r\n\rsomeone has spent a lot of time tending the crops.\r\r\r\r\r\r\r\r\n\r   The suspect that the woman kneeling in the field is respinsible for the\r\r\r\r\r\r\r\r\n\rfarm's condition. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8523
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8523,
+            "Zone": 85,
+            "Name": "Storm's Farm",
+            "Description": "   This tidy little farm is well-maintained. The furrows appear to have been\r\r\r\r\r\r\r\r\n\rrecently plowed, and seed has been planted. The lack of any weeds shows that\r\r\r\r\r\r\r\r\n\rsomeone has spent a lot of time tending the crops. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8521
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8522
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8524,
+            "Zone": 85,
+            "Name": "The Twisting Tower",
+            "Description": "   The far end of the ballroom is still covered by the large throw-rug, but the\r\r\r\r\r\r\r\r\n\rmost notable feature of thios half of the room is the large, curving staircase\r\r\r\r\r\r\r\r\n\rthat leads up to the bedrooms on the other floors. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8526
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8528
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8525,
+            "Zone": 85,
+            "Name": "The Twisting Tower",
+            "Description": "   This comfy little sitting room has enough chairs for a dozen or so people to\r\r\r\r\r\r\r\r\n\rsit around the small, low table in the middle of the room. The chairs are\r\r\r\r\r\r\r\r\n\rupholstered in a sort of faded red color, and appear quite comfortable. On the\r\r\r\r\r\r\r\r\n\rtable is a silver serving set. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8527
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8526,
+            "Zone": 85,
+            "Name": "The Twisting Tower",
+            "Description": "   This is a combination banquet hall/ballroom. One wall is dominated by a\r\r\r\r\r\r\r\r\n\rlarge table, which could seat half the adults in the dale easily. The rest of\r\r\r\r\r\r\r\r\n\rthe room is covered in a huge throw-rug, and looks like it's seen a party or\r\r\r\r\r\r\r\r\n\rtwo (or maybe a few hundred). \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8524
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8527
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8527,
+            "Zone": 85,
+            "Name": "The Twisting Tower",
+            "Description": "   The entry hall of the Twisting Tower is beautiful, but not ornate. Paintings\r\r\r\r\r\r\r\r\n\rand tapestries along the walls appear to be of a more local flavor than most\r\r\r\r\r\r\r\r\n\rpalaces and castles would keep, showing the strong sense of community and\r\r\r\r\r\r\r\r\n\rhistory in the dale. You happen to notice that one of the paintings was made\r\r\r\r\r\r\r\r\n\rthe Storm Silverhand, the Bard of Shadowdale.\r\r\r\r\r\r\r\r\n\r   To the north appears to be a sitting room, and the west leads to the main\r\r\r\r\r\r\r\r\n\rdining area. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8525
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8504
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8526
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "painting"
+                    ],
+                    "Description": "   This painting depicts a wilderness scene with fanciful creatures and a happy\r\r\r\r\r\r\r\r\n\rlovers. The fading of the colors and the old-style dress of the people shown tells\r\r\r\r\r\r\r\r\n\ryou that this painting is a few hundered years old.\r\r\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 8528,
+            "Zone": 85,
+            "Name": "The 2nd Floor of The Twisting Tower",
+            "Description": "   The landing at the second floor provides a nice look out over the banquet\r\r\r\r\r\r\r\r\n\rhall. If there were currently a gathering going on below, you would have an\r\r\r\r\r\r\r\r\n\runobstructed view of everyone down there. The hallway on this floor has\r\r\r\r\r\r\r\r\n\rcarpetting running down the middle, to ward away the chill of the stone floor.\r\r\r\r\r\r\r\r\n\r   Just to the south is one of the bedrooms that Lord Mourngrym reserves for\r\r\r\r\r\r\r\r\n\rguests. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8529
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8530
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8524
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8529,
+            "Zone": 85,
+            "Name": "The 2nd Floor of The Twisting Tower",
+            "Description": "   The carpetting leads up to the end of the hallway, where there is another\r\r\r\r\r\r\r\r\n\rdoor, to the south. From the \"trail\" worn into the carpet in front of this\r\r\r\r\r\r\r\r\n\rdoor, this room sees a lot of use by the residents of the tower. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8531
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8528
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8530,
+            "Zone": 85,
+            "Name": "A Guest Room in The Twisting Tower",
+            "Description": "   This guest room has a large canopied bed, with curtains, and a few other\r\r\r\r\r\r\r\r\n\rpieces of furniture. The desk in one corner has an inkwell, and some paper on\r\r\r\r\r\r\r\r\n\rit. There is a wardrobe taking up a good portion of one wall.\r\r\r\r\r\r\r\r\n\r   A window provides a wonderful view out over the dale. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8528
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8531
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "window"
+                    ],
+                    "Description": "   You can see most of the dale from this window. Farmers and tradesmen go about\r\r\r\r\r\r\r\r\n\rtheir business. Small children play in the fields. You see farmland and simple houses,\r\r\r\r\r\r\r\r\n\rthe very essence of the dale, laid before you.\r\r\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 8531,
+            "Zone": 85,
+            "Name": "Lord Mourngrym's Bedchamber",
+            "Description": "   For being the bedchamber of the lord of the dale, you're surprised to find\r\r\r\r\r\r\r\r\n\rhow ordinary it looks. The decorations, including paintings and small\r\r\r\r\r\r\r\r\n\rornaments, seem to have more sentimental than monetary value. The bed is a\r\r\r\r\r\r\r\r\n\rsimple canopied bed with a small rug next to it. On one wall, an old sword is\r\r\r\r\r\r\r\r\n\rmounted, hinting that at least one of the inhabitants of this room was once an\r\r\r\r\r\r\r\r\n\radventurer. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8529
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8530
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8532,
+            "Zone": 85,
+            "Name": "Another Part of the Secret Passageway",
+            "Description": "  You enter an eerie room, lit with many brightly burning torches.\r\r\r\r\r\r\r\r\n\rYou start to wonder why this is the only room that's brightly lit...\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\n\rFires shoot forth from every torch in the room, turning it into\r\r\r\r\r\r\r\r\n\ra blast furnace!!! You scramble for the exit and notice that a\r\r\r\r\r\r\r\r\n\rwall of magical force has blocked your escape!! You scream and\r\r\r\r\r\r\r\r\n\rswoon as the fires engulf you...and the world sinks into blackness...\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\n\rMoments later the magical force-wall disappears and the fires\r\r\r\r\r\r\r\r\n\rsubside. You are lying on the ground, burnt to a crisp.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "INDOORS",
+                "NORELOCATE",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8541
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8533,
+            "Zone": 85,
+            "Name": "The End of the Secret Passageway",
+            "Description": "   As the door closes behind you you notice to your dismay that the\r\r\r\r\r\r\r\r\n\rwalls and ceiling of this room are covered in tiny, needle-like spikes.\r\r\r\r\r\r\r\r\n\r   Suddenly, the gravity in the room changes, sending you falling\r\r\r\r\r\r\r\r\n\rupward into the needles above. Then gravity returns to noraml, allowing\r\r\r\r\r\r\r\r\n\ryou to crash back to the floor. You bolt for the door, gravity reverses\r\r\r\r\r\r\r\r\n\ritself again, and you get dragged along the needle-like spikes on the\r\r\r\r\r\r\r\r\n\rwall as you are pulled upward.wall as you are pulled upward.\r\r\r\r\r\r\r\r\n\r   The process continues for several minutes, and your only hopes for\r\r\r\r\r\r\r\r\n\rsurvival are your endurance, and whatever sort of protective measures\r\r\r\r\r\r\r\r\n\ryou have.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "INDOORS",
+                "NORELOCATE",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8542
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8534,
+            "Zone": 85,
+            "Name": "The Top of Wizard's Watch Tower",
+            "Description": "   From the top of Wizards Watch Tower you can see a vast distance out\r\r\r\r\r\r\r\r\n\rover the countryside. That view is how the tower got its name. From\r\r\r\r\r\r\r\r\n\rthe heart of the Zhentarim stronghold here in the Citadel of the Raven\r\r\r\r\r\r\r\r\n\rthe Zhentarim are able to launch their armies against the cities of\r\r\r\r\r\r\r\r\n\rtheir foes. Despite their malevolent nature, the Zhentarim rarely do\r\r\r\r\r\r\r\r\n\rthat though. Infighting at the higher levels keep large-scale plans in\r\r\r\r\r\r\r\r\n\rcheck, and the Inner Circle knows that if they move against too many of\r\r\r\r\r\r\r\r\n\rtheir rivals, those rivals may band together and annihilate them.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8599
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8535,
+            "Zone": 85,
+            "Name": "The Entrance Chamber",
+            "Description": "   The forbidding, stone-walled room is devoid of any decoration. Torches in\r\r\r\r\r\r\r\r\n\rsconces along the wall give off the only light available here. The smoke from\r\r\r\r\r\r\r\r\n\rthe torches has left the ceiling of the chamber covered in soot, and makes it\r\r\r\r\r\r\r\r\n\ra bit difficult to breathe.\r\r\r\r\r\r\r\r\n\r   Well-guarded hallways run to the east and west from here. It seems that the\r\r\r\r\r\r\r\r\n\rguards are under orders not to let anyone through the tower without\r\r\r\r\r\r\r\r\n\rpermission, since they are attacking you on sight. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8578
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8544
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8536
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8536,
+            "Zone": 85,
+            "Name": "A Hallway in the Tower",
+            "Description": "   Your footsteps echo on the stone floor as you make your way down the\r\r\r\r\r\r\r\r\n\rhallway. You realize that the bare stone walls and floor make this area ideal\r\r\r\r\r\r\r\r\n\rfor echos, which makes travelling through here unnoticed all but impossible.\r\r\r\r\r\r\r\r\n\r   The hallway runs east and west from here. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8535
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8545
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8537,
+            "Zone": 85,
+            "Name": "Inside Sarhthor's Chambers",
+            "Description": "   This looks like a normal enough sitting room for receiving guests. Chairs\r\r\r\r\r\r\r\r\n\rare set about the room, and a small table in the middle of the room has a bowl\r\r\r\r\r\r\r\r\n\rof exotic fruits on it. What separates this room from one you might find in\r\r\r\r\r\r\r\r\n\rany nobleman's home is the fact that the place is cluttered with magical\r\r\r\r\r\r\r\r\n\rtrinkets. Odds and ends sit on shelves along the wall, glowing or humming, as\r\r\r\r\r\r\r\r\n\rmagical items often do. They don't seem to have any purpose that you can\r\r\r\r\r\r\r\r\n\rdiscern, other than as curiosities or specimens for research. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8581
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8447
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8538,
+            "Zone": 85,
+            "Name": "A Hallway in the Tower",
+            "Description": "   Your footsteps echo on the stone floor as you make your way down the\r\r\r\r\r\r\r\r\n\rhallway. You realize that the bare stone walls and floor make this area ideal\r\r\r\r\r\r\r\r\n\rfor echos, which makes travelling through here unnoticed all but impossible.\r\r\r\r\r\r\r\r\n\r   To the north is a large, reinforced wooden door, and to the west is a\r\r\r\r\r\r\r\r\n\rstairway. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8586
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8579
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8539
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8539,
+            "Zone": 85,
+            "Name": "A Stairway",
+            "Description": "   This wide stairway leads up to the second floor of the tower. There are no\r\r\r\r\r\r\r\r\n\rhandrails along the stairs, and a fall from them would result in a hard drop\r\r\r\r\r\r\r\r\n\ronto the rug below. ...rug? There weren't any other rugs in the tower that you\r\r\r\r\r\r\r\r\n\rnoticed. Maybe it's for in case someone falls off the stairs. Then again, the\r\r\r\r\r\r\r\r\n\rpeople who post sentries with orders to kill on sight are rarely interested in\r\r\r\r\r\r\r\r\n\rthe safety of people dumb enough to fall off the stairs. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8538
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8588
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8549
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8540,
+            "Zone": 85,
+            "Name": "Manshoon's Audience Chamber",
+            "Description": "   This room is meant to intimidate \"guests\" of the High Lord, Manshoon. The\r\r\r\r\r\r\r\r\n\rroom is lit by lanterns that are made out of skulls, with tallow candles\r\r\r\r\r\r\r\r\n\rinside them. The light cast by these macabre lanterns illuminates a short\r\r\r\r\r\r\r\r\n\rstairway that leads up to and obsidian throne. The way the light shines upward\r\r\r\r\r\r\r\r\n\rleads you to guess that anyone sitting in that throne would have a sort of\r\r\r\r\r\r\r\r\n\rdemonic look to them, with the orange light casting odd shadows over their\r\r\r\r\r\r\r\r\n\rface. Replace those lanterns though, and this place would look like almost any\r\r\r\r\r\r\r\r\n\rking's throne room, though a little less ornate.\r\r\r\r\r\r\r\r\n\r   A small doorway in the west wall leads to an adjacent room. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8445
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8446
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8541,
+            "Zone": 85,
+            "Name": "Along the Secret Passageway",
+            "Description": "   Everything in this hallway looks like a trap to you. You're certain\r\r\r\r\r\r\r\r\n\rthat the necklace resting on the predestal is an illusion. There\r\r\r\r\r\r\r\r\n\ris a suspicious bulge in the rug. It that torch some sort of lever?\r\r\r\r\r\r\r\r\n\r   Your mind whirs as you contemplate deceit within deceit as you\r\r\r\r\r\r\r\r\n\rtry to figure out which of these items might open another secret\r\r\r\r\r\r\r\r\n\rpassage, and which might lead to a quick and painful death. Your\r\r\r\r\r\r\r\r\n\rbest bet would most likely be to either continue along the passage\r\r\r\r\r\r\r\r\n\ror go back the way you came, forgetting about this place altogether.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8542
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8549
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You get a funny feeling about the room to the west. Something\r\r\r\r\r\r\r\r\n\rjust strikes you as wrong about it. Trust you instincts.\r\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8532
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8542,
+            "Zone": 85,
+            "Name": "Another Part of the Secret Passageway",
+            "Description": "   Decisions, decisions. You know that one wrong turn in this passage\r\r\r\r\r\r\r\r\n\rcould lead to your doom, but which way is the right one?\r\r\r\r\r\r\r\r\n\r   You notice that there are faint footprints in the dust, leading\r\r\r\r\r\r\r\r\n\rto the north.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8533
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8543
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8541
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "footprint",
+                        "footprints",
+                        "dust",
+                        "floor"
+                    ],
+                    "Description": "   Wait a minute, these aren't footprints in the dust, these footprints\r\r\r\r\r\r\r\r\n\rare painted cleverly onto the floor, to make you belive that the\r\r\r\r\r\r\r\r\n\rcorrect passage is to the north. But wait, did they know you were\r\r\r\r\r\r\r\r\n\rgoing to notice that the footprints were fake? If so, does that\r\r\r\r\r\r\r\r\n\rmean they want you to go east, where you'll meet a horrible end...\r\r\r\r\r\r\r\r\n\ror maybe they knew that you'd think they knew you were going to find\r\r\r\r\r\r\r\r\n\rthe fake footprints...AHHHHH this is driving you nuts. Go east, it's\r\r\r\r\r\r\r\r\n\rsafe (there, you've now made the decision on your own ;)\r\r\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 8543,
+            "Zone": 85,
+            "Name": "The End of the Secret Passageway",
+            "Description": "   You are standing in an empty stone room. Empty, that is, except for\r\r\r\r\r\r\r\r\n\rthe large, glowing portal that is suspended in the air next to one of\r\r\r\r\r\r\r\r\n\rthe walls. This is most likely what the traps along the secret passageway\r\r\r\r\r\r\r\r\n\rwere meant to protect.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8598
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8542
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "portal",
+                        "glowing",
+                        "green"
+                    ],
+                    "Description": "   Looking through the portal's distoring effects, you think you can\r\r\r\r\r\r\r\r\n\rmake out some sort of room on the other side.\r\r\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 8544,
+            "Zone": 85,
+            "Name": "In Front of a Huge Tower",
+            "Description": "   You stand in the shadow of an immense stone tower. Far from the spindly\r\r\r\r\r\r\r\r\n\rstructure preferred by many mages, this tower is well over a hundred feet wide\r\r\r\r\r\r\r\r\n\rat the base, and only tapers slightly as it ascends to a flat roof. You get\r\r\r\r\r\r\r\r\n\rthe distinct feeling that this is the center of the Keep's government, Well,\r\r\r\r\r\r\r\r\n\rloitering around here isn't doing you any good, might as well go in. I mean,\r\r\r\r\r\r\r\r\n\rwhat kind of adventurer would you be if you considered these kinds of\r\r\r\r\r\r\r\r\n\rdecisions carefully, and chose not to boldly march in? \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8535
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8554
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8545,
+            "Zone": 85,
+            "Name": "A Hallway in the Tower",
+            "Description": "   Your footsteps echo on the stone floor as you make your way down the\r\r\r\r\r\r\r\r\n\rhallway. You realize that the bare stone walls and floor make this area ideal\r\r\r\r\r\r\r\r\n\rfor echos, which makes travelling through here unnoticed all but impossible.\r\r\r\r\r\r\r\r\n\r   The hallway turns and continues to the north, the same as it has been--dark\r\r\r\r\r\r\r\r\n\rand echoing. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8546
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8536
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8546,
+            "Zone": 85,
+            "Name": "A Hallway in the Tower",
+            "Description": "   Your footsteps echo on the stone floor as you make your way down the\r\r\r\r\r\r\r\r\n\rhallway. You realize that the bare stone walls and floor make this area ideal\r\r\r\r\r\r\r\r\n\rfor echos, which makes travelling through here unnoticed all but impossible.\r\r\r\r\r\r\r\r\n\r   You see a door on one side of the hallway further to the north. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8547
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8545
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8547,
+            "Zone": 85,
+            "Name": "A Hallway in the Tower",
+            "Description": "   Your footsteps echo on the stone floor as you make your way down the\r\r\r\r\r\r\r\r\n\rhallway. You realize that the bare stone walls and floor make this area ideal\r\r\r\r\r\r\r\r\n\rfor echos, which makes travelling through here unnoticed all but impossible.\r\r\r\r\r\r\r\r\n\r   To the east is a heavy wooden door. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8576
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8546
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8548,
+            "Zone": 85,
+            "Name": "The Secret Passage from Manshoon's Crypt",
+            "Description": "",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8446
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8549,
+            "Zone": 85,
+            "Name": "A Secret Passageway",
+            "Description": "   The musty smell and the cobwebs tell you that this secret passage\r\r\r\r\r\r\r\r\n\rhasn't been used in quite some time. A hooded lantern that glows\r\r\r\r\r\r\r\r\n\rwith a soft magical light dimly illuminates the passage. Knowing\r\r\r\r\r\r\r\r\n\rhow paranoid and vindictive these Zhentarim are, you'd best be careful\r\r\r\r\r\r\r\r\n\rtravelling down one of their secret passages.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8541
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8539
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8550,
+            "Zone": 85,
+            "Name": "On The Streets of Zhentil Keep",
+            "Description": "   You are standing just inside the gates of Zhentil Keep, one of the foulest\r\r\r\r\r\r\r\r\n\rcities in all the Realms. The Lord of Zhentil Keep is the puppet of the\r\r\r\r\r\r\r\r\n\rlargest criminal organization in the world, the Zhentarim. Slavery is\r\r\r\r\r\r\r\r\n\rtechnically illegal, but widely and publicly practiced. The only recognized\r\r\r\r\r\r\r\r\n\rchruch in the city is dedicated to the god of death, strife, and murder. On\r\r\r\r\r\r\r\r\n\rtop of all the, a not-so-pleasant odor wafts out of the sewers under the city.\r\r\r\r\r\r\r\r\n\r   You make a mental note: don't get a summer home here. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8672
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8551
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8551,
+            "Zone": 85,
+            "Name": "On The Streets of Zhentil Keep",
+            "Description": "   Disreputable storefronts, bars, and overpriced shops line the street.\r\r\r\r\r\r\r\r\n\rSoldiers patrol the streets in a city that exists in a state of almost\r\r\r\r\r\r\r\r\n\rcomplete martial law. The only thing that convinces you that it isn't complete\r\r\r\r\r\r\r\r\n\rmartial law is the fact the the people around you seem more paranoid about\r\r\r\r\r\r\r\r\n\rZhentarim wizards and the priests of Cyric than they do about any \"legal\"\r\r\r\r\r\r\r\r\n\rproblems. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8449
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8566
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8562
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8550
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8552,
+            "Zone": 85,
+            "Name": "Maze Demo1",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8565
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8553,
+            "Zone": 85,
+            "Name": "On The Streets of Zhentil Keep",
+            "Description": "   This section of the city is a little more tidy than the part a ways to the\r\r\r\r\r\r\r\r\n\rsouth. The presence of more soldiers and fewer priests tells you that you are\r\r\r\r\r\r\r\r\n\rmost likely getting close to the center of government here in Zhentil Keep.\r\r\r\r\r\r\r\r\n\rYou're not sure that it improvement, but at least it's a difference. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8554
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8449
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8554,
+            "Zone": 85,
+            "Name": "On The Streets of Zhentil Keep",
+            "Description": "   This area is remarkably empty of pedestrians. Guards dressed in black plate\r\r\r\r\r\r\r\r\n\rarmor swarm the streets in what nearly ressembles a military drill. You start\r\r\r\r\r\r\r\r\n\rwondering just what kind of paranoid maniacs run this city. The scene would\r\r\r\r\r\r\r\r\n\ralmost be comical in it's frenzy of motion if it weren't for the fact that\r\r\r\r\r\r\r\r\n\rthat most of these soldiers are bloodthirsty killers who would be in prison in\r\r\r\r\r\r\r\r\n\rmost other cities. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8544
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8553
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8555,
+            "Zone": 85,
+            "Name": "Room of Tricks",
+            "Description": "If you are a mortal, you should not be here!!!!!!!\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8548
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8556,
+            "Zone": 85,
+            "Name": "Inside the Church of Cyric",
+            "Description": "   This dismal place makes you feel uncomfortable. There is a pall of death\r\r\r\r\r\r\r\r\n\rthat hangs in the air around you. You can smell fresh blood from the altar\r\r\r\r\r\r\r\r\n\rnearby, and it nearly brings you to your knees as you fight to hold your last\r\r\r\r\r\r\r\r\n\rmeal down. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8557
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8559
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8569
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8557,
+            "Zone": 85,
+            "Name": "Inside the Church of Cyric",
+            "Description": "   This dismal place makes you feel uncomfortable. There is a pall of death\r\r\r\r\r\r\r\r\n\rthat hangs in the air around you. You can smell fresh blood from the altar\r\r\r\r\r\r\r\r\n\rnearby, and it nearly brings you to your knees as you fight to hold your last\r\r\r\r\r\r\r\r\n\rmeal down. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8556
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8559
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8558
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8569
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8558,
+            "Zone": 85,
+            "Name": "Inside the Church of Cyric",
+            "Description": "   This dismal place makes you feel uncomfortable. There is a pall of death\r\r\r\r\r\r\r\r\n\rthat hangs in the air around you. You can smell fresh blood from the altar\r\r\r\r\r\r\r\r\n\rnearby, and it nearly brings you to your knees as you fight to hold your last\r\r\r\r\r\r\r\r\n\rmeal down. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8557
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8559
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8569
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8559,
+            "Zone": 85,
+            "Name": "The Sacrificial Altar Dedicated to Cyric",
+            "Description": "   ARRRRGGG!!! This is not a place for you. This is a place holy (or unholy)\r\r\r\r\r\r\r\r\n\rto Cyric, the most evil of gods. You are not meant to see the sights of this\r\r\r\r\r\r\r\r\n\rplace, and Cyric's might has punished you. The sacrifices placed upon the\r\r\r\r\r\r\r\r\n\rdark stone altar are meant only for the eyes of the god, and those who give\r\r\r\r\r\r\r\r\n\rthe sacrifices to him. If you survive this mistake, and do not see your error,\r\r\r\r\r\r\r\r\n\ryou will be but another soul taken, screaming, down to Hades, by Cyric\r\r\r\r\r\r\r\r\n\rhimself. Fair warning has been served.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DEATH",
+                "INDOORS",
+                "NORELOCATE",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8560
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8557
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8556
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8558
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "altar",
+                        "bloody",
+                        "sacrifice"
+                    ],
+                    "Description": "The altar seem as if it is perputually stained by the blood of the innocent.\r\r\r\r\r\r\r\r\n\rThere is even a sense that the blood has soaked into the black stone of the\r\r\r\r\r\r\r\r\n\raltar itself, filling the foul thing with despoiled innocence of the victims it\r\r\r\r\r\r\r\r\n\rhas seen...and taken."
+                }
+            ]
+        },
+        {
+            "ID": 8560,
+            "Zone": 85,
+            "Name": "Before The Throne Of a God",
+            "Description": "   You are standing before an immense throne. It is the throne of a giant, the\r\r\r\r\r\r\r\r\n\rthrone of a god. But seated in this gargantuan throne, is a very human man.\r\r\r\r\r\r\r\r\n\rHe seems out of place, slouching against one of the throne's great arms, with\r\r\r\r\r\r\r\r\n\rhis boots dangling several feet above the ground. His features are not awe-\r\r\r\r\r\r\r\r\n\rinspiring--not even impressive. You barely contain your temptation to laugh\r\r\r\r\r\r\r\r\n\rout loud at the ridiculous sight. But then you notice that the darkness of\r\r\r\r\r\r\r\r\n\rthis room is through no fault of the many torches, which _should_ light\r\r\r\r\r\r\r\r\n\rthe room brightly. There is a halo of darkness surrounding the man you see,\r\r\r\r\r\r\r\r\n\rnot just keeping the light away from him, but seeming to devour it. This man\r\r\r\r\r\r\r\r\n\rtruely is the avatar of Cyric, in the seat of his power in the mortal world. The\r\r\r\r\r\r\r\r\n\rtime has come for you to visit your afterlife, and he is happy to send you.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8559
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "torch",
+                        "torches"
+                    ],
+                    "Description": "The torches along the walls give off a fierce, harsh light, yet the room is\r\r\r\r\r\r\r\r\n\rdarkened. The powers of Cyric drain the light away from them, demonstrating\r\r\r\r\r\r\r\r\n\rhis power. Such are the petty whims that godhood allows one to indulge.\r\r\r\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "throne"
+                    ],
+                    "Description": "This throne would would comfortably seat a titan. Seemingly carved from\r\r\r\r\r\r\r\r\n\ra single slab of onxy, and it's value is beyond the coffers of most kingdoms,\r\r\r\r\r\r\r\r\n\rlet alone a single church. This is the gift of a god (though it is for his own\r\r\r\r\r\r\r\r\n\ruse) to his worshippers, and not lightly given. This was given to the priests\r\r\r\r\r\r\r\r\n\rof Zhentil Keep because they comprise the bulk of Cyric's followers, and\r\r\r\r\r\r\r\r\n\rthus his power.\r\r\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 8561,
+            "Zone": 85,
+            "Name": "An Alley in Zhentil Keep",
+            "Description": "   You stumbled into the back alleys of Zhentil Keep. While a semblance of law\r\r\r\r\r\r\r\r\n\ris maintained on the main streets of the Keep, this place is beneath the\r\r\r\r\r\r\r\r\n\rnotice of anyone in a postion of power in the city. The stench of unwashed\r\r\r\r\r\r\r\r\n\rbodies and untreated disease sicken you. and that revulsion marks you as an\r\r\r\r\r\r\r\r\n\routsider to the residents of this sewer. Being an ousider in a place like this\r\r\r\r\r\r\r\r\n\risn't healthy... \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8449
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8563
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8562
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8562,
+            "Zone": 85,
+            "Name": "An Alley in Zhentil Keep",
+            "Description": "   You stumbled into the back alleys of Zhentil Keep. While a semblance of law\r\r\r\r\r\r\r\r\n\ris maintained on the main streets of the Keep, this place is beneath the\r\r\r\r\r\r\r\r\n\rnotice of anyone in a postion of power in the city. The stench of unwashed\r\r\r\r\r\r\r\r\n\rbodies and untreated disease sicken you. and that revulsion marks you as an\r\r\r\r\r\r\r\r\n\routsider to the residents of this sewer. Being an ousider in a place like this\r\r\r\r\r\r\r\r\n\risn't healthy... \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8561
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8551
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8564
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8563,
+            "Zone": 85,
+            "Name": "An Alley in Zhentil Keep",
+            "Description": "   You stumbled into the back alleys of Zhentil Keep. While a semblance of law\r\r\r\r\r\r\r\r\n\ris maintained on the main streets of the Keep, this place is beneath the\r\r\r\r\r\r\r\r\n\rnotice of anyone in a postion of power in the city. The stench of unwashed\r\r\r\r\r\r\r\r\n\rbodies and untreated disease sicken you. and that revulsion marks you as an\r\r\r\r\r\r\r\r\n\routsider to the residents of this sewer. Being an ousider in a place like this\r\r\r\r\r\r\r\r\n\risn't healthy... \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8561
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8564
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8564,
+            "Zone": 85,
+            "Name": "An Alley in Zhentil Keep",
+            "Description": "   You stumbled into the back alleys of Zhentil Keep. While a semblance of law\r\r\r\r\r\r\r\r\n\ris maintained on the main streets of the Keep, this place is beneath the\r\r\r\r\r\r\r\r\n\rnotice of anyone in a postion of power in the city. The stench of unwashed\r\r\r\r\r\r\r\r\n\rbodies and untreated disease sicken you. and that revulsion marks you as an\r\r\r\r\r\r\r\r\n\routsider to the residents of this sewer. Being an ousider in a place like this\r\r\r\r\r\r\r\r\n\risn't healthy... \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8563
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8562
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8565,
+            "Zone": 85,
+            "Name": "An Alley in Zhentil Keep",
+            "Description": "   You stumbled into the back alleys of Zhentil Keep. While a semblance of law\r\r\r\r\r\r\r\r\n\ris maintained on the main streets of the Keep, this place is beneath the\r\r\r\r\r\r\r\r\n\rnotice of anyone in a postion of power in the city. The stench of unwashed\r\r\r\r\r\r\r\r\n\rbodies and untreated disease sicken you. and that revulsion marks you as an\r\r\r\r\r\r\r\r\n\routsider to the residents of this sewer. Being an ousider in a place like this\r\r\r\r\r\r\r\r\n\risn't healthy... \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8568
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8449
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8566
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8566,
+            "Zone": 85,
+            "Name": "An Alley in Zhentil Keep",
+            "Description": "   You stumbled into the back alleys of Zhentil Keep. While a semblance of law\r\r\r\r\r\r\r\r\n\ris maintained on the main streets of the Keep, this place is beneath the\r\r\r\r\r\r\r\r\n\rnotice of anyone in a postion of power in the city. The stench of unwashed\r\r\r\r\r\r\r\r\n\rbodies and untreated disease sicken you. and that revulsion marks you as an\r\r\r\r\r\r\r\r\n\routsider to the residents of this sewer. Being an ousider in a place like this\r\r\r\r\r\r\r\r\n\risn't healthy... \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8565
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8567
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8551
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8567,
+            "Zone": 85,
+            "Name": "An Alley in Zhentil Keep",
+            "Description": "   You stumbled into the back alleys of Zhentil Keep. While a semblance of law\r\r\r\r\r\r\r\r\n\ris maintained on the main streets of the Keep, this place is beneath the\r\r\r\r\r\r\r\r\n\rnotice of anyone in a postion of power in the city. The stench of unwashed\r\r\r\r\r\r\r\r\n\rbodies and untreated disease sicken you. and that revulsion marks you as an\r\r\r\r\r\r\r\r\n\routsider to the residents of this sewer. Being an ousider in a place like this\r\r\r\r\r\r\r\r\n\risn't healthy... \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8568
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8566
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8568,
+            "Zone": 85,
+            "Name": "An Alley in Zhentil Keep",
+            "Description": "   You stumbled into the back alleys of Zhentil Keep. While a semblance of law\r\r\r\r\r\r\r\r\n\ris maintained on the main streets of the Keep, this place is beneath the\r\r\r\r\r\r\r\r\n\rnotice of anyone in a postion of power in the city. The stench of unwashed\r\r\r\r\r\r\r\r\n\rbodies and untreated disease sicken you. and that revulsion marks you as an\r\r\r\r\r\r\r\r\n\routsider to the residents of this sewer. Being an ousider in a place like this\r\r\r\r\r\r\r\r\n\risn't healthy... \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8565
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8567
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8569,
+            "Zone": 85,
+            "Name": "The Entry Hall of the Chruch of Cyric ",
+            "Description": "   Before you go one step further, let's get something straight. This is the\r\r\r\r\r\r\r\r\n\rseat of power of the Church of Cyric, not a friendly bunch. Now, as your\r\r\r\r\r\r\r\r\n\rfriend and humble narrator, I personally reccomend that you leave before\r\r\r\r\r\r\r\r\n\rsomeone decides to make travel arrangements for your trip to the afterlife\r\r\r\r\r\r\r\r\n\r*ahem*...back to business.\r\r\r\r\r\r\r\r\n\r   The priests seem to be giving you a wide berth, and leaving you alone. The\r\r\r\r\r\r\r\r\n\revil grins on their faces when they look at you tells you that there must be\r\r\r\r\r\r\r\r\n\rsomething really nasty in store for you...why else to evil people grin? \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8557
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8449
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8556
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8558
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8570,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8575
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8571,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8572
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8572,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8583
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8584
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8573,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8593
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8574
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8574,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8583
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8575,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8573
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8576,
+            "Zone": 85,
+            "Name": "Inside Semmemon's Chambers",
+            "Description": "   These are the private chambers of one of the Zhentarim archmages. As one of\r\r\r\r\r\r\r\r\n\rLord Manshoon's advisors and supporters, Semmemon is immune from most of the\r\r\r\r\r\r\r\r\n\rlaws that govern the city. In small cages around the room he has captive\r\r\r\r\r\r\r\r\n\rcreatures that are illegal to keep for any reason. Semmemon uses the creatures\r\r\r\r\r\r\r\r\n\rto experiment with and practice his necromantics arts on. Other items about\r\r\r\r\r\r\r\r\n\rthe room suggest that a fair amount of magical research goes on here. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8577
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8547
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8577,
+            "Zone": 85,
+            "Name": "Semmemon's Study",
+            "Description": "   Semmemon's private study is suprisingly refined for one reputed to be a\r\r\r\r\r\r\r\r\n\rcold-hearted killer. The furnishings look inviting and appear to be very\r\r\r\r\r\r\r\r\n\rcomfortable. Soft magical lighting is ideal for either reading or relaxation.\r\r\r\r\r\r\r\r\n\rYou know that the books around the room must contain millenia work of magical\r\r\r\r\r\r\r\r\n\rknowledge, but the most important of all books, his own spell-book would never\r\r\r\r\r\r\r\r\n\rbe left out in the open. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8576
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8578,
+            "Zone": 85,
+            "Name": "A Hallway in the Tower",
+            "Description": "   Your footsteps echo on the stone floor as you make your way down the\r\r\r\r\r\r\r\r\n\rhallway. You realize that the bare stone walls and floor make this area ideal\r\r\r\r\r\r\r\r\n\rfor echos, which makes travelling through here unnoticed all but impossible.\r\r\r\r\r\r\r\r\n\r   The hallway continues on to the east and west. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8579
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8535
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8579,
+            "Zone": 85,
+            "Name": "A Hallway in the Tower",
+            "Description": "   Your footsteps echo on the stone floor as you make your way down the\r\r\r\r\r\r\r\r\n\rhallway. You realize that the bare stone walls and floor make this area ideal\r\r\r\r\r\r\r\r\n\rfor echos, which makes travelling through here unnoticed all but impossible.\r\r\r\r\r\r\r\r\n\r   The hallway branches off to the north, where after a short ways you can see\r\r\r\r\r\r\r\r\n\ra door, and also continues along east-west. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8538
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8580
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8578
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8580,
+            "Zone": 85,
+            "Name": "A Hallway in the Tower",
+            "Description": "   Your footsteps echo on the stone floor as you make your way down the\r\r\r\r\r\r\r\r\n\rhallway. You realize that the bare stone walls and floor make this area ideal\r\r\r\r\r\r\r\r\n\rfor echos, which makes travelling through here unnoticed all but impossible.\r\r\r\r\r\r\r\r\n\r  A ways down the hallway to the east, you can see a door on one side of the\r\r\r\r\r\r\r\r\n\rwall. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8581
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8579
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8581,
+            "Zone": 85,
+            "Name": "A Hallway in the Tower",
+            "Description": "   Your footsteps echo on the stone floor as you make your way down the\r\r\r\r\r\r\r\r\n\rhallway. You realize that the bare stone walls and floor make this area ideal\r\r\r\r\r\r\r\r\n\rfor echos, which makes travelling through here unnoticed all but impossible.\r\r\r\r\r\r\r\r\n\r   To the north is a large, heavy wooden door. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 8537
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8580
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8582,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8571
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8583,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 8698,
+                    "Destination": 8514
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "\r",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 8698,
+                    "Destination": 8414
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8594
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8584,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8593
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8585
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 8698,
+                    "Destination": 8514
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "\r",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 8698,
+                    "Destination": 8414
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8585,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8592
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8586,
+            "Zone": 85,
+            "Name": "The Inner Circle's Council Chamber",
+            "Description": "   This is the meeting place of the ruling council of the Zhentarim. While Lord\r\r\r\r\r\r\r\r\n\rChess and the other members of the Keep's \"government\" attend the meetings of\r\r\r\r\r\r\r\r\n\rthe council, they have little say in the running of the keep. Anyone watching\r\r\r\r\r\r\r\r\n\rthe proceedings would have no doubt as to who the real power in the city is.\r\r\r\r\r\r\r\r\n\rLord Chess's seat is at this end of the room, far from the real\r\r\r\r\r\r\r\r\n\rdecision-makers of the Keep. Far down the other end of the table is the seat\r\r\r\r\r\r\r\r\n\rof the tru master of affairs around here. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8587
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8538
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8587,
+            "Zone": 85,
+            "Name": "The Inner Circle's Council Chamber",
+            "Description": "   You are at the far end of the Inner Circle's meeting chamber. At this end of\r\r\r\r\r\r\r\r\n\rmeeting table, there is a chair that is much more impressive than the others.\r\r\r\r\r\r\r\r\n\rWhile all the chairs have high backs, this one would rise above the head of\r\r\r\r\r\r\r\r\n\reven the tallest human. The size is purely for effect, for the occupant of\r\r\r\r\r\r\r\r\n\rthis seat is normally Manshoon. While certainly not a giant of a man, he\r\r\r\r\r\r\r\r\n\rposesses incredible power in Art. His magic has let him hold this position of\r\r\r\r\r\r\r\r\n\rpower for as long as anyone can remember, several decades at the least, and\r\r\r\r\r\r\r\r\n\rlikely more than a century. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8586
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8588,
+            "Zone": 85,
+            "Name": "The Landing",
+            "Description": "   You've reached the second floor landing. Ahead of you is a long hallway,\r\r\r\r\r\r\r\r\n\rdark and ominous (seems to be a trend around here). You can't see all the way\r\r\r\r\r\r\r\r\n\rto the end of the hall, so if you want to see what's there, you'd better start\r\r\r\r\r\r\r\r\n\rwalking. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8443
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8539
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8589,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8434
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8590,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke.\r\r\r\r\r\r\r\r\n\r   It feels like the sweat on your brow is boiling and you nearly swoon. How\r\r\r\r\r\r\r\r\n\rcan anyone survive this. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DEATH",
+                "NOTELEPORT",
+                "NOFLEE"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8584
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8584
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8584
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8584
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8584
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8584
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8584
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8584
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8591,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke.\r\r\r\r\r\r\r\r\n\r   It feels like the sweat on your brow is boiling and you nearly swoon. How\r\r\r\r\r\r\r\r\n\rcan anyone survive this. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DEATH",
+                "NOTELEPORT",
+                "NOFLEE"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8575
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8575
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8575
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8575
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8575
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8575
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8575
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8575
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8592,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8595
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8593,
+            "Zone": 85,
+            "Name": "An Oasis",
+            "Description": "   This is a small sanctuary in the harshest of environments. Hardy grasses grow\r\r\r\r\r\r\r\r\n\rhere, and there is enough water to refill your supply. You should really take\r\r\r\r\r\r\r\r\n\radvantage of this place, since you never know when you'll find another oasis.\r\r\r\r\r\r\r\r\n\r   A small group of nomads is currently camped out here.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8573
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8584
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8594,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8589
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8592
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8595,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8596
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8596,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8663
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8590
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8597,
+            "Zone": 85,
+            "Name": "Anauroch, the Great Desert",
+            "Description": "   You are adrift in an ocean of sand, The dunes roll like waves out to as far\r\r\r\r\r\r\r\r\n\ras the eye can see. The heat is starting to get to you. If you don't reach\r\r\r\r\r\r\r\r\n\rcivilization soon, you could die of heat-stroke. \r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOTELEPORT"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8570
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8591
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8598,
+            "Zone": 85,
+            "Name": "Through the Portal",
+            "Description": "  This appears to be a room in some sort of tower. The walls are moldy\r\r\r\r\r\r\r\r\n\rand the floors here are a bit damp, so you suspect that this is an\r\r\r\r\r\r\r\r\n\rundergruond area. Small magical balls hang from the ceiling and provide\r\r\r\r\r\r\r\r\n\radequate light to see by.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8543
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8599
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 8599,
+            "Zone": 85,
+            "Name": "Wizard's Watch Tower",
+            "Description": "   The inside of this tower suggests that it is used as a sanctuary\r\r\r\r\r\r\r\r\n\rfor the mages of Zhentil Keep--a safe and very well, defended sanctuary.\r\r\r\r\r\r\r\r\n\rThe whole room has a tingle of magic to it, and arms and armor are kept\r\r\r\r\r\r\r\r\n\rin racks for the guards and henchmen that the wizards no doubt keep on\r\r\r\r\r\r\r\r\n\rhand when they are in residence.\r\r\r\r\r\r\r\r\n\r   A cold wind blows in from an open window.\r\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8534
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 8598
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "window",
+                        "open"
+                    ],
+                    "Description": "   Looking out the window you _know_ that you aren't in Zhentil Keep\r\r\r\r\r\r\r\r\n\ranymore. The city you see around the tower is much small, and there\r\r\r\r\r\r\r\r\n\rseem to be even more soldiers in the streets. In fact you don't notice\r\r\r\r\r\r\r\r\n\ranyone around here who doesn't seem to be some sort of military\r\r\r\r\r\r\r\r\n\rpersonnel. You must have been teleported to a Zhetarim military outpost.\r\r\r\r\r\r\r\r\n\r   The surrounding countryside is more mountainous there where you were,\r\r\r\r\r\r\r\r\n\rsuggesting that either you are in the mountains to the north, or so far\r\r\r\r\r\r\r\r\n\rfrom your starting point that you are hopelessly lost.\r\r\r\r\r\r\r\r\n\r"
+                }
+            ]
+        }
+    ]
+}

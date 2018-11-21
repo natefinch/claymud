@@ -1,0 +1,3436 @@
+{
+    "rooms": [
+        {
+            "ID": 5100,
+            "Zone": 51,
+            "Name": "The Entrance to a vast Underground City",
+            "Description": "You are at the entrance to a small mysterious city.  A great adamantite gate\nlies to the north, limitting access to the city.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A huge gate opens to the north allowing passage into the city.\n",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 5121,
+                    "Destination": 5101
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 5160,
+                    "Destination": 4174
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "Description": "A large adamantite gate with giant spider shaped emblems stands here."
+                }
+            ]
+        },
+        {
+            "ID": 5101,
+            "Zone": 51,
+            "Name": "Southern Drow Square",
+            "Description": "You enter a large central square of the drow city.  Travellers of all sorts move\nabout the courtyard freely. Exits leave in all directions.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5105
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5103
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A large adamantium gate lies to the south\n",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": 5121,
+                    "Destination": 5100
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5102
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5104
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5106
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5102,
+            "Zone": 51,
+            "Name": "Drow Courtyard",
+            "Description": "The size of this courtyard would amaze even the biggest of all creatures within\nthe realm.  It seems to be a place that the drow people use for celebrations\nand every day life activity.  To the west appears to be an alley or a back\nstreet. A little spider scurries out from under your feet.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5106
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5101
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5136
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5105
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5103,
+            "Zone": 51,
+            "Name": "Drow Courtyard",
+            "Description": "This corner of the courtyard appears to be no different then the rest. Small\ndebris trickles across the ground due to the light breeze.  Exits lead in all\ndirections.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5104
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5107
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5101
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5105
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5104,
+            "Zone": 51,
+            "Name": "Eastern Drow Courtyard",
+            "Description": "This is the eastern most point of the courtyard.  Travellers of all shapes and\nsizes share stories with each other as they interact.  For some reason you do\nnot seem to fit in here.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5121
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5103
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5105
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5105,
+            "Zone": 51,
+            "Name": "Center of Drow Square",
+            "Description": "This is the center of this enourmous courtyard.  Drow common folk move around\ndoing there normal day-to-day activities.  To the far north you make out the\nfaint outline of the drow place of worship.  Exits lead in all directions.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5122
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5104
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5101
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5106
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5121
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5123
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5103
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5102
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5106,
+            "Zone": 51,
+            "Name": "Western Drow Courtyard",
+            "Description": "The size of this courtyard continues to amaze you. This is the western most end\nof the courtyard.  Small spiders seem to be moving from east to west everytime\nyou notice one.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5123
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5105
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5102
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5122
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5101
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5107,
+            "Zone": 51,
+            "Name": "City street",
+            "Description": "You walk along a highly ornate city street leading east-west.  To the north\nlies the guild of the cleric class and to the south that of the mage.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5111
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5114
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5108
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5103
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5108,
+            "Zone": 51,
+            "Name": "Entrance to the Mage's Guild",
+            "Description": "The mage - the mage is a hard char to play if you are new to the game.  Most \nfind the mage really hard to level and hard to keep alive due to its lack of\nhit points.  They are usually best when in large groups needing extra power.\nThe mage hold some really powerful spells and are capable of being very \nuseful if you know how to use them.  Here you stand in the entrance to the\nmage guild.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5107
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5109
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5109,
+            "Zone": 51,
+            "Name": "Spike's Bar",
+            "Description": "Here yo are in the bar of choice for the mage.  Spik'es Bar is a well known\nbar bt seems to be losing it's popularity among the patrons of the realm.  It\nstill serves as a nice place to shoot some stick and grab a couple drinks.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5108
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5110
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5110,
+            "Zone": 51,
+            "Name": "Guildmaster's Inner Sanctum",
+            "Description": "The sanctum of your guildmaster - Here, one may practice the arts that the mage\nclass has developed through the centuries.  The guildmaster is very capable\nof teaching you all the spells you will need to know during your stay here at\nROI. Your guildmaster sits in the corner waiting to assist you.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5109
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5111,
+            "Zone": 51,
+            "Name": "Entrance to the Cleric's Guild",
+            "Description": "The cleric - A relatively easy character to play for a person with patience.\nHar to level in the later levels, the cleric is an essential part of any big\ngroup. Good clerics get much respect within the realms.  You stand here in \nthe entrance to the guild.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5107
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5112
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5112,
+            "Zone": 51,
+            "Name": "The Bar",
+            "Description": "Just your typical bar.  Patrons of clerical descent walk around enjoying a \ncouple drinks and sharing stories.  A waiter is here to get you your spirits.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5111
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5113
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5113,
+            "Zone": 51,
+            "Name": "Guildmaster's Inner Sanctum",
+            "Description": "The guildmaster's inner sanctum - Here the guildmaster stands waiting to help\nyou learn the tricks of the clerical trade.  \n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5112
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5114,
+            "Zone": 51,
+            "Name": "City street",
+            "Description": "You walk along a highly ornate city street leading north and west.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5115
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5107
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5115,
+            "Zone": 51,
+            "Name": "City street",
+            "Description": "You walk along a highly ornate street running north-south. Not much is going on over here.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5116
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5114
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5116,
+            "Zone": 51,
+            "Name": "City Street",
+            "Description": "You walk along a highly ornate city street within the drow commons.  The street\ncontinues in a east-west direction, while another exit leads off to the south.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5137
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5115
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5117
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5117,
+            "Zone": 51,
+            "Name": "City street",
+            "Description": "You walk along a highly ornate city street. To the north lies the entrance\nto the thieve's guild.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5118
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5116
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5121
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5118,
+            "Zone": 51,
+            "Name": "Entrance to the Thieve's Guild",
+            "Description": "The thief - the thief is one of the easiest characters to play on the realm.\nThey level faster than most other classes here.  One problem with the thief\nis that their usefullness comes randomly and sometimes rarely.  The thieve's\ndeadly backstab is a very lethal weapon.  \n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5117
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5119
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5119,
+            "Zone": 51,
+            "Name": "The Brickyard",
+            "Description": "An up and coming bar in the drow area. This bar is commonly mentioned when thinking of good beer specials and occassionally when a good band comes to the area. A nice place to just kick back and enjoy some spirits.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5120
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5118
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5120,
+            "Zone": 51,
+            "Name": "Guildmaster's Inner Sanctum",
+            "Description": "You have entered the guildmaster's inner sanctum.  Daggers stck in the wall\nand broken chairs make you wonder if the old man sitting in the shadows can\nteach you anything.  Although old in his age, he gleems of knowledge and wisdom.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5119
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5121,
+            "Zone": 51,
+            "Name": "Drow Courtyard",
+            "Description": "This north-eastern corner of the courtyard is busy like the rest.  To the east\nlies a city street while other exits lead back towards the courtyard.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5117
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5104
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5122
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5122,
+            "Zone": 51,
+            "Name": "Northern-End of Drow Courtyard",
+            "Description": "This the the far northern end of the courtyard.  To the north lies Drow Main\nStreet and the temple of the Drow city.  Noises can be heard coming from the\nnorth.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5188
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5121
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5105
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5123
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5104
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5106
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5123,
+            "Zone": 51,
+            "Name": "Drow Courtyard",
+            "Description": "This bustling city revolves around the activity of his people. To the north \nlies the General Store while other exits lead off in all directions.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5155
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5122
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5106
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5124
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5105
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5124,
+            "Zone": 51,
+            "Name": "A Back Alley",
+            "Description": "You have entered a back alley way.  To the north lies the guild of the ranger.\nThis alley contiunes to the west.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5131
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5123
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5125
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5125,
+            "Zone": 51,
+            "Name": "A Back Alley",
+            "Description": "This alley way continues to the south and back to the east.  Sounds from the\ncity can be faintly heard from here.  To the south you see a good size spider\ncrawl up the city wall.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5124
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5134
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5126,
+            "Zone": 51,
+            "Name": "The Tunnel of Terror",
+            "Description": "You have entered a narrow tunnel which is densly covered with cobwebs.  You \ncan see a pair of gleeming red eyes further down the tunnel. A very itchy\nfeeling crawls over your skin.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "An entrance to a tunnel is here.\n",
+                    "Keywords": [
+                        "tunnel"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5134
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5127
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5127,
+            "Zone": 51,
+            "Name": "Deeper into the Tunnel",
+            "Description": "This is a very strange tunnel.  Chunks of the wall seem to be carved out as if\nthough someone or something has been using the wall as a sharpening tool.  The\nroom seems to be getting even thicker with cobwebs. You feel very uneasy.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "TUNNEL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5128
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5126
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5128,
+            "Zone": 51,
+            "Name": "The end of the Tunnel",
+            "Description": "What was that?! A big furry legged spider just crossed across your eyes. A \nnumber of cacoon shaped objects can be found strung from the ceiling.  A cool\nbreeze passes through the tunnel which makes you recollect that feeling just \nbefore you heard your last death announcement.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "TUNNEL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5127
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5129
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5129,
+            "Zone": 51,
+            "Name": "Before the Web",
+            "Description": "As you venture deeper into this tunnel, the walls seem to slope slightly \ndownward while you fight your way through small cobwebs.  You can feel a great\ndeal of energy coming from this room.  Something is not right here. You feel as\nthough your very existance is in danger.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5128
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5130
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5130,
+            "Zone": 51,
+            "Name": "The Web",
+            "Description": "You have entered into a cavern bare on the northern and southern walls, but \ndecorated with a enourmous tapestry like web on the western wall.  The \nbeauty of this web is magestic and seems to put you in a trance.  Besides\nthe pike of assorted bones beneath the web, you would think that this was a\nbeautiful treasure you just found.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5129
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5131,
+            "Zone": 51,
+            "Name": "Entrance to the Ranger's Guild",
+            "Description": "The ranger - A very skilled class with the ability to render its victim \nhelpless. A wise choice in adventurer if you are unfamiliar with your \nsurroundings. Some find the ranger a little frustrating and hard to handle.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5124
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5132
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5132,
+            "Zone": 51,
+            "Name": "Alex's Cantina",
+            "Description": "A very poplar bar of the drow people.  Many gather here after a long days work\nand drink down a few cold ones. At night, this bar is hoppin with live dance\nmusic and is a great social surrounding.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5133
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5131
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5133,
+            "Zone": 51,
+            "Name": "Guildmaster's Inner Sanctum",
+            "Description": "The sanctum of your guildmaster - Here one may practice the arts that the  \nranger kind have developed over its relatively short existance.  The room\nseems to have a spiritual feeling and you notice your guildmaster sitting in\nthe corner waiting to help you.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5132
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5134,
+            "Zone": 51,
+            "Name": "A Back Alley",
+            "Description": "Litter and debris line this alley way.  From the looks of it, it would appear \nthat not many travelers venture into this part of the city - not even the drow\npeople. Exits lead north and south.  Something about this room pulls your\nsoul into your stomach.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5125
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A hidden tunnel is here.\n",
+                    "Keywords": [
+                        "tunnel"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5126
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5135
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5135,
+            "Zone": 51,
+            "Name": "A back Alley",
+            "Description": "This alley way continues to the north and back towards the courtyard to the\neast. Faint sounds coming from the courtyard can stil be heard.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5134
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5136
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5136,
+            "Zone": 51,
+            "Name": "A Back Alley",
+            "Description": "You have entered into a back alley way. To the east is the drow courtyard while to the west you can't yet determine what your future holds.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5102
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5135
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5137,
+            "Zone": 51,
+            "Name": "City Street",
+            "Description": "You have come to the end of this city street.  Another street intersects this\none to your east.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5139
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5116
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5138,
+            "Zone": 51,
+            "Name": "Entrance to the Warrior's Guild",
+            "Description": "The warrior - the warrior is one of the easier classes to control.  Built with\nbrute strength, the warrior kin are the bulk of most any group.  Although \nadapt in fighting, the warrior kin lacks the ability of magic.  You stand in\nthe warrior's guild.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5146
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5177
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5139,
+            "Zone": 51,
+            "Name": "Midnight Way",
+            "Description": "You are on Midnight Way.  By the look of it, you can figure out pretty easily,\nwhy this street is named such.  Dark shadows loom in from what little light\ncomes into this street.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5142
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5140
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5137
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5140,
+            "Zone": 51,
+            "Name": "Midnight Way",
+            "Description": "It would appear that you have come to the end of the street. to the south is\nthe local watering hole while the street continues in the direction you came \nfrom.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5139
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5141
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5141,
+            "Zone": 51,
+            "Name": "Water Shop of the Lost Traveler",
+            "Description": "The heat and humidity of the realms will bring great thirst to your body.\nHere, the shopkeeper can help you control your thirst with his wares. He has\na list of things to sell you.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5140
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5142,
+            "Zone": 51,
+            "Name": "Midnight Way",
+            "Description": "Midnight Way, runs north-south along the eastern most part of the city's\nboundaries. Silent as a ninja in the dark, this street gives you a very\ncreepy feeling\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5143
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5139
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5143,
+            "Zone": 51,
+            "Name": "Midnight Way",
+            "Description": "Midnight way, so named for the darkness which unnaturally falls on this street, runs north-south from here. \n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5144
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5142
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5146
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5144,
+            "Zone": 51,
+            "Name": "Midnight Way",
+            "Description": "As light seeps into this street as you continue north, you can make out small\nfigures cowering in the remaining shadows. The light from the north, faintly\noutlines a small shop hidden away in the corner.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5145
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5143
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5145,
+            "Zone": 51,
+            "Name": "The Unholy Statistician",
+            "Description": "Besides what your guildmasters can teach you, the statistician can give you\npowers like no one else can. Sent as a prophet from a higher power, he can make\nalterations to your soul with swirl of a finger.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5144
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5146,
+            "Zone": 51,
+            "Name": "WidowMaker",
+            "Description": "This particular street has a crooked twist in it. The walls seem to slant in\nobscure directions and seem to be made of some unusal type of rock.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5143
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5138
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5147
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5147,
+            "Zone": 51,
+            "Name": "WidowMaker",
+            "Description": "Here the street bends to the north. A small shop lies to your west while \nyou continue on your journey throw the drow combines.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5149
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5146
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5148
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5148,
+            "Zone": 51,
+            "Name": "Penny-anti Armory",
+            "Description": "The walls are lined with pieces of equipment that appear to be under repair.\nA glowing light comes from beneath the shopkeepers counter.  Maybe he does\nhave something of worth afterall.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5147
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5149,
+            "Zone": 51,
+            "Name": "WidowMaker",
+            "Description": "As a small spider scuries from underneath your foot step, it reminds you of how fortunate you are to be so big. Well at least in your mind anyway.  This street appears to only have exits leading north-south\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5150
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5147
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5150,
+            "Zone": 51,
+            "Name": "Intersection of Oliver Lane \u0026 WidowMaker",
+            "Description": "This intersection is a very busy part of town. Drow commoners leave off west to go worship while other fell-o's stand around conversing. \n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5151
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5149
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5185
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5151,
+            "Zone": 51,
+            "Name": "WidowMaker",
+            "Description": "You stand at the end of WidowMaker.  You can hear the sounds of the city coming\nfrom the south while the exit to the east appears to lead to a much quieter\npart of the city.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5152
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5150
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5152,
+            "Zone": 51,
+            "Name": "A Dusty Side Street",
+            "Description": "This little side street is covered with dust.  The swirl of dust makes it hard\nto see and has a blinding effect. From what you can make out, there appears to\nbe an exit to the south\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5153
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5151
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5153,
+            "Zone": 51,
+            "Name": "A Dusty Side Street",
+            "Description": "As you continue through the swirl of dust, it only seems to get thicker and\nthicker. You should probably get out of here.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5152
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5154
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5154,
+            "Zone": 51,
+            "Name": "A Dust Storm",
+            "Description": "The swirl of dust FRINGES your skin! OUCH! as small debris kicks up and hits\nyou in the head you realize that you have made a wrong turn.\n",
+            "Bits": [
+                "DEATH",
+                "INDOORS",
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5153
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5155,
+            "Zone": 51,
+            "Name": "The General Store",
+            "Description": "Little knick knacks line the walls of this shop.  Here, one can buy some of the\nnecessities that might be needed during the may adventures within the realm.\nMake sure you have everything you need and the cash for it.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5123
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5156,
+            "Zone": 51,
+            "Name": "The Musty Bakery",
+            "Description": "The smell of fresh baked goods immediately entice your hunger.  The baker here\nhas a list of fine goods to sell you.  To the east lies the might temple of\nYochlol.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5197
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5157,
+            "Zone": 51,
+            "Name": "News of the Forgotten fool",
+            "Description": "This is a small room which is lined with small pieces of furniture.  News of\nupcoming events and other things can be found on the board.  Travellers stand\nhere looking at the board.\n\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5198
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5158,
+            "Zone": 51,
+            "Name": "The Black-Magic Shop",
+            "Description": "All types of potions and scrolls line the shelves of this small room.  The s\nshopkeeper is here to help you find what you need.\n\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5195
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5159,
+            "Zone": 51,
+            "Name": "Wicked Dagger Weapon Shop",
+            "Description": "All types of weapons can be purchased here for various prices.  To see what \nthe shop keeper has take a look at the list on the counter.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5194
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5160,
+            "Zone": 51,
+            "Name": "Guildmaster of the Unholy ",
+            "Description": "As you enter this room, you can feel all the forces of evil creep within your\nsoul. The guildmaster of the Antipaladin race, stands before you surrounded\nby a deadly aura.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5165
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5161,
+            "Zone": 51,
+            "Name": "drow production room",
+            "Description": "this room is just for holding more mobs that will come out as the game goes\non.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5171
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5105
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5162,
+            "Zone": 51,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5163,
+            "Zone": 51,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5164,
+            "Zone": 51,
+            "Name": "Paladin's \u0026 AntiPaladin's Guild",
+            "Description": "This is the entrance to the guild of the multi paladins.  Split at creation,\nmyth has it that the antipaladin is the evil brother of its holy counterpart,\nthe paladin.  Stairs going up lead to a social gathering of travelers.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5196
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5165
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5165,
+            "Zone": 51,
+            "Name": "Toe's Tavern",
+            "Description": "Adventurers of the Paladin kin sit here and jovialy put down some spirits and\nbrab about their travels.  Anotherset of stairs lead up while a dark dismal\nroom leads off to the west.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5160
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5166
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5164
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5166,
+            "Zone": 51,
+            "Name": "Guildmaster of the Holy",
+            "Description": "Your guildmaster is here to help you learn the tricks of the trade.  By \nPRACTICING, you can advance your knowledge in various attributes.  For some \nominous reason the noise from the bar below can not be heard from within\nthe guildmaster's sanctum.  This room feels very sacred.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5165
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5167,
+            "Zone": 51,
+            "Name": "",
+            "Description": "",
+            "Bits": [
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5168,
+            "Zone": 51,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5169
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5186
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5169,
+            "Zone": 51,
+            "Name": "The Dark Passage",
+            "Description": "This passage is the entry way to the great arena up above.  Sounds of swords\nclanging and chains smashing on the ground fil this room.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5186
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5170
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5170,
+            "Zone": 51,
+            "Name": "Arena of Death",
+            "Description": "Adventurers of all kin come here to do battle.  Blood is scatterd about and\nbroken shields, bats swords armor, etc can bee seen all about.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5171
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5175
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5172
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5169
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5173
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5174
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5171,
+            "Zone": 51,
+            "Name": "Arena of Death",
+            "Description": "The blood stained ground here emits a horrible odor. More broken items litter\nthe battle area here.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5170
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5173
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5172
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5172,
+            "Zone": 51,
+            "Name": "Arena of Death",
+            "Description": "This arena was built for one thing as its intentions -- killing!  Body parts of those who have tried there luck strewn the grounds here.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5173
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5170
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5174
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5171
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5175
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5173,
+            "Zone": 51,
+            "Name": "Arena of Death",
+            "Description": "Similar to every other corner of this battle field, this room is in the same\ncondition as the rest. Broken bones and equipment lie before you.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5171
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5172
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5170
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5174,
+            "Zone": 51,
+            "Name": "Arena of Death",
+            "Description": "Just another place where killing in mass quantities has taken place.  The \nground here is saturated with blood.  Exits lead off in all directions.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5172
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5175
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5170
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5175,
+            "Zone": 51,
+            "Name": "Arena of Death",
+            "Description": "A less fought in corner of the arena. Maybe this is where you should spill your blood. To the north lies the entrance to the arena.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5170
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5174
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5172
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5176,
+            "Zone": 51,
+            "Name": "The Dark Pitstop",
+            "Description": "This thriving bar is a rest stop for weery travellers. Warrior type adventurers\nmove about the room toasting each others success.  A waiter is here to help\nyou.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5138
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5178
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5177,
+            "Zone": 51,
+            "Name": "Beach Shack",
+            "Description": "Once a thriving nightclub/bar, this place is now a small privately own eatery.\nThe bar owner has moved on and is now promoting other local clubs.  Nothing\ngoes on here anymore\n",
+            "Bits": [
+                "PEACEFUL",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5178
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5138
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5178,
+            "Zone": 51,
+            "Name": "Guildmaster's Inner Sanctum",
+            "Description": "You are in the guildmaster's inner sanctum.  Weapons of all type line the walls\nwhile other warrior type seem to be fine tuning their skills.  Your guildmaster\nawaits your bidding.\n\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5177
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5179,
+            "Zone": 51,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5180,
+            "Zone": 51,
+            "Name": "Oliver Lane - West",
+            "Description": "The path you were following comes to an abrut stop here.  Looking at the wall\nto the west you can see a an inscription which looks like a small tunnel with\na large web at the end.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5181
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5181,
+            "Zone": 51,
+            "Name": "Oliver Lane - West",
+            "Description": "You are on a very un populated section of this road.  Sounds of whips can\nbe heard to your west.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5182
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5180
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5182,
+            "Zone": 51,
+            "Name": "Oliver Lane - West",
+            "Description": "A very quiet street. Not much traffic comes down this direction it would appear.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5183
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5181
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5183,
+            "Zone": 51,
+            "Name": "Entrance to the Dark Temple",
+            "Description": "The huge temple looms over you from here.  You can make out some faint markings\nof a large spider above the door of the temple.  A very quiet street leads to\nthe west and also branches to the east.\n",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5193
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5184
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5186
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5182
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5184,
+            "Zone": 51,
+            "Name": "Oliver Lane - East",
+            "Description": "This part of the street leads towards a very populous area within the drow\ncity. As common folk cruise by, you wonder if there is something going on\nthat you do not know about.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5185
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5183
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5185,
+            "Zone": 51,
+            "Name": "Oliver Lane - East",
+            "Description": "The sounds of a thriving community can distinctly be heard from here.  A major\nintersection lies to the east, while the exit to the west runs back towards\nthe temple.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5150
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5184
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5186,
+            "Zone": 51,
+            "Name": "Drow Main Street",
+            "Description": "This is a very busy section in the drow city.  To the east lies the Post Office\nfo writing other adventurers.  The west exit leads towards the arena where\ntravelers can sharpen their skills, while the ominous temple can be seen to \nthe north.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5183
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5191
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5187
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5169
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5187,
+            "Zone": 51,
+            "Name": "Drow Main Street",
+            "Description": "This section of the street looks nothing different from the rest. Exits lead\noff to the north and south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5186
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5188
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5188,
+            "Zone": 51,
+            "Name": "Drow Main Street",
+            "Description": "This street is scattered with debris and small spiders.  The sounds of the \ncourtyard can be heard to the south while people seem to be moving to the \nnorth.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5187
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5122
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5189,
+            "Zone": 51,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5190,
+            "Zone": 51,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5191,
+            "Zone": 51,
+            "Name": "The Lobby to the Post Office",
+            "Description": "This is the lobby to the Post Office.  To the east lies the post master.  This\nroom is extravagantly decorated with rugs and tapestries.  Small chairs line\nthe northern wall.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5192
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5186
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5192,
+            "Zone": 51,
+            "Name": "The Post Office",
+            "Description": "This is the post office.  From here you can send and receive mail.  the \npostmaster is very reliable in the handling of your mail. What mal goes through\nhim is confidential.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5191
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5193,
+            "Zone": 51,
+            "Name": "Foyer of the Dark Temple",
+            "Description": "Upon entering this large temple you feel a cold chill pass through the room.\nThere are satanic markings around every corner.  By the appearnace of this \nmassive temple you can only imagine the size of the rest of the city.  This\ntemple is obviously what the drow civilization operates around.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5196
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5194
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5183
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5198
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5195
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5197
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5194,
+            "Zone": 51,
+            "Name": "South-Eastern Corner of the Dark Temple",
+            "Description": "A huge statue of the almighty yochlol stands in the center of this room. Looking\nat this specimen reminds you of how good it is to be human. You hope you never\nmeet this hideous creature face to face.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5195
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5159
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5193
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5195,
+            "Zone": 51,
+            "Name": "North-Eastern Corner of the Dark Temple",
+            "Description": "This end of the temple is very similar to the rest.  To the east lies the magic\nshop. The evilness of this room sends a chill down your spine\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5158
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5194
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5196
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5193
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5196,
+            "Zone": 51,
+            "Name": "Northern-end of the Dark Temple",
+            "Description": "You are in the northern end of the temple.  More sadistic markings can be\nfound here along with a huge mural on the floor that seems to stretch into\nother rooms in all directions. To the north is the gild of the paladin kind.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5164
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5195
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5193
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5197
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5194
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5198
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5197,
+            "Zone": 51,
+            "Name": "North-western corner of the Temple",
+            "Description": "This corner is no different from the other rooms of the temple.  More strange\nmarkings an scattered debris can be found in this room.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5196
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5198
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5156
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5193
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5198,
+            "Zone": 51,
+            "Name": "South-Western Corner of the Dark Temple",
+            "Description": "Portraits of the great arachnid yochlol line this ocrner of the temple.  To the\nwest lies the reading room whereas to the east, the entrance/exit to the temple.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PEACEFUL",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5197
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5193
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5157
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5196
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5199,
+            "Zone": 51,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        }
+    ]
+}

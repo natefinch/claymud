@@ -1,0 +1,4354 @@
+{
+    "rooms": [
+        {
+            "ID": 18700,
+            "Zone": 187,
+            "Name": "Guard's rest area",
+            "Description": "After an entire day of work the trail warriors relax in this\nluxurious room.  There's a large pool with a nice spa at its\nside.  The guards can buy themselves a drink at the bar located\nto your south.  If a troll warrior wants to practice his skills\nhe can go into the training room.\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18702
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18701
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18744
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18701,
+            "Zone": 187,
+            "Name": "Troll's Bar",
+            "Description": "The troll's bar is always open to serve their tired customer.\nThere's a bartender here to serve an assortment of drinks.\nEverywhere you look, the bar is packed with drunken troll\nwarriors.  You're not going to find a table around this place --\nmight as well just leave.\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18700
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18702,
+            "Zone": 187,
+            "Name": "Volkov's training school",
+            "Description": "The troll warriors test their skills in this room.  They\nchallenge other trolls to a fight -- sometimes it's friendly and\nother times it's not.  There are many varieties of weapons\nhanging on wooden racks.  Everywhere you look, you can see trolls\nattack one another in violent combat.\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18700
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18703,
+            "Zone": 187,
+            "Name": "A pier on the Endless Sea",
+            "Description": "This port is totally deserted...  No one would be foolish enough\nto ship out to the Endless Sea -- for sailors have been known to\n\"disappear\"  once they sail into this vast ocean.  There's a\nstrange old man here sitting on his passenger raft.  He looks at\nyou and smiles.  Then he turns his head and said, \"Go back, young\ntraveler, if you value your life.\"  The old man is trying to warn\nyou about the dangers in the Endless Sea.  Maybe you should take\nhim seriously -- turn back.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 10599
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18704
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "map",
+                        "sign",
+                        "post"
+                    ],
+                    "Description": "012345678901234567890123456789012345678901234567890123456789012\n\n                  N                               port\n                  |                                |\n           W -- --|-- -- E                       __|\n                  |                             |  |\n                  S                             |  |\n                                                |  |\n                               Dark  __ __ __ __|  |__ __\n                               Castle  |      typhoon    |\n                                       |            __ __|\n                              Satanish's           |\n                              Deathtrap            |\n                               |                 Zola's\n Bora Bora's __ __   Lair of   |                 Domain\n uncharted        Fin Fang Foom|                   |\n island                     |  |  Monstro's        |  Devil's\n                            |__|__Territory__ __ __|__Island\n"
+                }
+            ]
+        },
+        {
+            "ID": 18704,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18703
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18726
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18705,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "Something's wrong here... Your boat is swaying back and forth.  You look\nup to the sky as it darken.  There's a typhoon coming your way.  Turn\nback, quickly, before that storm swallows you up!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18736
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Trust me, you don't want to go in there.\n\n",
+                    "Keywords": [
+                        "south",
+                        "s"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18707
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18737
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18706,
+            "Zone": 187,
+            "Name": "a whirlpool",
+            "Description": "As you entered into this whirlpool, your boat begins to get sucked underwater.\nThe power of this whirlpool is so strong, not even the mightiest of\nwarriors can swim out.  Slowly, you begin to feel your arms tire...  You\nbegin gasping for air!  The force of the whirlpool is overwhelming.  As\nyou descend deeper into this sea, you wonder to yourself -- why was I so\nstupid to fall into this trap?\n\nSorry, young traveler, your journey ends here... :(\n",
+            "Bits": [
+                "DEATH",
+                "NOMOB",
+                "NORELOCATE",
+                "NOQUIT",
+                "NOFLEE"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3001
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18707,
+            "Zone": 187,
+            "Name": "A very powerful typhoon!",
+            "Description": "The power of this typhoon is INCREDIBLE!  It tosses your boat around like\na salad.  You can feel the wind slamming into your face.  Paddling in \nthe waters is beginning to tire you.  You begin to slip into unconsciousness.\nGlug...\n      Glug...\n            Glug...\nSorry, pal, you've drowned and gone to heaven.\n",
+            "Bits": [
+                "DEATH",
+                "NOMOB",
+                "NORELOCATE",
+                "NOQUIT",
+                "NOFLEE"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3001
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18708,
+            "Zone": 187,
+            "Name": "The shores of an uncharted island",
+            "Description": "You've reached the shores of a small island.  There are tropical trees\neverywhere you look.  You wonder if there is anyone living on this\nisland.  As you walk along the shore, you notice a few bones lying on\nthe ground...  The bones don't look like any animal bones you've seen.\nSuddenly, you sense the horror!  Theses are human bones...  You can hear\nthe sound of drums from a distance...  There must be cannibals on this\nisland.  This is where you make a life or death decision -- will you\nrisk your life to go into this jungle because of your foolish curiosity?\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "wall",
+                        "door",
+                        "barrier",
+                        "doors",
+                        "invisible"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 18726,
+                    "Destination": 18724
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18711
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18712
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18710
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18709,
+            "Zone": 187,
+            "Name": "The village of cannibals",
+            "Description": "You must be a fool to have entered into this area.  The tribe of\nsavages lives here.  As you enter into this village, you notice\nall eyes are focused towards you.  You can see these barbarians\nbegin to drool as though they see you as a fatten cattle.  In the\ncenter of the village, you notice a large black cauldron.  You\ncan see human heads bobbing from the broth that they are brewing.\nThese crazy monsters begin advancing towards you...they come \ncloser and closer...you see them licking their lips...\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18710
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18713
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18710,
+            "Zone": 187,
+            "Name": "In the tropical jungle",
+            "Description": "Those savages are playing their drums as though they're having a\nfestival.  It gets louder and louder as you go further and further\ninto this jungle.  There is a light to the south of where you are\nstanding.  The noises seem to be coming from there.\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18711
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18709
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18713
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18714
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18711,
+            "Zone": 187,
+            "Name": "In the tropical jungle",
+            "Description": "There are a lot of animal life in this jungle besides those sadistic\ncannibal killers.  You can see large pythons hanging on tree limbs,\nwaiting to spring on their prey.  There are wild boars which run pass\nyou as though there was something chasing them.  You can hear the\nmosquitoes buzzing at your ears.  You begin to sweat profusely as the\nhumidity becomes more annoying.\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18712
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18708
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18710
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18714
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18715
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18713
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18712,
+            "Zone": 187,
+            "Name": "In the tropical jungle",
+            "Description": "You can hear a very loud roar as you walk through this area.  Something\nlives in this part of the jungle...something very big -- too big to be\nany animal.  The roar comes from the east of where you're standing.\nYou are curious to find out where that roar comes from.  The roar of\nthat creature doesn't sound too friendly...\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18711
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18715
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18714
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18713,
+            "Zone": 187,
+            "Name": "In the tropical jungle",
+            "Description": "Though this island looks small from a distance, the jungle seems to be\nendless.  Sweat begins dripping from your brow...  You can hear those\nblood-thirsty savages closing in on you.  They must know you're on this\nisland!\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18714
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18710
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18711
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18714,
+            "Zone": 187,
+            "Name": "In the tropical jungle",
+            "Description": "The humidity is almost unbearable.  You can feel the mosquitoes biting\nat your arms and the rest of your exposed skin.  Your legs are \nbeginning to tire because of the many obstacles in the jungle.  You can\nturn back now before you faint from this killer heat.  Who knows?  If \nyou become unconscious you may end up a meal for the cannibals.\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18715
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18711
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18713
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18712
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18710
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18715,
+            "Zone": 187,
+            "Name": "In the tropical jungle",
+            "Description": "What you saw was incredible!  There's a large T-Rex standing in front\nof you.  He's feasting on the flesh of a Triceratop.  He stands a good\nfour stories tall.  Suddenly,  the meat-eater detects your presence in\nhis territory.  He begins to growl...then slowly he turns his head\ntowards you.  Watch Out!  He's about to spring at you!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18712
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18714
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18711
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18716,
+            "Zone": 187,
+            "Name": "a whirlpool",
+            "Description": "The force of the whirlpool takes you with ease as your boat\nbegins circling into the center.  Ultimately, you and your little\nship will be swallowed up by the sea.  You begin screaming for \nhelp as you struggle to stay above water...\nIf you survive this catastrophe, you notice this whirlpool can \ntake you deeper underwater.  You can go deeper to explore the\nterrains beneath -- that is, if you can hold your breath long enough!\n",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "NOMOB",
+                "NORELOCATE",
+                "NOFLEE"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18771
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18778
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18787
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18779
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18717
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18717,
+            "Zone": 187,
+            "Name": "an underwater passage",
+            "Description": "The whirlpool seems to be pulling you deeper and deeper underwater.  You\nare curious to find what lurks beneath the Endless Sea.  There are rumors\nof five great beasts living in this vast sea...could one of them be \nliving on the ocean floor?\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18716
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18718
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18718,
+            "Zone": 187,
+            "Name": "an underwater passage",
+            "Description": "The force of the whirlpool is becoming stronger it seems.  As you swim\ntowards the bottom floor, you notice the many strange marine life.\nSuddenly, you feel something is watching your every every movement.  \nYou see large shadows in these murky depths.  These shadows seem to\nbe closing in on you!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18717
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18719
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18719,
+            "Zone": 187,
+            "Name": "the sea floor",
+            "Description": "You're on the sea floor.  The first thing you notice is a cave to the\nwest of where you're standing.  You know something is living in there...\nyou can see large air bubbles coming out from within the cave.  Would\nyou be a fool enough to enter that cave -- it looks pretty dark...\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18720
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18718
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18720,
+            "Zone": 187,
+            "Name": "inside the cave",
+            "Description": "It's so dark in here -- even your powerful light-source looks dim.  As\nyou walk further into this cave, to your surprise, you see a very large\ndragon and he looks pretty angry.  You've entered the cave of the\nmighty dragon know as Fin Fang Foom.  He's ready to turn your flesh into\ncinder -- Watch Out!!!\n",
+            "Bits": [
+                "DARK",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18719
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18721,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "As you row your ship towards this area, you notice your boat begins to\nwobble...  Something is in the waters, something very big.  Suddenly,\nyou see a large shark fin coming towards you at an incredible speed.\nYou tell yourself, there's no way there can be a shark that huge --\nnothing is that huge.  You have only seconds to figure out what to do\nbefore that shark gobbles you up!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18760
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18767
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18775
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18768
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18722,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "CRACK!  Something is hitting the ship from below.  CRACK!  Something\npowerful is slamming against the ship -- the ship can't take another\nblow or else it will sink!  There's something underwater that wants\nto take you down...  As you try taking a closer peek to see what's\nattacking you...suddenly, four pair of blood-sucking tentacles begin\nto wrap you up!  It drags you underwater!  You notice it's a large\noctopus -- the largest octopus you've ever seen!  It wants to make a\nmeal out of you, but first, it'll have to squeeze the life out of\nyou with its deadly tentacles!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18754
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18762
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18723,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "As you row you ship into this area, a large wave forces your ship to\noverturn.  What could cause the waters to suddenly produce a wave like\nthat?  You turn your head towards something HUGE coming your way.  It\nlooks like a gigantic whale.  It's swimming towards you -- that overgrown\nfish thinks you were trying to take his territory -- it's closing in \nfor the kill!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18784
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18793
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18794
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18724,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You row your ship into a forbidden area of the Endless Sea.  There's\nan island to the west -- it looks like an ancient island because of\nits natural landscapes.  You wonder if there is anything edible on\nthat island.  Suddenly you hear a voice coming out of nowhere...\n\n     \"Do not attempt to land on to this island, young journeyman.\n      For it is I, Bora Bora, who protects it from invaders such \n      as you!\"\n\nThe voice comes from a very, very LARGE turtle.  He's blocking your\npath towards the island and he looks dead serious about what he'd\njust said.  Even if you could sneak by this great beast, you will\nnot be able to pass through the invisible wall that surrounds this\nmysterious island.  The only way you can get to the island is\nto kill Bora Bora!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18779
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18789
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "wall",
+                        "door",
+                        "invisible",
+                        "barrier",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 18726,
+                    "Destination": 18708
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18725,
+            "Zone": 187,
+            "Name": "Island of the Dark Castle",
+            "Description": "Where is this place?  You've reached a small island.  There's \nnothing around you but at a distance, you can see shadowy figures\nrunning towards you.  The inhabitants of this strange island don't\nlook too friendly.  The only escape you have is back to the sea.\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18728
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18735
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18726,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18704
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18729
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18727
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18727,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18726
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18730
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18728,
+            "Zone": 187,
+            "Name": "Along a rugged path",
+            "Description": "This path is slowing your movement quite a bit.  The rugged path \nbelow you is becoming an obstacle.  As you begin walking along\nthis road you notice that there are others following your path.\nAre they hostile?  Maybe you better just move a little faster so\nyou don't have to find out.\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18732
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18725
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18729,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18726
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18733
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18730
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18730,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18727
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18729
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18734
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18731,
+            "Zone": 187,
+            "Name": "Entrance to the Dark Castle",
+            "Description": "WOW!  Look at the size of this castle!  It's painted black from\nthe outside which gives it a dark, eerie feeling.  The castle is\nmade of large blocks of stone and you can see vines hanging on\nthe side of the walls.  There's a large door that'll take you\ninside this mammoth complex.  However, first you will have to\nget pass the guard...and it's not going to be that easy.\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18732
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "gate",
+                        "dark",
+                        "castle",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 18755,
+                    "Destination": 18764
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18732,
+            "Zone": 187,
+            "Name": "Along a rugged path",
+            "Description": "There's no escape!  They are everywhere.  You have nowhere to run.\nNo matter where you go, they will follow!  These strange beings\nthat are following you are carrying long swords and wearing battle\ngears.  They are definitely not the friendly type.  The only \nchance you have right now is FIGHT!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18731
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18728
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18733,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18729
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18737
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18734
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18734,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18730
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18733
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18738
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18735,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NOMOB",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18741
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18725
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18736,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18742
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18705
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18737,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "Somethings wrong here...  Your boat is shaking back and forth.  You look\nup to the sky as it darken.  There's a typhoon coming your way.  Turn\nback, quickly, before that storm swallows you up!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18733
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18705
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Trust me, you don't want to go in there.\n\n",
+                    "Keywords": [
+                        "south",
+                        "s"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18707
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18738
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18738,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "Somethings wrong here...  Your boat is shaking back and forth.  You look\nup to the sky as it darken.  There's a typhoon coming your way.  Turn\nback, quickly, before that storm swallows you up!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18734
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18737
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Trust me, you don't want to go in there.\n\n",
+                    "Keywords": [
+                        "south",
+                        "s"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18707
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18739
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18739,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "Somethings wrong here...  Your boat is shaking back and forth.  You look\nup to the sky as it darken.  There's a typhoon coming your way.  Turn\nback, quickly, before that storm swallows you up!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18738
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Trust me, you don't want to go in there.\n\n",
+                    "Keywords": [
+                        "south",
+                        "s"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18707
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18740
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18740,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18739
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18746
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18741
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18741,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18740
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18747
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18735
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18742,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18736
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18748
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18743,
+            "Zone": 187,
+            "Name": "On the shores of Devil's Island",
+            "Description": "You've landed on the shores of the mysterious Devil's Island!  This\nsmall island is well-known for it's unfriendly inhabitants.  As you\nbegin exploring this strange island...you sense something is watching\nyou.  Maybe it's not a good idea to go any further.  To the south\nthere's a large castle.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18744
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18790
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18744,
+            "Zone": 187,
+            "Name": "Walking along a very dark and dangerous path...",
+            "Description": "You are totally surrounded by darkness!!!  You can hear footsteps\ncloser and closer to where you are standing.  You can hear your heart\nbeat faster as something from the darkness begins advancing towards\nyou...  There's a large castle to your south -- if you hurry now, you\nmight escape to there with your life!\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT"
+            ],
+            "Sector": "ROAD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18743
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18700
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18745
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 23599
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18745,
+            "Zone": 187,
+            "Name": "The Castle of the Troll Lord",
+            "Description": "There's definitely something evil living in this centuries-old \ncastle.  You can see cobwebs hanging everywhere you look.  There's\ndust all over the place.  The floor is covered by dead and rotting\ncorpses of rodents.  The stench in this castle is almost unbearable. \nThere's a staircase that'll take you up to the tower.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18744
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18766
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18746,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18740
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18753
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18747
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18747,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18741
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18746
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18754
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18748,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18742
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18749
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18749,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "Somethings wrong here...  Your boat is shaking back and forth.  You look\nup to the sky as it darken.  There's a typhoon coming your way.  Turn\nback, quickly, before that storm swallows you up!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Trust me, you don't want to go in there.\n\n",
+                    "Keywords": [
+                        "north",
+                        "n"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18707
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18748
+                },
+                {
+                    "Direction": "South",
+                    "Description": "If you value your life, stay away from there.\n\n",
+                    "Keywords": [
+                        "south",
+                        "s"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18706
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18750
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18750,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "Somethings wrong here...  Your boat is shaking back and forth.  You look\nup to the sky as it darken.  There's a typhoon coming your way.  Turn\nback, quickly, before that storm swallows you up!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Trust me, you don't want to go in there.\n\n",
+                    "Keywords": [
+                        "north",
+                        "n"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18707
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18749
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18756
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18751
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18751,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "Somethings wrong here...  Your boat is shaking back and forth.  You look\nup to the sky as it darken.  There's a typhoon coming your way.  Turn\nback, quickly, before that storm swallows you up!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Trust me, you don't want to go in there.\n\n",
+                    "Keywords": [
+                        "north",
+                        "n"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18707
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18750
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18757
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18752
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18752,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "Somethings wrong here...  Your boat is shaking back and forth.  You look\nup to the sky as it darken.  There's a typhoon coming your way.  Turn\nback, quickly, before that storm swallows you up!\n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Trust me, you don't want to go in there.\n\n",
+                    "Keywords": [
+                        "north",
+                        "n"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18707
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18751
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18753
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18753,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18746
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18752
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18754
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18754,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18747
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18753
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18722
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18755,
+            "Zone": 187,
+            "Name": "A powder room",
+            "Description": "No man, no warrior has ever dare to walk into this room!  Only\nthe King is allowed in here... As you walk inside this room you\nnotice that this is a powder room -- you can smell the perfume\nall over the place.  There are mirrors on every wall.\nHmmm...You think to yourself, Gobi's not the type to put on \nlady's perfume -- who uses this room?\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 18763
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18756,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18750
+                },
+                {
+                    "Direction": "East",
+                    "Description": "If you value your life, stay away from there.\n\n",
+                    "Keywords": [
+                        "east",
+                        "e"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18706
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18760
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18757
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18757,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18751
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18756
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18761
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18758,
+            "Zone": 187,
+            "Name": "Falling off the staircase",
+            "Description": "Ouch!  You fell right off the staircase.  You feel your bones \nshattered as you hit the solid stone floor.  You can feel the warm\nblood coming out from your cracked skull as you cry out in pain.\nIf you're a strong warrior you may be able to survive this fall but\nif you're not...then your journey ends here and now.\n",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "NOMOB",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3001
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18759,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "If you value your life, stay away from there.\n\n",
+                    "Keywords": [
+                        "north",
+                        "n"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18706
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18767
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18760
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18760,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18756
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18759
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18721
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18761
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18761,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18757
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18760
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18768
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18762,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18722
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18769
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18763,
+            "Zone": 187,
+            "Name": "Gobi's room of terror",
+            "Description": "King Gobi, the lord of the living skeletal warriors, lives in\nthis room.  He sits on his mighty throne and laughs at you as you\nwalk into his room.  Gobi tells you, 'Little man-warrior, do you\nhave what it takes to defeat me?'  If you want to face the \ndreaded Gobi you will probably need assistance, not many warriors\ncan face this tyrant alone...  There's a door to the north of\nwhere you're standing.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "powder",
+                        "room"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 18757,
+                    "Destination": 18755
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "bedroom",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 18756,
+                    "Destination": 18773
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18764,
+            "Zone": 187,
+            "Name": "Inside the Dark Castle",
+            "Description": "The insides of this castle is very well maintained.  There are\nguards everywhere patrolling this castle.  You struggle to make\nyourself unconspicuous...but these guards are just oo alert --\nyour presence has been detected.  Time to run...\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "gate",
+                        "doors",
+                        "dark",
+                        "castle"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 18755,
+                    "Destination": 18731
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18765
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18765,
+            "Zone": 187,
+            "Name": "On the spiral staircase",
+            "Description": "Guards are everywhere!  There's nowhere to run.  As you climb\nevery step of this staircase you encounter a guard who's ready to\ncut you up.  It's not easy trying to get to your destination.\nJust as long as you keep advancing upwards the guards here will\ndiminish and there will be less resistance at the top.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Warning: Falling off the staircase is bad for your health.\n\n",
+                    "Keywords": [
+                        "east",
+                        "e"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18758
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Warning: Falling off the staircase is bad for your health.\n\n",
+                    "Keywords": [
+                        "west",
+                        "w"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18758
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18773
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18764
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18766,
+            "Zone": 187,
+            "Name": "On the old staircase",
+            "Description": "Watch Out!!!  There are guards everywhere in this castle.  They're \nhere to protect their leader from invaders such as yourself.  You\nare surrounded by troll soldiers.  They're about to attack you!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Warning: Falling off a staircase is bad for your health.\n\n",
+                    "Keywords": [
+                        "east",
+                        "e"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18758
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Warning: Falling off the staircase is bad for your health.\n\n",
+                    "Keywords": [
+                        "west",
+                        "w"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18758
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18772
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18745
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18767,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18759
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 23711
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18774
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18721
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18768,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18761
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18721
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18776
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18769,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18762
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18777
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18770
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18770,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18769
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18778
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18771
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18771,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18770
+                },
+                {
+                    "Direction": "South",
+                    "Description": "This whirlpool is an obvious deathtrap but something's different\nabout it...  You have chosen the wrong path that could have taken\nyou \"around\" this deathtrap.\n",
+                    "Keywords": [
+                        "south",
+                        "s"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18716
+                },
+                {
+                    "Direction": "West",
+                    "Description": "If you value your life, stay away from there.\n\n",
+                    "Keywords": [
+                        "west",
+                        "w"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18706
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18772,
+            "Zone": 187,
+            "Name": "The hallway of horror",
+            "Description": "You reached the second floor of this dreaded castle.  You may think\nyou're safe but there are troll guards here that patrol the area.  \nAs you turn your head you notice a large troll guard standing in \nfront of you!  Behind this large, ugly troll is a bedroom door.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "bedroom"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 18723,
+                    "Destination": 18782
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18766
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18773,
+            "Zone": 187,
+            "Name": "On top of the staircase",
+            "Description": "This is it.  You've reached the top of this staircase.  However,\nthere are still guards here coming after you.  To your west, you\nnotice a door made of pure gold and studded with rare gems and \nemeralds.  You drool at the thought of what you can do with the\nwealth that's probably locked behind that door.  But first, \nyou'll have to kill off that damn guard that's blocking your way!\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "bedroom",
+                        "doors"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 18756,
+                    "Destination": 18763
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18765
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18774,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18767
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18780
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18775
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18775,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18721
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18774
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18781
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18776
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18776,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18768
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18775
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18706
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18777,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18769
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18785
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18778
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18778,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18770
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18777
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18786
+                },
+                {
+                    "Direction": "West",
+                    "Description": "This whirlpool is an obvious deathtrap but something is different\nabout it...  There is another way to go \"around\" this\nwhirlpool if you do not wish to die.\n",
+                    "Keywords": [
+                        "west",
+                        "w"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18716
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18779,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "If you value your life, stay away from there.\n\n",
+                    "Keywords": [
+                        "north",
+                        "n"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18706
+                },
+                {
+                    "Direction": "East",
+                    "Description": "This whirlpool is an obvious deathtrap but there's something different\nabout it...  There is another way to get \"around\" it if you don't\nwant to enter here.\n",
+                    "Keywords": [
+                        "east",
+                        "e"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18716
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18788
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18724
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18780,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18774
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "South",
+                    "Description": "There's something fishy about this whirlpool...\n\n",
+                    "Keywords": [
+                        "south",
+                        "s"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18790
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18781
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18781,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18775
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18780
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18791
+                },
+                {
+                    "Direction": "West",
+                    "Description": "If you value your life, stay away from there.\n\n",
+                    "Keywords": [
+                        "west",
+                        "w"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18706
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18782,
+            "Zone": 187,
+            "Name": "The room of the Troll Lord",
+            "Description": "You've entered the room of the bloodthirsty Troll Lord -- King of\nall troll warriors!  The Troll Lord is not happy that you've entered\nhis room uninvited.  He begins strapping on his battle gear as \nthough he is ready to do battle.  The Troll Lord growls at you as\nhe displays his large bloody battle-axe.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "bedroom"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 18723,
+                    "Destination": 18772
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18783,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "East",
+                    "Description": "If you value your life, stay away from there.\n\n",
+                    "Keywords": [
+                        "east",
+                        "e"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18706
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18793
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18784
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18784,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18783
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18723
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18785
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18785,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18777
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18784
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18794
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18786
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18786,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18778
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18785
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18795
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18787
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18787,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "This whirlpool is an obvious deathtrap but something is different\nabout it...  You are now choosing a path that can take you around\nthis deathtrap.\n",
+                    "Keywords": [
+                        "north",
+                        "n"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18716
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18786
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18796
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18788
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18788,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18779
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18787
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18797
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18789
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18789,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18724
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18788
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18798
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18790,
+            "Zone": 187,
+            "Name": "a whirlpool",
+            "Description": "There's something unusual about this whirlpool...  It seems to be only\nan illusion to fool outsiders.  There's an island to you east.  It looks\ndark and covered in thick fog.  If you're thinking about going there\nmaybe you should think again...\n",
+            "Bits": [
+                "NOMOB",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18780
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18743
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18791
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18791,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18781
+                },
+                {
+                    "Direction": "East",
+                    "Description": "There's something fishy about this whirlpool...\n\n",
+                    "Keywords": [
+                        "east",
+                        "e",
+                        "whirlpool"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18790
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18792
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18792,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "If you value your life, stay away from there.\n\n",
+                    "Keywords": [
+                        "north",
+                        "n"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18706
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18791
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18793
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18793,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18783
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18792
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18723
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18794,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18785
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18723
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18795
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18795,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18786
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18794
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18796
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18796,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18787
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18795
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18797
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18797,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18788
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18796
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18798
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18798,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18789
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18797
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18799
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 24201
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 18799,
+            "Zone": 187,
+            "Name": "The vast expanse of the Endless Sea",
+            "Description": "You are surrounded by water from all directions...  The only living things\nout here are marine life.  As you sail on the Endless Sea, you wonder to\nyourself if you`ll ever get back to shore.  \n",
+            "Bits": [
+                "NOMOB",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18733
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18727
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18733
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 18730
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

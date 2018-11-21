@@ -1,0 +1,2358 @@
+{
+    "rooms": [
+        {
+            "ID": 15600,
+            "Zone": 156,
+            "Name": "Vall's Hideout.....until he gets a 12xx room..",
+            "Description": "You have stumbled upon an old run-down shack of sorts.\r\r\r\r\n\rPapers with strange writings on them (C, Pascal, FORTRAN, APL, ..)\r\r\r\r\n\rare scattered throughout the room.  Against on wall is a desk with\r\r\r\r\n\ra dusty computer on top.  On the wall is a sign which simply\r\r\r\r\n\rreads: Vall.\r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL",
+                "PRIVATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A gateway leads to the IMM room.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "gateway"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1204
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A portal leads to the Temple of Midgaard.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "portal"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3001
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "A slide leading to a cliff face.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "slide"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 15615,
+                    "Destination": 15699
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "computer",
+                        "comp",
+                        "screen",
+                        "keyboard"
+                    ],
+                    "Description": "Lying on the desk under a pile of dust is a Packard Bell 486SX.\r\r\r\r\n\r(as soon as I can scrape up some money...I'll overdrive it)..:P\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "desk",
+                        "desktop",
+                        "drawers"
+                    ],
+                    "Description": "An old wooden desk with no drawers or anything.  Just a slab of wood.\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "A sign that reads: Vall.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15601,
+            "Zone": 156,
+            "Name": "Cliff Face",
+            "Description": "A barren, rock faced cliff looms above you and stretches high into \r\r\r\r\n\rthe air.  Gusts of wind sting your face as you notice a small ladder\r\r\r\r\n\rleading up the side of the mountain.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "An intersection lies to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15694
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "A ladder leads up the cliff.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "ladder"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15602
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "A sign points up and reads: Newbie Plateau\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "ladder"
+                    ],
+                    "Description": "A ladder leads up\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15602,
+            "Zone": 156,
+            "Name": "Beginning of the Plateau.",
+            "Description": "Thie wind dies completely here and you are left with filled with\r\r\r\r\n\ra feeling of peace and tranquility.  Butterflies and bumblebees dance\r\r\r\r\n\rmystically in and about the wide variety of plantlife growing on\r\r\r\r\n\rthis plateau.  Off in the distance, beyond the cliff, you can discern\r\r\r\r\n\rthe city of midgaard.\r\r\r\r\n\r",
+            "Bits": [
+                "PEACEFUL"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "An open field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15605
+                },
+                {
+                    "Direction": "East",
+                    "Description": "An open field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15604
+                },
+                {
+                    "Direction": "West",
+                    "Description": "An open field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15603
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "A ladder leads down towards home.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "ladder"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15601
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "flowers"
+                    ],
+                    "Description": "There is a wide variety of plants stretching out as far as you\r\r\r\r\n\rcan see, most of which are flowers.\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "city",
+                        "midgaard"
+                    ],
+                    "Description": "You can just make out the city in the distance.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15603,
+            "Zone": 156,
+            "Name": "An open field.",
+            "Description": "A field stretches out before you and meets the sky at a great\r\r\r\r\n\rdistance. The land here is quite flat and the underbrush is \r\r\r\r\n\rpopulated by various prairie creatures.  A wooded area can be seen\r\r\r\r\n\rto the west.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see sunflowers towards the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15689
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The beginning of the plateau.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15602
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a group of trees to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15692
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "horizon"
+                    ],
+                    "Description": "In the distance, the ground and sky meet at the horizon.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15604,
+            "Zone": 156,
+            "Name": "An open field.",
+            "Description": "A field stretches out before you and meets the sky at a great\r\r\r\r\n\rdistance.  The lands here is quite flat and the underbrush is \r\r\r\r\n\rpopulated by various prairie creatures.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "An open field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15606
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The field continues to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15693
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The beginning of the plateau.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15602
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "horizon"
+                    ],
+                    "Description": "In the distance, the ground and sky meet at the horizon.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15605,
+            "Zone": 156,
+            "Name": "An open field.",
+            "Description": "A field stretches out before you and meets the sky at a great\r\r\r\r\n\rdistance. The land here is quite flat and the underbrush is \r\r\r\r\n\rpopulated by various prairie creatures.  You evidence that\r\r\r\r\n\rsomebody has camped here recently as there are signs of a camp\r\r\r\r\n\rand campfire.  A pleasant scent filters from the north.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a multitude of flowers towards the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15610
+                },
+                {
+                    "Direction": "East",
+                    "Description": "An open field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15606
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The beginning of the plateau.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15602
+                },
+                {
+                    "Direction": "West",
+                    "Description": "An open field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15689
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "horizon"
+                    ],
+                    "Description": "In the distance, the ground and sky meet at the horizon.\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "camp",
+                        "campfire",
+                        "fire"
+                    ],
+                    "Description": "A circle of stones surrounds a blackened area where a\r\r\r\r\n\rfire recently roared.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15606,
+            "Zone": 156,
+            "Name": "An open field.",
+            "Description": "A field stretches out before you and meets the sky at a great\r\r\r\r\n\rdistance.  The lands here is quite flat and the underbrush is \r\r\r\r\n\rpopulated by various prairie creatures.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15609
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see more of the field towards the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15607
+                },
+                {
+                    "Direction": "South",
+                    "Description": "An open field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15604
+                },
+                {
+                    "Direction": "West",
+                    "Description": "An open field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15605
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "horizon"
+                    ],
+                    "Description": "In the distance, the ground and sky meet at the horizon.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15607,
+            "Zone": 156,
+            "Name": "Windswept field.",
+            "Description": "The wind stings your face for a moment and then subsides\r\r\r\r\n\rto become a slight breeze which tickles your neck.  Small\r\r\r\r\n\ranimals scurry around and search for food and shelter.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a large tree in the distance.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15608
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the edge of the plateau towards the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15690
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The field continues to the south\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15693
+                },
+                {
+                    "Direction": "West",
+                    "Description": "An open field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15606
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15608,
+            "Zone": 156,
+            "Name": "Willow on the plateau.",
+            "Description": "There is a steady breeze that blows through an aged willow\r\r\r\r\n\rtree which stands solitaire upon this vast plateau.  The tree\r\r\r\r\n\rseems to be a gathering place for the various creatures of\r\r\r\r\n\rthis plateau.  It stands relentlessly against the passage of\r\r\r\r\n\rtime and provides many of the creatures gathered here with a \r\r\r\r\n\rsense of security.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Saplings grow towards the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15684
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see an expanse of fields towards the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15607
+                },
+                {
+                    "Direction": "West",
+                    "Description": "More open field to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15609
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15625
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "willow",
+                        "tree"
+                    ],
+                    "Description": "The tree is a sign of stability in an otherwise changing world.\r\r\r\r\n\rAnimals wander in and around the large tree and eye you with\r\r\r\r\n\rcuriousity.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15609,
+            "Zone": 156,
+            "Name": "Field.",
+            "Description": "The field topped plateau continues here with the underbrush\r\r\r\r\n\rgetting slightly higher.  As a result the animals which\r\r\r\r\n\rwander here are more concerned with their safety as predators\r\r\r\r\n\rare harder to avoid.  The air is sweetly scented towards the\r\r\r\r\n\rwest.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "More field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15608
+                },
+                {
+                    "Direction": "South",
+                    "Description": "More fields.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15606
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You smell something sweet from the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15610
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "underbrush",
+                        "brush",
+                        "weeds"
+                    ],
+                    "Description": "The underbrush allows some animals a better defense against would\r\r\r\r\n\rbe predators.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15610,
+            "Zone": 156,
+            "Name": "Flowers in the field.",
+            "Description": "As you come upon this drastically different part of the field,\r\r\r\r\n\ryou notice a sweetness hovering in the air.  The birds and other\r\r\r\r\n\ranimals roaming throughout this flowery field seem to be engulfed\r\r\r\r\n\rin a sort of jovial atmosphere.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "More field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15609
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The field continues to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15605
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15611
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "flower",
+                        "flowers"
+                    ],
+                    "Description": "The flowers here dance brilliantly and almost force you to\r\r\r\r\n\rthink of happier times.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15611,
+            "Zone": 156,
+            "Name": "Entrance to Prairie",
+            "Description": "The plant life starts to thin out as you come upon a\r\r\r\r\n\rprairie full of small mammals running this way and that.\r\r\r\r\n\rThe ground is amazingly flat here and the brownish color\r\r\r\r\n\rof the plantlife indicates a lack of rainfall.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The prairie continues to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15628
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15610
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15613
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15612
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15612,
+            "Zone": 156,
+            "Name": "Prairie",
+            "Description": "The prairie continues to stretch off in all directions and you\r\r\r\r\n\robserve the many birds flying overhead.  Some have landed\r\r\r\r\n\rin search for food.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15619
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15611
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15614
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15617
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "birds",
+                        "bird"
+                    ],
+                    "Description": "Birds fly overhead and search for food.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15613,
+            "Zone": 156,
+            "Name": "Prairie",
+            "Description": "The prairie continues to stretch off in all directions and you\r\r\r\r\n\robserve the many birds flying overhead.  Some have landed\r\r\r\r\n\rin search for food.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15611
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a mound of brush to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15688
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see sunflowers to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15689
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15614
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "birds",
+                        "bird"
+                    ],
+                    "Description": "Birds fly overhead and search for food.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15614,
+            "Zone": 156,
+            "Name": "Prairie",
+            "Description": "The prairie continues to stretch off in all directions and you\r\r\r\r\n\robserve the many birds flying overhead.  Some have landed\r\r\r\r\n\rin search for food.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15612
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15613
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15615
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "birds",
+                        "bird"
+                    ],
+                    "Description": "Birds fly overhead and search for food.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15615,
+            "Zone": 156,
+            "Name": "Entrance to abandoned hut.",
+            "Description": "You stand before an old, abandoned hut.  The holes scattered\r\r\r\r\n\rthroughout the thatch roof indicate that it has been years\r\r\r\r\n\rand years since somebody(or something) has inhabited it.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15617
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15614
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15616
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "roof",
+                        "thatch"
+                    ],
+                    "Description": "The thatch looks as if it had been burned long ago.\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "hut"
+                    ],
+                    "Description": "The old hut seems like it has been here for ages.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15616,
+            "Zone": 156,
+            "Name": "Abandoned Hut",
+            "Description": "You find yourself squinting to see inside this old abandoned\r\r\r\r\n\rhut.  A table is tipped over in the corner and the chairs that\r\r\r\r\n\raccompanied it are all but in pieces.  Other than the smell of\r\r\r\r\n\rthe rotting floorboards, there is not much else of interest\r\r\r\r\n\rin this deserted hut.  It does, however, seem safe to rest here.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15615
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "A trapdoor leads down into darkness.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15640
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "table"
+                    ],
+                    "Description": "A destroyed table lies in the corner.  It has something resembling scratches\r\r\r\r\n\retched on it's surface.\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "chair",
+                        "chairs"
+                    ],
+                    "Description": "The chairs hardly resemble anything of which you would normally\r\r\r\r\n\rassociate a chair as being.\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "floor",
+                        "floorboard",
+                        "board"
+                    ],
+                    "Description": "Searching the floor reveals a trapdoor.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15617,
+            "Zone": 156,
+            "Name": "Prairie",
+            "Description": "The prairie continues to stretch off in all directions and you\r\r\r\r\n\robserve the many birds flying overhead.  Some have landed\r\r\r\r\n\rin search for food.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15618
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15612
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15615
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15620
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "birds",
+                        "bird"
+                    ],
+                    "Description": "Birds fly overhead and search for food.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15618,
+            "Zone": 156,
+            "Name": "Scorched Prairie",
+            "Description": "This part of the prairie has been scorched by something LARGE.\r\r\r\r\n\rThe burnt plantlife looks to have been burnt recently, as \r\r\r\r\n\ryou can still smell the carbon hanging in the air.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15619
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15617
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a dying prairie to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15621
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15619,
+            "Zone": 156,
+            "Name": "Prairie",
+            "Description": "The prairie continues to stretch off in all directions and you\r\r\r\r\n\robserve the many birds flying overhead.  Some have landed\r\r\r\r\n\rin search for food.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15628
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15612
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15618
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "birds",
+                        "bird"
+                    ],
+                    "Description": "Birds fly overhead and search for food.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15620,
+            "Zone": 156,
+            "Name": "Prairie of death",
+            "Description": "The look and feel of this part of the prairie is of decadence.  A\r\r\r\r\n\rstillness has seemingly swallowed up this entire area as you\r\r\r\r\n\rstare at the desolation.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15621
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15617
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15621,
+            "Zone": 156,
+            "Name": "Prairie of death",
+            "Description": "The look and feel of this part of the prairie is of decadence.  A\r\r\r\r\n\rstillness has seemingly swallowed up this entire area as you\r\r\r\r\n\rstare at the desolation.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15622
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a large burn mark in the prairie to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15618
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15620
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15622,
+            "Zone": 156,
+            "Name": "Prairie of death",
+            "Description": "The general feel of this part of the prairie is unnerving.  You can \r\r\r\r\n\rpinpoint why, but it seems as if you are being watched.  The edge of\r\r\r\r\n\rthe plateau lies to the west here overlooking a road directly below.\r\r\r\r\n\rYou can also just make out the city of midgaard in the distance.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15623
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15621
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15623,
+            "Zone": 156,
+            "Name": "Prairie of death",
+            "Description": "You have come to a dead end.  The prairie is encapsuled by stone\r\r\r\r\n\rwalls that jut up out of the ground and disappear into the sky.\r\r\r\r\n\rThe peculiarly smooth surface of the rock face makes it impossible\r\r\r\r\n\rto climb up.  Dead animals litter the ground here and the smell of\r\r\r\r\n\rdeath is nearly overcoming.  A strong smell of carbon eminates from\r\r\r\r\n\rthe slick stone walls.\r\r\r\r\n\rThe only exit is back the way you came from.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15622
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15625,
+            "Zone": 156,
+            "Name": "Up the Willow Tree",
+            "Description": "You find yourself among the branches of a giant willow tree.\r\r\r\r\n\rFrom here you can see across the whole of the plateau.  You spot\r\r\r\r\n\ra small building far to the southwest and more jagged cliffs to \r\r\r\r\n\rthe northwest.  The wind feels refreshing up here as it blows\r\r\r\r\n\rthrough your hair.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15626
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15608
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15626,
+            "Zone": 156,
+            "Name": "Out on a Limb",
+            "Description": "You have made your way out onto a thick branch of the willow\r\r\r\r\n\rtree.  You dare not go out any farther else you fall out of the\r\r\r\r\n\rtree and break your neck.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15625
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15628,
+            "Zone": 156,
+            "Name": "Prairie Trees",
+            "Description": "You have stumbled upon a grove of trees that nearly encircle \r\r\r\r\n\ryou.  There is no exit north or south, but you think you could\r\r\r\r\n\rmove some of the branches to the east out of the way to \r\r\r\r\n\rallow you passage in that direction.  You can also return to the\r\r\r\r\n\rprairie to the west.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The flatlands lie to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15633
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The entrance to the prairie is to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15611
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15619
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "tree",
+                        "trees",
+                        "grove"
+                    ],
+                    "Description": "The trees seem to have eyes and their branches hang low to the ground.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15631,
+            "Zone": 156,
+            "Name": "Dead tree in the Flatlands",
+            "Description": "Dry, cracked earth stretches towards the south and east.  Hardly\r\r\r\r\n\rany plantlife grows here as the ground is just too infertile.  A lone\r\r\r\r\n\rwithered tree stands here, struggling to survive.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15636
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15632
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15632,
+            "Zone": 156,
+            "Name": "Flatland",
+            "Description": "Dry, cracked earth stretches out as far as you can see.  Small\r\r\r\r\n\ranimals wander around here looking for shelter and food.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15631
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15635
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15633
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15633,
+            "Zone": 156,
+            "Name": "Flatlands",
+            "Description": "You are in a vast flatland area.  The ground is cracked from the \r\r\r\r\n\rdryness and you can see for miles towards the north and east.\r\r\r\r\n\rTree branches hang low towards the west and south, but you\r\r\r\r\n\rthink you could move the western branches out of the way to \r\r\r\r\n\rallow you passage in that direction.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15632
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15634
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The prairie lies to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15628
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15634,
+            "Zone": 156,
+            "Name": "Flatland",
+            "Description": "Dry, cracked earth stretches out as far as you can see.  Small\r\r\r\r\n\ranimals wander around here looking for shelter and food.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15635
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15639
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15633
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "Stone stairs lead up a bridge.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15687
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15635,
+            "Zone": 156,
+            "Name": "Dried up pond",
+            "Description": "You stumble upon what seems to be a dried up pond.  The blazing sun\r\r\r\r\n\rthat dominates the skies above these flatlands has cracked the\r\r\r\r\n\rnow dark brown bottom of the dried up pond.  You notice a bridge that\r\r\r\r\n\rarches overhead is gradually deteriorating.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15636
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15638
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15634
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15632
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15636,
+            "Zone": 156,
+            "Name": "Flatland",
+            "Description": "Dry, cracked earth stretches out as far as you can see.  Small\r\r\r\r\n\ranimals wander around here looking for shelter and food.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15637
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15635
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15631
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "Stone stairs lead up an aged stone bridge.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15685
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15637,
+            "Zone": 156,
+            "Name": "Flatland",
+            "Description": "Dry, cracked earth stretches out as far as you can see.  Small\r\r\r\r\n\ranimals wander around here looking for shelter and food.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15638
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15636
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15638,
+            "Zone": 156,
+            "Name": "Flatland",
+            "Description": "Dry, cracked earth stretches out as far as you can see.  Small\r\r\r\r\n\ranimals wander around here looking for shelter and food.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15637
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15639
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15635
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15639,
+            "Zone": 156,
+            "Name": "Flatland",
+            "Description": "Dry, cracked earth stretches out as far as you can see.  Small\r\r\r\r\n\ranimals wander around here looking for shelter and food.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15638
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15634
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15640,
+            "Zone": 156,
+            "Name": "Dark Pit",
+            "Description": "You have stumbled upon a darkened pit.  The air here is stagnant\r\r\r\r\n\rand you find it increasingly difficult to even breath.  There is a\r\r\r\r\n\rbroken sign attached to one side of the pit.  Luckily there is a\r\r\r\r\n\rladder leading out of the pit, back to the hut.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "A trapdoor leads up.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 15616
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "An old sign attached to the wall reads: BEWARE OF THE TUNNEL RUNNERS!!!\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "ladder"
+                    ],
+                    "Description": "A ladder leads up into the hut.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15641,
+            "Zone": 156,
+            "Name": "Beginning of Canal",
+            "Description": "You are wading through a canal that is just about up to your chest\r\r\r\r\n\rin depth.  The water has a murky brown texture and coloring to it which\r\r\r\r\n\ris far from the crystal-like qualities of the water in the pool to the\r\r\r\r\n\rsouth.  The wind here is non-existant, therefore there are no ripples\r\r\r\r\n\ron the surface of the water except those created by you.  The banks on\r\r\r\r\n\reither side of the canal are indeed too steep to climb up which forces\r\r\r\r\n\ryou to chose north or south as your exits.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": null,
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "water",
+                        "canal"
+                    ],
+                    "Description": "The water has a brown stagnate quality to it.\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "bank",
+                        "banks",
+                        "shore"
+                    ],
+                    "Description": "The banks are too steep to climb up out of canal by.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15650,
+            "Zone": 156,
+            "Name": "Center Isle",
+            "Description": "You find yourself ashore in the middle of the large pond.  The island\r\r\r\r\n\ron which you stand is really just a mound of sand with sparse plantlife\r\r\r\r\n\rsprouting out of it.  There is an old sign staked into the ground here.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": null,
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "A sign simply reads: CENTER ISLE\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15673,
+            "Zone": 156,
+            "Name": "Abrupt end of pleasant road",
+            "Description": "The cliff swings north and the road ends abruptly.  It seems almost\r\r\r\r\n\ras if the road runs directly into the cliff, but after searching\r\r\r\r\n\rthe cliff you find nothing else abnormal about it.  The only direction\r\r\r\r\n\rto travel is south as the dense forest blocks passage east.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The road continues in this direction.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15674
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "cliff"
+                    ],
+                    "Description": "The cliff blocks all passage north and there doesn't seem\r\r\r\r\n\rto be any way around it as the forest grows tight against it.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15674,
+            "Zone": 156,
+            "Name": "Along the pleasant road",
+            "Description": "The road continues north and south here.  The same features that\r\r\r\r\n\raccompany it elsewhere are apparent here as well.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You think you see a cliff intersecting the road to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15673
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a fallen tree to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15675
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15675,
+            "Zone": 156,
+            "Name": "Tree in the pleasant road",
+            "Description": "Across the middle of the road lies a tree that looks to have been\r\r\r\r\n\rrecently chopped down.  A broken axe lies embedded in the trunk of\r\r\r\r\n\rthe downfallen tree.  The forest continues on the eastern side of\r\r\r\r\n\rthe road, while the cliff looms above you on the western side.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The road continues to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15674
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A bend in the road towards the south\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15676
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15676,
+            "Zone": 156,
+            "Name": "Bend in pleasant road",
+            "Description": "The road swings to the north here as the cliff has also turned in that\r\r\r\r\n\rdirection. Trees grow so dense as to not allow passage south or east.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a downfallen tree north of here.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15675
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The road continues in this direction.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15677
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15677,
+            "Zone": 156,
+            "Name": "Along the southern pleasant road",
+            "Description": "The road is shadowed here by the large cliff to the north.  As you\r\r\r\r\n\rstare up at cliff you can just make out some trees growing on top of it.\r\r\r\r\n\rThe road continues east or west from this point.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a bend in the road towards the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15676
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The road continues in this direction.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15678
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15678,
+            "Zone": 156,
+            "Name": "Southern pleasant road",
+            "Description": "The road here heads east and west.  A large cliff borders the road\r\r\r\r\n\ron the north side and dense forest lies to the south.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The road continues in this direction.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15677
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The road bends towards the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15679
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15679,
+            "Zone": 156,
+            "Name": "Turn in the pleasant road",
+            "Description": "Here the road swings east and heads off in that direction towards\r\r\r\r\n\rthe horizon.  Small animal tracks can be seen in the light dust\r\r\r\r\n\rlayer covering the road.  Wagon ruts are evident as well.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The road swings to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15680
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The road continues to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15678
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15680,
+            "Zone": 156,
+            "Name": "Along the pleasant road",
+            "Description": "Just south of an intersection with a small trail, this part of\r\r\r\r\n\rthe pleasant road is quite dusty.  Wind whips here forcing you to cover\r\r\r\r\n\ryour eyes slightly.  Dense forest grows on either side of the road here\r\r\r\r\n\ras well.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "An intersection lies to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15694
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a curve in the road to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15679
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15681,
+            "Zone": 156,
+            "Name": "North end of pleasant road",
+            "Description": "You come to the end of the road.  The forest has completely blocked\r\r\r\r\n\roff all passage further in any direction but where you came from.\r\r\r\r\n\rThe wind gently sways the very tops of the trees here.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The road continues to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15682
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15682,
+            "Zone": 156,
+            "Name": "Dwindling road",
+            "Description": "You continue to follow the peaceful road, however it seems the\r\r\r\r\n\rfarther you go, the more the forest encloses it.  Plantlife is\r\r\r\r\n\rstarting to grow on the road here as well.  To the north you \r\r\r\r\n\rsee the end of the road.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The road seems to end towards the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15681
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The road continues to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15683
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15683,
+            "Zone": 156,
+            "Name": "Along the pleasant road",
+            "Description": "You travel on a peaceful dirt road that has a few ruts from what \r\r\r\r\n\rlooks like wagon wheels.  On the west side of the road is a small \r\r\r\r\n\rstream flowing with crystal clear water flowing into a small pool\r\r\r\r\n\rof clear water.  On the east side of the road a cliff rises high\r\r\r\r\n\rinto the sky.  The road intersects a small trail south of here.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The road continues to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15682
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see an intersection to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15694
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15684,
+            "Zone": 156,
+            "Name": "Saplings on the plateau",
+            "Description": "Here is a sign of nature's struggle for survival.  Numerous young tree\r\r\r\r\n\rsaplings reach for the sky while the larger trees block most of the\r\r\r\r\n\rdesperately needed sunlight.  Animals seem relaxed here and are content\r\r\r\r\n\rto bath in the trees' cover.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the edge of the plateau south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15690
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a large willow to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15608
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15685,
+            "Zone": 156,
+            "Name": "North end of the bridge",
+            "Description": "You have came upon the north end of a bridge which looks odd considering\r\r\r\r\n\rthe surrounding landscape.  Strange markings have been scrawled on the\r\r\r\r\n\rstone railings.  The bridge continues to the south.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The center of the bridge lies to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15686
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The north stairs lead down onto the flatlands.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15636
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15686,
+            "Zone": 156,
+            "Name": "The Flatland bridge",
+            "Description": "You arrive on an aged stone bridge that has been slowly withered away\r\r\r\r\n\rby blowing sand and other forces of natural decent.  Over the sides\r\r\r\r\n\ryou can see a dried up pond of sorts.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The north end of the bridge lies to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15685
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The south end of the bridge.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15687
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15687,
+            "Zone": 156,
+            "Name": "South end of the bridge",
+            "Description": "You find yourself on the south end of a aged stone bridge that\r\r\r\r\n\rarches over rather small lake that has dried up.  The hard stone rail\r\r\r\r\n\rthat lines the east and west side of the bridge prevents passage in\r\r\r\r\n\rthose directions.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The center of the bridge lies to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15686
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Stairs leading down the bridge.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15634
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15688,
+            "Zone": 156,
+            "Name": "Under the brush",
+            "Description": "You have crawled under a mound of dense underbrush that is\r\r\r\r\n\ra sheltering place for many prairie creatures.  You are just able\r\r\r\r\n\rto stand up, but you are forced to hunch over.  The brush grows\r\r\r\r\n\rvery dense around here and the only exit is back the way you entered.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "Back to the prairie.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15613
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15689,
+            "Zone": 156,
+            "Name": "Sunflowers in the Fields",
+            "Description": "You come upon an area of the plateau that is completely dominated\r\r\r\r\n\rby large sunflowers.  Bumblebees and other insects dart about looking\r\r\r\r\n\rfor the days food supply, while small animals scurry about in the\r\r\r\r\n\runderbrush.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The field continues north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15613
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The field continues to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15605
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The field continues to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15603
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15690,
+            "Zone": 156,
+            "Name": "Along the edge",
+            "Description": "The edge of plateau continues here and prohibits you from travelling\r\r\r\r\n\reast. You notice the breeze has slighty increased here making the \r\r\r\r\n\rgrass sway more.  Over the cliff, you can see a road far below.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Saplings grow towards the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15684
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You can follow the edge of the cliff south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15691
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The field continues to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15607
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15691,
+            "Zone": 156,
+            "Name": "Edge of plateau",
+            "Description": "You come to the edge of ths field covered plateau.  As in so many\r\r\r\r\n\rother places up here, creatures are engulfed with their activities\r\r\r\r\n\rand seemingly do not take notice to your presence.  There is a very\r\r\r\r\n\rsteep cliff to the east which you cannot journey down.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Th edge continues to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15690
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The field continues to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15693
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "cliff"
+                    ],
+                    "Description": "The cliff is too steep for passage, but you can see a road\r\r\r\r\n\rfar below.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15692,
+            "Zone": 156,
+            "Name": "Shaded Grove",
+            "Description": "You enter an area that is nearly completely covered by the shade of\r\r\r\r\n\rlarge oak trees.  The soft whisper of the leaves blowing in the wind\r\r\r\r\n\ris quite relaxing.  The density of the woods makes travel further into\r\r\r\r\n\rthem impossible.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a field to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15603
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15693,
+            "Zone": 156,
+            "Name": "Prosperous Field",
+            "Description": "You find yourself in the middle of a large field that supports a\r\r\r\r\n\rvariety of life forms, from hundreds of tiny insects to larger field\r\r\r\r\n\rtype animals ranging from mice to birds.  A wonderous array of flowers\r\r\r\r\n\rdot the countryside.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The field continues to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15607
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the edge of the plateau to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15691
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The field continues to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15604
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "mice"
+                    ],
+                    "Description": "Mice scitter along the ground here.\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "flowers",
+                        "flower"
+                    ],
+                    "Description": "Flowers of every color imaginable grow all around you.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15694,
+            "Zone": 156,
+            "Name": "Intersection of Newbie Trail and Peaceful Road",
+            "Description": "This is a junction of a peaceful road and a trail.  The road leads north\r\r\r\r\n\rand south, while the trail heads east and west.  You can see a large\r\r\r\r\n\rcliff off towards the east.  Small animals scurry around, oblivious\r\r\r\r\n\rto anything, or anybody.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The road continues to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15683
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A cliff lies to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15601
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The road continues south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15680
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a grassy area towards the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15696
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15695,
+            "Zone": 156,
+            "Name": "Before the spring",
+            "Description": "The overall beauty of the scenery surrounding you is nearly breathtaking.\r\r\r\r\n\rTall, ageless trees tower above you as the soft soothing sound of\r\r\r\r\n\rgurgling water can be heard from the crystal clear pool of water.  \r\r\r\r\n\rThe sparkling water pool reflects your image vividly as you contemplate\r\r\r\r\n\rtaking a drink from it.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "A grassy expanse lies south of here.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15696
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "tree",
+                        "trees"
+                    ],
+                    "Description": "Huge, ageless trees that have withstanded the test of time\r\r\r\r\n\rshade you from the heat of the day, and protect you from the cold\r\r\r\r\n\rof the night.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 15696,
+            "Zone": 156,
+            "Name": "End of newbie trail",
+            "Description": "The trail widens here into a pleasant grassy field that is covered\r\r\r\r\n\rwith lush green grass swaying gently in the breeze.  Towards the\r\r\r\r\n\reast, the trail intersects a road heading north and south.  Off to the\r\r\r\r\n\rnorth, gurgling water can be heard.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a shimmering pool of water to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15695
+                },
+                {
+                    "Direction": "East",
+                    "Description": "An intersection of sorts lies to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15694
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The trail meanders off towards the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15697
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15697,
+            "Zone": 156,
+            "Name": "Trail towards Newbie Plateau",
+            "Description": "The trail is gradually getting wider and apparently more widely used, as\r\r\r\r\n\rthe grass and weeds that grow within it are becoming more sparse.  In\r\r\r\r\n\rthe distance, you can see the dark outline of a cliff face looming\r\r\r\r\n\rover the treetops.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The trail seems to widen and get brighter towards the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15696
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The trail narrows a bit towards the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15698
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15698,
+            "Zone": 156,
+            "Name": "Trail to Plateau",
+            "Description": "The path widens here into something that more closely resembles a trail.\r\r\r\r\n\rThe breeze that meanders through the trees is refreshing, however it\r\r\r\r\n\rcannot hide the evidence of recent travellers that have also journeyed\r\r\r\r\n\rupon this trail.  The air surrounding you is crisp and clean.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The trail seemingly gets wider towards the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15697
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The trail turns into a path that heads off to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15699
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 15699,
+            "Zone": 156,
+            "Name": "Path to the Newbie Plateau",
+            "Description": "You find yourself on a small dirt trail that leads off towards a high\r\r\r\r\n\rcliff. The peaceful sounds of squirrels chittering and birds chirping\r\r\r\r\n\ris all that can be heard.  There is a sign with arrows pointing in\r\r\r\r\n\rtwo different directions just off the side of the trail.\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The path seems to widen towards the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 15698
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the dirt road which is north of Midgaard to your west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3060
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "A wooden sign reads:  \u003c--------Midgaard  ||  Newbie Plateau--------\u003e\r\r\r\r\n\r"
+                }
+            ]
+        }
+    ]
+}

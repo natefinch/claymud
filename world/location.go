@@ -20,8 +20,9 @@ type Location struct {
 	Name string
 	Desc string
 	Exits
-	Area    *Area
-	Players map[string]*Player
+	Area         *Area
+	Players      map[string]*Player
+	Descriptions map[string]string
 }
 
 // NewLocation creates a new location.

@@ -1,0 +1,3243 @@
+{
+    "rooms": [
+        {
+            "ID": 4000,
+            "Zone": 40,
+            "Name": "Path leading towards Moria",
+            "Description": "   You are on a path leading north, small hills surrounds you.  You feel\nthe forces of evil approach you from the north.  \n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4001
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3199
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4001,
+            "Zone": 40,
+            "Name": "The hills",
+            "Description": "   You are on a small path leading north, dark threatening hills\nsurrounds you to almost all sides.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4002
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The hills continue east. Far off in the distance, you see a snowy mountain.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 21700
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4000
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4002,
+            "Zone": 40,
+            "Name": "End of the path",
+            "Description": "   The path stops here, to the north is a single mountain and around you\nare some threatening hills.  There is a dark cave to the north.  You see a\nlarge sign on the mountain.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4010
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4001
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4596
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "The sign says:\n***********************************************************************\n*                                                                     *\n* ******************************************************************* *\n* *                                                                 * *\n* *                    The Mines of Moria                           * *\n* *                                                                 * *\n* *                  Enter at your own risk.                        * *\n* *                                                                 * *\n* *     Welcome to the mines of Moria..  At present there are only  * *\n* *           3 levels.  Later the plan is to build 20...           * *\n* *                                                                 * *\n* *     Are you below level 3 Don't enter..                         * *\n* *     Are you below level 8 Don't enter alone..                   * *\n* *                                                                 * *\n* ******************************************************************* *\n*                                                                     *\n***********************************************************************\n"
+                }
+            ]
+        },
+        {
+            "ID": 4003,
+            "Zone": 40,
+            "Name": "A dank, dark tunnel",
+            "Description": "The tunnel grows narrower here, and damper. You hear water dripping and the\nwhole area seems to smell of wet earth. You seem to hear some noise coming\nfrom the other end of the tunnel, to the north.\n",
+            "Bits": [
+                "DARK",
+                "TUNNEL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4004
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4059
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4004,
+            "Zone": 40,
+            "Name": "The dank, dark tunnel",
+            "Description": "The tunnel continues as before, but there is definitely the sound of activity\ncoming from the end of the tunnel, to the west. The tunnel continues back south,\nor you can proceed west, where the tunnel opens into a large cave.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4003
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4005
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4005,
+            "Zone": 40,
+            "Name": "A huge cave",
+            "Description": "The tunnel opens out into a huge cave, which has been decorated with soiled\nfurs and bolts of cloth, obviously stolen from caravans heading to the city.\nThis is the domain of the chieftain of the orcs, who does not look very\nhappy to see you visiting his abode...\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4004
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4006,
+            "Zone": 40,
+            "Name": "Under the hole",
+            "Description": "You have descended into an even darker portion of the caves; everything is\ncompletely black, except what is illuminated by your light source. You\nappear to be in a dead end, but you can squeeze through a narrow crack to\nthe west, or go back up through the hole above you.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4007
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4110
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4007,
+            "Zone": 40,
+            "Name": "A very dark tunnel",
+            "Description": "You are in a tunnel that leads north and south. On the eastern wall you see\na crack that it is just possible to squeeze through. It is very dark and\nquiet here, the only sounds being your own labored breathing and a few drips\nof running water.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4008
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4006
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4126
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4008,
+            "Zone": 40,
+            "Name": "A very dark tunnel",
+            "Description": "You are in the northern end of a very dark underground tunnel. The tunnel\ncontinues north and south. You hear activity from somewhere to the north.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4009
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4007
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4009,
+            "Zone": 40,
+            "Name": "A very dark tunnel",
+            "Description": "You are in the northern end of a very dark underground tunnel. All seems\nquiet here, but you can hear some muffled activity to the north, where\nthe tunnel seems to get a bit wider. You can also continue south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4045
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4008
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4010,
+            "Zone": 40,
+            "Name": "The cave",
+            "Description": "   You are in a cave, to the south you sense fresh air.  To the north a\nsmall tunnel continues into the mountain.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4011
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4002
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4011,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You force your way through a small tunnel, to you south you sense \na little fresh air, and to the north the tunnel continues.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4014
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4010
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4012,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are in a small tunnel, to the north there is a cave.  The tunnel\ncontinues to the east.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4016
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4013
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4013,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are in a small tunnel leading east-west.  The floor is covered by\ndust.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4014
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4012
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4014,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are in a tunnel, the tunnel continues to the south and to the \nwest, to the north there is a cave.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4018
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4011
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4013
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4015,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are in a small tunnel, the tunnel continues west.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4019
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4014
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4016,
+            "Zone": 40,
+            "Name": "The large cave",
+            "Description": "   You are in a large cave, the cave continues east and west, to the south\nyou notice a small tunnel.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4017
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4012
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4023
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4017,
+            "Zone": 40,
+            "Name": "The large cave",
+            "Description": "   You are in the east end of the large cave.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4016
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4018,
+            "Zone": 40,
+            "Name": "The cave",
+            "Description": "   You are in the south end of a cave, to the south you see a tunnel.  You\nnotice a large pile of bones in the corner.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4025
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4014
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "pile",
+                        "bones"
+                    ],
+                    "Description": "Well you better watch out - some of the bones are human !\n"
+                }
+            ]
+        },
+        {
+            "ID": 4019,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are in a north-south leading tunnel.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4026
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4015
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4020,
+            "Zone": 40,
+            "Name": "The hole",
+            "Description": "   You are by a hole in the floor, you can leave down, or north.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4027
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4064
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4021,
+            "Zone": 40,
+            "Name": "The hole",
+            "Description": "   You are by a hole in the floor, exits are down or east.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4022
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4115
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4022,
+            "Zone": 40,
+            "Name": "The damp tunnel",
+            "Description": "   You are in a damp tunnel, your clothes feel wet.  The tunnel continues\nto the north, to the west you see a hole in the floor and to the east\nthere is a large cave.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4024
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4023
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4021
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4023,
+            "Zone": 40,
+            "Name": "The large cave",
+            "Description": "   You are in the western part of the large cave, to the west you see\na damp tunnel.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4016
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4022
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4024,
+            "Zone": 40,
+            "Name": "The damp tunnel",
+            "Description": "   You are in a damp tunnel, that leads west.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4022
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4059
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4025,
+            "Zone": 40,
+            "Name": "The cave",
+            "Description": "   You are in the north end of a cave.  To the east you see some tunnels\nwhich leads in many directions.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4026
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4018
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9600
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4026,
+            "Zone": 40,
+            "Name": "The many tunnels",
+            "Description": "   You are in a tunnel, that leads of in all directions.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4028
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4027
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4019
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4025
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4027,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are in a north-south leading tunnel, you also notice a tunnel to\nthe west.  From the north you sense the fresh air!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4029
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4020
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4026
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4028,
+            "Zone": 40,
+            "Name": "The smelly tunnel",
+            "Description": "   You are in a north-south leading tunnel, you see a small light\nto the north.  You notice a strange smell from the north..\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4030
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4026
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4029,
+            "Zone": 40,
+            "Name": "The cave",
+            "Description": "   You are in a cave that is filled with fresh air, you sense the\nwind blowing from the north.  To the south you see a small tunnel\ncontinue into the mountain.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4031
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4027
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4030,
+            "Zone": 40,
+            "Name": "The light cave",
+            "Description": "   You are in a light cave, through a hole large above you, you see \nthe sky.  A small tunnel to the south is the only way out.\nYou notice the source of the strange smell, all around you there is\ncorpses from several monsters.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4028
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "corpse",
+                        "corpses"
+                    ],
+                    "Description": "IT STINKS!\n"
+                }
+            ]
+        },
+        {
+            "ID": 4031,
+            "Zone": 40,
+            "Name": "The valley",
+            "Description": "   You are in a small valley, surrounded by hills and a mountain to \nthe south.  In the mountain there is a cave.  To the north you enter\nthe hills.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4032
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4029
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "cave"
+                    ],
+                    "Description": "Well it doesn't look nice, but it's the only way out..\n"
+                }
+            ]
+        },
+        {
+            "ID": 4032,
+            "Zone": 40,
+            "Name": "The foothills",
+            "Description": "   You are on a winding path that leads through the foothills on the\nother side of the mountain.  The path continues north.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4033
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4031
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4033,
+            "Zone": 40,
+            "Name": "The intersection in the foothills",
+            "Description": "   The small path you are following splits here.  The path continues\nnorth and south or you can follow a trail east into the mountains.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4034
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4037
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4032
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4034,
+            "Zone": 40,
+            "Name": "The grassy area of the foothills",
+            "Description": "  The grass here is unusually high.  You notice several areas where\nsomeone or something large has crush spots of the down.  Several very\nlarge rocks litter this area.  You can go north, west or south.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4035
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4033
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4042
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4035,
+            "Zone": 40,
+            "Name": "The foothills end",
+            "Description": "  At this point you are leaving the foothills.  You see a plains area\nto the north of here.  You can spot a small city in the distance from\nhere.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4036
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4034
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4036,
+            "Zone": 40,
+            "Name": "The plains",
+            "Description": "   The plains.  The only exit is south.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4035
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4037,
+            "Zone": 40,
+            "Name": "The foothills path",
+            "Description": "  exits are east and west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4038
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4033
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4038,
+            "Zone": 40,
+            "Name": "Base of the mountain",
+            "Description": "  Exits are east and west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4039
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4037
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4039,
+            "Zone": 40,
+            "Name": "A trail up the mountain",
+            "Description": "   Exits are east and west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4040
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4038
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4040,
+            "Zone": 40,
+            "Name": "The mountain top",
+            "Description": "You are on top of the mountain. Exits are north and west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4041
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4039
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4041,
+            "Zone": 40,
+            "Name": "The lion's den",
+            "Description": "This is definitely a den of some sort.  There are partially gnawed bones\nstrewn about - and some are definitely human.  Some are also definitely\nfresh. You get the distinct feeling this den is still being used as such.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4040
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4042,
+            "Zone": 40,
+            "Name": "The level foothills",
+            "Description": "You are in the level foothills. The exits are east and west, and to the\nnorth you see a large cave with mist rising from the entrance.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9000
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4034
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4043
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4043,
+            "Zone": 40,
+            "Name": "The cave entrance",
+            "Description": "   Exits are east and west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4042
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4044
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4044,
+            "Zone": 40,
+            "Name": "The ogre's den",
+            "Description": "This place has a certain rude splendor to it. Moth-eaten and matted furs\ncover the floor, and a number of animal bones have been scattered among\nthem. Whoever lives here isn't very sophisticated, it seems.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4043
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4045,
+            "Zone": 40,
+            "Name": "Before the large cavern",
+            "Description": "The dark tunnel widens out here, and as you look to the north you see that it\nleads into the mouth of a very large cavern, where you hear some clinking of\nchains and animal noises. There is also a side passageway to the west, or\nyou may continue back south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4046
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4009
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4076
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4046,
+            "Zone": 40,
+            "Name": "The large cavern",
+            "Description": "You are inside a large cavern. The animal noises are louder now, as is the\nsound of what you believe to be chains clinking. Suddenly you hear some\ndeep, guttural noises that sound like language coming from the back of the\ncavern. You may proceed north or east from here, or go back south through\nthe opening to the cavern.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4048
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4047
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4045
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4047,
+            "Zone": 40,
+            "Name": "The large cavern",
+            "Description": "You are in the southeast portion of the large cavern. You hear cursing and\nanimal noises to the north, as well as the clink of metal. You can also go\nwest from here, to another portion of the cavern.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4049
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4046
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4048,
+            "Zone": 40,
+            "Name": "The large cavern",
+            "Description": "You are in the northwestern portion of the large cavern. The animal noises,\nguttural sounds, and other sounds of activity are much louder, and appear\nto be coming from the northeastern potion of the cavern. It is still too\ndark to see any movement there, though. You may investigate the noises to\nthe east, or go back south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4049
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4046
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4049,
+            "Zone": 40,
+            "Name": "The Houndmaster's area",
+            "Description": "This is the northeast portion of the large cavern, and it appears to have\nbeen given over to the purpose of maintaining a kennel for several large\ncanines. However, as you enter the area, you notice that there are no dogs\nchained up the the cavern wall here, but several very large wargs, and the\nfigure in black leather cursing at them is definitely not human...\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4047
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4048
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4050,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are in a tunnel, which turns here.  The tunnel continues to the\neast and the south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4051
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4053
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4051,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are in an east-west leading tunnel.  The tunnel is very narrow\nhere.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4052
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4050
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4052,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are in an east-west leading tunnel.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4100
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4051
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4053,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are at a turn, the tunnel continues north and east.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4050
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4054
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4054,
+            "Zone": 40,
+            "Name": "The light cave",
+            "Description": "You are in a large, dry cave. To the north, you a see a large open fire that\nserves to light the entire cave, and to the east and west tunnels lead off.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4056
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4055
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4063
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4053
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4055,
+            "Zone": 40,
+            "Name": "The maze",
+            "Description": "   You are in a maze of small damp tunnels.  Only exit is west to a \nlight cave.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4054
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4056,
+            "Zone": 40,
+            "Name": "The light cave",
+            "Description": "   You are in a light cave, a large fire in front of you lights the room.\nThe cave continues to the north and south.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4075
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4054
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4061
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "fire"
+                    ],
+                    "Description": "Well, errh - It looks somehow quite warm..!\n"
+                }
+            ]
+        },
+        {
+            "ID": 4057,
+            "Zone": 40,
+            "Name": "The maze",
+            "Description": "   You are in a maze of small damp tunnels.  Exits leads both north\nand south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4055
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4062
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4058,
+            "Zone": 40,
+            "Name": "The maze",
+            "Description": "   You are in a maze of small damp tunnels.  Exits leads west and south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4063
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4057
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4059,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "The tunnel turns here, leading to the north, where it becomes narrower and\ndarker. You can also go back east, the way you came.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4003
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4022
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4060,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are in a small tunnel, to the west the tunnel continues and \nto the east you see some light.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4061
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4059
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4061,
+            "Zone": 40,
+            "Name": "The light cave",
+            "Description": "   You are in the south end of a light cave, tunnels leads of to the\nsouth and west.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4056
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4065
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4060
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4062,
+            "Zone": 40,
+            "Name": "The maze",
+            "Description": "   You are in a maze of small damp tunnels.  Exits leads east and west.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4063
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4061
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4063,
+            "Zone": 40,
+            "Name": "The maze",
+            "Description": "   You are in a maze of small damp tunnels.  Exits leads north and east.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4054
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4064
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4064,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are in a tunnel, only exit is west - Only exit, well there is \nalso a hole in the ceiling.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4063
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4020
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4065,
+            "Zone": 40,
+            "Name": "The maze",
+            "Description": "   You are in a maze of small damp tunnels.  The tunnel continues east.\nTo the north there is a light cave.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4061
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4066
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4066,
+            "Zone": 40,
+            "Name": "The maze",
+            "Description": "   You are in a maze of small damp tunnels.  Exits leads east and\nnorth.  To the south is a large cave.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4062
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4067
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4069
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4067,
+            "Zone": 40,
+            "Name": "The maze",
+            "Description": "   You are in a maze of small damp tunnels.  Exits leads west and\nnorth.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4063
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4066
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4068,
+            "Zone": 40,
+            "Name": "The large cave",
+            "Description": "   You are in the northwest end of a large cave.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4069
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4070
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4069,
+            "Zone": 40,
+            "Name": "The large cave",
+            "Description": "   You are in the northeast end of a large cave.  To the north the\nis a small damp tunnel.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4066
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4071
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4068
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4070,
+            "Zone": 40,
+            "Name": "The large cave",
+            "Description": "   You are in the southwest end of a large cave.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4068
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4071
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4071,
+            "Zone": 40,
+            "Name": "The large cave",
+            "Description": "   You are in the southeast end of a large cave.  To the east you\nnotice a small tunnel.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4069
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4072
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4070
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4072,
+            "Zone": 40,
+            "Name": "The tunnel",
+            "Description": "   You are in a narrow tunnel, which leads both to the east and the\nsouth.  There is also an exit towards the west, where you see a large\ncave.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4073
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4074
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4071
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4073,
+            "Zone": 40,
+            "Name": "End of tunnel",
+            "Description": "   The tunnel stops here.  There is no other exits than the one you\ncame from.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4074,
+            "Zone": 40,
+            "Name": "The hole",
+            "Description": "   You are at a small hole in the floor, you can either leave north\nor try your luck and leave down into the unknown!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4075,
+            "Zone": 40,
+            "Name": "The light cave",
+            "Description": "You are at the northern end of the lighted cave. The only exit is south.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4056
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4076,
+            "Zone": 40,
+            "Name": "A side passageway",
+            "Description": "You are in a passageway that leads east and west. To the west, it appears to\ngrow wider and not quite as damp, while to the east it dead-ends in a very\ndark tunnel. You think you hear metal clinking to the east, but there are\nsome suspicious noises to the west as well. Now would be a very good time\nto decide where to go.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4045
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4077
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4077,
+            "Zone": 40,
+            "Name": "A foul-smelling cavern",
+            "Description": "The side passageway has led you into a cavern that smells truly foul, like\nnothing you have ever experienced before. The odor is almost palpable; a\nmixture of blood, sweat, and wet dogs. You hear noise from the northern\nend of the cavern. Squinting into the distance, you can see a passageway\nleading further west, and one leading east, toward a very dark tunnel.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4078
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4076
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4083
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4078,
+            "Zone": 40,
+            "Name": "A foul-smelling cavern",
+            "Description": "You are still in a foul-smelling cavern, which continues further north, and\nyou can hear noise of some sort going on there. As you continue through the\narea, you hear a crack, and you realize that the floor is covered with bones,\nno few of them human ones. On the heels of this thought is your observation\nthat the cavern also continues south, back the way you came...\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4080
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4077
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4079,
+            "Zone": 40,
+            "Name": "A gnollish torture chamber",
+            "Description": "This portion of the cavern smells even worse, and the reason for this is\nquickly apparent. A number of crude, but effective torture devices have\nbeen set up here, and one is occupied by a human woman who looks to have\ndied very recently. Others are stained with blood and other materials, and\nthe floor is positively littered with bones and gore. A number of evil-\nlooking gnolls are shouting at each other here, but they quickly turn\naround when you enter, then grin at you and raise their weapons...\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4081
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4080
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4080,
+            "Zone": 40,
+            "Name": "A foul-smelling cavern",
+            "Description": "Continuing north into the cavern, you are forced to walk very slowly as the\nbones of the floor have increased in frequency. The smell is, if anything,\ngrowing even more intense, and you begin to wonder why you are still here\nas you wipe the stinging tears away from your eyes. The cavern continues\nnorth and south, and the activity to the north seems much closer now.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4079
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4078
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4081,
+            "Zone": 40,
+            "Name": "The cages",
+            "Description": "This part of the cavern is given over to a number of crude but strong cages,\nwhere prisoners are kept before being tortured. A quick glance over the\npens reveals that none of them are currently occupied, but you feel sick to\nyour stomach nonetheless, and get a great urge to smash something, preferably\nwhatever foulness is responsible for this savagery!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4082
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4079
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4082,
+            "Zone": 40,
+            "Name": "The Master Torturer's chamber",
+            "Description": "The cavern dead-ends here, and as your eyes absorb the sight waiting for you\nat the back of the foul-smelling cavern, you feel sick and horrified and\noutraged all at the same time. What is obviously the gnolls' Master Torturer\nis sitting here, calmly chewing on the corpse of a dead human baby. You feel\nthe sick certainty that it is the child of the woman who was just tortured\nto death in the center of the cavern. Your stomach heaves at this vile\natrocity, and you can barely restrain yourself from killing the filthy gnoll\nwhere he sits!\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4081
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4083,
+            "Zone": 40,
+            "Name": "A side passageway",
+            "Description": "This passageway leads east and west. To the east you see the southern end of\na cavern that smells quite foul, and to the west the passageway continues.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4077
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4084
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4084,
+            "Zone": 40,
+            "Name": "A side passageway",
+            "Description": "You are in a side passageway leading east and west. To the west you hear a\nlot of loud noises, while the eastern end of the passage is relatively quiet.\nYou suddenly get a whiff of something foul from the east.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4083
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4085
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4085,
+            "Zone": 40,
+            "Name": "Entrance to the barracks cave",
+            "Description": "You are at the entrance to a very large, very noisy cave. The clash of metal,\nguttural grunts, and scuffling of feet fills the air here. It sounds as if\nthere is a battle of some sort in progress in there. The noise appears to\nbe coming from the north. However, you can also go east from here, and try\nto remain undetected by whoever is in there.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4087
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4084
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4086,
+            "Zone": 40,
+            "Name": "The barracks cave",
+            "Description": "You are in the southwestern corner of the noisy cave. The source of the noise\nseems to lie somewhere to the northeast of you. There are a large number of\nfurred blankets lying around on the floor here. Examining them more closely,\nyou see that they were crudely made. Some of them are covering a number of\nvery disquieting bones, possibly human ones.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4089
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4087
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4087,
+            "Zone": 40,
+            "Name": "The barracks cave",
+            "Description": "You are in the southern portion of the noisy cave. The source of the racket\nsounds as if it lies to the northeast of your location. Looking to the east\nand west, you see a large number of furs lying about the floor in disarray.\nLooks as if a lot of people use this room to sleep in.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4090
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4088
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4085
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4086
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4088,
+            "Zone": 40,
+            "Name": "The barracks cave",
+            "Description": "You are in the southeastern corner of the cave. The noise is very close to\nyou now, probably directly to the north. You can see a number of large\nhumanoid forms moving around in that direction, but it is too dark to make\nout any details. A bunch of furs are piled up in this end of the cave.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4091
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4087
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4089,
+            "Zone": 40,
+            "Name": "The barracks cave",
+            "Description": "You are in the northeast corner of the noisy cave. You sense that the racket\nis definitely coming from somewhere to the east of you. The cave floor in\nthis area is covered with wood ash and soot, as if someone has been tending\nan open fire here recently. A number of charred bones litters the floor.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4090
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4086
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4090,
+            "Zone": 40,
+            "Name": "The barracks cave",
+            "Description": "You are in the northern portion of the cave. The noise is very close now.\nYou think it lies directly to the east. Peering in that direction, you see\na number of very large humanoid forms moving around, and the glint of steel\ncatches your eye, but it is too dark to make out any details...like how\nmany of them there are. The northern wall of this area has a very large\nboulder pushed in front of it, and as you examine it, you feel a slight\nbreeze, as if it is concealing a passage of some sort.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A large boulder blocks passage to the north.\n",
+                    "Keywords": [
+                        "passage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 4093
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4091
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4087
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4089
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4091,
+            "Zone": 40,
+            "Name": "The barracks cave",
+            "Description": "You are in the northeastern portion of the cave. This is obviously the source\nof the racket you heard earlier. A bunch of gnolls appear to be sparring in\nhere, their weapons gleaming wickedly by your light source. As you enter the\narea, they turn to face you, and it seems that they would much rather fight\nwith you than with each other...\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4092
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4088
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4090
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4092,
+            "Zone": 40,
+            "Name": "The barracks cave",
+            "Description": "This is a small alcove in the cave. There is a good view of the sparring\narea from here, as well as a few rocks that would make fairly comfortable\nplaces to sit. The trouble with this idea is that someone else has already\nthought of it...\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4091
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4093,
+            "Zone": 40,
+            "Name": "The officers' quarters",
+            "Description": "This portion of the cave seems a lot drier and warmer than the outer part.\nAlthough the decor is much the same, consisting largely of soiled furs,\nbones, and ashes, the cave is a bit more comfortable. Apparently the people\nwho live here are a bit more important than the average gnolls.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "A large boulder blocks the passage.\n",
+                    "Keywords": [
+                        "passage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 4090
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4094
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4094,
+            "Zone": 40,
+            "Name": "The officers' quarters",
+            "Description": "This cave is much like the other one, with a number of what appear to be\nwolf pelts arranged on the floor to serve as a kind of bed. A large leg\nbone lies on top of them, worried at by a set of extremely large teeth.\nMaybe someone is trying to stop a nasty nail-biting habit. And maybe if\nyou're not careful, they might decide they need a new bone to chew on...\nAlso catching your eye is a large pile of broken rock on the north wall.\nA closer examination reveals some sort of tunnel behind it, that may be\naccessible, if you can shove the rocks away.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The tunnel is blocked by a huge pile of broken rock.\n",
+                    "Keywords": [
+                        "tunnel"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 4096
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4093
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4095
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4095,
+            "Zone": 40,
+            "Name": "The officers' quarters",
+            "Description": "This cave is fairly similar to the other two inner caves, being a bit warmer\nand drier than the one outside. This room's denizen apparently catches rats\nin his spare time, for a number of them are tied to a long stake wedged into\na crack in the floor by their tails. Looking around, you see a few more of\nthe rats have been brained with something hard and heavy. These bodies seem\nto be missing their tails altogether. Rats are very ungrateful pets.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4094
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4096,
+            "Zone": 40,
+            "Name": "A twisty narrow passage",
+            "Description": "Pushing aside the broken rocks, you find that this tunnel is a lot narrower\nthan you expected it to be. Your gear bangs noisily against the cave walls\nas you struggle to adjust your position. You peer around and notice that\nthis tunnel weaves and twists around quite a good bit, but appears to lead\nnorth. You can also go back south, the way you came.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4097
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The tunnel is blocked by a large pile of broken rock.\n",
+                    "Keywords": [
+                        "tunnel"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 4094
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4097,
+            "Zone": 40,
+            "Name": "A twisty narrow passage",
+            "Description": "Dragging yourself painfully through this tight and twisty passage, you find\nthat it turns to the east here, or you may go back south.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4098
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4096
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4098,
+            "Zone": 40,
+            "Name": "A twisty narrow passage",
+            "Description": "Struggling through this tortuous passage, you grin in relief when you see\nthat it opens out into a cave ahead, to the east. At last! Then, you\nsuddenly freeze in horror when you hear a loud noise. There is something\nin there, and it is moving...\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4099
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4097
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 4099,
+            "Zone": 40,
+            "Name": "The gnoll chieftain's chamber",
+            "Description": "You emerge from the twisty narrow tunnel and find yourself in what passes\nfor an opulent lair here in Moria. This is where the chieftain of the gnolls\nmakes his home, and he is currently admiring some treasure brought back from\na caravan his raiders have looted. As the sound of your presence reaches him,\nhe turns and confronts you with a look that says you will die slowly...\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4098
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

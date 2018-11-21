@@ -1,0 +1,1481 @@
+{
+    "rooms": [
+        {
+            "ID": 2201,
+            "Zone": 22,
+            "Name": "The Tower Gates",
+            "Description": "You are at the entrance to a tall tower.  Lightning flashes periodically and\r\r\r\r\r\r\n\rit is raining.  You think it might be a good idea to turn back into the grove.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a large steel gate.  Beyond is the Foyer of the Tower.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "gate",
+                        "steel"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 2231,
+                    "Destination": 2202
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The shadows cloud your vision.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1304
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "Description": "The gate is tall and secure.  Whoever built it values privacy.\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 2202,
+            "Zone": 22,
+            "Name": "The Foyer",
+            "Description": "This is the entrance to the Tower.  The hallway continues to the north,\r\r\r\r\r\r\n\rleading towards a staircase.  You notice a grim painting on the wall,  and \r\r\r\r\r\r\n\rquickly look away.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a long hallway. \r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2203
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the gate. \r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2201
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "painting"
+                    ],
+                    "Description": "This painting depicts the grisly death of a foolish human.  You hope you do \r\r\r\r\r\r\n\rnot share his fate.\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 2203,
+            "Zone": 22,
+            "Name": "Hallway",
+            "Description": "This hallway seems to stretch on forever.  You notice a stairway in  \r\r\r\r\r\r\n\rthe distance. \r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The hall continues. \r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2204
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the foyer. \r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2202
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2204,
+            "Zone": 22,
+            "Name": "Hallway",
+            "Description": "You trudge down the hallway.  You notice doors to the east and west. \r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The hall continues. \r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2207
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a door.  You notice a sign. \r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2205
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The hall continues.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2203
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see an oak door.  There is an inscription on it. \r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "oak"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2206
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "The sign says \"NURSERY\" in bold letters.     \r\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "inscription"
+                    ],
+                    "Description": "It says \"STORAGE\"\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 2205,
+            "Zone": 22,
+            "Name": "Nursery",
+            "Description": "It looks like a tornado has been through here.  Toys are scattered everywhere,\r\r\r\r\r\r\n\rand a small group of dragon hatchlings are fighting over a bone. \r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a large stone door.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "stone"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2297,
+                    "Destination": 2223
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the hallway. \r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2204
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2206,
+            "Zone": 22,
+            "Name": "Storage Room",
+            "Description": "This room is covered with dust, it looks as if no one has been here in ages.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the hallway. \r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2204
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see nothing special. \r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2208
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "dust"
+                    ],
+                    "Description": "As you look closely at the dust, you notice the outline of a trapdoor!       \r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 2207,
+            "Zone": 22,
+            "Name": "End of the Hallway",
+            "Description": "You have finally reached the end of the hallway.  A huge staircase leads up.\r\r\r\r\r\r\n\rYou see a sign at the base of the staircase. \r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The hall continues. \r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2204
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "The second floor.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2210
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "The sign reads:\r\r\r\r\r\r\n\r    This area is kind of tough.  You probably shouldn't go up these stairs \r\r\r\r\r\r\n\r    alone if you are under 18th level, or at all if you under 14th level.  \r\r\r\r\r\r\n\r    Have fun! -- Wench\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 2208,
+            "Zone": 22,
+            "Name": "Guardian's Room",
+            "Description": "You climb down the rickety stairs and find yourself face to face with a \r\r\r\r\r\r\n\rgargantuan hydra.  How fast can you climb UP stairs? \r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "A large grey door.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "grey"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 2234,
+                    "Destination": 2209
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see the storage room. \r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "trap",
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2206
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2209,
+            "Zone": 22,
+            "Name": "The Treasure Room",
+            "Description": "You have made it past the hydra into the vault.  You are astounded by \r\r\r\r\r\r\n\rthe treasure here.  Not only are you now rich, you can probably rest here\r\r\r\r\r\r\n\rsafely.  The west wall seems to have a large door made entirely of ruby.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see nothing special. \r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "grey"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2234,
+                    "Destination": 2208
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a ruby door!\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "ruby"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2232,
+                    "Destination": 2218
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2210,
+            "Zone": 22,
+            "Name": "The Second Floor",
+            "Description": "You have made it up to the second floor.  You hear hissing and see several\r\r\r\r\r\r\n\rdragon men rushing you.  You wonder how long you will be staying here.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the court.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": 1,
+                    "Destination": 2211
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see the first floor.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2207
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2211,
+            "Zone": 22,
+            "Name": "The Court",
+            "Description": "You have entered what seems to be a large court.  The people guarding it\r\r\r\r\r\r\n\rdon't seem happy to see you ...\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see nothing special.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2210
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a wooden door. \r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "wooden"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2212
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the court.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2213
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2212,
+            "Zone": 22,
+            "Name": "Hall O' Pleasure",
+            "Description": "You stop dead in your tracks as you enter this ornately decorated room - it\r\r\r\r\r\r\n\ris populated with the king's harem.  \r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see the Court.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2211
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2213,
+            "Zone": 22,
+            "Name": "The Court",
+            "Description": "You are continuing down the hall.  To the east and west you see ornate doors.\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the court.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2211
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a black door.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "black"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 2240,
+                    "Destination": 2214
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the court.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2216
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a white door.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "white"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 2233,
+                    "Destination": 2215
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2214,
+            "Zone": 22,
+            "Name": "The Library",
+            "Description": "    You have entered a huge room, filled with books.  A peaceful man is\r\r\r\r\r\r\n\rsitting at a table, studying.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see the court.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "black"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 2240,
+                    "Destination": 2213
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2215,
+            "Zone": 22,
+            "Name": "The Sanctum",
+            "Description": "    This small room is modestly decorated with small dragon icons.  Its sole\r\r\r\r\r\r\n\roccupant is deep in thought.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the Court.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "white"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 2233,
+                    "Destination": 2213
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2216,
+            "Zone": 22,
+            "Name": "The Court Ends",
+            "Description": "    You have reached the end of the court.  A huge Draconian is sitting in a\r\r\r\r\r\r\n\rchair here.  As you enter, he motions with his hand and you are rushed by three\r\r\r\r\r\r\n\rof his bodyguards.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the court.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2213
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a private chamber.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2217
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 999
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2217,
+            "Zone": 22,
+            "Name": "bedroom",
+            "Description": "    This is the personal room of the draconian king.  It is not empty.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see Court.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2216
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2218,
+            "Zone": 22,
+            "Name": "Entrance to the Crypt",
+            "Description": "    You have entered a large room which smells heavily of reptile.  You wonder\r\r\r\r\r\r\n\rwhat awaits you here.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the Treasure Vault.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "ruby"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2232,
+                    "Destination": 2209
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the Crypt.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2219
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2219,
+            "Zone": 22,
+            "Name": "Crypt",
+            "Description": "    You are in a large room which continues to the west.  You notice many\r\r\r\r\r\r\n\rcoffins here.  Open coffins reveal remains of something other than man.  \r\r\r\r\r\r\n\rThe smell of reptile is very strong here.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the entrance.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2218
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see nothing special.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2222
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2220,
+            "Zone": 22,
+            "Name": "The Lair",
+            "Description": "    You have entered a large room dominated by a great white dragon.  It growls\r\r\r\r\r\r\n\rat you before it attacks.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You the cave opening.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2235
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2221,
+            "Zone": 22,
+            "Name": "A Lair",
+            "Description": "     You have entered a large room dominated by a great black dragon.  It looks\r\r\r\r\r\r\n\ras though it is amused by your presence.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You the cave opening.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2241
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2222,
+            "Zone": 22,
+            "Name": "The Crypt Ends",
+            "Description": "    You have come to the end of the Crypt.  It seems deserted.  There is a \r\r\r\r\r\r\n\rstrange coffin lying against the wall.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the Crypt.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2219
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "coffin"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 2222,
+                    "Destination": 2232
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "coffin"
+                    ],
+                    "Description": "  A coffin lies a against the east wall.  It is closed.\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 2223,
+            "Zone": 22,
+            "Name": "Entrance to the Great Hall",
+            "Description": "    You have entered a huge hall.  It has been carefully decorated with\r\r\r\r\r\r\n\rbeautiful tapestries depicting a great battle between dragons and men.  The\r\r\r\r\r\r\n\rdragons appear to be the victors.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The Hall continues.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2224
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the Nursery.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "stone"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 2297,
+                    "Destination": 2205
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2224,
+            "Zone": 22,
+            "Name": "The Great Hall",
+            "Description": "    You are working your way down the Hall.  To the north, you notice a smaller\r\r\r\r\r\r\n\rpassageway, while the main hall continues to the east.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a narrow passageway.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2225
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the Hall.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2229
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2225,
+            "Zone": 22,
+            "Name": "A Narrow Passageway",
+            "Description": "This Passageway branches off from the main hall and leads somewhere ... where?\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a large Lair.  It looks dangerous.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2226
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the great hall.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2224
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2226,
+            "Zone": 22,
+            "Name": "Lair",
+            "Description": "    You have entered a large lair with bones strewn about the ground.  You\r\r\r\r\r\r\n\rnotice the source of these as you come face to face with a rather large red\r\r\r\r\r\r\n\rdragon.  You notice a trap door in the floor.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The narrow passageway.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2225
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see a trap door.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "trap",
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2227
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2227,
+            "Zone": 22,
+            "Name": "Underground Tunnel",
+            "Description": "    You have entered an underground tunnel.  It is dark and dirty, and you find\r\r\r\r\r\r\n\ryourself wishing you were back in Midgaard.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the tunnel.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2228
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see the red dragon's lair.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "trap",
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2226
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2228,
+            "Zone": 22,
+            "Name": "Underground Tunnel",
+            "Description": "This tunnel has come to a dead end.  You feel nervous about being trapped here.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the tunnel.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2227
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2229,
+            "Zone": 22,
+            "Name": "The Great Hall Ends.",
+            "Description": "    You have come to the end of the great hall.  You see before you a huge\r\r\r\r\r\r\n\rgolden door, it must be at least twenty feet tall!  It has beautiful etchings\r\r\r\r\r\r\n\rof dragons.  You see a sign on the door.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a great golden door.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "great",
+                        "golden"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2299,
+                    "Destination": 2230
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the hall.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2224
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "    Congratulations on making it this far!  Watch out, it gets a little\r\r\r\r\r\r\n\r    nasty here... :) - Wench\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 2230,
+            "Zone": 22,
+            "Name": "THE Lair",
+            "Description": "    You have entered a huge lair.  You feel that something big lives here or at least did.  The golden door lies back to the west.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see a great golden door.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "golden",
+                        "great"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2299,
+                    "Destination": 2229
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2231,
+            "Zone": 22,
+            "Name": "The End...",
+            "Description": "You have reached the final lair.  It is dominated bye a huge three headed\r\r\r\r\r\r\n\rdragon.  You suddenly realize that you have SERIOUS problems...\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the top of the mountain.\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2241,
+                    "Destination": 2243
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2232,
+            "Zone": 22,
+            "Name": "Stairwell",
+            "Description": "   This is an old decrepit stairwell that leads to the wine cellar.  It looks\r\r\r\r\r\r\n\rlike it hasn't been used for decades.  Well, at least not by anything living.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The crypt",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2222
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "A wine cellar",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2233
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2233,
+            "Zone": 22,
+            "Name": "Wine cellar",
+            "Description": "   This is the old wine cellar of the Dragon Tower.  The shelves are empty.\r\r\r\r\r\r\n\rNothing living has been in here for a long time.  You see a tunnel leading\r\r\r\r\r\r\n\roff to the east and boy does it smell bad.  Kinda of like rotting flesh.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "A tunnel\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2234
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "The stairwell\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2232
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2234,
+            "Zone": 22,
+            "Name": "Tunnel",
+            "Description": "  This tunnel seems to stretch for miles.  You try to distinguish the end but\r\r\r\r\r\r\n\ryour eyes soon tire from the strain.  The smell here has increased two fold.\r\r\r\r\r\r\n\rThe tunnel continues to go to the east.  The wine cellar lies back to the \r\r\r\r\r\r\n\rwest.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "TUNNEL"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A cave opening\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2235
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A tunnel\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2236
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A tunnel\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2233
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2235,
+            "Zone": 22,
+            "Name": "A cave opening",
+            "Description": "  You stand at the opening of a giant cave.  There are many bones strewn across\r\r\r\r\r\r\n\rthe room.  Some human, some indistinguishable.  It smells very bad in here.\r\r\r\r\r\r\n\rYou can hear movement in the cave to the north.  The tunnel goes back to the\r\r\r\r\r\r\n\rsouth.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "TUNNEL"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The lair\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2220
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The tunnel\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2234
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2236,
+            "Zone": 22,
+            "Name": "The End of the tunnel",
+            "Description": "   You have finally come to the end of the tunnel.  Back to the west lies\r\r\r\r\r\r\n\rthe miles of tunnels you have walked through.  You see the faint outline of\r\r\r\r\r\r\n\ra trapdoor above you.  A bride over an underground river lies to the south.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "TUNNEL"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "bridge\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2237
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The tunnel\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2234
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "trapdoor\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2202
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2237,
+            "Zone": 22,
+            "Name": "The Bridge",
+            "Description": "   You are walking along an old wooden bridge.  Its not that secure.  You \r\r\r\r\r\r\n\rmight want to hurry along.  To the south, on the other side of the bridge,\r\r\r\r\r\r\n\rlies a small opening.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The tunnel end\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2236
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A small opening\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2238
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2238,
+            "Zone": 22,
+            "Name": "A small opening",
+            "Description": "   You are standing in a small opening.  To the north lies the old wooden\r\r\r\r\r\r\n\rbridge.  To your south the you can see a clearing.  You can see sunlight\r\r\r\r\r\r\n\ragain.  What a welcome relief!\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "bridge\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2237
+                },
+                {
+                    "Direction": "South",
+                    "Description": "clearing\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2239
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2239,
+            "Zone": 22,
+            "Name": "Clearing",
+            "Description": "   You stand out in a clearing.  Mountains are all around you.  There is a \r\r\r\r\r\r\n\rwell in the middle of the clearing.  Lying against the well is a sign.  A\r\r\r\r\r\r\n\rpath leads up the mountain.  The small opening is back to the north.\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "the small opening\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2238
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "A path\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2240
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The well\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2244
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "well"
+                    ],
+                    "Description": "  You peer over the side of the well.  It looks VERY, VERY deep.  It appears\r\r\r\r\r\r\n\rto be ENDLESS.\r\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "The sign reads:\r\r\r\r\r\r\n\r\t This is a bottomless pit cleverly disguised as a well.  People have\r\r\r\r\r\r\n\rfallen in and never been heard from again.  Trust me, you don't want to go \r\r\r\r\r\r\n\rdown there.\r\r\r\r\r\r\n\r\t\t\tThe All Powerful Well Keeper\r\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 2240,
+            "Zone": 22,
+            "Name": "A path",
+            "Description": "   This path leads up the side of the mountain.  A clearing lies below you.\r\r\r\r\r\r\n\rThere is a cave opening to the west.  The path continues up the mountain.\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "cave opening\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2241
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "the path continues\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2242
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "clearing\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2239
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2241,
+            "Zone": 22,
+            "Name": "A cave opening",
+            "Description": "   You stand before a huge cave opening.  You hearing heavy breathing from\r\r\r\r\r\r\n\rwithin the cave.  There are a few skeletons lying about.  The cave lies to \r\r\r\r\r\r\n\rthe south.  The path is back to the east.\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "the path\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2240
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A lair\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2221
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2242,
+            "Zone": 22,
+            "Name": "The path continues",
+            "Description": "   The path continues up the mountain to the top.  The path also goes down.\r\r\r\r\r\r\n\rThats it, nothing more to see.\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "top of the mountain\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2243
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "path\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2240
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2243,
+            "Zone": 22,
+            "Name": "The top of the mountain",
+            "Description": "You are standing at the top of the mountain.  It feels like the top of\r\r\r\r\r\r\n\rthe world.  To your north lies a huge platinum door.  You hear very\r\r\r\r\r\r\n\rpronounced grumbling from behind the door.  It sounds like something huge\r\r\r\r\r\r\n\rand hungry.  But if you don't have the key you don't have to worry \r\r\r\r\r\r\n\rbecause you can't get it.  If you do have the key I would suggest not\r\r\r\r\r\r\n\rgoing in.  Some believe that Bahumut the Platinum Dragon was imprisoned\r\r\r\r\r\r\n\rhere bye the gods.  But who believes fairy tales.  Well if you're scared,\r\r\r\r\r\r\n\ryou can always go down the mountain.\r\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The platinum door\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door",
+                        "platinum"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2241,
+                    "Destination": 2231
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The path continues\r\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2242
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "door",
+                        "platinum"
+                    ],
+                    "Description": "A huge platinum door separates you from harm"
+                }
+            ]
+        },
+        {
+            "ID": 2244,
+            "Zone": 22,
+            "Name": "Well",
+            "Description": "O\r\r\r\r\r\r\n\r h\r\r\r\r\r\r\n\r   !\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r     N\r\r\r\r\r\r\n\r      o\r\r\r\r\r\r\n\r       !\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r   I warned you!  You have fallen into the bottomless pit.  You life flashes\r\r\r\r\r\r\n\rright before your eyes.  Pretty pathetic isn't it?  Next time you'll know\r\r\r\r\r\r\n\rto listen to the God of Laughs.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DEATH",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2239
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

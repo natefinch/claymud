@@ -1,0 +1,3604 @@
+{
+    "rooms": [
+        {
+            "ID": 9000,
+            "Zone": 90,
+            "Name": "A Small Opening Into the Earth",
+            "Description": "You stand outside a large cave opening. A head depicting some kind of \r\r\r\r\r\r\n\rhorned beast is carved into the rock above the gaping entrance.\r\r\r\r\r\r\n\rComing from within the darkness before you, the cries of tormented\r\r\r\r\r\r\n\rsouls sends shivers down your spine.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9001
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 4042
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9001,
+            "Zone": 90,
+            "Name": "In a Musty Tunnel",
+            "Description": "You start to feel claustrophobic as you franticly look around this earthy\r\r\r\r\r\r\n\rtunnel. Looking behind you, a few beams of sunlight streak onto the tunnel's\r\r\r\r\r\r\n\rwalls and floor. You wonder if you should turn back now or brave the\r\r\r\r\r\r\n\runcertain dangers which lie within.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "TUNNEL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A rusty iron portcullis blocks the passage ahead. With a little effort\r\r\r\r\r\r\n\rit may be possible to move it...\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "portcullis"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9002
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9000
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9002,
+            "Zone": 90,
+            "Name": "A Musty Tunnel",
+            "Description": "The earthen tunnel ahead is sealed off by a rotted wooden door, bound with\r\r\r\r\r\r\n\riron straps. On the tunnel's floor are footprints of what you believe to be\r\r\r\r\r\r\n\ranother humanoid, but they are quite small, possibly of a hobbit or elf.\r\r\r\r\r\r\n\rThe footprints seem to go in one direction past the door. You stop again\r\r\r\r\r\r\n\rto ponder your fate.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "TUNNEL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A rotted wooden door, bound with iron straps, hangs on ancient hinges.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "wooden"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 9002,
+                    "Destination": 9003
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A rusty iron portcullis.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "portcullis"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9001
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9003,
+            "Zone": 90,
+            "Name": "A Slope in the Musty Tunnel",
+            "Description": "The tunnel ahead slopes sharply downwards. As you continue down the passage,\r\r\r\r\r\r\n\rthe composition of the walls becomes more jagged. Sharp rocks stick out of\r\r\r\r\r\r\n\rthe walls and small fragments of granite are scattered among the soil.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "TUNNEL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "A wooden door with iron bands lies to the south.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "wooden"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 9002,
+                    "Destination": 9002
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9004
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9004,
+            "Zone": 90,
+            "Name": "A Musty Tunnel",
+            "Description": "As the tunnel ceases its decline, the odor of stagnant water and mold\r\r\r\r\r\r\n\rwrinkles your nose. The walls here are nearly completely composed of\r\r\r\r\r\r\n\rstone.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "TUNNEL",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9005
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9003
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9005,
+            "Zone": 90,
+            "Name": "A Small Moldy Room",
+            "Description": "The musty odor of the room is quite strong here. The stone beneath you is\r\r\r\r\r\r\n\rscattered with patches of a black fungus, and as a result is slightly\r\r\r\r\r\r\n\rslippery.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9006
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9004
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9007
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9006,
+            "Zone": 90,
+            "Name": "Center of a Small Moldy Room",
+            "Description": "The floor here is nearly -impossible- to walk on! Small pools of\r\r\r\r\r\r\n\rthe horrid-smelling, stagnant water are splashed all over the floor\r\r\r\r\r\r\n\rhere, which makes the floor very very slippery. A large pool of\r\r\r\r\r\r\n\rdark water is in the center of the room, stinking to such an extent\r\r\r\r\r\r\n\rthat you are forced to plug your nose.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9008
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9005
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9007
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9007,
+            "Zone": 90,
+            "Name": "A Small Moldy Room",
+            "Description": "The black fungus which is everywhere in this room, makes the floor\r\r\r\r\r\r\n\rdifficult to traverse. Taking small steps, you manage to move carefully\r\r\r\r\r\r\n\raround to explore.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9009
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9006
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9074
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9005
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9008,
+            "Zone": 90,
+            "Name": "A Small Moldy Room",
+            "Description": "There are a number of small puddles of what you think was once water\r\r\r\r\r\r\n\ron the floor here. To the south the moldy floor seems to thrive with\r\r\r\r\r\r\n\rvigor. A granite hallway is to the north and the moldy room continues\r\r\r\r\r\r\n\rto the west.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9012
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9006
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9009
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9009,
+            "Zone": 90,
+            "Name": "A Small Moldy Room",
+            "Description": "As you enter this section of the room, you notice a stone alcove to the\r\r\r\r\r\r\n\rnorth. You wonder if the mold growing there is as disgusting as it is\r\r\r\r\r\r\n\rhere and elsewhere in this room.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9010
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9008
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9007
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9074
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9010,
+            "Zone": 90,
+            "Name": "A Stony Alcove",
+            "Description": "You stand in a stone alcove, connecting the rank room to the south with\r\r\r\r\r\r\n\ran oddly silent room to the north. Your lantern sends shadows flickering\r\r\r\r\r\r\n\ron the walls, and to the north you sense danger.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9011
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9009
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9011,
+            "Zone": 90,
+            "Name": "A Room Strewn with Snakeskins",
+            "Description": "The sound of grating stone and metal on metal startles you as a heavy\r\r\r\r\r\r\n\rstone block seals off the entrance to this room. On the floor ahead are\r\r\r\r\r\r\n\rdozens of molted snakeskins, whose owners dont appear to be far away.\r\r\r\r\r\r\n\rAlthough you appear to be trapped, the southeast wall seems oddly\r\r\r\r\r\r\n\rconstructed. You begin to wonder if there could be a secret there.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Southeast",
+                    "Description": "You see something strange... there may be a secret hidden here.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9012
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9012,
+            "Zone": 90,
+            "Name": "A Hallway Carved Through Granite",
+            "Description": "The walls of this long hallway have been scared over time. Large pieces\r\r\r\r\r\r\n\rof granite have fallen from the ceiling in various places, making you\r\r\r\r\r\r\n\rfeel slightly uneasy. The passageway continues east and to the south\r\r\r\r\r\r\n\ropens into a moldy room.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9013
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9008
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9013,
+            "Zone": 90,
+            "Name": "A Hallway Carved Through Granite",
+            "Description": "The crumbling stone hallway continues to the west, and to the east\r\r\r\r\r\r\n\ropens into a large room.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9014
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9012
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9014,
+            "Zone": 90,
+            "Name": "A Stone Room with Murder Holes",
+            "Description": "As you look above you, you notice the large number of spear-sized\r\r\r\r\r\r\n\rholes which cover the ceiling. You hope they won't be used for some\r\r\r\r\r\r\n\rtime to come.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9015
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9016
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9013
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9015,
+            "Zone": 90,
+            "Name": "A Stone Room with Murder Holes",
+            "Description": "You stop suddenly as you watch bits of dirt fall through one of the\r\r\r\r\r\r\n\rholes in the ceiling. As you stand frozen in the room, you think you\r\r\r\r\r\r\n\rhear some mutters coming from above. Hopefully it is just your \r\r\r\r\r\r\n\rimagination.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9017
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9014
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9016,
+            "Zone": 90,
+            "Name": "A Stone Room with Murder Holes",
+            "Description": "You feel as paranoid as ever walking in this room. Pieces of broken spears\r\r\r\r\r\r\n\rare scattered about the room. You shiver as you feel a watchful eye from\r\r\r\r\r\r\n\rabove search you over.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9014
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9017
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9018
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9017,
+            "Zone": 90,
+            "Name": "A Stone Room with Murder Holes",
+            "Description": "You are almost positive you hear something moving above you. Quiet grunts\r\r\r\r\r\r\n\rand the sound of footsteps echo through the murder holes above you. You\r\r\r\r\r\r\n\rnotice a large door on the eastern wall.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9015
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A LARGE metal door with rivits lies to the east.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9021
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9019
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9016
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9018,
+            "Zone": 90,
+            "Name": "A Stone Room with Murder holes",
+            "Description": "In the corner of this section of the room lies the remains of a former\r\r\r\r\r\r\n\radventurer. Through his head has been thrust a wooden spear, ending\r\r\r\r\r\r\n\rhis life instantly. \r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9016
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9019
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9019,
+            "Zone": 90,
+            "Name": "A Stone Room with Murder Holes",
+            "Description": "Staring at the ceiling you wonder when you will be implaed by spears.\r\r\r\r\r\r\n\rThere is definately something up there moving about, hopefully it won't\r\r\r\r\r\r\n\rfind you here.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9017
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9018
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9020,
+            "Zone": 90,
+            "Name": "A Storage Room",
+            "Description": "In this room lie various instruments for making wine. Spare barrels,\r\r\r\r\r\r\n\rempty flasks, mallets and other broken junk clutter the floor and\r\r\r\r\r\r\n\rshelves on the walls. There seems to be nothing of interest here.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "A crooked door leans on rusty hinges to the south.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "crooked"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9083
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9021,
+            "Zone": 90,
+            "Name": "A Cramped and Littered Passage",
+            "Description": "Splinters of wood, about the size of a human arm, are scattered about\r\r\r\r\r\r\n\rthe hallway here. The passageway is quite narrow here and to the\r\r\r\r\r\r\n\reast, but to the west it opens into a room.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9022
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A LARGE metal door with small rivits lies to the west.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9017
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9022,
+            "Zone": 90,
+            "Name": "A Cramped and Littered Passage",
+            "Description": "The cramped passageway continues to the west, and to the east is\r\r\r\r\r\r\n\ra metal door. The door seems to be an entrance to a secure room.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "A metal door with the word 'JAIL' engraved upon it lies to the east.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9023
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9021
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9023,
+            "Zone": 90,
+            "Name": "An Old Prison",
+            "Description": "The stench of urine and dead animals lingers in this room. As you peer about\r\r\r\r\r\r\n\rthis room, you see several different torture devices, whips and human bones\r\r\r\r\r\r\n\rlying amongst the waste. You get the feeling that you may not be alone here...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9026
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9024
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A metal door seals off the exit to the west.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9022
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9024,
+            "Zone": 90,
+            "Name": "An Old Prison",
+            "Description": "The stench of urine and dead animals lingers in this room. As you peer about\r\r\r\r\r\r\n\rthis room, you see several different torture devices, whips and human bones\r\r\r\r\r\r\n\rlying amongst the waste. You get the feeling that you may not be alone here...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9027
+                },
+                {
+                    "Direction": "East",
+                    "Description": "Some half-broken and rusty iron bars guard a small holding cell to the east.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "bars"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9025
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9023
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9025,
+            "Zone": 90,
+            "Name": "An Empty Cell",
+            "Description": "This cramped cell looks as it may have hosted human life in the past. Small\r\r\r\r\r\r\n\rmarkes carved into the walls and floor seem to have counted the days of\r\r\r\r\r\r\n\rimprisonment. However, the groups of markings seem to be few, as the poor\r\r\r\r\r\r\n\rsouls days' here were short.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "bars"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9024
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9026,
+            "Zone": 90,
+            "Name": "An Old Prison",
+            "Description": "The stench of urine and dead animals lingers in this room. As you peer about\r\r\r\r\r\r\n\rthis room, you see several different torture devices, whips and human bones\r\r\r\r\r\r\n\rlying amongst the waste. You get the feeling that you may not be alone here...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9029
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9027
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9023
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9027,
+            "Zone": 90,
+            "Name": "An Old Prison",
+            "Description": "The stench of urine and dead animals lingers in this room. As you peer about\r\r\r\r\r\r\n\rthis room, you see several different torture devices, whips and human bones\r\r\r\r\r\r\n\rlying amongst the waste. You get the feeling that you may not be alone here...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9030
+                },
+                {
+                    "Direction": "East",
+                    "Description": "Some half-broken and rusty iron bars guard a small holding cell to the east.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "bars"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9027,
+                    "Destination": 9028
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9024
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9026
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9028,
+            "Zone": 90,
+            "Name": "An Empty Cell",
+            "Description": "This cramped cell looks as it may have hosted human life in the past. Small\r\r\r\r\r\r\n\rmarkes carved into the walls and floor seem to have counted the days of\r\r\r\r\r\r\n\rimprisonment. However, the groups of markings seem to be few, as the poor\r\r\r\r\r\r\n\rsouls days' here were short.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "bars"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9027,
+                    "Destination": 9027
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9029,
+            "Zone": 90,
+            "Name": "An Old Prison",
+            "Description": "The stench of urine and dead animals lingers in this room. As you peer about\r\r\r\r\r\r\n\rthis room, you see several different torture devices, whips and human bones\r\r\r\r\r\r\n\rlying amongst the waste. You get the feeling that you may not be alone here...\r\r\r\r\r\r\n\rA dark mahogany door lies to the west.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9030
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9026
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A dark mahogany door, marred with dents and scratches, lies to the west.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9032
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9030,
+            "Zone": 90,
+            "Name": "An Old Prison",
+            "Description": "The stench of urine and dead animals lingers in this room. As you peer about\r\r\r\r\r\r\n\rthis room, you see several different torture devices, whips and human bones\r\r\r\r\r\r\n\rlying amongst the waste. You get the feeling that you may not be alone here...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Some half-broken and rusty iron bars guard a small holding cell to the east.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "bars"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9031
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9027
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9029
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9031,
+            "Zone": 90,
+            "Name": "An Empty Cell",
+            "Description": "This cramped cell looks as it may have hosted human life in the past. Small\r\r\r\r\r\r\n\rmarkes carved into the walls and floor seem to have counted the days of\r\r\r\r\r\r\n\rimprisonment. However, the groups of markings seem to be few, as the poor\r\r\r\r\r\r\n\rsouls days' here were short.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "bars"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9030
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9032,
+            "Zone": 90,
+            "Name": "The Jailer's Chambers",
+            "Description": "The room here is slightly cleaner, unlike the room to the east. The floor\r\r\r\r\r\r\n\ris not completely devoid of bones and feces, but in places it is almost\r\r\r\r\r\r\n\rtraverseable.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9035
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A dark mahogany door, marred with dents and scratches, lies to the east.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9029
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9033
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9033,
+            "Zone": 90,
+            "Name": "The Jailer's Chambers",
+            "Description": "In the corner of the room a small metal chest rests on the cold stone\r\r\r\r\r\r\n\rfloor. Whoever lives here seems to know the meaning of security as the\r\r\r\r\r\r\n\rchest appears to be closed and locked. An evil grin creeps across your\r\r\r\r\r\r\n\rface as you glance about you casually, only to see no owner in sight.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9034
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9032
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9034,
+            "Zone": 90,
+            "Name": "The Jailer's Chambers",
+            "Description": "The first thing you notice in the corner of this filthy room is the\r\r\r\r\r\r\n\rdisgusting bed which seems to be the source of the horrible body-odor\r\r\r\r\r\r\n\rsmell here. Small scraps of old meat are on the floor here which are\r\r\r\r\r\r\n\revidence enough that someone has been here recently.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9035
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9033
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9035,
+            "Zone": 90,
+            "Name": "The Jailer's Chambers",
+            "Description": "You suddenly stop as you think you hear movement in the room. Listening\r\r\r\r\r\r\n\rsilently, you swear you hear deep breathing to the west. To the north\r\r\r\r\r\r\n\rthe wall is covered with a black fungus, and beneath it a door is barely\r\r\r\r\r\r\n\rvisible.\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a wooden door, covered with a black mold.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9027,
+                    "Destination": 9036
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9032
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9034
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9036,
+            "Zone": 90,
+            "Name": "A Passage Covered with Mildew",
+            "Description": "Your hand brushes a furry part of the wall as you enter this passage. In utter\r\r\r\r\r\r\n\rdisgust you look around. Dark strands of mold hang from all walls here, making\r\r\r\r\r\r\n\rit seem as though fur from some animal has been hung around in decoration.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "A -very- moldy door, half rotted away and stinking to high heaven, lies east.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "moldy"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9038
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A wooden door, totally ridden with black mildew, rots to the south.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9027,
+                    "Destination": 9035
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9037
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9037,
+            "Zone": 90,
+            "Name": "A Passage Covered with Mildew",
+            "Description": "The furry walls of this passageway seem to converge to a dead end. As you\r\r\r\r\r\r\n\rwalk closer towards the end of this hallway, you notice several patches\r\r\r\r\r\r\n\rof a yellow-green slime hanging from the ceiling. You cautiously investigate\r\r\r\r\r\r\n\rit as your curiousty gets the best of you.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9036
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9038,
+            "Zone": 90,
+            "Name": "A Room with Flickering Torches",
+            "Description": "The echo of your footsteps reverberates throughout the chamber before you.\r\r\r\r\r\r\n\rTorchlight dances across the cuniform writings which have been scrawled on\r\r\r\r\r\r\n\rvarious walls. This chamber appears to be fairly empty to first glance,\r\r\r\r\r\r\n\rbut you have the odd sensation that there is some kind of life nearby...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9040
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9039
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A wooden door, covered with a black mold, lies to the west.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "moldy"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9036
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9039,
+            "Zone": 90,
+            "Name": "A Room with Flickering Torches",
+            "Description": "The echo of your footsteps reverberates throughout the chamber before you.\r\r\r\r\r\r\n\rTorchlight dances across the cuniform writings which have been scrawled on\r\r\r\r\r\r\n\rvarious walls. This chamber appears to be fairly empty to first glance,\r\r\r\r\r\r\n\rbut you have the odd sensation that there is some kind of life nearby...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9041
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9038
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9040,
+            "Zone": 90,
+            "Name": "A Room with Flickering Torches",
+            "Description": "The echo of your footsteps reverberates throughout the chamber before you.\r\r\r\r\r\r\n\rTorchlight dances across the cuniform writings which have been scrawled on\r\r\r\r\r\r\n\rvarious walls. On the west wall you notice some odd writing. To the north\r\r\r\r\r\r\n\ra torchlit passageway slopes downwards while far off to the east you see\r\r\r\r\r\r\n\ra maroon curtain on the wall.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9041
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9038
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see something strange...\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9042
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9049
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9041,
+            "Zone": 90,
+            "Name": "A Room with Flickering Torches",
+            "Description": "The echo of your footsteps reverberates throughout the chamber before you.\r\r\r\r\r\r\n\rTorchlight dances across the cuniform writings which have been scrawled on\r\r\r\r\r\r\n\rvarious walls. This chamber appears to be fairly empty to first glance,\r\r\r\r\r\r\n\rbut you have the odd sensation that there is some kind of life nearby...\r\r\r\r\r\r\n\rTo the east, a dirty maroon curtain moves slightly. You wonder if it could\r\r\r\r\r\r\n\rhave something to do with the bloodstains which taint it.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "A blood-stained, maroon curtain covers the east wall.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "curtain"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9043
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9039
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9040
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9042,
+            "Zone": 90,
+            "Name": "A Very Cramped Dirt Room",
+            "Description": "You peer into the darkness of this small, recluse room and realize you might\r\r\r\r\r\r\n\rhave made a mistake in doing so. This small chamber appears to be the home\r\r\r\r\r\r\n\rof some type of magical creature, a strong force pushes you back into the\r\r\r\r\r\r\n\rroom from which you entered...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The secret door from which you entered lies to the east.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9040
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9043,
+            "Zone": 90,
+            "Name": "A Cold Passage",
+            "Description": "The cool hallway in which you stand continues to the east, and to the west\r\r\r\r\r\r\n\ropens into a dimly torchlit chamber. A chilling breeze sweeps through this\r\r\r\r\r\r\n\rhallway for a moment, as though someone had opened a door.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9044
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A blood-stained, maroon curtain moves silently in the shadows.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "curtain"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9041
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9044,
+            "Zone": 90,
+            "Name": "Turn in a Cold Passage",
+            "Description": "The cold passageway extends further to the west, while to the south it seems\r\r\r\r\r\r\n\rto open into another small chamber - possibly a storeroom or another bed \r\r\r\r\r\r\n\rchamber.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9045
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9043
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9045,
+            "Zone": 90,
+            "Name": "A Cold Room with Granite Walls",
+            "Description": "This room seems to be some sort of lair. At one time it appears to have been\r\r\r\r\r\r\n\ra bed chamber, but from the smell of things, you are certain some beast\r\r\r\r\r\r\n\ror beasts have taken a liking to it and christened it their home.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9044
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9047
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9046
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9046,
+            "Zone": 90,
+            "Name": "A Cold Room with Granite Walls",
+            "Description": "A small depression in the corner of this room seems to be a resting place\r\r\r\r\r\r\n\rfor whatever animals dwell here. Small bits of grey fur have collected in\r\r\r\r\r\r\n\rthis corner, as well as the remains of several different animals which\r\r\r\r\r\r\n\rlooks as though may have served their purpose as being quite nutritional.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9045
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9048
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9047,
+            "Zone": 90,
+            "Name": "A Cold Room with Granite Walls",
+            "Description": "The smell of some kind of animal is very inconspicuous in this corner. You\r\r\r\r\r\r\n\rare -sure- there is something nearby. As you become more nervous, your\r\r\r\r\r\r\n\rcuriosity seems to quickly retreat. Certainly anything with an odor this\r\r\r\r\r\r\n\rrepugnant wouldn't be friendly.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9045
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9048
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9048,
+            "Zone": 90,
+            "Name": "A Cold Room with Granite Walls",
+            "Description": "Large paw tracks are easily visable on the floor here. You see more patches\r\r\r\r\r\r\n\rof dark fur and a few humanoid teeth on the floor and wonder where these\r\r\r\r\r\r\n\rcreatures could be.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9046
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9047
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9049,
+            "Zone": 90,
+            "Name": "A Passage Sloping Downwards",
+            "Description": "This short passage adjacent to the torchlit room to the south, sharply\r\r\r\r\r\r\n\rslopes downwards over the next few feet. The sound of your footsteps seem\r\r\r\r\r\r\n\rto quietly vanish into the dark; absorbed by the quiet waters below.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9050
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9040
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9050,
+            "Zone": 90,
+            "Name": "A Subterrainean Lake",
+            "Description": "The darkness over these waters is frighteningly thick. Silence enshrouds\r\r\r\r\r\r\n\rthis pitch-black sanctuary and although you still feel the heart in your\r\r\r\r\r\r\n\rchest beat its steady rhythm, you feel as though you've joined the dead.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9054
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9052
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9051
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9049
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9051,
+            "Zone": 90,
+            "Name": "A Subterrainean Lake",
+            "Description": "The dark waters continue to the east and north. You feel your jugular for\r\r\r\r\r\r\n\ra pulse again; you feel so empty here.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9053
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9050
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9052,
+            "Zone": 90,
+            "Name": "A Subterrainean Lake",
+            "Description": "The pitch-blackness over these waters is amazing.. you are certainly glad\r\r\r\r\r\r\n\ryou brought your lightsource, else you're certain you would lose your way.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9055
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9050
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9053,
+            "Zone": 90,
+            "Name": "A Subterrainean Lake",
+            "Description": "The intense silence here makes you want to scream! To the south and east\r\r\r\r\r\r\n\rthe dark waters continue, however, to the northeast there seems to be\r\r\r\r\r\r\n\ra yellowish lightsource. You wonder what it could be...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9054
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9051
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9056
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9054,
+            "Zone": 90,
+            "Name": "A Subterrainean Lake",
+            "Description": "The darkness continues to the east and north. You feel your jugular for\r\r\r\r\r\r\n\ra pulse again; you feel so empty here. An eerie yellow glow can be\r\r\r\r\r\r\n\rseen closeby to the north.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9056
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9055
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9050
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9053
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9055,
+            "Zone": 90,
+            "Name": "A Subterrainean Lake",
+            "Description": "Off to the northwest, an eerie yellow glow breaks the monotony of the\r\r\r\r\r\r\n\rcloak of blindness about you. To the west and south - blackness.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9052
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9054
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9056
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9056,
+            "Zone": 90,
+            "Name": "Before the Stone Doors",
+            "Description": "Towering before you stand two, large double doors. Several runes of\r\r\r\r\r\r\n\ran unknown orgin are chisled onto them, many of which are now damaged\r\r\r\r\r\r\n\rfrom age. Looking very thick and secure, you are sure whatever lies\r\r\r\r\r\r\n\rwithin, is meant to stay there.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Two stone double-doors, engraved with ancient runes, lie to the north.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "double"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9056,
+                    "Destination": 9057
+                },
+                {
+                    "Direction": "South",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9054
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9055
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9053
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9057,
+            "Zone": 90,
+            "Name": "A Muddy Hallway",
+            "Description": "Flickering torches illuminate this passage, sending their rays of light\r\r\r\r\r\r\n\rbouncing about the earthen walls. A cool drop of water occasionally falls\r\r\r\r\r\r\n\ron your head from the ceiling, alerting you to the fact that there must\r\r\r\r\r\r\n\rbe somewhere where this water collects. The passage slopes off to the\r\r\r\r\r\r\n\rnorth, and set of strong double doors guard the way to the south.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9058
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Two stone double doors guard the southern walls.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "double"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9056,
+                    "Destination": 9056
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9058,
+            "Zone": 90,
+            "Name": "A Muddy Hallway",
+            "Description": "Flickering torches illuminate this passage, sending their rays of light\r\r\r\r\r\r\n\rbouncing about the earthen walls. A cool drop of water occasionally falls\r\r\r\r\r\r\n\ron your head from the ceiling, alerting you to the fact that there must\r\r\r\r\r\r\n\rbe somewhere where this water collects. The passage continues to the\r\r\r\r\r\r\n\rnorth and south.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9059
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9057
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9059,
+            "Zone": 90,
+            "Name": "A Muddy Hallway",
+            "Description": "Flickering torches illuminate this passage, sending their rays of light\r\r\r\r\r\r\n\rbouncing about the earthen walls. A cool drop of water occasionally falls\r\r\r\r\r\r\n\ron your head from the ceiling, alerting you to the fact that there must\r\r\r\r\r\r\n\rbe somewhere where this water collects. The north way is blocked by\r\r\r\r\r\r\n\rsome huge, copper doors. You sigh, wondering what could be behind them.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Some muddy copper doors guard the north way.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "muddy"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9068,
+                    "Destination": 9062
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9058
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9060,
+            "Zone": 90,
+            "Name": "Lair of the FyreWyrm",
+            "Description": "This room is unbearably hot! You now know why this beast must need to\r\r\r\r\r\r\n\rthrive near so much water. Surely enough, however, water is not the only\r\r\r\r\r\r\n\rthing this creature has a thirst for...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9063
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9061,
+            "Zone": 90,
+            "Name": "A Hazy Cavern",
+            "Description": "The cool, moist air covers your face with small beads of water. As you\r\r\r\r\r\r\n\rreach up to wipe the moisture from your brow, you are suddenly startled\r\r\r\r\r\r\n\rby a loud *clang* which echos through the cavern. You are not alone here,\r\r\r\r\r\r\n\rthat is for certain.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9065
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9062
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9062,
+            "Zone": 90,
+            "Name": "A Hazy Cavern",
+            "Description": "In the distance you hear a low roar from what you imagine to be a massive\r\r\r\r\r\r\n\rwaterfall. Neon red eyes occasionally blink from within the thick mists,\r\r\r\r\r\r\n\rpeering at you, the intruder in their lair.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9064
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Some muddy copper doors seal the south exit.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "muddy"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9068,
+                    "Destination": 9059
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9061
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9063,
+            "Zone": 90,
+            "Name": "The Rocky Bottom of the Chasm",
+            "Description": "Crashing onto solid stone, sevral bones in your body shatter instantly\r\r\r\r\r\r\n\rinto thousands of splinters. A shooting pain seers throughout your\r\r\r\r\r\r\n\rentire body, and from the size of what is staring at you, you have a\r\r\r\r\r\r\n\rfeeling that the worst has yet to come...\r\r\r\r\r\r\n\r... You have an incredible urge to leave now.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9060
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9064,
+            "Zone": 90,
+            "Name": "On the Edge of a Deep Chasm",
+            "Description": "WOAH!  Your heart races as you nearly fall off the edge of a GIGANTIC\r\r\r\r\r\r\n\rcliff, off of which roars a hefty amount of water. As you teeter on the\r\r\r\r\r\r\n\redge of what could be the speedy end to your pathetic life, you stare\r\r\r\r\r\r\n\rdown into the swirling waters below and wonder if your life is really\r\r\r\r\r\r\n\rworth all that much anyhow...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9067
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9062
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9065
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9065,
+            "Zone": 90,
+            "Name": "A Hazy Cavern",
+            "Description": "The roar of the water grows louder and louder as you approach a small\r\r\r\r\r\r\n\rledge which circles around the center of this vast chasm. Wiping your eyes\r\r\r\r\r\r\n\revery few seconds to keep your vision straight, your wonder weather or not\r\r\r\r\r\r\n\rthis slippery rock is the best place to be standing...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9068
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9064
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9061
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9066,
+            "Zone": 90,
+            "Name": "Deeper into the Chasm",
+            "Description": "Gravity seems to vanish as your fingers slip from the wet stone above!\r\r\r\r\r\r\n\rFreezing water numbs your skin and chills your soul as the dark waters\r\r\r\r\r\r\n\rbelow spin swiftly towards your fragile body. You are soon engulfed\r\r\r\r\r\r\n\rin the full stream of pounding falls and go drifting into a dark place\r\r\r\r\r\r\n\rbelow...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "You see nothing special about the rock above.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "rock"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9069,
+                    "Destination": 9067
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You notice a small engraving of a pentagram.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "fissure"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9068,
+                    "Destination": 9063
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9067,
+            "Zone": 90,
+            "Name": "Plummeting Into a Deep Chasm",
+            "Description": "AAAAGH! You scream madly as you find yourself being swallowed into\r\r\r\r\r\r\n\rthe deep chasm below. Your skeleton is jarred as your body is twisted,\r\r\r\r\r\r\n\rbounding and rebounding off of jagged rocks. Your head nearly splits as\r\r\r\r\r\r\n\ryou crash into a small, rock platform. You quickly grasp a crevice in the\r\r\r\r\r\r\n\rrock, and dangle for a moment, confused by the overwhelming pain which\r\r\r\r\r\r\n\rsurges through your body. You are uncertain how much longer you will\r\r\r\r\r\r\n\rsurvive...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "NOMOB",
+                "INDOORS",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9071
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9064
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9068
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The veins of silver which run through this rock would be quite\r\r\r\r\r\r\n\rvalueable if extracted. You notice a small hole in one of the veins...\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "rock"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9069,
+                    "Destination": 9066
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9068,
+            "Zone": 90,
+            "Name": "The Edge Around a Deep Chasm",
+            "Description": "Walking slowly as not to slip and fall to your certain death, you approach\r\r\r\r\r\r\n\ran ancient and undoubtedly slippery bridge. The sight of the enormous\r\r\r\r\r\r\n\rwaterfall to the east is spectacular, and you find yourself staring down\r\r\r\r\r\r\n\rinto the chasm below for an uncanny amount of time. You swear you see\r\r\r\r\r\r\n\rsomething red moving below in the water, but nothing could survive there...\r\r\r\r\r\r\n\r     ... or so you think\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9069
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9067
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9065
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9069,
+            "Zone": 90,
+            "Name": "Bridge Over the Chasm",
+            "Description": "Extending 30 feet over a large gap in the ledge, you stand on a soggy\r\r\r\r\r\r\n\rand yes, slippery, wooden plank bridge. You freeze as you hear a roar\r\r\r\r\r\r\n\rfrom below and remain silent... motionless... crouching hundreds of\r\r\r\r\r\r\n\rfeet above dark, churning waters. 'It must be the water', you think to\r\r\r\r\r\r\n\ryourself reassuringly. Yet an uncontrolable urge dangerously beckons\r\r\r\r\r\r\n\ryou from below...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9070
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9068
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9070,
+            "Zone": 90,
+            "Name": "A Hazy Cavern",
+            "Description": "Standing on solid rock once again, your heartbeat returns to near-normal\r\r\r\r\r\r\n\ras you feel much safer not being on a certain bridge. However, still\r\r\r\r\r\r\n\rfeeling rather unwelcome here, you keep your jaw locked, ready for battle.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9071
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9069
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9072
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9067
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9071,
+            "Zone": 90,
+            "Name": "A Hazy Cavern",
+            "Description": "The cavern comes abruptly to an end to the east, and to the south tapers\r\r\r\r\r\r\n\roff into the chasm below. A deep snarl comes drifting out of the mists\r\r\r\r\r\r\n\rbelow, warning you to leave now or perish!\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9067
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9070
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9072,
+            "Zone": 90,
+            "Name": "An Obscure Gutted Tunnel",
+            "Description": "Water drips on your head from the stalagtites above as you squeeze\r\r\r\r\r\r\n\ryourself through the small, muddy opening into this dank, earthy\r\r\r\r\r\r\n\rtunnel. Your feet sink into the moist soil beneath your feet and your\r\r\r\r\r\r\n\rimagination begins to draw frightening scenarios.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "TUNNEL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9073
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9070
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9073,
+            "Zone": 90,
+            "Name": "End of the Obscure Tunnel",
+            "Description": "The passage twists briefly to the northeast, where it is stopped by a\r\r\r\r\r\r\n\rlarge mass of collapsed, wet earth. Bones jut out of the earth here and\r\r\r\r\r\r\n\ryou wonder if this could have once been an entryway to catacombs or\r\r\r\r\r\r\n\rperhaps something worse...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "TUNNEL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9074,
+            "Zone": 90,
+            "Name": "Northwest Corner of a Small Moldy Room",
+            "Description": "As you near the corner of this room, the mold on the floor is less\r\r\r\r\r\r\n\rabundant. To the west lies a granite passageway, and to the east the\r\r\r\r\r\r\n\rmold thrives and prospers.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9009
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9075
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9007
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9075,
+            "Zone": 90,
+            "Name": "A Hallway Carved Through Granite",
+            "Description": "The walls of this long hallway have been scared over time. Large pieces\r\r\r\r\r\r\n\rof granite have fallen from the ceiling in various places, making you\r\r\r\r\r\r\n\rfeel slightly uneasy. The passageway continues to the west and to the\r\r\r\r\r\r\n\reast opens into a damp room.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9074
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9076
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9076,
+            "Zone": 90,
+            "Name": "A Hallway Carved Through Granite",
+            "Description": "The dark stone hallway bends here, and continues to the north and east.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9077
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9075
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9077,
+            "Zone": 90,
+            "Name": "A Hallway Carved Through Granite",
+            "Description": "A half dozen, small rats skitter northwards into a room as you approach\r\r\r\r\r\r\n\rthem. To the south the passage continues and to the north it seems to\r\r\r\r\r\r\n\ropen into a stone room.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9078
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9076
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9078,
+            "Zone": 90,
+            "Name": "The Underground Distillery",
+            "Description": "This room smells strongly of old wine. To the east and west you notice some\r\r\r\r\r\r\n\rlarge wooden objects. A small trail of what you believe to be wine leads\r\r\r\r\r\r\n\rto the west and to the north.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9082
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9077
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9080
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9079,
+            "Zone": 90,
+            "Name": "FREE***",
+            "Description": "",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9080,
+            "Zone": 90,
+            "Name": "The Underground Distillery",
+            "Description": "It is obvious, from the size of the wooden cask leaking a sweet-smelling,\r\r\r\r\r\r\n\rliquid, that this is indeed an underground distillery. You wonder if\r\r\r\r\r\r\n\ranyone would mind if you just took a sip or two.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9081
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9078
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9081,
+            "Zone": 90,
+            "Name": "The Underground Distillery",
+            "Description": "The first thing that catches your eye as you near the corner of this\r\r\r\r\r\r\n\rsection of the distillery is that there is no cask! Someone seems to\r\r\r\r\r\r\n\rhave made off with it. You quickly assume that whatever took the cask\r\r\r\r\r\r\n\rmust have drank most all of it as the smell of vomit wafts down the stairs\r\r\r\r\r\r\n\rin the northwest corner of this room.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9082
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9080
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9084
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9082,
+            "Zone": 90,
+            "Name": "The Underground Distillery",
+            "Description": "It is obvious, from the size of the wooden cask leaking a sweet-smelling,\r\r\r\r\r\r\n\rliquid, that this is indeed an underground distillery. You wonder if\r\r\r\r\r\r\n\ranyone would mind if you just took a sip or two.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9083
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9078
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9081
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9083,
+            "Zone": 90,
+            "Name": "The Underground Distillery",
+            "Description": "It is obvious, from the size of the wooden cask leaking a sweet-smelling,\r\r\r\r\r\r\n\rliquid, that this is indeed an underground distillery. You wonder if\r\r\r\r\r\r\n\ranyone would mind if you just took a sip or two.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "An old, crooked door lies to the north.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "crooked"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9020
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9082
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9084,
+            "Zone": 90,
+            "Name": "Atop Some Stone Steps",
+            "Description": "Standing atop the stairs which lead down into a distillery, you peer north\r\r\r\r\r\r\n\rinto the dark tunnel and see... darkness... Somehow you expected that.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9085
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9081
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9085,
+            "Zone": 90,
+            "Name": "A Hallway Carved Through Granite",
+            "Description": "The walls of this long hallway have been scared over time. Large pieces\r\r\r\r\r\r\n\rof granite have fallen from the ceiling in various places, making you\r\r\r\r\r\r\n\rfeel slightly uneasy. The passageway continues to the north and south.\r\r\r\r\r\r\n\rIt seems that a large section of the floor here has crumbled away, revealing\r\r\r\r\r\r\n\ran earthen tunnel below.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9089
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9084
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9086
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9086,
+            "Zone": 90,
+            "Name": "A Collapsed Passageway",
+            "Description": "The dusty air in this passageway makes you cough. Rubble from the ceiling\r\r\r\r\r\r\n\rwhich has collapsed long ago lays around in a disorderly fasion, clogging\r\r\r\r\r\r\n\rthe tunnel to the northwest somewhat. The only exits here are up and\r\r\r\r\r\r\n\rto the northwest.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9085
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9087
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9087,
+            "Zone": 90,
+            "Name": "Bend in a Collapsed Passageway",
+            "Description": "Several large support beams have given under the stress of the heavy\r\r\r\r\r\r\n\rgranite ceiling. The cramped passage is littered with rubble and does\r\r\r\r\r\r\n\rnot seem like a safe place to stay for very long.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9088
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9086
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9088,
+            "Zone": 90,
+            "Name": "A Crumbling Room",
+            "Description": "The passage to the south opens into this small, fragile chamber. The\r\r\r\r\r\r\n\rwalls of this room are composed entirely of a slatelike rock which\r\r\r\r\r\r\n\rlooks very unstable. In the center of the room stands a noble statue\r\r\r\r\r\r\n\rwhich smiles at you upon your entrance.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9087
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9089,
+            "Zone": 90,
+            "Name": "A Hallway Carved Through Granite",
+            "Description": "The walls of this long hallway have been scared over time. Large pieces\r\r\r\r\r\r\n\rof granite have fallen from the ceiling in various places, making you\r\r\r\r\r\r\n\rfeel slightly uneasy. The passage continues further to the north and south.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9090
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9085
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9090,
+            "Zone": 90,
+            "Name": "End of the Granite hallway",
+            "Description": "The stone hallway has come to an end here. A statue of a jinni, his arms\r\r\r\r\r\r\n\rcrossed solmnly, is posed agains the northern wall. To the east lies a\r\r\r\r\r\r\n\rclosed, wooden door. Oddly, you feel a slight draft coming from the north.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A statue of a jinni rests here against the wall. It looks quite heavy.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "statue"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9091
+                },
+                {
+                    "Direction": "East",
+                    "Description": "\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9092
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9089
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9091,
+            "Zone": 90,
+            "Name": "The Room with Broken Furniture",
+            "Description": "It seems as though you have entered an unpromising room. Trash and glass\r\r\r\r\r\r\n\rhas been left about for another to clean up, but another never did his\r\r\r\r\r\r\n\rjob. On the north wall lies an intricate mural painting, depicting a large\r\r\r\r\r\r\n\rwormlike creature. To the south lies the entrance from which you just came.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A large mural covers the north wall. It depicts the slaying of a giant\r\r\r\r\r\r\n\rwormlike creature.\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "mural"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9093,
+                    "Destination": 9096
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The statue to the south looks like it may move with a little effort...\r\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "statue"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 9099,
+                    "Destination": 9090
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9092,
+            "Zone": 90,
+            "Name": "A Room Cluttered with Bones",
+            "Description": "The smell of urine and feces overpowers your sense of smell, nearly making\r\r\r\r\r\r\n\ryou lose balance! Small patches of hair are scattered about the floor,\r\r\r\r\r\r\n\rand from the corner of the room you hear an occasional, doglike \"yip!\".\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK",
+                "STASIS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9093
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9094
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9090
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9093,
+            "Zone": 90,
+            "Name": "A Room Cluttered with Bones",
+            "Description": "Small, gnawed bones from various animals lay about the rubbish and animal\r\r\r\r\r\r\n\rwaste in this section of the room. You wonder how any living animal could\r\r\r\r\r\r\n\rsurvive in here with the rancid, stomach-twisting stench.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK",
+                "STASIS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9095
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9092
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9094,
+            "Zone": 90,
+            "Name": "A Room Cluttered with Bones",
+            "Description": "The only thought that passes through your mind at this point is how\r\r\r\r\r\r\n\rquickly you can leave this vile place. After giving a coule of un-\r\r\r\r\r\r\n\rfruitful heaves, your stomach finally settles down. You have no idea\r\r\r\r\r\r\n\rhow long it will be before you cannot take the foul odor any longer...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9092
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9095
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9095,
+            "Zone": 90,
+            "Name": "A Room Cluttered with Bones",
+            "Description": "You curse to yourself as you step somewhere you would have prefered not\r\r\r\r\r\r\n\rto. 'Those damn creatures will pay for this', you swear to yourself as\r\r\r\r\r\r\n\ryou carefully watch where your next step places your foot.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9093
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9099
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9094
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9096,
+            "Zone": 90,
+            "Name": "The Room with Broken Furniture",
+            "Description": "Wooden splinters poke at the soles of your boots, trying desperately\r\r\r\r\r\r\n\rto wedge themselves into your poor feet. Glass from broken plates and\r\r\r\r\r\r\n\rvials is against the north wall. Someone has certainly made a mess...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "MAGICDARK",
+                "STASIS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9097
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "mural"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 9093,
+                    "Destination": 9091
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9097,
+            "Zone": 90,
+            "Name": "The Room with Broken Furniture",
+            "Description": "Shattered furnature is strewn about the room, among other waste, some\r\r\r\r\r\r\n\rof which you care not to even look at. To the south lies a soft-looking\r\r\r\r\r\r\n\rcrimson curtain.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "curtain"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9098
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9096
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9098,
+            "Zone": 90,
+            "Name": "Closet in the Room with Broken Furnaure",
+            "Description": "You find yourself in a small, cluttered closet. Quickly glancing over\r\r\r\r\r\r\n\rthe room, you see nothing of interest here with the exception of a\r\r\r\r\r\r\n\rsmall, unpromising, rotten chest.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "curtain"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 9097
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 9099,
+            "Zone": 90,
+            "Name": "A Room Cluttered with Bones",
+            "Description": "Skulls and femurs of human and goblin alike are evidence enough that the\r\r\r\r\r\r\n\ranimals which inhabit this area are not too choosy about their dinner.\r\r\r\r\r\r\n\rPerhaps you better flee while you can...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 9095
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

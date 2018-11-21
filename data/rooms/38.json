@@ -1,0 +1,4311 @@
+{
+    "rooms": [
+        {
+            "ID": 3800,
+            "Zone": 38,
+            "Name": "The Town Square",
+            "Description": "You stand in the crowded square of this charming castle town, enjoying\nthe warm day and admiring the city sights.  The square is bustling with\nactivity, and you are forced to apologize to more than one villager as\nyou unintentionally impede their way.  Looking around, you see exits\nin all directions.  There is a huge sign here, that catches your attention.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You look north and see a small drawbridge in the distance.\n",
+                    "Keywords": [
+                        "Path",
+                        "to",
+                        "a",
+                        "Drawbridge"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3801
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the west you see a busy street.\n",
+                    "Keywords": [
+                        "Square",
+                        "Street"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3809
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south is the entrance to this enchanting castle town.\n",
+                    "Keywords": [
+                        "The",
+                        "Crossroads",
+                        "to",
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3808
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see a busy street.\n",
+                    "Keywords": [
+                        "Square",
+                        "Street"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3810
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "You see to the northeast, a quaint shop specializing in magic items.\n",
+                    "Keywords": [
+                        "The",
+                        "Magic",
+                        "Shop"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3805
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "You see a store full of knick knacks to the northwest.\n",
+                    "Keywords": [
+                        "The",
+                        "General",
+                        "Store"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3804
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "You see a large store, filled with armors of all sorts.\n",
+                    "Keywords": [
+                        "The",
+                        "Armory"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3806
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "You see a store inundated with exotic weapons.\n",
+                    "Keywords": [
+                        "The",
+                        "Weaponsmith"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3807
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign",
+                        "huge"
+                    ],
+                    "Description": "The baby prince has been kidnapped by an evil Demon Lord.  We are now looking\nfor any adventurer who is willing to brave the dangers of Devil's Wood to\nreach the Demon Lord's castle in the west.  You will be handsomely rewarded.\n-- The King\n"
+                }
+            ]
+        },
+        {
+            "ID": 3801,
+            "Zone": 38,
+            "Name": "A Drawbridge",
+            "Description": "You stand on a small drawbridge which leads into a sumptious palace.  The\nwaters of the moat ripple in the cool breeze and gently splash onto the\nsturdy drawbridge periodically.  Sniffing the air, you catch the scent of\nwine rushing towards you from the large chamber you see ahead of you.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north, you see a large hall past the open portcullis of the castle.\n",
+                    "Keywords": [
+                        "The",
+                        "Entrance",
+                        "Hall",
+                        "of",
+                        "the",
+                        "Castle"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3802
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a path that leads to a busy town square.\n",
+                    "Keywords": [
+                        "The",
+                        "Town",
+                        "Square"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3800
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3802,
+            "Zone": 38,
+            "Name": "The Entrance Hall of the Castle",
+            "Description": "You step into a rather large room with many wall trappings hanging around\nyou. The floor is made of stone blocks and in front of you is the throne\nroom where you can see the King and Queen, even from this distance.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north is the throne room, where the King and Queen are clearly\nvisible.\n",
+                    "Keywords": [
+                        "The",
+                        "Throne",
+                        "Room"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3803
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see to the south the drawbridge which you crossed to get into the \ncastle.\n",
+                    "Keywords": [
+                        "The",
+                        "Drawbridge"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3801
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3803,
+            "Zone": 38,
+            "Name": "The Throne Room",
+            "Description": "The size of the throne room is comparable to that of the entrance hall which\npreceded it.  Here you find various pages, squires, and other members of the\ncourt gossipping amongst themselves.  To the north you can see a raised\nplatform where the King and Queen sit.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "To the south is an entrance hall.  It looks quite familiar.\n",
+                    "Keywords": [
+                        "The",
+                        "Entrance",
+                        "Hall",
+                        "of",
+                        "the",
+                        "Castle"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3802
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3804,
+            "Zone": 38,
+            "Name": "The General Store",
+            "Description": "This is a cozy, little shop which has everything that you'll ever\nneed. It is full of little items which you will need on quests as\nwell as foodstuff to whet your pallette.  Behind the counter is the\nstore's owner.  Please remember to pay him for the items which you\nbuy.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "To the south, you see a busy street.\n",
+                    "Keywords": [
+                        "Square",
+                        "Street"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3810
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "You see the bustling town square to the southeast.\n",
+                    "Keywords": [
+                        "The",
+                        "Town",
+                        "Square"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3800
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3805,
+            "Zone": 38,
+            "Name": "The Magic Shop",
+            "Description": "You see a pleasant, little shop, specializing in all sorts of knick-knacks\nand magickal items.  Perhaps you will find something of use in this store,\nsomething that will guarantee your safety within the dangerous forest\nknown as \"Devil's Wood\".\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see a busy street to the south.\n",
+                    "Keywords": [
+                        "Square",
+                        "Street"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3809
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "You see to the southwest, the bustling town square.\n",
+                    "Keywords": [
+                        "The",
+                        "Town",
+                        "Square"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3800
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3806,
+            "Zone": 38,
+            "Name": "The Armory",
+            "Description": "You enter this large shop, which is filled with different armours of \ndifferent designs which are suited to different classes.  You have\nheard rumors about this shop, which is known to sell the legendary\n\"assault armor\" which is supposedly imparts its wearer with great \nprotection, as well as superior attacking abilities.  You pray that\nthe armor is not too expensive and looking at the eyes of the shopkeeper,\nyou know that the armor will be expensive but fairly priced.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north is a busy street.\n",
+                    "Keywords": [
+                        "Square",
+                        "Street"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3809
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "You see to your northwest, the bustling town square.\n",
+                    "Keywords": [
+                        "The",
+                        "Town",
+                        "Square"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3800
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3807,
+            "Zone": 38,
+            "Name": "The Weaponsmith",
+            "Description": "Filled with weapons of all designs, this shop is inundated with all the\ntools of war.  One may hesitate to wonder what one kingdom has with need\nof all these weapons.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see a busy street.\n",
+                    "Keywords": [
+                        "Square",
+                        "Street"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3810
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "To the northwest, you see the bustling town square\n",
+                    "Keywords": [
+                        "The",
+                        "Town",
+                        "Square"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3800
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3808,
+            "Zone": 38,
+            "Name": "The entrance to a small castle town",
+            "Description": "You find yourself at the entrance of a small, enchanting castle town.  You\nlook to your north and see the busy streets of the shopping district, and\nto your south you see the guild district where all sorts of adventurers \ngo to practice their skills.  You stop to take a rest and to decide on where\nyou would like to go.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north is the bustling town square of a small castle town.\n",
+                    "Keywords": [
+                        "The",
+                        "Town",
+                        "Square"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3800
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a dirt path to the east.\n",
+                    "Keywords": [
+                        "A",
+                        "dirt",
+                        "path"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3811
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To your south you see Guild Square.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3885
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see Devil's Wood.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3816
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3809,
+            "Zone": 38,
+            "Name": "Square Street",
+            "Description": "You stand on a busy street, bustling with activity.  Around you are\nvarious shops of different kinds, as well as many houses in which the\nnative villagers live in.  People are going in and out, talking at the\nmain square to the west and buying items at the shops.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north is a quaint shop specializing in magic items.\n",
+                    "Keywords": [
+                        "The",
+                        "Magic",
+                        "Shop"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3805
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see to the east a peaceful church.\n",
+                    "Keywords": [
+                        "The",
+                        "Church"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3821
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south is a large store specializing in armors.\n",
+                    "Keywords": [
+                        "The",
+                        "Armory"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3806
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west is the bustling town square.\n",
+                    "Keywords": [
+                        "The",
+                        "Town",
+                        "Square"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3800
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3810,
+            "Zone": 38,
+            "Name": "Square Street",
+            "Description": "You stand in a busy street, bustling with activity.  People are going\naround, talking in the main square, and buying items at the various\nshops around here.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north is a quaint shop specializing in many items.\n",
+                    "Keywords": [
+                        "The",
+                        "General",
+                        "Store"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3804
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see the bustling town square.\n",
+                    "Keywords": [
+                        "The",
+                        "Town",
+                        "Square"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3800
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south is a large store specializing in weapons.\n",
+                    "Keywords": [
+                        "The",
+                        "Weaponsmith"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3807
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the east you see a small shop.\n",
+                    "Keywords": [
+                        "The",
+                        "Pawn",
+                        "Shop"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3822
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3811,
+            "Zone": 38,
+            "Name": "A dirt path",
+            "Description": "To your west, you can finally see the entrance to a castle town.  You can\nhear the sound of busy streets and the smell of baked desserts assault your\nnostrils.  You quicken your pace so that you can shop to your heart's\ncontent, and get all the supplies you need.  To your north is the castle\nwall, and to your south is a dense forest.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a dirt path to your east.\n",
+                    "Keywords": [
+                        "A",
+                        "dirt",
+                        "path"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3812
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see an intersection in a forest to your west.\n",
+                    "Keywords": [
+                        "The",
+                        "Crossroads",
+                        "to",
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3808
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3812,
+            "Zone": 38,
+            "Name": "A dirt path",
+            "Description": "You stand on a dirt path through a sparsely wooded area.  You feel a\nmenacing presence from the south in the deep, dark woods...\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To your east you see a dirt path.\n",
+                    "Keywords": [
+                        "A",
+                        "dirt",
+                        "path"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3813
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To your west you see a dirt path.\n",
+                    "Keywords": [
+                        "A",
+                        "dirt",
+                        "path"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3811
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3813,
+            "Zone": 38,
+            "Name": "A dirt path",
+            "Description": "You stand on a dirt path through a sparsely wooded area.  You feel a\nmenacing presence from the south in the deep, dark woods...\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To your east you see a dirt path.\n",
+                    "Keywords": [
+                        "A",
+                        "dirt",
+                        "path"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3814
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To your west you see a dirt path.\n",
+                    "Keywords": [
+                        "A",
+                        "dirt",
+                        "path"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3812
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3814,
+            "Zone": 38,
+            "Name": "A dirt path",
+            "Description": "You stand on a dirt path through a sparsely wooded area.  You feel a\nmenacing presence from the south in the deep, dark woods...\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To your east you see a dirt path.\n",
+                    "Keywords": [
+                        "A",
+                        "dirt",
+                        "path"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3815
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To your west you see a dirt path.\n",
+                    "Keywords": [
+                        "A",
+                        "dirt",
+                        "path"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3813
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3815,
+            "Zone": 38,
+            "Name": "A dirt path",
+            "Description": "You stand at a path which leads to the beautiful castle town which lies\neast of the the legendary Devil's Wood.  There have been reports that\nthe Prince of this kingdom has been kidnapped by an evil sorcerer, and\nthat they are looking for skilled adventurers to rescue him.  You\nwonder if that you are up to such a challenge.  I any case, the town is\nknown to be a good supplier of weapons, armor, and even magical items.\nEven if you don't take up the case, you can buy some goods here.  Looking\naround, you see a sign hung by a tree branch.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "To your west you see a dirt path.\n",
+                    "Keywords": [
+                        "A",
+                        "dirt",
+                        "path"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3814
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 22233
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "To all adventurers:\nWelcome to the world of Devil's Wood.  This zone is based on a story arc\nfrom the japanese animation series, Koko wa Greenwood, or roughly translated,\n\"Here is Greenwood\".  It is a zone inteded for the lower levels, for 15 levels\nand under, but there are some pretty tough mobs here, so make sure you \nconsider every enemy so you don't go in over your head.  And if you encounter\nany screwy persons who say their name, but when you fight them, their names\nare in opposite order, don't mind that, it's just that in japanese, people\nsay their names last name first, but here, they say first name first.  It\nwas done this way to preserve the feeling of the japanese, but stil have it\naccessible for us U.S. guys.  Other than that, please try out the zone, and\nif you can, watch the video's, their well worth your time.\n"
+                }
+            ]
+        },
+        {
+            "ID": 3816,
+            "Zone": 38,
+            "Name": "The Crossroads",
+            "Description": "You enter an open area in a forest.  Clearly this is the entrance to Devil's\nWood.  You can see that if you continue westward, you will enter the \naccursed forest.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3808
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To your west is Devil's Wood.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3817
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3817,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "This is a deep forested area, full of various wild animals that look\nvery threatening.  The animals hide behind the trees around you, and\nlook as if they will not attack you... that is, unless you provoke\nthem...\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To your east is the Crossroads.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3816
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3818
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3825
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3818,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "Entering deeper into Devil's Wood, you can see all sorts of wild animals\nstill hiding behind the dark trees around you.  They look fearsome and \ndangerous, but you do not think they will attack unless provoked.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3817
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3819
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3831
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3819,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "This is a deep forested area, full of various wild animals who look\nvery threatening.  The animals hide behind the trees around you, and\nlook as if they will not attack you... that is, unless you provoke \nthem...\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3818
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south is more of Devil's Wood\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3820
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3837
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3820,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "This is a deep forested area, full of various wild animals who look\nvery threatening.  The animals hide behind the trees around you, and\nlook as if they will not attack you... that is, unless you provoke \nthem...\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3819
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3823
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3843
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3821,
+            "Zone": 38,
+            "Name": "The Holy Church of Sanctus",
+            "Description": "This is the church of Sanctus, where one may sleep freely if one needs a\nplace to stay.  The people here are kind, and the place is funded by those\nin the Guild of Sanctus.  You may buy potions to assist your quests here.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "To the west is Square Street.\n",
+                    "Keywords": [
+                        "Square",
+                        "Street"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3809
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3822,
+            "Zone": 38,
+            "Name": "The Pawn Shop",
+            "Description": "This shop specializes in selling and buying items.  Here, you will find\nmany an obscure item that may catch your fancy.  You may sell items here\nwhen you find the other shopkeepers don't have enough money to buy those\npriceless artifacts you wish to sell.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a busy street to your east.\n",
+                    "Keywords": [
+                        "Square",
+                        "Street"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3810
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3823,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "This is a deep forested area, full of various wild animals who look\nvery threatening.  The animals hide behind the trees around you, and\nlook as if they will not attack you... that is, unless you provoke \nthem...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3820
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3824
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3849
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3824,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "This is a deep forested area, full of various wild animals who look\nvery threatening.  The animals hide behind the trees around you, and\nlook as if they will not attack you... that is, unless you provoke \nthem...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3823
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3861
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3855
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3825,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3817
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3831
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3826
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3826,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3825
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3832
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3827
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3827,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3826
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3833
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3828
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3828,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3827
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3834
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3829
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3829,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3828
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3835
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3830
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3830,
+            "Zone": 38,
+            "Name": "a small hut",
+            "Description": "You find yourself in a small hut, where you can hear sounds of whining\nand squealing.  You wonder where you are and look around.  You think that\nthis is a safe place to stay, and wonder how long you should stay.\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3829
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3836
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3831,
+            "Zone": 38,
+            "Name": "A quiet clearing",
+            "Description": "You reach a quiet clearing in Devil's Wood.  Looking around, you find a\nsmall spring where you can refresh yourself.  By the spring you also see\n2 statues dedicated to some sort of deities who guard this place.  You\nthink you'd better make an offering to the deities before you move on\nyour way.  On the base of the statues, you notice a plaque.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3825
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3818
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3837
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3832
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "statue",
+                        "statues",
+                        "deities",
+                        "plaque",
+                        "god"
+                    ],
+                    "Description": "\"Dedicated to the two who nurtured and protected this land,\nHerb, the wandering God, who spared some time to build this place,\nLinna, the fiery Goddess, who spared some time to lend a hand,\nto create this country for the peoples of this world.\n"
+                }
+            ]
+        },
+        {
+            "ID": 3832,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3826
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3831
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3838
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3833
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3833,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3827
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3832
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3839
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3834
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3834,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3828
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3833
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3840
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3835
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3835,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3829
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3834
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3841
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3836
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3836,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3830
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3835
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3842
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3837,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3831
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3819
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3843
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3838
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3838,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3832
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3837
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3844
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3839
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3839,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3833
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3838
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3845
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3840
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3840,
+            "Zone": 38,
+            "Name": "A Small Lake",
+            "Description": "You find yourself floating on a small lake.  It is calm and peaceful, \nand this looks like as good a place as any to get some rest, before\nyou go back into Devil's Wood.  Looking up you can see the blue sky, \nand below you is glittering, clear water.\n",
+            "Bits": [
+                "NOMOB",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3834
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3839
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3846
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3841
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Below you, you can see a room below the surface of the water.\n",
+                    "Keywords": [
+                        "lake"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3861,
+                    "Destination": 3893
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3841,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3835
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3840
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3847
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3842
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3842,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3836
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3841
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3848
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3843,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3837
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3820
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3849
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3844
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3844,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3838
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3843
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3850
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3845
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3845,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3839
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3844
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3851
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3846
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3846,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3840
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3845
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3852
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3847
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3847,
+            "Zone": 38,
+            "Name": "Wood of Despair",
+            "Description": "An eerie presence can be felt here.  The aura of evil surrounding Devil's\nWood is stronger here than in any other part of the dark wood.  Tormented\nsouls howl with the fury of the wind, venting their anger upon the living.\nThis is the place where spirits go when they die in these woods.  Unable\nto move on to an afterlife, they roam around here eternally, their anger\nand hatred adding to the darkness that can be felt here.\n",
+            "Bits": [
+                "DARK",
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3841
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3846
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3853
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3848
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3848,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3842
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3847
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3854
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3849,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3843
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3823
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3850
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3850,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3844
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3849
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3856
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3851
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3851,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3845
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3850
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3857
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3852
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3852,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3846
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3851
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3858
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3853
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3853,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3847
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3852
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3859
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3854
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3854,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3848
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3853
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3860
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3855,
+            "Zone": 38,
+            "Name": "Office of Kazuhiro Hasukawa",
+            "Description": "This is a normal looking doctor's office.  A skeleton is off to the side\nof one wall, modeling the skeletal structure of the human anatomy.  Being\ninside here reminds you of the time when you were little and went to\nget your booster shots (ick...).  A mixture of formaldehyde and cleaner\nmingles in the air, nearly suffocating you.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see more of Devil's Wood\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3824
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3856,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3850
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3863
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3857
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3857,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3851
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3856
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3864
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3858
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3858,
+            "Zone": 38,
+            "Name": "a clearing in Devil's Wood",
+            "Description": "You walk into a beautiful clearing, where you can actually the bright\nskies again.  Resting in this lovely area, you can hear the trickle of\na nearby spring or stream.  You smell the flowers which lie in the field\nand feel refreshed, and yet, despite your relaxation, you can not help but\nfeel on edge.\n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3852
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3857
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3865
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3859
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3859,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3853
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3858
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3866
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3860
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3860,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3854
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3859
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3867
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3861,
+            "Zone": 38,
+            "Name": "an abandoned tavern",
+            "Description": "You find yourself in an abandoned tavern, one which you imagine, once stood\nas a safe haven for weary travellers who wished to make their way through\nthese once tranquil woods that led to the beautiful lake and waterfalls to\nthe south.  Looking around, you find that there are a few barrels which lie\nhere, and you think that this is a good place to replenish your canteen.  To\nyour south, you can see a fireplace which still burns, strangely enough.\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3824
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To your south you see a bright fireplace.  It looks a bit peculiar in some\nway...\n",
+                    "Keywords": [
+                        "fireplace"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3862,
+                    "Destination": 3894
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3862
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "fireplace",
+                        "fire",
+                        "place"
+                    ],
+                    "Description": "You see to your south a burning fire.  Strangely enough, in this abandoned\ntavern, a fire still burns at the fireplace.  As you see the flames lick\nthe stone walls of the fireplace, you can't help but notice that there is\nalways a spot where the flames to not touch, a hole in the fire that is\never present...\n"
+                }
+            ]
+        },
+        {
+            "ID": 3862,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3861
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3863
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3863,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3856
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3862
+                },
+                {
+                    "Direction": "West",
+                    "Description": "The the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3864
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3864,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3857
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east is mor of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3863
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3865
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3865,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3858
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3864
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west is more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3866
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3866,
+            "Zone": 38,
+            "Name": "a clearing in Devil's Wood",
+            "Description": "You enter a clearing within Devil's Wood.  Here it is quiet and peaceful,\nand you notice that to the west is a depression, which marks that you are\nstanding on a hill.  On top of the hill are a few people, dressed in strange\nclothing and pointing a strange device at the ground below the hill.\n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3859
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3865
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3867
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3867,
+            "Zone": 38,
+            "Name": "Devil's Wood",
+            "Description": "You walk deeper and deeper into the unknown woods, and feel a threatening\npresence draw nearer to you from all directions...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3860
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see more of Devil's Wood.\n",
+                    "Keywords": [
+                        "Devil's",
+                        "Wood"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3866
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the exit to Devil's Wood to your south.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3868
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3868,
+            "Zone": 38,
+            "Name": "Outside Devil's Wood",
+            "Description": "You find yourself at a clearing, outside the forest of Devil's Wood.  You\nnow face a large pond which you must cross.  To your left is a small shop\nwhere you may rent a boat.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the entrance to Devil's Wood to your north.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3867
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see a field by the pond.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3872
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a pond to your south.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3869
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3869,
+            "Zone": 38,
+            "Name": "On a Large Pond",
+            "Description": "You find yourself floating on a large pond.  You hear a sweet song lulling\nyou towards a small island which you spot to the south...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see a clearing which has led you out of Devil's Wood.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3868
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see more of the large pond to your east.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3873
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see a large island.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3870
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3870,
+            "Zone": 38,
+            "Name": "The Island of the Siren",
+            "Description": "You reach a small island which lies within the middle of the large pond.\nThis is the island of the siren, according to the raftsman, and hopefully,\nyou can avoid confrontation with the siren... but her sweet song resonates\nthroughout the island...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To your north you see the lake heading towards Devil's Wood.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3869
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To your east you see water.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3874
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To your south you see a pond.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3871
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3871,
+            "Zone": 38,
+            "Name": "On a Large Pond",
+            "Description": "You find yourself floating outside a large pond.  You hear a silent echo\nof a sweet song in the distance...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see an island to your north.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3870
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To your east you see nothing but empty space.  Looking down, you see a \nrushing waterfall spashing downward a good distance.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3875
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To your south you can see a small desert.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3878
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3872,
+            "Zone": 38,
+            "Name": "On an Open Field Near the Pond",
+            "Description": "You walk along the pond and find yourself on a grassy field which meets\nthe still pond.  From the distance, you hear the sweet song of a creature,\nlulling you closer...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To your east you see a cliff face that looks like an easy climb.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3876
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see a large pond.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3873
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see a field with a small shop.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3868
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3873,
+            "Zone": 38,
+            "Name": "On a Large Pond",
+            "Description": "You find yourself floating on a large pond, being drawn in closer to the\nsoutheast by some whispered song...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see an open field.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3872
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To your south you see more of a large pond.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3874
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see more of the large pond to your west.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3869
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3874,
+            "Zone": 38,
+            "Name": "On a Large Pond",
+            "Description": "You find yourself floating on a large pond.  To your west is a small\nisland which is the source of a lulling song which draws you to it.  To\nyour east is a rushing waterfall whose waters come from the top of a\nsmall cliff face.  To your south is the top of another waterfall where\nthe water in the pond drains to.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To your north you see more of the large pond.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3873
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a waterfall rushing down to your east.\n",
+                    "Keywords": [
+                        "waterfall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3896,
+                    "Destination": 3898
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To your south you see nothing but empty space.  Looking downwards, you see\na rushing waterfall splashing merrily a good distance downward.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3875
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a small island to your west.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3870
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3875,
+            "Zone": 38,
+            "Name": "A Waterfall",
+            "Description": "You find yourself\nD\nO\nW\nN\na waterfall.  You think you have done smarter things in your life.  \nLuckily, you were saved by the large pools of water at the bottom of the\nwaterfall.  Unluckily, you are surrounded on all sides by water and have\nno obvious way out of this predicament.\n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "Above you, all you can see is fog.\n",
+                    "Keywords": [
+                        "fog"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3863,
+                    "Destination": 3895
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3876,
+            "Zone": 38,
+            "Name": "On a Cliff",
+            "Description": "You find yourself climbing a small cliff.  Looking to your south you can\nsee a medium sized waterfall which feeds the pond to the southwest.  \nLooking directly south of you, you can see a small desert, and in the \ncenter of it, is an ancient castle...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "To your south you see a small plateau.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3877
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To your west you see an open field next to a pond.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3872
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3877,
+            "Zone": 38,
+            "Name": "On a Small Plateau",
+            "Description": "You find yourself standing on a small plateau.  Below your feet is a medium\nsized waterfall.  Beyond that waterfall, you see a large desert which lies\nin the center of a steep valley.  There is no way to reach it from here,\nsince the waterfall blocks your way.  You can see an ancient castle in\nthe distance...\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To your north you see a cliff face.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3876
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "Above you, you see the hot, blazing sun.  You are almost blinded by the\nintense light.  Looking up, you can see a few sunspots before you must\nturn your head away.  But for some reason, they look quite peculiar.  You\nthink you had best be on your journey and not pursue looking at the sun\nanymore.  It'd be healthier for you.\n",
+                    "Keywords": [
+                        "sunspot"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3865,
+                    "Destination": 3897
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3878,
+            "Zone": 38,
+            "Name": "In the middle of a small desert",
+            "Description": "You find yourself on the top of a cliff face after crossing the pond.  To\nyour north you can still hear the dull echo of the siren's song and to your\nsouth you can see a large valley, where the castle of the Demon Lord is.\nThe only way down to the valley is to jump off the cliff, which isn't\nthe smartest thing to do, in your opinion.  But the only other avenue open\nto you is to go back to town with your tail between your legs.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To your north you can see a small pond.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3871
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see nothing but a LONG drop.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3879
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3879,
+            "Zone": 38,
+            "Name": "A deep desert valley",
+            "Description": "You scream in terror as you fall furiously toward the hard rock valley!!!\nHeading faster and faster to your doom, you find yourself almost passing\nout from fear but wake yourself up when you pee in your pants.  The ground\nis coming closer and closer until you impact the floor with a loud boom!\nYou are dead.\nOr you wish you were in any case.  You lift yourself up from the ground \nand feel yourself to check that everything is working and in the right place.\nFortunately, the valley floor which looked like hard sandstone from a \ndistance is in actuality a soft, cuishoning sand.  You look around you and\nsee to the west, the fruits of your labor.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "To your west you see your goal.  The dark castle, belonging to the Demon\nLord Clorets is there, terrifying in it's evilness.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3880
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3880,
+            "Zone": 38,
+            "Name": "Inside the Demon Lord's Castle",
+            "Description": "You find yourself inside the castle of the Demon Lord.  It is a dimly lit,\nfrightening place which you've only seen in your worst nightmares.  You\nhear the echo of a pained moan in the distance.  Looking around you, you\nfeel your hair stand up on end, and an electrifying fear now possesses you.\nTo your north you can see a slightly open doorway which leads to a spiral\nstaircase, and to your west, you can see a giant sandfall which looks as if\nit's source is above you.\n",
+            "Bits": [
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To your north you see a spiral staircase.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3881
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To your east you see the entrance which brought you to this dank castle.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3879
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west, you see a giant sandfall...\n",
+                    "Keywords": [
+                        "sandfall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3864,
+                    "Destination": 3896
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3881,
+            "Zone": 38,
+            "Name": "A spiral staircase",
+            "Description": "You find yourself standing at the steps of a spiral staircase which leads\nhigh into the towers of this dark castle.  It looks as if this is the only\nway to go, and you sense that this path will lead you to your goal.\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see a large chamber to your south.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3880
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "Above you, you see a spiral staircase.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3882
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3882,
+            "Zone": 38,
+            "Name": "At the top of the spiral staircase",
+            "Description": "You find yourself at the top of the spiral staircase, facing a set of\ndouble doors to your west.  You sense great power behind those doors and\nwonder if you should really open them...\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see a large chamber to your west.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3883
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Below you, you see the bottom of the spiral staircase.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3881
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3883,
+            "Zone": 38,
+            "Name": "The Demon Lord's chamber",
+            "Description": "You find yourself in a large chamber with an incredibly high ceiling, and\nseveral large pillars to support the great height.  To the far end of the\nwest wall, you can see a giant sandfall whose sands fall through a gaping\nhole in a strange altar.  You feel a sense of dread as you inch further\ninto the large chamber.\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To your north you see a small chamber.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3884
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To your east you see a spiral staircase.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3882
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3884,
+            "Zone": 38,
+            "Name": "A small chamber",
+            "Description": "You enter a small chamber where you hope you will find a moment to rest \nafter your trying ordeals.  However, before you get a chance to rest, the\nwhole castle begins shaking violently, and starts to rumble and sink back\ninto the sands of time which flowed through it.  You look around to find a\nwindow facing the north.  You gulp as you look through it and see that it is\nquite a drop to the cliff face beyond... but it's your only hope...\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To your north you see the open air... below you can see the cliff face \nwhere you can escape the earthquake which threatens to consume this \ncastle.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3877
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "south",
+                        "s"
+                    ],
+                    "Description": "You look through the ruined passageway which you just passed through... it\nseems though your only venue of escape is to the north.\n"
+                }
+            ]
+        },
+        {
+            "ID": 3885,
+            "Zone": 38,
+            "Name": "Guild Square",
+            "Description": "You find yourself in a square which leads to all the guilds which surround\nyou. You pause to see the view of all sorts of adventurers walking around,\nconversing amongst themselves of the thread of the demon lord.  You wander\naround and wonder if you should practice your skills at your respective\nguild.\n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To your north you see the entrace to this town.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3808
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the Mage's Guild to your east.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3888
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To your south you see the Warrior's Guild.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3887
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To your west you see the Cleric's Guild.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3886
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "Above you, you see the Ranger's Guild.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3890
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Below you see the Thieve's Guild.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3889
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To your southeast you see the Anti-Paladin's Guild.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3892
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "To your southwest you see the Paladin's Guild.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3891
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3886,
+            "Zone": 38,
+            "Name": "The Cleric's Guild",
+            "Description": "You find yourself in a quiet place, where many around you pray to their\nrespective gods.  You find an inner peace here, and wonder if you are\nexperienced enough to practice some more advanced spells.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see Guild Square to your east.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3885
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3887,
+            "Zone": 38,
+            "Name": "The Warrior's Guild",
+            "Description": "You find yourself in a large training field, where many of your fellow\nwarriors practice upon practice dummies, and on each other.  You wonder\nif you should test your mettle against one of your colleagues, or if you\nshould practice your battle skills some more.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see Guild Square to your north.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3885
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3888,
+            "Zone": 38,
+            "Name": "The Mage's Guild",
+            "Description": "You find yourself in a dark, dimly lit room, where many of your fellow\nmages sit and study texts of arcane knowledge.  You find yourself able\nto concentrate better in this dark place, where the scent of strange\nspices used as spell components fills your lungs with their sweet odors.\nYou wonder if you should take up a book and study some more.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see Guild Square to your west.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3885
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3889,
+            "Zone": 38,
+            "Name": "The Thieve's Guild",
+            "Description": "You find yourself in a very dark place, where you look around and almost\nget backstabbed by one of your more enthusiastic colleages.  The others\nchastise him on his eagerness as you calm yourself down from that initial\nshock. You smile wickedly and wonder if you should practice a bit of\nyour own skills.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "Above you, you see Guild Square.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3885
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3890,
+            "Zone": 38,
+            "Name": "The Ranger's Guild",
+            "Description": "You find yourself in a very natural environment, in a treehouse above\nGuild Square.  Inside, you are greeted by all sorts of animals, and by\nyour fellow rangers who are practicing their skills in forestry.  You \nwonder if you should do the same.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "Below you, you see Guild Square.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3885
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3891,
+            "Zone": 38,
+            "Name": "The Paladin's Guild",
+            "Description": "You find yourself in a holy place, where you see many of your fellow\nholy knights on their knees, praying to their respective gods.  You\nlook around and see many others practicing their battle skills against\neach other, and you wonder what you should do.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "To your northeast you see Guild Square.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3885
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3892,
+            "Zone": 38,
+            "Name": "The Anti-Paladin's Guild",
+            "Description": "You find yourself in a dark place where many of your colleagues pray to\ntheir dark gods, and practice the dark spells which will help them to\nbe the victor in many a battle.  You wonder if you should spar with one\nof them, or if you should study the spells that are your birthright.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northwest",
+                    "Description": "To your northwest you see Guild Square.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3885
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3893,
+            "Zone": 38,
+            "Name": "Udine's room",
+            "Description": "You find yourself in a cozy room, with a large pool in the center.  It\nis very comfortable, and very cool in here.  It smells slightly of sea\nwater and you can hear the sounds of the ocean nearby.  Looking around,\nyou find yourself wondering what the water elemental has hidden here.\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "Above you, you see a small lake.\n",
+                    "Keywords": [
+                        "lake"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3861,
+                    "Destination": 3840
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "To your southwest you feel a lot of heat through an open door.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3894
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3894,
+            "Zone": 38,
+            "Name": "Ifrit's room",
+            "Description": "You find yourself in a cozy room.  It is warm in here, and the color of the\nfurniture is bright red, as expected from a fire elemental.  The room smells\nof sweet incense, and a touch of the scent of a campfire resides in this\nplace of magic.  You look around and wonder what treasures could be in a \nplace such as this.\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see a tavern.\n",
+                    "Keywords": [
+                        "fireplace"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3862,
+                    "Destination": 3861
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "To your northeast you can feel a pocket of cool air coming from an open\ndoor.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3893
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3895,
+            "Zone": 38,
+            "Name": "Sylph's room",
+            "Description": "You find yourself suspended in the air, in the middle of a dense fog \ncreated by the seaspray of the waterfall.  Looking around, you see some\nfurniture floating in the air, all in white, blending in with the fog.\nYou wonder what type of things an air elemental would keep in her room.\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To your north you see a small pond.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3874
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To your west you see a small pond.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3871
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "Below you, you can see a large waterfall.\n",
+                    "Keywords": [
+                        "fog"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3863,
+                    "Destination": 3875
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3896,
+            "Zone": 38,
+            "Name": "Gaia's room",
+            "Description": "You enter a room which should not be there.  For some reason, someone has\nput a room underneath the drawbridge.  You wonder what purpose this room\nwas to serve...\n",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To your east you can see a sandfall blocking your way.\n",
+                    "Keywords": [
+                        "sandfall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3864,
+                    "Destination": 3880
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3897,
+            "Zone": 38,
+            "Name": "The heavens",
+            "Description": "You find yourself in a bright, fiery place, with so much heat you can barely\nstand it for much longer.  Looking around you, you see clouds below you, and\nblistering fire all around you.  You stand at the threshold of the heavens,\nand you wonder what you are doing here...\n",
+            "Bits": [
+                "DEATH",
+                "INDOORS",
+                "NOQUIT",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "Below you, you see a valley where you came from.\n",
+                    "Keywords": [
+                        "sunspot"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3865,
+                    "Destination": 3899
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3898,
+            "Zone": 38,
+            "Name": "Luna's room",
+            "Description": "You enter a room that should not be here.  For some reason, someone has\nput a room underneath the waterfall.  You wonder who this room belongs to.\nLooking above you, you can see a crack in the mountainside where the\nwater flows.  Looking above you, you can see a crescent moon beaming \ndown at you.\n",
+            "Bits": [
+                "INDOORS",
+                "TUNNEL",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see a doorway blocked by a waterfall to your west.\n",
+                    "Keywords": [
+                        "waterfall"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3896,
+                    "Destination": 3874
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see the crescent moon above you.\n",
+                    "Keywords": [
+                        "crescent"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3866,
+                    "Destination": 3899
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 3899,
+            "Zone": 38,
+            "Name": "Within a thunderstorm",
+            "Description": "You find yourself floating in the air, held aloft by some mysterious power.\nAs you hang in the air, silhouetted by the moon, you feel very confused, and\nponder your situation.  Around you, you can hear the roar of thunder, as\na storm rolls in, and yet, in the clouds above you, you can see a hole where\nthe sun shines brightly...\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "Above you, you see a strange sight, as the sun shines through the break in\nthe clouds, there seems to be a black spot on the sun... and even in this\ndistance, you feel the tremendous heat of the sun... you wonder if you should\ngo forward...\n",
+                    "Keywords": [
+                        "sunspot"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3865,
+                    "Destination": 3865
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see a small cavern without a roof below you.\n",
+                    "Keywords": [
+                        "crescent"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 3866,
+                    "Destination": 3898
+                }
+            ],
+            "ExtraDescs": null
+        }
+    ]
+}

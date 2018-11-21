@@ -1,0 +1,3454 @@
+{
+    "rooms": [
+        {
+            "ID": 13000,
+            "Zone": 130,
+            "Name": "Building HQ",
+            "Description": "   This room is filled with building supplies of every sort, ranging from 2 by\n4's and nails, to construction paper and Elmer's Glue. Power tools,\nscrewdrivers, and blueprints are strewn about in what appears to be\ncontructive disarray.\n   A small notepad rests on a sofa, keeping track of building projects. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13001,
+            "Zone": 130,
+            "Name": "Player One's Library",
+            "Description": "   You are standing amid a huge pile if giant game cards. All the cards are\nface-down, as if waiting for someone to draw one. Out of curiosity, you lift\nthe edge of one, and look at it. On the face of the card, there is a depiction\nof a spell, and it's cost in mana, but it's unlike any mana you've ever heard\nof. The mana is divided into different colors, and it takes a lot less of it\nto cast spells than it does in the \"real\" world. Whoever is playing this game\nseems to be some sort of deluded, wanna-be wizard. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13002
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13002,
+            "Zone": 130,
+            "Name": "In Player One's Hand",
+            "Description": "   You are standing in mid-aid, behind a wall of giant cards, each depicting a\ndifferent spell. On the face of each card is a fanciful depiction of the\nspell's effect, and some information about how the spell is used in the game.\nYou wonder what's behind the wall of cards, and decide to peek around it.\n   You gasp in awe of the scene spread out beneath you. The landscape below is\ntwisted and mottled with terrains from every part of the multiverse, brought\nhere by the titanic magic of the players' spells. The boundaries of the lands\nare quite distinct, as the landscape changes abruptly where one spell's effect\nends and another begins.\n   Creatures of every description wander this surreal landscape, some\nmagnificent, others horrible. You are fascinated by the scene, and are\nseverely tempted to go down and explore.\n   Far off in the distance, you notice another wall of cards hanging in the\nair, with the reverse sides facing you. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13007
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13003,
+            "Zone": 130,
+            "Name": "Player One's Graveyard",
+            "Description": "   You are standing in what in game terms could be considered a discard pile.\nFrom your point of view, it's a combination graveyard, junkyard.\n   All around you are the twisted and mutilated remains of conjured creatures,\nthe shards of shattered artifacts, and the burnt out husks of used-up\nenchanments (don't ask what the husk of an enchantment looks like).\n   As you watch, one of the creatures begins to glow with a pale white light,\nand begin to reform. In moments, it it whole again, and journeys off to heed\nits master's call and live again. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13002
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13004,
+            "Zone": 130,
+            "Name": "Necropolis",
+            "Description": "   You are standing in a ghost town, or, to be more precise, a city of the\ndead. All the buildings are in a state of disrepair and decay, and the streets\nare nearly deserted. You wish they were completely deserted, as the only\nresidents appear to be the shades of the dead. While they don't seem to be\nhostile toward you, it's still unnerving to see ghost going about their daily\nroutines as if they didn't know they were dead. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13011
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13005
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13005,
+            "Zone": 130,
+            "Name": "Tundra",
+            "Description": "   This cold and barren plain could have been summoned from the northlands of\nany one of a thousand worlds. The tundra is a harsh climate, but a common\nenough one. Normally you would expect to see tunra wolves, or elk, but it\nseems that in summoning the land, the wizard did not summon the inhabitants. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13012
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13006
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13004
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13006,
+            "Zone": 130,
+            "Name": "Underground River",
+            "Description": "   You duck your head as you enter this tunnel that the swift flowing river has\ncarved in the underground caverns. You are careful to stay on the banks of the\nriver, as stepping into it would cause you to be washed downstream to\nwho-knows-where (especially in this insane world).\n   Off to the east you tink you can make out the sounds of a waterfall over\nthe rush of the running water. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13013
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13007
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13005
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13007,
+            "Zone": 130,
+            "Name": "Underground Sea",
+            "Description": "   You're on the shore of a vast underground sea, which is being fed by a\nwaterfall, crashing down from the west. Oddly, you can still see, though it is\ndim. The ceiling of this cavern is covered in phosphorescent moss. The sea\nstretches on to the south for farther than you can see in the gloom, but\ntunnels lead out in other directions. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13014
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13008
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13006
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13008,
+            "Zone": 130,
+            "Name": "City of Brass",
+            "Description": "   Will wonders never cease?! This entire city is made out of brass! Styled in\nancient Arabian fashion, with bulbous spires that taper to a delicate point,\nand merchant stalls filled with exotic fruits, every building is made of\nbrass. The streets are paved in brass, and nearly every object you see has\nbeen crafted from brass. Once you get over the overzealous devotion to a\nsingle theme, you notice how beautiful this place actually is. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13015
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13009
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13007
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "The gateway to the forgotten. \n",
+                    "Keywords": [
+                        "secret",
+                        "oubliette"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 13042
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13009,
+            "Zone": 130,
+            "Name": "Scrubland",
+            "Description": "   This place is pathetic. The land is flat, and rocky, and almost nothing is\ngrowing here. What does grow consists mostly of hardy weeds, and scrub\ngrasses. You can't be certain if this land was ruined by the wizards' spells,\nor if it was brought here in this condition to serve some purpose that is\nbeyond your understanding. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13016
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13010
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13008
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13010,
+            "Zone": 130,
+            "Name": "The Tabernacle at Pendrel Vale",
+            "Description": "   Before you is some sort of holy citadel. While the entrance is barred and\nwarded against intruders, you can still see the tabernacle, and remark at its\nmagnificence. The place seems to give off some sort of aura that makes you\nfeel a bit weak. The aura seems to have a more pronounced effect on the\nsummoned creatures around you, as they shun this place. You should be safe\nfrom them as long as you remain in this haven. \n",
+            "Bits": [
+                "NOMOB",
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13017
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13009
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13011,
+            "Zone": 130,
+            "Name": "The Abyss",
+            "Description": "   This is the most evil of all planes. whatever wizard conjured up this small\npart of the Abyss must be powerful indeed! As you watch, some poor creature\nwanders too close to this place, and gets sucked into oblivion. This\ndemi-plane must have been created to get rid of the excess creatures wandering\naround. It's unlikely that the wizards consider you any different from their\nminions...better leave before one of them decides you've grown to be too much\ntrouble. \n",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "NORELOCATE",
+                "NOFLEE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13018
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13012
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13004
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13012,
+            "Zone": 130,
+            "Name": "Sunken City",
+            "Description": "   Plunging underwater, you see a vast city, submerged, and hidden from the\neyes of surface-dwellers. Buildings and columns are in perfect condition,\naside from being a bit wet and covered in kelp. You have to wonder whether\nthis city was built here by some aquatic race of beings, or sank beneath the\nwaves when some catastrophe ended a surface civilization. \n",
+            "Bits": [],
+            "Sector": "WATER_SWIM",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13019
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13013
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13005
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13011
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13013,
+            "Zone": 130,
+            "Name": "Circle of Protection",
+            "Description": "   Drawn on the ground here, is a large, ornate circle, decorated with runes,\nand powders, precious metals. While you can't be certain, you suspect that the\ncircle is meant to protect casters from beings that they have summoned. If\nthat's true, that means that this is some sort of summoning area. \n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13020
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13014
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13006
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13012
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13014,
+            "Zone": 130,
+            "Name": "Nether Void",
+            "Description": "   This is a place of magic far greater than any you could ever hope to\ncontrol. The very wind of this blackened void seems to strip you of power. The\nthought of staying in this place for any length of time seems unwise, as you\ncannot defend yourself here, and who knows what powerful beings may still hold\ntheir powers here. \n",
+            "Bits": [
+                "DARK",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13021
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13015
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13007
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13013
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13015,
+            "Zone": 130,
+            "Name": "Heaven's Gate",
+            "Description": "   You are standing before a set of huge, golden gates, set into a wall of\npuffy white clouds. The gates have swung partly open, and radiant golden light\nis pouring out, too blinding in its glory for you to see beyond the gates. If\nyou had your geuss, this would be the entrance to heaven, from where a good\nwizard might summon angels and the like. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13022
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13016
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13008
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13014
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "Above you, the heavens unfold. \n",
+                    "Keywords": [
+                        "secret",
+                        "heavens",
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 13043
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13016,
+            "Zone": 130,
+            "Name": "Field of Dreams",
+            "Description": "   You are standing in a pleasant field. All around you, you see the faces of\npeople you know, and dreams you thought you had forgotten. You begin to relax,\nbut then realize that that's probably why this place was created, to put you\noff your guard. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13023
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13017
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13009
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13015
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13017,
+            "Zone": 130,
+            "Name": "Spiritual Sanctuary",
+            "Description": "   Marble columns support a high ceiling in this chamber. In the center of the\nroom is a pool of soothing, warm water, where one could relax, with steps\nleading down into it. The air is fresh and sweet-smelling, and a sense of\ncalmness pervades the atmosphere. This would seem the perfect place to\nmeditate and heal. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13024
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13010
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13016
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13018,
+            "Zone": 130,
+            "Name": "Gate to Phyrexia",
+            "Description": "   Stepping through a rusted iron gate, you instantly feel a light rain falling\non you. Sighing at your miserable luck at being caught in the middle of a\nstorm, you look up at the murky brown, polluted clouds, and get a drop of\ngrease in your eye for your trouble. It's raining grease! As you wonder what\nsort of twisted world you've wandered into, you notice that this place is some\nsort of industrial nightmare. Broken machines litter the ground as gremlins\ntear them apart. Thick smoke pours out of buildings that you can only assume\nof be factories. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13025
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13019
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13011
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13019,
+            "Zone": 130,
+            "Name": "Mirror Universe",
+            "Description": "   You are standing in a bare chamber now, with the only feature being a\nfull-length wall mirror. As you regard your reflection in the mirror, you\nnotice that the reflection shows a different landscape than the one sprawled\nout behind you. Comparing the views behind you and in the mirror, you notice\nthat the creatures in both are the same, but the mirror seems to be showing a\nscene from a parellel universe. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13026
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13020
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13012
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13018
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13020,
+            "Zone": 130,
+            "Name": "Arena of the Ancients",
+            "Description": "   You are standing in what must once have been a gladitoial arena...thousands\nof years ago. Though the staggered rings of stone seats for the spectators\nstill remain, the columns that no doubt once supported grans architectural\nworks are now crumbling. The arena floor is just dirt, but is remarkably\ncleared of debris. Perhaps this place is still used for its ancient purpose. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13027
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13021
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13013
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13019
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13028
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13021,
+            "Zone": 130,
+            "Name": "Sorrow's Path",
+            "Description": "   You are walking the bleakest path you have ever passed. Decorating the road\nare clay statues of people wailing in despair and agony, and there is no\nvegetation around. You want to leave this place as soon as you can, before the\neffects start to rub off on you. \n",
+            "Bits": [
+                "DEATH",
+                "NORELOCATE",
+                "NOFLEE"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13028
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13022
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13014
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13020
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You can see a pathway into darkness below. \n",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 13044
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13022,
+            "Zone": 130,
+            "Name": "Mishra's Workshop",
+            "Description": "   You are outside some sort of twisted factory. You can't tell if it is made\nof iron, or the flesh of some foul beast, but it seems to be almost alive.\nThere is a reddish glow coming from the eye-like windows, and the smoke from\nthe chimneys comes at regular intervals, like breathing. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13029
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13023
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13015
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13021
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13028
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13023,
+            "Zone": 130,
+            "Name": "Obelisk of Undoing",
+            "Description": "   The ground here is sharp and rocky, and completely devoid of life.\nStrangely, you don't get the feeling that this place is deserted. The huge,\nornate, stone obelisk seems to be the only thing that should be here, and you\nwonder why... \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13030
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13024
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13016
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13022
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13024,
+            "Zone": 130,
+            "Name": "Land's Edge",
+            "Description": "   You've never gone in for the theory that the world is flat, but this place\nseems to confirm it. You have reached the land's edge, and can look out over\ninto the vast oblivion beyond. You watch as bits of the edge shimmer, then\ncrumble, and the wizards harness the power of the land here. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13031
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13017
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13023
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13025,
+            "Zone": 130,
+            "Name": "Caverns of Despair",
+            "Description": "   Entering the caverns, you are overcome by despair. No matter how many\ncompanions you have, you feel utterly alone. The only hope you still have is\nto make your way to the other end of the caverns. But what does it matter if\nyou make it out. Nothing matters...really... \n",
+            "Bits": [
+                "DARK",
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13032
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13026
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13018
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13026,
+            "Zone": 130,
+            "Name": "Ashnod's Altar",
+            "Description": "   You are in a kind of pagan temple, complete with sacrificial altar. The\naltar itself is made of wood, with a stone head-rest, and a metal bar to hold\ndown victims. You notice the two decent-sized holes in the altar, and the\npermanent bloodstains around them attest to the grizzly means of execution. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13033
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13027
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13019
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13025
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13027,
+            "Zone": 130,
+            "Name": "Planar Gate",
+            "Description": "   You are standing at the bottom of a set of golden staris, leading up to the\nbiggest gate you've ever seen. The gate is carved of stone, and must be at\nleast 60 feet high. The gate is glowing, and you hope that doesn't mean that\nsomething is about to come through. You truly fear what could fit through THAT\nmonstrous construction. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13034
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13028
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13020
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13026
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13028,
+            "Zone": 130,
+            "Name": "Concordant Crossroads",
+            "Description": "   You are now in what would appear to be a tropical paradise. Lush foliage and\nbrilliantly colored birds are all around you, and you feel just great! While\nmost jungle-like areas are nearly impassable, this one seems to clear a path\nfor you wherever you decide to go, making travel through here easier than\nthrough even most open terrain. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13035
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13029
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13021
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13027
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13036
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13034
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13022
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13020
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13029,
+            "Zone": 130,
+            "Name": "Raging River",
+            "Description": "  You are standing on one of two cliffs that border on an out-of control river.\nA tiny rope bridge spans the river, and you're certain you could make it\nacross, but crossing it during a battle would be suicide. You'd best decide\nwhich side you want to be on before any combat starts. You'd hate to think of\nwhat would happen to anything that fell into those surging waters. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13036
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13030
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13022
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13028
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13030,
+            "Zone": 130,
+            "Name": "Tormod's Crypt",
+            "Description": "   You enter the crypt through a dark entrance, and breath in the cold, damp\nair that fills the crypt. In the gloom, you can make out a burial mound\n(presumably containing the remains of Tormod), topped by a cross intersecting\na circle. Though there appears to be nothing alive in here, the place seems to\npulsate with the force of undeath. \n",
+            "Bits": [
+                "DARK",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13037
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13031
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13023
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13029
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13031,
+            "Zone": 130,
+            "Name": "Arboria",
+            "Description": "   You are in a jungle of living plants. Venus fly-traps that could swallow a\nman whole loom all around, as well as many other, less-than-sedentary plants.\nYou notice that the plants are more hostile toward those who carry more magic,\nand think that the safest course might be to remove your magical items. Then\nyou realize that the plants aren't trying to harm you, just block your way, as\nif they were protecting someone. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13038
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13024
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13030
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13032,
+            "Zone": 130,
+            "Name": "Timberline Ridge",
+            "Description": "   You are in a mountainous area, at high altitude. Amid snow-covered pines and\nother trees, you notice animal tracks. Higher up in the mountains, the trees\nstop, as well as the animal tracks. You seem to be at the highest point of the\nlocal ecosystem. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13033
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13025
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13033,
+            "Zone": 130,
+            "Name": "Strip Mine",
+            "Description": "   The ultimate in industrial destruction of the environment, all the natural\nresources have been stripped from this land. The land has been removed in\ntiers, to facilitate the removal of metal ores and coal, and whatever else\nmight once have been here. If there is anything left, someone will be back to\nmine it. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13034
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13026
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13032
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13034,
+            "Zone": 130,
+            "Name": "Safe Haven",
+            "Description": "   At first glance this seems to just be a small hill like any other. Then,\nhidden behind a bush, you see a little door, which you think you could crawl\nthrough if you had to. Peeking inside, you see a comfortable little home,\nseemingly unoccupied, but ready for any visitor who wants to stay here.\nWhoever arranged for this place obviously meant for it to be a safe place to\nstay for short periods of time. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13035
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13027
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13033
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13028
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13035,
+            "Zone": 130,
+            "Name": "Taiga",
+            "Description": "   This is a rather uninteresting terrain. It seems to be a coniferous forest\nat the base of a mountain range. You catch the occasional glimpse of a moose\nor bear, but it seems fairly quiet here, as if the battling wizards have seen\nfit to leave this place alone. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13036
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13028
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13034
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13036,
+            "Zone": 130,
+            "Name": "Library of Alexandria",
+            "Description": "   Walking into this library you expect to see a traditional dusty old\ncollection of books. What you find is more akin to a palace. While there are\nstill books everywhere, the shelves are spread ccomfortably far apart, and\nthere are luxurious furnishings for the readers to enjoy. While the average\nlibrary caters to the academic, this one encourages learning by all, by making\nit an all around enjoyable experience. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13037
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13029
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13035
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13028
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13037,
+            "Zone": 130,
+            "Name": "Desert",
+            "Description": "   Sand, sand, sand. The standard desert setup...the very model of a\ntraditional wasteland. The heat is just right to drain your strength and\ndehydrate you, but not so high as to kill you outright. You wish you had a\ncamel, and you don't even like camels. Anything would be preferable to walking\nacross this whole place. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "DESERT",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13038
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13030
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13036
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13038,
+            "Zone": 130,
+            "Name": "Maze of Ith",
+            "Description": "   What the?! Whoever built this maze seems to have neglected to build a way\nout...Well, then again, that's what mazes are supposed to be like. Best be\nrunning along and finding the way back out of here. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13038
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13038
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13038
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13038
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13038
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13038
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13038
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13045
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13038
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13038
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13039,
+            "Zone": 130,
+            "Name": "Player Two's Graveyard",
+            "Description": "   You are standing in what in game terms could be considered a discard pile.\nFrom your point of view, it's a combination graveyard, junkyard.\n   All around you are the twisted and mutilated remains of conjured creatures,\nthe shards of shattered artifacts, and the burnt out husks of used-up\nenchanments (don't ask what the husk of an enchantment looks like).\n   As you watch, one of the creatures begins to glow with a pale white light,\nand begin to reform. In moments, it it whole again, and journeys off to heed\nits master's call and live again. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13040
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13040,
+            "Zone": 130,
+            "Name": "In Player Two's Hand",
+            "Description": "   You are standing in mid-aid, behind a wall of giant cards, each depicting a\ndifferent spell. On the face of each card is a fanciful depiction of the\nspell's effect, and some information about how the spell is used in the game.\nYou wonder what's behind the wall of cards, and decide to peek around it.\n   You gasp in awe of the scene spread out beneath you. The landscape below is\ntwisted and mottled with terrains from every part of the multiverse, brought\nhere by the titanic magic of the players' spells. The boundaries of the lands\nare quite distinct, as the landscape changes abruptly where one spell's effect\nends and another begins.\n   Creatures of every description wander this surreal landscape, some\nmagnificent, others horrible. You are fascinated by the scene, and are\nseverely tempted to go down and explore. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13035
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13041,
+            "Zone": 130,
+            "Name": "Player Two's Library",
+            "Description": "   You are standing amid a huge pile if giant game cards. All the cards are\nface-down, as if waiting for someone to draw one. Out of curiosity, you lift\nthe edge of one, and look at it. On the face of the card, there is a depiction\nof a spell, and it's cost in mana, but it's unlike any mana you've ever heard\nof. The mana is divided into different colors, and it takes a lot less of it\nto cast spells than it does in the \"real\" world. Whoever is playing this game\nseems to be some sort of deluded, wanna-be wizard. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13040
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13042,
+            "Zone": 130,
+            "Name": "Oubliette",
+            "Description": "   An oubliette is a place to put people to forget about them. Unlike a\ndungeon, prisoners in an oubliette are never fed, never tortured...never\nreleased. The rats here feast on the flesh of those who finally succumb to\nmortality. Only the rats are here by choice. \n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13043,
+            "Zone": 130,
+            "Name": "Greater Realm of Preservation",
+            "Description": "   This is truly a greater realm. You are in a beautiful land, of green\ngrasses, and bright sunshine. You feels safe, and happy, and just plain great.\nAll around you are the angelic inhabitants of this realm. All of them greet\nyou warmly and offer their hospitality. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13015
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13044,
+            "Zone": 130,
+            "Name": "On the Way To the Graveyard",
+            "Description": "   Your mind boggles at this peek into the workings of the Celestial\nBureaucracy. The mutilated corpses of the dead are standing in line, waiting\nto be sorted out into their respective afterlives. An unlucky few, under the\ncontrol of wizards at the time of their death, are doomed to return to their\nmaster's graveyard, and await ressurection--or worse. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13039
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13003
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13045,
+            "Zone": 130,
+            "Name": "Maze of Ith",
+            "Description": "   Finally!!! This seems to be the way out of the infamous Maze of Ith. You\nmentally make a note to never get yourself stuck in there again. \n",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13031
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13037
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13046,
+            "Zone": 130,
+            "Name": "Inside the Belly of the Leviathan",
+            "Description": "   You cough and gasp for breath after being swallowed whole by the Leviathan.\nSeawater and digestive juices cover you in a wet slime.\nSpeaking of digestive juices, you start to feel them eating away\nat your skin, and seeping into your open wounds. If you don't\nescape from here soon, you're going to die.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "WATER_NOSWIM",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13047,
+            "Zone": 130,
+            "Name": "The Entrance to a \"Magic: the Gathering\" Tournament",
+            "Description": "   It seems that there is some sort of card game tournament going on at the\nconvention. All around you there are people rushing to sign up to enter and to\nget to their first match. You see a sign-up table, where several officials\nhelp people enter themselves in the tournament. Posted on the wall behind the\nofficials is a huge sign stating all the tournament rules. (Hint folks: READ\nthe SIGN). \n",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 21119
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "rules",
+                        "sign",
+                        "huge"
+                    ],
+                    "Description": "Official Tournament Rules:\n1) All players level 35 and under play in the junior division.\n2) All players above level 35 play in the advanced division.\n3) Summoning of creatures is permitted in designated areas.\n4) Equipment lost to Atogs will not be refunded by tournament officials.\n5) The decisio of the head judge is final.\n\nTo enter the tournament,type: \"sign up\"\n"
+                }
+            ]
+        },
+        {
+            "ID": 13048,
+            "Zone": 130,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13049,
+            "Zone": 130,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13050,
+            "Zone": 130,
+            "Name": "0",
+            "Description": "",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13051,
+            "Zone": 130,
+            "Name": "Player One's Library",
+            "Description": "   You are standing amid a huge pile if giant game cards. All the cards are\nface-down, as if waiting for someone to draw one. Out of curiosity, you lift\nthe edge of one, and look at it. On the face of the card, there is a depiction\nof a spell, and it's cost in mana, but it's unlike any mana you've ever heard\nof. The mana is divided into different colors, and it takes a lot less of it\nto cast spells than it does in the \"real\" world. Whoever is playing this game\nseems to be some sort of deluded, wanna-be wizard. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13052
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13052,
+            "Zone": 130,
+            "Name": "In Player One's Hand",
+            "Description": "   You are standing in mid-aid, behind a wall of giant cards, each depicting a\ndifferent spell. On the face of each card is a fanciful depiction of the\nspell's effect, and some information about how the spell is used in the game.\nYou wonder what's behind the wall of cards, and decide to peek around it.\n   You gasp in awe of the scene spread out beneath you. The landscape below is\ntwisted and mottled with terrains from every part of the multiverse, brought\nhere by the titanic magic of the players' spells. The boundaries of the lands\nare quite distinct, as the landscape changes abruptly where one spell's effect\nends and another begins.\n   Creatures of every description wander this surreal landscape, some\nmagnificent, others horrible. You are fascinated by the scene, and are\nseverely tempted to go down and explore.\n   Far off in the distance, you notice another wall of cards hanging in the\nair, with the reverse sides facing you. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13057
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13053,
+            "Zone": 130,
+            "Name": "Player One's Graveyard",
+            "Description": "   You are standing in what in game terms could be considered a discard pile.\nFrom your point of view, it's a combination graveyard, junkyard.\n   All around you are the twisted and mutilated remains of conjured creatures,\nthe shards of shattered artifacts, and the burnt out husks of used-up\nenchanments (don't ask what the husk of an enchantment looks like).\n   As you watch, one of the creatures begins to glow with a pale white light,\nand begin to reform. In moments, it it whole again, and journeys off to heed\nits master's call and live again. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13052
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13054,
+            "Zone": 130,
+            "Name": "Seafarer's Quay",
+            "Description": "   You are standing in what appears to be a stop-over for seamen. A little\ninlet provides deep enough water for most merchant ships to dock at the piers\nthat dominate the waterfront. The place seems to be deserted, though it just\nmight be that the inhabitants aren't in the habit of conversing with every\narmed adventurer who happens by. \n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13061
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13055
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13055,
+            "Zone": 130,
+            "Name": "Mountain",
+            "Description": "   From the heights of this majestic peak you can see the surrounding\ncountryside. Glaciers and Iceberg, Forests and Swamps, the variety of terrains\nnever ceases to amaze you. You notice many tracks along the mountain, trails,\nand conclude that there must be some kind ofcivilization around...goblin\ntracks don't just up and make themselves. \n",
+            "Bits": [],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13062
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13056
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13054
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13093
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13056,
+            "Zone": 130,
+            "Name": "Plateau",
+            "Description": "   The plateau is like a mountain with the top flattened out. It makes for much\neasier walking, but not nearly as good a view. No creatures seem to be native\nto this area though, so you might be able to relax for a while. \n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13063
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13057
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13055
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13057,
+            "Zone": 130,
+            "Name": "Plains",
+            "Description": "   The plains are flat and empty. Home to cattle and small farmers, the plains\ndry grasses are ideal for grazing. There is a wholesome quality to a place\nlike this...something not quite tangible. As you stare off into the distance,\nyou can't help but feel good about yourself. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13064
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13058
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13056
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13058,
+            "Zone": 130,
+            "Name": "Island of Wak Wak",
+            "Description": "   You are on a most curious island. The winged inhabitants seems to accept\nyour presence, hardly paying you any notice. You see orchards of trees that\nbear the most curious fruit. The fruits are shaped like a woman's head. As you\nwonder how they ever got the fruits to grow like that, you hear someone say\n\"Wak.\" When you turn to see who said it, there is no one there. You hear it\nagain, and realize that the fruits TALK! \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13065
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13059
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13057
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13059,
+            "Zone": 130,
+            "Name": "Island",
+            "Description": "   The rythmic rush of the waves against the shore and the briny smell in the\nair soothes your nerves. Looking out at the horizon, you see where this little\nsection of ocean ends, and the other lands conjured by the wizards begin. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13066
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13060
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13058
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13060,
+            "Zone": 130,
+            "Name": "Elephant Graveyard",
+            "Description": "   Shards of ivory that were once the tusks of mighty elephants mark this\ngravesite as a holy place among those who revere and respect elephants. The\nshamans tell tale that if the magic of this place is harnessed by a wizard, he\ncan heal even the most seriously wounded elephant from the brink of death. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13067
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13059
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13061,
+            "Zone": 130,
+            "Name": "Tidal Flats",
+            "Description": "   Your feet sink partway into the mud as you walk along land that spends half\nits time beneath the waves. A ways off, you can hear the waves on the shore.\nIn a few hours, the tides will return,and cover the footprints that you are\nleaving...and the land will forget you were ever here. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13068
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13062
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13054
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13062,
+            "Zone": 130,
+            "Name": "Glaciers",
+            "Description": "   You stand atop a mile-high block of ice. Cracks wide enough to swallow up\nentire armies criss-cross this vast glacier. A cold wind blows across your\nface, and you shiver at the bitter cold. What a bleak, inhospitable place. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13069
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13063
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13055
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13061
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13063,
+            "Zone": 130,
+            "Name": "Icatian Town",
+            "Description": "   What a quaint little town. This is the kind of place you read about in\nstorybooks. There are small wooden houses with thatched roofs, and barrels\noutside to catch rainwater. A little stone bridge spans a stream that runs\nthrough the town. \n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13070
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13064
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13056
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13062
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13064,
+            "Zone": 130,
+            "Name": "Caribou Range",
+            "Description": "   The land here ressembles an arctic tundra. The ground is white with frost,\nbut patches of hardy grasses poke through in places. That grass is the main\nfood supply for a vast herd of Caribou. Many arctic tribes follow the caribou\nfor food, and there is most likely a tribe nearby, unless they were separated\nfrom the herd by the wizard's conjuring. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13071
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13065
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13057
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13063
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13065,
+            "Zone": 130,
+            "Name": "Fortified Area",
+            "Description": "   You're standing ouside a small fortress set on the tip of a penninsula.\nThere is a rocky hill around which the walls of the fortress are built, and\nthe walls themselves are arranged in three curtains, such that anyone invading\nwould have to pass all three walls to reach the tiny keep inside. In your\nopinion, someone went a bit overboard in defending this place. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13072
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13066
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13058
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13064
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13066,
+            "Zone": 130,
+            "Name": "Iceberg",
+            "Description": "   You are standing on an Iceberg (well, at least on the tip of the iceberg).\nIt's chilly here, but not as cold as you might expect. You notice a part of\nthe iceberg glow red, and begin to melt, warming you a bit. What's why this\nplace it so warm! Some wizard is using it as a source of mana, drawing power\nright out of the iceberg itself. This probably isn't even a real iceberg, but\na floating block of frozen mana. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13073
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13067
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13059
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13065
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13067,
+            "Zone": 130,
+            "Name": "Hallowed Ground",
+            "Description": "   You are standing in a snow forest, under an overcast sky. You see a humble\nlittle house, with smoke coming out of the chimney. As you watch, the clouds\npart slightly, and holy radiance bathes the house in its light. This must be\nsome kind of sanctified area. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13074
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13060
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13066
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13068,
+            "Zone": 130,
+            "Name": "Snow Fortress",
+            "Description": "   This \"fortress\" seems to be a gigantic mound of snow, with a huge wooden\ndoor being the only entrance. At first this seems to be a ridiculous way to\ndefend a place, but then again, you can't really picture an invading army\nbreaking out snow-shovels to tear the place down, either. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13075
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13069
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13061
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13069,
+            "Zone": 130,
+            "Name": "Runed Arch",
+            "Description": "   This stone archway is carved with myriad runes, whose meaning you can't even\nbegin to discern. Through the arch you can see the huge eye of some creature\non the other side. Peeking around the arch, you can see that there isn't any\ncreature there. This arch must be some kind of interdimensional phase shift,\nallowing parallel multiverses to...super...impose...you don't have a clue. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13076
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13070
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13062
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13068
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13070,
+            "Zone": 130,
+            "Name": "Barl's Cage",
+            "Description": "   You see a crude iron cage is suspended over a chasm by four heavy chains\nattached to a framework. There is a small door to the cage, with a lock that's\nrusted with age. You don't know what the cage is for, or why the mages decided\nto bring it here. It doesn't look like it's sturdy enough to hold a dangerous\nprisoner, though once it would have stood up to a great deal of punishment. It\nmust have some other use that is beyond you comprehension. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13077
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13071
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13063
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13069
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13071,
+            "Zone": 130,
+            "Name": "Storm World",
+            "Description": "   Entering this area isa truly like stepping into another world. You are\ninstantly struck by a gale force wind that nearly knocks you down. Storm\nclouds whirl about you, even at ground level. You are occasionally zapped by\nsmall jolts of lightning, but it seems that the magicks you carry offer some\nprotection, and you take no damage. You shudder to think what would happen if\nyou were unguarded. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13078
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13072
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13064
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13070
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13072,
+            "Zone": 130,
+            "Name": "Skeleton Ship",
+            "Description": "   You are on the deck of a skeleton ship that is sailing on a tiny patch of\nwater, smaller than most lakes. The hull of the ship is rotted out, but even\nthe holes in the hull don't sink the ship. The sails are in fair condition,\nbut tattered, their once bright red color faded with age. The crew of the ship\nappear as skeletons, dressed in traditional seafarers' garb, but quite dead.\nThey seem to be content to ignore you as long as you let them run their ship. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13079
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13073
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13065
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13071
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13073,
+            "Zone": 130,
+            "Name": "Serpent Generator",
+            "Description": "   Before you is some weird sort of machine. It looks like a big sausage\ngrinder, except that instead of putting in meat...molten metal is pouring into\nthe top. You can't see where the molten metal is coming from, but you're\ncertain it's magical in origin. At the other end of the machine, the metal is\nsqueezed out into long cords of metal, that ressemble snakes. In fact, they\nmove like snakes, and hiss like snakes, too!! \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13080
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13074
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13066
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13074,
+            "Zone": 130,
+            "Name": "Drift of the Dead",
+            "Description": "   You're once again in the icy cold. You climb a snowdrift to get a look\naround at yoursurroundings, and you nearly retch. You notice that the\n\"snowdrift\" you've been climbing is in fact a pile of frozen corpses and\nskeletons that the storms have blow into a snowdrift. You can only hope that\nyou don't meet a similar fate in this harsh climate. \n",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13081
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13067
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13073
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13075,
+            "Zone": 130,
+            "Name": "Mudslide",
+            "Description": "   At least you noticed it before it was too late. Due to heavy rains recently,\nthe hillsides here have become one huge mudslide. You see hapless cattle, and\nthe occasional goblin get sucked along down the hill with the mud. You don't\nknow what will become of them, but you doubt that without magical help they'll\never get unstuck. If one of the wizards takes the trouble, a small amount of\nhis mana could most likely free them. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13082
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13076
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13068
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13076,
+            "Zone": 130,
+            "Name": "Tourach's Gate",
+            "Description": "   Nice spider. Someone with a taste for arachnids obviously built this gate.\nThe spider that stands over the gateway seems to be completely decorative.\nThrough the gate come a variety of disgusting creatures, obviously the result\nof some kind of twisted magic (probably perpetrated the the spider-loving gate\nbuilder). \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13083
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13077
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13069
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13075
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13095
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13077,
+            "Zone": 130,
+            "Name": "Glacial Crevasses",
+            "Description": "   You see what must once have been a might glacier centuries ago. The ice now\nhas more cracks in it that most fields have blades of grass. Looking down into\nout, you can see a pair of eyes staring back at you, the creature's body\nobscured in the shadows of the crevasse. It appears that not everyone views\nthe glacier's sorry state as a tragedy. Some seem to think of it as a home. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13084
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13078
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13070
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13076
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13078,
+            "Zone": 130,
+            "Name": "Elven Fortress",
+            "Description": "   Walking through the forest, you remark at the size of the trees around you.\nThis is an old-growth forest in the extreme. Hearing a bird singing above you,\nyou look up and gape in amazement. There is a fortress built into the trees\nover your head. You probably never would have noticed it if you weren't right\nunderneath it, so cleverly does it blend into the trees. This must be of elven\nmake, for no other civilized race has such rapport with the wilderness. \n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13085
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13079
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13071
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13077
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13079,
+            "Zone": 130,
+            "Name": "Hot Springs",
+            "Description": "   What a welcome relief. The blackened, rocky terrain gives way here to a pool\nof steaming water. Despite the slightly sulferous smell, you're sorely tempted\nto climb right in for a soothing bath. When was the last time you bathed,\nanyway? \n",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13086
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13080
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13072
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13078
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13080,
+            "Zone": 130,
+            "Name": "Fountain of Youth",
+            "Description": "   The enscription on the fountain reads: Fountain of Youth. Having heard the\nlegends of the Fountain of Youth, you'd have expected something a bit more\ngrand for the bringer of eternal life. There's no golden cup from which to\ndrink the blessed waters, no elaborate temple built around its grandeur. It's\njust a stone fountain, with an ugly statue spouting water from its mouth.\nWhoever found the way to grant eternal life through drinking water either had\nno imagination, or a sick sense of humor. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13087
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13081
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13073
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13079
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13081,
+            "Zone": 130,
+            "Name": "Avalanche",
+            "Description": "   Be glad you weren't here when this happened. Too much snow must have built\nup, and it all came tumbling down, destroying the land in the process. If\nthere is anything of any value under all that snow, you'll have to wait for a\nmelting to find it. It would take an army of dwarves with shovels to dig\nthrough any decent amount of that snow. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13088
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13074
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13080
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13082,
+            "Zone": 130,
+            "Name": "Bottomless Vault",
+            "Description": "   You enter the vault through the massive steel door that someone\ninadvertantly left open. Inside is a small stone ledge, and what looks to be a\nbottomless pit (you have a keen eye for noticing things like that). Idly\nkicking some gravel over the edge, you listen for it to hit the bottom.\nSeveral times you hear the gravel scrape along the walls of the pit, but you\nrun out of patience before you hear anyting that sounds like it hitting the\nbottom. \n",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13083
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13075
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13083,
+            "Zone": 130,
+            "Name": "Adventurers' Guildhouse",
+            "Description": "   Judging by what you know of guilds, adventurers must be a hard-luck bunch.\nWhile any respectable merchants' guild or theives' guild is a place of luxury,\nbuilt in the middle of a bustling town, the Adventurers' Guildhouse is a small\nhome along a trade way. Looking in through the window, the place looks\ncomfortable, but not opulent in any way. You get the feeling that this\n\"guildhouse\" is more of a waystation for wandering adventurers than any kind\nof meeting hall. \n",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13084
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13076
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13082
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13084,
+            "Zone": 130,
+            "Name": "Swamp",
+            "Description": "   As you wade chest-deep through the murky, snake-invested watersof this\nswamp, you wonder why any wizard would have wanted to bring this place here.\nThe answer: Swamps are one of the basic land types used for producing the mana\nthey draw upon for their powers. Swamps provide black mana, used for dark,\noften self-destructive mana that many wizards shun. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13085
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13077
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13083
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13085,
+            "Zone": 130,
+            "Name": "Bayou",
+            "Description": "   A cross between a swamp and a forest, a bayou combines the murky waters of a\nswamp with the healthy trees of a forest. Such mixed land-types are invaluable\nto the wizards who conjure them. They give the wizard the ability to call upon\nthe powers of more than one type of mana, while only requiring them to conjure\nup one land. Personally, you'd rather they favor tropical paradises when\ndeciding what lands they want around. \n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13086
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13078
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13084
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13086,
+            "Zone": 130,
+            "Name": "Forest",
+            "Description": "   Ahh...the sweet smell of the woods. Birds sing in the trees, and you\noccasionally see a deer prancing through the forest. The forest is easy to\nwalk through, without a lot of undergrowth. You aren't bothered by any\nmosquitoes, and don't notice any woodland predators about. Whichever wizard\nbrought this forest here only bothered to bring the pleasant parts. \n",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13087
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13079
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13085
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13087,
+            "Zone": 130,
+            "Name": "Diamond Valley",
+            "Description": "   You're a millionaire!! Billionnaire!!! Trillionnaire!!! There are diamonds\neverywhere in this valley. The ground is littered with them. You eagerly set\nabout trying to stuff all your containers full of them. You begin to get\nannoyed, then frustrated, then exasperated by the fact that the diamonds won't\nbudge! Collapsing after a furious attempt to dislodge a particularly large\nspecimen, you notice that you can begin to see through the diamonds to the\nbarren ground beneath them. You also see a ghostly apparition of death that\ndoes not approach you. It becomes clear to you that the illusion of the\ndiamonds was a lure to bring creatures heere for sacrifice...and that you were\nspared...this time. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13088
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13080
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13086
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13088,
+            "Zone": 130,
+            "Name": "Mountain Stronghold",
+            "Description": "   You are at the base of a rocky mountain that is completely devoid of\nvegetation, animals, and even snow. Atop the mountain is perched a fortress\nwith tall spires, and a stone wall around it. You don't see any path or easy\nplace to climb up the mountain, and for a moment you wonder how the tower got\nbuilt up there. You feel silly, thinking about all the weird places you've\nbeen recently, and answer your own question: magic. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13081
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13087
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13089,
+            "Zone": 130,
+            "Name": "Player Two's Graveyard",
+            "Description": "  You are standing in what in game terms could be considered a discard pile.\nFrom your point of view, it's a combination graveyard, junkyard.\n   All around you are the twisted and mutilated remains of conjured creatures,\nthe shards of shattered artifacts, and the burnt out husks of used-up\nenchanments (don't ask what the husk of an enchantment looks like).\n   As you watch, one of the creatures begins to glow with a pale white light,\nand begin to reform. In moments, it it whole again, and journeys off to heed\nits master's call and live again. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13090
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13090,
+            "Zone": 130,
+            "Name": "In Player Two's Hand",
+            "Description": "  You are standing in mid-aid, behind a wall of giant cards, each depicting a\ndifferent spell. On the face of each card is a fanciful depiction of the\nspell's effect, and some information about how the spell is used in the game.\nYou wonder what's behind the wall of cards, and decide to peek around it.\n   You gasp in awe of the scene spread out beneath you. The landscape below is\ntwisted and mottled with terrains from every part of the multiverse, brought\nhere by the titanic magic of the players' spells. The boundaries of the lands\nare quite distinct, as the landscape changes abruptly where one spell's effect\nends and another begins.\n  Creatures of every description wander this surreal landscape, some\nmagnificent, others horrible. You are fascinated by the scene, and are\nseverely tempted to go down and explore.\n   Far off in the distance, you notice another wall of cards hanging in the\nair, with the reverse sides facing you. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13085
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13091,
+            "Zone": 130,
+            "Name": "Player Two's Library",
+            "Description": "   You are standing in what in game terms could be considered a discard pile.\nFrom your point of view, it's a combination graveyard, junkyard.\n   All around you are the twisted and mutilated remains of conjured creatures,\nthe shards of shattered artifacts, and the burnt out husks of used-up\nenchanments (don't ask what the husk of an enchantment looks like).\n   As you watch, one of the creatures begins to glow with a pale white light,\nand begin to reform. In moments, it it whole again, and journeys off to heed\nits master's call and live again. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13090
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13092,
+            "Zone": 130,
+            "Name": "Goblin Shrine",
+            "Description": "   Only goblins would be stupid enough to light a bonfire underground. It looks\nlike they are holding some sort of pagan ceremony here. Goblins are dancing\naround the fire (and occasionally stumbling into it) and screaming like\nlunatics. It would be quite a fearsome sight to behold if the goblins weren't\ntwo feet shorter than you. \n",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13093
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13093,
+            "Zone": 130,
+            "Name": "Goblin Caves",
+            "Description": "   You have to hunch over to walk through these caves. The stench of countless\ngenerations of goblin inhabitation make the area almost intolerable. You pass\nby unidentifiable piles of offal, and the occasional corpse of a former\ngoblin. All in all, the trip would be much more pleasant if you'd thought to\nbring a garden hose and a gas mask. \n",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13092
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13094
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13055
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13094,
+            "Zone": 130,
+            "Name": "Goblin Warrens",
+            "Description": "   This seems to be the goblins main living area. You get the clue from the\nincredible number or tiny goblin children running around everywhere. Support\nbeams reinforce tunnels that branch off in all directions to the goblins'\nindividual quarters, but goblin engineering prowess doesn't give you any\nconfidence in their stability. In all the chaos of the children running\naround, and the female goblins trying to round them up, the goblins hardly\nnotice you. \n",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13093
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13095,
+            "Zone": 130,
+            "Name": "Breeding Pit",
+            "Description": "   Ewww!! Whatever that pool of slop in the middle of the room is, you don't\nwant to know. You can see through the murky fluid that there is something\nunder there, moving around. Alot of somethings, in fact. On the shores of this\ndisgusting pond are hideous creatures, no doubt the result of the swill in\nthat pool. From the looks of these monstrosities, killing them would be a\nfavor. \n",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 13076
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13096,
+            "Zone": 130,
+            "Name": "On the Beach",
+            "Description": "On these sands shoes are a must during the day and just perfect at night.\nVolley ball net has been setup for recreation as well as a B-ball court\nto the west. To the east you see hammoc set between two trees in the \nshade. ",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13097,
+            "Zone": 130,
+            "Name": "0",
+            "Description": "Before you stand a two tone grey and red brick dream. A solid redwood door\nblocks the entrance way, with purple hazed colored roses going on each side\nThis dream sits on 2 and a half mile of private beeach,and about 80 feet\nfrom the crystal blue waters.  ",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13098,
+            "Zone": 130,
+            "Name": "Inside Lord Therons' Beach House",
+            "Description": "As you look about you , you cant help but to notice the Old Japaneese Art\nabout the room. To your left you see a vase from the Ming dynasty. Upon\nthe wall are painting of great battles fouhgt,and of course the loved cla\nDOGs Shooting Pool. theres a 56inch console television with cables att\nplaced aginst the far wall. You also can see the beach from the living room\nwindow.",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 13099,
+            "Zone": 130,
+            "Name": "Patio",
+            "Description": "From this window you can see Ocean for mile out. Golden tan beach hazes the \nsight with the reflection of the sun gleaming off it. Lounge and lawn chairs\nare setting about under the canopy with a warm breeze flowing on you",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": null,
+            "ExtraDescs": null
+        }
+    ]
+}

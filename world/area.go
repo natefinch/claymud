@@ -1,7 +1,7 @@
 package world
 
 import (
-	"sync"
+	"fmt"
 
 	"github.com/natefinch/claymud/game"
 	"github.com/natefinch/claymud/util"
@@ -14,23 +14,14 @@ type Area struct {
 	Name      string
 	Zone      *Zone
 	Locations []*Location
+	LocByID   map[util.Id]*Location
 }
 
 // Add adds the location to this area.
 func (a *Area) Add(l *Location) {
 	l.Area = a
 	a.Locations = append(a.Locations, l)
-}
-
-// SpawnZone creates a new Zone and spawns a worker goroutine for which handles
-// events in that zone.
-func SpawnZone(name string, zoneLock sync.Locker, shutdown <-chan struct{}, wg *sync.WaitGroup) *Zone {
-	w := game.SpawnWorker(zoneLock, shutdown, wg)
-	return &Zone{
-		ID:     <-ids,
-		Name:   name,
-		Worker: w,
-	}
+	a.LocByID[l.ID] = l
 }
 
 // Zone is a collection of Areas that represent one large and logically distinct
@@ -40,6 +31,13 @@ type Zone struct {
 	Name  string
 	Areas []*Area
 	*game.Worker
+}
+
+func (z *Zone) String() string {
+	if z == nil {
+		return "<Zone nil>"
+	}
+	return fmt.Sprintf("<Zone %q (%v)>", z.Name, z.ID)
 }
 
 // Add adds the area to this zone.

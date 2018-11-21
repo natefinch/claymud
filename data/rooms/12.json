@@ -1,0 +1,1385 @@
+{
+    "rooms": [
+        {
+            "ID": 1200,
+            "Zone": 12,
+            "Name": "The Chat Room",
+            "Description": "A small and cozy chamber is light by a candles and a fire that burns warmly\nin the marble fireplace.  A statue of a cat stands upon the hearth, the light\nreflecting off of its glossy surface.  Two comfortable chairs stand in front\nof the fire, upholstered in a soft, dark green velvet.  A thick carpet of \nmidknight blue with a dark-green leaf pattern covers most of the floor and\ninvites you to wiggle your toes in its softness. The floral bouquet which \nstands on a long table fills the air wonderfully withs its fragrance.\n",
+            "Bits": [
+                "INDOORS",
+                "PRIVATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1201,
+            "Zone": 12,
+            "Name": "The TIME OUT room.",
+            "Description": "You have been put in this room to take time out and figure out\nexactly why you were put in this room.  Please consider all the\nthings you have been doing in the last few minutes.  In a\nfew minutes, an Immortal will be with you.  Please treat this\nimmortal with the respect due an immortal because remember, the\nice box is only a step away.\n\nTHIS is your warning.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC",
+                "PRIVATE",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1202,
+            "Zone": 12,
+            "Name": "The Ice Box",
+            "Description": "Here lie the frozen remains of mud players who just couldn't learn to\nplay nicely with the other kids in the sandbox.  Let this be a frigid\nreminder to you that the eyes above are watching, ready to cast you into\nthe frozen wastelands without so much as a warning should you transgress.\n",
+            "Bits": [
+                "INDOORS",
+                "SOUNDPROOF",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1203,
+            "Zone": 12,
+            "Name": "Reimbursement Room",
+            "Description": "You have been magically summoned here to the Ashes to Ashes\nReimbursement Room. Please be patient and explain problems fully.\nThe staff reserves the right to refuse any and all replacements for good\nreason. As well, items may change over time, so please understand that.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3001
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1204,
+            "Zone": 12,
+            "Name": "The Board Room of the Immortals",
+            "Description": "You are standing in a spacious, airy room. It is brightly lit, but you fail\nto see any visible light sources. The floor is made of marble, with squares\nof black-streaked and pure white marble set in a complex pattern which you\nare constantly on the verge of grasping. The walls of this room are pure\nwhite, and are set with many large, floor-length windows which give a\nmagnificent view of all the mortal realms. There are several sitting areas\nset up throughout the room, where sofas and chairs upholstered in shades of\nemerald and rose are clustered together to form comfortable nooks, seemingly\nisolated from the rest of the room. In the center of the room stands a large\ntable, surrounded by innumerable chairs, where Immortals may meet to discuss\ntheir not doing anything about the MUD. Set in a place of honor on one of\nthe walls is a large board, set within an intricately sculpted frame of pure\ngold. Perhaps you ought to take the time to read what is written upon it.\n\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1217
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1207
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "You",
+                        "see",
+                        "the",
+                        "lower",
+                        "part",
+                        "of",
+                        "this",
+                        "room,",
+                        "and",
+                        "the",
+                        "normal",
+                        "board."
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1205
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "A large, yet somehow obscure, door set in the southwestern corner of\nthis room leads off to an airy, well lit lounge for off-duty crew.\n",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1210
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1205,
+            "Zone": 12,
+            "Name": "The Lower Board Room of the Immortals",
+            "Description": "This room is very similar to the room above.  It has the same patterned\nmarble floor, the same emerald and rose color scheme, and it too\nhas the large, floor-length windows.  However, this room comes\nacross as being much more informal than the room above.  The furniture\nis arranged in casual groupings which look like they change quite \noften.  Music is playing softly in the background, and there is a bar\nover in the corner where you can grab a glass of your favorite brew\nand kick back and relax.  In one corner of the room there is an elegant\nmarble stairway which winds it's way down to the Temple of Midgaard.\nBut why bother going down there when you can hang out up here?\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "A well screened inter-dimensional portal hangs quietly in the air here.  You\nhave no idea where it could possibly lead...\n",
+                    "Keywords": [
+                        "portal",
+                        "fractal",
+                        "sex",
+                        "drugs",
+                        "rock'n'roll"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1206
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see the main Immortal Board Room at the top of the spiral staircase\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1204
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1206,
+            "Zone": 12,
+            "Name": "The Quest Chamber",
+            "Description": "With notepads, sheets of paper, and computer printouts going a mile a minute,\nyou can see that the place is a disaster area.  Every now and then you see\nsomeone come by to read a printout, scratch his head, and grumble to himself.\nLooking around you see pictures from past quests and ideas of quests yet to\ncome.  Perhaps yours will be done soon.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1205
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1204
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign",
+                        "quest"
+                    ],
+                    "Description": "The bulletin board is here for you to place your ideason. Be our guest and\nuse it freely. Signed, The Questmasters of Ashes to Ashes.\n"
+                }
+            ]
+        },
+        {
+            "ID": 1207,
+            "Zone": 12,
+            "Name": "The Upper Board Room of the Immortals",
+            "Description": "This room is quite large, but it is very dark and has a musty smell.\nThe paint on the walls is cracked a bit, and there are spider webs\nfestooned across the ceiling.  It looks as though this room has been\nabandoned for some time, and you get the feeling that even in it's\nprime, this room didn't see much action.  Perhaps this room serves\nbest as a monument to a good idea taken a bit too far.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PEACEFUL",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1204
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1208,
+            "Zone": 12,
+            "Name": "",
+            "Description": "\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1209,
+            "Zone": 12,
+            "Name": "",
+            "Description": "\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1210,
+            "Zone": 12,
+            "Name": "A quiet lounge for off-duty construction crew",
+            "Description": "Spare steel beams and transparent plate glass walls help to give this lounge\nan airy, open feel by letting in large quantities of bright, ambient light!\nA low iron railing frames a square window cut into the center of the floor,\naround which are clustered comfortable sofas and coffee tables. Looking over\nthe railings gives one a breathtakingly beautiful view of the world below.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1204
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1211,
+            "Zone": 12,
+            "Name": "The River Phoenix",
+            "Description": "\"HEY!! What are you doing in here? At least let me get my feathers\non before you barge in like that.. (tum tee tum).  Okay, how do I\nlook?  FABULOUS!! Have a seat!\"\n\nYou see a giant feather bed (few ashes on there never hurt anyone)\nin one corner and a fire extinguisher right beside it.  (When Phoenix\nrises.. you can bet that little darlin' will come in mighty handy!)\n\n\"Thanks for stoping by.. and uh, call first next time, huh?\nLove ya Buh-Bye now!\"\n\nPhoenix waves happily.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1212,
+            "Zone": 12,
+            "Name": "Asita's Lair",
+            "Description": "Misty waters of the winedark sea thunder against the white stone plateaus\nthat reach up through the clouds.  These plateaus are filled with warm sky\nblue water and line the entrance to a cave.  Inside this cave that is\nsurrounded by pools of water are many elaborate rugs, and plush skins for\nlounging.  At night, when the sky grows dark, the lair walls illuminate with\nthe galaxy beyond.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1213,
+            "Zone": 12,
+            "Name": "The Cimp+ Hangout",
+            "Description": "You see a large mirror, reflecting your face with a toothy grin.\nMuch prettier than ascii.\n",
+            "Bits": [
+                "NOMOB",
+                "PEACEFUL",
+                "GODROOM"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1214,
+            "Zone": 12,
+            "Name": "Kaitlin's Hideaway",
+            "Description": "You have entered a quiet, secluded cottage in the forest.  A warm, inviting\nfire burns in the hearth to welcome home the occupants of this place. The\ndrapes move softly as a fresh breeze blows in off the sparkling clear waters\nof the lake outside.  The comfiness of this place makes you want to stay and\nvisit so make yourself at home.\n",
+            "Bits": [
+                "PEACEFUL",
+                "PRIVATE",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1215,
+            "Zone": 12,
+            "Name": "Gailen's room",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1216,
+            "Zone": 12,
+            "Name": "Morphine's room.",
+            "Description": "",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1217,
+            "Zone": 12,
+            "Name": "The coding announcement room",
+            "Description": "You find yourself in a vast room filled with all kinds of junk.  You\nsee numerous computers, stacks of books on various programming languages,\nmiles of printouts, and a lot of coffee machines, Mountain Dew bottles and \npizza boxes.\nThere are several people bent over keyboards typing frantically,\ntrying to improve the mud code.  Occasionally one of them curses and\nslams his or her fist on the keyboard in frustration.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1204
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1218,
+            "Zone": 12,
+            "Name": "Backstage at the Alanis Morissette Concert",
+            "Description": "As you materialize, you suddenly come to the realization that you have not\nonly been summoned, but that your soul has been plucked out of its mortal\ncoil and has been deposited here, in what appears to be a dressing room\nbackstage at a huge concert hall. You are slowly bathed in soothing white\nlight. You shield your eyes from the glow, and can barely make out a mighty\nthrone, engraved along the top with the words, \"Smokin' HoT!\" The smell of\nfresh oranges overwhelms you, and, if you listen closely, the sounds of\nVivaldi wafting from this bright room reach out and touch your heart. All at\nonce, the sense of despair you first felt is dispelled, and you feel as\nthough you could stay forever. A bright yellow lava lamp glows silently in\nthe corner. There is a huge mirror from end to end of the room. Out of\nnowhere, you recognize the haunting voice of the Immortal Goddess, Alanis,\nand a shiver runs up your spine...\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOFLEE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1219,
+            "Zone": 12,
+            "Name": "MidKnight's Study",
+            "Description": "The first thing you notice as you arrive is the total darkness of\nthis room.  Well, not total darkness, as your eyes adjust you can\nsee a gentle light coming down from above.  You look up, expecting\nto see a skylight, and instead see the sky.  Stars stretch out in\nevery direction for as far as the eye can see, and the moon shines\ndown, keeping watch over all the sleeping world.  As you look around\nthe walls and floor of this place appear out of the darkness, long\nshadows trailing behind them.  On the walls are rows and rows of\nwell crafted, leather bound books, on all topics imaginable.  Comfy\nyet formal chairs sit around a small table off to one side of the\nroom.  In the corner is MidKnight's computer desk, with a seven pointed\nstar hanging in the air over it.  MidKnight walks around his domicile,\nnot noticing the lack of light.\n",
+            "Bits": [
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "star"
+                    ],
+                    "Description": "Looking at the star, it seems to glow and hum before your very eyes.\nThere is a snake coiled into the sign of infinity in the center, biting\nit's own tail like the great serpent Uroborus.  The star seems at first\nto be a normal six pointed star, but looking carefully you notice that\nthere are actually seven points.  As you move closer, you think you notice\nmovement out of the corner of your eye... did that snake move?\n"
+                }
+            ]
+        },
+        {
+            "ID": 1220,
+            "Zone": 12,
+            "Name": "Azuth's Tower",
+            "Description": "This room is the zenith of the brilliant column of pure energy which is\nAzuth's Tower. Small arcs of electricity swirl from the walls to the floor\nand celing of the chamber, as well as about the furniture and various shelves\nwhich adorn the area. A faint but pleasant humming comes from all around, and\nthere is a hint of ozone in the air here. Easily the most distinguishing\nfeature of Azuth's abode is an immense sapphire table resting in the center\nof the room, behind which sits a chair of obsidian. A large tome is lying\nopen on the table, collecting dust. The northeastern corner of the room\ncontains a curious shimmering curtain, much like you'd expect to find in a\nbank vault...\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "Ah, you'd probably just hit your head against the wall as you attempted that\nfeat. Then again...\n",
+                    "Keywords": [
+                        "curtain"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3072
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "walls",
+                        "wall",
+                        "floor",
+                        "celing"
+                    ],
+                    "Description": "Funny, they don't LOOK like pure energy.\n"
+                },
+                {
+                    "Keywords": [
+                        "bank",
+                        "vault"
+                    ],
+                    "Description": "Yes, but it ISN'T a bank vault.\n"
+                },
+                {
+                    "Keywords": [
+                        "saphire"
+                    ],
+                    "Description": "Sapphire has two p's in it, dolt.\n"
+                },
+                {
+                    "Keywords": [
+                        "tome",
+                        "book"
+                    ],
+                    "Description": "It appears to be a large spellbook. Right now it's open to a page entitled,\n\"Tashia's Ludicrous And Rediculous, Foolishly Ineluctable, And Yet Actually\nSomewhat Useful And Amusing In A Few Random Situations Which Might Not\nInvolve Penguins, Incantation (Enchantment/Charm)\". Hmm, must be powerful.\n"
+                },
+                {
+                    "Keywords": [
+                        "chair",
+                        "obsidian"
+                    ],
+                    "Description": "The obsidian chair isn't much more than a big block of obsidian cut into a\nshape which is suitable to sit in.  It doesn't look very comfortable.\n"
+                },
+                {
+                    "Keywords": [
+                        "sapphire",
+                        "table"
+                    ],
+                    "Description": "There's nothing special about the immense sapphire table.\n"
+                },
+                {
+                    "Keywords": [
+                        "ozone"
+                    ],
+                    "Description": "You look very closely at the ozone. It looks like this:   + -\n                                                        O=O-O\n"
+                },
+                {
+                    "Keywords": [
+                        "arcs",
+                        "arc",
+                        "electricity",
+                        "lightning"
+                    ],
+                    "Description": "A small blue crackle of electricity appears momentarily, then vanishes.\n"
+                },
+                {
+                    "Keywords": [
+                        "furniture",
+                        "shelves",
+                        "shelf"
+                    ],
+                    "Description": "The shelves are neatly lined with books, and the furniture is placed in such\na way to make it easy to reach almost any book without getting up.\n"
+                },
+                {
+                    "Keywords": [
+                        "shimmering",
+                        "curtain"
+                    ],
+                    "Description": "Ah, you'd probably just hit your head against the wall as you attempted that\nfeat. Then again...\n"
+                },
+                {
+                    "Keywords": [
+                        "zenith"
+                    ],
+                    "Description": "You don't see a Zenith 27 inch television here.\n"
+                }
+            ]
+        },
+        {
+            "ID": 1221,
+            "Zone": 12,
+            "Name": "Room of Pain",
+            "Description": "You are in a room filled with all types of mudder torture devices.  The\nmost prevalant one is a rack.  It is lined with spikes and has some leather \nwrist cuffs with more metal spikes lining the inside.  These are attached\nto four cranks which look like they have been engineered to turn easily.\nAmong the other items in this room are various whips, hot pokers glowing in\nthe fire, and various enlongated knifes.  Truly a place no mudder wants to\nbe.\n",
+            "Bits": [
+                "DARK",
+                "DEATH",
+                "NOTRACK",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "rack",
+                        "table",
+                        "spikes"
+                    ],
+                    "Description": "You see a beautifully crafted mahogony rack.  It's your standard rack\nbut it looks like the person who made it put loving time and effort\ninto each of the gold embossed carvings of bludgeoned mudders, \npierced mudders, and just being plain tortured mudders into the varn-\nished unsanded rack.\n"
+                }
+            ]
+        },
+        {
+            "ID": 1222,
+            "Zone": 12,
+            "Name": "Frosty's Winter Wonderland",
+            "Description": "This place seems to be an endless expanse of snow-covered land. One could not\ntell for sure however, because of the raging blizzard that eternally\nencompasses these lands known as Snowville. The snow here is up to your\nknees, and is beginning to numb out the lower portion of your legs from the\nintense cold. Amidst all the snow however, stands a magnificent throne,\nseemingly created, and elegantly fashioned of solid ice. This throne,\nbelonging to the god of winter, Frosty himself, is said to be so cold, that\nif anyone beside he were to sit upon it, they would instantly be frozen into\na solid statue of ice, of which would be placed among the others in Frosty's\ntrophy room within his great Ice Palace.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTRACK",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1223,
+            "Zone": 12,
+            "Name": "Starfall's sanctum",
+            "Description": "A small comfortable room. A warm bed in the corner, a scarred wooden desk and\ncomfortable chairs make this his home. Papers and books give this a well\nlived in look. Only his closest friends are allowed here Here, he begins his\nadventures into the world beyond\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "desk"
+                    ],
+                    "Description": "Scarred and worn, Starfall treasures this desk once used by his father\n"
+                },
+                {
+                    "Keywords": [
+                        "bed"
+                    ],
+                    "Description": "Warm and cozy covered with a quilt given to him with love by his grandmother.\n"
+                }
+            ]
+        },
+        {
+            "ID": 1224,
+            "Zone": 12,
+            "Name": "The Studio",
+            "Description": "This is Sargon's favorite place, his space at the craft center.  Two large\ntables define the north and south boundries.  On these tables are several\nclay vessels in various stages of completion.  The concrete wall to the east\nis covered with posters.  Against the wall is a desk full of clay tools and\nceramics books.  Next to the desk is a large garbage can of aging clay and\nseveral recycle buckets.  The western border is a heavy shelving unit full\nof completed ceramic wares.  In the center of the floor is a crappy Shimpo\nthrowing wheel.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1204
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1225,
+            "Zone": 12,
+            "Name": "Howitzer's Room",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1226,
+            "Zone": 12,
+            "Name": "Sarnoth's Grove",
+            "Description": "  All around you is a thick mist, but a warm fire keeps it away. Within it's\nlight it is warm and dry despite the weather. There are a few log benches\nnear the fire, and a bag of marshmallows and several perfect toasting sticks\nrest near one of the benches. A little farther away, just close enough to\nkeep you comfortably warm all night, are several sleeping bags. A small\nstream at the edge of the mist sparkles under the light of a crescent moon\nand stars, which also shine on this place in any weather. The gurgling of the\nstream, the crackle of the fire, and the rustle of the wind in the trees all\ncombine to lull you into total relaxation.\n",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1227,
+            "Zone": 12,
+            "Name": "Tindalos' Groove",
+            "Description": "The corners of time must, at one point, collide with one another.\nThis is the area where time is most vulnerable to the hounds... Yes, the\nhounds that can smell your future and hunt your past, the hounds that\nmay destroy your mortality before you were mortal.\nThe hounds that control the past, the future, and the present all at once.\n\nThis is the room.  Built of obtuse angles that defy the laws of physics.\nThis is where the master of the corners of time will sit, will wait,\nand will remember when the hounds shall come.  This is the empty\nroom of the present.  This is the convergence of the corners of time.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1228,
+            "Zone": 12,
+            "Name": "Meribah's Bedroom Office.",
+            "Description": "His room appears well used, and some might say broken.  A large oak computer\ndesk rests in the center, and a matching book shelf is supported by the\nsouthern wall.  A suit of lamellar with a barbute helmet peers at you from\nthe northeastern corner.  From the ceiling a Storvik tabard and Blackspear\nhousehold cross hang proudly. Armor and sewing materials litter the floor.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "cross"
+                    ],
+                    "Description": "It appears to be a celtic cross, and the silvery has blackened with tarnish.\n"
+                },
+                {
+                    "Keywords": [
+                        "tabard"
+                    ],
+                    "Description": "The blue and white tabard is scarred with rips and bood stains.\n"
+                },
+                {
+                    "Keywords": [
+                        "desk"
+                    ],
+                    "Description": "You see a small label entitled \"Bush.\"\n"
+                },
+                {
+                    "Keywords": [
+                        "lamellar"
+                    ],
+                    "Description": "It has been built well, and the blackened leather plates are very tight, with\nwhite lacing holding them together.\n"
+                },
+                {
+                    "Keywords": [
+                        "shelf"
+                    ],
+                    "Description": "Many military strategy, forensic science, and army books dominate the shelf.\n"
+                },
+                {
+                    "Keywords": [
+                        "barbute"
+                    ],
+                    "Description": "The helmet has been made by the master armorer Johan Bleah.\n"
+                }
+            ]
+        },
+        {
+            "ID": 1229,
+            "Zone": 12,
+            "Name": "The Shattered Remains of Neo-Tokyo",
+            "Description": "You find yourself standing amongst piles of rubble and charred\ncorpses. You look all around only to see death, destruction and chaos.\nThere appears to have been some sort of holocaust, but god only knows\nwhat could cause this much damage this quickly. You don't feel very\nsafe here..\n",
+            "Bits": [
+                "DARK",
+                "NOFLEE"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3062
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3000
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1204
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1230,
+            "Zone": 12,
+            "Name": "Eomer's Exotic Expanse",
+            "Description": "   Imagine yourself in space  when suddenly you see a bright point of light.\nThat bright point then rushes outward forming a brilliant line in the vast\ndarkness of nothingness before you. The line grows thicker untill it\nseparates and forms a square floating about you, which in its turn grows\nlarger and separates into two, no, 6 squares, all forming a cube. This cube\nthen starts phasing in either time, or with another dimension, forming a\nhypercube. This hypercube is where Eomer is, if you can concentrate enough,\nyou may see him.\n",
+            "Bits": [
+                "PEACEFUL"
+            ],
+            "Sector": "FLYING",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1204
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1231,
+            "Zone": 12,
+            "Name": "Seekers room..",
+            "Description": "He will change this as soona s he get's time\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": -1
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3062
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "window"
+                    ],
+                    "Description": "Looking out the big picture window, you see a beautiful view.  Maeve's\nwindow looks down a large, rolling hill.  The grass is green and snooth\nyet, though it is obviously autumn.  The hill rolls down to a large\nlake, sparkling and glistening in the afternoon sun.  There are many trees,\nall of them covered with spectacular foliage of red and orange and yellow.\nIn the field beside the lake, you spy two deer.  Straining your eyes,\nyou can see that one sports a maginifcent rack, while the other, smaller\none, does not.  The deer stoop to drink from the lake, then turn and\nwander together into the woods.  There is a slight breeze, which ruffles\nthe colored leaves and makes ripples on the water.  All in all, it is\na perfect day.\n"
+                },
+                {
+                    "Keywords": [
+                        "poem"
+                    ],
+                    "Description": "Listen, will you learn to hear me from afar?\nIt's a question of inclining the heart more than\nthe ear.\nYou'll find bridges in yourself, and roads\nTo reach all the way to me who waits and stares.\n\nWhat does it matter, the Atlantic's width.\nThe fields, woods, mountains between us two?\nOne by one they'll have to give up on that day\nYou turn your eyes this way.\n\nJules Superville\n"
+                },
+                {
+                    "Keywords": [
+                        "kiss"
+                    ],
+                    "Description": "I saw you take his kiss! \"'Tis true.\"\nO, modesty! \"'Twas strictly kept:\nHe thought me asleep, at least I knew\nHe thought I thought he thought I slept.\"\n"
+                },
+                {
+                    "Keywords": [
+                        "storm"
+                    ],
+                    "Description": "Hanging on the wall you see a beautiful painting.  Titled 'The Storm'\nand painted by French artist Pierre Auguste Cot, the painting shows two\nfigures, a young man and a young woman.  She is clad in a long, totally\ntransparent dress of pure white.  He is barechested, with short pants\nclinging to his waist and a hunting horn hung at his side.  Both are\nbarefoot, and they hold his shirt above their heads to shield them\nfrom the first droplets of rain.  They are running along a narrow path,\nboth peering behind them, over their shoulders, to get a glimpse at \nthe storm which has runied their clandestine meeting.\n"
+                }
+            ]
+        },
+        {
+            "ID": 1232,
+            "Zone": 12,
+            "Name": "Mighty's Office",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1233,
+            "Zone": 12,
+            "Name": "The graveyard of Lost Souls",
+            "Description": "This is a large graveyard with many different headstones. Each headstone\nrepresents a different friend that kasmiur has left behind in the past. Some\nmany people so many different ideas and dreams along with them. Hopefully\nthere will be no more in the future and you will definatly not be one left in\nthe past but one that travels along in the future.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": -1
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1204
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3072
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "Kerstin",
+                        "Bartolo"
+                    ],
+                    "Description": "Kerstin and bartolo were the favorite clan bots that helped newbies along the\nway.\n"
+                },
+                {
+                    "Keywords": [
+                        "ripclaw"
+                    ],
+                    "Description": "This was the old leader of CYBERFORCE now long gone and no more. hopefully he\nwill be proud of what kas has done with the clan with kasmiur as the head\nrunner.\n"
+                }
+            ]
+        },
+        {
+            "ID": 1234,
+            "Zone": 12,
+            "Name": "Drazzst's Cave",
+            "Description": "This cave is rather neat.  There are a bunch of books sitting on a makeshift\nbookshelf, carved into the stone of the cave wall by some industrious fellow.\nThere are two sets of cushions, arranged in such a way so that something\nmight sleep on them.  One o f them is a beautiful deep maroon.  The other is\na majestic purple.  There is a sign over the purple cushions.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOFLEE",
+                "FLY"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Northeast",
+                    "Description": "There is a dark hole here.\n",
+                    "Keywords": [
+                        "hole"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1208
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "Sign"
+                    ],
+                    "Description": "The Sign reads: This is Gwyn's cushion.  DON'T EVEN THINK OF SLEEPING HERE OR\nSHE'LL MESS YOU UP!!!\n"
+                }
+            ]
+        },
+        {
+            "ID": 1235,
+            "Zone": 12,
+            "Name": "Sonya's room",
+            "Description": "This is Sonya's room.. she will change this once she has done olc.\n",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1236,
+            "Zone": 12,
+            "Name": "Shifter's Tower",
+            "Description": "   The modern equivalent of the stereotypical wizard's tower, this place looks\nlike the best place for the magi-technically oriented. While one wall is lined\nwith ancient spellbooks, another contains rack upon rack of CD-ROM's,\ncontaining Gigabytes of digitally stored spells. A really powerful-looking\nenchanted laptop computer sits on a futuristic desk. The enspelled ethernet\nlink allows lag-free internet access 24/7. You could spend weeks in here\nwithout ever getting bored. \n",
+            "Bits": [
+                "INDOORS",
+                "NOTRACK",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "FLYING",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1237,
+            "Zone": 12,
+            "Name": "South-Eastern tower of Castle Zykos",
+            "Description": "A pleasant and well kept room at the top of the tower.  It overlooks the\ngrasslands to the south and west, and mountains to the east and north.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "north",
+                        "east",
+                        "mountains"
+                    ],
+                    "Description": "You see the purple-gray mountains of the planet Terraron.  No mortal has\never gazed upon such a sight.\n"
+                },
+                {
+                    "Keywords": [
+                        "west",
+                        "south",
+                        "grasslands"
+                    ],
+                    "Description": "You see the grasslands of the planet Terraron.  A place no mortal has \never walked.\n"
+                }
+            ]
+        },
+        {
+            "ID": 1238,
+            "Zone": 12,
+            "Name": "Billybob's Room",
+            "Description": "",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1239,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1240,
+            "Zone": 12,
+            "Name": "Althor's Ancient Aes Sedai Platform",
+            "Description": "Fire bursts from every pore of your body, burning through your meak armor.\nEven as you open your mouth to scream, a gateway opens right where you stood.\nBloody halves of your burning body fall to the ground.  Althor stands here\nstaring not into the blackness, but at a great columned hall with lion-carved\nstone panels, where his eternal enemy sits upon a guiled throne.  Sending\nfire and lightning ahead of him, Althor steps from his platform through the\ngateway as it closes behind him.  He WAS death.\n",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1204
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1241,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1242,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1249,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1250,
+            "Zone": 12,
+            "Name": "Hysteria's Grid",
+            "Description": "There's nearly a foot of water on the floor in this room and the walls are\nlined with antique air-break high-voltage switches.  In the corner stands a\nhuge transformer, which is humming at a teeth-rattling volume. CAUTION signs\nare stuck on nearly everything in here.  The walls, ceiling, and floor are\nconstructed entirely of metal, as a grounding grid, due to the high levels of\nstatic electricity.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3090
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3050
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3048
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3051
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3056
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [
+                        "backtomortlandyouphreak"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF",
+                        "SECRET"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 3072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1251,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1254,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1255,
+            "Zone": 12,
+            "Name": "CC's Cave",
+            "Description": "You enter a large room carved from an underground cave that is filled with\ncomputer screens. In the center of the room, you see a HUGE screen in the\ncenter that has all sorts of operations. To the right you see a large car\nthats all black... Wait a minute! Isnt that the Batmobile!\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1260,
+            "Zone": 12,
+            "Name": "HigherAnarchy's Castle of Chaos",
+            "Description": "As you step into the castle, all hell breaks loose. You feel your body\nmutating into a state unlike anything you have ever experianced. After a few\nmoments of this chaotic state, you feel much better however, and owe it to\nthe tequila you drank last night.   Finally, after a long maze, you arrive at\nthe meeting room of HigherAnarchy. Taking up most of the room is a huge\nmarble table with big friendly letters on it saying, DON'T PANIC.  Huge\nleather executive chairs cover all edges of the table.\n",
+            "Bits": [
+                "INDOORS",
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1265,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1269,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1277,
+            "Zone": 12,
+            "Name": "Wybaar's sanctuary",
+            "Description": "This room is a comfortable library.  You feel a little cool in here, but\nthat's how Wybaar wants it. There is a computer on the desk, it hums with\npower.  Most of the titles on the shelves are mathematics texts. One in\nparticular catches your eye.  It is entitled \"The Solution to Every\nMathematical Problem You Will Ever Encounter.\" You try to sneak a peek at the\nbook, but you can't read any of the writing inside.  Sorry :)\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "This is a door to the Ice Box.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1202
+                },
+                {
+                    "Direction": "East",
+                    "Description": "This is a door to the Lower Board Room of the Immortals.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1205
+                },
+                {
+                    "Direction": "South",
+                    "Description": "This is a door to the Quest chamber.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1206
+                },
+                {
+                    "Direction": "West",
+                    "Description": "This is a door to a quiet lounge for off-duty construction crew.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1210
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "This door leads to the area near the Temple altar.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3054
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "This door leads to the Temple of Midgaard.\n",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3072
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1280,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1281,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1290,
+            "Zone": 12,
+            "Name": "Rigbyd's Habitat",
+            "Description": "You stand in the middle of a gross looking apartment room. Clothes are strewn\nabout the floor, and you can see empty pizza boxes cluttering what isnt\ncovered by the clothes. In the background a stereo is blaring Korn at full\nvolume. In the middle of the room is a TV set which looks unused, in front of\nit a beat up couch. The whole highlight of the room is the corner where an\nawsome looking computer sits. It almost looks like who ever got this thing\nmust have stole it from NASA or a military agency. CD's and disks are lying\nabout all over in that corner and the one desk is covered with manuals and\nhelp books. Through the dim light, in front of the computer so see someone\nbent over pounding away at the keys furiously. You wonder who it is.....\n",
+            "Bits": [
+                "NOTELEPORT",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1292,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1295,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1296,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1297,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1298,
+            "Zone": 12,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1299,
+            "Zone": 12,
+            "Name": "",
+            "Description": "\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        }
+    ]
+}

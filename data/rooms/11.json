@@ -1,0 +1,1721 @@
+{
+    "rooms": [
+        {
+            "ID": 1100,
+            "Zone": 11,
+            "Name": "A dimly lit path",
+            "Description": "   You tread through the deep, dark forest on a dimly lit path.  Up ahead you\r\r\r\r\n\rcan hear the faint sounds of a village.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The dimly lit path leads north through the dense forest.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1101
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6000
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1101,
+            "Zone": 11,
+            "Name": "A dimly lit path",
+            "Description": "   You tread through the deep, dark forest on a dimly lit path.  Up ahead you\r\r\r\r\n\rcan hear the faint sounds of a village.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The dimly lit path leads north through the dense forest.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1102
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The dimly lit path leads south through the dense forest.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1100
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1102,
+            "Zone": 11,
+            "Name": "A dimly lit path",
+            "Description": "   You tread through the deep, dark forest on a dimly lit path.  The forest\r\r\r\r\n\rhere seems less dense than to the south.  Northward you see the faint outline\r\r\r\r\n\rof a village.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The dimly lit path leads to a village.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1103
+                },
+                {
+                    "Direction": "South",
+                    "Description": "The dimly lit path leads south through the dense forest.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1101
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1103,
+            "Zone": 11,
+            "Name": "Entrance to the Shire",
+            "Description": "   You stand at the entrance to the Shire.  You see halflings, no more than\r\r\r\r\n\rwee tall, every which way you look. Bywater Road leads east and west.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1104
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see a dimly lit path which leads to a dense forest.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1102
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1118
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1104,
+            "Zone": 11,
+            "Name": "Bywater Road",
+            "Description": "   You stand on Bywater Road, the busiest street in all of Shiredom.  The road\r\r\r\r\n\rcontinues to the east and west while to the north lies the general store.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The general store lies to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1105
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1106
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you see the entrance to the Shire.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1103
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1105,
+            "Zone": 11,
+            "Name": "The General Store",
+            "Description": "   You are inside the general store.  All sorts of goodies are stacked on the\r\r\r\r\n\rmany shelves.  Your local friendly shopkeeper is smiling patiently, waiting to \r\r\r\r\n\rserve you to the best of his abilities.  The only exit is to the south.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The only exit lies to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1104
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1106,
+            "Zone": 11,
+            "Name": "Bywater Road",
+            "Description": "   You stand on Bywater Road, the busiest street in all of Shiredom.  The road\r\r\r\r\n\rcontinues to the east and west.  To the north, steps lead to a friendly looking\r\r\r\r\n\rweaponry/armory while a nursery lies to the south.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Steps lead to a friendly looking weaponry and armory.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1107
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1109
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south lies Kid'n Keep, the local nursery.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1108
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1104
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1107,
+            "Zone": 11,
+            "Name": "The House of Arms",
+            "Description": "   You are inside the finest weapons and armour shop in all of Shiredom.  The\r\r\r\r\n\rshopkeeper proudly displays his fine wares and humbly offers the best daggers\r\r\r\r\n\rthat you have ever laid eyes on.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The only exit lies to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1106
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1108,
+            "Zone": 11,
+            "Name": "Kid'n Keep",
+            "Description": "   You are inside Kid'n Keep, the convenient one-stop nursery that maintains\r\r\r\r\n\rthe youth of the Shire.  Toddlers run every which way while their nursemaids\r\r\r\r\n\rsigh in exasperation.  The only exit lies to the north.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The only exit lies to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1106
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1109,
+            "Zone": 11,
+            "Name": "A bend in the road",
+            "Description": "   Bywater Road continues west and south.  A large, imposing building lies\r\r\r\r\n\rto the east.  Farther to the south, you can see an Inn of some sort.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "A large, imposing building lies to the east.  A sign reads 'Shiriff Post'.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1110
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1112
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1106
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1110,
+            "Zone": 11,
+            "Name": "Shiriff Post of the Eastern Shire",
+            "Description": "   You are in the Shiriff Post which acts as the nucleus for the three shiriffs\r\r\r\r\n\rof the Eastern Shire.  As you examine the shiriffs on duty, you come to realize\r\r\r\r\n\rthat the halflings of the Shire are not to be reckoned with.  You cower with \r\r\r\r\n\rawe.  A door offers passage to the east.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "A door offers passage to the office of the Thain.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1111
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west you can see Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1109
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1111,
+            "Zone": 11,
+            "Name": "Thain's Office",
+            "Description": "   You stand inside the office of the Thain, the police protectorate of the\r\r\r\r\n\rgreat Shire.  The Thain has sworn to protect the Shire from all thieves and\r\r\r\r\n\rmurderers with his life, and so eyes you suspiciously.  A door to the west\r\r\r\r\n\rleads to the Shiriff Post.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "A door offers passage to the Shiriff Post.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1110
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1112,
+            "Zone": 11,
+            "Name": "Bywater Road",
+            "Description": "   You stand on Bywater Road, the busiest street in all of Shiredom.  The road\r\r\r\r\n\rcontinues to the north and south.  To the east you spy the training grounds for\r\r\r\r\n\rshiriffs in training.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1109
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The Shiriff Training Grounds lies to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1117
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1113
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1113,
+            "Zone": 11,
+            "Name": "Bywater Road",
+            "Description": "   You stand on Bywater Road, the busiest street in all of Shiredom.  The road\r\r\r\r\n\rcontinues to the north.  The private residences of Shire inhabitants are to\r\r\r\r\n\rthe east and west while to the south lies the Ivy Bush, second only to the\r\r\r\r\n\rGreen Dragon for its hospitality and service.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1112
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You spy the private dwelling of a Shire folk to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1115
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south you see the Ivy Bush, a favorite haunt of Shire urbanites and\r\r\r\r\n\rseasoned travelers.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1116
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You spy the private dwelling of a Shire folk to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1114
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1114,
+            "Zone": 11,
+            "Name": "A smial",
+            "Description": "   You are inside a smial, a hole in the ground which serves as the proper\r\r\r\r\n\rdwelling place for halflings.  As you look around this private abode, you feel\r\r\r\r\n\ras if you were intruding and so quickly cover your eyes.  The only exit lies\r\r\r\r\n\rto the east.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The only exit lies to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1113
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1115,
+            "Zone": 11,
+            "Name": "A smial",
+            "Description": "   You are inside a smial, a hole in the ground which serves as the proper\r\r\r\r\n\rdwelling place for halflings.  As you look around this private abode, you feel\r\r\r\r\n\ras if you were intruding and so quickly cover your eyes.  The only exit lies\r\r\r\r\n\rto the west.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The only exit lies to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1113
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1116,
+            "Zone": 11,
+            "Name": "The Ivy Bush",
+            "Description": "   You are in the Ivy Bush, one of the most famous inns in all of Shiredom.\r\r\r\r\n\rChique Shire urbanites and seasoned travelers fill the confines of the room\r\r\r\r\n\rwith gay and lively talk.  A jovial innkeeper stops all that he is doing to\r\r\r\r\n\rawait your command.  The only exit lies to the north.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The only exit lies to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1113
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1117,
+            "Zone": 11,
+            "Name": "Shiriff Training Grounds",
+            "Description": "   The sounds of mock battle and feigned death cries fill your ears.  Every\r\r\r\r\n\rwhich way you turn you see halfling trainees at the prime of their youth.  A\r\r\r\r\n\rwizened old battle instructor meets your gaze and asks if he may be of \r\r\r\r\n\rservice.  The only exit lies to the west.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "The only exit lies to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1112
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1118,
+            "Zone": 11,
+            "Name": "Bywater Road",
+            "Description": "   You stand on Bywater Road, the busiest street in all of Shiredom.  The road\r\r\r\r\n\rcontinues to the east and west.  A large, imposing building lies to the south.\r\r\r\r\n\rYou catch a glimpse of the Brandywine River to the north.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east you see the entrance to the Shire.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1103
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A large, imposing building lies to the south.  A sign reads 'Shiriff Post'.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1119
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1120
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1119,
+            "Zone": 11,
+            "Name": "Shiriff Post of the Bridge",
+            "Description": "   You are in the Shiriff Post which acts as the nucleus for the three shiriffs\r\r\r\r\n\rof the Bridge.  As you examine the shiriffs on duty, you come to realize that\r\r\r\r\n\rthe halflings of the Shire are not to be reckoned with.  You cower with awe.\r\r\r\r\n\rThe only exit is to the north.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The only exit is to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1118
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1120,
+            "Zone": 11,
+            "Name": "Bywater Road",
+            "Description": "   You stand on Bywater Road, the busiest street in all of Shiredom.  The road\r\r\r\r\n\rcontinues to the east and west.  To the south you spy the Grocer's Delight,\r\r\r\r\n\rthe premium grocer's shop in all the realm while to the north lies Brandywine\r\r\r\r\n\rBridge.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Brandywine Bridge offers safe passage across the tumultuous river.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1131
+                },
+                {
+                    "Direction": "East",
+                    "Description": "To the east runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1118
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the Grocer's Delight to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1121
+                },
+                {
+                    "Direction": "West",
+                    "Description": "To the west runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1122
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1121,
+            "Zone": 11,
+            "Name": "The Grocer's Delight",
+            "Description": "   You tremble with ecstasy as the tempting odors of freshly made pipeweed\r\r\r\r\n\rbread fill your lungs.  Rumor has it that the pipeweed bread sold here can\r\r\r\r\n\rrestore vitality.  You look around but find no one to take your order.  \r\r\r\r\n\rYou then peep over the counter and discover a friendly grocer who is too \r\r\r\r\n\rshort to be seen over the counter.  The only exit is to the north.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "The only exit is to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1120
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1122,
+            "Zone": 11,
+            "Name": "Bywater Road",
+            "Description": "   You stand on Bywater Road, the busiest street in all of Shiredom.  The road\r\r\r\r\n\rcontinues to the east.  A small hill lies to the west while you can see a\r\r\r\r\n\rwatermill to the far south.  You catch a glimpse of the Brandywine River to\r\r\r\r\n\rthe north.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1120
+                },
+                {
+                    "Direction": "South",
+                    "Description": "An entrance to the watermill lies to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1123
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A small hill to the west blocks your view.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1126
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1123,
+            "Zone": 11,
+            "Name": "Entrance to Watermill",
+            "Description": "   You stand at the entrance to a watermill.  You hear the bustle of busy\r\r\r\r\n\rworkers and the sound of a creaking mill.  Bywater Road is to the north while\r\r\r\r\n\rthe watermill continues to the south.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see Bywater Road to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1122
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A watermill meets your gaze.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1124
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1124,
+            "Zone": 11,
+            "Name": "The Watermill",
+            "Description": "   Halfling workers are scattered everywhere, busy at work.  You see the river\r\r\r\r\n\rto the west and get a compelling urge to grab the nearest worker and to toss\r\r\r\r\n\rhim into the river.  The entrance stands to the north while a door offers\r\r\r\r\n\rpassage to the south.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the entrance.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1123
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A wooden door leads to the rear of the watermill.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1125
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1125,
+            "Zone": 11,
+            "Name": "Rear of watermill",
+            "Description": "   You stand in a damp, dimly lit room.  Mildew clings to the walls and it\r\r\r\r\n\rappears as if you were the first person to enter the room in ages.  A barely\r\r\r\r\n\rvisible portal in the ground catches your eye.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A watermill meets your gaze.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1124
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "A hidden portal reveals a passageway down.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1146
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1126,
+            "Zone": 11,
+            "Name": "Took Hill",
+            "Description": "   You stand on top of Took Hill, named after the legendary Bandobras Took.\r\r\r\r\n\rYou feel honored to be standing on a hill named after your hero.  From this\r\r\r\r\n\rvantage point you can see all of shiredom.  You get the feeling that with\r\r\r\r\n\rone stomp you could eliminate their great city.  You can see the outline of\r\r\r\r\n\rMidgaard to the far east.  Sounds of joyful celebration are heard from the\r\r\r\r\n\rfields west of here.  The Brandywine flows by lazily nearby.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "To the east runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1122
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a grassy field to the west.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1128
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1127,
+            "Zone": 11,
+            "Name": "Northern end of grassy field",
+            "Description": "   You stand in a grassy field--nothing to get too excited about.  The field\r\r\r\r\n\rextends toward the south and the west.  To the east you see Took Hill.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see a grassy field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1128
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1128,
+            "Zone": 11,
+            "Name": "A grassy field",
+            "Description": "   You stand in the center of a grassy field.  A great birthday party appears\r\r\r\r\n\rto be taking place.  Great tables of food are spread out and a young halfling\r\r\r\r\n\rbeauty offers you welcome.  You are enticed by her generosity and suggestive\r\r\r\r\n\rwinks.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a grassy field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1127
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A small hill to the east blocks your view.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1126
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a grassy field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1129
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a grassy field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1130
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1129,
+            "Zone": 11,
+            "Name": "Southern end of grassy field",
+            "Description": "   You stand in a grassy field--nothing to get too excited about.  The field\r\r\r\r\n\rextends toward the north and the west.  To the east you see Took Hill.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a grassy field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1128
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1130,
+            "Zone": 11,
+            "Name": "Western end of grassy field",
+            "Description": "   You stand in a grassy field--nothing to get too excited about.  The field\r\r\r\r\n\rextends every which way but west.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a grassy field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1128
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1131,
+            "Zone": 11,
+            "Name": "Brandywine Bridge",
+            "Description": "   You stand on a solidly built bridge.  As you look down you spy gaily\r\r\r\r\n\rcolored fish swimming with the current of Brandywine River.  The cool water\r\r\r\r\n\rlooks invitingly refreshing and you get a sudden urge to strip and bathe in\r\r\r\r\n\rthe river, but you hear the laughter of women nearby and so resist the urge.\r\r\r\r\n\rDelving Lane extends to the north while Bywater Road can be seen to the south.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see Delving Lane.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1132
+                },
+                {
+                    "Direction": "South",
+                    "Description": "To the south runs Bywater Road.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1120
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1132,
+            "Zone": 11,
+            "Name": "Delving Lane",
+            "Description": "   Delving Lane runs north and south in this small borough of the Shire.  To \r\r\r\r\n\rthe south stands Brandywine Bridge.  The Green Dragon, the undisputed leader\r\r\r\r\n\rin the art of innkeeping, offers rest and comfort to the east.  You hear the\r\r\r\r\n\rbray of horses from the west.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see Delving Lane.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1133
+                },
+                {
+                    "Direction": "East",
+                    "Description": "The Green Dragon offers food, drink, and above all hospitality for mere gold.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1144
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Brandywine Bridge offers safe passage across the tumultuous river.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1131
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1133,
+            "Zone": 11,
+            "Name": "Delving Lane",
+            "Description": "   Delving Lane runs north and south in this small borough of the Shire.  A \r\r\r\r\n\rlarge, imposing building lies to the east.  You hear the bray of horses from\r\r\r\r\n\rthe west.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see Delving Lane.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1134
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A large, imposing building lies to the east.  A sign reads 'Shiriff Post'.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1145
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see Delving Lane.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1132
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a grassy field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1138
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1134,
+            "Zone": 11,
+            "Name": "End of Delving Lane",
+            "Description": "   Delving Lane runs north and south in this small borough of the Shire. There\r\r\r\r\n\ris a small house to the west, nothing to the east, and up ahead you see a round\r\r\r\r\n\rdoor which leads to a rather impressive abode.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "A large, magnificent house meets your steady gaze.  Above the round door a\r\r\r\r\n\rsign reads 'Bag End'.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1135
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see Delving Lane.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1133
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1135,
+            "Zone": 11,
+            "Name": "Bag End",
+            "Description": "   You stand in a comfortably well-equipped house, a palace by humble halfling\r\r\r\r\n\rstandards.  On the wall you see a banner which reads \"Home Sweet Home\".\r\r\r\r\n\rA solid oak door to the east leads to a pantry while you see a cozy bedroom\r\r\r\r\n\rto the west.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Through the keyhole you see what looks like a well stocked pantry.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1137
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Outside the door to the south is Delving Lane. ",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1134
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a bedroom.  It looks like the beds have recently been slept in.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1136
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1136,
+            "Zone": 11,
+            "Name": "Bedroom",
+            "Description": "   You stand in the private bedroom of Bag End.  There are two beds to the\r\r\r\r\n\rside, neither of which are made.  Portraits of halflings hang on the wall,\r\r\r\r\n\rand as you gaze upon them you come to the conclusion that the owner of\r\r\r\r\n\rBag End comes from a long line of distinguished halflings.  A cozy fire\r\r\r\r\n\rin the fireplace keeps the room warm and comfortable.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Through the doorway you see the main room of Bag End.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1135
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1137,
+            "Zone": 11,
+            "Name": "Pantry",
+            "Description": "   You are inside the pantry.  Shelves filled with food and drink surround\r\r\r\r\n\ryou on all sides.  You wonder why a halfling would need so much to eat.\r\r\r\r\n\rThe presence of something unseen chills you to your bones.  On the floor\r\r\r\r\n\ryou spy a trapdoor.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "Beyond the door you see the main room of Bag End.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1135
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "It's anyone's guess as to where the trapdoor leads.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1156
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1138,
+            "Zone": 11,
+            "Name": "A grassy field",
+            "Description": "   You stand upon a grassy field.  A bull stands grazing not far away and\r\r\r\r\n\rout of the corner of your eye you can see him considering you.  The sound\r\r\r\r\n\rof animals fill the air from the north.  To the south you see a pig pen.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a large barn.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1142
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see Delving Lane.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1133
+                },
+                {
+                    "Direction": "South",
+                    "Description": "A rather large pig pen is to the south.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1139
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1139,
+            "Zone": 11,
+            "Name": "Pig pen",
+            "Description": "   You feel your boots sinking into the mud.  Numerous pigs roam about,\r\r\r\r\n\roblivious to your company.  A grassy field is to the north while you see\r\r\r\r\n\ra small path winding to the west.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a grassy field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1138
+                },
+                {
+                    "Direction": "West",
+                    "Description": "A small path winds its way eastward.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1140
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1140,
+            "Zone": 11,
+            "Name": "A stony path",
+            "Description": "   You walk on a stony path which leads to a small residence to the north.\r\r\r\r\n\rFrom the east you hear the noisy din of pigs.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "To the north you see a modest house.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1141
+                },
+                {
+                    "Direction": "East",
+                    "Description": "A rather large pig pen is to the east.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1139
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1141,
+            "Zone": 11,
+            "Name": "Gamgee Residence",
+            "Description": "You stand inside a modest burrow, and deduce that this is indeed the\r\r\r\r\n\rhome of whomever owns the surrounding lands. The air is somewhat\r\r\r\r\n\rclean, and smells of the earth and of wildflowers, which are carefully\r\r\r\r\n\rarranged in a vase upon a table. There is only one window, and one\r\r\r\r\n\rbed, further in. Of course there is a hearth. There's even an armchair!\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see a small path winding its way southward.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1140
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1142,
+            "Zone": 11,
+            "Name": "A barn",
+            "Description": "   Animals of every sort fill the small barn.  You feel the hot breath of\r\r\r\r\n\rhorses and cows on your neck and you feel the sudden need for fresh air.\r\r\r\r\n\rOther than that, you feel cozy and protected and don't mind staying for a\r\r\r\r\n\rbit longer.  All the warmth and good vibes remind you of the days when your\r\r\r\r\n\rmother would hold you in her arms and sing you to sleep.  You find yourself\r\r\r\r\n\rwanting to cradle all the animals.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a chicken coop to the north.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1143
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a grassy field.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1138
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1143,
+            "Zone": 11,
+            "Name": "A chicken coop",
+            "Description": "   You stand inside a rather crowded chicken coop.  The cackle of hens fill\r\r\r\r\n\rthe air.  The only exit is to the south.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see a large barn.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1142
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1144,
+            "Zone": 11,
+            "Name": "The Green Dragon",
+            "Description": "   Welcome to the Green Dragon, the undisputed leader in the art of\r\r\r\r\n\rinnkeeping.  A rather charming and friendly hostess stands to the side,\r\r\r\r\n\rready to offer you food and drink.  While most of the patrons are halfling\r\r\r\r\n\rlocals, you spy an occasional human or two.  As you listen more closely\r\r\r\r\n\rto the conversations that fill the inn, you hear the tales of great and\r\r\r\r\n\rseasoned adventurers as well as the usual gossip.  You feel as if you've\r\r\r\r\n\rfound your second home in the Green Dragon.  You see a stairway leading\r\r\r\r\n\rupwards.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see Delving Lane.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1132
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see the reception.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1157
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1145,
+            "Zone": 11,
+            "Name": "Shiriff Post of Delving Lane",
+            "Description": "   You are in the Shiriff Post which acts as the nucleus for the three shiriffs\r\r\r\r\n\rof Delving Lane.  As you examine the shiriffs on duty, you come to realize\r\r\r\r\n\rthat the halflings of the Shire are not to be reckoned with.  You cower with\r\r\r\r\n\rawe.  The only exit is to the west.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see Delving Lane.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1133
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1146,
+            "Zone": 11,
+            "Name": "A dark tunnel",
+            "Description": "   You stand inside a small underground tunnel.  The ceiling is so low that\r\r\r\r\n\ryou must crouch to avoid hitting your head.  You see light from a small\r\r\r\r\n\rhole in the ceiling while to the east you see nothing but darkness.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1147
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see a portal which leads to a small room.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1125
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1147,
+            "Zone": 11,
+            "Name": "A dark tunnel",
+            "Description": "   You stand inside a small underground tunnel.  The ceiling is so low that\r\r\r\r\n\ryou must crouch to avoid hitting your head.  The tunnel continues east and\r\r\r\r\n\rwest.  All you can see is darkness.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1148
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1146
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1148,
+            "Zone": 11,
+            "Name": "A dark tunnel",
+            "Description": "   You stand inside a small underground tunnel.  The ceiling is so low that\r\r\r\r\n\ryou must crouch to avoid hitting your head.  The tunnel continues east and\r\r\r\r\n\rwest.  All you can see is darkness.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1149
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1147
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1149,
+            "Zone": 11,
+            "Name": "A three way intersection",
+            "Description": "   You stand at an intersection.  The tunnel continues east and west while\r\r\r\r\n\rto the north you can barely make out a smaller trail.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1151
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1150
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1148
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1150,
+            "Zone": 11,
+            "Name": "End of a dark tunnel",
+            "Description": "   You stand at the end of a dark tunnel.  The underground tunnel continues\r\r\r\r\n\rto the west.  From a trapdoor in the ceiling you can hear the din of\r\r\r\r\n\radventurers.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1149
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3001
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1151,
+            "Zone": 11,
+            "Name": "A dark tunnel",
+            "Description": "   You stand inside a small underground tunnel.  The ceiling is so low that\r\r\r\r\n\ryou must crouch to avoid hitting your head.  The tunnel continues north and\r\r\r\r\n\rsouth.  To the west you see a Shirriff Post while to the east lies a small\r\r\r\r\n\rhome.  All you can see is darkness.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1152
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a halfling hole.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1154
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1149
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Above a great oak door you see a sign which reads 'Shirriff Post'.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1153
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1152,
+            "Zone": 11,
+            "Name": "A dark tunnel",
+            "Description": "   You stand inside a small underground tunnel.  The ceiling is so low that \r\r\r\r\n\ryou must crouch to avoid hitting your head.  The tunnel continues north and\r\r\r\r\n\rsouth.  To the west lies a small home.  All you can see is darkness.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1156
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1151
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a halfling hole.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1155
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1153,
+            "Zone": 11,
+            "Name": "Shiriff Post of the Lower Shire",
+            "Description": "   You are in the shiriff Post which acts as the nucleus for the three shiriffs \r\r\r\r\n\rof the Lower Shire.  As you examine the shiriffs on duty, you come to realize\r\r\r\r\n\rthat the halflings of the Shire are not to be reckoned with.  You cower with\r\r\r\r\n\rawe.  The only exit is to the east.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1151
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1154,
+            "Zone": 11,
+            "Name": "A halfling hole",
+            "Description": "   You stand inside a rather crudely built halfling hole.  The many passageways\r\r\r\r\n\rand winding paths remind you of a rodent's lair.  The air is musty and damp\r\r\r\r\n\rand you feel the need for fresh air.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1151
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1155,
+            "Zone": 11,
+            "Name": "A halfling hole",
+            "Description": "   You stand inside a rather crudely built halfling hole.  The many passageways\r\r\r\r\n\rand winding paths remind you of a rodent's lair.  The air is musty and damp\r\r\r\r\n\rand you feel the need for fresh air.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1152
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1156,
+            "Zone": 11,
+            "Name": "End of a dark tunnel",
+            "Description": "   You are at one end of a dark tunnel.  The tunnel continues to the south\r\r\r\r\n\rwhile on the ceiling you can make out a trapdoor.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see a dark tunnel.\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1152
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "A trapdoor on the ceiling reveals a passageway.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "trapdoor"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 1137
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1157,
+            "Zone": 11,
+            "Name": "The Inn of the Green Dragon",
+            "Description": "   You are standing in the Inn of the Green dragon.  Large paintings of \r\r\r\r\n\rhalflings at work, and halflings at play adorn the walls.  Comfortable \r\r\r\r\n\rbenches and seats line the walls.  A stairway leads down.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1144
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1174,
+            "Zone": 11,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        },
+        {
+            "ID": 1175,
+            "Zone": 11,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        }
+    ]
+}

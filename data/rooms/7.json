@@ -1,0 +1,3128 @@
+{
+    "rooms": [
+        {
+            "ID": 700,
+            "Zone": 7,
+            "Name": "Lakefront Museum Entrance",
+            "Description": "As you go up the marble steps, you notice a big, marble, double door.\r\r\r\r\r\n\rThe architecture seems to be of the Greek type.  On the door you \r\r\r\r\r\n\rnotice a sign.\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the Ticket Desk\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 702
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the parking lot, and looking for your car is going to be hard.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 729
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "Hours:\r\r\r\r\r\n\rMonday - Friday 10am to 5pm\r\r\r\r\r\n\rSaturday and Sunday 11am to 6pm\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 701,
+            "Zone": 7,
+            "Name": "Guard Station",
+            "Description": "Here you see another counter.  This one has a clip-board that the\r\r\r\r\r\n\rguards use to sign in on.  As you walk past the counter, the\r\r\r\r\r\n\rguard behind it glances up at you.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the Information Desk\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 703
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the Ticket Counter\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 702
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 702,
+            "Zone": 7,
+            "Name": "Ticket Counter",
+            "Description": "Here you see a counter with maps to the museum.  There is a sign\r\r\r\r\r\n\rbehind the lady sitting at the counter.  As you walk up to the\r\r\r\r\r\n\rcounter, the lady smiles at you.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "PEACEFUL"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the Guard Station\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 720,
+                    "Destination": 701
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the Entrance to the Museum\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 700
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "The price for a ticket is 100 coins.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 703,
+            "Zone": 7,
+            "Name": "Information Desk",
+            "Description": "Here is yet another counter.  The woman behind it looks up from\r\r\r\r\r\n\rher paper as you wander by.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the Ancient Pottery\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 705
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the Art Gallery\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 706
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the Guard Station\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 701
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the Mummies in that direction\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 704
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 704,
+            "Zone": 7,
+            "Name": "The Mummies",
+            "Description": "As you look in this part of the museum, you notice people who are\r\r\r\r\r\n\rmummified in the cases.  As you look closer, you notice that they\r\r\r\r\r\n\rare at least 200 years old.  \r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOMAGIC"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the Information Desk\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 703
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 705,
+            "Zone": 7,
+            "Name": "Ancient Pottery",
+            "Description": "Within this part of the museum, there is a lot of pottery, most\r\r\r\r\r\n\rof it in pieces and all of it is old.  There are different types\r\r\r\r\r\n\rand styles of pottery here.  Bowls, plates, mugs, Aztec, Greek, and\r\r\r\r\r\n\rMayan make up a few.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the Information Desk\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 703
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 706,
+            "Zone": 7,
+            "Name": "Art Gallery",
+            "Description": "As you look around this room, the first thing you notice are the paintings on\r\r\r\r\r\n\rthe walls.  They are done by famous artists like Van Gough and Monnet.  You\r\r\r\r\r\n\rstand in awe admiring the beauty of their works.  There is a stairway here that\r\r\r\r\r\n\rleads up and down.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see the Information Desk\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 703
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see the Rare Gems\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 707
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see the bottom of the stairs\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 710
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 707,
+            "Zone": 7,
+            "Name": "Rare Gems",
+            "Description": "There are cases lined up against the wall.  Within the cases you\r\r\r\r\r\n\rnotice many types of jewlery, gems, necklaces, rings and such.\r\r\r\r\r\n\rThere is a stairway leading down.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see many sculptures\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 708
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see paintings\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 706
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 708,
+            "Zone": 7,
+            "Name": "Sculpture Hall",
+            "Description": "Walking around the area you find sculptures of all types, from ancient \r\r\r\r\r\n\rAztec, to Greek, to modern replicants of other sculptures.  You notice\r\r\r\r\r\n\rone ancient Egyptian sculpture of a beautiful woman in an almost\r\r\r\r\r\n\rcat-like pose that bears a striking resemblance to ... Cati?  The\r\r\r\r\r\n\rsculptures are in varying states of decay, from well preserved \r\r\r\r\r\n\rto crumbling.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see food\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 709
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see many gems\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 707
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see things for battle\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 714
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 709,
+            "Zone": 7,
+            "Name": "Museum Cafe",
+            "Description": "You see a bunch of tables and chairs.  Near the back is a line where\r\r\r\r\r\n\ryou can buy hamburgers, pretzels, hotdogs, cookies, and coke.  If you\r\r\r\r\r\n\rwant to buy something, remember to get in line!\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see many statues\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 708
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 710,
+            "Zone": 7,
+            "Name": "Bottom of stairs",
+            "Description": "As you climb down the stairs you notice it is not as clean as the\r\r\r\r\r\n\rrest of the museum.  Once you get to the bottom of the stairs you \r\r\r\r\r\n\rnotice a door to your west.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see an open room\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 711
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see the Art Gallery\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 706
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 711,
+            "Zone": 7,
+            "Name": "Open Room",
+            "Description": "As you walk past the door, you notice that this place is a lot\r\r\r\r\r\n\rdirtier than you saw upstairs.  There are boxes stacked neatly\r\r\r\r\r\n\ralong the south wall.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "There is a door there\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 712
+                },
+                {
+                    "Direction": "East",
+                    "Description": "There is a door\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 710
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the Loading Dock\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 713
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 712,
+            "Zone": 7,
+            "Name": "Break Room",
+            "Description": "In this room you notice a table and a few vending machines.  At the\r\r\r\r\r\n\rtable one of the workers watches you as you walk into the room.  The\r\r\r\r\r\n\rworker says, \"You lost?  Stairs are that way.\"  He points to the south\r\r\r\r\r\n\rwest.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "There is a door there\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 711
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 713,
+            "Zone": 7,
+            "Name": "Loading Dock",
+            "Description": "You see a large door where a truck can unload boxes for the museum.\r\r\r\r\r\n\rThere is a desk there with papers and pens on it.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see an open room\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 711
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 714,
+            "Zone": 7,
+            "Name": "Weapons of War",
+            "Description": "Here are all the weapons that were used in different wars, different\r\r\r\r\r\n\rtime periods, swords, armor, and guns.  As you look about you, you wonder\r\r\r\r\r\n\rhow they fought like that.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see statues\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 708
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 715,
+            "Zone": 7,
+            "Name": "Lakefront Public School Entrance",
+            "Description": "As you walk up to the one room building, you notice that it looks\r\r\r\r\r\n\rlike a house.  The door is made of oak and the roof is red.  From the\r\r\r\r\r\n\rwest, you hear the ringing of a bell.\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Broad street lies this way.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 738
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see children playing\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 717
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see desks within the school.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 716
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 716,
+            "Zone": 7,
+            "Name": "Inside Lakefront School",
+            "Description": "As you walk inside the school, you see about 20 desks.  In the front \r\r\r\r\r\n\rof the room is a bigger desk.  Behind the desk, a lady is holding the\r\r\r\r\r\n\rbell that you heard from the entrance.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see the door that leads outside.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 715
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 717,
+            "Zone": 7,
+            "Name": "Playground",
+            "Description": "As you pass-by, you notice the equipment.  This equipment is for\r\r\r\r\r\n\rthe children to play on.  As you look about, you notice kids playing\r\r\r\r\r\n\rand laughing.\r\r\r\r\r\n\r",
+            "Bits": [
+                "NORELOCATE"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the entrance to the school.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 715
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 718,
+            "Zone": 7,
+            "Name": "The Intersection of Pierwalk and Union.",
+            "Description": "This newly paved road continues north and south.  To the east you see\r\r\r\r\r\n\ra very large building with two floors.  Union is to your west.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Pierwalk Avenue\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 719
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the parking lot.  Finding a parking place is going to be hard.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 729
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 696
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Union runs towards Broad street.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 720
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 719,
+            "Zone": 7,
+            "Name": "Pierwalk Avenue",
+            "Description": "This road is paved with black tar, one of the few around here.\r\r\r\r\r\n\rBuildings line the west side of the road that do not interest you.\r\r\r\r\r\n\rTo the east, you see one of the Great Lakes.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 723
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Pierwalk Avenue\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 718
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 720,
+            "Zone": 7,
+            "Name": "Union",
+            "Description": "Union is not that wide compared to the other streets in Lakefront\r\r\r\r\r\n\rCity. The street is made of cobblestone.  There are buildings\r\r\r\r\r\n\rthat do not interest you to the north and south.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The intersection of Union and Pierwalk Avenue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 718
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Union continues towards Broad Street.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 721
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 721,
+            "Zone": 7,
+            "Name": "Union",
+            "Description": "This cobblestone street is not that wide.  To the north and to the\r\r\r\r\r\n\rsouth of you are apartments.  As you walk by, you pay little \r\r\r\r\r\n\rattention to them.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "Union continues towards Pierwalk Avenue\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 720
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Union\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 732
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 722,
+            "Zone": 7,
+            "Name": "Intersection of Union and Broad",
+            "Description": "Broad goes north and south from here, or you can go east onto Union\r\r\r\r\r\n\rto get to the lake.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 733
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see more of Union.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 732
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 689
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 723,
+            "Zone": 7,
+            "Name": "Pierwalk Avenue",
+            "Description": "The road is one of the few roads that are paved with black tar.\r\r\r\r\r\n\rYou notice to the west of you, an office of sorts.  To the east,\r\r\r\r\r\n\ryou notice one of the Great Lakes.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see more of Pierwalk Avenue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 730
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 719
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see John O'Malleys Office.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 724
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 724,
+            "Zone": 7,
+            "Name": "Entrance to John O'Malleys",
+            "Description": "You see a two story building.  It is a well kept brick building with a\r\r\r\r\r\n\rfew windows.  The door is made of solid wood.  There is a sign on the \r\r\r\r\r\n\rdoor.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see Pierwalk Ave.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 723
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the inner office.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 725
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "John O'Malleys Office\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 725,
+            "Zone": 7,
+            "Name": "John O'Malleys Office",
+            "Description": "You are standing a room with two chairs and a desk.  Behind the desk is \r\r\r\r\r\n\ranother chair.  On the desk is a phone, address book, calendar, and a \r\r\r\r\r\n\rcup full of pens and pencils.  As you walk into the room, a man looks\r\r\r\r\r\n\rup at you.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the door.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 724
+                },
+                {
+                    "Direction": "West",
+                    "Description": "There is a door there.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 726
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 726,
+            "Zone": 7,
+            "Name": "Stairway",
+            "Description": "You see a narrow staircase that goes upward.  There is no carpeting.  The\r\r\r\r\r\n\rfloor looks very dirty.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "There is a door there.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 725
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "You see the top of the stairs.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 727
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 727,
+            "Zone": 7,
+            "Name": "Top of Stairs",
+            "Description": "You are at the top of the stairs.  It is not well lit.  To the east there\r\r\r\r\r\n\rseems to be a door.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "There is a door there.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 728
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "You see the bottom of the stairs.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 726
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 728,
+            "Zone": 7,
+            "Name": "John's Place",
+            "Description": "Within this room, you see a bed, and a small kitchen.  Within the kitchen\r\r\r\r\r\n\rpart of the room, there is a refrigerator and a stove.  The place smells\r\r\r\r\r\n\rlike cigarettes and it is not very clean.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see a door there.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 727
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 729,
+            "Zone": 7,
+            "Name": "The Parking Lot",
+            "Description": "This is the parking lot for the Museum.  When you park here, don't \r\r\r\r\r\n\rforget to lock your doors.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the Museum.  Wouldn't be a great day to look inside?\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 700
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see Union.  \r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 718
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 730,
+            "Zone": 7,
+            "Name": "Pierwalk Avenue",
+            "Description": "As you walk, you notice the lake to the east.  To the west, you notice\r\r\r\r\r\n\rmore stores that do not interest you at all.  The road is made of black\r\r\r\r\r\n\rtar, which is rare around here.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see Pierwalk Avenue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 731
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see more of Pierwalk Avenue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 723
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 731,
+            "Zone": 7,
+            "Name": "Pierwalk Avenue",
+            "Description": "To the east is Lake Michigan.  To the west are building that you don't \r\r\r\r\r\n\rknow what they are.  The road is of black tar, which is rare.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 740
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see Pierwalk Avenue\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 730
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 732,
+            "Zone": 7,
+            "Name": "Union",
+            "Description": "Your feet start to hurt while walking on the cobblestone.  If you\r\r\r\r\r\n\rwere to keep going west, you will hit Broad.  If you went east, \r\r\r\r\r\n\rhowever, you will reach Pierwalk Avenue.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 721
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 722
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 733,
+            "Zone": 7,
+            "Name": "Broad",
+            "Description": "On this wide street the only thing that is worth noting, is the\r\r\r\r\r\n\rPolice Station to the west.  \r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see more of Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 734
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the intersection of Union and Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 722
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the Police Station.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 762
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 734,
+            "Zone": 7,
+            "Name": "Broad",
+            "Description": "The road look just like the rest of Broad street except that there\r\r\r\r\r\n\ris nothing noteworthy on this section of the street.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 735
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see more of Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 733
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 735,
+            "Zone": 7,
+            "Name": "Broad",
+            "Description": "This is a very wide street that should have a lot of noteworthy\r\r\r\r\r\n\rbuildings off to the side, but the one thing you notice about\r\r\r\r\r\n\rthis section of the street that there's nothing worthy of\r\r\r\r\r\n\rnoting except for the bullet riddled model T sitting by the\r\r\r\r\r\n\reast side curb of the road.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 736
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see Broad that leads to Union.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 734
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "car",
+                        "automobile"
+                    ],
+                    "Description": "This car looks as if it's been through a war.  Thinking of the\r\r\r\r\r\n\rtime period though, you figure it probably has.  GANG WAR!  It is\r\r\r\r\r\n\rthe leading cause of death among automobiles.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 736,
+            "Zone": 7,
+            "Name": "Broad",
+            "Description": "Broad continues, but there is nothing of noteworthiness here either.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 737
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see more of Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 735
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 737,
+            "Zone": 7,
+            "Name": "Broad",
+            "Description": "To the east of you is the sound of laughter.  On this wide street\r\r\r\r\r\n\ryou wonder why you hear loud laughter so close.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 738
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 736
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see children playing.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 717
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 738,
+            "Zone": 7,
+            "Name": "Broad",
+            "Description": "On this wide street, the only thing that gets your attention is\r\r\r\r\r\n\rthe sound of laughter to the west of you.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 748
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 737
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a school.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 715
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 739,
+            "Zone": 7,
+            "Name": "Martin's Market",
+            "Description": "As you wak into the store, you notice to the right of you is the \r\r\r\r\r\n\rcounter. Once you walk fully into the store you see watermellons,\r\r\r\r\r\n\rbananas, peanuts, ice and oranges for sale.  There is an elderly\r\r\r\r\r\n\rgentleman behind the counter.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 750
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 740,
+            "Zone": 7,
+            "Name": "Pierwalk Avenue",
+            "Description": "As you look east, you have a good look at the water.  It looks\r\r\r\r\r\n\rbright blue and clean.  To the west of you, are warehouses with\r\r\r\r\r\n\rpeople running about.  To the north you see more of Pierwalk Avenue.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 741
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 731
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 741,
+            "Zone": 7,
+            "Name": "Pierwalk Avenue",
+            "Description": "When walking upon this road the only thing that you notice is a\r\r\r\r\r\n\rbeautiful dome shaped building to the west.  This temple seems\r\r\r\r\r\n\rto have only three levels and then the dome at the top.  Columns\r\r\r\r\r\n\rare at all of the corners of the temple and pine trees come out\r\r\r\r\r\n\rin a straight line from the corners near the door.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 742
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 740
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the church.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 777
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 742,
+            "Zone": 7,
+            "Name": "Pierwalk Avenue",
+            "Description": "As you look about you, you see water to the east, a large, pointed\r\r\r\r\r\n\rbuilding to the southwest and a line of trees to the west coming\r\r\r\r\r\n\rfrom the pointed building.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 743
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 741
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 743,
+            "Zone": 7,
+            "Name": "Pierwalk Avenue",
+            "Description": "Nothing gets your attention as you walk down this street.  It all\r\r\r\r\r\n\rlooks the same to you.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 744
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 742
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 744,
+            "Zone": 7,
+            "Name": "Pierwalk Avenue",
+            "Description": "As you walk down Pierwalk, you notice to the west of you a dark alley.\r\r\r\r\r\n\rTo the east of you is the Lake which looks very calm.\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 751
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 743
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 745
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 745,
+            "Zone": 7,
+            "Name": "Alley",
+            "Description": "The alley is dark and dank, the musty smell of the air that actually\r\r\r\r\r\n\rmakes it into the alley makes you want to gag.  Clotheslines run between\r\r\r\r\r\n\rthe two buildings causing the cloths to block out any light that may\r\r\r\r\r\n\rhave made it to the ground of the alley.  You're not sure what lies\r\r\r\r\r\n\rbeyond that next sheet...\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 744
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 746
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sheet"
+                    ],
+                    "Description": "You look at the sheet trying to figure out what lies beyond it, but\r\r\r\r\r\n\ryou can't even see shadows because of how dark it is here.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 746,
+            "Zone": 7,
+            "Name": "Alley",
+            "Description": "The alley seems to close in on you.  You're REALLY happy now that you\r\r\r\r\r\n\raren't claustraphobic, or are you?  Did that wall just move in closer?\r\r\r\r\r\n\rNo, it must just be your imagination and the low lighting playing\r\r\r\r\r\n\rtricks on your mind, causing you to think so.  The clotheslines still\r\r\r\r\r\n\rcross the alleyway at such a level that you have to duck to get to\r\r\r\r\r\n\rthe other side of the laundry airing out to dry.   The air that makes\r\r\r\r\r\n\rit into the alley makes you want to gag, the smell of wet clothes\r\r\r\r\r\n\raren't helping your stomach any.  By the way... you SWEAR that\r\r\r\r\r\n\rwall just moved.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 745
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 747
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "wall"
+                    ],
+                    "Description": "Of course it didn't move, it's just brick.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 747,
+            "Zone": 7,
+            "Name": "Alley",
+            "Description": "The buildings are so close together that the light that does make\r\r\r\r\r\n\rit in here, doesn't light it up enough to see.  The air that makes\r\r\r\r\r\n\rit past the buildings smells so musty and dry that you want to gag.\r\r\r\r\r\n\rThe stones of the ground cruble beneath your feet.  Not many people\r\r\r\r\r\n\ruse this alleyway, you're beginning to wonder why you are.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 746
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 750
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 748,
+            "Zone": 7,
+            "Name": "Broad",
+            "Description": "The road seems a little less worn here, but not by much.  To the\r\r\r\r\r\n\rwest you notice normal buildings, nothing that seems noteworthy to\r\r\r\r\r\n\ryou.  But to the east, you notice an apartment building.\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 749
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 770
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 738
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 749,
+            "Zone": 7,
+            "Name": "Broad",
+            "Description": "Broad street is like all the other streets around here.  Well worn\r\r\r\r\r\n\rfrom all the walking, wagons, and vehicles that have found their way\r\r\r\r\r\n\rdow this red-brick road.  There's nothing of interest on either side\r\r\r\r\r\n\rof this road in this section, though you do notice some apartment\r\r\r\r\r\n\rbuildings farther south.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 750
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 748
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 750,
+            "Zone": 7,
+            "Name": "Broad",
+            "Description": "This is a very wide road.  Like most of the other streets, Broad is\r\r\r\r\r\n\rlaid with reddish-brown bricks.  As you look at the street closer, \r\r\r\r\r\n\ryou notice that the bricks are cracked from all of the people who\r\r\r\r\r\n\rhave traveled on them.  To the east you notice a dark alley, and to \r\r\r\r\r\n\rthe west you see a store that catches your eye.\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 759
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 747
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 749
+                },
+                {
+                    "Direction": "West",
+                    "Description": "As you look, you notice a store.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 739
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 751,
+            "Zone": 7,
+            "Name": "Pierwalk Avenue",
+            "Description": "As you walk down the street you notice to the right of you a boat\r\r\r\r\r\n\rthat is sailing along the water.  Looking closer at the boat, you\r\r\r\r\r\n\rsee that it is a simple sailboat.  To the east are more buildings\r\r\r\r\r\n\rthat look the same to you.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 752
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 744
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "boat",
+                        "sailboat"
+                    ],
+                    "Description": "It looks like a simple sailboat.  Nothing more noteworthy about it\r\r\r\r\r\n\rthan it's actually sailing on the water.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 752,
+            "Zone": 7,
+            "Name": "Pierwalk Avenue",
+            "Description": "On this tar road, you notice to the east of you a parking lot.\r\r\r\r\r\n\rTo the west of you are buildings that do not interest you at all.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the parking lot and further on you see a beach.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 753
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 751
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 753,
+            "Zone": 7,
+            "Name": "Lake Michigan Beach Parking Lot",
+            "Description": "You walk onto the pavement and notice the yellow lines dipicting\r\r\r\r\r\n\rwhere cars can park.  The lot is about half full.  To the east\r\r\r\r\r\n\ryou notice a beach where you could go to get a tan if you wanted\r\r\r\r\r\n\rto.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You notice the sandy beach and Lake Michigan in that direction.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 754
+                },
+                {
+                    "Direction": "West",
+                    "Description": "Did you have fun at the beach?  Now you can get back on Pierwalk.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 752
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 754,
+            "Zone": 7,
+            "Name": "Lakefront Beach",
+            "Description": "As you start to walk on the beach, you notice the fine sand on your\r\r\r\r\r\n\rbare feet.  To the east you see Lake Michigan.  To the north and south\r\r\r\r\r\n\ryou notice more sandy beach and to the far north you notice a playground\r\r\r\r\r\n\rarea for kids to play on.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "As you look north, you see people tanning and the lifeguard on the \r\r\r\r\r\n\rlifeguard chair.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 755
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see more sandy beach.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 757
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the parking lot and Pierwalk Ave in that direction.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 753
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 755,
+            "Zone": 7,
+            "Name": "Lakefront Beach",
+            "Description": "You see, on this part of the beach, the lifeguard stand, and people\r\r\r\r\r\n\rlaying on the beach getting a tan.  Why don't you put down your towel\r\r\r\r\r\n\rand get a tan also?  What? Don't have a towel?  Perhaps the beach\r\r\r\r\r\n\rstore carries them.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the playground where kids play.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 756
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see more beach.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 754
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 756,
+            "Zone": 7,
+            "Name": "Playground",
+            "Description": "You see a bunch of equipment that children are playing on.  This\r\r\r\r\r\n\rincludes a swing, teeter-totter, and a spider climber.  If you\r\r\r\r\r\n\rwanted to, you could go play on the equipment, but be careful, you\r\r\r\r\r\n\rcould fall and hurt yourself.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the lifeguard.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 755
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 757,
+            "Zone": 7,
+            "Name": "Lakefront Beach",
+            "Description": "As you walk down the beach, your feet feel warm when you walk bare\r\r\r\r\r\n\rfooted along the beach.  As you glance to the east, you notice the\r\r\r\r\r\n\rwaves gently rolling the beachside.  You feel relaxed as you walk\r\r\r\r\r\n\ralong the lakeside not worrying about anything in particular.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see more of the wonderful beach.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 754
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a store.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 758
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 758,
+            "Zone": 7,
+            "Name": "Lakefront Beach Store",
+            "Description": "As you walk into this small building, you smell more of the lake air.\r\r\r\r\r\n\rLooking around the building, you notice towels, liquid containers, \r\r\r\r\r\n\rflip-flops, and candy.  The young man behind the counter looks at you\r\r\r\r\r\n\rand smiles.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the beach.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 757
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 759,
+            "Zone": 7,
+            "Name": "Broad",
+            "Description": "This is a very wide, reddish-brown brick road.  The street is well-worn\r\r\r\r\r\n\rfrom all the people, vehicles, and carts that travel along here from the\r\r\r\r\r\n\rbeach to wherever.  You see nothing much of interest here.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 760
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 750
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 760,
+            "Zone": 7,
+            "Name": "Broad",
+            "Description": "The reddish-brick road called Broad seems to continue endlessly\r\r\r\r\r\n\rthrough this city by the bay (or at least by the lake).   Cars wizz\r\r\r\r\r\n\rpast you at an amazing speed of.. 45\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 761
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 759
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 761,
+            "Zone": 7,
+            "Name": "Broad",
+            "Description": "As you walk along Broad street, you notice a larg sign to the north\r\r\r\r\r\n\rof you.  You wrinkle up your nose as you smell something horrible, also\r\r\r\r\r\n\rfrom that direction.  You're not sure if you can handle the smell\r\r\r\r\r\n\rlong enough to find out where it's coming from.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Come visit the animals!\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 781
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 760
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the Trollies coming and going.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 799
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 762,
+            "Zone": 7,
+            "Name": "Entrance to Police Station",
+            "Description": "You walk past the two lamp posts which say \"police\" on them and up to\r\r\r\r\r\n\rthe large oaken door of this 2 story brown brick buidling.\r\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 733
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a cop behind a desk.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 763
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "First Ward Police Department\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 763,
+            "Zone": 7,
+            "Name": "Police Station Lobby",
+            "Description": "As you walk into the Police Station Lobby, you see a female police\r\r\r\r\r\n\rofficer sitting behind the desk.  Above her head, you notice a sign.\r\r\r\r\r\n\rGlancing behind her, you notice the movements of other cops.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the door leading to Broad.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 762
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see the movement of cops.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 766
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "INFORMATION DESK\r\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "desk"
+                    ],
+                    "Description": "You look at the desk.  On it sits a phone, paper, pens and a\r\r\r\r\r\n\rtypewriter.  Were you looking for anything in particular?\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 764,
+            "Zone": 7,
+            "Name": "Off Duty Lounge",
+            "Description": "In this room is a round table.  On the table you see brown bags with\r\r\r\r\r\n\rfood on top.  Around the table you see chairs.  Off to the right you \r\r\r\r\r\n\rsee a refrigerator, and a stove.  On the stove you see a tea-kettle.\r\r\r\r\r\n\rTo the left you cabinets.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the movement of cops.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 766
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 765,
+            "Zone": 7,
+            "Name": "The Sergeant's Office",
+            "Description": "Here is where the Sergeant of the First Ward works.  There is a desk,\r\r\r\r\r\n\rwhich is full of piles, a phone, pencils, and food.  Behind him is a \r\r\r\r\r\n\rbookcase full of books.  There is a plant to your left.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a door here.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 766
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 766,
+            "Zone": 7,
+            "Name": "The Main Office",
+            "Description": "As you look about, you see many desks lined up in rows.  Behind most\r\r\r\r\r\n\rof the desks are police officers who are working.  Other cops are \r\r\r\r\r\n\rmoving about from one desk to another.  To the left of you is a door\r\r\r\r\r\n\rand to the right is a lounge.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the lounge where there are cops talking.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 764
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the Information Desk there.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 763
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see Kevin Wick's office.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 765
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a gate to the hallway.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 767
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 767,
+            "Zone": 7,
+            "Name": "A Hallway",
+            "Description": "The hallway floor is made out of stone, the walls are cement.  To the\r\r\r\r\r\n\rright and left of you are cells.  The hallway is fairly clean, but you\r\r\r\r\r\n\rstill think something died in here from the smell.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see cell1.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cell1"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 742,
+                    "Destination": 768
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 766
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see cell2.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cell2"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 742,
+                    "Destination": 769
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 768,
+            "Zone": 7,
+            "Name": "Jail Cell",
+            "Description": "The jail has a bed on the right.  It has a sink and a toilet on the\r\r\r\r\r\n\rleft side of the cell.  The bed is a cot and has ragged sheets on \r\r\r\r\r\n\rthem. The floor is paved and there is not much light in this cell.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the hallway to freedom!\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 742,
+                    "Destination": 767
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 769,
+            "Zone": 7,
+            "Name": "Jail Cell",
+            "Description": "On the right is a sink and a toilet.  To the left is a cot with ragged\r\r\r\r\r\n\rsheets on it.  The floor is paved and you are having a hard time seeing\r\r\r\r\r\n\rthe details of the room.\r\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the way to freedom!\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 767
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 770,
+            "Zone": 7,
+            "Name": "Entrance to the Apartments",
+            "Description": "To your left are mailboxes for the various people that live here.  There\r\r\r\r\r\n\ris an apartment to your north and one to your south.  There is also a \r\r\r\r\r\n\rflight of stairs heading upstairs to more apartments.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 733,
+                    "Destination": 771
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 734,
+                    "Destination": 772
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 748
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 773
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 771,
+            "Zone": 7,
+            "Name": "Apartment #1",
+            "Description": "In the back of the apartment is a kitchen.  Within the kitchen is a\r\r\r\r\r\n\rsmall table.  You see a couch to the right of you.  To the left of\r\r\r\r\r\n\ryou is a bed.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 733,
+                    "Destination": 770
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 772,
+            "Zone": 7,
+            "Name": "Apartment #2",
+            "Description": "This apartment is a small room.  In the room you see a kitchen of\r\r\r\r\r\n\rsorts in the back, a bed to the right and a couch to the left.\r\r\r\r\r\n\rBefore the kitchen is a table.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a door. \r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 734,
+                    "Destination": 770
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 773,
+            "Zone": 7,
+            "Name": "Upper Landing",
+            "Description": "You end up at the upper landing.  There is an apartment to the north and\r\r\r\r\r\n\rone to the south.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 735,
+                    "Destination": 774
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 736,
+                    "Destination": 775
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 770
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 774,
+            "Zone": 7,
+            "Name": "Apartment #3",
+            "Description": "In the back of the apartment is a kitchen.  There is a table in the \r\r\r\r\r\n\rkitchen. To the right of you is a nice made bed.  To the left of you\r\r\r\r\r\n\ris a couch and a desk and a chair at the desk.  \r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 735,
+                    "Destination": 773
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 775,
+            "Zone": 7,
+            "Name": "Apartment #4",
+            "Description": "As you step into this apartment, you notice it is different than \r\r\r\r\r\n\rthe rest of them.  There is a kitchen and a table in the back.  The bed\r\r\r\r\r\n\ris to the right.  To the left you see a couch and a wine cabnet.  You\r\r\r\r\r\n\rthink you counted about 20 bottles of wine.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 736,
+                    "Destination": 773
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 776,
+            "Zone": 7,
+            "Name": "The Entrance",
+            "Description": "In front of you there is a door.  The door is made of wood.  You see\r\r\r\r\r\n\ra peephole in the middle of the door.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 721,
+                    "Destination": 779
+                },
+                {
+                    "Direction": "East",
+                    "Description": "There is a door here.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 647
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 777,
+            "Zone": 7,
+            "Name": "Bahai Temple",
+            "Description": "Within this temple, there are wooden benches to the right and left\r\r\r\r\r\n\rof you.  Sitting on the altar in front of you, is a copy of the \r\r\r\r\r\n\rHoly Bible.  Standing beside the altar is the holy water for baptism.\r\r\r\r\r\n\rYou glance at the beautiful, stained glass windows and get a\r\r\r\r\r\n\rsense of peace from the room.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see Pierwalk Avenue.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 741
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 778,
+            "Zone": 7,
+            "Name": "The Study",
+            "Description": "In the study there is a oak desk.  On the desk there a papers, a phone,\r\r\r\r\r\n\rand pens and pencils in a cup.  Behind the desk is an office chair.\r\r\r\r\r\n\rTo the right is a bookcase full of book.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a door\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 779
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 779,
+            "Zone": 7,
+            "Name": "The Living Room",
+            "Description": "Here in the living room, there are a couple of couches.  There is \r\r\r\r\r\n\ran end table at each couch.  There is a radio at the far end of the room.\r\r\r\r\r\n\rYou hear laughter coming to the right of you.  To the right of you,\r\r\r\r\r\n\rhowever, it is dead quiet.\r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 780
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 776
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 778
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 780,
+            "Zone": 7,
+            "Name": "The Bedroom",
+            "Description": "As you enter this room, you notice a bed in the middle of the back wall.\r\r\r\r\r\n\rTo the right is the bathroom.  As you look upon the bed, you notice\r\r\r\r\r\n\rtwo people in the bed.  \r\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see a door.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 779
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 781,
+            "Zone": 7,
+            "Name": "Entrance to Lakefront Zoo",
+            "Description": "This is the entrance to the zoo.  There is a large sign above you.\r\r\r\r\r\n\rYou notice as you walk through, there is a gate here also.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Thru the gate, you see more of the zoo.",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 713,
+                    "Destination": 782
+                },
+                {
+                    "Direction": "South",
+                    "Description": "Thanks for visiting the zoo!\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 761
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "As you look at the sign, you notice it arches over the\r\r\r\r\r\n\rroad. The sign says, LAKEFRONT CITY ZOO.\r\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 782,
+            "Zone": 7,
+            "Name": "Zoo Walkway",
+            "Description": "As you walk on the dirt path, you notice all the animals.  Sniffing\r\r\r\r\r\n\rthe air, you notice the unpleasant smell of the animals.  To the\r\r\r\r\r\n\rnorthwest, you see the wolves den.  To the northeast, are the\r\r\r\r\r\n\rporcupines.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 783
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see the entrance to the zoo.\r\r\r\r\r\n\r",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 781
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "You see the porcupines.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 798
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "You see the wolf den.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "wolfden"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 790
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 783,
+            "Zone": 7,
+            "Name": "Zoo Walkway",
+            "Description": "As you look on the dirt path, you see pieces of trash laying about.\r\r\r\r\r\n\rTo the north of you, you see lots of birds.  The path bends to the\r\r\r\r\r\n\rnortheast and to the northwest creating a fork in the path.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the bird cage.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "birdcage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 794
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 782
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 786
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 784
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 784,
+            "Zone": 7,
+            "Name": "Zoo Walkway",
+            "Description": "As you look about, you see that the path goes on the the northwest.\r\r\r\r\r\n\rTo the east, you see an animal with two horns on its head.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the rhino.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 791
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 785
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 783
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 785,
+            "Zone": 7,
+            "Name": "Zoo Walkway",
+            "Description": "This is the end of the walkway.  As you look about, you see more \r\r\r\r\r\n\ranimals. To the west, you see an animal with a long nose.  To the\r\r\r\r\r\n\rnorthwest, is an animal with no feet.  To the northeast are animals\r\r\r\r\r\n\rthat look like housecats, but bigger.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the great cats.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "catcage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 793
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the elephants.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "elephantcage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 792
+                },
+                {
+                    "Direction": "Northwest",
+                    "Description": "As you look, you see a lot of snakes.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "snakepit"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 788
+                },
+                {
+                    "Direction": "Southeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 784
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 786,
+            "Zone": 7,
+            "Name": "Zoo Walkway",
+            "Description": "The path continues to the northeast.  To the east you notice animals\r\r\r\r\r\n\rthat have hooves for feet.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the hooved animals.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 797
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 787
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 783
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 787,
+            "Zone": 7,
+            "Name": "Zoo Walkway",
+            "Description": "The path ends here.  As you look about, some of the animals catch your\r\r\r\r\r\n\reye. To the east are ones that look almost human.  To the north are\r\r\r\r\r\n\rbig furry creatures that you shouldn't mess with.  As you look to the\r\r\r\r\r\n\rnortheast, you notice that the animal does not move (or al least you\r\r\r\r\r\n\rhaven't noticed it move).\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "You see the bear cage.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "bearcage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 795
+                },
+                {
+                    "Direction": "East",
+                    "Description": "You see the monkey cage.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "monkeycage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 796
+                },
+                {
+                    "Direction": "Northeast",
+                    "Description": "You see the sloth.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 789
+                },
+                {
+                    "Direction": "Southwest",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 786
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 788,
+            "Zone": 7,
+            "Name": "Snake Pit",
+            "Description": "As you walk into this cage, you notice all of the snakes.  They range\r\r\r\r\r\n\rfrom 5 feet long to 10 feet long.  I wouldn't get them mad, they might\r\r\r\r\r\n\rstrangle you!\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Southeast",
+                    "Description": "You see the walkway.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 785
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 789,
+            "Zone": 7,
+            "Name": "The Sloth Cage",
+            "Description": "Within this cage is an animal that is hanging in a tree.  As you look\r\r\r\r\r\n\rat it for about five minutes, it still hasn't moved.  While watching \r\r\r\r\r\n\rit you start to get bored.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Southwest",
+                    "Description": "You see the walkway.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 787
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 790,
+            "Zone": 7,
+            "Name": "Wolves Den",
+            "Description": "This cage looks like a field with a cave.  As you look about in this \r\r\r\r\r\n\rarea, you notice the dog like animals here.  The one thing that baffles\r\r\r\r\r\n\ryou is that they are bigger than normal dogs.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Southeast",
+                    "Description": "You see the walkway.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 782
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 791,
+            "Zone": 7,
+            "Name": "The Rhinoceros Cage",
+            "Description": "The cage is a concrete slab with a pool in it.  There is a place to\r\r\r\r\r\n\rfeed the large animal here.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see the walkway.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 784
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 792,
+            "Zone": 7,
+            "Name": "The Elephant Cage",
+            "Description": "Here are some trees and a pool.  As you look down, you see some grass\r\r\r\r\r\n\rand some concrete slab.  As you look at the beasts here, you think\r\r\r\r\r\n\rto yourself, maybe I should leave them alone....\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "You see the walkway.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 785
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 793,
+            "Zone": 7,
+            "Name": "The Great Cats",
+            "Description": "You see a pool and a grassy field.  There is a cave that some of\r\r\r\r\r\n\rthe cats walk in and out of.  You might have made a mistake entering\r\r\r\r\r\n\rtheir lair.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the walkway.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 785
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 794,
+            "Zone": 7,
+            "Name": "The Bird Sanctuary",
+            "Description": "Here are many trees.  As you look about in the trees, you see many\r\r\r\r\r\n\rdifferent kinds of birds.  You hear them all chirping as you walk\r\r\r\r\r\n\rinto this place.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the walkway.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 783
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 795,
+            "Zone": 7,
+            "Name": "The Bear's Cave",
+            "Description": "Walking into this cave, you see a couple types of bears.  They seem \r\r\r\r\r\n\rnot to like that you walked into thier home.  Better get out quick!\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "You see the walkway.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 787
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 796,
+            "Zone": 7,
+            "Name": "The Monkey Cage",
+            "Description": "Looking about here, you see animals that look like humans.  They are\r\r\r\r\r\n\rall playing in the trees.  They make grunting noises that the others\r\r\r\r\r\n\rseem to understand each other.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see the walkway.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 787
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 797,
+            "Zone": 7,
+            "Name": "The Hooved Animals",
+            "Description": "In the field you see a couple of animal.  One is eating from the \r\r\r\r\r\n\rtreetops. The other is eating the grass.  They don't seem to notice\r\r\r\r\r\n\ryou walk into their home.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "You see the walkway.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 786
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 798,
+            "Zone": 7,
+            "Name": "The Porcupines",
+            "Description": "You look about and there isn't that much here except the small \r\r\r\r\r\n\ranimals walking around.  \r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "Southwest",
+                    "Description": "You see the walkway.\r\r\r\r\r\n\r",
+                    "Keywords": [
+                        "cage"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 782
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 799,
+            "Zone": 7,
+            "Name": "Trolley Station",
+            "Description": "A rather diry train/trolley station sits here.  It is hushed with the\r\r\r\r\r\n\rexpectancy of the next train arriving.  There is a sign mounted here.\r\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 761
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "The price for a ticket is 100 coins.\r\r\r\r\r\n\r"
+                }
+            ]
+        }
+    ]
+}

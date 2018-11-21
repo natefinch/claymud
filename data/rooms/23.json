@@ -1,0 +1,3827 @@
+{
+    "rooms": [
+        {
+            "ID": 2300,
+            "Zone": 23,
+            "Name": "The dark woods",
+            "Description": "You are travelling through woods that are as dark as night. The trees above\nblock all light and wind. The air is stagnant and smells of death and decay.\nThe lack of sounds and other signs of life make your skin crawl and you feel\nvery much like turning back and heading for safer areas. The path leads north\ninto more open lands while it also leads south into the darkness of the forest.\nA small sign is posted here.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 6121
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2301
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "    []================================[]\n     |      BEWARE!      | Hope you   |\n     |   Travellers are  | enjoy it!  |\n     |  advised to stay  | \u003c-------\u003e  |\n     |   in groups for   |  Skurge    |\n     |      safety.      | Ragnarok   |\n    []================================[]\n"
+                }
+            ]
+        },
+        {
+            "ID": 2301,
+            "Zone": 23,
+            "Name": "The dark woods",
+            "Description": "You wearily travel through the darkness of the forest. Huge skeletal trees\nline the edges of the path and tower above you. Errant rays of light spear\ndown through the gaps in the canopy above and provide small spots of light\nthat seem to attract what little foliage can grow on the dark forest floor.\nThe path winds north and south into darkness.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2300
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2302
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2302,
+            "Zone": 23,
+            "Name": "The small intersection in the forest",
+            "Description": "The forest path splits here in three directions. Small paths lead to the east,\nnorth, and south. The trees above leave a gap which allows light to fill the\nintersection. It is almost as though you are in a circle of light that\nprovides sanctuary in this land of darkness.\nSomething has been scrawled in the dirt in blood here.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2301
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2304
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2303
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "blood",
+                        "dirt",
+                        "scrawl"
+                    ],
+                    "Description": "BeWAre tHe SwAmP oGreS......\n"
+                }
+            ]
+        },
+        {
+            "ID": 2303,
+            "Zone": 23,
+            "Name": "The edge of the forest and hills",
+            "Description": "You stand at the edge of a dark forest. A path leads north into the forest and\nits deadly darkness and silence. Looking west, you see a path that leads up\ninto a foothills region. Standing here on the boundary between light and\ndarkness, you feel very vulnerable and alone.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2302
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2309
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2304,
+            "Zone": 23,
+            "Name": "In the dense forest",
+            "Description": "You walk along a small path leading through a dark forest. No sounds can be\nheard and little light penetrates the canopy of trees above you. The air here\nsmells musty and you long for a fresh breath. You see an intersection of paths\nto the west. The path you are on leads south into the darkening woods.\n",
+            "Bits": [
+                "DARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 1900
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2305
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2302
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2305,
+            "Zone": 23,
+            "Name": "The dark forest path",
+            "Description": "You continue on through darkness and gloom. The path below you has become a\nwet quagmire. It is difficult to walk, and you make squishing sounds as you\nmove on. Looking east, you see a swampy path. The main path leads north and\nsouth into darkness.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2304
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2327
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2306
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2306,
+            "Zone": 23,
+            "Name": "A turn in the path",
+            "Description": "The forest path turns here towards the north and west. To the north, you see\nthat the ground has become dank and swampy, while the western path appears\nto be entering a hilly area. You hear sounds of swamp creatures to the north\neast.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2305
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2307
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2307,
+            "Zone": 23,
+            "Name": "The bloody intersection",
+            "Description": "This is a small intersection. Paths lead east, west, and south. You are struck\nby the carnage here when you enter the clearing. There appears to have been a\ngreat battle here. Blood is everywhere and the ground is all torn up. Pieces\nof beaten armour and broken blades lie all around. Examining the tracks here\nlead you to believe that the dead and wounded were dragged off in two \ndirections, south and east.\n",
+            "Bits": [
+                "DARK",
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2306
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2310
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2308
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2308,
+            "Zone": 23,
+            "Name": "The rocky path",
+            "Description": "The path here winds among the low rocky hills. The long trek up and down the\nhills begins to tire you greatly. Looking east, you see a small clearing. More\nhills are to the north of here.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2309
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2307
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2309,
+            "Zone": 23,
+            "Name": "The rocky path",
+            "Description": "The path here is very rocky and treacherous. The travelling is rough and you\nslip and fall often. Looking south, you see that the path continues into the\nhills. Smoother ground is to the east, but the path seems to lead into a dark\nforest in that direction.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2303
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2308
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2310,
+            "Zone": 23,
+            "Name": "Up the rocky hillside",
+            "Description": "You are climbing on a rocky hillside. As you scramble about, loose rocks and\nsmall boulders bounce and fall down below you. Looking to the east and west,\nyou see more stable ground. The hillside itself goes on higher to the south\nand it drops away to the north.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2307
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2312
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2314
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2311
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2311,
+            "Zone": 23,
+            "Name": "The sparse foothills",
+            "Description": "You are in foothills that are sparsely covered by scraggly bushes and weather\nbeaten trees. There are little signs of life here. Only bare rock and dry dirt\ncan be seen. Looking east, you see a small pass that will allow you to leave\nthe foothills. The foothills themselves extend to the south.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2310
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2313
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2312,
+            "Zone": 23,
+            "Name": "Standing on level ground",
+            "Description": "You are standing at the edge of a steep set of foothills. Looking down, you\nsee what appears to be a marshy, dark forest. It reeks of death and decay.\nEven here, you catch its scent on the winds. From here, you can travel south\ndeeper into the foothills or to the west where a small pass will allow you to\nclimb down.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2315
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2310
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2313,
+            "Zone": 23,
+            "Name": "In the foothills",
+            "Description": "You are in a barren set of foothills. Looking around, all you see are dead\nplants and boulders. From the south, you get a whiff of salty air. Barren paths\nlead east, north, and south into more barren hills.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2311
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2314
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2317
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2314,
+            "Zone": 23,
+            "Name": "Before the huge tree",
+            "Description": "You enter a large ring of boulders. Sheltered by this wall of stones, a small\ncluster of plants have sprung up. In the center of this group of trees and\nbushes is a huge gnarled tree. It appears to have been twisted and torn by\nthe forces of nature. It sways and moans as a strong wind from the south tears\nthrough its old feeble branches. The hills themselves lead in all directions.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2310
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2315
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2318
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2313
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2315,
+            "Zone": 23,
+            "Name": "Before the dark cave",
+            "Description": "You stand directly before a huge dark cave. The rocks and boulders outside the\ncave are covered with blood stains and all types of broken and shattered bones\nlie around. An unbearable stench comes from within the cave itself. The dark\ncave entrance looms to the east. The hills themselves lead towards the\nnorth, south, and west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2312
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2316
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2319
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2314
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2316,
+            "Zone": 23,
+            "Name": "Inside the horrid cave",
+            "Description": "The stench is overwhelming. You can hardly breathe as you enter the cave.\nLooking around, you realize that some bizarre and horrible creature uses this\ncave as a home. Skeletal remains lie all over. Several half-eaten corpses are\nrotting away slowly in the gloomy darkness. In the back of the cave, you see a\nlarge pile of rotting cloth, fur, and plant matter. Light and safety is\ntowards the west.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2315
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "pile"
+                    ],
+                    "Description": "It appears to be some sort of nest......\n"
+                }
+            ]
+        },
+        {
+            "ID": 2317,
+            "Zone": 23,
+            "Name": "The hills overlooking the shore",
+            "Description": "Standing at the edge of the foothills, you are able to look down upon a rocky\nshoreline. It appears as though a vast ocean is to the south. Sea birds have\nmade their nests here in the rocks and you are heartened by the presence of\nlife here. It is possible to climb down to the shore here. The hills\nthemselves are to the north. The edge of the hills leads to the east along the\nshoreline.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2313
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2318
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2320
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2318,
+            "Zone": 23,
+            "Name": "The hills overlooking the shoreline",
+            "Description": "You stand on a barren section of hills that overlook a rocky shoreline. The\nstiff ocean wind has blown the rocks smooth here and you have to lean forward\na bit to keep your balance. The salty sea air fills your nostrils and you\nnotice signs of life in the rocky crags here. You can climb down towards the\nshore or head north into the hills themselves. The rocky summit you are\nstanding leads east and west along the shoreline.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2314
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2319
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2317
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2321
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2319,
+            "Zone": 23,
+            "Name": "The hills above the shoreline",
+            "Description": "You stand on a rocky summit overlooking a rough shoreline below. The sea wind\nblows hard across the rocks here and they have been worn smooth with time.\nLooking around, you notice that you can safely climb down towards the shore.\nThe hills themselves stretch towards the north. The rough summit you stand\nupon leads west along the shoreline.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2315
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2318
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2322
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2320,
+            "Zone": 23,
+            "Name": "The rocky shore",
+            "Description": "You are at the base of the rocky hills. Stretching to the south and east, you\nsee a rocky shore. To the southeast, you see a small altar of some sorts that\nglows with an eerie blue light. It is possible to climb up into the hills here.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 16001
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2321
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2323
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2317
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2321,
+            "Zone": 23,
+            "Name": "The rocky shoreline",
+            "Description": "You are on a rocky shore that borders a vast sea. A stiff wind blows here and\nwhistles among the rocks. You see an altar of some sort built on the shore to\nthe south. The shore itself leads east and west. Looking up, you see foothills\nand rocky crags.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2322
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2324
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2320
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2318
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2322,
+            "Zone": 23,
+            "Name": "The rocky shore",
+            "Description": "You stand at the base of some rocky hills, where they meet a rocky shore. A\nvast sea is to your south. Looking to the southwest, you see a small altar\nthat glows with a eerie blue light. The shore stretches out to the south and\nwest. It is possible to climb up into the hills here.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2325
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2321
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2319
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2323,
+            "Zone": 23,
+            "Name": "The edge of the sea",
+            "Description": "You walk along the water's edge. The vastness of the ocean is staggering as\nyou look out across it. You notice a small altar that glows with blue light\nto the east. The shore itself extends north away from the water's edge.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2320
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2324
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2324,
+            "Zone": 23,
+            "Name": "The Blood Sea Portal",
+            "Description": "You stand on a small pedestal like altar that has been built on the shore here.\nStanding here, you can look out across the sea. You can almost imagine that\nyou see a far away island. Dominating the altar is a small blue portal of\nlight. It is possible to walk south into the portal. The shore itself extends\nto the north, east, and west.\nThere are small inscriptions on the rock at the base of the portal.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2321
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2325
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2326
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2323
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "portal",
+                        "blue"
+                    ],
+                    "Description": "You see a swirling blue portal of light. You think you can see glimpses of\nsomething moving on the \"other side\".\n"
+                },
+                {
+                    "Keywords": [
+                        "small",
+                        "inscriptions",
+                        "inscription"
+                    ],
+                    "Description": "\"Enter all ye who wish to join the Brotherhood!\"\n"
+                }
+            ]
+        },
+        {
+            "ID": 2325,
+            "Zone": 23,
+            "Name": "The edge of the sea",
+            "Description": "You walk along the water's edge. The tide appears to have risen. Very little\ndebris is washed up on shore. You slip and slide as you tread across the\nslippery rocks that make up the shore. To the west you see a small altar that\nradiates blue light. The shore extends north away from the water's edge.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FIELD",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2322
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2324
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2326,
+            "Zone": 23,
+            "Name": "Floating in blue light",
+            "Description": "You seem to be floating in blue weightlessness. You tumble head over heels and\nfinally right yourself. Gaining your bearings, you notice that there are two\n\"windows\" in the sea of blue here. One to the south shows an image of a snowy\nplain. Another window the the north shows an image of a rocky shore.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "The",
+                        "Glacier",
+                        "Temple/"
+                    ],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2353
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2327,
+            "Zone": 23,
+            "Name": "The swampy path",
+            "Description": "This damp path seems to lead into a deep, dark swamp. The trees above block\nout all light and stifle the wind. You smell swamp gas and hear damp squashing\nsounds all around you. The path leads east deeper into the swamp. You also see\na dark forest to the west.\n",
+            "Bits": [
+                "DARK",
+                "NOMOB",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2328
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2305
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2328,
+            "Zone": 23,
+            "Name": "The swampy path",
+            "Description": "You tread lightly in a wet, swampy path. All around you, you see pools of\nquicksand and rotting vegetation. Unlike the forest to the west, the swamp is\nteeming with life. Some of it is harmless, some is not. The path leads east\nand west into more swamp.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2329
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2327
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2329,
+            "Zone": 23,
+            "Name": "The swampy path",
+            "Description": "You weave your way through the treacherous swamp. Gas rises all around you and\na damp mist covers the ground, making it impossible to travel safely, without\ncarefully picking your way around obstacles. Large, gnarled trees rise above\nyou. Their moss covered branches block out all traces of the sun. The path\nhere leads east and west.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2330
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2328
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2330,
+            "Zone": 23,
+            "Name": "The turn in the swampy path",
+            "Description": "You come upon a bend in the swampy path. The ground here is fairly sturdy,\nas this place is elevated above the rest of the swamp. Looking around, you see\na dark, mist filled swamp. Small paths lead south and west into the mist.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2331
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2329
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2331,
+            "Zone": 23,
+            "Name": "The swampy path",
+            "Description": "You tread lightly through the mirky water and sludge that makes up the path\nyou follow. To the east, there is a thick wall of mist. You can see nothing\nwithin it. Harder ground rises to the north.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2330
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2335
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2332,
+            "Zone": 23,
+            "Name": "Lost in the Mist",
+            "Description": "You wander, hopelessly lost. Swirling mist obscures your vision and clouds\nyour mind. You lose all concept of direction. Small, silent giggles can be\nheard all around. You can wander in any direction.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2337
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2334
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2335
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2334
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2333,
+            "Zone": 23,
+            "Name": "Lost in the Mist",
+            "Description": "You are in a thick misty area. The mist swirls around you, seeming to taunt\nyou and dare you to escape. You feel a slight electric charge in the mist. It\nalmost caresses your body as it floats about you. You can wander in any\ndirection.......\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2333
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2336
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2333
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2335
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2334,
+            "Zone": 23,
+            "Name": "Lost in the Mist",
+            "Description": "You try to peer through the mist......You see nothing. It swirls about you,\ncovering you in a damp sheen. There is no sound, all light is eagerly devoured\nby the mist. You feel totally and hopelessly lost.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2338
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2332
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2336
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2332
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2335,
+            "Zone": 23,
+            "Name": "Lost in the Mist",
+            "Description": "You stumble through the marsh here. The swamp seems to have swallowed you up\nand denied you exit. This mist is your jailor. You cannot tell where you are.\nYou hear quiet laughter all about you.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2332
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2333
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2337
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2331
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2336,
+            "Zone": 23,
+            "Name": "Lost in the Mist",
+            "Description": "You wander, lost, for what seems an eternity. Then....From nowhere....You see\nwhat appears to be trees and hills to the east. The mist itself thickens to\nthe west, while it grows thin to the east.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2334
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2339
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2338
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2333
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2337,
+            "Zone": 23,
+            "Name": "Lost in the Mist",
+            "Description": "You wander through the thick mist. It swirls all about you and makes it hard\nto breathe. The ground below you makes a soft squishing sound as you trudge\non, but this noise is absorbed by the mist and does not travel. You can wander\nin any direction.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2335
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2338
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2332
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2338
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2338,
+            "Zone": 23,
+            "Name": "Lost in the Mist",
+            "Description": "You wander, lost hopelessly. The mist swirls all about you. You can discern no\ndirection. You stumble blindly through the mist, oblivious to your\nsurroundings.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2336
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2337
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2334
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2337
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2339,
+            "Zone": 23,
+            "Name": "The solid path",
+            "Description": "A solid path rises out of the misty swamp. It leads north, into what appears\nto be a forested area. The trees, above, allow light and air to penetrate and\nyou can see the sky above. A thick bank of mist is to your west.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "HILLS",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2340
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2336
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2340,
+            "Zone": 23,
+            "Name": "A forested path",
+            "Description": "The path here leads north through a thick forest. High bushes and forest\nundergrowth line both sides of the trail. Looking north, you see a thin line\nof smoke rising up above the tree line. You also notice a crude wooden gate\nfarther north on the trail. The trail itself leads south into murky territory.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2341
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2339
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2341,
+            "Zone": 23,
+            "Name": "The gate before the Ogre Village",
+            "Description": "You stand before a huge pair of crude, wooden gates. They are thrown open.\nLooking inside the gates, you see a crude village. Large humanoid creatures\nare milling to and fro.......Ogres! You can head north through the gate or\nsouth into the forest.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "FOREST",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2343
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2340
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2342,
+            "Zone": 23,
+            "Name": "Among the crude huts",
+            "Description": "You walk among the huts of the ogre village. The village appears to be cut\nfrom the heart of the forest itself. The swamp, nearby, provides the ogres\nwith a prime hunting ground. Small paths lead north and east.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2345
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2343
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2343,
+            "Zone": 23,
+            "Name": "Inside the gates",
+            "Description": "You stand just north of the gates to the village. Looking around, you see many\ncrude huts and cooking fires. To the north, you see a huge fire pit. Behind \nit, there appears to be a hut of sorts. Small paths lead east and west among \nthe crude huts. The gates to the south provide an exit from the village.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2346
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2344
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2341
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2342
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2344,
+            "Zone": 23,
+            "Name": "Among the crude huts",
+            "Description": "You walk through the crude village. Small huts made of wood and thatch\nsurround you. Every so often, you can hear grunts and snarls inside the huts.\nThe smell here is unbearable. You wonder what type of creature could possibly\nlive in such squalor. Small paths lead west and north here.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2347
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2343
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2345,
+            "Zone": 23,
+            "Name": "The gathering place",
+            "Description": "This appears to be the clearing the ogres use to assemble. It is quite large\nand has a raised mound in the center that contains a crude throne. The ground\nin front of the throne is quite worn, as if it is sat on quite often. You get\nthe impression that this place is a crude sort of auditorium. Small paths lead\neast and south.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2346
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2342
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2346,
+            "Zone": 23,
+            "Name": "The firepit before the lodge",
+            "Description": "You stand at the edge of a huge firepit. The heat from the burning embers\nmakes you sweat as you stand here. Large spits above the pit are empty but\nthey appear to be quite large enough to hold hapless adventurers. A large\nlodge is towards the north, while paths lead east, west, and south into the\nvillage itself.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2348
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2347
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2343
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2345
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2347,
+            "Zone": 23,
+            "Name": "The village dump",
+            "Description": "The smell here overpowers you. All around you are the rotting remains of the\nvillage's refuse. Partially eaten corpses, rotting food, and other truly\ndisgusting things have been discarded here. Paths lead south and west towards\nfresher air.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2344
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2346
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2348,
+            "Zone": 23,
+            "Name": "The entryway to the lodge",
+            "Description": "You are at the entry hall to a large lodge. Animal pelts and other trophies\nline the walls here. Large chests on either side of the door appear to be\nlocked. The lodge stretches north, while the doors to the south provide an\nexit into the village.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2349
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2346
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2349,
+            "Zone": 23,
+            "Name": "The throne room",
+            "Description": "You stand in a large, crudely decorated throne room. A huge throne adorned\nwith humanoid skulls sits against the west wall. A crude, blood stained altar\nis against the east wall. A doorway is directly to the north, long strands of\nbeads blocking the view of the other side. Crude torches light the hall and \nsmoke clings to the ceiling.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2350
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2348
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2350,
+            "Zone": 23,
+            "Name": "The chieftain's room",
+            "Description": "This appears to be the ogre chieftain's private quarters. A huge pile of furs\nis in the far corner. Large chests fill the room. All of them have heavy pad\nlocks. The room is filled with trophies of dead enemies. It is quite lavishly\ndecorated for such a crude inhabitant as an ogre. A beaded doorway is to the\nsouth.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2349
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2351,
+            "Zone": 23,
+            "Name": "The frigid wastelands",
+            "Description": "You wander through the frigid wastelands. Your breath is a cloud before you.\nThe cold cuts to the bone. Swirling snow and wind make impossible for you to\ndiscern any directions.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2353
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2352
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2355
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2354
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2352,
+            "Zone": 23,
+            "Name": "The frigid wastelands",
+            "Description": "You wander through the frigid wastelands. Your breath is a cloud before you.\nThe cold cuts to the bine. Swirling snow and wind make it impossible to\ndiscern any directions.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2357
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2354
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2358
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2351
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2353,
+            "Zone": 23,
+            "Name": "The Glacier Temple",
+            "Description": "You are in a small temple. It appears to be built entirely from ice. The ice\nwalls are frosted and are opaque. There is a small blue portal here. You can\ngo north, to enter the portal. Looking south, you see a world of white outside\nthe open doorway. Swirling snow and bright light obscure your view.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2326
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2351
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2354,
+            "Zone": 23,
+            "Name": "The frigid wastelands",
+            "Description": "You wander through the frigid wastelands. Your breath is a cloud before you.\nThe cold cuts to the bone. Swirling snow and wind make it impossible for you\nto discern any directions.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2359
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2351
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2356
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2352
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2355,
+            "Zone": 23,
+            "Name": "The frigid wastelands",
+            "Description": "You wander through the frigid wastelands. Your breath is a cloud before you.\nThe cold cuts to the bone. Swirling snow and wind make it impossible for you\nto discern any directions.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2351
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2356
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2357
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2356
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2356,
+            "Zone": 23,
+            "Name": "The frigid wastelands",
+            "Description": "You wander through the frigid wastelands. Your breath is a cloud before you.\nThe cold cuts to the bone. Swirling snow and wind make it impossible for you\nto discern any directions.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2354
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2355
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2359
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2355
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2357,
+            "Zone": 23,
+            "Name": "The frigid wastelands",
+            "Description": "You wander through the frigid wastelands. Your breath is a cloud before you.\nThe cold cuts to the bone. Swirling snow and wind make it impossible for you\nto discern any directions.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2355
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2358
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2352
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2359
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2358,
+            "Zone": 23,
+            "Name": "The frigid wastelands",
+            "Description": "You wander through the frigid wastelands. Your breath is a cloud before you.\nThe cold cuts to the bone. Swirling snow and wind make it impossible for you\nto discern any direction.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2352
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2359
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2360
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2357
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2359,
+            "Zone": 23,
+            "Name": "The frigid wastelands",
+            "Description": "You wander through the frigid wastelands. Your breath is a cloud before you.\nThe cold cuts to the bone. Swirling snow and wind make it impossible for you\nto discern any directions.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2356
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2357
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2354
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2358
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2360,
+            "Zone": 23,
+            "Name": "The edge of the frigid wastes",
+            "Description": "You stand at the base of a steep rocky cliff. To the north, a vast arctic\nwasteland stretches out. The snow falls lightly here and the wind is not\nvery fierce. You can climb up the rocky cliff or head north into the arctic\nwastes.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2358
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2361
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2361,
+            "Zone": 23,
+            "Name": "On the cliffside",
+            "Description": "You cling to the side of the cliff. Looking down, you are terrified by the\nsheer distance to the ground below. You can climb up higher into the cliffs,\nbut the area above is obscured by clouds and you cannot tell what lies waiting\nabove.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2362
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2360
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2362,
+            "Zone": 23,
+            "Name": "Before the gates of Mahn-Tor",
+            "Description": "You stand at the edge of a high cliff. Directly south, set back off the\ncliff's edge, you see a huge pair of gates. These gates appear to be carved\nalmost completely out of ice. A huge city and keep appear to be on the other\nside of these gates. There is also a possibility of climbing down the cliff \nface.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [
+                        "gate",
+                        "huge",
+                        "gates",
+                        "ice"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2364
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2361
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "gate",
+                        "gates",
+                        "ice",
+                        "huge"
+                    ],
+                    "Description": "The gates to the city are made almost completely of ice. Looking closely, you\ncan see intricate carvings in the gates. They appear to be of creatures that\nare half man and half bull.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2363,
+            "Zone": 23,
+            "Name": "The city streets of Mahn-Tor",
+            "Description": "You walk among the ice and snow covered shops and homes. Most of the doors are\nclosed and only the light from the windows betrays the presence of inhabitants.\nA cold wind blows through here, scattering fine clouds of snow all about. Small\nstreets lead south and east.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2364
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2366
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2364,
+            "Zone": 23,
+            "Name": "Inside the gates of Mahn-Tor",
+            "Description": "You stand just inside the gates to the city of Mahn-Tor. The city itself\nspreads out in front of you. The buildings are sturdy, as they appear to be\nmade from the very rock of this mountain. Snow falls all around and a fine\nsheet of ice can be seen covering all but the most used walk ways. Small city\nstreets lead east and west, while a main road appears to lead south.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "gates",
+                        "gate",
+                        "huge",
+                        "ice"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2362
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2365
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2367
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2363
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2365,
+            "Zone": 23,
+            "Name": "The city streets of Mahn-Tor",
+            "Description": "You trudge among the icy streets of Mahn-Tor. The streets themselves are made\nof cobblestone and are quite treacherous. Small homes and businesses along\nthe street are closed tight and light from their windows throws eerie shadows\nacross the dark street. Small streets lead west and south here.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2368
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2364
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2366,
+            "Zone": 23,
+            "Name": "The city streets of Mahn-Tor",
+            "Description": "You trudge through the snow covered streets. The street itself is made of\ncobblestones and the footing is quite treacherous. To the south, you see what\nappears to be a small tavern. Bright lights shine through the windows. Small\nstreets also lead north and east.\nA small sign hangs outside the tavern.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2363
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2367
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2369
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign",
+                        "small"
+                    ],
+                    "Description": "[]=============[]\n |   The Inn   |\n |    of the   |\n |    Broken   |\n |     Horn    |\n[]=============[]\n"
+                }
+            ]
+        },
+        {
+            "ID": 2367,
+            "Zone": 23,
+            "Name": "The Square of Mahn-Tor",
+            "Description": "This appears to be the main square of Mahn-Tor. A huge fountain graces the\ncenter of the square, but the extreme cold has turned it into an ice\nsculpture. The water has frozen in arcs through the air. Snow and ice covers\nthe square and small streets lead east and west. To the north, you see\nthe gates to the city. You also notice a small store to the south.\nA small sign hangs outside the store.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2364
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2368
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2370
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2366
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "sign"
+                    ],
+                    "Description": "[]=========[]\n |  Equip  |\n |   Shop  |\n[]=========[]\n"
+                }
+            ]
+        },
+        {
+            "ID": 2368,
+            "Zone": 23,
+            "Name": "The streets of Mahn-Tor",
+            "Description": "You walk among the small stores and homes of Mahn-Tor. The cobblestone streets\nare covered with ice and snow. Small snow drifts have formed at the edges of\nthe streets. The wind blows fiercely. Small streets lead in all directions.\nThere appears to be a large building to the east, but the snow obscures your\nview.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2365
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2375
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2371
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2367
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2369,
+            "Zone": 23,
+            "Name": "The Inn of the Broken Horn",
+            "Description": "You enter a warm tavern. The room is lit mainly by two huge fireplaces at each\nend of the room. Small tables and a large bar furnish the room. The\ninhabitants of the inn are all minotaurs of varying size and disposition. Most\nseem to regard you with suspicion. Few approach you. A large door leads\nnorth, out of the bar and back out into the cold.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2366
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2370,
+            "Zone": 23,
+            "Name": "The Mahn-Tor Equipment Shop",
+            "Description": "You are in a crude equipment shop. The store is filled with racks of various\nitems that adventurers could use. Large fireplaces light and heat the room.\nA large desk occupies the back of the room. The door to the shop lies to the\nnorth.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2367
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2371,
+            "Zone": 23,
+            "Name": "The Mahn-Tor General Store",
+            "Description": "You enter a small store that is dark and cold. Old empty shelves line the\nwalls and snow blows across the dirty stone floor. It is evident that this\nstore was once used, but it is no more. A small doorway leads north out into\nthe chilling snow and wind.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2368
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2372,
+            "Zone": 23,
+            "Name": "Gorak's Training Room",
+            "Description": "This room is full of all sorts of weapons and armours. Pieces of old targets\nand practice dummies lie all around. The walls are chipped and scored from\nweapon blows. This is obviously the room of an avid warrior. A red door leads\neast.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "red"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2351,
+                    "Destination": 2388
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "red"
+                    ],
+                    "Description": "It looks like it leads back to the hall.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2373,
+            "Zone": 23,
+            "Name": "Darkoth's Dark Study",
+            "Description": "This room is dark. It reeks of death and evil. Arcane symbols and a small\naltar fill the room. Blood runs from the altar. It is evident that this room\nis used for unholy purposes. A black door leads west.\n",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "black"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2352,
+                    "Destination": 2389
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "black"
+                    ],
+                    "Description": "It looks like it leads back to the hall.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2374,
+            "Zone": 23,
+            "Name": "Tyrgoth's Inner Sanctum",
+            "Description": "Idols to the gods of good fill the room. White furniture and decorations give\nthe room a holy appearance. It is evident that some being of supreme goodness\nlives here. A white door leads east.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "white"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2353,
+                    "Destination": 2392
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "white"
+                    ],
+                    "Description": "It looks like it leads out to the hall.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2375,
+            "Zone": 23,
+            "Name": "The road to the Keep of Mahn-Tor",
+            "Description": "You walk up a steep rocky road. It leads up a steep grade to the east. At the\nend of this steep road, you see a huge keep. Snow swirls all about you and you\nfeel your breath freeze as it leaves your lungs. Blurry lights to the east and\nwest are all you can see from here.\n",
+            "Bits": [
+                "NOMOB",
+                "MAGICDARK"
+            ],
+            "Sector": "MOUNTAIN",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2377
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2368
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2376,
+            "Zone": 23,
+            "Name": "A small guard house",
+            "Description": "You enter a small guard house. A huge fireplace lights and warms the room.\nLooking around, you see that the room is fairly well furnished. Thick rugs\nand curtains help insulate the room and the beds themselves look quite warm.\nA table in the center of the room has the remnants of a card game strewn\nacross it. A small door leads south.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2377
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2377,
+            "Zone": 23,
+            "Name": "Before the Keep of Mahn-Tor",
+            "Description": "You stand before a huge keep that has been carved into the side of the\nmountain. Huge wooden gates before you provide entrance to the keep. It\nappears as though the cold here has convinced the guards to seek warmth\ninside. You see the lights of the city to the west. You also notice small\nguard houses to the north and south.\n",
+            "Bits": [
+                "MAGICDARK"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2376
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2350,
+                    "Destination": 2379
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2378
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2375
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2378,
+            "Zone": 23,
+            "Name": "A small guard house",
+            "Description": "You enter a small, but warm, guard house. Deep rugs and thick curtains\ninsulate the room. A huge fireplace lights and warms the room. Outside, you\nhear the roar of the freezing wind. A small door leads north out into the cold.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2377
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2379,
+            "Zone": 23,
+            "Name": "The entryway to the Keep of Mahn-Tor",
+            "Description": "You are at the entry hall to the huge keep. The high vaulted ceiling is carved\nfrom solid stone. Huge stone pillars rise up from the floor to meet the\nceiling far above. The architecture appears to be dwarven. A huge pair of\ngates stand to the west, protecting the keep from the harsh cold outside. A\nlarge hall leads east, deeper into the keep.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2380
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "gate"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2350,
+                    "Destination": 2377
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2380,
+            "Zone": 23,
+            "Name": "The Hall",
+            "Description": "You are in a huge hall. Large tapestries line the walls and huge statues of\nvarious make and appearance are spread about. The ceiling above supports huge\ncandelabras, which light the room. To the east, you see a bright light and\nhear sounds of inhabitation. Looking west, you see the entry gates to the keep.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2381
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2379
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2381,
+            "Zone": 23,
+            "Name": "The Grand Hall",
+            "Description": "You are in the main hall of the Keep of Mahn-Tor. This hall is huge. The wide\nfloor of the hall is an expanse of marble. It shimmers in the light thrown\noff by the torches that line the walls. To the east, you see what appears to\nbe a huge golden throne. The hall itself stretches south and a smaller hall\nleads to the west.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2383
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2382
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2380
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2382,
+            "Zone": 23,
+            "Name": "The Great Hall",
+            "Description": "You stand in the great hall of the keep. Huge pillars rise up to the vaulted\nceiling and torch light glimmers off the marble floor here. You are amazed at\nthe sheer size of the hall. The hall itself leads north and east. You notice a\nsmaller hall leading south, deeper into the keep.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2381
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2384
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2387
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2383,
+            "Zone": 23,
+            "Name": "Standing before the throne",
+            "Description": "You stand before the throne of Mahn-Tor. This golden throne is so huge that it\ntakes up almost the entire wall, stretching far above the floor. Sitting upon\nit, you feel small and feeble. It is evident that this throne is more of a\ndecoration than anything else. Only the largest of kings could sit upon it.\nThe hall leads south and west into other parts of the keep.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "throne",
+                        "huge",
+                        "golden",
+                        "gold"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2385
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2384
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2381
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "throne",
+                        "huge",
+                        "gold",
+                        "golden"
+                    ],
+                    "Description": "The golden throne is huge. It takes up the whole wall.........\n"
+                }
+            ]
+        },
+        {
+            "ID": 2384,
+            "Zone": 23,
+            "Name": "The Great Hall",
+            "Description": "You are in a great hall. Huge torches light the room and their light shimmers\noff the marble floor below you. To the north, you see a huge golden throne.\nLooking up, you grow dizzy at the height to which the vaulted ceiling rises.\nThe hall itself leads north and west.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2383
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2382
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2385,
+            "Zone": 23,
+            "Name": "The secret hallway",
+            "Description": "You are in a small, torch lit hall. It leads from east to west. A large gold\ndoor is to the west. To the east, you see a heavy stone door.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "huge",
+                        "stone"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2359,
+                    "Destination": 2386
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "gold",
+                        "throne",
+                        "huge",
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 2383
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "huge",
+                        "stone"
+                    ],
+                    "Description": "A very formidable looking door.\n"
+                },
+                {
+                    "Keywords": [
+                        "gold"
+                    ],
+                    "Description": "Looks like the back of a secret door of sorts.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2386,
+            "Zone": 23,
+            "Name": "Entry to the Royal Chambers",
+            "Description": "You are at the entrance to the royal chambers of the keep. A plush shag rug\ncovers the stone floor. Large candelabras hang from the ceiling, lighting the\nroom. A huge fireplace warms the room. Beaded doorways lead south and east. A\nhuge stone door stands in the west wall.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2395
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2393
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "huge",
+                        "stone"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2359,
+                    "Destination": 2385
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "door",
+                        "huge",
+                        "stone"
+                    ],
+                    "Description": "A huge stone door.......\n"
+                }
+            ]
+        },
+        {
+            "ID": 2387,
+            "Zone": 23,
+            "Name": "The Guard Post",
+            "Description": "The hall here has been built into a guard post of sorts. It appears as though\nit would be quite easy to defend in times of emergency. Obviously, something\nimportant lies beyond. A small hall leads south, while the main hall can be\nseen to the north.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2382
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2388
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2388,
+            "Zone": 23,
+            "Name": "The guarded hall",
+            "Description": "You walk down a torch lit hallway. It has been carved out of pure stone. It is\nvery quiet in this hall. You notice rows of colored doors on each wall. To\nyour east, you see a yellow door. To your west, you see a red door. The hall\nitself leads south and north.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2387
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "yellow",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2355,
+                    "Destination": 2390
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2389
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "red",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2351,
+                    "Destination": 2372
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "red"
+                    ],
+                    "Description": "You see a red door. It has the name \"Gorak\" written on it.\n"
+                },
+                {
+                    "Keywords": [
+                        "yellow"
+                    ],
+                    "Description": "You see a yellow door. It has the name \"Sumaron\" written on it.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2389,
+            "Zone": 23,
+            "Name": "The guarded hall",
+            "Description": "You walk down a small, quiet, torch lit hallway. Doors of different colors are\nin each wall. To your east, you see a maroon door. To your west, you see a\nblack door. The hall itself leads north and south.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2388
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "maroon",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2356,
+                    "Destination": 2391
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2392
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "black",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2352,
+                    "Destination": 2373
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "maroon"
+                    ],
+                    "Description": "You see a maroon door here. It has the name \"Amyrok\" written on it.\n"
+                },
+                {
+                    "Keywords": [
+                        "black"
+                    ],
+                    "Description": "You see a black door. It has the name \"Darkoth\" inscribed on it.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2390,
+            "Zone": 23,
+            "Name": "Sumaron's Sanctum",
+            "Description": "You enter a temple of sorts. A small altar is here and relics of many\nreligions lie around. It is evident that this is the room of a studying cleric.\nA yellow door leads west.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "yellow"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2355,
+                    "Destination": 2388
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "yellow"
+                    ],
+                    "Description": "It looks like it leads back to the hall.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2391,
+            "Zone": 23,
+            "Name": "Amyrok's Arcane Study",
+            "Description": "This room is full of shelves which hold various spell components. The center\nof the room is occupied by a huge pentagram. The entire room smells of smoke\nand incense. The room is obviously used extensively by a practicing mage. A\nmaroon door leads west.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "maroon"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2356,
+                    "Destination": 2389
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "maroon"
+                    ],
+                    "Description": "It looks like it leads back to the hall.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2392,
+            "Zone": 23,
+            "Name": "The guarded hall",
+            "Description": "You walk down a quiet hall. The stone walls here are wet with moisture.\nColored doors can be seen in the walls here. To your east, you see a green\ndoor. To your west, you see a white door. The hall itself leads north and\nsouth.\n",
+            "Bits": [
+                "INDOORS",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2389
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "green",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2357,
+                    "Destination": 2394
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2397
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "white",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2353,
+                    "Destination": 2374
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "green"
+                    ],
+                    "Description": "You see a green door here. It has the name \"Nasturn\" written on it.\n"
+                },
+                {
+                    "Keywords": [
+                        "white"
+                    ],
+                    "Description": "You see a white door here. It has the name \"Tyrgoth\" inscribed on it.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2393,
+            "Zone": 23,
+            "Name": "The Harem Room",
+            "Description": "This appears to be the harem room of the Keep. Huge piles of furs and beds\nfill the room. The lighting is dim, but the room is very warm. You can hear\nmusic playing quietly from somewhere. Beaded doorways lead north and east.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2386
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2396
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2394,
+            "Zone": 23,
+            "Name": "Nasturn's Humble Abode",
+            "Description": "This room is filled with all types of natural items. Trees and plants have\nbeen lovingly cultivated and grown by hand, in large pots. The room is like an\nindoor garden. A green door leads west.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "green"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2357,
+                    "Destination": 2392
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "green"
+                    ],
+                    "Description": "It looks like it leads back to the hall.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2395,
+            "Zone": 23,
+            "Name": "The main living room",
+            "Description": "This room is decorated with sturdy stone furniture that is carved and gilded.\nLarge candles light the room. A thick rug covers the floor. Thick furs and\ntapestries decorate the walls. Beaded doorways lead south and west.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2396
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2386
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2396,
+            "Zone": 23,
+            "Name": "The Master Bedroom",
+            "Description": "This appears to be the master bedroom. A huge bed fills the rooms. Piles of\nfurs and other rich furnishings adorn the room. Candles are everywhere and\nthey help a huge fireplace light the room. The lavishness of the room\noverwhelms you. Beaded doorways lead north and west.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT",
+                "MAGICDARK"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2395
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2393
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 2397,
+            "Zone": 23,
+            "Name": "The end of the guarded hall",
+            "Description": "You are at the end of the hall. Colored doors line the walls to the north. To\nyour west, you see a brown door. To you east, you see a grey door. The hall\nitself leads north back along the rows of doors.\n",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 2392
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "grey",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2358,
+                    "Destination": 2398
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "brown",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2354,
+                    "Destination": 2399
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "grey"
+                    ],
+                    "Description": "You see a grey door here. It has the name \"Dorgar\" written on it.\n"
+                },
+                {
+                    "Keywords": [
+                        "brown"
+                    ],
+                    "Description": "You see a brown door here. It has the name \"Belrak\" written on it.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2398,
+            "Zone": 23,
+            "Name": "Dorgar's Dismal Domicile",
+            "Description": "This room is dirty and unkempt. Odds and ends of different items lie all over.\nIt is apparent that some type of pack-rat lives here. It appears as though\nnothing has ever entered this room and ever left again. A grey door leads west.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "grey"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2358,
+                    "Destination": 2397
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "grey"
+                    ],
+                    "Description": "It looks like it leads back to the hall.\n"
+                }
+            ]
+        },
+        {
+            "ID": 2399,
+            "Zone": 23,
+            "Name": "Belrak's Green Room",
+            "Description": "This room is full of green. The furniture and all other items show the color\nof nature. The room smells of pine and forest odors. From the items here, it\nappears as though a woodsman of some sorts lives here. A brown door leads east.\n",
+            "Bits": [
+                "INDOORS",
+                "NORELOCATE",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door",
+                        "brown"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 2354,
+                    "Destination": 2397
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "brown"
+                    ],
+                    "Description": "It looks like it leads to the hall.\n"
+                }
+            ]
+        }
+    ]
+}

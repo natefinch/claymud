@@ -19,24 +19,36 @@ var (
 )
 
 // Initialize sets up the application's configuration directory.
-func Initialize() error {
+func Initialize() (*Config, error) {
 	dataDir = getDataDir()
 
 	_, err := os.Stat(dataDir)
 	if os.IsNotExist(err) {
-		return fmt.Errorf("can't find data directory: %s", dataDir)
+		return nil, fmt.Errorf("can't find data directory: %s", dataDir)
 	}
 	if err != nil {
-		return fmt.Errorf("can't read data directory: %s", err)
+		return nil, fmt.Errorf("can't read data directory: %s", err)
 	}
 
 	log.Printf("Using data directory %s", dataDir)
 
 	if err := configLogging(); err != nil {
-		return err
+		return nil, err
 	}
 	loadMainTitle()
-	return nil
+
+	var config Config
+	cfgFile := filepath.Join(dataDir, "mud.toml")
+	if _, err := toml.DecodeFile(cfgFile, &config); err != nil {
+		return nil, fmt.Errorf("error parsing config file %q: %v", cfgFile, err)
+	}
+
+	return &config, nil
+}
+
+// Config contains all the general configuration parameters for the mud.
+type Config struct {
+	StartRoom int // the starting room number
 }
 
 // MainTitle returns the text that is shown to users when they connect, before

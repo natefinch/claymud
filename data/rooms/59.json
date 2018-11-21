@@ -1,0 +1,1897 @@
+{
+    "rooms": [
+        {
+            "ID": 5901,
+            "Zone": 59,
+            "Name": "Street",
+            "Description": "Oops.  You've reached a dead end, literally.  There are bodies laying\r\r\r\r\n\reverywhere.  The smell is horrible...you'd better leave.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5902
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5902,
+            "Zone": 59,
+            "Name": "Street",
+            "Description": "You are standing on a brightly lit street.  All around you, drug deals are\r\r\r\r\n\rgoing on and bodies are laying in the street.  You wonder why the area has\r\r\r\r\n\rgotten this bad.  Suddenly a cop car drives by and throws a doughnut box out\r\r\r\r\n\rthe window.  You sigh and realize you'd better leave before you get shot.\r\r\r\r\n\r",
+            "Bits": [],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5904
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5901
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 3071
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5904,
+            "Zone": 59,
+            "Name": "Stairs",
+            "Description": "You are standing on some beautiful marble steps that lead up into the\r\r\r\r\n\rManhattan Court House. While you are standing here admiring the view,\r\r\r\r\n\ryou hear a blood-curdling scream from the south.  You better hurry up\r\r\r\r\n\rthe stairs before you are the next victim!\r\r\r\r\n\r",
+            "Bits": [
+                "NOMOB",
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5902
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5905
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5905,
+            "Zone": 59,
+            "Name": "Entrance to the Court House",
+            "Description": "You stand immediately before the entrance of one of the city's municipal\r\r\r\r\n\rcourt buildings. It was built back during the heyday of the roaring 20's,\r\r\r\r\n\rback when the city really had money to spend and public buildings of all\r\r\r\r\n\rkinds were being erected. It must have looked good back then, but today,\r\r\r\r\n\rwith the onset of time, weather, smog and acid rain, it looks worn and\r\r\r\r\n\raged. The granite facade is bleak, and the marbled floors are scuffed.\r\r\r\r\n\rYet the city still conducts business here, and court is always in session.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "CITY",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "Before you is the main double door entrance to the municipal court\r\r\r\r\n\rbuilding. Judges hold court inside, city clerks keep all kinds of records.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5906
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5904
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5906,
+            "Zone": 59,
+            "Name": "A Hall in the Court House",
+            "Description": "You are standing in the middle of the hall.  Directly north of you is the\r\r\r\r\n\rcourt room.  Since court is in session now, not many people are lingering\r\r\r\r\n\rin the hallway.  The smell of food is coming from somewhere to the east.\r\r\r\r\n\rYummy! Go see where the smell is coming from.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5939
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5909
+                },
+                {
+                    "Direction": "South",
+                    "Description": "You see doors leading out. ",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5905
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5907
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5907,
+            "Zone": 59,
+            "Name": "A Hall in the Court House",
+            "Description": "This is one of the many hallways in the court house. Court is now in \r\r\r\r\n\rsession, so there are not many people lingering in the hallway. The\r\r\r\r\n\ronly exit is east, towards the court room.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5906
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5908
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5908,
+            "Zone": 59,
+            "Name": "A Hall in the Court House",
+            "Description": "This is one of the many hallways in the court house. Court is now in \r\r\r\r\n\rsession, so there are not many people lingering in the hallway. The\r\r\r\r\n\ronly exit is east, towards the court room.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5907
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5909,
+            "Zone": 59,
+            "Name": "A Hall in the Court House",
+            "Description": "You are standing in the middle of a hallway.  Not many people are here,\r\r\r\r\n\rsince court is in session.  The hall continues to the east, and somewhere\r\r\r\r\n\rto the west is the court room.  A wonderful aroma is drifting from the\r\r\r\r\n\rsouth, making you drool.  Could it be week-old meatloaf?\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5910
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5936
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5906
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5910,
+            "Zone": 59,
+            "Name": "A Hall in the Court House",
+            "Description": "You are standing in the middle of a hall in front of the court room.  Not\r\r\r\r\n\rmany people are here, since court is in session.  The hall continues to the\r\r\r\r\n\reast and west.  Somewhere to the west is the court room and the cafeteria.\r\r\r\r\n\rThe smell of food is overwhelming here.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5911
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5909
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5911,
+            "Zone": 59,
+            "Name": "A Bend in the Hall",
+            "Description": "You are standing in the bend of the hallway.  To the west is the court room\r\r\r\r\n\rand the Cafeteria.  To the distant north, you can see a stairwell, some\r\r\r\r\n\rpay phones, and a bathroom.  There also seems to be a lot of commotion\r\r\r\r\n\rto the north.  From what you can understand, Bull has lost a prisoner once\r\r\r\r\n\ragain. Oh no, poor Bull!\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5912
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5910
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5912,
+            "Zone": 59,
+            "Name": "A Hall in the Court House",
+            "Description": "You are standing in the middle of the hall that is parallel to the court\r\r\r\r\n\rroom. The commotion gets louder as you go north, so you wonder where it\r\r\r\r\n\ris coming from.  To the south is a bend in the hall, while the hall \r\r\r\r\n\rcontinues to the north.  In the distant north you can see a set of stairs,\r\r\r\r\n\ra bathroom, and some pay phones.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5913
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5911
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5913,
+            "Zone": 59,
+            "Name": "A Hall in the Court House",
+            "Description": "You are standing in the middle of a hall that runs parallel to the court\r\r\r\r\n\rroom.  To the south you notice a bend in the hallway, while to the north\r\r\r\r\n\ryou notice a set or stairs and a bathroom.  There is a lot of noise coming\r\r\r\r\n\rfrom the north for some reason.  Go check it out!\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5914
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5912
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5914,
+            "Zone": 59,
+            "Name": "A Hall in the Court House",
+            "Description": "You are standing in the middle of the hall that runs parallel to the court\r\r\r\r\n\rroom. As you look to the east, you notice a set of stairs that leads down\r\r\r\r\n\rto the holding cells.  It seems pretty noisy here, and you wonder if you\r\r\r\r\n\rshould venture down the stairs or not.  To the distant north you see some\r\r\r\r\n\rpay phones and a bathroom.  The hall continues to the north and south.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5915
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5933
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5913
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5915,
+            "Zone": 59,
+            "Name": "A Hall in the Court House",
+            "Description": "You are standing in the middle of a hall that runs parallel to the court\r\r\r\r\n\rroom.  As you walk down the hall, you notice a gorgeous painting on the\r\r\r\r\n\rwall.  Upon inspection of the painting, though, you realize that it is\r\r\r\r\n\rnot a painting at all but a cheap replica.  The hall continues south and\r\r\r\r\n\rnorth.  To the distant north you see a bathroom and some phones, while to\r\r\r\r\n\rthe south you see some stairs.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5916
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5914
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5916,
+            "Zone": 59,
+            "Name": "A Hall in the Court House",
+            "Description": "You are standing in the middle of the hall that parallels the court room.\r\r\r\r\n\rThe commotion seems to be getting louder as you go north.  Sheesh, it\r\r\r\r\n\rsounds like someone is yelling.  The hall continues to the north and to the\r\r\r\r\n\rsouth.  In the distant south you can see some stairs, while to the north\r\r\r\r\n\ryou see a bathroom and some public pay phones.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5917
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5915
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5917,
+            "Zone": 59,
+            "Name": "A Hall in the Court House",
+            "Description": "You are standing in the middle of the hall that runs parallel to the court\r\r\r\r\n\rroom.  There is a lot of commotion here for some reason.  Apparently Bull\r\r\r\r\n\rstill hasn't found the criminal that he lost.  To the east you see a men's\r\r\r\r\n\rbathroom, while the hall continues to the north and south.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5918
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5928
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5916
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5918,
+            "Zone": 59,
+            "Name": "A Bend in the Hall",
+            "Description": "You are standing in the middle of the hall which turns west and south.\r\r\r\r\n\rThere is a cute little boy here that is shining peoples' shoes.  As he\r\r\r\r\n\rnotices you, he asks you if you want your shoes shined.  You decide to\r\r\r\r\n\rhave him shine your shoes, and then realize that they haven't looked \r\r\r\r\n\rthis shiny in a long time.  There are pay phones to the east, while the\r\r\r\r\n\rhall continues to the west and south.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5927
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5917
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5919
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5919,
+            "Zone": 59,
+            "Name": "A Hall Behind the Court Room",
+            "Description": "You are standing in the middle of the hall behind the court room.  You\r\r\r\r\n\rhear some moaning coming from the west.  What could be making that noise?\r\r\r\r\n\rTo the east you see a boy shining shoes, and to the distant east you see\r\r\r\r\n\rsome pay phones.  The hall continues to the east and west.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5918
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5920
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5920,
+            "Zone": 59,
+            "Name": "A Hall Behind the Court Room",
+            "Description": "You are standing in the middle of a hall behind the court room.  As you\r\r\r\r\n\rare standing here, you hear some strange noises coming from the closet\r\r\r\r\n\rnorth of you.  Wow, someone in the closet just screamed.  You wonder if\r\r\r\r\n\rit is safe to venture north.  South of you is an aisle leading into\r\r\r\r\n\rthe court room, while the hall continues to the east and west.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5926
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5919
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5921
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5921,
+            "Zone": 59,
+            "Name": "A Hall Behind the Court Room",
+            "Description": "You are standing in the middle of the hall behind the court room.  There\r\r\r\r\n\ris a bench here, as well as an ash tray.  It seems to be busy in the\r\r\r\r\n\rhall for some reason.  Court is probably in recess for a few minutes.\r\r\r\r\n\rYou can go east or west in the hallway.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5920
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5922
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5922,
+            "Zone": 59,
+            "Name": "A Hall Behind the Court Room",
+            "Description": "You are standing in the middle of the hall behind the court room.  The\r\r\r\r\n\rhall seems quite busy right now for some reason.  As you glance south,\r\r\r\r\n\ryou notice Mac's desk and distantly you see the rest of the court room.\r\r\r\r\n\rThe hall continues to the east, while to the west you see Harry's office.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5921
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5956
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5923
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5923,
+            "Zone": 59,
+            "Name": "The Hall Outside Harry's Office",
+            "Description": "You are standing in the middle of the hall behind the court room.  The\r\r\r\r\n\rhall seems to end here at Harry's office door for some reason.  Strange,\r\r\r\r\n\rHarry's door is open.  You look into his room, and you cannot see him.\r\r\r\r\n\rBut, you do see a safe sitting in the middle of the floor.  You can go\r\r\r\r\n\rnorth into Harry's office or return east into the hall.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5924
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5922
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5924,
+            "Zone": 59,
+            "Name": "Harry's Office",
+            "Description": "Upon entering Harry's office, you are overwhelmed by his awesome decorating\r\r\r\r\n\rabilities. On the wall above his desk is a framed picture of Marilyn\r\r\r\r\n\rMonroe, and on the stand next to his desk is a picture of Mel Torme.  You\r\r\r\r\n\rsit down on his big, comfortable leather couch as you glance around the\r\r\r\r\n\rrest of the room.  Harry has an armadillo on his book shelves and a \r\r\r\r\n\rcomputer on his desk, neither of which a proper judge can be without.  You\r\r\r\r\n\rmake a mental note to yourself to ask Harry who his decorator is.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5925
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5923
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "computer"
+                    ],
+                    "Description": "The computer is Harry's only downfall that is evident in the room.  He\r\r\r\r\n\rbought a *gasp* Mac!  Well, at least he has training wheels if he ever\r\r\r\r\n\rneeds them...  You start to wonder if _this_ is the kind of things\r\r\r\r\n\rthat the taxpayers' money is being squandered on.\r\r\r\r\n\r"
+                },
+                {
+                    "Keywords": [
+                        "armadillo"
+                    ],
+                    "Description": "This stuffed armadillo is one of Harry's most prized possessions.  You\r\r\r\r\n\rbetter not misplace it, or there will be h*ll to pay when Harry finds\r\r\r\r\n\rout about it.  Hmm, it _is_ cute, isn't it...\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 5925,
+            "Zone": 59,
+            "Name": "Inside Harry's Safe",
+            "Description": "You have entered Harry's safe.  It looks like another one of Harry's tricks\r\r\r\r\n\rhas gone awry.  It's a good thing that you opened the safe when you did,\r\r\r\r\n\rbecause Harry was running out of air.  As you are standing here, the safe\r\r\r\r\n\rdoor slams shut.  Wait!  Where is that slight breeze coming from?  Hopefully\r\r\r\r\n\ryou can find out where the secret is hidden.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS",
+                "NOMAGIC",
+                "NOTELEPORT",
+                "NOQUIT"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "The safe door appears to be extremely sturdy.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "safe",
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "PICKPROOF"
+                    ],
+                    "KeyID": 5924,
+                    "Destination": 5924
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "secret"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": 5924,
+                    "Destination": 5924
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5926,
+            "Zone": 59,
+            "Name": "Hall Closet",
+            "Description": "This is the closet that Dan Fielding usually goes to during recesses in\r\r\r\r\n\rcourt and during his lunch hour.  Looking around, you get the feeling that\r\r\r\r\n\rthis closet is used quite a lot.  Dan apparently brings his many girls\r\r\r\r\n\rhere for a quickie, because you see some of his toys lying about.\r\r\r\r\n\r",
+            "Bits": [
+                "DARK",
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5920
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5927,
+            "Zone": 59,
+            "Name": "Pay Phones",
+            "Description": "These pay phones are here for the use of the public.  Upon looking at the\r\r\r\r\n\rwall, you notice a phone number and the following message: \"For a great\r\r\r\r\n\rtime, call Dan at 555-1212.\"  As you look closer, you realize that Dan\r\r\r\r\n\rwas the one that wrote that message!  Apparently he is more desperate\r\r\r\r\n\rthan we had thought.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5918
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "phone",
+                        "phones"
+                    ],
+                    "Description": "The phones appear to be broken.  It looks as if someone put some gum in\r\r\r\r\n\rthe coin slots.  How gross!\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 5928,
+            "Zone": 59,
+            "Name": "Men's Bathroom",
+            "Description": "Upon entering this bathroom, you notice that it is just like every other\r\r\r\r\n\rpublic bathroom that you have been in.  Along one wall are some urinals.\r\r\r\r\n\rThere are some stalls along another wall, while on the third wall there\r\r\r\r\n\rare some sinks with a few mirrors.  The walls are also painted in that\r\r\r\r\n\rwonderful institution blue color that everyone loves so much.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5917
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "urinal",
+                        "urinals"
+                    ],
+                    "Description": "The urinals are very dirty-looking, so I would not advise you to use one.\r\r\r\r\n\rThere also seems to be a man handcuffed to the one urinal.  Hmm, I wonder\r\r\r\r\n\rhow he got here!\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 5929,
+            "Zone": 59,
+            "Name": "Holding Cell",
+            "Description": "You are standing in a 5' X 5' room.  There are no windows, and there is\r\r\r\r\n\ra huge steel door blocking your way out of here.  As you glance around\r\r\r\r\n\ryour \"new home,\" you see some dirty old cots with gross-looking stains \r\r\r\r\n\ron them.  There is also a smelly stained toilet, which reassures you\r\r\r\r\n\reven less.  Upon closer inspection, you notice that the water coming\r\r\r\r\n\rout of the sink is brown.  You better hope you get out of here soon!\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The steel door leads back into the hallway.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5931
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5930,
+            "Zone": 59,
+            "Name": "Holding Cell",
+            "Description": "You are standing in a 5' X 5' room.  There are no windows, and there is\r\r\r\r\n\ra huge steel door blocking your way out of here.  As you glance around\r\r\r\r\n\ryour \"new home,\" you see some dirty old cots with gross-looking stains \r\r\r\r\n\ron them.  There is also a smelly stained toilet, which reassures you\r\r\r\r\n\reven less.  Upon closer inspection, you notice that the water coming\r\r\r\r\n\rout of the sink is brown.  You better hope you get out of here soon!\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "The steel door leads back into the hallway.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5932
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5931,
+            "Zone": 59,
+            "Name": "Outside the Cells",
+            "Description": "You are standing outside one of the holding cells.  As you look west, you\r\r\r\r\n\rnotice someone in the cell.  They appear to be dressed as an elf.  Isn't\r\r\r\r\n\rHalloween over already?  You can go south or enter the cell to the west.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5932
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a steel door, which opens into a holding cell.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5929
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5932,
+            "Zone": 59,
+            "Name": "Outside the Cells",
+            "Description": "You are standing outside one of the holding cells.  As you look west, you\r\r\r\r\n\rnotice someone in the cell.  They appear to be dressed as an elf.  Isn't\r\r\r\r\n\rHalloween over already?  You can go back up the stairs, enter the cell to\r\r\r\r\n\rthe west, or go north towards another holding cell.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5931
+                },
+                {
+                    "Direction": "West",
+                    "Description": "You see a steel door, which opens into a holding cell.\r\r\r\r\n\r",
+                    "Keywords": [
+                        "door"
+                    ],
+                    "DoorFlags": [
+                        "NORMAL"
+                    ],
+                    "KeyID": -1,
+                    "Destination": 5930
+                },
+                {
+                    "Direction": "Up",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5933
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5933,
+            "Zone": 59,
+            "Name": "Stairs",
+            "Description": "These stais lead down to a place where few want to venture... the holding\r\r\r\r\n\rcells! As you descend to the cells, you hear a lot of commotion coming\r\r\r\r\n\rup the stairs.  You hear some wolf-whistles, and it sounds like someone is\r\r\r\r\n\rbanging something against the cell door.  Be careful if you venture further\r\r\r\r\n\rdown, because the people down there are not the most reputable people.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5914
+                },
+                {
+                    "Direction": "Down",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5932
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5934,
+            "Zone": 59,
+            "Name": "The Back of the Cafeteria",
+            "Description": "Here is where the cooks prepare the oh-so-delicious food that is usually\r\r\r\r\n\rfound in the cafeteria.  As you are standing here, you smell something\r\r\r\r\n\rpretty raunchy.  Hmm, could it be the meatloaf left over from last week?\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5935
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5935,
+            "Zone": 59,
+            "Name": "Cafeteria",
+            "Description": "In the middle of the room is a salad bar and the cash register.  The cake\r\r\r\r\n\ron the dessert tray has an imprint in it that suspiciously looks as if\r\r\r\r\n\rsomeone's face was smashed into it.  There are also a few tables here\r\r\r\r\n\rwhere you can sit and have some coffee.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5934
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5936
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5936,
+            "Zone": 59,
+            "Name": "Cafeteria",
+            "Description": "This cafeteria seems to be like the typical public cafeteria.  You notice\r\r\r\r\n\rmany people sitting here, just drinking coffee.  There is also a little\r\r\r\r\n\rnews stand here, which is run by Jack.  He seems to have everything\r\r\r\r\n\rfrom a roll of Tums to the latest issue of Cosmo.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5909
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5935
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5937,
+            "Zone": 59,
+            "Name": "The Peanut Gallery",
+            "Description": "A few people are sitting on the wooden benches here.  As you sit down\r\r\r\r\n\rwith them for a few minutes, you realize that the benches are extremely\r\r\r\r\n\runcomfortable. There also seems to be some graffiti on the benches.\r\r\r\r\n\rHow rude!  You wonder how people can sit here for a few hours at a time.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5938
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5938,
+            "Zone": 59,
+            "Name": "The Peanut Gallery",
+            "Description": "A few people are sitting on the wooden benches here.  As you sit down\r\r\r\r\n\rwith them for a few minutes, you realize that the benches are extremely\r\r\r\r\n\runcomfortable. There also seems to be some graffiti on the benches.\r\r\r\r\n\rHow rude!  You wonder how people can sit here for a few hours at a time.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5939
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5937
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5939,
+            "Zone": 59,
+            "Name": "An Aisle in the Court Room",
+            "Description": "This aisle leads to the front of the court room. To the east and west of you\r\r\r\r\n\rare some wooden benches. There is a lot of noise coming from the east and\r\r\r\r\n\rwest. Maybe you should go investigate. Try not to fall on the... whatever\r\r\r\r\n\rit is... in the middle of the aisle.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5944
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5940
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5906
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5938
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5940,
+            "Zone": 59,
+            "Name": "The Peanut Gallery",
+            "Description": "A few people are sitting on the wooden benches here.  As you sit down\r\r\r\r\n\rwith them for a few minutes, you realize that the benches are extremely\r\r\r\r\n\runcomfortable. There also seems to be some graffiti on the benches.\r\r\r\r\n\rHow rude!  You wonder how people can sit here for a few hours at a time.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5941
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5939
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5941,
+            "Zone": 59,
+            "Name": "The Peanut Gallery",
+            "Description": "A few people are sitting on the wooden benches here.  As you sit down\r\r\r\r\n\rwith them for a few minutes, you realize that the benches are extremely\r\r\r\r\n\runcomfortable. There also seems to be some graffiti on the benches.\r\r\r\r\n\rHow rude!  You wonder how people can sit here for a few hours at a time.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5940
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5942,
+            "Zone": 59,
+            "Name": "The Peanut Gallery",
+            "Description": "A few people are sitting on the wooden benches here.  As you sit down\r\r\r\r\n\rwith them for a few minutes, you realize that the benches are extremely\r\r\r\r\n\runcomfortable. There also seems to be some graffiti on the benches.\r\r\r\r\n\rHow rude!  You wonder how people can sit here for a few hours at a time.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5943
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5943,
+            "Zone": 59,
+            "Name": "The Peanut Gallery",
+            "Description": "A few people are sitting on the wooden benches here.  As you sit down\r\r\r\r\n\rwith them for a few minutes, you realize that the benches are extremely\r\r\r\r\n\runcomfortable. There also seems to be some graffiti on the benches.\r\r\r\r\n\rHow rude!  You wonder how people can sit here for a few hours at a time.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5944
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5942
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5944,
+            "Zone": 59,
+            "Name": "An Aisle in the Court Room",
+            "Description": "The aisle continues north to the front of the court room.  To the east and\r\r\r\r\n\rwest of you are some wooden benches.  There is a lot of noise coming from\r\r\r\r\n\rthe east and west.  Maybe you should go investigate.  Try not to fall on\r\r\r\r\n\rthe stuff in the middle of the aisle.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5948
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5945
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5939
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5943
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "stuff",
+                        "middle"
+                    ],
+                    "Description": "This pile of... stuff... in the middle of the aisle contails some gross\r\r\r\r\n\roddities that make you want to puke.  The stench from the pile makes\r\r\r\r\n\ryou want to high-tail it out of here.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 5945,
+            "Zone": 59,
+            "Name": "The Peanut Gallery",
+            "Description": "A few people are sitting on the wooden benches here.  As you sit down\r\r\r\r\n\rwith them for a few minutes, you realize that the benches are extremely\r\r\r\r\n\runcomfortable. There also seems to be some graffiti on the benches.\r\r\r\r\n\rHow rude!  You wonder how people can sit here for a few hours at a time.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5946
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5944
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5946,
+            "Zone": 59,
+            "Name": "The Peanut Gallery",
+            "Description": "A few people are sitting on the wooden benches here.  As you sit down\r\r\r\r\n\rwith them for a few minutes, you realize that the benches are extremely\r\r\r\r\n\runcomfortable. There also seems to be some graffiti on the benches.\r\r\r\r\n\rHow rude!  You wonder how people can sit here for a few hours at a time.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5945
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5947,
+            "Zone": 59,
+            "Name": "Christine's Desk",
+            "Description": "This is Christine Sullivan's desk while she is at court.  Her desk is \r\r\r\r\n\rextremely neat, which comes as no surprise to you.  Her desk has been \r\r\r\r\n\rpolished recently, and you can actually see your reflection on it.\r\r\r\r\n\rSheesh, talk about being anal!\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5948
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5948,
+            "Zone": 59,
+            "Name": "An Aisle Between the Desks",
+            "Description": "You are in the aisle between Christine Sullivan's and Dan Fielding's desks.\r\r\r\r\n\rTo the distant north is Harry's Bench.  Strange, but Harry looks younger\r\r\r\r\n\rthan you thought he would.  You can go south to the Peanut Gallery, east\r\r\r\r\n\rto Dan's Desk, west to Christine's Desk, or north towards the bench.  \r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5951
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5949
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5944
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5947
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5949,
+            "Zone": 59,
+            "Name": "Dan's Desk",
+            "Description": "This is Dan Fielding's desk while he is at court.  His desk has papers all\r\r\r\r\n\rover it, which makes you wonder how he can ever find anything.  Upon closer\r\r\r\r\n\rinspection, you notice a few of Dan's most prized possessions lying on\r\r\r\r\n\rhis desk.  Apparently he is planning on using them later tonight...\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5948
+                }
+            ],
+            "ExtraDescs": [
+                {
+                    "Keywords": [
+                        "prized",
+                        "possessions",
+                        "toys"
+                    ],
+                    "Description": "You notice some handcuffs, leather restraints, blindfolds, a whip of some\r\r\r\r\n\rsort, whipped cream, a few different oils, and some other objects which\r\r\r\r\n\rmake you shudder with anticipation.\r\r\r\r\n\r"
+                }
+            ]
+        },
+        {
+            "ID": 5950,
+            "Zone": 59,
+            "Name": "An Aisle in front of Christine's Desk",
+            "Description": "Directly behind you is Christine's desk.  That's strange, the smell of Lemon\r\r\r\r\n\rPledge is drifting from the south.  To the north is Mac's desk, while to \r\r\r\r\n\rthe distant north you can see the hall behind the court room.  The aisle also\r\r\r\r\n\rcontinues to the east.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5953
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5951
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5951,
+            "Zone": 59,
+            "Name": "An Aisle in the Middle of the Court Room",
+            "Description": "You are standing in the aisle in the middle of the court room.  To the \r\r\r\r\n\rdistant north is Harry's bench, while to the distant south you can see\r\r\r\r\n\rthe Peanut Gallery.  Somewhat to the east you can see the court\r\r\r\r\n\rstenographer, and somewhat to the west you can see Mac's desk.  The \r\r\r\r\n\raisle continues to the east and west.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5954
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5952
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5948
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5950
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5952,
+            "Zone": 59,
+            "Name": "An Aisle in Front of Dan's Desk",
+            "Description": "You are standing in front of Dan Fielding's desk.  To the north you can\r\r\r\r\n\rsee the court stenographer, while to the direct north you can see the\r\r\r\r\n\rhall behind the court room.  As you glance behind you, you see Dan\r\r\r\r\n\rstripping you naked with his eyes.  What a pervert!  The aisle continues\r\r\r\r\n\rto the west.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5955
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5951
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5953,
+            "Zone": 59,
+            "Name": "An Aisle Leading to the Hall",
+            "Description": "You are standing in an aisle that leads to the hall.  Directly to the north\r\r\r\r\n\ryou see Mac Robinson's desk, while to the distant north you see people\r\r\r\r\n\rmoving around in the hall behind the court room.  As you are standing here,\r\r\r\r\n\ryou admire the nice wax job that Art did on the floor.  Just make sure\r\r\r\r\n\ryou don't fall.  The continues to the east.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5956
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5954
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5950
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5954,
+            "Zone": 59,
+            "Name": "Before the Bench",
+            "Description": "You are standing before the bench.  You see a Harry look-alike sitting in\r\r\r\r\n\rHarry's chair to the north.  To the south you see the aisle that leads \r\r\r\r\n\rto the back of the court room.  To the east is the court stenographer,\r\r\r\r\n\rLisette Hocheiser.  The aisle continues to the west.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5955
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5951
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5953
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5955,
+            "Zone": 59,
+            "Name": "Court Stenographer",
+            "Description": "You are standing where the court stenographer, Lisette Hocheiser, usually\r\r\r\r\n\rsits. The only objects here are a chair and a big pack of bubble gum \r\r\r\r\n\r(strawberry flavored, of course).  To the east you can see the jury box,\r\r\r\r\n\rwhile to the distant north you can see the hall behind the court room. \r\r\r\r\n\rThe aisle continues to the west.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5958
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5959
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5952
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5954
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5956,
+            "Zone": 59,
+            "Name": "Mac's Desk",
+            "Description": "Mac's desk seems to be somewhat cluttered, because it contains most of \r\r\r\r\n\rthe files for tonight's cases.  As you glance at the pile, you notice\r\r\r\r\n\rthat some of the people seem to have a high recidivism rate because their\r\r\r\r\n\rfiles are a few inches thick.  Yikes!  Even though there is a lot of stuff\r\r\r\r\n\ron Mac's desk, he always seems to know where everything is.  Harry's bench\r\r\r\r\n\ris to the east, the hall is to the north, and to the south is an aisle.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5922
+                },
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5957
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5953
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5957,
+            "Zone": 59,
+            "Name": "Harry's Bench",
+            "Description": "You are standing behind the bench that Judge Harold T. Stone sits at when\r\r\r\r\n\rManhattan Criminal Court is in session.  His desk is pretty neat, and has\r\r\r\r\n\rthe normal stuff that a judge has, such as a gavel and a gavel cozy.  You\r\r\r\r\n\ralso notice some of Harry's practical joke props, such as his rubber chicken\r\r\r\r\n\rand his hand buzzer.  Strange, there is a Harry look-alike sitting here.\r\r\r\r\n\rYou can go west towards Mac's desk or east to an aisle.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "East",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5958
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5956
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5958,
+            "Zone": 59,
+            "Name": "An Aisle Leading into the Hall",
+            "Description": "You are standing in the middle of an aisle that leads into the hall.  The\r\r\r\r\n\rfloors are very shiny, as if Art has recently waxed them.  To the west is \r\r\r\r\n\rHarry's bench, while to the south is where the court stenographer sits.\r\r\r\r\n\rTo the distant north, you see a closet door.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5920
+                },
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5955
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5957
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5959,
+            "Zone": 59,
+            "Name": "Jury Box",
+            "Description": "Since there is no jury in this criminal court, criminals sometimes wait\r\r\r\r\n\rhere until they are ready to be transported.  As you look around, you\r\r\r\r\n\rnotice that this part of the court room is pretty messy.  There are \r\r\r\r\n\rcigarette butts thrown around haphazardly, probably by Selma.\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "South",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5960
+                },
+                {
+                    "Direction": "West",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5955
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5960,
+            "Zone": 59,
+            "Name": "Jury Box",
+            "Description": "Since there is no jury in this criminal court, criminals sometimes wait\r\r\r\r\n\rhere until they are ready to be transported.  As you look around, you\r\r\r\r\n\rnotice that this part of the court room is pretty messy.  There are \r\r\r\r\n\rcigarette butts thrown around haphazardly, and there are also a few candy\r\r\r\r\n\rbar wrappers.  Looks like Roz is cheating on her diet again...\r\r\r\r\n\r",
+            "Bits": [
+                "INDOORS"
+            ],
+            "Sector": "INSIDE",
+            "Exits": [
+                {
+                    "Direction": "North",
+                    "Description": "",
+                    "Keywords": [],
+                    "DoorFlags": null,
+                    "KeyID": -1,
+                    "Destination": 5959
+                }
+            ],
+            "ExtraDescs": null
+        },
+        {
+            "ID": 5999,
+            "Zone": 59,
+            "Name": "",
+            "Description": "",
+            "Bits": [],
+            "Sector": "INSIDE",
+            "Exits": null,
+            "ExtraDescs": null
+        }
+    ]
+}

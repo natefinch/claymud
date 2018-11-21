@@ -25,11 +25,10 @@ func FindPlayer(name string) (*Player, bool) {
 
 // Initialize spawns the zones and their attendant workers, creates all areas
 // and locations.
-func Initialize(zoneLock sync.Locker, shutdown <-chan struct{}, wg *sync.WaitGroup) error {
+func Initialize(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, wg *sync.WaitGroup) error {
 	if err := loadLocTempl(); err != nil {
 		return err
 	}
 
-	genWorld(zoneLock, shutdown, wg)
-	return nil
+	return genWorld(datadir, zoneLock, shutdown, wg)
 }

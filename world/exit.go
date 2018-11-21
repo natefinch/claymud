@@ -7,6 +7,7 @@ import (
 // Exit is a direction that connects to a location.
 type Exit struct {
 	config.Direction
+	Desc        string
 	Destination *Location
 }
 
