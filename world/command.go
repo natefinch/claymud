@@ -67,7 +67,8 @@ func (c *Command) Handle() {
 	case "help", "?":
 		c.help()
 	case "quit":
-		c.Loc.Handle(c.Actor.handleQuit)
+		// this must be done on the same goroutine.
+		c.Actor.handleQuit()
 	case "":
 		c.Actor.reprompt()
 	default:

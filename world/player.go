@@ -36,7 +36,6 @@ type User struct {
 	IP       net.Addr
 	Username string
 	writer   util.SafeWriter
-	closer   io.Closer
 	rwc      io.ReadWriteCloser
 	*bufio.Scanner
 }
@@ -52,6 +51,7 @@ type Player struct {
 	global  *game.Worker
 	*User
 	needsLF bool
+	exiting bool
 }
 
 // Attaches the connection to a player and inserts it into the world.  This
@@ -195,7 +195,7 @@ func (p *Player) exit(err error) {
 	} else {
 		log.Printf("EXIT: Removing user %v from world.", p)
 	}
-	p.global.Handle(func() { removePlayer(p) })
+	p.exiting = true
 }
 
 // Gender returns the player's gender.
@@ -222,6 +222,14 @@ func (p *Player) readLoop() (err error) {
 		// The user entered a command, so by definition has hit enter.
 		p.needsLF = false
 		p.handleCmd(p.Text())
+		if p.exiting {
+			p.HandleGlobal(func() {
+				p.loc.RemovePlayer(p)
+				removePlayer(p)
+			})
+			p.rwc.Close()
+			break
+		}
 	}
 	return p.Err()
 }
@@ -265,7 +273,7 @@ func (p *Player) handleQuit() {
 }
 
 // handleCmd converts tokens from the user into a Command object, and attempts
-// to handle it.
+// to handle it.  It reports whether the readloop should exit
 func (p *Player) handleCmd(s string) {
 	cmd := Command{Actor: p, Cmd: strings.Fields(s), Loc: p.loc}
 	cmd.Handle()
