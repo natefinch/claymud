@@ -36,7 +36,7 @@ func Start() *Location {
 }
 
 func genWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, wg *sync.WaitGroup) error {
-	log.Printf("Generating zones from %v", filepath.Join(datadir, "zones"))
+	log.Printf("loading zones from %v", filepath.Join(datadir, "zones"))
 	files, err := filepath.Glob(filepath.Join(datadir, "zones", "*.json"))
 	if err != nil {
 		return fmt.Errorf("failed to read zone files: %v", err)
@@ -60,7 +60,7 @@ func genWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, wg
 	}
 	log.Printf("loaded %v zones", len(files))
 
-	log.Printf("Generating rooms from %v", filepath.Join(datadir, "rooms"))
+	log.Printf("loading rooms from %v", filepath.Join(datadir, "rooms"))
 	files, err = filepath.Glob(filepath.Join(datadir, "rooms", "*.json"))
 	if err != nil {
 		return fmt.Errorf("failed to read room files: %v", err)
@@ -82,15 +82,10 @@ func genWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, wg
 	}
 	log.Printf("found %v rooms", count)
 
-	log.Println("number of jsonrooms: ", len(jsonRooms))
-
 	// ok, now that we've loaded all the room definitions, we have to go back
 	// and hook up all the exits. We have to do this afterward because an exit
 	// might refer to a location that hasn't been loaded yet.
 	for _, r := range jsonRooms {
-		if r.ID == 9500 {
-			log.Println("loading room 9500")
-		}
 		loc, exists := locMap[util.Id(r.ID)]
 		if !exists {
 			return fmt.Errorf("should be impossible, jsonRoom refers to unknown location %v", r.ID)
