@@ -1,0 +1,101 @@
+# This is an example social configuration file.  For those that know what it
+# means, it is written in TOML. If you don't know what that means, don't worry,
+# it's easy to figure out.
+# 
+# Each social starts with the section header [[social]].  Under that you define
+# the social's name.  Note that names must be unique.
+# 
+# Below that, there are three sub-sections, which may exist in any order. Each
+# section defines the behavior of the social when it is used in a particular way.
+# 
+# ToSelf is what happens when you use an social targetted at yourself. 
+# For example, "smile <myname>"
+# 
+# ToNoOne is what happens when you use an social without a target.
+# For example "smile"
+# 
+# ToOther is what happens when you use an social with a target that is not you.
+# For example "smile Bob".  In this case, the target would be Bob.
+#
+# If you leave out a sub-section, you effectively disable using the social in
+# that way, and if someone tries to use the social in that way, they will get a
+# message like "You cannot do that."  This is useful for socials that don't make
+# sense in certain circumstances.
+#
+# Each section has values which are templates for the text that will be output
+# to people in the same location as the person performing the social.
+#
+# self   - The text to output to the person performing the social.
+# target - The text to output to the person who was the target of the social. 
+#          (only applicable in the ToOther section)
+# around - The text to output to everyone else in the room. 
+#          (not including the person performing the action, or the target if 
+#          there is one)
+#
+# There are a few special fields that you can put into social text, which will be
+# filled out with data from the game, all are enclosed in double squiggly
+# braces and start with a period, for example: {{.Actor.Name}}.  Note that these are 
+# case sensitive.
+#
+# Actor  - The name of the person performing the social.
+# Target - The name of the target of the social.
+#          (this value is only usable in the ToOther section).
+# Xself  - "himself", "herself", or "itself" 
+#          (depending on the gender of the person performing the social)
+#
+
+# arrival defines what it looks like when a player is added to the world at the
+# starting location.  It uses the social structure, but is by definition an social
+# ToNoOne, so you only need to define "self" and "around".
+[arrival]
+self = ".\n.\n.\n.\nYou arrive in a puff of smoke."
+around = "{{.Actor.Name}} arrives in a puff of smoke."
+
+[[social]]
+name = "smile"
+
+[social.toSelf]
+self = "You smile to yourself."
+around = "{{.Actor.Name}} smiles to {{.Actor.Gender.Xself}}."
+
+[social.toNoOne]
+self = "You smile."
+around = "{{.Actor.Name}} smiles."
+
+[social.toOther]
+self = "You smile at {{.Target.Name}}."
+target = "{{.Actor.Name}} smiles at you."
+around = "{{.Actor.Name}} smiles at {{.Target.Name}}."
+
+[[social]]
+name = "evil"
+
+[social.toSelf]
+self = "You grin evilly to yourself."
+around = "{{.Actor.Name}} grins evilly to {{.Actor.Gender.Xself}}."
+
+[social.toNoOne]
+self = "You grin evilly."
+around = "{{.Actor.Name}} grins evilly."
+
+[social.toOther]
+self = "You grin evilly at {{.Target.Name}}."
+target = "{{.Actor.Name}} grins evilly at you."
+around = "{{.Actor.Name}} grins evilly at {{.Target.Name}}."
+
+
+[[social]]
+name = "jump"
+
+# note there is no ToSelf section, since jumping yourself doesn't really make 
+# sense, so if you do "jump <myname>" you will get a message like "You cannot 
+# do that."  
+
+[social.toNoOne]
+self = "You jump around like a crazy person."
+around = "{{.Actor.Name}} jumps around like a crazy person."
+
+[social.toOther]
+self = "You jump {{.Target.Name}}."
+target = "{{.Actor.Name}} jumps you."
+around = "{{.Actor.Name}} jumps {{.Target.Name}}."

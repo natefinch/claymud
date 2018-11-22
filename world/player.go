@@ -9,7 +9,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/natefinch/claymud/game/emote"
+	"github.com/natefinch/claymud/game/social"
 
 	"github.com/natefinch/claymud/game"
 	"github.com/natefinch/claymud/game/gender"
@@ -90,7 +90,7 @@ func SpawnPlayer(rwc io.ReadWriteCloser, user *User, global *game.Worker) {
 				others = append(others, other)
 			}
 		}
-		emote.DoArrival(p, io.MultiWriter(others...))
+		social.DoArrival(p, io.MultiWriter(others...))
 		p.WriteString("\n\n")
 		loc.ShowRoom(p)
 	})

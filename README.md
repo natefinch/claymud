@@ -10,7 +10,7 @@ very likely to introduce bugs, it also restricts MUDs to be run by people who
 know how to code.
 
 ClayMUD is intended to be fully configurable through text files - everything
-from the name of the MUD, to what emotes are available, to how ability scores
+from the name of the MUD, to what socials are available, to how ability scores
 and powers work, so that anyone can create their own unique game.
 
 
@@ -18,7 +18,7 @@ Status
 -----------
 
 The game is functioning to the point where you can connect and walk around,
-talk, and emote.  You can configure the emotes and the pronouns used for gender
+talk, and social.  You can configure the socials and the pronouns used for gender
 (e.g. he his her).
 
 

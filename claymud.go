@@ -17,8 +17,8 @@ import (
 	"github.com/natefinch/claymud/auth"
 	"github.com/natefinch/claymud/config"
 	"github.com/natefinch/claymud/db"
-	"github.com/natefinch/claymud/game/emote"
 	"github.com/natefinch/claymud/game/gender"
+	"github.com/natefinch/claymud/game/social"
 	"github.com/natefinch/claymud/world"
 )
 
@@ -48,7 +48,7 @@ func Main() error {
 	if err := gender.Initialize(dir); err != nil {
 		return err
 	}
-	if err := emote.Initialize(dir); err != nil {
+	if err := social.Initialize(dir); err != nil {
 		return err
 	}
 	if err := auth.Initialize(dir); err != nil {

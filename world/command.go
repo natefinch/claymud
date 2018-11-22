@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/natefinch/claymud/config"
-	"github.com/natefinch/claymud/game/emote"
+	"github.com/natefinch/claymud/game/social"
 )
 
 // Represents a command sent by a player
@@ -50,8 +50,8 @@ func (c *Command) Handle() {
 
 	// order is important here, since earlier parsing overrides later
 	// exits should always override anything else
-	// emotes are least important (so if you configure an emote named "north" you won't
-	// prevent yourc from going north... your emote just won't work
+	// socials are least important (so if you configure an social named "north" you won't
+	// prevent yourc from going north... your social just won't work
 
 	if c.handleExit() {
 		return
@@ -71,7 +71,7 @@ func (c *Command) Handle() {
 	case "":
 		c.Actor.reprompt()
 	default:
-		if !c.handleEmote() {
+		if !c.handleSocial() {
 			c.Actor.HandleLocal(func() {
 				c.Actor.WriteString(`"` + c.Action() + `"` + " is not a valid command.")
 			})
@@ -98,10 +98,10 @@ func (c *Command) handleExit() (handled bool) {
 	return true
 }
 
-// handleEmote checks if the command is an existing emote, and if so, handles
+// handleSocial checks if the command is an existing social, and if so, handles
 // it.
-func (c *Command) handleEmote() (handled bool) {
-	if !emote.Exists(c.Action()) {
+func (c *Command) handleSocial() (handled bool) {
+	if !social.Exists(c.Action()) {
 		return false
 	}
 	c.Actor.HandleLocal(func() {
@@ -112,11 +112,11 @@ func (c *Command) handleEmote() (handled bool) {
 				others = append(others, p)
 			}
 		}
-		var t emote.Person
+		var t social.Person
 		if target != nil {
 			t = target
 		}
-		emote.Perform(c.Action(), c.Actor, t, io.MultiWriter(others...))
+		social.Perform(c.Action(), c.Actor, t, io.MultiWriter(others...))
 	})
 	return true
 }
@@ -184,8 +184,8 @@ func (c *Command) help() {
 		lines = append(lines, fmt.Sprintf("%v, %v", dir.Name, strings.Join(dir.Aliases, ", ")))
 	}
 	lines = append(lines, "")
-	lines = append(lines, "-- Emotes --")
-	lines = append(lines, emote.Names...)
+	lines = append(lines, "-- Socials --")
+	lines = append(lines, social.Names...)
 	c.Actor.Printf(strings.Join(lines, "\r\n"))
 }
 
