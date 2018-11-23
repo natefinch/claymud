@@ -27,9 +27,9 @@ func (e Exits) Less(i, j int) bool {
 	return e[i].ID < e[j].ID
 }
 
-// Returns the room that exists in the given direction.  Returns valid == false
-// if the alias is not a valid direction alias. Returns dest == nil if there's
-// no exit in that direction.
+// Find returns the room that exists in the given direction.  Returns valid == false if
+// the alias is not a valid direction alias. Returns dest == nil if there's no exit in
+// that direction.
 func (e Exits) Find(alias string) (valid bool, dest *Location) {
 	dir, found := game.FindDirection(alias)
 	if !found {

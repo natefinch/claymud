@@ -17,7 +17,8 @@ import (
 )
 
 var (
-	TimeoutError = errors.New("Player timed out")
+	// ErrTimeout is returned when a player times out.
+	ErrTimeout = errors.New("Player timed out")
 )
 
 var ids = make(chan util.Id)
@@ -68,6 +69,7 @@ func FindPlayer(name string) (*Player, bool) {
 	return p, ok
 }
 
+// A User is an account with a login.
 type User struct {
 	IP       net.Addr
 	Username string
@@ -89,7 +91,7 @@ type Player struct {
 	exiting bool
 }
 
-// Attaches the connection to a player and inserts it into the world.  This
+// SpawnPlayer attaches the connection to a player and inserts it into the world.  This
 // function runs for as long as the player is in the world.
 func SpawnPlayer(rwc io.ReadWriteCloser, user *User, global *game.Worker) {
 	id := <-ids
@@ -147,7 +149,7 @@ func (p *Player) maybeNewline() {
 	}
 }
 
-// Write implements io.Writer.  It will never return an error.
+// WriteString implements io.StringWriter.  It will never return an error.
 func (p *Player) WriteString(s string) (int, error) {
 	p.maybeNewline()
 	io.WriteString(p.writer, s)
@@ -285,7 +287,7 @@ func (p *Player) reprompt() {
 // timeout times the player out of the world.
 func (p *Player) timeout() {
 	p.WriteString("You have timed out... good bye!")
-	p.exit(TimeoutError)
+	p.exit(ErrTimeout)
 }
 
 // handleQuit asks the user if they really want to quit, and if they say yes,

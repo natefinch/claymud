@@ -7,14 +7,14 @@ import (
 	"github.com/natefinch/claymud/game/social"
 )
 
-// Represents a command sent by a player
+// Command represents a command sent by a player.
 type Command struct {
 	Actor *Player
 	Loc   *Location
 	Cmd   []string
 }
 
-// Action returns the keyword of the command (always lowercase)
+// Action returns the keyword of the command (always lowercase).
 //
 // This is just a shortcut to access the first token in the command
 func (c *Command) Action() string {
@@ -42,6 +42,7 @@ func (c *Command) Text(hasTarget bool) string {
 	return strings.Join(c.Cmd[1:], " ")
 }
 
+// Handle executes the command, if possible.
 func (c *Command) Handle() {
 	// everything in this function MUST be run through either the location's
 	// handler or the actor's global handler.

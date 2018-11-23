@@ -26,7 +26,7 @@ func SetStart(room util.Id) error {
 	return nil
 }
 
-// The start room of the MUD, where players appear
+// Start returns the start room of the MUD, where players appear
 // TODO: multiple / configurable start rooms
 func Start() *Location {
 	return start
@@ -34,7 +34,7 @@ func Start() *Location {
 
 var locTemplate *template.Template
 
-// A location in the mud, such as a room
+// A Location in the mud, such as a room
 type Location struct {
 	ID   util.Id
 	Name string
@@ -84,8 +84,8 @@ func (l *Location) RemovePlayer(p *Player) {
 	delete(l.Players, strings.ToLower(p.Name()))
 }
 
-// Determine the target in the room from the command's target
-// returns nil if no target exists
+// Target returns the target in the room from the command's target returns nil if no
+// target exists
 func (l *Location) Target(cmd *Command) (p *Player) {
 	// TODO: support aliases
 	return l.Players[cmd.Target()]
