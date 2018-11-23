@@ -1,11 +1,9 @@
 package world
 
 import (
-	"fmt"
 	"io"
 	"strings"
 
-	"github.com/natefinch/claymud/config"
 	"github.com/natefinch/claymud/game/social"
 )
 
@@ -57,27 +55,23 @@ func (c *Command) Handle() {
 		return
 	}
 
-	switch c.Action() {
-	case "look", "l":
-		c.look()
-	case "say", "'":
-		c.say()
-	case "tell", "t":
-		c.tell()
-	case "help", "?":
-		c.help()
-	case "quit":
-		// this must be done on the same goroutine.
-		c.Actor.handleQuit()
-	case "":
-		c.Actor.reprompt()
-	default:
-		if !c.handleSocial() {
-			c.Actor.HandleLocal(func() {
-				c.Actor.WriteString(`"` + c.Action() + `"` + " is not a valid command.")
-			})
-		}
+	if c.run() {
+		return
 	}
+	if !c.handleSocial() {
+		c.Actor.HandleLocal(func() {
+			c.Actor.WriteString(`"` + c.Action() + `"` + " is not a valid command.")
+		})
+	}
+}
+
+func (c *Command) run() bool {
+	f, ok := commands[c.Action()]
+	if !ok {
+		return false
+	}
+	f(c)
+	return true
 }
 
 // Check to see if the command corresponds to an exit in the room
@@ -120,79 +114,4 @@ func (c *Command) handleSocial() (handled bool) {
 		social.Perform(c.Action(), c.Actor, t, io.MultiWriter(others...))
 	})
 	return true
-}
-
-// handles the look command
-func (c *Command) look() {
-	c.Actor.HandleLocal(func() {
-		if c.Target() == "" {
-			c.Loc.ShowRoom(c.Actor)
-			return
-		}
-		p := c.Loc.Target(c)
-		if p != nil {
-			c.Actor.WriteString(p.Desc)
-		} else {
-			// TODO: actually implement looking at things other than players
-			c.Actor.WriteString("You don't see that here.\n")
-		}
-	})
-}
-
-func (c *Command) say() {
-	c.Actor.HandleLocal(func() {
-		msg := strings.Join(c.Cmd[1:], " ")
-		toOthers := c.Actor.Name() + " says " + msg
-		for _, p := range c.Loc.Players {
-			if p.Is(c.Actor) {
-				p.WriteString(toOthers)
-			}
-		}
-		c.Actor.WriteString("You say " + msg)
-	})
-}
-
-func (c *Command) tell() {
-	c.Actor.HandleGlobal(func() {
-		target, ok := FindPlayer(c.Target())
-		if ok {
-			msg := strings.Join(c.Cmd[2:], " ")
-			target.Printf("%v tells you: %v", c.Actor.Name(), msg)
-			target.prompt()
-			c.Actor.Printf("You tell %v: %v", target.Name(), msg)
-		} else {
-			c.Actor.WriteString("No one with that name exists.")
-		}
-	})
-}
-
-func (c *Command) help() {
-	if c.Target() != "" {
-		c.helpdetails(c.Target())
-		return
-	}
-	var lines []string
-	lines = append(lines, "List of available commands")
-	lines = append(lines, "")
-	lines = append(lines, "-- Standard Commands --")
-	lines = append(lines, "help, ?")
-	lines = append(lines, "look, l")
-	lines = append(lines, "say, '")
-	lines = append(lines, "tell, t")
-	lines = append(lines, "")
-	lines = append(lines, "-- Movement --")
-	for _, dir := range config.AllDirections() {
-		lines = append(lines, fmt.Sprintf("%v, %v", dir.Name, strings.Join(dir.Aliases, ", ")))
-	}
-	lines = append(lines, "")
-	lines = append(lines, "-- Socials --")
-	lines = append(lines, social.Names...)
-	c.Actor.Printf(strings.Join(lines, "\r\n"))
-}
-
-func (c *Command) helpdetails(command string) {
-	switch command {
-	case "help", "?":
-
-	}
 }

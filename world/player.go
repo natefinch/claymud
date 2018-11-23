@@ -91,7 +91,6 @@ func SpawnPlayer(rwc io.ReadWriteCloser, user *User, global *game.Worker) {
 			}
 		}
 		social.DoArrival(p, io.MultiWriter(others...))
-		p.WriteString("\n\n")
 		loc.ShowRoom(p)
 	})
 	if err := p.readLoop(); err != nil {

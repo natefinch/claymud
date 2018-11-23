@@ -2,24 +2,43 @@
 package world
 
 import (
+	"sort"
 	"sync"
 )
 
-var players = map[string]*Player{}
+var playerMap = map[string]*Player{}
+var playerList = &sortedPlayers{}
+
+type sortedPlayers []*Player
+
+func (s *sortedPlayers) add(p *Player) {
+	*s = append(*s, p)
+	sort.Slice(*s, func(i, j int) bool { return (*s)[i].Name() < (*s)[j].Name() })
+}
+func (s *sortedPlayers) remove(p *Player) {
+	for i, pl := range *s {
+		if pl.Is(p) {
+			*s = append((*s)[:i], (*s)[i+1:]...)
+			break
+		}
+	}
+}
 
 // addPlayer adds a new player to the world list.
 func addPlayer(p *Player) {
-	players[p.Name()] = p
+	playerMap[p.Name()] = p
+	playerList.add(p)
 }
 
 // removePlayer removes a player from the world list.
 func removePlayer(p *Player) {
-	delete(players, p.Name())
+	delete(playerMap, p.Name())
+	playerList.remove(p)
 }
 
 // FindPlayer returns the player for the given name.
 func FindPlayer(name string) (*Player, bool) {
-	p, ok := players[name]
+	p, ok := playerMap[name]
 	return p, ok
 }
 

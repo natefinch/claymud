@@ -107,14 +107,16 @@ func around(name, to string, tmpl util.Template, data socialData, others io.Writ
 		logFillErr(name, to+".Around", data, err)
 		return
 	}
+	io.WriteString(others, "\n")
 }
 
 func performToNoOne(name string, toNoOne *noTarget, data socialData, actor Person, others io.Writer) {
 	if toNoOne == nil {
-		_, _ = io.WriteString(actor, "You can't do that.")
+		_, _ = io.WriteString(actor, "You can't do that.\n")
 		return
 	}
 	err := toNoOne.Self.Template.Execute(actor, data)
+	io.WriteString(actor, "\n")
 	if err != nil {
 		logFillErr(name, "ToNoOne.Self", data, err)
 		// if there's an error running the social to the actor, just bail early.
