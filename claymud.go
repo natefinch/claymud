@@ -84,7 +84,7 @@ func Main() error {
 	}
 	global := game.SpawnWorker(lock, shutdown, wg)
 
-	host := net.JoinHostPort("127.0.0.1", strconv.Itoa(port))
+	host := net.JoinHostPort("", strconv.Itoa(port))
 	log.Printf("Running ClayMUD on %v", host)
 
 	addr, err := net.ResolveTCPAddr("tcp", host)
