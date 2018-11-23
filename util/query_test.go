@@ -9,7 +9,7 @@ import (
 
 func TestQuery(t *testing.T) {
 	rw, buf := rw("nate\n")
-	answer, err := Query(rw, []byte("hi!"))
+	answer, err := Query(rw, "hi!")
 	if err != nil {
 		t.Fatal(err)
 	}

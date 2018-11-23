@@ -12,10 +12,11 @@ import (
 )
 
 func TestParse(t *testing.T) {
-	ems, err := decodeSocials(strings.NewReader(data))
+	cfg, err := decodeConfig(strings.NewReader(data))
 	if err != nil {
 		t.Fatal(err)
 	}
+	ems := cfg.Socials
 	if len(ems) != 2 {
 		t.Fatalf("expected len 2, got %#v", ems)
 	}
@@ -34,11 +35,11 @@ func TestParse(t *testing.T) {
 func TestPerformOther(t *testing.T) {
 	defer patchGender(t)()
 
-	ems, err := decodeSocials(strings.NewReader(data))
+	cfg, err := decodeConfig(strings.NewReader(data))
 	if err != nil {
 		t.Fatal(err)
 	}
-	err = loadSocials(ems)
+	err = loadSocials(cfg.Socials)
 	if err != nil {
 		t.Fatal(err)
 	}
