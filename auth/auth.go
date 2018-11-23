@@ -8,12 +8,9 @@ import (
 	"io"
 	"log"
 	"net"
-	"path/filepath"
 
-	"github.com/BurntSushi/toml"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/natefinch/claymud/config"
 	"github.com/natefinch/claymud/db"
 	"github.com/natefinch/claymud/game"
 	"github.com/natefinch/claymud/util"
@@ -27,6 +24,7 @@ var (
 	ErrNotSetup = errors.New("auth: mud not set up")
 
 	bcryptCost int
+	mainTitle  []byte
 
 	// fakehash is a fake hashed password created with the current bcryptcost.
 	// It exists to allow us to fake out password hashing time when a username
@@ -38,28 +36,17 @@ const (
 	retries = 3
 )
 
-func Initialize(dir string) error {
-	filename := filepath.Join(dir, "auth.toml")
+// Init sets the bcryptcost for hashing passwords and sets up authentication.
+func Init(title string, cost int) {
+	mainTitle = []byte(title)
+	bcryptCost = cost
+	log.Printf("Using bcrypt cost %d", bcryptCost)
 
-	cfg := struct {
-		BcryptCost int
-	}{}
-
-	res, err := toml.DecodeFile(filename, &cfg)
-	if err != nil {
-		return fmt.Errorf("Error parsing auth config file %q: %s", filename, err)
-	}
-
-	bcryptCost = cfg.BcryptCost
-
-	log.Printf("Auth config loaded.  Using bcrypt cost %d", bcryptCost)
-
-	if und := res.Undecoded(); len(und) > 0 {
-		log.Printf("WARNING: Unknown values in auth config file: %v", und)
-	}
-
+	var err error
 	fakehash, err = bcrypt.GenerateFromPassword([]byte("password"), bcryptCost)
-	return err
+	if err != nil {
+		panic(err)
+	}
 }
 
 // logs a player in from an incoming connection, creating a player
@@ -98,7 +85,7 @@ func Login(rwc io.ReadWriteCloser, ip net.Addr, global *game.Worker) {
 }
 
 func showTitle(w io.Writer) error {
-	_, err := w.Write([]byte(config.MainTitle()))
+	_, err := w.Write(mainTitle)
 	return err
 }
 

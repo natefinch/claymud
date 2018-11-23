@@ -7,12 +7,12 @@ import (
 	"io"
 	"log"
 	"net"
+	"sort"
 	"strings"
 
 	"github.com/natefinch/claymud/game/social"
 
 	"github.com/natefinch/claymud/game"
-	"github.com/natefinch/claymud/game/gender"
 	"github.com/natefinch/claymud/util"
 )
 
@@ -32,6 +32,42 @@ func init() {
 	}()
 }
 
+var playerMap = map[string]*Player{}
+var playerList = &sortedPlayers{}
+
+type sortedPlayers []*Player
+
+func (s *sortedPlayers) add(p *Player) {
+	*s = append(*s, p)
+	sort.Slice(*s, func(i, j int) bool { return (*s)[i].Name() < (*s)[j].Name() })
+}
+func (s *sortedPlayers) remove(p *Player) {
+	for i, pl := range *s {
+		if pl.Is(p) {
+			*s = append((*s)[:i], (*s)[i+1:]...)
+			break
+		}
+	}
+}
+
+// addPlayer adds a new player to the world list.
+func addPlayer(p *Player) {
+	playerMap[p.Name()] = p
+	playerList.add(p)
+}
+
+// removePlayer removes a player from the world list.
+func removePlayer(p *Player) {
+	delete(playerMap, p.Name())
+	playerList.remove(p)
+}
+
+// FindPlayer returns the player for the given name.
+func FindPlayer(name string) (*Player, bool) {
+	p, ok := playerMap[name]
+	return p, ok
+}
+
 type User struct {
 	IP       net.Addr
 	Username string
@@ -42,13 +78,12 @@ type User struct {
 
 // Player represents a player-character in the world.
 type Player struct {
-	ID      util.Id
-	name    string
-	Desc    string
-	Actions chan func()
-	loc     *Location
-	gender  gender.Gender
-	global  *game.Worker
+	ID     util.Id
+	name   string
+	Desc   string
+	loc    *Location
+	gender game.Gender
+	global *game.Worker
 	*User
 	needsLF bool
 	exiting bool
@@ -67,10 +102,9 @@ func SpawnPlayer(rwc io.ReadWriteCloser, user *User, global *game.Worker) {
 		name: user.Username,
 		// TODO: make this a template
 		Desc:    user.Username + " is hanging out here.",
-		Actions: make(chan func()),
 		ID:      id,
 		loc:     loc,
-		gender:  gender.None,
+		gender:  game.Genders[0],
 		global:  global,
 		User:    user,
 		needsLF: true,
@@ -198,7 +232,7 @@ func (p *Player) exit(err error) {
 }
 
 // Gender returns the player's gender.
-func (p *Player) Gender() gender.Gender {
+func (p *Player) Gender() game.Gender {
 	return p.gender
 }
 

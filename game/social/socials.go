@@ -4,7 +4,7 @@ import (
 	"io"
 	"log"
 
-	"github.com/natefinch/claymud/game/gender"
+	"github.com/natefinch/claymud/game"
 	"github.com/natefinch/claymud/util"
 )
 
@@ -50,7 +50,7 @@ func (e social) String() string {
 // SocialTemplate.
 type Person interface {
 	Name() string
-	Gender() gender.Gender
+	Gender() game.Gender
 	io.Writer
 }
 

@@ -1,1 +1,147 @@
-StartRoom = 3001
+StartRoom = 3001 # the room number where people will appear after logging in.
+
+# MainTitle defines the string people see when they first connect to your mud.
+MainTitle = """
+
+ .d8888b.  888                   888b     d888 888     888 8888888b.  
+d88P  Y88b 888                   8888b   d8888 888     888 888  "Y88b 
+888    888 888                   88888b.d88888 888     888 888    888 
+888        888  8888b.  888  888 888Y88888P888 888     888 888    888 
+888        888     "88b 888  888 888 Y888P 888 888     888 888    888 
+888    888 888 .d888888 888  888 888  Y8P  888 888     888 888    888 
+Y88b  d88P 888 888  888 Y88b 888 888   "   888 Y88b. .d88P 888  .d88P 
+ "Y8888P"  888 "Y888888  "Y88888 888       888  "Y88888P"  8888888P"  
+                             888                                      
+                        Y8b d88P                                      
+                         "Y88P"                                       
+
+
+"""
+
+# BcryptCost defines the encryption strength of your password hash.  it also
+# determines how much work the computer has to do to verify passwords, so be
+# careful, make this too high, and people can DOS your server.
+BcryptCost = 10
+
+[Commands]
+    Look = ["look", "l"]
+    Who = ["who"]
+    Tell = ["tell", "t"]
+    Quit = ["quit"]
+    Say = ["say", "'"]
+    Help = ["help", "?"]
+    Uptime = ["uptime"]
+
+[Logging]
+    # This configures how logs behave in ClayMUD.  ClayMUD uses a
+    # rolling/rotating log system.  What that means is, once the current log
+    # file gets too big, ClayMUD will create a new file to log to and optionally
+    # clean up old log files.
+
+    # filename controls where the log file is written. By default logs are
+    # written to the ClayMUD data directory in a subdirectory called logs in a
+    # file called mud.log.  You may uncomment this setting to change the
+    # default. filename = "/path/to/your/foo.log"
+
+    # maxsize is the maximum size in megabytes of the logfile before it gets
+    # rotated.
+    maxsize = 100
+
+    # maxbackups controls how many old log files are allowed to be retained.  If
+    # 0 or not specified, there's no maximum on the number of log files that are
+    # retained.
+    maxbackups = 3
+
+    # maxage is the cutoff for deleting old log files based on their last
+    # modified date.  Note that the last modified date will almost certainly be
+    # different than the date encoded in the log file's name.  If 0 or not
+    # specified, there's no maximum age for old log files.
+    maxage = 365
+
+    # localtime, if true, causes the log file name to use the local time for the
+    # format.  If false or not specified, UTC time will be used.
+    localtime = true
+
+
+# Directions define the exits in a room and directions you can move. The order here
+# determines the order they'll be displayed in, in rooms.
+[[Direction]]
+Name = "North"     # displayed on exits and the main command to move in that direction
+From = "the North" # displayed when someone enters from that direction e.g. "foo enters from the North"    
+Aliases = ["n"]    # commands that'll move you in that direction
+                   # these override all other commands, so be careful
+[[Direction]]
+Name = "South"
+From = "the South"
+Aliases = ["s"]
+
+[[Direction]]
+Name = "East"
+From = "the East"
+Aliases = ["e"]
+
+[[Direction]]
+Name = "West"
+From = "the West"
+Aliases = ["w"]
+
+[[Direction]]
+Name = "Northeast"
+From = "the Northeast"
+Aliases = ["ne"]
+
+[[Direction]]
+Name = "Northwest"
+From = "the Northwest"
+Aliases = ["nw"]
+
+[[Direction]]
+Name = "Southeast"
+From = "the Southeast"
+Aliases = ["se"]
+
+[[Direction]]
+Name = "Southwest"
+From = "the Southwest"
+Aliases = ["sw"]
+
+[[Direction]]
+Name = "Up"
+From = "above"
+Aliases = ["u"]
+
+[[Direction]]
+Name = "Down"
+From = "below"
+Aliases = ["d"]
+
+
+# Genders define the genders people can choose in your game and their pronouns.
+
+[[Gender]]
+Name = "male"      # displayed in gender chooser
+Xself = "himself"  # reflexive pronoun
+Xe = "he"          # subjective pronoun
+Xim = "him"        # objective pronound
+Xis = "his"        # possessive pronoun
+
+[[Gender]]
+Name = "female"
+Xself = "herself"
+Xe = "she"
+Xim = "her"
+Xis = "hers"
+
+[[Gender]]
+Name = "non-binary"
+Xself = "themselves"
+Xe = "they"
+Xim = "them"
+Xis = "theirs"
+
+[[Gender]]
+Name = "none"
+Xself = "itself"
+Xe = "it"
+Xim = "it"
+Xis = "its"

@@ -1,12 +1,10 @@
 package world
 
-import (
-	"github.com/natefinch/claymud/config"
-)
+import "github.com/natefinch/claymud/game"
 
 // Exit is a direction that connects to a location.
 type Exit struct {
-	config.Direction
+	game.Direction
 	Desc        string
 	Destination *Location
 }
@@ -26,19 +24,19 @@ func (e Exits) Swap(i, j int) {
 
 // Less implements sort.Interface.Less.
 func (e Exits) Less(i, j int) bool {
-	return e[i].Id < e[j].Id
+	return e[i].ID < e[j].ID
 }
 
 // Returns the room that exists in the given direction.  Returns valid == false
 // if the alias is not a valid direction alias. Returns dest == nil if there's
 // no exit in that direction.
 func (e Exits) Find(alias string) (valid bool, dest *Location) {
-	dir, found := config.FindDirection(alias)
+	dir, found := game.FindDirection(alias)
 	if !found {
 		return false, nil
 	}
 	for _, exit := range e {
-		if exit.Direction.Id == dir.Id {
+		if exit.Direction.ID == dir.ID {
 			return true, exit.Destination
 		}
 	}

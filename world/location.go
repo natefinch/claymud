@@ -8,9 +8,29 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/natefinch/claymud/config"
 	"github.com/natefinch/claymud/util"
 )
+
+var (
+	locMap = map[util.Id]*Location{}
+	start  *Location
+)
+
+// SetStart sets the starting room of the mud.
+func SetStart(room util.Id) error {
+	loc, exists := locMap[room]
+	if !exists {
+		return fmt.Errorf("starting room %v does not exist", room)
+	}
+	start = loc
+	return nil
+}
+
+// The start room of the MUD, where players appear
+// TODO: multiple / configurable start rooms
+func Start() *Location {
+	return start
+}
 
 var locTemplate *template.Template
 
@@ -77,8 +97,8 @@ func (l *Location) ShowRoom(actor *Player) {
 	locTemplate.Execute(actor, locData{actor, l})
 }
 
-func loadLocTempl() error {
-	path := filepath.Join(config.DataDir(), "location.template")
+func loadLocTempl(datadir string) error {
+	path := filepath.Join(datadir, "location.template")
 	log.Printf("Loading location template from %s", path)
 
 	b, err := ioutil.ReadFile(path)

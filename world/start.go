@@ -8,32 +8,13 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/natefinch/claymud/config"
 	"github.com/natefinch/claymud/game"
 	"github.com/natefinch/claymud/util"
 )
 
 var (
-	locMap = map[util.Id]*Location{}
-	start  *Location
-	zones  = map[util.Id]*Zone{}
+	zones = map[util.Id]*Zone{}
 )
-
-// SetStart sets the starting room of the mud.
-func SetStart(room util.Id) error {
-	loc, exists := locMap[room]
-	if !exists {
-		return fmt.Errorf("starting room %v does not exist", room)
-	}
-	start = loc
-	return nil
-}
-
-// The start room of the MUD, where players appear
-// TODO: multiple / configurable start rooms
-func Start() *Location {
-	return start
-}
 
 func genWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, wg *sync.WaitGroup) error {
 	log.Printf("loading zones from %v", filepath.Join(datadir, "zones"))
@@ -95,7 +76,7 @@ func genWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, wg
 			if e.Destination == -1 {
 				continue
 			}
-			dir, exists := config.FindDirection(e.Direction)
+			dir, exists := game.FindDirection(e.Direction)
 			if !exists {
 				return fmt.Errorf("should be impossible, direction %q for exit in room %v doesn't exist", e.Direction, r.ID)
 			}
@@ -113,8 +94,8 @@ func genWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, wg
 	return nil
 }
 
-func dir(d string) config.Direction {
-	dir, ok := config.FindDirection(d)
+func dir(d string) game.Direction {
+	dir, ok := game.FindDirection(d)
 	if !ok {
 		panic(fmt.Errorf("Can't find direction %s", d))
 	}
@@ -179,7 +160,7 @@ func (j jsonRoom) toLoc() (*Location, error) {
 		return nil, fmt.Errorf("room %v's zone %v does not exist", j.ID, j.Zone)
 	}
 	for _, e := range j.Exits {
-		if _, exists := config.FindDirection(e.Direction); !exists {
+		if _, exists := game.FindDirection(e.Direction); !exists {
 			return nil, fmt.Errorf("direction %q for exit in room %v does not exist", e.Direction, j.ID)
 		}
 	}
