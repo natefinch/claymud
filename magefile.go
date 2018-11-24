@@ -27,7 +27,7 @@ func Run() error {
 	return sh.RunV("./claymud")
 }
 
-var releaseTag = regexp.MustCompile(`^v1\.[0-9]+\.[0-9]+$`)
+var releaseTag = regexp.MustCompile(`^v0\.[0-9]+\.[0-9]+$`)
 
 // Generates a new release.  Expects the TAG environment variable to be set,
 // which will create a new tag with that name.
