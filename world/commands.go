@@ -96,7 +96,6 @@ func doChat(msg string, c *Command) {
 }
 
 func tell(c *Command) {
-
 	c.Actor.HandleGlobal(func() {
 		target, ok := FindPlayer(c.Target())
 		if ok {
@@ -111,7 +110,6 @@ func tell(c *Command) {
 }
 
 func help(c *Command) {
-
 	if c.Target() != "" {
 		c.helpdetails(c.Target())
 		return
@@ -157,10 +155,18 @@ func chatmode(c *Command) {
 	c.Actor.HandleLocal(func() {
 		switch c.Target() {
 		case "?":
-			c.Actor.Printf("chat mode set to %v", c.Actor.chatmode)
+			if c.Actor.chatmode {
+				c.Actor.Print("chat mode is on")
+			} else {
+				c.Actor.Print("chat mode is off")
+			}
 		case "":
 			c.Actor.chatmode = !c.Actor.chatmode
-			c.Actor.Printf("chat mode set to %v", c.Actor.chatmode)
+			if c.Actor.chatmode {
+				c.Actor.Print("chat mode is now on")
+			} else {
+				c.Actor.Print("chat mode is now off")
+			}
 		default:
 			c.Actor.Printf("unknown command target %v", c.Target())
 		}
