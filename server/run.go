@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net"
+	"runtime"
 	"strconv"
 	"sync"
 	"time"
@@ -18,18 +19,39 @@ import (
 	"github.com/natefinch/claymud/world"
 )
 
+// set by ldflags when you "mage build"
+var (
+	commitHash = "<not set>"
+	timestamp  = "<not set>"
+	gitTag     = "<not set>"
+)
+
 // Main is the main entrypoint to the server
 func Main() error {
 	var port int
-
+	var version bool
 	flag.IntVar(&port, "port", 8888, "specifies the port the server listens on")
+	flag.BoolVar(&version, "version", false, "show version info")
 	flag.Parse()
+
+	if version {
+		fmt.Println("ClayMUD", gitTag)
+		fmt.Println("Build Date:", timestamp)
+		fmt.Println("Commit:", commitHash)
+		fmt.Println("built with:", runtime.Version())
+		return nil
+	}
 
 	// config must be first!
 	cfg, err := config.Init()
 	if err != nil {
 		return err
 	}
+	log.Println("ClayMUD", gitTag)
+	log.Println("Build Date:", timestamp)
+	log.Println("Commit:", commitHash)
+	log.Println("built with:", runtime.Version())
+
 	dir := cfg.DataDir
 	game.InitGenders(cfg.Gender)
 	game.InitDirs(cfg.Direction)
