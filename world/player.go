@@ -87,8 +87,9 @@ type Player struct {
 	gender game.Gender
 	global *game.Worker
 	*User
-	needsLF bool
-	exiting bool
+	needsLF  bool
+	exiting  bool
+	chatmode bool
 }
 
 // SpawnPlayer attaches the connection to a player and inserts it into the world.  This
@@ -103,13 +104,14 @@ func SpawnPlayer(rwc io.ReadWriteCloser, user *User, global *game.Worker) {
 	p := &Player{
 		name: user.Username,
 		// TODO: make this a template
-		Desc:    user.Username + " is hanging out here.",
-		ID:      id,
-		loc:     loc,
-		gender:  game.Genders[0],
-		global:  global,
-		User:    user,
-		needsLF: true,
+		Desc:     user.Username + " is hanging out here.",
+		ID:       id,
+		loc:      loc,
+		gender:   game.Genders[0],
+		global:   global,
+		User:     user,
+		needsLF:  true,
+		chatmode: chatMode.Default,
 	}
 	p.writer = util.SafeWriter{Writer: rwc, OnErr: p.exit}
 

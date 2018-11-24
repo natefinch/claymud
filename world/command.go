@@ -7,6 +7,8 @@ import (
 	"github.com/natefinch/claymud/game/social"
 )
 
+var chatMode ChatMode
+
 // Command represents a command sent by a player.
 type Command struct {
 	Actor *Player
@@ -52,10 +54,35 @@ func (c *Command) Handle() {
 	// socials are least important (so if you configure an social named "north" you won't
 	// prevent yourc from going north... your social just won't work
 
-	if c.handleExit() {
+	if !c.Actor.chatmode {
+		if c.handleExit() {
+			return
+		}
+
+		if c.run() {
+			return
+		}
+		if !c.handleSocial() {
+			c.Actor.HandleLocal(func() {
+				c.Actor.WriteString(`"` + c.Action() + `"` + " is not a valid command.")
+			})
+		}
 		return
 	}
+	// chatmode is on, so we run directions if they are standalone,
+	// otherwise all commands must be prefixed by the chatmode prefix
 
+	isCmd := strings.HasPrefix(c.Action(), chatMode.Prefix)
+	if !isCmd {
+		if c.Target() == "" && c.handleExit() {
+			return
+		}
+		// default to "say"
+		chatModeSay(c)
+		return
+	}
+	// strip prefix off the command name, so the rest of our string checks work
+	c.Cmd[0] = c.Cmd[0][len(chatMode.Prefix):]
 	if c.run() {
 		return
 	}

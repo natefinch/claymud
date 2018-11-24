@@ -7,6 +7,7 @@ import (
 	"os"
 	"path/filepath"
 	"runtime"
+	"strings"
 
 	"github.com/BurntSushi/toml"
 	"github.com/natefinch/claymud/game"
@@ -33,13 +34,19 @@ func Init() (*Config, error) {
 		BcryptCost: 10,
 		Logging:    &lumberjack.Logger{Filename: logfile},
 	}
+	cfg.ChatMode.Enabled = "allow"
 	cfgFile := filepath.Join(dataDir, "mud.toml")
 	md, err := toml.DecodeFile(cfgFile, &cfg)
 	if err != nil {
 		return nil, fmt.Errorf("error parsing config file %q: %v", cfgFile, err)
 	}
+	switch strings.ToLower(cfg.ChatMode.Enabled) {
+	case "allow", "deny", "require":
+	default:
+		return nil, fmt.Errorf("ChatMode.Enabled must be allow, deny, or require, but got %q", cfg.ChatMode.Enabled)
+	}
 
-	// ignore any data dir specified in the config... it's not really supposed to be there.
+	// ignore any data dir specified in the config... you can't really set it there
 	cfg.DataDir = dataDir
 
 	if err := configLogging(cfg.Logging); err != nil {
@@ -62,8 +69,13 @@ type Config struct {
 	BcryptCost int             // work factor for auth
 	Commands   world.CmdConfig // command aliases
 	Logging    *lumberjack.Logger
-	Direction  []game.Direction
-	Gender     []game.Gender
+	ChatMode   struct {
+		Enabled string // "allow" "deny" or "require"
+		Default bool   // whether chatmode starts enabled or not
+		Prefix  string // if not "deny", commands other than movement must start with a prefix
+	}
+	Direction []game.Direction
+	Gender    []game.Gender
 }
 
 // getDataDir returns the platform-specific data directory.

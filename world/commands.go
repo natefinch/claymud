@@ -18,6 +18,7 @@ var commands = map[string]func(*Command){}
 // each contain the aliases, they must all be unique.
 type CmdConfig struct {
 	Look, Who, Tell, Quit, Say, Help, Uptime []string
+	ChatMode                                 []string
 }
 
 // initCommands sets up the command names.
@@ -29,6 +30,11 @@ func initCommands(cfg CmdConfig) {
 	register(say, cfg.Say)
 	register(help, cfg.Help)
 	register(uptime, cfg.Uptime)
+
+	if chatMode.Mode == ChatModeAllow {
+		register(chatmode, cfg.ChatMode)
+	}
+
 	// this is a special "command" that just handles when someone hits enter without typing
 	// anything.
 	register(prompt, []string{""})
@@ -61,17 +67,32 @@ func look(c *Command) {
 	})
 }
 
+// say is when someone types the "say" command
 func say(c *Command) {
 	c.Actor.HandleLocal(func() {
+		// message is everything but the command name
 		msg := strings.Join(c.Cmd[1:], " ")
-		toOthers := c.Actor.Name() + ": " + msg
-		for _, p := range c.Loc.Players {
-			if !p.Is(c.Actor) {
-				p.WriteString(toOthers)
-			}
-		}
-		c.Actor.WriteString(toOthers)
+		doChat(msg, c)
 	})
+}
+
+// chatModeSay is when someone types non-command text in chatmode.
+func chatModeSay(c *Command) {
+	c.Actor.HandleLocal(func() {
+		// message includes first word
+		msg := strings.Join(c.Cmd, " ")
+		doChat(msg, c)
+	})
+}
+
+func doChat(msg string, c *Command) {
+	toOthers := c.Actor.Name() + ": " + msg
+	for _, p := range c.Loc.Players {
+		if !p.Is(c.Actor) {
+			p.WriteString(toOthers)
+		}
+	}
+	c.Actor.WriteString(toOthers)
 }
 
 func tell(c *Command) {
@@ -106,6 +127,7 @@ func help(c *Command) {
 	lines = append(lines, "quit")
 	lines = append(lines, "who")
 	lines = append(lines, "uptime")
+	lines = append(lines, "chatmode")
 	lines = append(lines, "")
 	lines = append(lines, "-- Movement --")
 	for _, dir := range game.AllDirections() {
@@ -129,6 +151,20 @@ func who(c *Command) {
 
 func prompt(c *Command) {
 	c.Actor.reprompt()
+}
+
+func chatmode(c *Command) {
+	c.Actor.HandleLocal(func() {
+		switch c.Target() {
+		case "?":
+			c.Actor.Printf("chat mode set to %v", c.Actor.chatmode)
+		case "":
+			c.Actor.chatmode = !c.Actor.chatmode
+			c.Actor.Printf("chat mode set to %v", c.Actor.chatmode)
+		default:
+			c.Actor.Printf("unknown command target %v", c.Target())
+		}
+	})
 }
 
 func uptime(c *Command) {

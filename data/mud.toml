@@ -18,19 +18,39 @@ Y88b  d88P 888 888  888 Y88b 888 888   "   888 Y88b. .d88P 888  .d88P
 
 """
 
+
 # BcryptCost defines the encryption strength of your password hash.  it also
 # determines how much work the computer has to do to verify passwords, so be
 # careful, make this too high, and people can DOS your server.
 BcryptCost = 10
 
+# With chatmode on, words typed into the mud are considered commands. like "look
+# north". With chatmode off, words typed into the mud are considered text the
+# character is saying.  The exception is direction commands (if not followed by other
+# text).  Other commands must be prefixed with a string so the mud knows you're typing
+# a command (like "/look north"). 
+[ChatMode]
+    # Enabled sets the global policy for usig chatmode.  "require" means chatmode is
+    # always on. "deny" means chatmode is always off.  "allow" means chatmode may be
+    # turned on or off. 
+    Enabled = "allow" # allow or deny or require 
+    Default = false # if true, chatmode defaults on. ignored except when Enabled = "allow"
+    Prefix = "/" # the prefix to tell the mud you're typing a command. Ignored when not in chatmode.
+
+# The list of commmands you can type in the mud, and what the in-game command names
+# are.  The first name is the "primary" name, all others are considered aliases.  Names
+# cannot be duplicated (there will be an error at startup if you do.)  Exit directions
+# take precedence over command names, so keep that in mind when naming commands and
+# directions.
 [Commands]
-    Look = ["look", "l"]
-    Who = ["who"]
-    Tell = ["tell", "t"]
-    Quit = ["quit"]
-    Say = ["say", "'"]
-    Help = ["help", "?"]
-    Uptime = ["uptime"]
+    Look = ["look", "l"] # look at something
+    Who = ["who"] # show a list of logged-on players
+    Tell = ["tell", "t"] # send a message to someone directly
+    Quit = ["quit"] # leave the game
+    Say = ["say", "'"] # speak to everyone in the room
+    Help = ["help", "?"] # get help
+    Uptime = ["uptime"] # show how long the MUD has been running
+    ChatMode = ["chatmode"] # turn on or off chatmode
 
 [Logging]
     # This configures how logs behave in ClayMUD.  ClayMUD uses a
@@ -64,12 +84,13 @@ BcryptCost = 10
 
 
 # Directions define the exits in a room and directions you can move. The order here
-# determines the order they'll be displayed in, in rooms.
+# determines the order they'll be displayed in, in rooms.  Note that direction names
+# and aliases take precedence over command names, so don't duplicate them.
 [[Direction]]
 Name = "North"     # displayed on exits and the main command to move in that direction
 From = "the North" # displayed when someone enters from that direction e.g. "foo enters from the North"    
-Aliases = ["n"]    # commands that'll move you in that direction
-                   # these override all other commands, so be careful
+Aliases = ["n"]    # Aliases other than the name that will move you in that direction
+
 [[Direction]]
 Name = "South"
 From = "the South"
@@ -116,8 +137,8 @@ From = "below"
 Aliases = ["d"]
 
 
-# Genders define the genders people can choose in your game and their pronouns.
-
+# Genders define the genders people can choose in your game and their pronouns, used
+# mostly for socials.
 [[Gender]]
 Name = "male"      # displayed in gender chooser
 Xself = "himself"  # reflexive pronoun

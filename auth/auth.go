@@ -102,7 +102,7 @@ func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
 		if err != nil {
 			return nil, err
 		}
-		if host != "127.0.0.1" {
+		if host != "127.0.0.1" && host != "::1" {
 			showNotSetup(rw)
 			return nil, ErrNotSetup
 		}

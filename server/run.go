@@ -2,6 +2,7 @@ package server
 
 import (
 	"flag"
+	"fmt"
 	"log"
 	"net"
 	"strconv"
@@ -59,6 +60,19 @@ func Main() error {
 	wc := world.Config{
 		Commands:  cfg.Commands,
 		StartRoom: cfg.StartRoom,
+	}
+	wc.ChatMode.Default = cfg.ChatMode.Default
+	wc.ChatMode.Prefix = cfg.ChatMode.Prefix
+	switch cfg.ChatMode.Enabled {
+	case "allow":
+		wc.ChatMode.Mode = world.ChatModeAllow
+	case "deny":
+		wc.ChatMode.Mode = world.ChatModeDeny
+	case "require":
+		wc.ChatMode.Mode = world.ChatModeRequire
+	default:
+		// we already checked this, but belt and suspenders is ok
+		return fmt.Errorf("Expected allow, deny, or require for ChatMode.Enabled, got %q", cfg.ChatMode.Enabled)
 	}
 
 	lock := &sync.RWMutex{}
