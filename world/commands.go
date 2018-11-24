@@ -2,11 +2,13 @@ package world
 
 import (
 	"fmt"
+	"strconv"
 	"strings"
 	"time"
 
 	"github.com/natefinch/claymud/game"
 	"github.com/natefinch/claymud/game/social"
+	"github.com/natefinch/claymud/util"
 )
 
 var started = time.Now()
@@ -18,7 +20,7 @@ var commands = map[string]func(*Command){}
 // each contain the aliases, they must all be unique.
 type CmdConfig struct {
 	Look, Who, Tell, Quit, Say, Help, Uptime []string
-	ChatMode                                 []string
+	ChatMode, Goto                           []string
 }
 
 // initCommands sets up the command names.
@@ -30,6 +32,7 @@ func initCommands(cfg CmdConfig) {
 	register(say, cfg.Say)
 	register(help, cfg.Help)
 	register(uptime, cfg.Uptime)
+	register(gotoCmd, cfg.Goto)
 
 	if chatMode.Mode == ChatModeAllow {
 		register(chatmode, cfg.ChatMode)
@@ -49,19 +52,17 @@ func register(f func(*Command), names []string) {
 	}
 }
 
-// handles the look command
-
+// look handles the look command
 func look(c *Command) {
 	c.Actor.HandleLocal(func() {
 		if c.Target() == "" {
 			c.Loc.ShowRoom(c.Actor)
 			return
 		}
-		p := c.Loc.Target(c)
-		if p != nil {
-			c.Actor.WriteString(p.Desc)
+		desc, ok := c.Loc.LookTarget(c.Target())
+		if ok {
+			c.Actor.WriteString(desc)
 		} else {
-			// TODO: actually implement looking at things other than players
 			c.Actor.WriteString("You don't see that here.\n")
 		}
 	})
@@ -73,6 +74,36 @@ func say(c *Command) {
 		// message is everything but the command name
 		msg := strings.Join(c.Cmd[1:], " ")
 		doChat(msg, c)
+	})
+}
+
+// gotoCmd is an admin command that lets you go to any room by room number or to the
+// room a person is in.
+func gotoCmd(c *Command) {
+	if c.Target() == "" {
+		c.Actor.HandleLocal(func() {
+			c.Actor.WriteString("Goto where?")
+		})
+		return
+	}
+	num, err := strconv.Atoi(c.Target())
+	if err == nil {
+		loc, ok := locMap[util.Id(num)]
+		if !ok {
+			c.Actor.HandleLocal(func() {
+				c.Actor.WriteString("There is no room with that number.")
+			})
+			return
+		}
+		c.Actor.Move(loc)
+		return
+	}
+	c.Actor.HandleGlobal(func() {
+		if p, ok := playerMap[c.Target()]; ok {
+			moveEvent(c.Actor, p.loc)
+			return
+		}
+		c.Actor.WriteString("There is player with that name.")
 	})
 }
 
@@ -156,16 +187,16 @@ func chatmode(c *Command) {
 		switch c.Target() {
 		case "?":
 			if c.Actor.chatmode {
-				c.Actor.Print("chat mode is on")
+				c.Actor.WriteString("chat mode is on")
 			} else {
-				c.Actor.Print("chat mode is off")
+				c.Actor.WriteString("chat mode is off")
 			}
 		case "":
 			c.Actor.chatmode = !c.Actor.chatmode
 			if c.Actor.chatmode {
-				c.Actor.Print("chat mode is now on")
+				c.Actor.WriteString("chat mode is now on")
 			} else {
-				c.Actor.Print("chat mode is now off")
+				c.Actor.WriteString("chat mode is now off")
 			}
 		default:
 			c.Actor.Printf("unknown command target %v", c.Target())

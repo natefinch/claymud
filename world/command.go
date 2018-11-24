@@ -128,7 +128,7 @@ func (c *Command) handleSocial() (handled bool) {
 		return false
 	}
 	c.Actor.HandleLocal(func() {
-		target := c.Loc.Target(c)
+		target := c.Loc.Target(c.Target())
 		others := []io.Writer{}
 		for _, p := range c.Loc.Players {
 			if !p.Is(c.Actor) {

@@ -207,17 +207,22 @@ func (p *Player) Move(to *Location) {
 		return
 	}
 
-	move := func() {
-		p.loc.RemovePlayer(p)
-		to.AddPlayer(p)
-		p.loc = to
-		to.ShowRoom(p)
-	}
 	if p.loc.LocalTo(to) {
-		p.HandleLocal(move)
+		p.HandleLocal(func() {
+			moveEvent(p, to)
+		})
 	} else {
-		p.HandleGlobal(move)
+		p.HandleGlobal(func() {
+			moveEvent(p, to)
+		})
 	}
+}
+
+func moveEvent(p *Player, to *Location) {
+	p.loc.RemovePlayer(p)
+	to.AddPlayer(p)
+	p.loc = to
+	to.ShowRoom(p)
 }
 
 // Location returns the user's location in the world.

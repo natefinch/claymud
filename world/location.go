@@ -84,11 +84,23 @@ func (l *Location) RemovePlayer(p *Player) {
 	delete(l.Players, strings.ToLower(p.Name()))
 }
 
-// Target returns the target in the room from the command's target returns nil if no
-// target exists
-func (l *Location) Target(cmd *Command) (p *Player) {
-	// TODO: support aliases
-	return l.Players[cmd.Target()]
+// Target returns a target from the room with the given name or nil if none.
+func (l *Location) Target(target string) *Player {
+	return l.Players[target]
+}
+
+// LookTarget returns the description of the target in the room, and if a target was
+// found.
+func (l *Location) LookTarget(target string) (string, bool) {
+	p, ok := l.Players[target]
+	if ok {
+		return p.Desc, true
+	}
+	desc, ok := l.Descriptions[target]
+	if ok {
+		return desc, true
+	}
+	return "", false
 }
 
 // ShowRoom displays the room description from the point of view of the given
