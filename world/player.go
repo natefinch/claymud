@@ -1,15 +1,20 @@
 package world
 
 import (
-	"bufio"
 	"errors"
 	"fmt"
 	"io"
 	"log"
-	"net"
+	"math/big"
 	"sort"
 	"strings"
+	"unicode"
+	"unicode/utf8"
 
+	"github.com/gofrs/uuid"
+
+	"github.com/natefinch/claymud/auth"
+	"github.com/natefinch/claymud/db"
 	"github.com/natefinch/claymud/game/social"
 
 	"github.com/natefinch/claymud/game"
@@ -21,11 +26,26 @@ var (
 	ErrTimeout = errors.New("Player timed out")
 )
 
-var ids = make(chan util.Id)
+// PFlag represents a flag (bit) set on a player.
+type PFlag int
+
+// All possible player flags.
+//
+// DO NOT REARRANGE OR COMMENT OUT VALUES.  If you need to deprecate a value,
+// append _DEPRECATED on the end of the name.  New values must be appended to
+// this list, never inserted anywhere else.
+const (
+	PFlagChatmode PFlag = iota
+)
+
+// IDs are not persisted. They just make comparisons between things faster than
+// doing a string comparison.
+
+var ids = make(chan util.ID)
 
 func init() {
 	go func() {
-		var id util.Id
+		var id util.ID
 		for {
 			ids <- id
 			id++
@@ -33,8 +53,11 @@ func init() {
 	}()
 }
 
-var playerMap = map[string]*Player{}
-var playerList = &sortedPlayers{}
+var (
+	playerMap  = map[string]*Player{}
+	playerList = &sortedPlayers{}
+	userMap    = map[string]*auth.User{}
+)
 
 type sortedPlayers []*Player
 
@@ -69,51 +92,70 @@ func FindPlayer(name string) (*Player, bool) {
 	return p, ok
 }
 
-// A User is an account with a login.
-type User struct {
-	IP       net.Addr
-	Username string
-	writer   util.SafeWriter
-	rwc      io.ReadWriteCloser
-	*bufio.Scanner
+// FindUser returns the user for the given username.
+func FindUser(name string) (*auth.User, bool) {
+	p, ok := userMap[name]
+	return p, ok
 }
 
 // Player represents a player-character in the world.
 type Player struct {
-	ID     util.Id
+	ID     util.ID
+	uuid   uuid.UUID
 	name   string
 	Desc   string
 	loc    *Location
 	gender game.Gender
 	global *game.Worker
-	*User
-	needsLF  bool
-	exiting  bool
-	chatmode bool
+	*auth.User
+	util.SafeWriter
+	bits    *big.Int
+	needsLF bool
+	exiting bool
 }
 
 // SpawnPlayer attaches the connection to a player and inserts it into the world.  This
 // function runs for as long as the player is in the world.
-func SpawnPlayer(rwc io.ReadWriteCloser, user *User, global *game.Worker) {
-	id := <-ids
-	log.Printf("Spawning player %s (%v) id: %v", user.Username, user.IP, id)
-	user.rwc = rwc
-	user.Scanner = bufio.NewScanner(rwc)
-	// TODO: Persistence
+func SpawnPlayer(user *auth.User, global *game.Worker) error {
+	var dbp *db.Player
+	if len(user.Players) == 0 {
+		_, err := io.WriteString(user, "You have no players, let's create one.\n")
+		if err != nil {
+			return err
+		}
+		dbp, err = createPlayer(user, game.Genders)
+		if err != nil {
+			return err
+		}
+	} else {
+		newChar := "(create new)"
+		choices := append([]string{newChar}, user.Players...)
+		i, err := util.QueryStrings(user, "Choose a player, or c to create a new one: ", -1, choices...)
+		if err != nil {
+			return err
+		}
+		if i == 0 {
+			dbp, err = createPlayer(user, game.Genders)
+		} else {
+			dbp, err = db.FindPlayer(choices[i])
+		}
+	}
+	log.Printf("Spawning user %s's player %s (%v) id: %v", user.Username, dbp.Name, user.IP, dbp.ID)
+
 	loc := Start()
 	p := &Player{
-		name: user.Username,
-		// TODO: make this a template
-		Desc:     user.Username + " is hanging out here.",
-		ID:       id,
-		loc:      loc,
-		gender:   game.Genders[0],
-		global:   global,
-		User:     user,
-		needsLF:  true,
-		chatmode: chatMode.Default,
+		name:    dbp.Name,
+		Desc:    dbp.Description,
+		uuid:    dbp.ID,
+		ID:      <-ids,
+		loc:     loc,
+		gender:  dbp.Gender,
+		global:  global,
+		User:    user,
+		needsLF: true,
+		bits:    dbp.Flags,
 	}
-	p.writer = util.SafeWriter{Writer: rwc, OnErr: p.exit}
+	p.SafeWriter = util.SafeWriter{Writer: user, OnErr: p.exit}
 
 	// intentionally directly call the global handler so we skip the autoprompt
 	// here.
@@ -134,19 +176,86 @@ func SpawnPlayer(rwc io.ReadWriteCloser, user *User, global *game.Worker) {
 	if err := p.readLoop(); err != nil {
 		p.exit(err)
 	}
+	return nil
+}
+
+func verifyName(name string) (string, error) {
+	if name == "" {
+		return "!! Names cannot be empty.", nil
+	}
+	if utf8.RuneCount([]byte(name)) > 32 {
+		return "!! Names cannot be longer than 32 characters.", nil
+	}
+	if utf8.RuneCount([]byte(name)) < 3 {
+		return "!! Names must be at least 3 characters.", nil
+	}
+	for _, r := range []rune(name) {
+		if !unicode.IsLetter(r) {
+			return "!! Names may only contain letters.", nil
+		}
+	}
+	return "", nil
+}
+
+func createPlayer(user *auth.User, genders []game.Gender) (*db.Player, error) {
+	const queryName = "By what name do you wish your character to be known? "
+	name, err := util.QueryVerify(user, queryName, verifyName)
+	if err != nil {
+		return nil, err
+	}
+	options := make([]string, len(genders))
+	for i := range genders {
+		options[i] = fmt.Sprintf("%s (%s/%s)", genders[i].Name, genders[i].Xe, genders[i].Xim)
+	}
+	i, err := util.QueryStrings(user, "What should this character's gender be?\n", -1, options...)
+	if err != nil {
+		return nil, err
+	}
+	gender := genders[i]
+	id, err := uuid.NewV4()
+	if err != nil {
+		return nil, err
+	}
+	p := db.Player{
+		Name:        name,
+		ID:          id,
+		Description: name + " is standing here.",
+		Gender:      gender,
+		Flags:       big.NewInt(0),
+	}
+	for {
+		err = db.CreatePlayer(p)
+		if err == db.ErrExists {
+			_, err := io.WriteString(user, "A character with that name already exists.\n")
+			if err != nil {
+				return nil, err
+			}
+
+			name, err := util.QueryVerify(user, queryName, verifyName)
+			if err != nil {
+				return nil, err
+			}
+			p.Name = name
+			continue
+		}
+		if err != nil {
+			return nil, err
+		}
+		return &p, nil
+	}
 }
 
 // Printf is a helper function to write the formatted string to the player.
 func (p *Player) Printf(format string, args ...interface{}) {
 	p.maybeNewline()
-	fmt.Fprintf(p.writer, format, args...)
+	fmt.Fprintf(p.Writer, format, args...)
 }
 
 var newline = []byte("\n")
 
 func (p *Player) maybeNewline() {
 	if p.needsLF {
-		p.writer.Write(newline)
+		p.Writer.Write(newline)
 		p.needsLF = false
 	}
 }
@@ -154,14 +263,14 @@ func (p *Player) maybeNewline() {
 // WriteString implements io.StringWriter.  It will never return an error.
 func (p *Player) WriteString(s string) (int, error) {
 	p.maybeNewline()
-	io.WriteString(p.writer, s)
+	io.WriteString(p.Writer, s)
 	return len(s), nil
 }
 
 // Write implements io.Writer.  It will never return an error.
 func (p *Player) Write(b []byte) (int, error) {
 	p.maybeNewline()
-	p.writer.Write(b)
+	p.Writer.Write(b)
 	return len(b), nil
 }
 
@@ -225,6 +334,21 @@ func moveEvent(p *Player, to *Location) {
 	to.ShowRoom(p)
 }
 
+// Flag reports if the given flag has been set to true for the user.
+func (p *Player) Flag(f PFlag) bool {
+	return p.bits.Bit(int(f)) == 1
+}
+
+// SetFlag sets the given flag to true for the user
+func (p *Player) SetFlag(f PFlag) {
+	p.bits.SetBit(p.bits, int(f), 1)
+}
+
+// UnsetFlag sets the given flag to false for the user
+func (p *Player) UnsetFlag(f PFlag) {
+	p.bits.SetBit(p.bits, int(f), 0)
+}
+
 // Location returns the user's location in the world.
 func (p *Player) Location() *Location {
 	return p.loc
@@ -269,7 +393,7 @@ func (p *Player) readLoop() (err error) {
 				p.loc.RemovePlayer(p)
 				removePlayer(p)
 			})
-			p.rwc.Close()
+			p.Close()
 			break
 		}
 	}
@@ -279,7 +403,7 @@ func (p *Player) readLoop() (err error) {
 // prompt shows the player's prompt to the user.
 func (p *Player) prompt() {
 	// TODO: standard/custom prompts
-	io.WriteString(p.writer, "\n>")
+	io.WriteString(p.Writer, "\n>")
 	p.needsLF = true
 }
 
@@ -287,7 +411,7 @@ func (p *Player) prompt() {
 // newline. This only occurs when the user hits enter with no command.
 func (p *Player) reprompt() {
 	// TODO: standard/custom prompts
-	io.WriteString(p.writer, ">")
+	io.WriteString(p.Writer, ">")
 	p.needsLF = true
 }
 
@@ -329,5 +453,5 @@ func (p *Player) Query(q string) (answer string, err error) {
 		}
 	}()
 
-	return util.Query(p.rwc, q)
+	return util.Query(p, q)
 }

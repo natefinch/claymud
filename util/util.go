@@ -46,3 +46,11 @@ func (s SafeWriter) Write(b []byte) (int, error) {
 	}
 	return n, nil
 }
+
+func (s SafeWriter) WriteString(str string) (int, error) {
+	n, err := io.WriteString(s.Writer, str)
+	if err != nil {
+		s.OnErr(err)
+	}
+	return n, nil
+}

@@ -1,7 +1,7 @@
 package db
 
 import (
-	"net"
+	"math/big"
 	"time"
 
 	"github.com/boltdb/bolt"
@@ -11,11 +11,13 @@ var (
 	users = []byte("users")
 )
 
-// userDoc is the structure that is stored in the database for a User.
-type userDoc struct {
+// User is the structure that is stored in the database for a User.
+type User struct {
 	PwdHash   []byte
 	LastIP    string
 	LastLogin time.Time
+	Players   []string
+	Flags     *big.Int
 }
 
 // UserExists reports whether a user with the username exists.
@@ -24,7 +26,7 @@ func UserExists(username string) (bool, error) {
 	err := db.View(func(tx *bolt.Tx) error {
 		b := tx.Bucket(users)
 		if b == nil {
-			return nil
+			return ErrNoBucket("users")
 		}
 		exists = b.Get([]byte(username)) != nil
 		return nil
@@ -32,36 +34,46 @@ func UserExists(username string) (bool, error) {
 	return exists, err
 }
 
-// Password returns the password hash for the user, or a nil slice if the user
-// does not exist.
-func Password(username string) ([]byte, error) {
-	var hash []byte
+// FindUser returns the user with the username.
+func FindUser(username string) (User, error) {
+	var u User
 	err := db.View(func(tx *bolt.Tx) error {
 		b := tx.Bucket(users)
-		var u userDoc
+		if b == nil {
+			return ErrNoBucket("users")
+		}
 		exists, err := get(b, []byte(username), &u)
 		if err != nil {
 			return err
 		}
-		if exists {
-			hash = u.PwdHash
+		if !exists {
+			return ErrNotFound
 		}
 		return nil
 	})
-	return hash, err
+	return u, err
 }
 
-func SaveUser(username string, ip net.Addr, hash []byte) error {
-	u := userDoc{
-		PwdHash:   hash,
-		LastIP:    ip.String(),
-		LastLogin: time.Now(),
-	}
-
+// SaveUser saves the user to the db.
+func SaveUser(username string, u User) error {
 	return db.Update(func(tx *bolt.Tx) error {
-		b, err := tx.CreateBucketIfNotExists(users)
-		if err != nil {
-			return err
+		b := tx.Bucket(users)
+		if b == nil {
+			return ErrNoBucket("users")
+		}
+		return put(b, []byte(username), u)
+	})
+}
+
+// CreateUser creates the user only if it does not exist.
+func CreateUser(username string, u User) error {
+	return db.Update(func(tx *bolt.Tx) error {
+		b := tx.Bucket(users)
+		if b == nil {
+			return ErrNoBucket("users")
+		}
+		if b.Get([]byte(username)) != nil {
+			return ErrExists
 		}
 		return put(b, []byte(username), u)
 	})

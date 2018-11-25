@@ -103,7 +103,7 @@ func Main() error {
 	if err := world.Init(wc, dir, lock.RLocker(), shutdown, wg); err != nil {
 		return err
 	}
-	if err := world.SetStart(util.Id(cfg.StartRoom)); err != nil {
+	if err := world.SetStart(util.ID(cfg.StartRoom)); err != nil {
 		return err
 	}
 	global := game.SpawnWorker(lock, shutdown, wg)
@@ -129,7 +129,15 @@ func Main() error {
 		conn.SetKeepAlive(false)
 		conn.SetLinger(0)
 
-		log.Printf("New connection from %v", conn.RemoteAddr())
-		go auth.Login(conn, conn.RemoteAddr(), global)
+		go func() {
+			log.Printf("New connection from %v", conn.RemoteAddr())
+			user, err := auth.Login(conn, conn.RemoteAddr())
+			if err != nil {
+				log.Printf("error logging in user: ")
+			}
+			if err := world.SpawnPlayer(user, global); err != nil {
+				log.Printf("error during spawn player for user %s: %s", user.Username, err)
+			}
+		}()
 	}
 }

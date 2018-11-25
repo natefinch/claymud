@@ -54,7 +54,7 @@ func (c *Command) Handle() {
 	// socials are least important (so if you configure an social named "north" you won't
 	// prevent yourc from going north... your social just won't work
 
-	if !c.Actor.chatmode {
+	if !c.Actor.Flag(PFlagChatmode) {
 		if c.handleExit() {
 			return
 		}

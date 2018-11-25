@@ -12,12 +12,12 @@ import (
 )
 
 var (
-	locMap = map[util.Id]*Location{}
+	locMap = map[util.ID]*Location{}
 	start  *Location
 )
 
 // SetStart sets the starting room of the mud.
-func SetStart(room util.Id) error {
+func SetStart(room util.ID) error {
 	loc, exists := locMap[room]
 	if !exists {
 		return fmt.Errorf("starting room %v does not exist", room)
@@ -36,7 +36,7 @@ var locTemplate *template.Template
 
 // A Location in the mud, such as a room
 type Location struct {
-	ID   util.Id
+	ID   util.ID
 	Name string
 	Desc string
 	Exits

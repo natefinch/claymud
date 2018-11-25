@@ -3,34 +3,24 @@ package util
 import (
 	"bytes"
 	"encoding/binary"
-	"errors"
 )
 
-// somebody shoot me if I ever need more than 256 buckets
+// ID is a type that allows for unique identification of an object
+type ID uint64
 
-// BucketType makes ids unique across buckets by scoping them with another byte.
-type BucketType byte
-
-const (
-	User BucketType = iota
-)
-
-var ErrBadId = errors.New("Invalid Id")
-
-// Id is a type that allows for unique identification of an object
-type Id int64
-
-func (i Id) Key() []byte {
+// Key returns a byte representation of this ID for use with a key value database.
+func (i ID) Key() []byte {
 	buf := make([]byte, binary.MaxVarintLen64)
-	binary.PutVarint(buf, int64(i))
+	binary.PutUvarint(buf, uint64(i))
 
 	return buf
 }
 
-func ToId(key []byte) (Id, error) {
-	i, err := binary.ReadVarint(bytes.NewReader(key))
+// ToID converts a key/value db key into an Id.
+func ToID(key []byte) (ID, error) {
+	i, err := binary.ReadUvarint(bytes.NewReader(key))
 	if err != nil {
 		return 0, err
 	}
-	return Id(i), nil
+	return ID(i), nil
 }

@@ -3,18 +3,19 @@
 package auth
 
 import (
+	"bufio"
 	"errors"
 	"fmt"
 	"io"
 	"log"
+	"math/big"
 	"net"
+	"time"
 
 	"golang.org/x/crypto/bcrypt"
 
 	"github.com/natefinch/claymud/db"
-	"github.com/natefinch/claymud/game"
 	"github.com/natefinch/claymud/util"
-	"github.com/natefinch/claymud/world"
 )
 
 var (
@@ -49,39 +50,49 @@ func Init(title string, cost int) {
 	}
 }
 
-// logs a player in from an incoming connection, creating a player
+// Login logs a user in from an incoming connection, creating a player
 // in the world if they successfully connect
-func Login(rwc io.ReadWriteCloser, ip net.Addr, global *game.Worker) {
-	showTitle(rwc)
+func Login(rwc io.ReadWriteCloser, ip net.Addr) (*User, error) {
+	if err := showTitle(rwc); err != nil {
+		return nil, err
+	}
+	var ws util.WriteScanner = struct {
+		io.Writer
+		*bufio.Scanner
+	}{
+		Writer:  rwc,
+		Scanner: bufio.NewScanner(rwc),
+	}
 	for i := 0; i < retries; i++ {
-		user, err := authenticate(rwc, ip)
+		user, err := authenticate(ws, ip)
 		switch err {
 		case nil:
-			world.SpawnPlayer(rwc, user, global)
-			return
-
+			user.WriteScanner = ws
+			return user, nil
 		case ErrAuth:
 			log.Printf("Failed login from %s", ip)
-			_, err = rwc.Write([]byte("Incorrect username or password, please try again\n"))
+			_, err := io.WriteString(rwc, "Incorrect username or password, please try again\n")
 			if err != nil {
-				break
+				return nil, err
 			}
+			continue
 		case ErrDupe:
-			ok, err := handleDupe(user, rwc)
-			if ok && err == nil {
-				kick(user)
-				world.SpawnPlayer(rwc, user, global)
-				return
+			_, err = io.WriteString(rwc, "This account is already logged in.\n")
+			if err != nil {
+				return nil, err
 			}
+			continue
 		case ErrNotSetup:
-			rwc.Close()
-			return
-		}
-		if err != nil {
-			log.Printf("Error during login of user from %s: %s", ip, err)
-			return
+			_ = rwc.Close()
+			return nil, ErrNotSetup
+		default:
+			log.Printf("Failed to log in user: %v", err)
+			return nil, err
 		}
 	}
+	io.WriteString(rwc, "Too many failures, good bye.\n")
+	rwc.Close()
+	return nil, ErrAuth
 }
 
 func showTitle(w io.Writer) error {
@@ -91,7 +102,7 @@ func showTitle(w io.Writer) error {
 
 // authenticate queries the user for username and password, then authenticates
 // the credentials.
-func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
+func authenticate(ws util.WriteScanner, ip net.Addr) (*User, error) {
 	setup, err := db.IsSetup()
 	if err != nil {
 		return nil, fmt.Errorf("can't authenticate: %s", err)
@@ -103,17 +114,21 @@ func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
 			return nil, err
 		}
 		if host != "127.0.0.1" && host != "::1" {
-			showNotSetup(rw)
+			showNotSetup(ws)
 			return nil, ErrNotSetup
 		}
-		if err := showIntro(rw); err != nil {
+		if err := showIntro(ws); err != nil {
 			return nil, err
 		}
-		return showCreate(rw, ip)
+		user, err := showCreate(ws, ip)
+		if err != nil {
+			return nil, err
+		}
+		return user, nil
 	}
 
 	// normal case
-	a, err := util.QueryOptions(rw, "",
+	a, err := util.QueryOptions(ws, "", 'l',
 		util.Opt{Key: 'c', Text: "Create account"},
 		util.Opt{Key: 'l', Text: "Log in with existing account"})
 	if err != nil {
@@ -122,9 +137,9 @@ func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
 
 	switch a {
 	case 'c':
-		return showCreate(rw, ip)
+		return showCreate(ws, ip)
 	case 'l':
-		u, p, err := queryCreds(rw)
+		u, p, err := queryCreds(ws)
 		if err != nil {
 			return nil, err
 		}
@@ -134,8 +149,8 @@ func authenticate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
 	}
 }
 
-func showIntro(rw io.ReadWriter) error {
-	_, err := fmt.Fprintln(rw, `
+func showIntro(w io.Writer) error {
+	_, err := fmt.Fprintln(w, `
 Greetings, Administrator.  Welcome to ClayMUD.
 
 Since you are the first one here, you hold all the keys.  You will be asked to
@@ -146,8 +161,8 @@ Do not forget your password.  There is no password reset feature (yet).`)
 	return err
 }
 
-func showNotSetup(rw io.ReadWriter) {
-	fmt.Fprintln(rw, `
+func showNotSetup(w io.Writer) {
+	fmt.Fprintln(w, `
 Greetings, User.  Welcome to ClayMUD.
 
 This instance of ClayMUD has not been set up and is not ready for public
@@ -156,8 +171,8 @@ machine where the MUD runs to start setup.`)
 }
 
 // showCreate leads the user through the process of creating a user.
-func showCreate(rw io.ReadWriter, ip net.Addr) (user *world.User, err error) {
-	_, err = fmt.Fprint(rw, `
+func showCreate(ws util.WriteScanner, ip net.Addr) (*User, error) {
+	_, err := io.WriteString(ws, `
 Please enter a username.  Note that this is only for use in logging into the MUD
 and will not be visible to non-admins.
 
@@ -167,13 +182,13 @@ and will not be visible to non-admins.
 	}
 
 	for {
-		u, pw, err := queryNewUser(rw)
+		u, pw, err := queryNewUser(ws)
 		if err != nil {
 			return nil, err
 		}
-		user, err = createUser(u, pw, ip)
+		user, err := createDBUser(u, pw, ip)
 		if err == ErrExists {
-			_, err := fmt.Fprintln(rw, "That username already exists, please choose another.")
+			_, err := io.WriteString(ws, "That username already exists, please choose another.\n")
 			if err != nil {
 				return nil, err
 			}
@@ -186,15 +201,9 @@ and will not be visible to non-admins.
 	}
 }
 
-// createUser creates the user if it does not exist.  If it does exist,
-// createUser will return ErrExists.
-func createUser(username, pw string, ip net.Addr) (user *world.User, err error) {
-	// do the expensive hash outside the critical section!!
-	hash, err := bcrypt.GenerateFromPassword([]byte(pw), bcryptCost)
-	if err != nil {
-		return nil, err
-	}
-
+// createDBUser creates the user in the DB if it does not exist.  If it does exist,
+// createDBUser will return ErrExists.
+func createDBUser(username, pw string, ip net.Addr) (*User, error) {
 	exists, err := db.UserExists(username)
 	if err != nil {
 		return nil, err
@@ -202,24 +211,43 @@ func createUser(username, pw string, ip net.Addr) (user *world.User, err error) 
 	if exists {
 		return nil, ErrExists
 	}
-
-	if err := db.SaveUser(username, ip, hash); err != nil {
+	hash, err := bcrypt.GenerateFromPassword([]byte(pw), bcryptCost)
+	if err != nil {
+		return nil, err
+	}
+	setup, err := db.IsSetup()
+	if err != nil {
+		return nil, err
+	}
+	user := &User{
+		Username: username,
+		IP:       ip,
+		bits:     big.NewInt(0),
+	}
+	if !setup {
+		// the first person in gets to be admin
+		user.SetFlag(UFlagAdmin)
+	}
+	doc := db.User{
+		PwdHash:   hash,
+		LastIP:    ip.String(),
+		LastLogin: time.Now(),
+		Flags:     user.bits,
+	}
+	if err := db.CreateUser(username, doc); err != nil {
 		return nil, err
 	}
 	log.Printf("created user %q", username)
-	user = &world.User{
-		Username: username,
-	}
 	return user, nil
 }
 
 // queryCreds asks the user for their username and password.
-func queryCreds(rw io.ReadWriter) (user, pwd string, err error) {
-	user, err = util.Query(rw, "Username: ")
+func queryCreds(ws util.WriteScanner) (user, pwd string, err error) {
+	user, err = util.Query(ws, "Username: ")
 	if err != nil {
 		return "", "", err
 	}
-	pwd, err = util.Query(rw, "Password: ")
+	pwd, err = util.Query(ws, "Password: ")
 	if err != nil {
 		return "", "", err
 	}
@@ -227,8 +255,8 @@ func queryCreds(rw io.ReadWriter) (user, pwd string, err error) {
 }
 
 // queryNewUser asks the user to create a new username and password.
-func queryNewUser(rw io.ReadWriter) (user, pwd string, err error) {
-	user, err = util.QueryVerify(rw, "Username: ",
+func queryNewUser(ws util.WriteScanner) (user, pwd string, err error) {
+	user, err = util.QueryVerify(ws, "Username: ",
 		func(user string) (string, error) {
 			exists, err := db.UserExists(user)
 			if err != nil {
@@ -242,7 +270,7 @@ func queryNewUser(rw io.ReadWriter) (user, pwd string, err error) {
 	if err != nil {
 		return "", "", err
 	}
-	pwd, err = util.QueryVerify(rw, "Password: ",
+	pwd, err = util.QueryVerify(ws, "Password: ",
 		func(pw string) (string, error) {
 			if len(pw) > 1024 {
 				return "The maximum length for a password is 1024 characters.", nil
@@ -256,25 +284,19 @@ func queryNewUser(rw io.ReadWriter) (user, pwd string, err error) {
 }
 
 // checkPass verifies that the given user exists and that the password matches.
-func checkPass(username, pass string, ip net.Addr) (user *world.User, err error) {
-	if _, ok := world.FindPlayer(username); ok {
-		return nil, ErrDupe
-	}
-	hash, err := db.Password(username)
-	if err != nil {
-		return nil, err
-	}
-
+func checkPass(username, pass string, ip net.Addr) (user *User, err error) {
 	passb := []byte(pass)
-	if hash == nil {
+	u, err := db.FindUser(username)
+	if err == db.ErrNotFound {
 		// User does not exist. Fake out the time we would otherwise take to run
 		// the hash.  Ignore the error, we really only care about sucking up
 		// some CPU cycles here.
 		_ = bcrypt.CompareHashAndPassword(fakehash, passb)
 		return nil, ErrAuth
 	}
-
-	err = bcrypt.CompareHashAndPassword(hash, passb)
+	start := time.Now()
+	err = bcrypt.CompareHashAndPassword(u.PwdHash, passb)
+	log.Printf("user password hashed in %v", time.Since(start))
 	if err == bcrypt.ErrMismatchedHashAndPassword {
 		return nil, ErrAuth
 	}
@@ -282,33 +304,31 @@ func checkPass(username, pass string, ip net.Addr) (user *world.User, err error)
 		return nil, err
 	}
 
-	cost, err := bcrypt.Cost(hash)
+	cost, err := bcrypt.Cost(u.PwdHash)
 	if err != nil {
 		return nil, err
 	}
 
 	// Handle bcrypt cost change, rehash with new cost.
 	if cost != bcryptCost {
-		hash, err = bcrypt.GenerateFromPassword(passb, bcryptCost)
+		hash, err := bcrypt.GenerateFromPassword(passb, bcryptCost)
 		if err != nil {
 			return nil, err
 		}
+		u.PwdHash = hash
 	}
+	u.LastIP = ip.String()
+	u.LastLogin = time.Now()
 
 	// Login successful, update info.
-	if err := db.SaveUser(username, ip, hash); err != nil {
+	if err := db.SaveUser(username, u); err != nil {
 		return nil, err
 	}
 
-	return &world.User{Username: username, IP: ip}, nil
-}
-
-func handleDupe(user *world.User, w io.Writer) (kick bool, err error) {
-	// TODO: actually handle duplicate logins
-	_, err = w.Write([]byte("This account is already logged in."))
-	return false, err
-}
-
-func kick(user *world.User) {
-	// TODO: implement
+	return &User{
+		Username: username,
+		IP:       ip,
+		Players:  u.Players,
+		bits:     u.Flags,
+	}, nil
 }

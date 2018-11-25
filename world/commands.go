@@ -88,7 +88,7 @@ func gotoCmd(c *Command) {
 	}
 	num, err := strconv.Atoi(c.Target())
 	if err == nil {
-		loc, ok := locMap[util.Id(num)]
+		loc, ok := locMap[util.ID(num)]
 		if !ok {
 			c.Actor.HandleLocal(func() {
 				c.Actor.WriteString("There is no room with that number.")
@@ -186,17 +186,18 @@ func chatmode(c *Command) {
 	c.Actor.HandleLocal(func() {
 		switch c.Target() {
 		case "?":
-			if c.Actor.chatmode {
+			if c.Actor.Flag(PFlagChatmode) {
 				c.Actor.WriteString("chat mode is on")
 			} else {
 				c.Actor.WriteString("chat mode is off")
 			}
 		case "":
-			c.Actor.chatmode = !c.Actor.chatmode
-			if c.Actor.chatmode {
-				c.Actor.WriteString("chat mode is now on")
-			} else {
+			if c.Actor.Flag(PFlagChatmode) {
+				c.Actor.UnsetFlag(PFlagChatmode)
 				c.Actor.WriteString("chat mode is now off")
+			} else {
+				c.Actor.SetFlag(PFlagChatmode)
+				c.Actor.WriteString("chat mode is now on")
 			}
 		default:
 			c.Actor.Printf("unknown command target %v", c.Target())

@@ -18,6 +18,7 @@ import (
 
 // Runs "go build" and generates the version info the binary.
 func Build() error {
+	os.Setenv("GOOS", os.Getenv("GOOSE"))
 	return sh.RunV("go", "build", "-ldflags="+flags(), "github.com/natefinch/claymud")
 }
 

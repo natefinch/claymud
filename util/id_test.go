@@ -5,9 +5,9 @@ import (
 )
 
 func TestIdRoundTrip(t *testing.T) {
-	var id Id = 45
+	var id ID = 45
 	key := id.Key()
-	id2, err := ToId(key)
+	id2, err := ToID(key)
 	if err != nil {
 		t.Fatal(err)
 	}

@@ -10,11 +10,11 @@ import (
 // Area is a small collection of related locations, such as the rooms in a
 // hotel.
 type Area struct {
-	ID        util.Id
+	ID        util.ID
 	Name      string
 	Zone      *Zone
 	Locations []*Location
-	LocByID   map[util.Id]*Location
+	LocByID   map[util.ID]*Location
 }
 
 // Add adds the location to this area.
@@ -27,7 +27,7 @@ func (a *Area) Add(l *Location) {
 // Zone is a collection of Areas that represent one large and logically distinct
 // section of the mud, such as a town.
 type Zone struct {
-	ID    util.Id
+	ID    util.ID
 	Name  string
 	Areas []*Area
 	*game.Worker

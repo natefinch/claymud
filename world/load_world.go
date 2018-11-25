@@ -13,7 +13,7 @@ import (
 )
 
 var (
-	zones = map[util.Id]*Zone{}
+	zones = map[util.ID]*Zone{}
 )
 
 func loadWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, wg *sync.WaitGroup) error {
@@ -34,7 +34,7 @@ func loadWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, w
 			&Area{
 				ID:      <-ids,
 				Name:    zone.Name,
-				LocByID: map[util.Id]*Location{},
+				LocByID: map[util.ID]*Location{},
 			})
 		zones[zone.ID] = zone
 		zone.Worker = game.SpawnWorker(zoneLock, shutdown, wg)
@@ -63,7 +63,7 @@ func loadWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, w
 	// and hook up all the exits. We have to do this afterward because an exit
 	// might refer to a location that hasn't been loaded yet.
 	for _, r := range jsonRooms {
-		loc, exists := locMap[util.Id(r.ID)]
+		loc, exists := locMap[util.ID(r.ID)]
 		if !exists {
 			return fmt.Errorf("should be impossible, jsonRoom refers to unknown location %v", r.ID)
 		}
@@ -76,7 +76,7 @@ func loadWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, w
 			if !exists {
 				return fmt.Errorf("should be impossible, direction %q for exit in room %v doesn't exist", e.Direction, r.ID)
 			}
-			target, exists := locMap[util.Id(e.Destination)]
+			target, exists := locMap[util.ID(e.Destination)]
 			if !exists {
 				return fmt.Errorf("direction %q for exit in room %v references non-existant room %v", e.Direction, r.ID, e.Destination)
 			}
@@ -112,7 +112,7 @@ func decodeZone(file string) (*Zone, error) {
 	return &zone, nil
 }
 
-func decodeRooms(rooms map[util.Id]*Location, file string) ([]jsonRoom, error) {
+func decodeRooms(rooms map[util.ID]*Location, file string) ([]jsonRoom, error) {
 	f, err := os.Open(file)
 	if err != nil {
 		return nil, fmt.Errorf("can't open room file: %v", err)
@@ -126,7 +126,7 @@ func decodeRooms(rooms map[util.Id]*Location, file string) ([]jsonRoom, error) {
 		return nil, fmt.Errorf("unable to decode room file %q: %v", file, err)
 	}
 	for _, r := range decoded.Rooms {
-		if rm, exists := rooms[util.Id(r.ID)]; exists {
+		if rm, exists := rooms[util.ID(r.ID)]; exists {
 			return nil, fmt.Errorf("room %v (%s) already exists as %q", r.ID, r.Name, rm.Name)
 		}
 		loc, err := r.toLoc()
@@ -151,7 +151,7 @@ type jsonRoom struct {
 }
 
 func (j jsonRoom) toLoc() (*Location, error) {
-	z, exists := zones[util.Id(j.Zone)]
+	z, exists := zones[util.ID(j.Zone)]
 	if !exists {
 		return nil, fmt.Errorf("room %v's zone %v does not exist", j.ID, j.Zone)
 	}
@@ -161,7 +161,7 @@ func (j jsonRoom) toLoc() (*Location, error) {
 		}
 	}
 	loc := &Location{
-		ID:           util.Id(j.ID),
+		ID:           util.ID(j.ID),
 		Name:         j.Name,
 		Desc:         j.Description,
 		Descriptions: map[string]string{},
