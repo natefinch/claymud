@@ -1,8 +1,7 @@
 package db
 
 import (
-	"bytes"
-	"encoding/gob"
+	"encoding/json"
 
 	"github.com/boltdb/bolt"
 )
@@ -15,22 +14,15 @@ func get(b *bolt.Bucket, key []byte, val interface{}) (bool, error) {
 	if v == nil {
 		return false, nil
 	}
-	d := gob.NewDecoder(bytes.NewReader(v))
-	return true, d.Decode(val)
+	return true, json.Unmarshal(v, val)
 }
-
-var buf = &bytes.Buffer{}
 
 // put gob encodes the value and puts it in the given bucket with the given key.
 // This function assumes b was created from a writeable transaction.
 func put(b *bolt.Bucket, key []byte, val interface{}) error {
-	// we reuse the buffer here since this is, by definition locked by being in
-	// a bolt write action.
-	defer buf.Reset()
-	e := gob.NewEncoder(buf)
-	err := e.Encode(val)
+	bytes, err := json.Marshal(val)
 	if err != nil {
 		return err
 	}
-	return b.Put(key, buf.Bytes())
+	return b.Put(key, bytes)
 }

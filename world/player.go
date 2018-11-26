@@ -116,8 +116,8 @@ type Player struct {
 
 // SpawnPlayer attaches the connection to a player and inserts it into the world.  This
 // function runs for as long as the player is in the world.
-func SpawnPlayer(user *auth.User, global *game.Worker) error {
-	dbp, err := chooseDBPlayer(user)
+func SpawnPlayer(st *db.Store, user *auth.User, global *game.Worker) error {
+	dbp, err := chooseDBPlayer(st, user)
 	if err != nil {
 		return err
 	}
@@ -161,17 +161,18 @@ func SpawnPlayer(user *auth.User, global *game.Worker) error {
 	return nil
 }
 
-func chooseDBPlayer(user *auth.User) (*db.Player, error) {
+func chooseDBPlayer(st *db.Store, user *auth.User) (*db.Player, error) {
 	if len(user.Players) == 0 {
 		_, err := io.WriteString(user, "You have no players, let's create one.\n")
 		if err != nil {
 			return nil, err
 		}
-		return createPlayer(user, game.Genders)
+		return createPlayer(st, user, game.Genders)
 	}
 	if user.Flag(auth.UFlagAdmin) {
 		// Admins get exactly one player.
-		return db.FindPlayer(user.Players[0])
+		p, err := st.FindPlayer(user.Players[0])
+		return &p, err
 	}
 	newChar := "(create new)"
 	choices := append([]string{newChar}, user.Players...)
@@ -180,9 +181,10 @@ func chooseDBPlayer(user *auth.User) (*db.Player, error) {
 		return nil, err
 	}
 	if i == 0 {
-		return createPlayer(user, game.Genders)
+		return createPlayer(st, user, game.Genders)
 	}
-	return db.FindPlayer(choices[i])
+	p, err := st.FindPlayer(choices[i])
+	return &p, err
 }
 
 func verifyName(name string) (string, error) {
@@ -203,7 +205,7 @@ func verifyName(name string) (string, error) {
 	return "", nil
 }
 
-func createPlayer(user *auth.User, genders []game.Gender) (*db.Player, error) {
+func createPlayer(st *db.Store, user *auth.User, genders []game.Gender) (*db.Player, error) {
 	const queryName = "By what name do you wish your character to be known? "
 	name, err := util.QueryVerify(user, queryName, verifyName)
 	if err != nil {
@@ -230,7 +232,7 @@ func createPlayer(user *auth.User, genders []game.Gender) (*db.Player, error) {
 		Flags:       big.NewInt(0),
 	}
 	for {
-		err = db.CreatePlayer(user.Username, p)
+		err = st.CreatePlayer(user.Username, p)
 		if _, ok := err.(db.ErrExists); ok {
 			_, err := io.WriteString(user, "A character with that name already exists.\n")
 			if err != nil {
@@ -247,8 +249,6 @@ func createPlayer(user *auth.User, genders []game.Gender) (*db.Player, error) {
 		if err != nil {
 			return nil, err
 		}
-		// success, now add that charactrer to the user's list
-
 		return &p, nil
 	}
 }

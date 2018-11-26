@@ -59,8 +59,10 @@ func Main() error {
 		return err
 	}
 	auth.Init(cfg.MainTitle, cfg.BcryptCost)
+
 	// db must be before world!
-	if err := db.Initialize(dir); err != nil {
+	st, err := db.Init(dir)
+	if err != nil {
 		return err
 	}
 
@@ -131,11 +133,11 @@ func Main() error {
 
 		go func() {
 			log.Printf("New connection from %v", conn.RemoteAddr())
-			user, err := auth.Login(conn, conn.RemoteAddr())
+			user, err := auth.Login(st, conn, conn.RemoteAddr())
 			if err != nil {
 				log.Printf("error logging in user: ")
 			}
-			if err := world.SpawnPlayer(user, global); err != nil {
+			if err := world.SpawnPlayer(st, user, global); err != nil {
 				log.Printf("error during spawn player for user %s: %s", user.Username, err)
 			}
 		}()

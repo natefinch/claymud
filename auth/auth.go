@@ -52,7 +52,7 @@ func Init(title string, cost int) {
 
 // Login logs a user in from an incoming connection, creating a player
 // in the world if they successfully connect
-func Login(rwc io.ReadWriteCloser, ip net.Addr) (*User, error) {
+func Login(st *db.Store, rwc io.ReadWriteCloser, ip net.Addr) (*User, error) {
 	if err := showTitle(rwc); err != nil {
 		return nil, err
 	}
@@ -64,10 +64,11 @@ func Login(rwc io.ReadWriteCloser, ip net.Addr) (*User, error) {
 		Scanner: bufio.NewScanner(rwc),
 	}
 	for i := 0; i < retries; i++ {
-		user, err := authenticate(ws, ip)
+		user, err := authenticate(st, ws, ip)
 		switch err {
 		case nil:
 			user.WriteScanner = ws
+			user.Closer = rwc
 			return user, nil
 		case ErrAuth:
 			log.Printf("Failed login from %s", ip)
@@ -102,8 +103,8 @@ func showTitle(w io.Writer) error {
 
 // authenticate queries the user for username and password, then authenticates
 // the credentials.
-func authenticate(ws util.WriteScanner, ip net.Addr) (*User, error) {
-	setup, err := db.IsSetup()
+func authenticate(st *db.Store, ws util.WriteScanner, ip net.Addr) (*User, error) {
+	setup, err := st.IsSetup()
 	if err != nil {
 		return nil, fmt.Errorf("can't authenticate: %s", err)
 	}
@@ -120,7 +121,7 @@ func authenticate(ws util.WriteScanner, ip net.Addr) (*User, error) {
 		if err := showIntro(ws); err != nil {
 			return nil, err
 		}
-		user, err := showCreate(ws, ip)
+		user, err := showCreate(st, ws, ip)
 		if err != nil {
 			return nil, err
 		}
@@ -137,13 +138,13 @@ func authenticate(ws util.WriteScanner, ip net.Addr) (*User, error) {
 
 	switch a {
 	case 'c':
-		return showCreate(ws, ip)
+		return showCreate(st, ws, ip)
 	case 'l':
 		u, p, err := queryCreds(ws)
 		if err != nil {
 			return nil, err
 		}
-		return checkPass(u, p, ip)
+		return checkPass(st, u, p, ip)
 	default:
 		panic(fmt.Errorf("Should be impossible, got %v from login options", a))
 	}
@@ -171,7 +172,7 @@ machine where the MUD runs to start setup.`)
 }
 
 // showCreate leads the user through the process of creating a user.
-func showCreate(ws util.WriteScanner, ip net.Addr) (*User, error) {
+func showCreate(st *db.Store, ws util.WriteScanner, ip net.Addr) (*User, error) {
 	_, err := io.WriteString(ws, `
 Please enter a username.  Note that this is only for use in logging into the MUD
 and will not be visible to non-admins.
@@ -182,11 +183,11 @@ and will not be visible to non-admins.
 	}
 
 	for {
-		u, pw, err := queryNewUser(ws)
+		u, pw, err := queryNewUser(st, ws)
 		if err != nil {
 			return nil, err
 		}
-		user, err := createDBUser(u, pw, ip)
+		user, err := createDBUser(st, u, pw, ip)
 		if err == ErrExists {
 			_, err := io.WriteString(ws, "That username already exists, please choose another.\n")
 			if err != nil {
@@ -203,12 +204,12 @@ and will not be visible to non-admins.
 
 // createDBUser creates the user in the DB if it does not exist.  If it does exist,
 // createDBUser will return ErrExists.
-func createDBUser(username, pw string, ip net.Addr) (*User, error) {
+func createDBUser(st *db.Store, username, pw string, ip net.Addr) (*User, error) {
 	hash, err := bcrypt.GenerateFromPassword([]byte(pw), bcryptCost)
 	if err != nil {
 		return nil, err
 	}
-	setup, err := db.IsSetup()
+	setup, err := st.IsSetup()
 	if err != nil {
 		return nil, err
 	}
@@ -227,7 +228,7 @@ func createDBUser(username, pw string, ip net.Addr) (*User, error) {
 		LastLogin: time.Now(),
 		Flags:     user.bits,
 	}
-	if err := db.CreateUser(doc, hash); err != nil {
+	if err := st.CreateUser(doc, hash); err != nil {
 		if _, ok := err.(db.ErrExists); ok {
 			return nil, ErrExists
 		}
@@ -251,10 +252,10 @@ func queryCreds(ws util.WriteScanner) (user, pwd string, err error) {
 }
 
 // queryNewUser asks the user to create a new username and password.
-func queryNewUser(ws util.WriteScanner) (user, pwd string, err error) {
+func queryNewUser(st *db.Store, ws util.WriteScanner) (user, pwd string, err error) {
 	user, err = util.QueryVerify(ws, "Username: ",
 		func(user string) (string, error) {
-			exists, err := db.UserExists(user)
+			exists, err := st.UserExists(user)
 			if err != nil {
 				return "", fmt.Errorf("error checking for existence of username: %s", err)
 			}
@@ -280,9 +281,9 @@ func queryNewUser(ws util.WriteScanner) (user, pwd string, err error) {
 }
 
 // checkPass verifies that the given user exists and that the password matches.
-func checkPass(username, pass string, ip net.Addr) (*User, error) {
+func checkPass(st *db.Store, username, pass string, ip net.Addr) (*User, error) {
 	passb := []byte(pass)
-	c, err := db.FindCreds(username)
+	c, err := st.FindCreds(username)
 	if _, ok := err.(db.ErrNotFound); ok {
 		// User does not exist. Fake out the time we would otherwise take to run
 		// the hash.  Ignore the error, we really only care about sucking up
@@ -312,18 +313,18 @@ func checkPass(username, pass string, ip net.Addr) (*User, error) {
 			return nil, err
 		}
 		c.PwdHash = hash
-		if err := db.SaveCreds(c); err != nil {
+		if err := st.SaveCreds(c); err != nil {
 			return nil, err
 		}
 	}
 	// Login successful, update info.
-	u, err := db.FindUser(username)
+	u, err := st.FindUser(username)
 	if err != nil {
 		return nil, err
 	}
 	u.LastIP = ip.String()
 	u.LastLogin = time.Now()
-	if err := db.SaveUser(u); err != nil {
+	if err := st.SaveUser(u); err != nil {
 		return nil, err
 	}
 	user := &User{

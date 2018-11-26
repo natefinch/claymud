@@ -11,9 +11,9 @@ type Credentials struct {
 }
 
 // FindCreds returns the user's credentials.
-func FindCreds(username string) (Credentials, error) {
+func (st *Store) FindCreds(username string) (Credentials, error) {
 	var c Credentials
-	err := db.View(func(tx *bolt.Tx) error {
+	err := st.db.View(func(tx *bolt.Tx) error {
 		b := tx.Bucket(credsBucket)
 		if b == nil {
 			return ErrNoBucket("credentials")
@@ -31,8 +31,8 @@ func FindCreds(username string) (Credentials, error) {
 }
 
 // SaveCreds saves the user's credentials to the db.
-func SaveCreds(c Credentials) error {
-	return db.Update(func(tx *bolt.Tx) error {
+func (st *Store) SaveCreds(c Credentials) error {
+	return st.db.Update(func(tx *bolt.Tx) error {
 		return saveCreds(tx, c)
 	})
 }

@@ -19,9 +19,9 @@ type User struct {
 }
 
 // UserExists reports whether a user with the username exists.
-func UserExists(username string) (bool, error) {
+func (st *Store) UserExists(username string) (bool, error) {
 	exists := false
-	err := db.View(func(tx *bolt.Tx) error {
+	err := st.db.View(func(tx *bolt.Tx) error {
 		b := tx.Bucket(usersBucket)
 		if b == nil {
 			return ErrNoBucket("users")
@@ -33,9 +33,9 @@ func UserExists(username string) (bool, error) {
 }
 
 // FindUser returns the user with the username.
-func FindUser(username string) (User, error) {
+func (st *Store) FindUser(username string) (User, error) {
 	var u User
-	err := db.View(func(tx *bolt.Tx) error {
+	err := st.db.View(func(tx *bolt.Tx) error {
 		var err error
 		u, err = getUser(tx, username)
 		return err
@@ -60,8 +60,8 @@ func getUser(tx *bolt.Tx, username string) (User, error) {
 }
 
 // SaveUser saves the user to the db.
-func SaveUser(u User) error {
-	return db.Update(func(tx *bolt.Tx) error {
+func (st *Store) SaveUser(u User) error {
+	return st.db.Update(func(tx *bolt.Tx) error {
 		return saveUser(tx, u)
 	})
 }
@@ -75,8 +75,8 @@ func saveUser(tx *bolt.Tx, u User) error {
 }
 
 // CreateUser creates the user only if it does not exist.
-func CreateUser(u User, pwdHash []byte) error {
-	return db.Update(func(tx *bolt.Tx) error {
+func (st *Store) CreateUser(u User, pwdHash []byte) error {
+	return st.db.Update(func(tx *bolt.Tx) error {
 		users := tx.Bucket(usersBucket)
 		if users == nil {
 			return ErrNoBucket("users")

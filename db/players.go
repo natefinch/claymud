@@ -22,9 +22,9 @@ type Player struct {
 
 // FindPlayer returns the player with the given name. This is a
 // case-insensitive check.
-func FindPlayer(name string) (*Player, error) {
+func (st *Store) FindPlayer(name string) (Player, error) {
 	var p Player
-	err := db.View(func(tx *bolt.Tx) error {
+	err := st.db.View(func(tx *bolt.Tx) error {
 		b := tx.Bucket(playersBucket)
 		if b == nil {
 			return ErrNoBucket("players")
@@ -40,16 +40,16 @@ func FindPlayer(name string) (*Player, error) {
 		return nil
 	})
 	if err != nil {
-		return nil, err
+		return p, err
 	}
-	return &p, nil
+	return p, nil
 }
 
 // PlayerExists reports whether a player with the given name exists. This is a
 // case-insensitive check.
-func PlayerExists(name string) (bool, error) {
+func (st *Store) PlayerExists(name string) (bool, error) {
 	exists := false
-	err := db.View(func(tx *bolt.Tx) error {
+	err := st.db.View(func(tx *bolt.Tx) error {
 		b := tx.Bucket(playersBucket)
 		if b == nil {
 			return ErrNoBucket("players")
@@ -62,8 +62,8 @@ func PlayerExists(name string) (bool, error) {
 }
 
 // SavePlayer saves the player's data to the db.
-func SavePlayer(p Player) error {
-	return db.Update(func(tx *bolt.Tx) error {
+func (st *Store) SavePlayer(p Player) error {
+	return st.db.Update(func(tx *bolt.Tx) error {
 		b := tx.Bucket(playersBucket)
 		if b == nil {
 			return ErrNoBucket("players")
@@ -73,8 +73,8 @@ func SavePlayer(p Player) error {
 }
 
 // CreatePlayer saves the player only if it does not already exist.
-func CreatePlayer(username string, p Player) error {
-	return db.Update(func(tx *bolt.Tx) error {
+func (st *Store) CreatePlayer(username string, p Player) error {
+	return st.db.Update(func(tx *bolt.Tx) error {
 		players := tx.Bucket(playersBucket)
 		if players == nil {
 			return ErrNoBucket("players")
