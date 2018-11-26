@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/boltdb/bolt"
-	"github.com/gofrs/uuid"
 	"github.com/natefinch/claymud/game"
+	"github.com/natefinch/claymud/util"
 )
 
 var playersBucket = []byte("players")
@@ -15,14 +15,14 @@ var playersBucket = []byte("players")
 type Player struct {
 	Name        string
 	Description string
-	ID          uuid.UUID
+	ID          util.ID
 	Gender      game.Gender
 	Flags       *big.Int
 }
 
 // FindPlayer returns the player with the given name. This is a
 // case-insensitive check.
-func (st *Store) FindPlayer(name string) (Player, error) {
+func (st *Store) FindPlayer(name string) (*Player, error) {
 	var p Player
 	err := st.db.View(func(tx *bolt.Tx) error {
 		b := tx.Bucket(playersBucket)
@@ -40,9 +40,9 @@ func (st *Store) FindPlayer(name string) (Player, error) {
 		return nil
 	})
 	if err != nil {
-		return p, err
+		return nil, err
 	}
-	return p, nil
+	return &p, nil
 }
 
 // PlayerExists reports whether a player with the given name exists. This is a
@@ -62,7 +62,7 @@ func (st *Store) PlayerExists(name string) (bool, error) {
 }
 
 // SavePlayer saves the player's data to the db.
-func (st *Store) SavePlayer(p Player) error {
+func (st *Store) SavePlayer(p *Player) error {
 	return st.db.Update(func(tx *bolt.Tx) error {
 		b := tx.Bucket(playersBucket)
 		if b == nil {
@@ -73,7 +73,7 @@ func (st *Store) SavePlayer(p Player) error {
 }
 
 // CreatePlayer saves the player only if it does not already exist.
-func (st *Store) CreatePlayer(username string, p Player) error {
+func (st *Store) CreatePlayer(username string, p *Player) error {
 	return st.db.Update(func(tx *bolt.Tx) error {
 		players := tx.Bucket(playersBucket)
 		if players == nil {
@@ -84,6 +84,11 @@ func (st *Store) CreatePlayer(username string, p Player) error {
 		if val != nil {
 			return ErrExists("player")
 		}
+		id, err := players.NextSequence()
+		if err != nil {
+			return err
+		}
+		p.ID = util.ID(id)
 		if err := put(players, key, p); err != nil {
 			return err
 		}

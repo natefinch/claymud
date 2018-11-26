@@ -45,18 +45,6 @@ type Location struct {
 	Descriptions map[string]string
 }
 
-// NewLocation creates a new location.
-func NewLocation(name string, desc string, area *Area) *Location {
-	l := &Location{
-		Name:    name,
-		Desc:    desc,
-		ID:      <-ids,
-		Players: make(map[string]*Player),
-	}
-	area.Add(l)
-	return l
-}
-
 // returns a string representation of this location (primarily for logging)
 func (l *Location) String() string {
 	return fmt.Sprintf("%v [%v]", l.Name, l.ID)

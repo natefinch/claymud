@@ -38,21 +38,6 @@ const (
 	PFlagChatmode PFlag = iota
 )
 
-// IDs are not persisted. They just make comparisons between things faster than
-// doing a string comparison.
-
-var ids = make(chan util.ID)
-
-func init() {
-	go func() {
-		var id util.ID
-		for {
-			ids <- id
-			id++
-		}
-	}()
-}
-
 var (
 	playerMap  = map[string]*Player{}
 	playerList = &sortedPlayers{}
@@ -128,8 +113,7 @@ func SpawnPlayer(st *db.Store, user *auth.User, global *game.Worker) error {
 	p := &Player{
 		name:    dbp.Name,
 		Desc:    dbp.Description,
-		uuid:    dbp.ID,
-		ID:      <-ids,
+		ID:      dbp.ID,
 		loc:     loc,
 		gender:  dbp.Gender,
 		global:  global,
@@ -171,8 +155,7 @@ func chooseDBPlayer(st *db.Store, user *auth.User) (*db.Player, error) {
 	}
 	if user.Flag(auth.UFlagAdmin) {
 		// Admins get exactly one player.
-		p, err := st.FindPlayer(user.Players[0])
-		return &p, err
+		return st.FindPlayer(user.Players[0])
 	}
 	newChar := "(create new)"
 	choices := append([]string{newChar}, user.Players...)
@@ -183,8 +166,7 @@ func chooseDBPlayer(st *db.Store, user *auth.User) (*db.Player, error) {
 	if i == 0 {
 		return createPlayer(st, user, game.Genders)
 	}
-	p, err := st.FindPlayer(choices[i])
-	return &p, err
+	return st.FindPlayer(choices[i])
 }
 
 func verifyName(name string) (string, error) {
@@ -220,13 +202,8 @@ func createPlayer(st *db.Store, user *auth.User, genders []game.Gender) (*db.Pla
 		return nil, err
 	}
 	gender := genders[i]
-	id, err := uuid.NewV4()
-	if err != nil {
-		return nil, err
-	}
-	p := db.Player{
+	p := &db.Player{
 		Name:        name,
-		ID:          id,
 		Description: name + " is standing here.",
 		Gender:      gender,
 		Flags:       big.NewInt(0),
@@ -249,7 +226,7 @@ func createPlayer(st *db.Store, user *auth.User, genders []game.Gender) (*db.Pla
 		if err != nil {
 			return nil, err
 		}
-		return &p, nil
+		return p, nil
 	}
 }
 

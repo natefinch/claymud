@@ -3,7 +3,6 @@ package auth
 import (
 	"io"
 	"math/big"
-	"net"
 
 	"github.com/natefinch/claymud/util"
 )
@@ -22,7 +21,7 @@ const (
 
 // An user is a username and password and connection info.
 type User struct {
-	IP       net.Addr
+	ID       util.ID
 	Username string
 	Players  []string
 	bits     *big.Int

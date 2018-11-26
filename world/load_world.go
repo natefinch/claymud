@@ -32,7 +32,6 @@ func loadWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, w
 		}
 		zone.Add(
 			&Area{
-				ID:      <-ids,
 				Name:    zone.Name,
 				LocByID: map[util.ID]*Location{},
 			})

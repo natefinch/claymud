@@ -215,14 +215,13 @@ func createDBUser(st *db.Store, username, pw string, ip net.Addr) (*User, error)
 	}
 	user := &User{
 		Username: username,
-		IP:       ip,
 		bits:     big.NewInt(0),
 	}
 	if !setup {
 		// the first person in gets to be admin
 		user.SetFlag(UFlagAdmin)
 	}
-	doc := db.User{
+	doc := &db.User{
 		Username:  username,
 		LastIP:    ip.String(),
 		LastLogin: time.Now(),
@@ -234,7 +233,8 @@ func createDBUser(st *db.Store, username, pw string, ip net.Addr) (*User, error)
 		}
 		return nil, err
 	}
-	log.Printf("created user %q", username)
+	user.ID = util.ID(doc.ID)
+	log.Printf("created user %q (%d)", username, user.ID)
 	return user, nil
 }
 
@@ -328,8 +328,8 @@ func checkPass(st *db.Store, username, pass string, ip net.Addr) (*User, error) 
 		return nil, err
 	}
 	user := &User{
-		Username: username,
-		IP:       ip,
+		ID:       u.ID,
+		Username: u.Username,
 		Players:  u.Players,
 		bits:     u.Flags,
 	}

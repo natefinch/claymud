@@ -5,12 +5,14 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
+	"github.com/natefinch/claymud/util"
 )
 
 var usersBucket = []byte("users")
 
 // User is the structure that is stored in the database for a User.
 type User struct {
+	ID        util.ID
 	Username  string
 	LastIP    string
 	LastLogin time.Time
@@ -33,40 +35,43 @@ func (st *Store) UserExists(username string) (bool, error) {
 }
 
 // FindUser returns the user with the username.
-func (st *Store) FindUser(username string) (User, error) {
-	var u User
+func (st *Store) FindUser(username string) (*User, error) {
+	var u *User
 	err := st.db.View(func(tx *bolt.Tx) error {
 		var err error
 		u, err = getUser(tx, username)
 		return err
 	})
-	return u, err
-}
-
-func getUser(tx *bolt.Tx, username string) (User, error) {
-	var u User
-	b := tx.Bucket(usersBucket)
-	if b == nil {
-		return u, ErrNoBucket("users")
-	}
-	exists, err := get(b, []byte(username), &u)
 	if err != nil {
-		return u, err
-	}
-	if !exists {
-		return u, ErrNotFound("user")
+		return nil, err
 	}
 	return u, nil
 }
 
+func getUser(tx *bolt.Tx, username string) (*User, error) {
+	var u User
+	b := tx.Bucket(usersBucket)
+	if b == nil {
+		return nil, ErrNoBucket("users")
+	}
+	exists, err := get(b, []byte(username), &u)
+	if err != nil {
+		return nil, err
+	}
+	if !exists {
+		return nil, ErrNotFound("user")
+	}
+	return &u, nil
+}
+
 // SaveUser saves the user to the db.
-func (st *Store) SaveUser(u User) error {
+func (st *Store) SaveUser(u *User) error {
 	return st.db.Update(func(tx *bolt.Tx) error {
 		return saveUser(tx, u)
 	})
 }
 
-func saveUser(tx *bolt.Tx, u User) error {
+func saveUser(tx *bolt.Tx, u *User) error {
 	b := tx.Bucket(usersBucket)
 	if b == nil {
 		return ErrNoBucket("users")
@@ -75,7 +80,7 @@ func saveUser(tx *bolt.Tx, u User) error {
 }
 
 // CreateUser creates the user only if it does not exist.
-func (st *Store) CreateUser(u User, pwdHash []byte) error {
+func (st *Store) CreateUser(u *User, pwdHash []byte) error {
 	return st.db.Update(func(tx *bolt.Tx) error {
 		users := tx.Bucket(usersBucket)
 		if users == nil {
@@ -84,6 +89,11 @@ func (st *Store) CreateUser(u User, pwdHash []byte) error {
 		if users.Get([]byte(u.Username)) != nil {
 			return ErrExists("user")
 		}
+		id, err := users.NextSequence()
+		if err != nil {
+			return err
+		}
+		u.ID = util.ID(id)
 		if err := put(users, []byte(u.Username), u); err != nil {
 			return err
 		}
