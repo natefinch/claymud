@@ -8,8 +8,11 @@ package main
 import (
 	"errors"
 	"fmt"
+	"io"
+	"io/ioutil"
 	"os"
 	"regexp"
+	"strings"
 	"time"
 
 	"github.com/magefile/mage/mg"
@@ -56,6 +59,60 @@ func Release() (err error) {
 // Remove the temporarily generated files from Release.
 func Clean() error {
 	return sh.Rm("dist")
+}
+
+// Creates a new in-mud command.  Expects the CMD environment variable to be set.
+func NewCmd() error {
+	cmd := os.Getenv("CMD")
+	if cmd == "" {
+		return errors.New("missing CMD environment variable")
+	}
+	title := strings.Title(cmd)
+
+	const commandsGo = "./world/commands.go"
+	b, err := ioutil.ReadFile(commandsGo)
+	if err != nil {
+		return err
+	}
+	s := string(b)
+	const cmdConfig = "type Commands struct {\n"
+	idx := strings.Index(s, cmdConfig)
+	if idx == -1 {
+		return fmt.Errorf("missing command struct!")
+	}
+	insertPt := idx + len(cmdConfig)
+	s = s[:insertPt] + "\t" + title + ",\n" + s[insertPt:]
+
+	const initCmds = "func initCommands(cfg Commands) {\n"
+	idx = strings.Index(s, initCmds)
+	if idx == -1 {
+		return fmt.Errorf("missing initCommands function!")
+	}
+	insertPt = idx + len(initCmds)
+	s = fmt.Sprintf("%s\tregister(%s, cfg.%s)\n%s", s[:insertPt], cmd, title, s[insertPt:])
+
+	s = s + fmt.Sprintf("\nfunc %s(c *Command) {\n}\n", cmd)
+
+	if err := ioutil.WriteFile(commandsGo, []byte(s), 0644); err != nil {
+		return err
+	}
+	const commandsToml = "./data/commands.toml"
+	f, err := os.OpenFile(commandsToml, os.O_APPEND|os.O_WRONLY, 0644)
+	if err != nil {
+		return err
+	}
+	defer f.Close()
+	_, err = io.WriteString(f, fmt.Sprintf(`
+[%s]
+Command = "%s"
+Aliases = []
+Help = ""
+`, title, cmd))
+	if err != nil {
+		return err
+	}
+
+	return nil
 }
 
 func flags() string {

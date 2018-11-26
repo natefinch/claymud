@@ -4,12 +4,14 @@
 # keep that in mind when naming commands and directions.
 
 [Look]
-Command = "look"
-Aliases =  ["l"] #
-Help = "looks at the room, or something in the room if given a target"
+Command = "look" # the primary command name players will type to run the command
+Aliases =  ["l"] # additional command names that will also work (usually abbreviations)
+Help = "looks at the room, or something in the room if given a target" # short help text shown in main output of `help`
+
 
 [Who]
 Command = "who"
+# you can leave out aliases if you don't want to specify them for a command.
 Help = "show a list of logged-on players"
 
 [Tell]
@@ -42,4 +44,3 @@ Help = "turn on or off chatmode"
 [Goto]
 Command = "goto"
 Help = "admin command to go directly to a room by number or player by name"
-
