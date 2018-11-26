@@ -55,20 +55,15 @@ func TestFindPlayerNotFound(t *testing.T) {
 	}
 }
 
-func fakePlayer(t *testing.T) Player {
+func fakePlayer(t *testing.T) *Player {
 	name, err := uuid.NewV4()
 	if err != nil {
 		t.Fatal(err)
 	}
-	id, err := uuid.NewV4()
-	if err != nil {
-		t.Fatal(err)
-	}
 
-	return Player{
+	return &Player{
 		Name:        name.String(),
 		Description: "bar",
-		ID:          id,
 		Gender: game.Gender{
 			Name:  "foo",
 			Xself: "fooself",

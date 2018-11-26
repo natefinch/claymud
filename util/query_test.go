@@ -1,6 +1,7 @@
 package util
 
 import (
+	"bufio"
 	"bytes"
 	"io"
 	"strings"
@@ -8,8 +9,8 @@ import (
 )
 
 func TestQuery(t *testing.T) {
-	rw, buf := rw("nate\n")
-	answer, err := Query(rw, "hi!")
+	scanner, buf := scanner("nate\n")
+	answer, err := Query(scanner, "hi!")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -21,17 +22,17 @@ func TestQuery(t *testing.T) {
 	}
 }
 
-// rw returns an io.ReadWriter that reads from input and outputs to the returned
+// scanner returns an io.ReadWriter that reads from input and outputs to the returned
 // buffer.
-func rw(input string) (io.ReadWriter, *bytes.Buffer) {
-	in := strings.NewReader(input)
+func scanner(input string) (WriteScanner, *bytes.Buffer) {
+	scanner := bufio.NewScanner(strings.NewReader(input))
 	buf := &bytes.Buffer{}
 
 	return struct {
-		io.Reader
+		*bufio.Scanner
 		io.Writer
 	}{
-		Reader: in,
-		Writer: buf,
+		Scanner: scanner,
+		Writer:  buf,
 	}, buf
 }

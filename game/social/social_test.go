@@ -2,13 +2,10 @@ package social
 
 import (
 	"bytes"
-	"io/ioutil"
-	"os"
-	"path/filepath"
 	"strings"
 	"testing"
 
-	"github.com/natefinch/claymud/game/gender"
+	"github.com/natefinch/claymud/game"
 )
 
 func TestParse(t *testing.T) {
@@ -32,9 +29,15 @@ func TestParse(t *testing.T) {
 	}
 }
 
-func TestPerformOther(t *testing.T) {
-	defer patchGender(t)()
+var female = game.Gender{
+	Name:  "female",
+	Xself: "herself",
+	Xe:    "she",
+	Xim:   "her",
+	Xis:   "hers",
+}
 
+func TestPerformOther(t *testing.T) {
 	cfg, err := decodeConfig(strings.NewReader(data))
 	if err != nil {
 		t.Fatal(err)
@@ -45,14 +48,14 @@ func TestPerformOther(t *testing.T) {
 	}
 
 	a := testActor{
-		name: "fooName",
-		sex:  gender.Male,
-		buf:  &bytes.Buffer{},
+		name:   "fooName",
+		gender: female,
+		buf:    &bytes.Buffer{},
 	}
 	b := testActor{
-		name: "fooName2",
-		sex:  gender.Female,
-		buf:  &bytes.Buffer{},
+		name:   "fooName2",
+		gender: female,
+		buf:    &bytes.Buffer{},
 	}
 
 	others := &bytes.Buffer{}
@@ -66,7 +69,7 @@ func TestPerformOther(t *testing.T) {
 	}
 	expected = "fooName smiles at you."
 	if b.buf.String() != expected {
-		t.Errorf("expected actor to get %q, but got %q", expected, a.buf.String())
+		t.Errorf("expected actor to get %q, but got %q", expected, b.buf.String())
 	}
 
 }
@@ -135,30 +138,20 @@ func (*Tests) TestPerformSelf(c *C) {
 }
 */
 
-func patchGender(t *testing.T) func() {
-	d, err := ioutil.TempDir("", "")
-	if err != nil {
-		t.Fatal(err)
-	}
-	ioutil.WriteFile(filepath.Join(d, "gender.toml"), genderData, 0666)
-	gender.Initialize(d)
-	return func() { os.RemoveAll(d) }
-}
-
 var _ Person = testActor{}
 
 type testActor struct {
-	name string
-	sex  gender.Gender
-	buf  *bytes.Buffer
+	name   string
+	gender game.Gender
+	buf    *bytes.Buffer
 }
 
 func (a testActor) Name() string {
 	return a.name
 }
 
-func (a testActor) Gender() gender.Gender {
-	return a.sex
+func (a testActor) Gender() game.Gender {
+	return a.gender
 }
 
 func (a testActor) Write(b []byte) (int, error) {
@@ -171,16 +164,16 @@ name = "smile"
 
 [social.toSelf]
 self = "You smile to yourself."
-around = "{{.Actor}} smiles to {{.Xself}}."
+around = "{{.Actor.Name}} smiles to {{.Actor.Gender.Xself}}."
 
 [social.toNoOne]
 self = "You smile."
-around = "{{.Actor}} smiles."
+around = "{{.Actor.Name}} smiles."
 
 [social.toOther]
-self = "You smile at {{.Target}}."
-target = "{{.Actor}} smiles at you."
-around = "{{.Actor}} smiles at {{.Target}}."
+self = "You smile at {{.Target.Name}}."
+target = "{{.Actor.Name}} smiles at you."
+around = "{{.Actor.Name}} smiles at {{.Target.Name}}."
 
 [[social]]
 name = "jump"
@@ -189,12 +182,12 @@ name = "jump"
 
 [social.toNoOne]
 self = "You jump around like a crazy person."
-around = "{{.Actor}} jumps around like a crazy person."
+around = "{{.Actor.Name}} jumps around like a crazy person."
 
 [social.toOther]
-self = "You jump {{.Target}}."
-target = "{{.Actor}} jumps you."
-around = "{{.Actor}} jumps {{.Target}}."
+self = "You jump {{.Target.Name}}."
+target = "{{.Actor.Name}} jumps you."
+around = "{{.Actor.Name}} jumps {{.Target.Name}}."
 
 `
 
@@ -204,7 +197,7 @@ name = "smile"
 
 [social.toSelf]
 self = "You smile to yourself."
-around = "{{.Actor}} smiles to {{.Xself}}."
+around = "{{.Actor}} smiles to {{.Actor.Gender.Xself}}."
 
 [social.toNoOne]
 self = "You smile."
@@ -220,7 +213,7 @@ name = "smile"
 
 [social.toSelf]
 self = "You smile to yourself."
-around = "{{.Actor}} smiles to {{.Xself}}."
+around = "{{.Actor}} smiles to {{.Actor.Gender.Xself}}."
 
 [social.toNoOne]
 self = "You smile."
@@ -232,25 +225,3 @@ target = "{{.Actor}} smiles at you."
 around = "{{.Actor}} smiles at {{.Target}}."
 
 `
-
-var genderData = []byte(`
-[xself]
-male = "himself"
-female = "herself"
-none = "itself"
-
-[xe]
-male = "he"
-female = "she"
-none = "it"
-
-[xim]
-male = "him"
-female = "her"
-none =  "it"
-
-[xis]
-male = "his"
-female = "her"
-none = "its"
-`)

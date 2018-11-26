@@ -62,7 +62,7 @@ func TestFindUserNotFound(t *testing.T) {
 	}
 }
 
-func usersEqual(t *testing.T, expected, got User) {
+func usersEqual(t *testing.T, expected, got *User) {
 	expectedT := expected.LastLogin
 	gotT := got.LastLogin
 
@@ -71,17 +71,17 @@ func usersEqual(t *testing.T, expected, got User) {
 	if !expectedT.Equal(gotT) {
 		t.Errorf("expected time %v, but got %v", expectedT, gotT)
 	}
-	if !reflect.DeepEqual(expected, got) {
-		t.Fatalf("expected %#v, got %#v", expected, got)
+	if !reflect.DeepEqual(*expected, *got) {
+		t.Fatalf("expected %#v, got %#v", *expected, *got)
 	}
 }
 
-func fakeUser(t *testing.T) User {
+func fakeUser(t *testing.T) *User {
 	u, err := uuid.NewV4()
 	if err != nil {
 		t.Fatal(err)
 	}
-	return User{
+	return &User{
 		Username:  u.String(),
 		LastIP:    "bar",
 		LastLogin: time.Now(),
@@ -90,7 +90,7 @@ func fakeUser(t *testing.T) User {
 	}
 }
 
-func createFakeUser(t *testing.T, st *Store) User {
+func createFakeUser(t *testing.T, st *Store) *User {
 	u := fakeUser(t)
 	hash := []byte("secret")
 	if err := st.CreateUser(u, hash); err != nil {
