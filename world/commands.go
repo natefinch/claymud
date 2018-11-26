@@ -1,9 +1,12 @@
 package world
 
 import (
+	"bytes"
 	"fmt"
+	"sort"
 	"strconv"
 	"strings"
+	"text/tabwriter"
 	"time"
 
 	"github.com/natefinch/claymud/game"
@@ -13,18 +16,34 @@ import (
 
 var started = time.Now()
 
-// todo: make this configurable
 var commands = map[string]func(*Command){}
+var allCommands []CommandCfg
 
-// CmdConfig lets you configure how the commands get named.  The list of strings for
+// Commands lets you configure how the commands get named.  The list of strings for
 // each contain the aliases, they must all be unique.
-type CmdConfig struct {
-	Look, Who, Tell, Quit, Say, Help, Uptime []string
-	ChatMode, Goto                           []string
+type Commands struct {
+	Look,
+	Who,
+	Tell,
+	Quit,
+	Say,
+	Help,
+	Uptime,
+	ChatMode,
+	Goto CommandCfg
 }
 
+// CommandCfg defines how a command gets run,  its aliases, and its help text.
+type CommandCfg struct {
+	Command string
+	Aliases []string
+	Help    string
+}
+
+var helptext string
+
 // initCommands sets up the command names.
-func initCommands(cfg CmdConfig) {
+func initCommands(cfg Commands) {
 	register(look, cfg.Look)
 	register(who, cfg.Who)
 	register(tell, cfg.Tell)
@@ -34,22 +53,54 @@ func initCommands(cfg CmdConfig) {
 	register(uptime, cfg.Uptime)
 	register(gotoCmd, cfg.Goto)
 
+	// this is a special "command" that just handles when someone hits enter without typing
+	// anything.
+	commands[""] = prompt
+
+	// only register the chatmode command if it's allowed to be run
 	if chatMode.Mode == ChatModeAllow {
 		register(chatmode, cfg.ChatMode)
 	}
 
-	// this is a special "command" that just handles when someone hits enter without typing
-	// anything.
-	register(prompt, []string{""})
+	sort.SliceStable(allCommands, func(i, j int) bool { return allCommands[i].Command < allCommands[j].Command })
+
+	var lines []string
+	lines = append(lines, "List of available commands")
+	lines = append(lines, "")
+	lines = append(lines, "-- Standard Commands --")
+
+	buf := &bytes.Buffer{}
+	w := tabwriter.NewWriter(buf, 0, 0, 0, ' ', 0)
+
+	for _, c := range allCommands {
+		aliases := append([]string{c.Command}, c.Aliases...)
+		fmt.Fprintf(w, "%s\t  %s\n", strings.Join(aliases, ", "), c.Help)
+	}
+	if err := w.Flush(); err != nil {
+		// should be impossible
+		panic(err)
+	}
+	lines = append(lines, buf.String())
+	lines = append(lines, "")
+	lines = append(lines, "-- Movement --")
+	for _, dir := range game.AllDirections() {
+		lines = append(lines, fmt.Sprintf("%v, %v", dir.Name, strings.Join(dir.Aliases, ", ")))
+	}
+	lines = append(lines, "")
+	lines = append(lines, "-- Socials --")
+	lines = append(lines, social.Names...)
+	helptext = strings.Join(lines, "\n")
 }
 
-func register(f func(*Command), names []string) {
+func register(f func(*Command), cmd CommandCfg) {
+	names := append(cmd.Aliases, cmd.Command)
 	for _, n := range names {
 		if _, ok := commands[n]; ok {
-			panic(fmt.Errorf("duplicate command name: %v", n))
+			panic(fmt.Errorf("duplicate command name: %v %#v", n, cmd))
 		}
 		commands[n] = f
 	}
+	allCommands = append(allCommands, cmd)
 }
 
 // look handles the look command
@@ -141,38 +192,19 @@ func tell(c *Command) {
 }
 
 func help(c *Command) {
-	if c.Target() != "" {
-		c.helpdetails(c.Target())
-		return
-	}
-	var lines []string
-	lines = append(lines, "List of available commands")
-	lines = append(lines, "")
-	lines = append(lines, "-- Standard Commands --")
-	lines = append(lines, "help, ?")
-	lines = append(lines, "look, l")
-	lines = append(lines, "say, '")
-	lines = append(lines, "tell, t")
-	lines = append(lines, "quit")
-	lines = append(lines, "who")
-	lines = append(lines, "uptime")
-	lines = append(lines, "chatmode")
-	lines = append(lines, "")
-	lines = append(lines, "-- Movement --")
-	for _, dir := range game.AllDirections() {
-		lines = append(lines, fmt.Sprintf("%v, %v", dir.Name, strings.Join(dir.Aliases, ", ")))
-	}
-	lines = append(lines, "")
-	lines = append(lines, "-- Socials --")
-	lines = append(lines, social.Names...)
-	c.Actor.Printf(strings.Join(lines, "\r\n"))
+	c.Actor.HandleLocal(func() {
+		if c.Target() != "" {
+			c.helpdetails(c.Target())
+		} else {
+			c.Actor.WriteString(helptext)
+		}
+	})
 }
 
 func who(c *Command) {
 	c.Actor.HandleGlobal(func() {
 		c.Actor.WriteString("[Players]\n")
 		for _, p := range *playerList {
-			// TODO: actually implement looking at things other than players
 			c.Actor.WriteString(p.Name() + "\n")
 		}
 	})
@@ -227,8 +259,19 @@ func quit(c *Command) {
 }
 
 func (c *Command) helpdetails(command string) {
-	switch command {
-	case "help", "?":
-
+	command = strings.ToLower(command)
+	for _, cmd := range allCommands {
+		if command == cmd.Command || contains(command, cmd.Aliases) {
+			c.Actor.WriteString(cmd.Help)
+		}
 	}
+}
+
+func contains(s string, vals []string) bool {
+	for i := range vals {
+		if s == vals[i] {
+			return true
+		}
+	}
+	return false
 }

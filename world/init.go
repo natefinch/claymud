@@ -24,8 +24,8 @@ type ChatMode struct {
 
 // Config determines the configuration of the world.
 type Config struct {
-	StartRoom int       // ID of room players start in
-	Commands  CmdConfig // command names
+	StartRoom int      // ID of room players start in
+	Commands  Commands // command names
 	ChatMode  ChatMode
 }
 

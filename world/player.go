@@ -48,7 +48,7 @@ type sortedPlayers []*Player
 
 func (s *sortedPlayers) add(p *Player) {
 	*s = append(*s, p)
-	sort.Slice(*s, func(i, j int) bool { return (*s)[i].Name() < (*s)[j].Name() })
+	sort.SliceStable(*s, func(i, j int) bool { return (*s)[i].Name() < (*s)[j].Name() })
 }
 func (s *sortedPlayers) remove(p *Player) {
 	for i, pl := range *s {

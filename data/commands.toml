@@ -1,0 +1,45 @@
+# This file contains the list of commmands you can type in the mud, and what the in-game
+# command names are.  Command names cannot be duplicated (there will be an error at
+# startup if you do.)  Exit directions take precedence over command names, so
+# keep that in mind when naming commands and directions.
+
+[Look]
+Command = "look"
+Aliases =  ["l"] #
+Help = "looks at the room, or something in the room if given a target"
+
+[Who]
+Command = "who"
+Help = "show a list of logged-on players"
+
+[Tell]
+Command = "tell"
+Aliases = ["t"]
+Help = "send a message to someone directly"
+
+[Quit]
+Command = "quit"
+Help = "leave the game"
+
+[Say] 
+Command = "say"
+Aliases = ["'"] 
+Help = "speak to everyone in the room"
+
+[Help]
+Command = "help"
+Aliases = ["?"] 
+Help = "get help about commands"
+
+[Uptime]
+Command = "uptime"
+Help = "show how long the MUD has been running since the last reboot"
+
+[ChatMode]
+Command = "chatmode"
+Help = "turn on or off chatmode"
+
+[Goto]
+Command = "goto"
+Help = "admin command to go directly to a room by number or player by name"
+

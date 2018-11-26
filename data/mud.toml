@@ -37,21 +37,6 @@ BcryptCost = 10
     Default = false # if true, chatmode defaults on. ignored except when Enabled = "allow"
     Prefix = "/" # the prefix to tell the mud you're typing a command. Ignored when not in chatmode.
 
-# The list of commmands you can type in the mud, and what the in-game command names
-# are.  The first name is the "primary" name, all others are considered aliases.  Names
-# cannot be duplicated (there will be an error at startup if you do.)  Exit directions
-# take precedence over command names, so keep that in mind when naming commands and
-# directions.
-[Commands]
-    Look = ["look", "l"] # look at something
-    Who = ["who"] # show a list of logged-on players
-    Tell = ["tell", "t"] # send a message to someone directly
-    Quit = ["quit"] # leave the game
-    Say = ["say", "'"] # speak to everyone in the room
-    Help = ["help", "?"] # get help
-    Uptime = ["uptime"] # show how long the MUD has been running
-    ChatMode = ["chatmode"] # turn on or off chatmode
-    Goto = ["goto"] # admin command to go directly to a room by number
 
 [Logging]
     # This configures how logs behave in ClayMUD.  ClayMUD uses a
