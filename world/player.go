@@ -117,30 +117,12 @@ type Player struct {
 // SpawnPlayer attaches the connection to a player and inserts it into the world.  This
 // function runs for as long as the player is in the world.
 func SpawnPlayer(user *auth.User, global *game.Worker) error {
-	var dbp *db.Player
-	if len(user.Players) == 0 {
-		_, err := io.WriteString(user, "You have no players, let's create one.\n")
-		if err != nil {
-			return err
-		}
-		dbp, err = createPlayer(user, game.Genders)
-		if err != nil {
-			return err
-		}
-	} else {
-		newChar := "(create new)"
-		choices := append([]string{newChar}, user.Players...)
-		i, err := util.QueryStrings(user, "Choose a player, or c to create a new one: ", -1, choices...)
-		if err != nil {
-			return err
-		}
-		if i == 0 {
-			dbp, err = createPlayer(user, game.Genders)
-		} else {
-			dbp, err = db.FindPlayer(choices[i])
-		}
+	dbp, err := chooseDBPlayer(user)
+	if err != nil {
+		return err
 	}
-	log.Printf("Spawning user %s's player %s (%v) id: %v", user.Username, dbp.Name, user.IP, dbp.ID)
+
+	log.Printf("Spawning user %s's player %s with id: %v", user.Username, dbp.Name, dbp.ID)
 
 	loc := Start()
 	p := &Player{
@@ -177,6 +159,30 @@ func SpawnPlayer(user *auth.User, global *game.Worker) error {
 		p.exit(err)
 	}
 	return nil
+}
+
+func chooseDBPlayer(user *auth.User) (*db.Player, error) {
+	if len(user.Players) == 0 {
+		_, err := io.WriteString(user, "You have no players, let's create one.\n")
+		if err != nil {
+			return nil, err
+		}
+		return createPlayer(user, game.Genders)
+	}
+	if user.Flag(auth.UFlagAdmin) {
+		// Admins get exactly one player.
+		return db.FindPlayer(user.Players[0])
+	}
+	newChar := "(create new)"
+	choices := append([]string{newChar}, user.Players...)
+	i, err := util.QueryStrings(user, "Choose a player, or c to create a new one:\n", -1, choices...)
+	if err != nil {
+		return nil, err
+	}
+	if i == 0 {
+		return createPlayer(user, game.Genders)
+	}
+	return db.FindPlayer(choices[i])
 }
 
 func verifyName(name string) (string, error) {
@@ -224,8 +230,8 @@ func createPlayer(user *auth.User, genders []game.Gender) (*db.Player, error) {
 		Flags:       big.NewInt(0),
 	}
 	for {
-		err = db.CreatePlayer(p)
-		if err == db.ErrExists {
+		err = db.CreatePlayer(user.Username, p)
+		if _, ok := err.(db.ErrExists); ok {
 			_, err := io.WriteString(user, "A character with that name already exists.\n")
 			if err != nil {
 				return nil, err
@@ -241,6 +247,8 @@ func createPlayer(user *auth.User, genders []game.Gender) (*db.Player, error) {
 		if err != nil {
 			return nil, err
 		}
+		// success, now add that charactrer to the user's list
+
 		return &p, nil
 	}
 }
@@ -373,17 +381,17 @@ func (p *Player) Gender() game.Gender {
 // runLoop.
 func (p *Player) readLoop() (err error) {
 	// need this because scan can panic if you send it too much stuff
-	defer func() {
-		panicErr := recover()
-		if panicErr == nil {
-			return
-		}
-		if e, ok := panicErr.(error); ok {
-			err = e
-			return
-		}
-		err = fmt.Errorf("%v", panicErr)
-	}()
+	// defer func() {
+	// 	panicErr := recover()
+	// 	if panicErr == nil {
+	// 		return
+	// 	}
+	// 	if e, ok := panicErr.(error); ok {
+	// 		err = e
+	// 		return
+	// 	}
+	// 	err = fmt.Errorf("%v", panicErr)
+	// }()
 	for p.Scan() {
 		// The user entered a command, so by definition has hit enter.
 		p.needsLF = false

@@ -7,13 +7,11 @@ import (
 	"github.com/boltdb/bolt"
 )
 
-var (
-	users = []byte("users")
-)
+var usersBucket = []byte("users")
 
 // User is the structure that is stored in the database for a User.
 type User struct {
-	PwdHash   []byte
+	Username  string
 	LastIP    string
 	LastLogin time.Time
 	Players   []string
@@ -24,7 +22,7 @@ type User struct {
 func UserExists(username string) (bool, error) {
 	exists := false
 	err := db.View(func(tx *bolt.Tx) error {
-		b := tx.Bucket(users)
+		b := tx.Bucket(usersBucket)
 		if b == nil {
 			return ErrNoBucket("users")
 		}
@@ -38,43 +36,57 @@ func UserExists(username string) (bool, error) {
 func FindUser(username string) (User, error) {
 	var u User
 	err := db.View(func(tx *bolt.Tx) error {
-		b := tx.Bucket(users)
-		if b == nil {
-			return ErrNoBucket("users")
-		}
-		exists, err := get(b, []byte(username), &u)
-		if err != nil {
-			return err
-		}
-		if !exists {
-			return ErrNotFound
-		}
-		return nil
+		var err error
+		u, err = getUser(tx, username)
+		return err
 	})
 	return u, err
 }
 
+func getUser(tx *bolt.Tx, username string) (User, error) {
+	var u User
+	b := tx.Bucket(usersBucket)
+	if b == nil {
+		return u, ErrNoBucket("users")
+	}
+	exists, err := get(b, []byte(username), &u)
+	if err != nil {
+		return u, err
+	}
+	if !exists {
+		return u, ErrNotFound("user")
+	}
+	return u, nil
+}
+
 // SaveUser saves the user to the db.
-func SaveUser(username string, u User) error {
+func SaveUser(u User) error {
 	return db.Update(func(tx *bolt.Tx) error {
-		b := tx.Bucket(users)
-		if b == nil {
-			return ErrNoBucket("users")
-		}
-		return put(b, []byte(username), u)
+		return saveUser(tx, u)
 	})
 }
 
+func saveUser(tx *bolt.Tx, u User) error {
+	b := tx.Bucket(usersBucket)
+	if b == nil {
+		return ErrNoBucket("users")
+	}
+	return put(b, []byte(u.Username), u)
+}
+
 // CreateUser creates the user only if it does not exist.
-func CreateUser(username string, u User) error {
+func CreateUser(u User, pwdHash []byte) error {
 	return db.Update(func(tx *bolt.Tx) error {
-		b := tx.Bucket(users)
-		if b == nil {
+		users := tx.Bucket(usersBucket)
+		if users == nil {
 			return ErrNoBucket("users")
 		}
-		if b.Get([]byte(username)) != nil {
-			return ErrExists
+		if users.Get([]byte(u.Username)) != nil {
+			return ErrExists("user")
 		}
-		return put(b, []byte(username), u)
+		if err := put(users, []byte(u.Username), u); err != nil {
+			return err
+		}
+		return saveCreds(tx, Credentials{Username: u.Username, PwdHash: pwdHash})
 	})
 }

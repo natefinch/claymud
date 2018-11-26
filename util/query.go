@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io"
 	"strconv"
+	"strings"
 	"unicode/utf8"
 )
 
@@ -75,7 +76,12 @@ func QueryVerify(
 		if err != nil {
 			return "", err
 		}
-
+		if !strings.HasSuffix(question, " ") {
+			_, err := io.WriteString(ws, " ")
+			if err != nil {
+				return "", err
+			}
+		}
 		if !ws.Scan() {
 			if err = ws.Err(); err != nil {
 				return "", err
@@ -125,6 +131,12 @@ func QueryStrings(
 	_, err = io.WriteString(ws, question)
 	if err != nil {
 		return -1, err
+	}
+	if !strings.HasSuffix(question, "\n") {
+		_, err := io.WriteString(ws, "\n")
+		if err != nil {
+			return -1, err
+		}
 	}
 
 	for i, s := range options {
@@ -195,7 +207,12 @@ func QueryOptions(
 	if err != nil {
 		return utf8.RuneError, err
 	}
-
+	if !strings.HasSuffix(question, "\n") {
+		_, err := io.WriteString(ws, "\n")
+		if err != nil {
+			return utf8.RuneError, err
+		}
+	}
 	for _, opt := range options {
 		if opt.Key == Default {
 			_, err = fmt.Fprintf(ws, "%c - %s (default)\n", opt.Key, opt.Text)

@@ -9,9 +9,7 @@ import (
 	"github.com/natefinch/claymud/game"
 )
 
-var (
-	players = []byte("players")
-)
+var playersBucket = []byte("players")
 
 // Player is the structure that is stored in the database for a Player.
 type Player struct {
@@ -27,7 +25,7 @@ type Player struct {
 func FindPlayer(name string) (*Player, error) {
 	var p Player
 	err := db.View(func(tx *bolt.Tx) error {
-		b := tx.Bucket(players)
+		b := tx.Bucket(playersBucket)
 		if b == nil {
 			return ErrNoBucket("players")
 		}
@@ -37,7 +35,7 @@ func FindPlayer(name string) (*Player, error) {
 			return err
 		}
 		if !exists {
-			return ErrNotFound
+			return ErrNotFound("player")
 		}
 		return nil
 	})
@@ -52,7 +50,7 @@ func FindPlayer(name string) (*Player, error) {
 func PlayerExists(name string) (bool, error) {
 	exists := false
 	err := db.View(func(tx *bolt.Tx) error {
-		b := tx.Bucket(players)
+		b := tx.Bucket(playersBucket)
 		if b == nil {
 			return ErrNoBucket("players")
 		}
@@ -66,7 +64,7 @@ func PlayerExists(name string) (bool, error) {
 // SavePlayer saves the player's data to the db.
 func SavePlayer(p Player) error {
 	return db.Update(func(tx *bolt.Tx) error {
-		b := tx.Bucket(players)
+		b := tx.Bucket(playersBucket)
 		if b == nil {
 			return ErrNoBucket("players")
 		}
@@ -75,17 +73,26 @@ func SavePlayer(p Player) error {
 }
 
 // CreatePlayer saves the player only if it does not already exist.
-func CreatePlayer(p Player) error {
+func CreatePlayer(username string, p Player) error {
 	return db.Update(func(tx *bolt.Tx) error {
-		b := tx.Bucket(players)
-		if b == nil {
+		players := tx.Bucket(playersBucket)
+		if players == nil {
 			return ErrNoBucket("players")
 		}
 		key := []byte(strings.ToLower(p.Name))
-		val := b.Get(key)
+		val := players.Get(key)
 		if val != nil {
-			return ErrExists
+			return ErrExists("player")
 		}
-		return put(b, key, p)
+		if err := put(players, key, p); err != nil {
+			return err
+		}
+
+		u, err := getUser(tx, username)
+		if err != nil {
+			return err
+		}
+		u.Players = append(u.Players, p.Name)
+		return saveUser(tx, u)
 	})
 }

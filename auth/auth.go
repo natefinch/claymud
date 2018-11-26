@@ -204,13 +204,6 @@ and will not be visible to non-admins.
 // createDBUser creates the user in the DB if it does not exist.  If it does exist,
 // createDBUser will return ErrExists.
 func createDBUser(username, pw string, ip net.Addr) (*User, error) {
-	exists, err := db.UserExists(username)
-	if err != nil {
-		return nil, err
-	}
-	if exists {
-		return nil, ErrExists
-	}
 	hash, err := bcrypt.GenerateFromPassword([]byte(pw), bcryptCost)
 	if err != nil {
 		return nil, err
@@ -229,12 +222,15 @@ func createDBUser(username, pw string, ip net.Addr) (*User, error) {
 		user.SetFlag(UFlagAdmin)
 	}
 	doc := db.User{
-		PwdHash:   hash,
+		Username:  username,
 		LastIP:    ip.String(),
 		LastLogin: time.Now(),
 		Flags:     user.bits,
 	}
-	if err := db.CreateUser(username, doc); err != nil {
+	if err := db.CreateUser(doc, hash); err != nil {
+		if _, ok := err.(db.ErrExists); ok {
+			return nil, ErrExists
+		}
 		return nil, err
 	}
 	log.Printf("created user %q", username)
@@ -284,10 +280,10 @@ func queryNewUser(ws util.WriteScanner) (user, pwd string, err error) {
 }
 
 // checkPass verifies that the given user exists and that the password matches.
-func checkPass(username, pass string, ip net.Addr) (user *User, err error) {
+func checkPass(username, pass string, ip net.Addr) (*User, error) {
 	passb := []byte(pass)
-	u, err := db.FindUser(username)
-	if err == db.ErrNotFound {
+	c, err := db.FindCreds(username)
+	if _, ok := err.(db.ErrNotFound); ok {
 		// User does not exist. Fake out the time we would otherwise take to run
 		// the hash.  Ignore the error, we really only care about sucking up
 		// some CPU cycles here.
@@ -295,7 +291,7 @@ func checkPass(username, pass string, ip net.Addr) (user *User, err error) {
 		return nil, ErrAuth
 	}
 	start := time.Now()
-	err = bcrypt.CompareHashAndPassword(u.PwdHash, passb)
+	err = bcrypt.CompareHashAndPassword(c.PwdHash, passb)
 	log.Printf("user password hashed in %v", time.Since(start))
 	if err == bcrypt.ErrMismatchedHashAndPassword {
 		return nil, ErrAuth
@@ -304,7 +300,7 @@ func checkPass(username, pass string, ip net.Addr) (user *User, err error) {
 		return nil, err
 	}
 
-	cost, err := bcrypt.Cost(u.PwdHash)
+	cost, err := bcrypt.Cost(c.PwdHash)
 	if err != nil {
 		return nil, err
 	}
@@ -315,20 +311,29 @@ func checkPass(username, pass string, ip net.Addr) (user *User, err error) {
 		if err != nil {
 			return nil, err
 		}
-		u.PwdHash = hash
+		c.PwdHash = hash
+		if err := db.SaveCreds(c); err != nil {
+			return nil, err
+		}
+	}
+	// Login successful, update info.
+	u, err := db.FindUser(username)
+	if err != nil {
+		return nil, err
 	}
 	u.LastIP = ip.String()
 	u.LastLogin = time.Now()
-
-	// Login successful, update info.
-	if err := db.SaveUser(username, u); err != nil {
+	if err := db.SaveUser(u); err != nil {
 		return nil, err
 	}
-
-	return &User{
+	user := &User{
 		Username: username,
 		IP:       ip,
 		Players:  u.Players,
 		bits:     u.Flags,
-	}, nil
+	}
+	if user.bits == nil {
+		user.bits = big.NewInt(0)
+	}
+	return user, nil
 }

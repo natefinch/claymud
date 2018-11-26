@@ -1,7 +1,6 @@
 package db
 
 import (
-	"errors"
 	"fmt"
 	"path/filepath"
 
@@ -9,19 +8,8 @@ import (
 )
 
 var (
-	db          *bolt.DB
-	ErrExists   = errors.New("value already exists")
-	ErrNotFound = errors.New("value does not exist")
+	db *bolt.DB
 )
-
-// ErrNoBucket is the error returned if we trying to reference a bucket that
-// doesn't exist.
-type ErrNoBucket string
-
-// Error implemens the error interface.
-func (e ErrNoBucket) Error() string {
-	return "no bucket in db named " + string(e)
-}
 
 // Initialize sets up the application's configuration directory.
 func Initialize(dir string) error {
@@ -33,11 +21,15 @@ func Initialize(dir string) error {
 		return fmt.Errorf("Error opening database file %q: %s", path, err)
 	}
 	return db.Update(func(tx *bolt.Tx) error {
-		_, err := tx.CreateBucketIfNotExists(players)
+		_, err := tx.CreateBucketIfNotExists(playersBucket)
 		if err != nil {
 			return err
 		}
-		_, err = tx.CreateBucketIfNotExists(users)
+		_, err = tx.CreateBucketIfNotExists(usersBucket)
+		if err != nil {
+			return err
+		}
+		_, err = tx.CreateBucketIfNotExists(credsBucket)
 		return err
 	})
 }
@@ -46,7 +38,7 @@ func Initialize(dir string) error {
 func IsSetup() (bool, error) {
 	var setup bool
 	err := db.View(func(tx *bolt.Tx) error {
-		b := tx.Bucket(users)
+		b := tx.Bucket(usersBucket)
 		if b == nil {
 			// bucket doesn't exist
 			return ErrNoBucket("users")
