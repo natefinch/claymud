@@ -40,7 +40,11 @@ type CommandCfg struct {
 	Help    string
 }
 
-var helptext string
+var (
+	helptext     string
+	movementHelp string
+	socialsHelp  string
+)
 
 // initCommands sets up the command names.
 func initCommands(cfg Commands) {
@@ -65,9 +69,7 @@ func initCommands(cfg Commands) {
 	sort.SliceStable(allCommands, func(i, j int) bool { return allCommands[i].Command < allCommands[j].Command })
 
 	var lines []string
-	lines = append(lines, "List of available commands")
-	lines = append(lines, "")
-	lines = append(lines, "-- Standard Commands --")
+	lines = append(lines, "-- Commands --")
 
 	buf := &bytes.Buffer{}
 	w := tabwriter.NewWriter(buf, 0, 0, 0, ' ', 0)
@@ -81,15 +83,29 @@ func initCommands(cfg Commands) {
 		panic(err)
 	}
 	lines = append(lines, buf.String())
+	lines = append(lines, "-- Additional Help Topics --")
+	lines = append(lines, "socials, movement")
 	lines = append(lines, "")
-	lines = append(lines, "-- Movement --")
+
+	helptext = strings.Join(lines, "\n")
+
+	lines = []string{"-- Movement --"}
 	for _, dir := range game.AllDirections() {
 		lines = append(lines, fmt.Sprintf("%v, %v", dir.Name, strings.Join(dir.Aliases, ", ")))
 	}
 	lines = append(lines, "")
-	lines = append(lines, "-- Socials --")
-	lines = append(lines, social.Names...)
-	helptext = strings.Join(lines, "\n")
+	movementHelp = strings.Join(lines, "\n")
+
+	socialsHelp = `
+Socials are special commands which will display a predetermined message. 
+Socials can be performed standalone, directed at someone in the room (or
+everyone), or directed at yourself. The same social command may have
+different messages depending on the target of the social. The display of
+a social may be different for the user, the target, and any other
+bystanders watching the interaction take place.
+
+-- Socials --
+` + strings.Join(social.Names, "\n") + "\n"
 }
 
 func register(f func(*Command), cmd CommandCfg) {
@@ -259,10 +275,17 @@ func quit(c *Command) {
 }
 
 func (c *Command) helpdetails(command string) {
-	command = strings.ToLower(command)
-	for _, cmd := range allCommands {
-		if command == cmd.Command || contains(command, cmd.Aliases) {
-			c.Actor.WriteString(cmd.Help)
+	switch strings.ToLower(command) {
+	case "socials":
+		c.Actor.WriteString(socialsHelp)
+	case "movement":
+		c.Actor.WriteString(movementHelp)
+	default:
+		for _, cmd := range allCommands {
+			if command == cmd.Command || contains(command, cmd.Aliases) {
+				c.Actor.WriteString(cmd.Help)
+				break
+			}
 		}
 	}
 }
