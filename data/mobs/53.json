@@ -1,0 +1,518 @@
+{
+    "mobs": [
+        {
+            "Number": 5300,
+            "Aliases": [
+                "asp",
+                "snake"
+            ],
+            "ShortDesc": "a horrible asp",
+            "LongDesc": "A small, poisonous asp slithers over your feet.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The asp is a small, smooth-scaled snake the color of worn pottery.\r\r\r\r\r\n\rThe poison bite of this snake has felled many a mighty pharoah.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 6,
+            "AC": 8,
+            "HP": "5d5+50",
+            "Damage": "1d6+1",
+            "Gold": 10,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5301,
+            "Aliases": [
+                "cobra",
+                "snake"
+            ],
+            "ShortDesc": "a hooded cobra snake",
+            "LongDesc": "A cobra snake rears up and opens its fearsome hood.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The cobra snake waves back and forth before you, its hood displaying brilliant\r\r\r\r\r\n\rcolors designed to serve notice to its prey that it is about to strike.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 8,
+            "THAC0": 7,
+            "AC": 7,
+            "HP": "7d7+70",
+            "Damage": "2d4+2",
+            "Gold": 25,
+            "XP": 4000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5302,
+            "Aliases": [
+                "mongoose"
+            ],
+            "ShortDesc": "a wily little mongoose",
+            "LongDesc": "A small mongoose slinks along the ground, hunting snakes.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The mongoose is a wily rodent, a quick hunter of nasty poisonous snakes.\r\r\r\r\r\n\rShe sniffs you and appears to be looking for food in your hand.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "CURSE"
+            ],
+            "Alignment": 10,
+            "Level": 10,
+            "THAC0": 10,
+            "AC": 6,
+            "HP": "11d11+110",
+            "Damage": "3d5+3",
+            "Gold": 100,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5303,
+            "Aliases": [
+                "pyramid",
+                "watcher"
+            ],
+            "ShortDesc": "a pyramid watcher",
+            "LongDesc": "The pyramid watcher protects the tombs from intruders.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The pyramid watcher has made a pledge to destroy any would-be looters of\r\r\r\r\r\n\rthe tombs of the pharoahs.  He is clad from head to foot in utilitarian\r\r\r\r\r\n\rsand-colored clothing.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 250,
+            "Level": 9,
+            "THAC0": 8,
+            "AC": 5,
+            "HP": "8d8+80",
+            "Damage": "2d6+2",
+            "Gold": 200,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5304,
+            "Aliases": [
+                "thief",
+                "tomb"
+            ],
+            "ShortDesc": "a tomb thief",
+            "LongDesc": "A sneaky tomb thief moves about in search of treasure.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The thief brushes against you briefly, then slinks back into the shadows.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "PROTECT_GOOD"
+            ],
+            "Alignment": -250,
+            "Level": 11,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "10d10+100",
+            "Damage": "2d6+3",
+            "Gold": 500,
+            "XP": 8500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5305,
+            "Aliases": [
+                "ali",
+                "baba",
+                "thief"
+            ],
+            "ShortDesc": "Ali Baba",
+            "LongDesc": "Ali Baba is here, hunting for the pharoah's tomb.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a tall, full-bearded man with a mischevious glint in his eye.  Ali Baba\r\r\r\r\r\n\rhas made his life from stealing things from others, including many items stolen\r\r\r\r\r\n\rrecently from under the nose of the hapless guardians of this pyramid.  Someday\r\r\r\r\r\n\rhe might get caught, but not today...\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "PROTECT_GOOD"
+            ],
+            "Alignment": -300,
+            "Level": 20,
+            "THAC0": 18,
+            "AC": -2,
+            "HP": "18d18+180",
+            "Damage": "3d8+2",
+            "Gold": 925,
+            "XP": 31000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5306,
+            "Aliases": [
+                "magic",
+                "carpet"
+            ],
+            "ShortDesc": "the magic carpet",
+            "LongDesc": "A small woven carpet lies under your feet.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The carpet is simply beautiful, made from intricately woven silken material.  \r\r\r\r\r\n\rIt seems to rise up at the touch of your feet.  Wait, it is rising, a few feet\r\r\r\r\r\n\rabove the ground!  In fact, it seems to be ALIVE!\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "CURSE"
+            ],
+            "Alignment": 500,
+            "Level": 9,
+            "THAC0": 9,
+            "AC": 7,
+            "HP": "9d9+90",
+            "Damage": "2d5+2",
+            "Gold": 150,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5307,
+            "Aliases": [
+                "mummy",
+                "corpse"
+            ],
+            "ShortDesc": "a mummy",
+            "LongDesc": "A mummy reaches for you, disturbed by your presence.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You only see the disfigured, rotting features of decaying human flesh,\r\r\r\r\r\n\ranimated by the distempered spirit of a long-deceased person.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "CURSE"
+            ],
+            "Alignment": -600,
+            "Level": 12,
+            "THAC0": 12,
+            "AC": 4,
+            "HP": "12d12+120",
+            "Damage": "1d6+6",
+            "Gold": 275,
+            "XP": 11000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5308,
+            "Aliases": [
+                "sand",
+                "man",
+                "sandman"
+            ],
+            "ShortDesc": "a sandman",
+            "LongDesc": "A sandman rises up from the desert floor.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The sandman is exactly that -- some sort of strange being formed from the sands\r\r\r\r\r\n\rof the desert floor.  It seems quite large and strong and at home in the heat\r\r\r\r\r\n\rand sandy winds.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "CURSE"
+            ],
+            "Alignment": 0,
+            "Level": 14,
+            "THAC0": 14,
+            "AC": 2,
+            "HP": "14d14+140",
+            "Damage": "2d7+4",
+            "Gold": 375,
+            "XP": 16000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5309,
+            "Aliases": [
+                "efreeti",
+                "efreet"
+            ],
+            "ShortDesc": "the efreeti",
+            "LongDesc": "The efreeti stands here, sheathed in a column of fire.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The efreeti is a mighty being formed from living fire.  He gazes down at you \r\r\r\r\r\n\rwith disdain and scorn, arms folded across his mighty chest.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "CURSE"
+            ],
+            "Alignment": -600,
+            "Level": 38,
+            "THAC0": 20,
+            "AC": -7,
+            "HP": "50d0+1000",
+            "Damage": "9d5+1",
+            "Gold": 6000,
+            "XP": 8000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5310,
+            "Aliases": [
+                "caryatid",
+                "column"
+            ],
+            "ShortDesc": "a caryatid",
+            "LongDesc": "A sandstone column stands here, carved into a feminine figure.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The column has been carved into a set of four shapely women, each facing\r\r\r\r\r\n\routward into the room.  The sandstone of the caryatid is smooth with age,\r\r\r\r\r\n\rbut you can still make out a deadly stone sword in the hands of each figure.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "CURSE"
+            ],
+            "Alignment": 0,
+            "Level": 22,
+            "THAC0": 24,
+            "AC": -3,
+            "HP": "24d24+240",
+            "Damage": "4d6+8",
+            "Gold": 1500,
+            "XP": 37000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5311,
+            "Aliases": [
+                "djinn",
+                "genie"
+            ],
+            "ShortDesc": "the djinn",
+            "LongDesc": "The djinn issues forth from the confines of a small lamp.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The djinn is a mighty being formed from the air itself and frequently\r\r\r\r\r\n\rimprisoned in a small lamp, used to do the bidding of those who find him.\r\r\r\r\r\n\rHe smiles down at you congenially, arms folded across his blue-tinged \r\r\r\r\r\n\rskin, and strokes his goatee.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "CURSE"
+            ],
+            "Alignment": 600,
+            "Level": 28,
+            "THAC0": 28,
+            "AC": -7,
+            "HP": "28d28+280",
+            "Damage": "6d6+12",
+            "Gold": 3700,
+            "XP": 51000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5312,
+            "Aliases": [
+                "hieracosphinx",
+                "sphinx"
+            ],
+            "ShortDesc": "a hieracosphinx",
+            "LongDesc": "A hieracosphinx looks at you cunningly.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The hieracosphinx are cunning, small, but nasty creatures, having the heads\r\r\r\r\r\n\rof birds, mighty wingspans, and a full set of four paws to rend their victims\r\r\r\r\r\n\rto pieces.  They tend to be quite jealous of the sharper wits of their older\r\r\r\r\r\n\rcousins.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "CURSE"
+            ],
+            "Alignment": -200,
+            "Level": 14,
+            "THAC0": 15,
+            "AC": 2,
+            "HP": "15d15+150",
+            "Damage": "1d10+5",
+            "Gold": 375,
+            "XP": 16000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5313,
+            "Aliases": [
+                "gynosphinx",
+                "sphinx"
+            ],
+            "ShortDesc": "a gynosphinx",
+            "LongDesc": "A gynosphinx sits here, befuddled by a riddle.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The gynosphinx is a crafty but gentle creature, having the body of a\r\r\r\r\r\n\rbeautiful dark-skinned woman from the waist up, a feathery set of wings\r\r\r\r\r\n\rand the hind legs of a mighty cat.  Right now she is confused, having \r\r\r\r\r\n\rjust heard a puzzling riddle from a cousin criosphinx.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 100,
+            "Level": 24,
+            "THAC0": 19,
+            "AC": -1,
+            "HP": "19d19+190",
+            "Damage": "2d10+10",
+            "Gold": 1925,
+            "XP": 41000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5314,
+            "Aliases": [
+                "criosphinx",
+                "sphinx"
+            ],
+            "ShortDesc": "a criosphinx",
+            "LongDesc": "A criosphinx calmly watches you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The criosphinx is a calm and friendly creature, having the head of a ram atop\r\r\r\r\r\n\rthe body of a well-furred feline with eagle-like wings.  He delights in riddles,\r\r\r\r\r\n\rand in poking occasional fun at his easily confused lesser cousins.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 300,
+            "Level": 30,
+            "THAC0": 23,
+            "AC": -3,
+            "HP": "23d23+230",
+            "Damage": "3d10+15",
+            "Gold": 4675,
+            "XP": 56000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5315,
+            "Aliases": [
+                "androsphinx",
+                "sphinx"
+            ],
+            "ShortDesc": "an androsphinx",
+            "LongDesc": "A mighty androsphinx tosses its lion-like mane.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The mighty androsphinx is a huge creature, with the body of a lion whose\r\r\r\r\r\n\rface  is quite man-like, perhaps even handsome, and a massive pair of feathered\r\r\r\r\r\n\rwings.  Tales are told of pharoahs that were rendered permanently deaf by the \r\r\r\r\r\n\rmighty roar of this sphinx.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 400,
+            "Level": 36,
+            "THAC0": 27,
+            "AC": -6,
+            "HP": "27d27+270",
+            "Damage": "4d10+20",
+            "Gold": 9425,
+            "XP": 71000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5316,
+            "Aliases": [
+                "great",
+                "sphinx"
+            ],
+            "ShortDesc": "the great sphinx",
+            "LongDesc": "A mighty sphinx rests here in the sand, dormant now for centuries.\r\r\r\r\r\n\rThe great sphinx appears to be indestructible!\r\r\r\r\r\n\r",
+            "DetailedDesc": "The great sphinx towers tens of feet above you, resting here in a state of \r\r\r\r\r\n\rdormancy.  It has become almost indistinguishable from the sand that surrounds\r\r\r\r\r\n\rit, although you can still make out the features of the handsome face that once\r\r\r\r\r\n\radvised many rulers.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SANCTUARY"
+            ],
+            "Alignment": 500,
+            "Level": 70,
+            "THAC0": 40,
+            "AC": -10,
+            "HP": "5d10+2500",
+            "Damage": "5d5+45",
+            "Gold": 125000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5317,
+            "Aliases": [
+                "ramses",
+                "mummy"
+            ],
+            "ShortDesc": "Ramses the Damned",
+            "LongDesc": "You have awakened the mighty servant to the pharoahs, Ramses.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As your light spills over his face and body, you can see his features begin\r\r\r\r\r\n\rto fill out, swell, and harden, until an apparently healthy man stands before\r\r\r\r\r\n\ryou, clad only in the raiments he was left in when he last slept.  His hair is\r\r\r\r\r\n\ra soft black, his skin a deep chocolate, and his tall frame is totally still, \r\r\r\r\r\n\rhis chest not even moving to breathe.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SANCTUARY"
+            ],
+            "Alignment": 150,
+            "Level": 49,
+            "THAC0": 38,
+            "AC": -19,
+            "HP": "5d5+750",
+            "Damage": "8d5+40",
+            "Gold": 30925,
+            "XP": 105000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

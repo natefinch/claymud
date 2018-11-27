@@ -1,0 +1,2148 @@
+{
+    "mobs": [
+        {
+            "Number": 19001,
+            "Aliases": [
+                "girl",
+                "scout",
+                "girlscout"
+            ],
+            "ShortDesc": "a girl scout",
+            "LongDesc": "A girl scout walks from door to door selling girl scout cookies.\n",
+            "DetailedDesc": "This is your average girl scout. She wears the tradition forrest green\nuniform, with white blouse. She looks at you, and asks \"Will you buy\nmy cookies? Please? They're only a dollar a box.\"\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 5,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "5d6+100",
+            "Damage": "4d4+4",
+            "Gold": 100,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 19002,
+            "Aliases": [
+                "brat",
+                "kid",
+                "neighbor",
+                "hood",
+                "nieghborhood"
+            ],
+            "ShortDesc": "the neighborhood brat",
+            "LongDesc": "A neighboor hood brat laughs at you calling you names.\n",
+            "DetailedDesc": "A little kid stands before you, wearing jeans, and a dirty t-shirt. The \nkid snickers when you look at him. Then as you turn to leave he says \"Hey\nscrotum head! Did halloween come eary this year, or is that really your face?\"\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 5,
+            "AC": 3,
+            "HP": "5d6+130",
+            "Damage": "4d4+5",
+            "Gold": 100,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19003,
+            "Aliases": [
+                "resident",
+                "man",
+                "fat"
+            ],
+            "ShortDesc": "the neighborhood resident",
+            "LongDesc": "A resident stands here washing his car.\n",
+            "DetailedDesc": "He is somewhere in his middle to late fourties. His hair is falling out, and\nhis skin is begining to wrinkle badly. He wears nothing but a threadbare \nt-shirt. When he sees you looking at him he says \"Get outta here ya worthless\npunk!\"\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 6,
+            "AC": 0,
+            "HP": "5d6+200",
+            "Damage": "4d4+6",
+            "Gold": 100,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19004,
+            "Aliases": [
+                "resident",
+                "woman",
+                "fat"
+            ],
+            "ShortDesc": "the neighborhood resident",
+            "LongDesc": "A fat woman sits here worshiping Oprah.\n",
+            "DetailedDesc": "Boy there's a zombie if you ever saw one. She's enormous. At least 500 lbs.\nShe squats on what used to be a couch in front of a comparitavly small TV.\nWhen a commercial comes on, she looks at you and says \"You know what Oprah\nsays about men today?\"\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 6,
+            "AC": 0,
+            "HP": "5d6+200",
+            "Damage": "4d4+6",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 19005,
+            "Aliases": [
+                "motor",
+                "cycle",
+                "bike",
+                "motorbike",
+                "motorcycle"
+            ],
+            "ShortDesc": "a motorcycle",
+            "LongDesc": "A motorcycle sits in the traffic jam.\n",
+            "DetailedDesc": "This is a chrome covered motorcycle of foreign make, and indeterminate\nvintage. As you stare at the motorcycle, it says \"VRRRRROOOOOOOMMMMMM\"!\nWhat did you expect? It's a bike.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 10,
+            "AC": -3,
+            "HP": "5d6+200",
+            "Damage": "6d6+6",
+            "Gold": 1000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19006,
+            "Aliases": [
+                "car",
+                "auto"
+            ],
+            "ShortDesc": "a car",
+            "LongDesc": "A car sits here, inching its way through the traffic jam.\n",
+            "DetailedDesc": "A car, of american make, and ancient vintage, makes its way slowly down th\ninterstate. The car stops every five feet, and says \"VVVRRRROOOOOOOMMMMM.\"\nWhat did you expect? It's a car.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 20,
+            "AC": -5,
+            "HP": "5d6+300",
+            "Damage": "5d6+6",
+            "Gold": 1000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19007,
+            "Aliases": [
+                "semi",
+                "mac",
+                "truck",
+                "mactruck",
+                "trailer",
+                "tractor"
+            ],
+            "ShortDesc": "the truck",
+            "LongDesc": "A Mac Truck rumbles to a halt as you aproach.\n",
+            "DetailedDesc": "This is the largest eighteen wheeler you have ever seen. Hugh columbs of black\nrise from its exhaust pipes. It rumbles as you approach it. \n",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 30,
+            "AC": -20,
+            "HP": "5d6+400",
+            "Damage": "6d6+10",
+            "Gold": 1000,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19008,
+            "Aliases": [
+                "wino",
+                "drunk",
+                "bum",
+                "man"
+            ],
+            "ShortDesc": "the drunk",
+            "LongDesc": "A drunk lays curled up under the bridge.\n",
+            "DetailedDesc": "He's dressed in assorted rags, and salvation army wares. He looks at you\nblearily through the hang over. He looks at you and says \"Got some change?\"\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 25,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "6d6+400",
+            "Damage": "8d9+10",
+            "Gold": 1,
+            "XP": 25000,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19009,
+            "Aliases": [
+                "punk",
+                "man",
+                "boy",
+                "thug"
+            ],
+            "ShortDesc": "the punk",
+            "LongDesc": "A thug lurks here in the shadows.\n",
+            "DetailedDesc": "His face is half hidden by the shadows. As you stare at him, you notice that\nhe is staring right back at you. He sizes you up, and says \"Who you lookin'\nat scum bag?\"\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SNEAK"
+            ],
+            "Alignment": -1000,
+            "Level": 30,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "6d10+450",
+            "Damage": "8d9+10",
+            "Gold": 1000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19010,
+            "Aliases": [
+                "dancer",
+                "man",
+                "male",
+                "stripper"
+            ],
+            "ShortDesc": "the male stripper",
+            "LongDesc": "A male stripper tries to arouse you with tantalizing motions of his hip.\n",
+            "DetailedDesc": "The stripper is of the young, buff, tan type. He moves slowly to the beat of\nthe music playing in the room. He looks at you, licks his lips, and says\n\"Wanna tip me?\" *wink* \"I think you know what I mean.\" *wink*\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 35,
+            "THAC0": 25,
+            "AC": -20,
+            "HP": "6d10+500",
+            "Damage": "10d9+10",
+            "Gold": 1000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19011,
+            "Aliases": [
+                "dance",
+                "woman",
+                "stripper"
+            ],
+            "ShortDesc": "the stripper",
+            "LongDesc": "The stripper shakes her thingys trying to get a tip from you.\n",
+            "DetailedDesc": "She is the kind of girl you have always dreamed of. (If you dream of course...)\nShe is a perfect 10. She licks her lips at you, and says \"Tip me baby! Tip me\nHARD!\"\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 35,
+            "THAC0": 25,
+            "AC": -20,
+            "HP": "6d10+500",
+            "Damage": "10d9+10",
+            "Gold": 1000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 19012,
+            "Aliases": [
+                "man",
+                "big",
+                "bouncer",
+                "guard"
+            ],
+            "ShortDesc": "the bouncer",
+            "LongDesc": "The boucer stands here checking ID's.\n",
+            "DetailedDesc": "He's a big man. Half gorrilla really. His arms can almost reach the ground.\nAs you continue to stare at him he says \"Who the hell do you think you're\nlookin' at?!?\"\n",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 40,
+            "THAC0": 25,
+            "AC": -20,
+            "HP": "6d10+600",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19013,
+            "Aliases": [
+                "fat",
+                "mall",
+                "shopper",
+                "woman"
+            ],
+            "ShortDesc": "the fat mall shopper",
+            "LongDesc": "A woman wanders around shopping happily.\n",
+            "DetailedDesc": "\n",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 45,
+            "THAC0": 25,
+            "AC": -20,
+            "HP": "10d6+700",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 45000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 19014,
+            "Aliases": [
+                "Gilbert",
+                "Godfrey",
+                "man"
+            ],
+            "ShortDesc": "Gilbert Godfrey",
+            "LongDesc": "Gilbert Godfrey stands here whining.\n",
+            "DetailedDesc": "Gilbert Godfrey is one of the most annoying people you have ever met. His\nhigh pitched, whiny voice shreeks in your ear as he says \"Hey! Who the hell\nare you?!?\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19015,
+            "Aliases": [
+                "gary",
+                "colman",
+                "man"
+            ],
+            "ShortDesc": "Gary Coleman",
+            "LongDesc": "Gary Coleman looks at you and says \"Whatchu talkin'bout?\"\n",
+            "DetailedDesc": "This short man has been plagued all his life by fans who want him to say his\nfamous line. He glares at you, but is silent. As you turn to leave, he mumbles\n\"Stupid mudders!\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19016,
+            "Aliases": [
+                "duke",
+                "john",
+                "wayne"
+            ],
+            "ShortDesc": "John Wayne",
+            "LongDesc": "John Wayne \"The Duke\" stands here dreaming of better days.\n",
+            "DetailedDesc": "You see John Wayne in all his glory. He stands an amazing six feet three\ninches tall. On his hip rests a pearl handled six shooter. He looks at you\nand says \"How's it goin' pardner?\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19017,
+            "Aliases": [
+                "danny",
+                "bonnaduche",
+                "man"
+            ],
+            "ShortDesc": "Danny Bonaduche",
+            "LongDesc": "Danny Bonnaduche walks around lookin' for some action.\n",
+            "DetailedDesc": "The youngest boy from the \"Partrige Family\" has grown up a bit since his TV\nyears. He still has red hair, and is unmistakable as ever. He ignores you\ntrying to avoid you glances in his direction.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19018,
+            "Aliases": [
+                "wolf",
+                "man",
+                "wolfman",
+                "jack"
+            ],
+            "ShortDesc": "Wolfman Jack",
+            "LongDesc": "Wolfman Jack stands here looking for Planet Hollywood.\n",
+            "DetailedDesc": "The grey streak of hair is unmistakable. A large middleaged man walks around\nthe room looking for food. When he notices you he says \"You gonna finish that\nbread?\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19019,
+            "Aliases": [
+                "Bob",
+                "cat",
+                "bobcat",
+                "goldway"
+            ],
+            "ShortDesc": "Bobcat Goldway",
+            "LongDesc": "Bobcat Goldway walks around looking for something to drink.\n",
+            "DetailedDesc": "Before you is a frizzy haired little man. He looks back at you, and in a\nraspy, unmistakable voice says \"You got anything to drink? I'm real thirsty!\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19020,
+            "Aliases": [
+                "cousin",
+                "zemus"
+            ],
+            "ShortDesc": "Cousin Zemus",
+            "LongDesc": "Cousin Zemus struts around the room showing off a pair of blue hanes.\n",
+            "DetailedDesc": "Zemus looks remarkably like Bobcat Goldway. He has the same raspy voice, and\nbad hair. The only difference is that Bobcat wears clothes. Zemus wears only\na pair of blue hanes. He looks at you and says \"Like my undies?\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19021,
+            "Aliases": [
+                "Ida",
+                "mae",
+                "woman"
+            ],
+            "ShortDesc": "Ida Mae",
+            "LongDesc": "Ida Mae cheers Zemus on as he shows off his undies.\n",
+            "DetailedDesc": "Ida Mae looks amazingly like one of the dancers at the nudie bar. That's \nprobably where Zemus found her. She is a little old to be a dancer now, but\nfor a woman in her fourties she ain't bad.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 19022,
+            "Aliases": [
+                "cousin",
+                "jimmy"
+            ],
+            "ShortDesc": "cousin Jimmy",
+            "LongDesc": "Cousin Jimmy searches for the man who stole his bride.\n",
+            "DetailedDesc": "This is the man made of bricks. His head especially. He is as thick as he looks.\nWhen he notices you standing here, he says \"Did you sleep with my girlfriend?\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19023,
+            "Aliases": [
+                "Armin",
+                "shimmerman",
+                "man",
+                "quark"
+            ],
+            "ShortDesc": "Armin Shimmerman",
+            "LongDesc": "Armin Shimmerman \"Quark\" stands here looking for a champion Briard.\n",
+            "DetailedDesc": "The man who plays Quark walks around looking for a good deal. When he sees you\nhe says \"You got any eardrops?\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19024,
+            "Aliases": [
+                "cheech",
+                "marin",
+                "man"
+            ],
+            "ShortDesc": "Cheech Marin",
+            "LongDesc": "Cheech Marin sits here smoking some reeffer\n",
+            "DetailedDesc": "A short little hispanic man walks around in a daze. You can smell the pot in\nhis clothes. He looks at you and asks \"You wanna hit?\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19025,
+            "Aliases": [
+                "mom",
+                "peg"
+            ],
+            "ShortDesc": "Peg's mom",
+            "LongDesc": "Peg's mom looks for food everywhere.\n",
+            "DetailedDesc": "This mamoth of a woman thunders around looking for food. She looks frantic\nas if she will starve soon. \"Must be late for her feeding\" you think. As she\nspies you she says \"Mmmmm... mortal... mmmmm.... great with katsup....\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "SNEAK"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 10,
+            "AC": -10,
+            "HP": "10d6+30000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19026,
+            "Aliases": [
+                "Terry",
+                "Bradshaw",
+                "man"
+            ],
+            "ShortDesc": "Terry Bradshaw",
+            "LongDesc": "Terry Bradshaw rigaels you with one of his football memories.\n",
+            "DetailedDesc": "This old quarter back for the steelers walks around looking for someone to\ntalk to. When he sees you, he says \"You want to hear about my life? I'll\nbe your friend! Please?\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19027,
+            "Aliases": [
+                "stupid",
+                "vp",
+                "vice",
+                "president",
+                "vicepresident",
+                "dan",
+                "quayle"
+            ],
+            "ShortDesc": "Dan Quayle",
+            "LongDesc": "Vice president Dan Quayle stands here going 'duuuuuh...'\n",
+            "DetailedDesc": "Ex-Vice president Dan Quayle wanders around the room. He is apparently lost.\nHe keeps calling out \"George? Where are you George?\" When he sees you he\nsays \"Hi! My name is Dan Quayle. People call me Forrest Gump.\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19028,
+            "Aliases": [
+                "vanna",
+                "white",
+                "woman"
+            ],
+            "ShortDesc": "Vanna White",
+            "LongDesc": "Vanna White struts around the room in all her glory.\n",
+            "DetailedDesc": "Vanna White stands before you. Her shoulder length blonde hair glistening\nin the light. As you take in the glorious sight you say \"Can I buy a vowel?\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19029,
+            "Aliases": [
+                "bubba",
+                "smith",
+                "man"
+            ],
+            "ShortDesc": "Bubba Smith",
+            "LongDesc": "Bubba Smith wanders around looking into varoius windows.\n",
+            "DetailedDesc": "The tall man who once played 'High Tower' on the great Police Academy movies,\nlooms before you. He looks down at you and says \"Who are you little man?\"\n*gulp*\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19030,
+            "Aliases": [
+                "amber",
+                "girl"
+            ],
+            "ShortDesc": "Amber",
+            "LongDesc": "Amber, Marcy's niece, wanders around shopping.\n",
+            "DetailedDesc": "The idol of Bud's affections, Amber has shoulder length brown hair, and a\nslender figure. She looks at you and says \"Would you mind if I got out of\nthese hot clothes?\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 19031,
+            "Aliases": [
+                "walter",
+                "troggate",
+                "man",
+                "trenchcoat"
+            ],
+            "ShortDesc": "Walter Troggate",
+            "LongDesc": "A man lurks nearby in the shadows.\n",
+            "DetailedDesc": "As you peer at this mysterious figure, he draws him self back into the shadows.\nFrom the silence he asks \"Have you seen this man?\" and shows you a photo of\nJefferson Darcy standing next to Russian President Borris Yeltsin. \"Well?\nHave you?\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19032,
+            "Aliases": [
+                "shannon",
+                "tweed",
+                "stripper",
+                "woman",
+                "babe",
+                "chick"
+            ],
+            "ShortDesc": "Shannon Tweed",
+            "LongDesc": "A familiar looking stripper stands on stage trying to arouse you.\n",
+            "DetailedDesc": "Here stands Skannon Tweed in all of her busty glory. She sways her hips to\nand fro, trying to get you to put dollars in her pants. \"Tip me!\" she moans.\n\"Tip me HARD!\"\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 19033,
+            "Aliases": [
+                "Zoro",
+                "man",
+                "stripper",
+                "latino"
+            ],
+            "ShortDesc": "Zoro",
+            "LongDesc": "A buff, tan, lationo dancer tantalizes you with a motion of his hips.\n",
+            "DetailedDesc": "The masked stripper thrusts his hip in your direction. As you look in his\neyes, he says \"You can tip me if you want. *wink* ... I think you know\nwhat I mean...\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19034,
+            "Aliases": [
+                "man",
+                "sam",
+                "kennison"
+            ],
+            "ShortDesc": "Sam Kennison",
+            "LongDesc": "A man stands here yelling, and complaining about women.\n",
+            "DetailedDesc": "What looks like Danny DeVito with lots more hair stands here before you.\nHe is continually complaining about women. When he sees you staring he\nyells at you \"ARRR ARRR ARRRRRRRR!!!!\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19035,
+            "Aliases": [
+                "Scott",
+                "ian",
+                "man",
+                "anthrax"
+            ],
+            "ShortDesc": "Scott Ian (Anthrax Member)",
+            "LongDesc": "A man wearing an Anthrax T-Shirt stumbles around the room.\n",
+            "DetailedDesc": "A man with shoulder length hair stands here swaying back and forth to a\nbeat that you don't even hear. The only distinguishing feature about him\nis his Anthrax T-Shirt.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19036,
+            "Aliases": [
+                "dan",
+                "spitz",
+                "man",
+                "anthrax"
+            ],
+            "ShortDesc": "Dan Spitz (Anthrax Member)",
+            "LongDesc": "A man wearing an Anthrax T-Shirt stumbles around the room.\n",
+            "DetailedDesc": "A man with shoulder length hair stands here swaying back and forth to a\nbeat that you don't even hear. The only distinguishing feature about him\nis his Anthrax T-Shirt.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19037,
+            "Aliases": [
+                "frank",
+                "bello",
+                "anthrax",
+                "man",
+                "member"
+            ],
+            "ShortDesc": "Frank Bello (Anthrax Member)",
+            "LongDesc": "A man wearing an Anthrax T-Shirt stumbles around the room.\n",
+            "DetailedDesc": "A man with shoulder length hair stands here swaying back and forth to a\nbeat that you don't even hear. The only distinguishing feature about him\nis his Anthrax T-Shirt.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19038,
+            "Aliases": [
+                "Charlie",
+                "benante",
+                "anthrax",
+                "member",
+                "man"
+            ],
+            "ShortDesc": "Charlie Benante (Anthrax Member)",
+            "LongDesc": "A man wearing an Anthrax T-Shirt stumbles around the room.\n",
+            "DetailedDesc": "A man with shoulder length hair stands here swaying back and forth to a\nbeat that you don't even hear. The only distinguishing feature about him\nis his Anthrax T-Shirt.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19039,
+            "Aliases": [
+                "tracy",
+                "lords",
+                "woman",
+                "stripper"
+            ],
+            "ShortDesc": "Tracy Lords",
+            "LongDesc": "A busty blonde struts around the room trying to get your attention.\n",
+            "DetailedDesc": "Tracy Lords struts around the room in all of her blonde, big hootered glory.\nShe peers at you through the hair falling in front of her face. When your\neyes meet she says \"See anything you like? ... I do. *wink*\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19040,
+            "Aliases": [
+                "santa",
+                "clause",
+                "santaclause",
+                "saint",
+                "nick",
+                "nicolas",
+                "saintnick",
+                "father",
+                "christmas",
+                "man",
+                "red"
+            ],
+            "ShortDesc": "Santa Clause",
+            "LongDesc": "Santa rests on a cloud drinking some whiskey, and talking to himself.\n",
+            "DetailedDesc": "The jolly red man is no longer among the living. Since he died he has taken\nup drinking hard liquor. He mumbles quietly to himself when he sees you\nlooking at him \"Damn kids! 'I want a train!' 'I want an aeroplane!' 'I want\na bike!' Damn kids! Don't they know Santa's got needs too? Yeah... that's it\ncome sit on Santa's lap!\" Santa begins to laugh insanely, and uncontrollably.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19041,
+            "Aliases": [
+                "howard",
+                "howie",
+                "long",
+                "man",
+                "football",
+                "player"
+            ],
+            "ShortDesc": "Howie Long",
+            "LongDesc": "Howie Long stands here mumbling about some past football life that he had.\n",
+            "DetailedDesc": "At six foot six inches, Howie Long is a very tall man. He towers above you\nlooking in every direction. Finally he sees you, and asks \"Have you seen the\nFox Studios? I'm lost?\" He looks very worried.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 66,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19042,
+            "Aliases": [
+                "ed",
+                "too",
+                "tall",
+                "jones",
+                "man"
+            ],
+            "ShortDesc": "Ed \"Too Tall\" Jones",
+            "LongDesc": "Ed \"Too Tall\" Jones stands here remebering his days with the Bears.\n",
+            "DetailedDesc": "As you look far above your head, you notice that this mountain of a man is\nlooking back at you. He looks down closer and says \"You know 'Too Tall'\ndoesn't actually refer to my height. *wink*\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19043,
+            "Aliases": [
+                "cal",
+                "ripken",
+                "man",
+                "ball",
+                "player"
+            ],
+            "ShortDesc": "Cal Ripken",
+            "LongDesc": "Cal Ripken stands here remembering his former glory.\n",
+            "DetailedDesc": "The former baseball star stands here peering back at you. You marvel at his\nstature. He looks a lot shorter on TV. He asks you \"Have you seen my lucky\nbat? I seem to have lost it...\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19044,
+            "Aliases": [
+                "sugar",
+                "ray",
+                "leonard",
+                "boxer",
+                "man"
+            ],
+            "ShortDesc": "Suger Ray Leonard",
+            "LongDesc": "Sugar Ray Leonard stands here shadow boxing.\n",
+            "DetailedDesc": "He walks around the room, constantly shadow boxing with the walls. When he\nsees you he says \"Hey... You wanna fight or somethin'?\" Then he grins\nevily at you.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 28,
+            "AC": -23,
+            "HP": "6d10+1000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19045,
+            "Aliases": [
+                "seven",
+                "kid",
+                "boy",
+                "brat"
+            ],
+            "ShortDesc": "Seven",
+            "LongDesc": "A little brat sits here laughing at you.\n",
+            "DetailedDesc": "This little brat has blonde hair, and a bowlcut. He is about three feet high,\nand really annoying. He sneers at you and says \"Where'd you come from? Looser!\"\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 45,
+            "THAC0": 1,
+            "AC": -5,
+            "HP": "6d10+400",
+            "Damage": "5d9+10",
+            "Gold": 0,
+            "XP": 7000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19046,
+            "Aliases": [
+                "bus",
+                "greyhound",
+                "grey",
+                "hound"
+            ],
+            "ShortDesc": "bus",
+            "LongDesc": "A greyhound bus sits in traffic.\n",
+            "DetailedDesc": "What? You never seen a bus before? It's a big grey passenger bus. The fumes\nfrom the engine are begining to make your eyes water. It sits here going\n\"VVVRRRROOOOOMMMMM\"\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 44,
+            "THAC0": 28,
+            "AC": -25,
+            "HP": "6d9+1000",
+            "Damage": "6d9+10",
+            "Gold": 10000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19047,
+            "Aliases": [
+                "dodge",
+                "car",
+                "oldal",
+                "al's",
+                "als"
+            ],
+            "ShortDesc": "the mighty Dodge",
+            "LongDesc": "The mighty Dodge rests here.\n",
+            "DetailedDesc": "This ancient dodge has nearly 1,000,000 miles on the odometer. It is a sort\nof puke brown in color. When you walkup to it, the engine rumbles as if it\nwere alive.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 55,
+            "THAC0": 24,
+            "AC": -20,
+            "HP": "6d10+1000",
+            "Damage": "10d9+10",
+            "Gold": 1,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19048,
+            "Aliases": [
+                "toilet",
+                "furgeson",
+                "komode"
+            ],
+            "ShortDesc": "furgeson",
+            "LongDesc": "Al's favorite toilet, the furgeson, rests here.\n",
+            "DetailedDesc": "Yep... It's a toilet. And a big one too. All white porciline, furgeson. When\nyou stare at it longer, it begins to make noises. \"SHSHSHSHSHSHSHSHSHSHSHSH...\ngurgle gurgle gurgle...\"\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 69,
+            "THAC0": 24,
+            "AC": -20,
+            "HP": "10d10+1400",
+            "Damage": "10d9+10",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19049,
+            "Aliases": [
+                "Gary",
+                "woman",
+                "man"
+            ],
+            "ShortDesc": "Gary",
+            "LongDesc": "A strange woman lurks here in the shadows.\n",
+            "DetailedDesc": "The woman that owns Gary's Shoes and accessories, stands here in the shadows.\nShe glares back at you and says \"Hurry up and sell shoes Shoeman!\"\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -100,
+            "Level": 70,
+            "THAC0": 40,
+            "AC": -25,
+            "HP": "10d10+1500",
+            "Damage": "10d9+20",
+            "Gold": 210000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19050,
+            "Aliases": [
+                "dog",
+                "lucky",
+                "little"
+            ],
+            "ShortDesc": "Lucky",
+            "LongDesc": "The Bundy's new dog Lucky sits here looking for food.\n",
+            "DetailedDesc": "Looking nothing like Buck, Lucky peers around the room trying to see you.\nLucky looks nothing like Buck except for the obvious malnutrition. When\nLucky finaly sees you he begins to bark \"Woof Woof!\"\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 70,
+            "THAC0": 40,
+            "AC": -25,
+            "HP": "10d10+2000",
+            "Damage": "10d9+20",
+            "Gold": 10,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19051,
+            "Aliases": [
+                "pack",
+                "mystery",
+                "foil",
+                "tin",
+                "tinfoil"
+            ],
+            "ShortDesc": "the mystery pack",
+            "LongDesc": "There is a tin foil pack sitting on a shelf here.\n",
+            "DetailedDesc": "This is a tin foil pack of who knows what. When you move closer it lurches\nout, and attacks you! RUN!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 70,
+            "THAC0": 40,
+            "AC": -28,
+            "HP": "10d9+2000",
+            "Damage": "10d9+20",
+            "Gold": 100,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19052,
+            "Aliases": [
+                "troy",
+                "man",
+                "shadow"
+            ],
+            "ShortDesc": "Troy",
+            "LongDesc": "Troy lurks in theshadows here.\n",
+            "DetailedDesc": "You can barely make out the shadowy figure in the darkness. He grins evily\nat you, and says \"Hey! You wanna piece of me?\"\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 70,
+            "THAC0": 40,
+            "AC": -28,
+            "HP": "10d10+2000",
+            "Damage": "10d9+20",
+            "Gold": 10000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19053,
+            "Aliases": [
+                "man",
+                "shadow",
+                "shadowy",
+                "trech",
+                "coat",
+                "trechcoat",
+                "mugger"
+            ],
+            "ShortDesc": "the mugger",
+            "LongDesc": "A mugger lurks here in the shadows.\n",
+            "DetailedDesc": "As you stand looking at him, he tells you to give him all your valuables.\nHe points the largest handgun you have ever seen at you. His hand twitches\nslightly when you fail to react.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 70,
+            "THAC0": 42,
+            "AC": -25,
+            "HP": "10d10+2000",
+            "Damage": "10d9+20",
+            "Gold": 1000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19054,
+            "Aliases": [
+                "al",
+                "bundy",
+                "man"
+            ],
+            "ShortDesc": "Al Bundy",
+            "LongDesc": "Al Bundy stands here selling shoes.\n",
+            "DetailedDesc": "Nearly hairless, and aged, Al Bundy remebers his days at Polk High. His\ndays before 'Red Death'. When he notices you he says 'I scored four touchdowns\nin one game!'.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 100,
+            "AC": -50,
+            "HP": "10d10+6000",
+            "Damage": "10d9+30",
+            "Gold": 1,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19055,
+            "Aliases": [
+                "peg",
+                "peggy",
+                "bundy",
+                "woman",
+                "red"
+            ],
+            "ShortDesc": "Peg Bundy",
+            "LongDesc": "Peggy Bundy sits here on the couch watching Oprah.\n",
+            "DetailedDesc": "In all of her red haired glory, Peg Bundy sits on the couch watching\nOprah. When a commercial comes on she says 'Would you like a Bon-bon?' What\na strange woman...\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 100,
+            "AC": 0,
+            "HP": "10d10+5000",
+            "Damage": "10d9+30",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 19056,
+            "Aliases": [
+                "kelly",
+                "bundy",
+                "girl"
+            ],
+            "ShortDesc": "Kelly Bundy",
+            "LongDesc": "Kelly walks around looking for Waldo.\n",
+            "DetailedDesc": "This blonde beauty hasn't got a brain in her head. She wanders around\nthe room calling \"Waldo? Waldo? Waldo? where are you?\" What a ditz... But\na ditz with some ... well you know. ;)\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 100,
+            "THAC0": 55,
+            "AC": -26,
+            "HP": "10d10+7000",
+            "Damage": "10d9+30",
+            "Gold": 10000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 19057,
+            "Aliases": [
+                "buck",
+                "dog",
+                "bundy"
+            ],
+            "ShortDesc": "Buck",
+            "LongDesc": "Buck runs around chasing angels.\n",
+            "DetailedDesc": "Buck finally made it out of hell. He now resides on cloud nine. When he sees\nyou he begins to bark. \"Woof woof woof!\" What did you expect? He's a dog.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 100,
+            "AC": -50,
+            "HP": "10d10+3000",
+            "Damage": "10d9+20",
+            "Gold": 10000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19058,
+            "Aliases": [
+                "marcy",
+                "rhodes",
+                "darcy",
+                "butch",
+                "chicken",
+                "man",
+                "woman",
+                "boy",
+                "bruce",
+                "jenner"
+            ],
+            "ShortDesc": "Marcy \"The Chicken\" Darcy",
+            "LongDesc": "Bruce Jenner is here... no wait... That's Marcy Darcy!\n",
+            "DetailedDesc": "This short little man/woman/chicken screams at you. He/she/it is dressed in\na dominatrix out fit, prepareing to torture Jefferson Darcy. When she sees\nyou, she screams like some demonic chicken!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 100,
+            "AC": -50,
+            "HP": "10d10+3000",
+            "Damage": "10d9+20",
+            "Gold": 10000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19059,
+            "Aliases": [
+                "man",
+                "god",
+                "sydney",
+                "whimhollow"
+            ],
+            "ShortDesc": "Sydney Whimhollow",
+            "LongDesc": "God, the Almighty Creator of light and dark sits on a cloud here before you.\n",
+            "DetailedDesc": "Well... you never thought God would look like _that_. He's a wussy looking man\nof about 40 years. He looks over at you, and say 'Would you like to buy some\nshoes?'\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 100,
+            "AC": -50,
+            "HP": "10d10+3000",
+            "Damage": "10d9+20",
+            "Gold": 10000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19060,
+            "Aliases": [
+                "bud",
+                "troll",
+                "boy",
+                "bundy"
+            ],
+            "ShortDesc": "Bud \"The Troll\" Bundy",
+            "LongDesc": "A troll lurks in the shadows here.\n",
+            "DetailedDesc": "More troll than man, Bud Bundy sits here dreaming of ways to get a date.\nHis latest plan is to dress up as Cross Dresser 'B' or something like that.\nAnyway you don't care. He's really to gross to keep looking at, so you turn\naway.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 55,
+            "AC": -25,
+            "HP": "10d10+6000",
+            "Damage": "10d9+20",
+            "Gold": 10000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19061,
+            "Aliases": [
+                "jefferson",
+                "darcy",
+                "pretty",
+                "boy",
+                "man"
+            ],
+            "ShortDesc": "Jefferson Darcy",
+            "LongDesc": "Jefferson Darcy is tied to the wall here trying to look pretty.\n",
+            "DetailedDesc": "Jefferson is God's gift to chickens. He is tied to the wall, but still\ntries to look his best. When he sees you he asks 'How's my hair look?' Y\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 55,
+            "AC": -25,
+            "HP": "10d10+6000",
+            "Damage": "10d9+20",
+            "Gold": 10000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19062,
+            "Aliases": [
+                "steve",
+                "rhodes",
+                "man",
+                "rich",
+                "banker"
+            ],
+            "ShortDesc": "Steve Rhodes",
+            "LongDesc": "Steve Rhodes curses his luck, and the other drivers.\n",
+            "DetailedDesc": "This man is in his middle fourties. He has dark hair, and is the\nspitting immage of a weenie. He sits in his mercedes, and curses you for\nnot driving fast enough.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 55,
+            "AC": -25,
+            "HP": "10d10+6000",
+            "Damage": "10d9+20",
+            "Gold": 10000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19063,
+            "Aliases": [
+                "Bob",
+                "Roony",
+                "man",
+                "nomaam",
+                "no",
+                "ma'am",
+                "noma'am"
+            ],
+            "ShortDesc": "Bob Rooney",
+            "LongDesc": "Bob Rooney cheers on the strippers.\n",
+            "DetailedDesc": "This noma'am member struts around the room in all of his overweight, middle\naged glory. He cheers on a stripper, and tries to lure her with a fake dollar.\nWhen he sees you he says 'Ain't she great?'\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 55,
+            "AC": -25,
+            "HP": "10d10+6000",
+            "Damage": "10d9+20",
+            "Gold": 10000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19064,
+            "Aliases": [
+                "ed",
+                "man",
+                "no",
+                "nomaam",
+                "noma'am",
+                "ma'am"
+            ],
+            "ShortDesc": "Ed",
+            "LongDesc": "Ed stands here drinking Girly-Girl beer, and cheering.\n",
+            "DetailedDesc": "This noma'am member struts around the room in all of his overweight, middle\naged glory. He cheers on a stripper, and tries to lure her with a fake dollar.\nWhen he sees you he says 'Ain't she great?'\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 55,
+            "AC": -25,
+            "HP": "10d10+6000",
+            "Damage": "10d9+20",
+            "Gold": 10000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19065,
+            "Aliases": [
+                "Griff",
+                "man",
+                "no",
+                "maam",
+                "nomaam",
+                "noma'am",
+                "ma'am"
+            ],
+            "ShortDesc": "Griff",
+            "LongDesc": "Griff stands here drinking beer, and staring at a hooter.\n",
+            "DetailedDesc": "This noma'am member struts around the room in all of his overweight, middle\naged glory. He cheers on a stripper, and tries to lure her with a fake dollar.\nWhen he sees you he says 'Ain't she great?'\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 55,
+            "AC": -25,
+            "HP": "10d10+6000",
+            "Damage": "10d9+20",
+            "Gold": 10000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19066,
+            "Aliases": [
+                "no",
+                "maam",
+                "nomaam",
+                "noma'am",
+                "ma'am",
+                "member"
+            ],
+            "ShortDesc": "a No ma'am member",
+            "LongDesc": "A no ma'am member drinks his beer, and cheers on the strippers.\n",
+            "DetailedDesc": "This noma'am member struts around the room in all of his overweight, middle\naged glory. He cheers on a stripper, and tries to lure her with a fake dollar.\nWhen he sees you he says 'Ain't she great?'\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 55,
+            "AC": -25,
+            "HP": "10d10+6000",
+            "Damage": "10d9+20",
+            "Gold": 10000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19067,
+            "Aliases": [
+                "frank",
+                "sinatra",
+                "man",
+                "singer"
+            ],
+            "ShortDesc": "Frank Sinatra",
+            "LongDesc": "Frank Sinatra is standing here singing 'Love and Marriage'\n",
+            "DetailedDesc": "'Baby Blue Eyes' stands here singing the theme song to married with\nchildren. He sways back and forth to the beat. When he looks at you he just\nsmiles.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 100,
+            "THAC0": 75,
+            "AC": -30,
+            "HP": "10d10+5000",
+            "Damage": "10d9+30",
+            "Gold": 100000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 19068,
+            "Aliases": [
+                "plunger",
+                "bessy"
+            ],
+            "ShortDesc": "Bessy",
+            "LongDesc": "Bessy sits here ready for Al.\n",
+            "DetailedDesc": "This is Al's plunger. She is responsible for undoing what ever Al does.\nIt's a dirty job, but someone has to do it.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 15,
+            "AC": -5,
+            "HP": "10d10+1000",
+            "Damage": "5d9+10",
+            "Gold": 1,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 19069,
+            "Aliases": [
+                "resident",
+                "woman",
+                "fat"
+            ],
+            "ShortDesc": "the neighborhood resident",
+            "LongDesc": "A fat woman stands here worshiping Zoro.\n",
+            "DetailedDesc": "Boy there's a zombie if you ever saw one. She's enormous. At least 500 lbs.\nShe squats on what used to be a couch in front of a comparitavly small TV.\nWhen a commercial comes on, she looks at you and says \"You know what Oprah\nsays about men today?\"\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 6,
+            "AC": 0,
+            "HP": "5d6+200",
+            "Damage": "4d4+6",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 19070,
+            "Aliases": [
+                "toilet",
+                "furgeson",
+                "komode"
+            ],
+            "ShortDesc": "furgeson",
+            "LongDesc": "Al's favorite toilet, the furgeson, rests here.\n",
+            "DetailedDesc": "Yep... It's a toilet. And a big one too. All white porciline, furgeson. When\nyou stare at it longer, it begins to make noises. \"SHSHSHSHSHSHSHSHSHSHSHSH...\ngurgle gurgle gurgle...\"\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 60,
+            "THAC0": 24,
+            "AC": -20,
+            "HP": "10d10+1400",
+            "Damage": "10d9+10",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

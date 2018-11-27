@@ -1,0 +1,297 @@
+{
+    "mobs": [
+        {
+            "Number": 14100,
+            "Aliases": [
+                "Rabbit",
+                "rab",
+                "white"
+            ],
+            "ShortDesc": "a rabbit",
+            "LongDesc": "A white rabbit is hopping about here in search of food.\n",
+            "DetailedDesc": "He's just a standard cute, furry, little white rabbit. Although if you've\never owned a rabbit, doesn't matter how cute they are, they usually don't\nlike to be messed with.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 8,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "1d1+200",
+            "Damage": "3d5+0",
+            "Gold": 0,
+            "XP": 1250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 14101,
+            "Aliases": [
+                "fox",
+                "brown"
+            ],
+            "ShortDesc": "a fox",
+            "LongDesc": "A brown fox is here sniffing the ground looking for a rabbit to eat.\n",
+            "DetailedDesc": "You look at the fox. He's an orange brown color and looks like he doesn't\nlike company. I'd leave him alone.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "1d1+300",
+            "Damage": "4d5+0",
+            "Gold": 0,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 14102,
+            "Aliases": [
+                "sparrow"
+            ],
+            "ShortDesc": "a sparrow",
+            "LongDesc": "A small sparrow is here poking in the grass looking for food .\n",
+            "DetailedDesc": "You take a closer look at a sparrow..Hmmmm....Guess what? It's a sparrow!!!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 4,
+            "AC": 8,
+            "HP": "1d1+30",
+            "Damage": "2d5+0",
+            "Gold": 0,
+            "XP": 800,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 14103,
+            "Aliases": [
+                "snake",
+                "brown"
+            ],
+            "ShortDesc": "a brown snake",
+            "LongDesc": "A brown snake slithers by your feet, watch out.\n",
+            "DetailedDesc": "Taking a closer look at the snake you see he's not entirely brown, rather he\nhas some small black spots on his back. His fangs look pretty sharp, they'd\nprobably hurt a lot.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "1d1+200",
+            "Damage": "6d3+0",
+            "Gold": 0,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 14104,
+            "Aliases": [
+                "villager",
+                "graven",
+                "man"
+            ],
+            "ShortDesc": "a lost Graven villager",
+            "LongDesc": "A lost Graven villager is wandering here, looking for a way out of the\nforest.\n",
+            "DetailedDesc": "He looks kind of lost.. but thats just guess. What bothers you is that he\nlooks really scared. Perhaps he knows something you don't?\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 25,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "1d1+1000",
+            "Damage": "5d5+0",
+            "Gold": 500,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 14105,
+            "Aliases": [
+                "monster",
+                "snarl",
+                "dark",
+                "woods"
+            ],
+            "ShortDesc": "a monster of the Dark Woods",
+            "LongDesc": "A monster of the Dark Woods is here snarling viciously at you.\n",
+            "DetailedDesc": "You look at this terrible creature...His 3 inch fangs, hairy body and sharp\nclaws remind you of a dog, only it stands upright on 2 powerful, hairy legs.\nHis mouth drips with a red colored liquid, a liquid you know all to well. You\ncan smell his very presence, a smell of rotted meat and decaying flesh. Maybe\nnow is a good time to run.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -200,
+            "Level": 75,
+            "THAC0": 45,
+            "AC": -17,
+            "HP": "1d1+8000",
+            "Damage": "6d5+22",
+            "Gold": 0,
+            "XP": 175000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 14106,
+            "Aliases": [
+                "woodlander",
+                "wood",
+                "lander",
+                "man"
+            ],
+            "ShortDesc": "a Woodlander",
+            "LongDesc": "A Woodlander stands here, looking cautiously around.\n",
+            "DetailedDesc": "This is obviously one of the people that you had seen evidence of living in\nthe woods. He looks fairly tall, and seems to be uncannily aware of his\nsurroundings. He is wearing some kind of animal skin on his body, and\nwielding a small sword.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 500,
+            "Level": 35,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "1d1+1500",
+            "Damage": "4d5+0",
+            "Gold": 0,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 14107,
+            "Aliases": [
+                "robin",
+                "bird"
+            ],
+            "ShortDesc": "a robin",
+            "LongDesc": "A robin is here looking for worms in the soil.\n",
+            "DetailedDesc": "Taking a closer look, you see nothing unusual about this pretty little bird.\nHe's just going about his business looking for food.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 6,
+            "THAC0": 12,
+            "AC": 4,
+            "HP": "1d1+50",
+            "Damage": "5d2+0",
+            "Gold": 0,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 14108,
+            "Aliases": [
+                "jay",
+                "blue"
+            ],
+            "ShortDesc": "a blue jay",
+            "LongDesc": "A blue jay is pecking the ground here in search of a tasty bug or 2.\n",
+            "DetailedDesc": "You look a little more closely at this small blue bird. You notice he appears\nto be really hungry. Hmmm.... Got any bread?\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 10,
+            "AC": 6,
+            "HP": "1d1+40",
+            "Damage": "6d2+0",
+            "Gold": 0,
+            "XP": 400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 14109,
+            "Aliases": [
+                "deer"
+            ],
+            "ShortDesc": "a deer",
+            "LongDesc": "A deer is stnding here, drinking from the pond.\n",
+            "DetailedDesc": "Looking at the deer you see it's a beautiful animal. If only you had a 12\ngauge shotgun with you. Oh well. For now you'll have to be content with\nwatching it.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 14,
+            "THAC0": 17,
+            "AC": 0,
+            "HP": "1d1+500",
+            "Damage": "4d6+0",
+            "Gold": 0,
+            "XP": 7000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

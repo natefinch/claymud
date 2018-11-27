@@ -1,0 +1,1250 @@
+{
+    "mobs": [
+        {
+            "Number": 5100,
+            "Aliases": [
+                "goblin",
+                "slave"
+            ],
+            "ShortDesc": "the goblin slave",
+            "LongDesc": "A goblin slave stands here begging for mercy.\n",
+            "DetailedDesc": "A poor, defenseless goblin slave is here begging for mercy. Controlled by the drow master, This slave will do anything for him. \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 350,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "1d11+30",
+            "Damage": "1d5+0",
+            "Gold": 0,
+            "XP": 625,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5101,
+            "Aliases": [
+                "drow",
+                "elf",
+                "dark",
+                "commoner"
+            ],
+            "ShortDesc": "a drow commoner",
+            "LongDesc": "A drow commoner glares at you as you walk by.\n",
+            "DetailedDesc": "A common dweller of the drow city stands before you. He is busy doing the every-day things of life as well as being very interested in you. \n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 14,
+            "THAC0": 35,
+            "AC": 5,
+            "HP": "1d1+200",
+            "Damage": "4d1+5",
+            "Gold": 1500,
+            "XP": 9000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5102,
+            "Aliases": [
+                "drow",
+                "noble",
+                "warrior"
+            ],
+            "ShortDesc": "a drow warrior noble",
+            "LongDesc": "A drow warrior noble stands here guarding his home.\n",
+            "DetailedDesc": "Dressed in fine metals, the drow warrior noble looks like a formadible foe. Standing only about 5'5\" in stature, He looks like you might be able to take him. But don't let looks decieve you.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 31,
+            "THAC0": 35,
+            "AC": 3,
+            "HP": "1d1+750",
+            "Damage": "1d1+20",
+            "Gold": 5000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5103,
+            "Aliases": [
+                "drow",
+                "mage",
+                "noble"
+            ],
+            "ShortDesc": "the drow mage noble",
+            "LongDesc": "A drow mage noble is here protecting his home.\n",
+            "DetailedDesc": "Draped in fine robes, the short elf like creature before you appears to be just a commoner of the area. Tied around his waist is a small belt holding potions and rods of different shapes. This creature looks like he knows how to use his little tricks.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "WIMPY",
+                "HELPER",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 30,
+            "THAC0": 20,
+            "AC": 6,
+            "HP": "1d1+450",
+            "Damage": "4d1+12",
+            "Gold": 10000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5104,
+            "Aliases": [
+                "wolf",
+                "dark"
+            ],
+            "ShortDesc": "a dark wolf",
+            "LongDesc": "a dark wolf stares you in the eyes.\n",
+            "DetailedDesc": "This wolf is large with very sharp looking teeth. By herself she looks pretty harmless, but I wouldn't want to run into her with the rest of her pack. \n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 2,
+            "THAC0": 22,
+            "AC": 10,
+            "HP": "1d1+30",
+            "Damage": "1d1+3",
+            "Gold": 20,
+            "XP": 750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5105,
+            "Aliases": [
+                "drow",
+                "master",
+                "drowmaster"
+            ],
+            "ShortDesc": "a drow master",
+            "LongDesc": "A drow master stares at you angrily.\n",
+            "DetailedDesc": "The small drow master stands here with his heard of slaves. Armed with a whip and and a whistle around his neck, he looks very dominating of his subjects. If I were you I wouldn't get in his way.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -1000,
+            "Level": 28,
+            "THAC0": 35,
+            "AC": -4,
+            "HP": "2d12+688",
+            "Damage": "9d3+10",
+            "Gold": 10000,
+            "XP": 14000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5106,
+            "Aliases": [
+                "drow",
+                "weaponsmaster"
+            ],
+            "ShortDesc": "the weaponsmaster",
+            "LongDesc": "A drow weaponsmaster is here shadow boxing.\n",
+            "DetailedDesc": "The drow weaponsmaster is among the biggest of the drow common folk. Although armed with weapons and armor, the weaponsmaster is very skilled in the art of boxing. He is a protector of his people and will help anyone in distress.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 15,
+            "THAC0": 35,
+            "AC": 1,
+            "HP": "1d14+450",
+            "Damage": "5d1+12",
+            "Gold": 15000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5107,
+            "Aliases": [
+                "drow",
+                "matron",
+                "mother",
+                "baenre"
+            ],
+            "ShortDesc": "Matron Baenre",
+            "LongDesc": "Matron Baenre is here sitting on her throne smiling evilly.\n",
+            "DetailedDesc": "You see a withered old drow whose faced is crisscrossed by thousands of \nspiderly lines.  She looks as if she should have died a long time ago.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 80,
+            "THAC0": 65,
+            "AC": -35,
+            "HP": "100d5+6500",
+            "Damage": "14d3+50",
+            "Gold": 50000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5108,
+            "Aliases": [
+                "matron",
+                "mother",
+                "K'yorl",
+                "Odran"
+            ],
+            "ShortDesc": "K'yorl Odran",
+            "LongDesc": "K'yorl Odran the keeper of the 3rd house stands here.\n",
+            "DetailedDesc": "You see a scrawny, small drow dressed in unremarkable black robes.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 160,
+            "THAC0": 92,
+            "AC": -38,
+            "HP": "15d10+17000",
+            "Damage": "34d5+68",
+            "Gold": 20000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5109,
+            "Aliases": [
+                "yochlol"
+            ],
+            "ShortDesc": "the yochlol",
+            "LongDesc": "The almighty yochlol forms out of a swirling mist and ATTACKS!\n",
+            "DetailedDesc": "Covered with fuzz thick as wool, and gleaming with bright colors beneath\nits belly, the mighty yochlol towers over you.  With blood dripping from its\nfangs and baby spiders crawling about her body, the yochlol strikes fear \ninto your heart.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 127,
+            "THAC0": 82,
+            "AC": -34,
+            "HP": "1d1+12000",
+            "Damage": "12d5+78",
+            "Gold": 381000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5110,
+            "Aliases": [
+                "protector"
+            ],
+            "ShortDesc": "Protector of the Tunnel",
+            "LongDesc": "The Protector is here guarding the tunnel.\n",
+            "DetailedDesc": "Before you stands the octupus-headed adivsor to Matron Baenre.  He is wearing\na rich crimson robe with long sleeves in order to keep his scrawny, three-\nclawed hands from sight.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 60,
+            "THAC0": 65,
+            "AC": -35,
+            "HP": "60d4+3000",
+            "Damage": "14d2+45",
+            "Gold": 80000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5111,
+            "Aliases": [
+                "drow",
+                "bladen",
+                "kerst",
+                "bladenkerst"
+            ],
+            "ShortDesc": "Bladen'Kerst",
+            "LongDesc": "Bladen'Kerst is standing here waiting for her next torture victim.\n",
+            "DetailedDesc": "Standing before you is a beautiful, yet deadly drow.  You see a sadistic look\nin her eyes.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 60,
+            "THAC0": 65,
+            "AC": -37,
+            "HP": "1d1+10000",
+            "Damage": "12d2+70",
+            "Gold": 70000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5112,
+            "Aliases": [
+                "jarlaxle",
+                "drow"
+            ],
+            "ShortDesc": "Jarlaxle",
+            "LongDesc": "Jarlaxle, the leader of Bregan D'aerthe\n",
+            "DetailedDesc": "Before you stand a tall, bald, smooth skinned drow.  He seems to be smiling\nevilly at you.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGR_EVIL",
+                "AGGR_GOOD",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -345,
+            "Level": 125,
+            "THAC0": 87,
+            "AC": -60,
+            "HP": "100d3+9000",
+            "Damage": "22d5+60",
+            "Gold": 20000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5113,
+            "Aliases": [
+                "drow",
+                "matron",
+                "mother",
+                "triel"
+            ],
+            "ShortDesc": "Triel Baenre",
+            "LongDesc": "Triel Baenre, the matron mistress of Arach-Tinilith, is standing here.\n",
+            "DetailedDesc": "You see a short, yet very dangerous drow staring back at you.  She is dressed\nin the finest black silk robes.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 95,
+            "THAC0": 70,
+            "AC": -39,
+            "HP": "100d3+6900",
+            "Damage": "10d5+70",
+            "Gold": 200000,
+            "XP": 76000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5114,
+            "Aliases": [
+                "drow",
+                "warrior",
+                "dantrag"
+            ],
+            "ShortDesc": "Dantrag Baenre",
+            "LongDesc": "Dantrag Baenre, the weapon master of House Baenre, is standing here.\n",
+            "DetailedDesc": "You see a tall, handsome drow fighter before you.  He has a lean body with \nfinely tuned muscles.  His white hair is pulled back into a ponytail.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 118,
+            "THAC0": 72,
+            "AC": -12,
+            "HP": "15d10+9000",
+            "Damage": "6d3+48",
+            "Gold": 70000,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5115,
+            "Aliases": [
+                "drow",
+                "warrior",
+                "uthegental"
+            ],
+            "ShortDesc": "Uthegental",
+            "LongDesc": "Uthegental, the weapon master of House Barrison Del'Armgo, is standing here.\n",
+            "DetailedDesc": "You see a handsome, tall drow.  He has a lean body with finely tuned muscles.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 60,
+            "THAC0": 30,
+            "AC": -10,
+            "HP": "20d5+4500",
+            "Damage": "8d1+30",
+            "Gold": 60000,
+            "XP": 64000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5116,
+            "Aliases": [
+                "drow",
+                "matron",
+                "mother",
+                "faen",
+                "tlabbar"
+            ],
+            "ShortDesc": "Matron Faen Tlabbar",
+            "LongDesc": "Matron Faen Tlabbar, matron mother of the fourth house, is standing here.\n",
+            "DetailedDesc": "You see a beautiful, strong dark elf.  She is wearing crimson robes with\nspider markings all over them.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16"
+            ],
+            "Alignment": -1000,
+            "Level": 95,
+            "THAC0": 60,
+            "AC": -7,
+            "HP": "20d5+3800",
+            "Damage": "10d2+35",
+            "Gold": 285000,
+            "XP": 80000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5117,
+            "Aliases": [
+                "Sos'Umptu"
+            ],
+            "ShortDesc": "Sos'Umptu",
+            "LongDesc": "Sos'Umptu, the caretaker of the Baenre chapel, is standing here.\n",
+            "DetailedDesc": "Before you stands an evil looking drow dressed in the robes of the spider\nqueen Lloth.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 80,
+            "THAC0": 67,
+            "AC": -50,
+            "HP": "50d3+7000",
+            "Damage": "8d1+40",
+            "Gold": 240000,
+            "XP": 67000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5118,
+            "Aliases": [
+                "drow",
+                "mage",
+                "gromph"
+            ],
+            "ShortDesc": "Gromph",
+            "LongDesc": "Gromph.............\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 92,
+            "THAC0": 60,
+            "AC": -12,
+            "HP": "100d10+5500",
+            "Damage": "10d1+49",
+            "Gold": 276000,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5119,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5124,
+            "Aliases": [
+                "matron",
+                "mother",
+                "drow",
+                "armgo",
+                "mez",
+                "barris"
+            ],
+            "ShortDesc": "Matron Mez'Barris Armgo",
+            "LongDesc": "Mez'Barris Armgo is standing here awaiting you.\n",
+            "DetailedDesc": "You see before you a strong, powerful looking female drow.  She is dressed in\nblack flowing robes.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 98,
+            "THAC0": 68,
+            "AC": -40,
+            "HP": "20d10+6500",
+            "Damage": "12d4+50",
+            "Gold": 150000,
+            "XP": 80000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5130,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5140,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5141,
+            "Aliases": [
+                "The",
+                "Water",
+                "Boy"
+            ],
+            "ShortDesc": "the Water Boy",
+            "LongDesc": "The Water Boy stands here with a towel on his shoulder.\n",
+            "DetailedDesc": "A very tired looking middle aged person stands before you. It appears this guy has worked every major sporting event there is. he is not a strong looking guy, but he sure does know his water.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 400,
+            "Level": 87,
+            "THAC0": 20,
+            "AC": -2,
+            "HP": "1d1+10000",
+            "Damage": "5d5+15",
+            "Gold": 261000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5145,
+            "Aliases": [
+                "The",
+                "bagger"
+            ],
+            "ShortDesc": "the bagger",
+            "LongDesc": "The bagger stands here bagging goods.\n",
+            "DetailedDesc": "A short female trying to earn a little money is here bagging goods.  She seems to be very helpful and greets you with a big smile.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 300,
+            "Level": 44,
+            "THAC0": 35,
+            "AC": -20,
+            "HP": "1d1+25000",
+            "Damage": "2d4+15",
+            "Gold": 132000,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5148,
+            "Aliases": [
+                "Shindar",
+                "the",
+                "Armorer"
+            ],
+            "ShortDesc": "Shindar the Armorer",
+            "LongDesc": "Shindar the Armorer stands here.\n",
+            "DetailedDesc": "A stout individual with deep eye sockets stands behind the counter, waiting for your business. \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 750,
+            "Level": 102,
+            "THAC0": 70,
+            "AC": -40,
+            "HP": "1d1+30000",
+            "Damage": "6d3+30",
+            "Gold": 306000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5149,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5150,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5154,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -300,
+            "Level": 0,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "1d1+27000",
+            "Damage": "10d10+50",
+            "Gold": 0,
+            "XP": 410000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5155,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "The Statistician stands here.\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 250,
+            "Level": 109,
+            "THAC0": 40,
+            "AC": -10,
+            "HP": "14d14+20000",
+            "Damage": "5d5+35",
+            "Gold": 327000,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5156,
+            "Aliases": [
+                "Charion",
+                "the",
+                "Chef"
+            ],
+            "ShortDesc": "Charion the Chef",
+            "LongDesc": "Charion the Chef stands here.\n",
+            "DetailedDesc": "Charion the chef of the Drow commons is busy making food for his customers. Dressed in a tight chef's suit, Charion is cutting bread to sell.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 250,
+            "Level": 76,
+            "THAC0": 80,
+            "AC": -10,
+            "HP": "1d1+30000",
+            "Damage": "5d5+25",
+            "Gold": 228000,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5157,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5158,
+            "Aliases": [
+                "Morgar",
+                "the",
+                "Magician"
+            ],
+            "ShortDesc": "Morgar the Magician",
+            "LongDesc": "Morgar the shopkeeper, is standing here.\n",
+            "DetailedDesc": "Draped in elaborate robes, Morgar the shopkeeper, stands behind his counter waiting to assist you. He is a short creature of unknown descent. surrounding him is a bright aura that is unknown to you. He greets you with a friendly \"Hello.\"\n",
+            "Actions": [
+                "ISNPC",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 200,
+            "Level": 90,
+            "THAC0": 80,
+            "AC": -10,
+            "HP": "1d1+30000",
+            "Damage": "6d2+30",
+            "Gold": 270000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5159,
+            "Aliases": [
+                "Windor",
+                "the",
+                "Wicked",
+                "Warrior"
+            ],
+            "ShortDesc": "Windor the Wicked Warrior",
+            "LongDesc": "Windor the shopkeeper, stands here.\n",
+            "DetailedDesc": "Here before you stands a very stout individual. Windor is the shopkeeper of the Drow commons and can assist you in obtaining valuable goods. He greets you with a smile and asks if he can help you with anything.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 200,
+            "Level": 71,
+            "THAC0": 80,
+            "AC": 5,
+            "HP": "1d1+30000",
+            "Damage": "5d14+30",
+            "Gold": 213000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5160,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 100,
+            "Level": 92,
+            "THAC0": 25,
+            "AC": -5,
+            "HP": "1d1+6500",
+            "Damage": "9d3+35",
+            "Gold": 0,
+            "XP": 75000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5166,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 450,
+            "Level": 36,
+            "THAC0": 14,
+            "AC": 2,
+            "HP": "1d1+1523",
+            "Damage": "8d1+10",
+            "Gold": 500,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5180,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5190,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -500,
+            "Level": 25,
+            "THAC0": 22,
+            "AC": -5,
+            "HP": "1d1+3",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5192,
+            "Aliases": [
+                "statistician"
+            ],
+            "ShortDesc": "the Statistician",
+            "LongDesc": "The Statistician stands here.\n",
+            "DetailedDesc": "This man is wise beyond his years. Blessed with unknown powers, he can alter\nthe very physical attributes of a character with a twitch of a finger.  He\nis surrounded by an ungodly aura that seems to protect him from all evil doings\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 340,
+            "Level": 75,
+            "THAC0": 80,
+            "AC": 2,
+            "HP": "1d1+30000",
+            "Damage": "6d2+18",
+            "Gold": 200000,
+            "XP": 110000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

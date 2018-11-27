@@ -1,0 +1,432 @@
+{
+    "mobs": [
+        {
+            "Number": 10501,
+            "Aliases": [
+                "zombie",
+                "putrid"
+            ],
+            "ShortDesc": "the putrid zombie",
+            "LongDesc": "A putrid zombie is here.\r\r\r\r\n\r",
+            "DetailedDesc": "It is a prime example of the undead:  sickly green skin, sunken eyes with a \r\r\r\r\n\ryellowish tinge, and sharp, dirt-encrusted claws.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -255,
+            "Level": 11,
+            "THAC0": 12,
+            "AC": 4,
+            "HP": "1d6+165",
+            "Damage": "2d7+1",
+            "Gold": 1,
+            "XP": 6250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10502,
+            "Aliases": [
+                "asp",
+                "snake"
+            ],
+            "ShortDesc": "the Deadly Asp",
+            "LongDesc": "A poisonous asp slithers here.\r\r\r\r\n\r",
+            "DetailedDesc": "\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 14,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "2d6+150",
+            "Damage": "3d6+0",
+            "Gold": 0,
+            "XP": 9750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10503,
+            "Aliases": [
+                "morticia",
+                "guildhead"
+            ],
+            "ShortDesc": "Morticia",
+            "LongDesc": "Morticia, Guildhead of the Living Dead, is here.\r\r\r\r\n\r",
+            "DetailedDesc": "Her long, raven black hair drapes those stunning curves of hers.  How\r\r\r\r\n\rdid such a sweet thing become the leader of this cult?  As a bard once\r\r\r\r\n\rwrote, 'You could tell she was practiced at the art of deception/ by\r\r\r\r\n\rher bloodstained hands.'\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 30,
+            "THAC0": 20,
+            "AC": -2,
+            "HP": "3d6+425",
+            "Damage": "2d8+7",
+            "Gold": 24786,
+            "XP": 54750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10504,
+            "Aliases": [
+                "assassin",
+                "physician",
+                "lazaru",
+                "laza"
+            ],
+            "ShortDesc": "Lazarus",
+            "LongDesc": "Lazarus, Assassin and Guild Physician, is here.\r\r\r\r\n\r",
+            "DetailedDesc": "This master herbalist was found too valuable to the Guild as a maker\r\r\r\r\n\rof both soothing balms and poisons.  Even death could not release\r\r\r\r\n\rhim...the necromancers just reanimate him.\r\r\r\r\n\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -900,
+            "Level": 23,
+            "THAC0": 18,
+            "AC": 0,
+            "HP": "2d8+222",
+            "Damage": "2d10+2",
+            "Gold": 13238,
+            "XP": 34750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10505,
+            "Aliases": [
+                "beetle",
+                "undead"
+            ],
+            "ShortDesc": "the undead riding beetle",
+            "LongDesc": "An undead riding beetle is parked here.\r\r\r\r\n\r",
+            "DetailedDesc": "A fine example of Necromancy, this giant beast can travel for miles\r\r\r\r\n\rwith no need for food nor water.  A most economical mount--and sporty\r\r\r\r\n\rtoo!\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -300,
+            "Level": 10,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "1d6+150",
+            "Damage": "2d6+1",
+            "Gold": 1,
+            "XP": 6250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10506,
+            "Aliases": [
+                "wraith",
+                "knight"
+            ],
+            "ShortDesc": "the wraith knight",
+            "LongDesc": "A wraith knight stands a silent watch here.\r\r\r\r\n\r",
+            "DetailedDesc": "This was probably some poor adventurer, like you, before the\r\r\r\r\n\rNecromancers got their hold on him.  Now he just awaits, blade drawn,\r\r\r\r\n\rlike some ethereal beefeater.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": -800,
+            "Level": 13,
+            "THAC0": 14,
+            "AC": 1,
+            "HP": "1d8+185",
+            "Damage": "2d8+2",
+            "Gold": 1555,
+            "XP": 14750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10507,
+            "Aliases": [
+                "keeper"
+            ],
+            "ShortDesc": "the Crypt Keeper",
+            "LongDesc": "The Crypt Keeper, grinning at you maliciously, is here.\r\r\r\r\n\r",
+            "DetailedDesc": "The dessicated little fellow cackles with mad glee as he approaches\r\r\r\r\n\ryou.  He twitches from excitement so much that his scraggly hair\r\r\r\r\n\rjostles as he flashes his dull yellow teeth.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -1000,
+            "Level": 22,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "3d6+500",
+            "Damage": "3d6+8",
+            "Gold": 25225,
+            "XP": 34750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10508,
+            "Aliases": [
+                "hermit"
+            ],
+            "ShortDesc": "the hermit",
+            "LongDesc": "A Hermit, starved for company, is here.\r\r\r\r\n\r",
+            "DetailedDesc": "Although raving mad, the hermit has come out of his isolation since he\r\r\r\r\n\rhas not spoken with anyone for ages.  The shaggy hermit draws you over\r\r\r\r\n\rand tells you a tale:\r\r\r\r\n\r\r\r\r\r\n\r\tSome 600 years ago, when I was but a lad, a great dragon\r\r\r\r\n\r\truled the land.  His name was Ancalador.  Many heroes came\r\r\r\r\n\r\tto do battle with him, but all failed and died, horribly,\r\r\r\r\n\r\tI imagine.  But one wizard challenged the Drake to a magic\r\r\r\r\n\r\tduel.  He too died, like the others, but with his last\r\r\r\r\n\r\tbreath, the wizard turned the mighty Ancalador to stone!\r\r\r\r\n\r\tMany believed the dragon's evil reign ended, but after the\r\r\r\r\n\r\tdancing and drinking were over, and life returned to its\r\r\r\r\n\r\tquiet pace, the people began to notice that the Dragon's\r\r\r\r\n\r\tpresence could still be felt.  Ancalador did, in fact,\r\r\r\r\n\r\tcontinue to rule from his petrified prison through the \r\r\r\r\n\r\tmanipulation of the minds of men.  Indeed, he has done so\r\r\r\r\n\r\tto this day.  Many believe he is plotting the day he can\r\r\r\r\n\r\treturn in the flesh, so to speak...\r\r\r\r\n\r\r\r\r\r\n\rWith that the Hermit begins to cackle madly, tears running down his\r\r\r\r\n\rleathery face.  You can get no more out of him.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 9,
+            "THAC0": 9,
+            "AC": 4,
+            "HP": "2d8+125",
+            "Damage": "2d6+1",
+            "Gold": 23,
+            "XP": 5250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10509,
+            "Aliases": [
+                "slime",
+                "blob"
+            ],
+            "ShortDesc": "the Green Slime",
+            "LongDesc": "A blob of Green Slime drops upon you!\r\r\r\r\n\r",
+            "DetailedDesc": "It looks like animated mucous, dissolving and eating all it touches.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 6,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "1d10+75",
+            "Damage": "1d8+1",
+            "Gold": 0,
+            "XP": 2250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10510,
+            "Aliases": [
+                "dweller",
+                "flame"
+            ],
+            "ShortDesc": "the Flame Dweller",
+            "LongDesc": "A Flame Dweller is basking in fire here.\r\r\r\r\n\r",
+            "DetailedDesc": "It's shape changes like the flame it lives in.  One moment it may\r\r\r\r\n\rresemble a serpent, the next, a man.  It seems to be thoroughly\r\r\r\r\n\renjoying itself.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -50,
+            "Level": 13,
+            "THAC0": 13,
+            "AC": 1,
+            "HP": "1d10+175",
+            "Damage": "2d8+1",
+            "Gold": 18000,
+            "XP": 9750,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10511,
+            "Aliases": [
+                "spider",
+                "green"
+            ],
+            "ShortDesc": "the green crystal spider",
+            "LongDesc": "A Green Crystal Spider is roaming here.\r\r\r\r\n\r",
+            "DetailedDesc": "The fantastic beast seems to be made of a crystalline substance which\r\r\r\r\n\ris giving off a green light.  It clicks it's crystal mandibles in\r\r\r\r\n\rirritation with you.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -400,
+            "Level": 8,
+            "THAC0": 7,
+            "AC": 3,
+            "HP": "2d6+96",
+            "Damage": "2d5+1",
+            "Gold": 0,
+            "XP": 4250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10512,
+            "Aliases": [
+                "spider",
+                "yellow"
+            ],
+            "ShortDesc": "the yellow crystal spider",
+            "LongDesc": "A Yellow Crystal Spider is clicking its mandibles here.\r\r\r\r\n\r",
+            "DetailedDesc": "Slightly smaller than it's green cousin, this creature also appears to\r\r\r\r\n\rbe made of living crystalline substance which glows yellow.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": -350,
+            "Level": 7,
+            "THAC0": 6,
+            "AC": 4,
+            "HP": "1d8+85",
+            "Damage": "2d4+1",
+            "Gold": 351,
+            "XP": 3250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10513,
+            "Aliases": [
+                "warden"
+            ],
+            "ShortDesc": "the Petrified Warden",
+            "LongDesc": "A Petrified Warden guards the way.\r\r\r\r\n\r",
+            "DetailedDesc": "He wears the sneer of cold command upon his stony visage.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -700,
+            "Level": 11,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "2d4+155",
+            "Damage": "2d7+1",
+            "Gold": 1009,
+            "XP": 4750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10514,
+            "Aliases": [
+                "hulk",
+                "umber"
+            ],
+            "ShortDesc": "the umber hulk",
+            "LongDesc": "A lumbering Umber Hulk is here.\r\r\r\r\n\r",
+            "DetailedDesc": "This great beast has huge mandibles and a mammals mouth, angry animal\r\r\r\r\n\reyes set between unreadable insect eyes.  The effect is\r\r\r\r\n\rconfusing.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": -750,
+            "Level": 18,
+            "THAC0": 17,
+            "AC": 0,
+            "HP": "3d6+225",
+            "Damage": "3d6+2",
+            "Gold": 0,
+            "XP": 22250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10515,
+            "Aliases": [
+                "jello",
+                "ochre"
+            ],
+            "ShortDesc": "an Ochre Jello",
+            "LongDesc": "A hideous Ochre Jello approaches.\r\r\r\r\n\r",
+            "DetailedDesc": "As it oozes slowly at you, you can make out items undigested within\r\r\r\r\n\rit.  From past unfortunates, you presume.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": -700,
+            "Level": 16,
+            "THAC0": 15,
+            "AC": 1,
+            "HP": "2d6+196",
+            "Damage": "2d8+2",
+            "Gold": 1576,
+            "XP": 17250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10599,
+            "Aliases": [
+                "necromancer",
+                "necro"
+            ],
+            "ShortDesc": "the Necromancer",
+            "LongDesc": "A Necromancer of the Bloodstone, creating zombies, is here.\r\r\r\r\n\r",
+            "DetailedDesc": "Evil reeks from his dark robes.  His hands are adorned with the long,\r\r\r\r\n\rwicked nails which are stained with the ichor of embalmers and\r\r\r\r\n\rmalignant salves.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -900,
+            "Level": 16,
+            "THAC0": 14,
+            "AC": 1,
+            "HP": "1d6+210",
+            "Damage": "2d8+2",
+            "Gold": 6666,
+            "XP": 17250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

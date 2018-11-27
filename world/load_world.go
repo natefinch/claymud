@@ -6,6 +6,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"strings"
 	"sync"
 
 	"github.com/natefinch/claymud/game"
@@ -13,7 +14,8 @@ import (
 )
 
 var (
-	zones = map[util.ID]*Zone{}
+	zones   = map[util.ID]*Zone{}
+	allMobs = map[util.ID]*Mob{}
 )
 
 func loadWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, wg *sync.WaitGroup) error {
@@ -86,6 +88,23 @@ func loadWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, w
 			}
 		}
 	}
+
+	log.Printf("loading mobs from %v", filepath.Join(datadir, "mobs"))
+	files, err = filepath.Glob(filepath.Join(datadir, "mobs", "*.json"))
+	if err != nil {
+		return fmt.Errorf("failed to read mob files: %v", err)
+	}
+	log.Printf("found %d mob files", len(files))
+	count = 0
+	for _, file := range files {
+		c, err := decodeMobs(file)
+		if err != nil {
+			return err
+		}
+		count += c
+	}
+	log.Printf("loaded %v mobs", count)
+
 	return nil
 }
 
@@ -189,4 +208,93 @@ type jsonExit struct {
 type jsonExtraDesc struct {
 	Keywords    []string `json:"Keywords"`
 	Description string   `json:"Description"`
+}
+
+type jsonMob struct {
+	Number          int
+	Aliases         []string
+	ShortDesc       string
+	LongDesc        string
+	DetailedDesc    string
+	Actions         []string
+	Affections      []string
+	Alignment       int
+	Level           int
+	THAC0           int
+	AC              int
+	HP              string // xdy+z
+	Damage          string // xdy+z
+	Gold            int
+	XP              int
+	LoadPosition    string
+	DefaultPosition string
+	Gender          string
+}
+
+func (m jsonMob) ToMob() (*Mob, error) {
+	hp, err := game.MakeDice(m.HP)
+	if err != nil {
+		return nil, err
+	}
+	dmg, err := game.MakeDice(m.Damage)
+	if err != nil {
+		return nil, err
+	}
+	gen := strings.ToLower(m.Gender)
+	if gen == "neutral" {
+		gen = "none"
+	}
+	var gender *game.Gender
+	for i := range game.Genders {
+		if gen == strings.ToLower(game.Genders[i].Name) {
+			gender = &game.Genders[i]
+			break
+
+		}
+	}
+	if gender == nil {
+		return nil, fmt.Errorf("unknown gender %v", m.Gender)
+	}
+	return &Mob{
+		ID:           util.ID(m.Number),
+		Aliases:      m.Aliases,
+		Name:         m.ShortDesc,
+		LongDesc:     m.LongDesc,
+		DetailedDesc: m.DetailedDesc,
+		Alignment:    m.Alignment,
+		Level:        m.Level,
+		THAC0:        m.THAC0,
+		AC:           m.AC,
+		HP:           hp,
+		Damage:       dmg,
+		Gold:         m.Gold,
+		XP:           m.XP,
+		Gender:       *gender,
+	}, nil
+}
+
+func decodeMobs(file string) (int, error) {
+	f, err := os.Open(file)
+	if err != nil {
+		return 0, fmt.Errorf("can't open room file: %v", err)
+	}
+	defer f.Close()
+	d := json.NewDecoder(f)
+	var decoded struct {
+		Mobs []jsonMob `json:"mobs"`
+	}
+	if err := d.Decode(&decoded); err != nil {
+		return 0, fmt.Errorf("unable to decode room file %q: %v", file, err)
+	}
+	for _, m := range decoded.Mobs {
+		if mb, exists := allMobs[util.ID(m.Number)]; exists {
+			return 0, fmt.Errorf("mob %v (%s) already exists as %q", m.Number, m.ShortDesc, mb.Name)
+		}
+		mb, err := m.ToMob()
+		if err != nil {
+			return 0, err
+		}
+		allMobs[mb.ID] = mb
+	}
+	return len(decoded.Mobs), nil
 }

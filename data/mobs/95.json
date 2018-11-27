@@ -1,0 +1,918 @@
+{
+    "mobs": [
+        {
+            "Number": 9500,
+            "Aliases": [
+                "robot",
+                "terminator"
+            ],
+            "ShortDesc": "a terminator robot",
+            "LongDesc": "A terminator robot is standing here destroying everything in sight.\n",
+            "DetailedDesc": "This is a terminator robot. It's eyes glow red. It looks pretty scary. You aren't sure if you want to fight him.",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -700,
+            "Level": 33,
+            "THAC0": 20,
+            "AC": 1,
+            "HP": "0d0+990",
+            "Damage": "2d6+15",
+            "Gold": 0,
+            "XP": 57000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9501,
+            "Aliases": [
+                "terminator",
+                "man",
+                "mechanical"
+            ],
+            "ShortDesc": "the Terminator",
+            "LongDesc": "A mechanical looking man is standing here.\n",
+            "DetailedDesc": "This man looks mechanical. He is wearing the clothes of the man he beat up and stripped. He is wearing leather pants and a jacket over a white t-shirt. He is also wearing black leather boots and black sunglasses. He looks REALLY strong.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_GOOD"
+            ],
+            "Alignment": 0,
+            "Level": 127,
+            "THAC0": 75,
+            "AC": -21,
+            "HP": "20d10+17000",
+            "Damage": "12d10+60",
+            "Gold": 50000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9502,
+            "Aliases": [
+                "metal",
+                "liquid",
+                "man",
+                "officer",
+                "police",
+                "liquidmetal",
+                "terminator"
+            ],
+            "ShortDesc": "the liquid metal Terminator",
+            "LongDesc": "You see a police officer here looking for some boy.\n",
+            "DetailedDesc": "You see a medium height man standing here. He has a neatly ironed police uniform and a badge. He is asking everyone here if they've seen a sertain boy. You wonder why he is looking for him.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 130,
+            "THAC0": 88,
+            "AC": -30,
+            "HP": "20d10+23000",
+            "Damage": "15d10+80",
+            "Gold": 50000,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9503,
+            "Aliases": [
+                "employee",
+                "cyberdine",
+                "man",
+                "person"
+            ],
+            "ShortDesc": "a Cyberdine employee",
+            "LongDesc": "You see a Cyberdine employee standing here.\n",
+            "DetailedDesc": "You see a Cyberdine employee. He is wearing a nice suit. He is carrying a \nbriefcase and a Cyberdine card.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 8,
+            "THAC0": 3,
+            "AC": 7,
+            "HP": "0d0+300",
+            "Damage": "4d1+1",
+            "Gold": 1000,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9504,
+            "Aliases": [
+                "john",
+                "connor",
+                "kid",
+                "punk"
+            ],
+            "ShortDesc": "John Connor",
+            "LongDesc": "John Connor is here stealing some cash from an ATM.\n",
+            "DetailedDesc": "You see a brown haired punky looking kid. He is riding his motorcycle and\nmessing with his laptop computer. He's planning to rip off some cash from\nan ATM machine.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 88,
+            "THAC0": 43,
+            "AC": 0,
+            "HP": "0d0+10000",
+            "Damage": "9d6+20",
+            "Gold": 10000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9505,
+            "Aliases": [
+                "supervisor",
+                "cyberdine"
+            ],
+            "ShortDesc": "a Cyberdine Supervisor",
+            "LongDesc": "A Cyberdine Supervisor is here, making sure the secrets stay safe.\n",
+            "DetailedDesc": "  The supervisor looks like a stereotype nerd.  He has bad hair,\nglasses fixed with masking tape, mismatched socks.  But there is \nsomething else about him...  He keeps looking nervously towards the\nbig steel door at the south of the hallway.  It's almost like he's\nafraid of something.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 85,
+            "THAC0": 38,
+            "AC": -15,
+            "HP": "1d1+8000",
+            "Damage": "15d6+19",
+            "Gold": 10000,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9506,
+            "Aliases": [
+                "young",
+                "sarah",
+                "connor",
+                "girl"
+            ],
+            "ShortDesc": "Young Sarah Connor",
+            "LongDesc": "You see a young woman hiding behind a man here.\n",
+            "DetailedDesc": "You see a young blond girl before you. She seems to be hiding behind this man\nhere who seems to be protecting her from this other man. She seems very scared\nand is screaming in terror.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 82,
+            "AC": -20,
+            "HP": "10d4+16500",
+            "Damage": "10d10+55",
+            "Gold": 50000,
+            "XP": 500000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 9508,
+            "Aliases": [
+                "kyle",
+                "reece"
+            ],
+            "ShortDesc": "Kyle Reece",
+            "LongDesc": "You see a man with a shotgun shooting at some other guy who seems unaffected.\n",
+            "DetailedDesc": "You see a strong man here with a nice shotgun and a cool trenchcoat. He is here\nshooting at another guy. The other man seems unaffected. This guy seems like\nhe is only trying to protect this one young blond girl. I wonder why.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_EVIL",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 75,
+            "AC": -22,
+            "HP": "10d10+17000",
+            "Damage": "10d11+55",
+            "Gold": 45000,
+            "XP": 498000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9512,
+            "Aliases": [
+                "evil",
+                "terminator",
+                "man"
+            ],
+            "ShortDesc": "the Evil Terminator",
+            "LongDesc": "You see a mechincal looking man shooting at a man and woman.\n",
+            "DetailedDesc": "You see a big strong man standing in front of you. He has all sorts of guns all\nsorts of guns and things with him. He seems to be wearing all leather. He seems\nto be getting shot but unaffected by the bullets.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 127,
+            "THAC0": 75,
+            "AC": 0,
+            "HP": "10d15+17000",
+            "Damage": "10d12+60",
+            "Gold": 0,
+            "XP": 450000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9581,
+            "Aliases": [
+                "supervisor",
+                "factory",
+                "worker",
+                "boss"
+            ],
+            "ShortDesc": "the factory supervisor",
+            "LongDesc": "The supervisor stands here shouting something about productivity.\n",
+            "DetailedDesc": "This man stands before you with a clipboard.  He has sweat stains under is\narms and looks like he has never had a shower at all. He looks mean\nand like he is not gonna let you out til you work for it.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 500,
+            "Level": 150,
+            "THAC0": 89,
+            "AC": -36,
+            "HP": "1d1+20000",
+            "Damage": "10d6+120",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9582,
+            "Aliases": [
+                "survivor",
+                "child",
+                "war",
+                "survivor"
+            ],
+            "ShortDesc": "a child who is a survivor of war.",
+            "LongDesc": "A child, who is a survivor of war, Cringes from you here.\n",
+            "DetailedDesc": "This child looks as though they have been through more in it's young\nlife than you will ever go through in all of yours. The childs face and \nclothes are dirty and the child looks scared.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 1000,
+            "Level": 43,
+            "THAC0": 18,
+            "AC": -15,
+            "HP": "28d28+200",
+            "Damage": "4d4+12",
+            "Gold": 5,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9583,
+            "Aliases": [
+                "survivor",
+                "war",
+                "survivor"
+            ],
+            "ShortDesc": "a survivor of the War.",
+            "LongDesc": "A survivor of the war stands here prepared for anything.\n",
+            "DetailedDesc": "This person looks like they are ready for anything that comed their way.\nThey seem almost nervous but you think that it might just be anticipation\nof the next battle.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 1000,
+            "Level": 43,
+            "THAC0": 18,
+            "AC": -15,
+            "HP": "28d28+200",
+            "Damage": "4d4+12",
+            "Gold": 5,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9584,
+            "Aliases": [
+                "hotel",
+                "customer",
+                "guest",
+                "female"
+            ],
+            "ShortDesc": "a female guest at this hotel.",
+            "LongDesc": "A female guest is standing here waiting for her boyfriend.\n",
+            "DetailedDesc": "This girl looks like she is having fun with her boyfriend and she looks \nlike she doesn't want you in her room.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 500,
+            "Level": 42,
+            "THAC0": 18,
+            "AC": -15,
+            "HP": "36d36+70",
+            "Damage": "5d5+6",
+            "Gold": 500,
+            "XP": 58000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 9585,
+            "Aliases": [
+                "Hotel",
+                "customer",
+                "guest",
+                "male"
+            ],
+            "ShortDesc": "a Male guest at the Hotel.",
+            "LongDesc": "A male hotel guest is here for a weekend with his girlfriend.\n",
+            "DetailedDesc": "This man looks like he just wants some fun and games with his girl But he\nlooks like he doesn't want any crap from you either.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 500,
+            "Level": 42,
+            "THAC0": 18,
+            "AC": -15,
+            "HP": "36d36+70",
+            "Damage": "5d5+6",
+            "Gold": 500,
+            "XP": 58000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9586,
+            "Aliases": [
+                "Marty",
+                "clerk"
+            ],
+            "ShortDesc": "Marty, The Motel clerk.",
+            "LongDesc": "Marty, The motel clerk, stands here picking his teeth.\n",
+            "DetailedDesc": "This guy looks like he should be in a zoo. His clothes are dirty and he\nsmells pretty bad.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "HELPER"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -500,
+            "Level": 34,
+            "THAC0": 25,
+            "AC": 0,
+            "HP": "10d12+40",
+            "Damage": "2d4+5",
+            "Gold": 2000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9587,
+            "Aliases": [
+                "Barney",
+                "the",
+                "bouncer",
+                ""
+            ],
+            "ShortDesc": "Barney, The bouncer.",
+            "LongDesc": "Barney, The bouncer.\n",
+            "DetailedDesc": "Barney looks like he could stop a mack truck with one arm.  His biceps, \ntriceps, and deltoids are all bulging.  The girls swoon over him and want \nto be once of the lucky few that get to touch his bulging arm.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 300,
+            "Level": 82,
+            "THAC0": 30,
+            "AC": -10,
+            "HP": "1d1+2800",
+            "Damage": "1d1+45",
+            "Gold": 15000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9588,
+            "Aliases": [
+                "Fiona",
+                "lady",
+                "front",
+                "door"
+            ],
+            "ShortDesc": "Fiona, The front door lady.",
+            "LongDesc": "Fiona , the front door lady, stands here taking your money.\n",
+            "DetailedDesc": "Fiona is a rather large lady who is not wearing much in the way of clothing.\n  You wonder if maybe she has been in some industrial accident cause her hair\nis the color of a lime and her makeup appears to have been applied with a \npaint sprayer.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 500,
+            "Level": 127,
+            "THAC0": 55,
+            "AC": -10,
+            "HP": "6d5+3130",
+            "Damage": "1d1+70",
+            "Gold": 13500,
+            "XP": 55000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 9589,
+            "Aliases": [
+                "trish",
+                "tacky",
+                "lead",
+                "singer"
+            ],
+            "ShortDesc": "Trish, The tacky lead singer of the band.",
+            "LongDesc": "Trish, The tacky lead singer, is standing here screaming into the microphone.\n",
+            "DetailedDesc": "Trish is sooo tacky  her hair is fried, dyed, and laid to the side.  Her \nmake-up resembles that of a clown in a circus.  Trish's clothes look like\nthe zoo got lose on her clothes....Zebra print pants and a tiger striped\njacket.  Sheesh is this girl blind or what?\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 96,
+            "THAC0": 44,
+            "AC": -15,
+            "HP": "0d0+4000",
+            "Damage": "10d5+40",
+            "Gold": 25000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 9590,
+            "Aliases": [
+                "brent",
+                "drummer",
+                "band",
+                "member"
+            ],
+            "ShortDesc": "Brent, The drummer in this band.",
+            "LongDesc": "Brent, The drummer, sits here playing withhis sticks.\n",
+            "DetailedDesc": "Brent's hair is almost as long as any girls here.  His hair is bleached \nblonde and he is wearing almost as much make-up as your mother wears \nto church.  Brent's t-shirt says \"drummers do it with both hands\".\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "UNUSED17"
+            ],
+            "Alignment": 500,
+            "Level": 91,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "1d1+4000",
+            "Damage": "6d5+30",
+            "Gold": 10000,
+            "XP": 300000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9591,
+            "Aliases": [
+                "joe",
+                "piano",
+                "jumpin"
+            ],
+            "ShortDesc": "Jumpin' Joe, Piano player for the band.",
+            "LongDesc": "Jumpin' Joe , the piano player, is here playing a mean piano.\n",
+            "DetailedDesc": "This man looks like he has some soul and heart when it comes to his music.\nHE seems to feel ever note that he plays and he addss zest to his playing\nwith the gyrations of his body with ever note.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "BLIND",
+                "SANCTUARY"
+            ],
+            "Alignment": 100,
+            "Level": 65,
+            "THAC0": 35,
+            "AC": -10,
+            "HP": "1d1+4000",
+            "Damage": "5d5+40",
+            "Gold": 5000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9592,
+            "Aliases": [
+                "magic",
+                "mike",
+                "d.j.",
+                "dj"
+            ],
+            "ShortDesc": "Magic Mike, The clubs D.J.",
+            "LongDesc": "Magic Mike is standing here flirting with the girls.\n",
+            "DetailedDesc": "This is the sleaziest man you have ever seen.  His hair has more grease \nin it than a car.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -300,
+            "Level": 73,
+            "THAC0": 30,
+            "AC": -10,
+            "HP": "1d1+4000",
+            "Damage": "1d1+33",
+            "Gold": 5000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9593,
+            "Aliases": [
+                "female",
+                "club",
+                "goer",
+                "club-goer"
+            ],
+            "ShortDesc": "a Female Club-goer",
+            "LongDesc": "A female club-goer is here putting on lipstick.\n",
+            "DetailedDesc": "This female club-goer looks like she is A hooker,  Her makeup is way too \ndark and her hair is way too high.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 13,
+            "THAC0": 8,
+            "AC": 3,
+            "HP": "2d2+100",
+            "Damage": "2d2+10",
+            "Gold": 500,
+            "XP": 10000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 9594,
+            "Aliases": [
+                "female",
+                "club",
+                "goer",
+                "club-goer"
+            ],
+            "ShortDesc": "a Female Club-goer",
+            "LongDesc": "A female club-goer is here drinking.\n",
+            "DetailedDesc": "This female club-goer looks like she is A hooker,  Her makeup is way too \ndark and her hair is way too high.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 13,
+            "THAC0": 8,
+            "AC": 3,
+            "HP": "2d2+100",
+            "Damage": "2d2+10",
+            "Gold": 500,
+            "XP": 10000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 9595,
+            "Aliases": [
+                "male",
+                "club",
+                "goer",
+                "club-goer"
+            ],
+            "ShortDesc": "a male club-goer",
+            "LongDesc": "A male club-goer is sitting here drinking.\n",
+            "DetailedDesc": "This guy looks like he has had a few too many drinks.  His eye lids look\nlike they would close if he weren't holding them open.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 13,
+            "THAC0": 8,
+            "AC": 3,
+            "HP": "2d2+100",
+            "Damage": "2d2+10",
+            "Gold": 500,
+            "XP": 10000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9596,
+            "Aliases": [
+                "female",
+                "club",
+                "goer",
+                "club-goer"
+            ],
+            "ShortDesc": "a female club-goer",
+            "LongDesc": "A female club-goer is here, bumping and grinding.\n",
+            "DetailedDesc": "  This ladies make-up  is way too dark and her hair looks as though\nshe stood on her head and sprayed it with hairspray.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 13,
+            "THAC0": 8,
+            "AC": 3,
+            "HP": "2d2+100",
+            "Damage": "2d2+10",
+            "Gold": 500,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 9597,
+            "Aliases": [
+                "male",
+                "club",
+                "goer",
+                "club-goer"
+            ],
+            "ShortDesc": "a Male club-goer",
+            "LongDesc": "A male club-goer is here dancing, Or whatever you call what he is doing.\n",
+            "DetailedDesc": "  This man's arms are flapping about like he is trying to fly,  Makes \nyou wonder what he has been drinking.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 13,
+            "THAC0": 8,
+            "AC": 3,
+            "HP": "2d2+100",
+            "Damage": "2d2+10",
+            "Gold": 500,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9598,
+            "Aliases": [
+                "Male",
+                "club",
+                "goer",
+                "club-goer"
+            ],
+            "ShortDesc": "a Male club-goer",
+            "LongDesc": "A male club-goer is here vainly checking his hair.\n",
+            "DetailedDesc": " This man looks like he wears more mousse than any of the women in this\nclub.  His hair is almost as coiffed as all of the ladies.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 13,
+            "THAC0": 8,
+            "AC": 3,
+            "HP": "2d2+100",
+            "Damage": "2d2+10",
+            "Gold": 500,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9599,
+            "Aliases": [
+                "female",
+                "club",
+                "goer",
+                "club-goer"
+            ],
+            "ShortDesc": "a Female Club-goer",
+            "LongDesc": "A female club-goer is here making out with her boyfriend.\n",
+            "DetailedDesc": "This female club-goer looks like she is A hooker,  Her makeup is way too \ndark and her hair is way too high.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 100,
+            "Level": 16,
+            "THAC0": 12,
+            "AC": 3,
+            "HP": "4d4+100",
+            "Damage": "2d2+10",
+            "Gold": 500,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        }
+    ]
+}

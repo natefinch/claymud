@@ -1,0 +1,536 @@
+{
+    "mobs": [
+        {
+            "Number": 18900,
+            "Aliases": [
+                "chirurgeon",
+                "chir",
+                "chi",
+                "chirur",
+                "chirurg",
+                "chirurge",
+                "chirurgeo"
+            ],
+            "ShortDesc": "the garrison chirurgeon",
+            "LongDesc": "The chirurgeon for the Garrison stands here, ready to treat the wounded.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 35,
+            "AC": -30,
+            "HP": "100d1+2500",
+            "Damage": "4d4+2",
+            "Gold": 0,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18901,
+            "Aliases": [
+                "watchman",
+                "watch",
+                "man",
+                "watchma",
+                "watchm",
+                "watc",
+                "wat"
+            ],
+            "ShortDesc": "a watchman",
+            "LongDesc": "A watchman is standing here, keeping an eye out for trouble.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A watchman of the Garrison stands before you. He appears to be in peak\r\r\r\r\r\r\r\n\rphysical condition from years of hard duty. The guard is engrossed in\r\r\r\r\r\r\r\n\rsearching the distance for any signs of trouble.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 30,
+            "THAC0": 15,
+            "AC": -14,
+            "HP": "100d5+720",
+            "Damage": "2d3+7",
+            "Gold": 750,
+            "XP": 32000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18902,
+            "Aliases": [
+                "guard",
+                "guar",
+                "gua",
+                ""
+            ],
+            "ShortDesc": "a guard",
+            "LongDesc": "A Garrison guard stands here, ensuring all is well in the camp.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The guard looks like he has been well trained in all forms of warfare.\r\r\r\r\r\r\r\n\rPerhaps you should just pass by without causing any trouble.",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 7,
+            "AC": -2,
+            "HP": "100d1+275",
+            "Damage": "2d6+3",
+            "Gold": 350,
+            "XP": 1750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18903,
+            "Aliases": [
+                "soldier",
+                "soldie",
+                "soldi",
+                "sold",
+                "sol"
+            ],
+            "ShortDesc": "a soldier",
+            "LongDesc": "A Garrison soldier is here, quietly going about his duties.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The soldier appears not to care whether or not you exist.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 7,
+            "AC": -2,
+            "HP": "100d1+275",
+            "Damage": "2d6+3",
+            "Gold": 150,
+            "XP": 2200,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18904,
+            "Aliases": [
+                "soldier",
+                "soldie",
+                "soldi",
+                "sold",
+                "sol",
+                "garrison",
+                "garriso",
+                "garris",
+                "garri",
+                "garr",
+                "gar"
+            ],
+            "ShortDesc": "a garrison soldier",
+            "LongDesc": "A Garrison soldier stands here regarding you with a look of distaste.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A soldier of the Garrison stands before you. It looks as though he would\r\r\r\r\r\r\r\n\rquite enjoy a duel to the death with you.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 750,
+            "Level": 30,
+            "THAC0": 15,
+            "AC": -10,
+            "HP": "100d5+720",
+            "Damage": "1d21+0",
+            "Gold": 500,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18905,
+            "Aliases": [
+                "guard",
+                "guar",
+                "gua",
+                "garrison",
+                "garriso",
+                "garr",
+                "garri",
+                "gar"
+            ],
+            "ShortDesc": "a garrison guard",
+            "LongDesc": "A Garrison guard is here, keeping a suspicious eye on your every move.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Garrison guard looks as though he'd be happy to catch you in an illegal\r\r\r\r\r\r\r\n\ract. He does not appear to be in the greatest of moods.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 750,
+            "Level": 30,
+            "THAC0": 15,
+            "AC": -14,
+            "HP": "100d5+720",
+            "Damage": "4d4+1",
+            "Gold": 850,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18906,
+            "Aliases": [
+                "gate",
+                "guard",
+                "gateguard"
+            ],
+            "ShortDesc": "the gateguard",
+            "LongDesc": "A gateguard halts you before the gate of the garrison.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man looks TOUGH. He stands outside... alone... to keep intruders\r\r\r\r\r\r\r\n\rout of the garrison. He seems to be looking for something that you might\r\r\r\r\r\r\r\n\rhave.  ",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOSLEEP"
+            ],
+            "Affections": [],
+            "Alignment": 750,
+            "Level": 75,
+            "THAC0": 40,
+            "AC": -15,
+            "HP": "1d1+5000",
+            "Damage": "3d10+20",
+            "Gold": 350,
+            "XP": 50000,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18907,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18908,
+            "Aliases": [
+                "commander",
+                "commande",
+                "command",
+                "comman",
+                "comm",
+                "com"
+            ],
+            "ShortDesc": "the Garrison commander",
+            "LongDesc": "The Garrison Commander is here ensuring all is secure.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man looks as though he could rip you in half with his bare hands.\r\r\r\r\r\r\r\n\rIt might be a wise move not to mess with him.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 100,
+            "THAC0": 40,
+            "AC": -24,
+            "HP": "1d1+8000",
+            "Damage": "5d5+50",
+            "Gold": 50000,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18909,
+            "Aliases": [
+                "soldier",
+                "soldie",
+                "soldi",
+                "sold",
+                "sol"
+            ],
+            "ShortDesc": "a soldier",
+            "LongDesc": "A soldier of the Garrison is here.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The soldier appears not to care whether or not you exist.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 7,
+            "AC": -2,
+            "HP": "1d100+5",
+            "Damage": "2d6+3",
+            "Gold": 150,
+            "XP": 2200,
+            "LoadPosition": "POSITION_MORTALLYW",
+            "DefaultPosition": "POSITION_INCAP",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18910,
+            "Aliases": [
+                "cook",
+                ""
+            ],
+            "ShortDesc": "a cook",
+            "LongDesc": "The garrison cook stands here, stirring a large pot of stew.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man looks as if he's cooked all of his life. He is small, yet has\r\r\r\r\r\r\r\n\rsomething in his eye that makes you respect him. He has a sly grin\r\r\r\r\r\r\r\n\rupon his face. Is ti that he knows whats in the pot, and you're not sure?\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 20,
+            "THAC0": 11,
+            "AC": -5,
+            "HP": "5d100+0",
+            "Damage": "1d15+0",
+            "Gold": 100,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18911,
+            "Aliases": [
+                "master",
+                "maste",
+                "mast",
+                "mas",
+                "watch",
+                "wat",
+                "watc"
+            ],
+            "ShortDesc": "the master of the watch",
+            "LongDesc": "The master of the watch is here studying the skyline for signs of trouble.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The master of the watch has a weather beaten face from years of performing\r\r\r\r\r\r\r\n\rhis look-out duties. He appears to be quite tough and has a spark to his\r\r\r\r\r\r\r\n\reyes that makes you feel a little nervous.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "UNUSED16"
+            ],
+            "Alignment": 1000,
+            "Level": 45,
+            "THAC0": 35,
+            "AC": -19,
+            "HP": "100d1+1200",
+            "Damage": "7d7+0",
+            "Gold": 7500,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18927,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18997,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Pitmaster has yet to be defeated in The Pit. He stands an incredible\r\r\r\r\r\r\r\n\r8 feet tall and looks like he could rip you in half with one hand. There\r\r\r\r\r\r\r\n\ris a strange grin spreading across his face...Looks like this could be the\r\r\r\r\r\r\r\n\rend of the line for you. Good Luck!\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 55,
+            "THAC0": 35,
+            "AC": -20,
+            "HP": "100d20+25",
+            "Damage": "7d7+15",
+            "Gold": 165000,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18998,
+            "Aliases": [
+                "challenger,",
+                "challeng,",
+                "chal,",
+                "cha,",
+                "chall"
+            ],
+            "ShortDesc": "the challenger",
+            "LongDesc": "The Pitmaster glowers at you as he prepares to rip your head off.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Pitmaster has yet to be defeated in The Pit. He stands an incredible\r\r\r\r\r\r\r\n\r8 feet tall and looks like he could rip you in half with one hand. There\r\r\r\r\r\r\r\n\ris a strange grin spreading across his face...Looks like this could be the\r\r\r\r\r\r\r\n\rend of the line for you. Good Luck!\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 35,
+            "AC": -20,
+            "HP": "100d20+25",
+            "Damage": "9d9+19",
+            "Gold": 150000,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18999,
+            "Aliases": [
+                "dragon",
+                "oracle",
+                "aal",
+                "golden"
+            ],
+            "ShortDesc": "the Oracle of Aal",
+            "LongDesc": "An enormous golden dragon lies within the shadows.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This once was the great dragon Ryath. After her battle with a demon dreadlord,\r\r\r\r\r\r\r\n\rgreat magic was used to bring the ancient Oracle of Aal to this world.\r\r\r\r\r\r\r\n\rNow in the form of the great dragon, the Oracle can continue to assist those\r\r\r\r\r\r\r\n\rtrying to protect Midkemia.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 500,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "1d1+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

@@ -1,0 +1,1492 @@
+{
+    "mobs": [
+        {
+            "Number": 18500,
+            "Aliases": [
+                "taelok",
+                "jaalon",
+                "healer"
+            ],
+            "ShortDesc": "Taelok Jaalon",
+            "LongDesc": "Taelok Jaalon, Healer of Shamata, lies on his bed awaiting death.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You can see this man has seen many years pass in this mountain village.\r\r\r\r\r\r\r\n\rHe is in great pain, from the disease that is killing his people. It\r\r\r\r\r\r\r\n\rseems it is his time to die. Misery streaks his aged face.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "BLIND",
+                "POISON"
+            ],
+            "Alignment": 400,
+            "Level": 55,
+            "THAC0": 40,
+            "AC": -33,
+            "HP": "100d65+200",
+            "Damage": "10d4+4",
+            "Gold": 12000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18501,
+            "Aliases": [
+                "large",
+                "rat"
+            ],
+            "ShortDesc": "a large rat",
+            "LongDesc": "A large, disease ridden rat glares at you with red eyes.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "As you examine this rat, you notice he is not like the ones back home.\r\r\r\r\r\r\r\n\rHis glaring red eyes burn right through your soul. This rat is sentient.\r\r\r\r\r\r\r\n\rThis rat has as purpose...",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "SNEAK"
+            ],
+            "Alignment": -1000,
+            "Level": 15,
+            "THAC0": 10,
+            "AC": 0,
+            "HP": "1d1+100",
+            "Damage": "1d2+2",
+            "Gold": 0,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18502,
+            "Aliases": [
+                "shamatan",
+                "woman"
+            ],
+            "ShortDesc": "a Shamatan woman",
+            "LongDesc": "A Shamatan woman trudges past you, with eyes full of tears.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Tears streak the face of this lady. She has lost family and friends in\r\r\r\r\r\r\r\n\rthis tragedy. She possibly could have lost her children.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 20,
+            "THAC0": 11,
+            "AC": -5,
+            "HP": "5d100+0",
+            "Damage": "1d15+0",
+            "Gold": 100,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18503,
+            "Aliases": [
+                "person",
+                "shamatan",
+                "man"
+            ],
+            "ShortDesc": "a Shamatan",
+            "LongDesc": "A Shamatan man is going about his business.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You can see the anger and fear in his eyes. This plague isn't natural,\r\r\r\r\r\r\r\n\rand he knows where it comes from.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 30,
+            "THAC0": 15,
+            "AC": -13,
+            "HP": "20d100+20",
+            "Damage": "6d10+5",
+            "Gold": 2000,
+            "XP": 5800,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18504,
+            "Aliases": [
+                "dairyman",
+                "dairy",
+                "man"
+            ],
+            "ShortDesc": "the Dairyman",
+            "LongDesc": "The Dairyman sits here churning butter.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The dairyman has played an essential role in this community. Dairy products\r\r\r\r\r\r\r\n\rhave been a folk remedy here for ages, and he is highly regarded.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 750,
+            "Level": 27,
+            "THAC0": 20,
+            "AC": -5,
+            "HP": "1d1+1000",
+            "Damage": "1d6+18",
+            "Gold": 10000,
+            "XP": 22000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18505,
+            "Aliases": [
+                "jandor",
+                "handyman",
+                "handy",
+                "man"
+            ],
+            "ShortDesc": "Jandor the Handyman",
+            "LongDesc": "Jandor lies with his head on his desk asleep.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Jandor is a kind enough fellow, though lacking in intelligence. He is\r\r\r\r\r\r\r\n\rquite strong and once was a soldier in the King's army.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 52,
+            "THAC0": 37,
+            "AC": -30,
+            "HP": "70d100+0",
+            "Damage": "2d4+30",
+            "Gold": 9000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18506,
+            "Aliases": [
+                "Yurlin",
+                "woman"
+            ],
+            "ShortDesc": "Yurlin",
+            "LongDesc": "Yurlin the vegetable lady stands selling her wares.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This old woman has seen many years pass in this village. She has fed the\r\r\r\r\r\r\r\n\rpeople here for forty years now, learning gathering and farming from her\r\r\r\r\r\r\r\n\rfather.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 20,
+            "THAC0": 15,
+            "AC": -6,
+            "HP": "10d100+0",
+            "Damage": "1d5+10",
+            "Gold": 15000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18507,
+            "Aliases": [
+                "head",
+                "village",
+                "man"
+            ],
+            "ShortDesc": "the Head of the Village Council",
+            "LongDesc": "The Head of the Village Council rests here weeping.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man has grief written all over his countenance. He is guilty of an\r\r\r\r\r\r\r\n\runimaginable atrosity. Had he never signed the trade agreement in Taelok's\r\r\r\r\r\r\r\n\rhome, he never would have suffered the death of his family.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 20,
+            "AC": -17,
+            "HP": "20d100+0",
+            "Damage": "6d10+0",
+            "Gold": 30000,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18508,
+            "Aliases": [
+                "child"
+            ],
+            "ShortDesc": "a Child",
+            "LongDesc": "A Child stands here without expression.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This child is so terrified, he has no expression upon his face. He has\r\r\r\r\r\r\r\n\rlost most, if not all of his family to the disease.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 7,
+            "AC": -4,
+            "HP": "2d100+20",
+            "Damage": "1d4+3",
+            "Gold": 10,
+            "XP": 15000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18509,
+            "Aliases": [
+                "cow",
+                "ox"
+            ],
+            "ShortDesc": "an ox",
+            "LongDesc": "A large ox stands here, chewing on some hay.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This seems to be a well tempered animal. Although he is very large,\r\r\r\r\r\r\r\n\rhe shows no sign of aggression.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 18,
+            "THAC0": 10,
+            "AC": -4,
+            "HP": "100d10+0",
+            "Damage": "2d10+0",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18510,
+            "Aliases": [
+                "mule"
+            ],
+            "ShortDesc": "a mule",
+            "LongDesc": "A mule stands here, ignoring everything.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This seems to be a well tempered animal. Although he is very large,\r\r\r\r\r\r\r\n\rhe shows no sign of aggression.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 18,
+            "THAC0": 10,
+            "AC": -4,
+            "HP": "100d10+0",
+            "Damage": "2d10+0",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18511,
+            "Aliases": [
+                "Nathan",
+                "smith"
+            ],
+            "ShortDesc": "Nathan the Master Smith",
+            "LongDesc": "Nathan stands here, working vigorously at the forge.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is Nathan, the blacksmith. His arms are huge, an ex-soldier for the\r\r\r\r\r\r\r\n\rFree Cities, he learned his trade young. He is short, but extremely\r\r\r\r\r\r\r\n\rmuscular. He is covered from head to toe in soot.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 56,
+            "THAC0": 40,
+            "AC": -35,
+            "HP": "84d100+0",
+            "Damage": "2d4+25",
+            "Gold": 5500,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18512,
+            "Aliases": [
+                "milo",
+                "innkeeper"
+            ],
+            "ShortDesc": "Milo the Innkeeper",
+            "LongDesc": "Milo the Innkeeper stands behind the bar, drawing ale from a barrel.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Milo is a well tempered man, who took Freida and Eric under his wing.\r\r\r\r\r\r\r\n\rAs a youth, Milo was infatuated by Freida, as were most normal young\r\r\r\r\r\r\r\n\rmen. Now he has a daughter of his own, who is Eric's best friend, almost\r\r\r\r\r\r\r\n\rlike a sister.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 48,
+            "THAC0": 33,
+            "AC": -27,
+            "HP": "50d100+0",
+            "Damage": "30d2+10",
+            "Gold": 50000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18513,
+            "Aliases": [
+                "traveller",
+                "man",
+                "passing"
+            ],
+            "ShortDesc": "a passing traveller",
+            "LongDesc": "A passing traveller sits about a table, telling of his adventures.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is a normal looking citizen of the Kingdom. But his stories are very\r\r\r\r\r\r\r\n\rcolorful.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 10,
+            "THAC0": 15,
+            "AC": 5,
+            "HP": "1d1+100",
+            "Damage": "1d3+2",
+            "Gold": 20000,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18514,
+            "Aliases": [
+                "freida"
+            ],
+            "ShortDesc": "Freida",
+            "LongDesc": "Freida stands here, serving guests.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Freida, Eric's mother, fell in love with the baron years ago. She conceived\r\r\r\r\r\r\r\n\rEric, while the Baron was forced to marry the daughter of the Duke of Ran.\r\r\r\r\r\r\r\n\rTo avoid embaressment of the new Baroness, he was told never to acknowledge\r\r\r\r\r\r\r\n\rEric as his son. Now the years of torment inside Freida have caused her\r\r\r\r\r\r\r\n\rface to be lined with age.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 700,
+            "Level": 28,
+            "THAC0": 14,
+            "AC": -10,
+            "HP": "16d100+16",
+            "Damage": "6d1+10",
+            "Gold": 1000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18515,
+            "Aliases": [
+                "guest"
+            ],
+            "ShortDesc": "a weary guest",
+            "LongDesc": "A weary guest lies here asleep on his bed.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Tired from travelling, this man has passed out on the floor for a good\r\r\r\r\r\r\r\n\rnights rest.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 20,
+            "THAC0": 2,
+            "AC": 0,
+            "HP": "16d100+0",
+            "Damage": "1d20+1",
+            "Gold": 15000,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18516,
+            "Aliases": [
+                "darkmoor",
+                "guard",
+                "baron's"
+            ],
+            "ShortDesc": "a Baron's Guard of Darkmoor",
+            "LongDesc": "A Darkmoor guard strolls through the streets looking for seldom present trouble.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A young man dressed in the garb of the Darkmoor guards, who is commanded by\r\r\r\r\r\r\r\n\rMaster Owen Greylock, the Commander of the Guard.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 40,
+            "THAC0": 15,
+            "AC": -21,
+            "HP": "1d1+1500",
+            "Damage": "1d7+10",
+            "Gold": 5000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18517,
+            "Aliases": [
+                "martin",
+                "avery"
+            ],
+            "ShortDesc": "Martin Avery",
+            "LongDesc": "Martin Avery, Roo's father, rests drunken on the floor.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This burly fellow is a teamster, a type of merchant that drives his team\r\r\r\r\r\r\r\n\rto other cities to buy trade goods. His son was taken as was Eric, and\r\r\r\r\r\r\r\n\rnoone knows what happened to them.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 350,
+            "Level": 46,
+            "THAC0": 30,
+            "AC": -25,
+            "HP": "48d100+0",
+            "Damage": "8d10+0",
+            "Gold": 75000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18518,
+            "Aliases": [
+                "keeper",
+                "shopkeeper"
+            ],
+            "ShortDesc": "the Shopkeeper",
+            "LongDesc": "A wealthy shopkeeper stands patiently behind a table, ready to assist you.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man is nothing to be feared. He is a small man, dressed in fine\r\r\r\r\r\r\r\n\rclothing. He has an aristocratic air about him. He was probably raised\r\r\r\r\r\r\r\n\rwith money, now taking in a fortune from the public.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 400,
+            "Level": 51,
+            "THAC0": 35,
+            "AC": -27,
+            "HP": "60d100+0",
+            "Damage": "2d4+30",
+            "Gold": 100000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18519,
+            "Aliases": [
+                "father",
+                "dugan",
+                "priest"
+            ],
+            "ShortDesc": "Father Dugan, Priest of Ishap",
+            "LongDesc": "Father Dugan sits at his table studying a passage in a book.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Father Dugan is a Priest of Ishap, god of knowledge. His sect plays an\r\r\r\r\r\r\r\n\rimportant role in the lives of the people, for Ishap is the highest\r\r\r\r\r\r\r\n\rof the gods of Midkemia.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_ALIGN"
+            ],
+            "Alignment": 1000,
+            "Level": 70,
+            "THAC0": 40,
+            "AC": -40,
+            "HP": "96d100+1000",
+            "Damage": "1d1+65",
+            "Gold": 10,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18520,
+            "Aliases": [
+                "Manfred",
+                "darkmoor",
+                "von"
+            ],
+            "ShortDesc": "Manfred",
+            "LongDesc": "Manfred sits here upon his bed, gazing out the window.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is Otto's less presumptuous son. He has never thought of being\r\r\r\r\r\r\r\n\rBaron, for his brother will have the title before him. But fate will\r\r\r\r\r\r\r\n\rthrow him into the seat of power in Darkmoor.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 50,
+            "THAC0": 40,
+            "AC": -5,
+            "HP": "1d1+1499",
+            "Damage": "1d20+1",
+            "Gold": 25000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18521,
+            "Aliases": [
+                "commoner"
+            ],
+            "ShortDesc": "a commoner",
+            "LongDesc": "A commoner kneels offering his worship to the gods.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is a common man from Ravensburg, come to pay respects to his diety.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 9,
+            "Level": 15,
+            "THAC0": 9,
+            "AC": -1,
+            "HP": "4d100+0",
+            "Damage": "2d4+6",
+            "Gold": 500,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18522,
+            "Aliases": [
+                "god"
+            ],
+            "ShortDesc": "a god",
+            "LongDesc": "A spirit resides here.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is here.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "HIDE"
+            ],
+            "Alignment": 1000,
+            "Level": 120,
+            "THAC0": 40,
+            "AC": -99,
+            "HP": "100d100+5000",
+            "Damage": "100d100+100",
+            "Gold": 360000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18523,
+            "Aliases": [
+                "owen",
+                "greylock",
+                "head"
+            ],
+            "ShortDesc": "Sir Owen Greylock",
+            "LongDesc": "Master Owen Greylock, Head of the Darkmoor Guard orders a page to an unknown task.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Sir Greylock, despite his years is a strong an vital man. He is a seasoned\r\r\r\r\r\r\r\n\rsoldier of fifty some odd years, who has served his Kingdom diligently.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 750,
+            "Level": 60,
+            "THAC0": 40,
+            "AC": -40,
+            "HP": "88d100+0",
+            "Damage": "2d3+18",
+            "Gold": 10000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18524,
+            "Aliases": [
+                "lady",
+                "girl"
+            ],
+            "ShortDesc": "a young lady",
+            "LongDesc": "A girl, or rather a young lady, rests herself upon the side of the fountain.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is where the youth of Ravensburg come to gossip, talk, court, show\r\r\r\r\r\r\r\n\roff, and basically socialize. Especially the girls. This one seems\r\r\r\r\r\r\r\n\rparticularly interested in a boy across the way.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 6,
+            "THAC0": 2,
+            "AC": 4,
+            "HP": "2d100+15",
+            "Damage": "1d3+0",
+            "Gold": 100,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18525,
+            "Aliases": [
+                "boy",
+                "young",
+                "man"
+            ],
+            "ShortDesc": "a young man",
+            "LongDesc": "A boy, who thinks he is a man, stands here showing off to the girls.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Tha age old game of courtship continues with these youngsters.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 7,
+            "THAC0": 7,
+            "AC": 4,
+            "HP": "4d100+20",
+            "Damage": "1d6+0",
+            "Gold": 500,
+            "XP": 2000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18526,
+            "Aliases": [
+                "mule"
+            ],
+            "ShortDesc": "a Mule",
+            "LongDesc": "A mule hitched to a wagon bays annoyingly.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This seems to be a well tempered animal. Although he is very large,\r\r\r\r\r\r\r\n\rhe shows no sign of aggression.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 18,
+            "THAC0": 10,
+            "AC": -4,
+            "HP": "100d10+0",
+            "Damage": "2d10+0",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18527,
+            "Aliases": [
+                "keshian",
+                "merchant",
+                "man"
+            ],
+            "ShortDesc": "a Keshian merchant",
+            "LongDesc": "A Keshian merchant awaits the arrival of his goods from the warehouse.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Empire of Great Kesh lies at the southern border of the Kingdom of the\r\r\r\r\r\r\r\n\rIsles. Half of the border is disputed, and therefore, the relations between\r\r\r\r\r\r\r\n\rthe lands are tense. Some in Kesh would like to go to war to gain those\r\r\r\r\r\r\r\n\rborders while others, such as this man, see profit in peace.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 51,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "1d1+2499",
+            "Damage": "2d4+20",
+            "Gold": 35000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18528,
+            "Aliases": [
+                "clerk",
+                "short"
+            ],
+            "ShortDesc": "a short clerk",
+            "LongDesc": "A short clerk stands here, processing orders and keeping books.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is a slim, short man. He seems to be small due to his easy, non-laborious\r\r\r\r\r\r\r\n\rwork inside the winery. He wears a simple pair of spectacles and a small\r\r\r\r\r\r\r\n\rbrown cap.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 15,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "5d100+0",
+            "Damage": "2d3+5",
+            "Gold": 100,
+            "XP": 210,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18529,
+            "Aliases": [
+                "young",
+                "apprentice"
+            ],
+            "ShortDesc": "a young apprentice",
+            "LongDesc": "A young apprentice to the Vintner's Guild is here carrying ledgers to the clerk.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This young boy is about the age of fifteen. He looks quite overworked.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 17,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "3d100+0",
+            "Damage": "1d5+5",
+            "Gold": 100,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18530,
+            "Aliases": [
+                "page",
+                "boy"
+            ],
+            "ShortDesc": "a page",
+            "LongDesc": "Someone's page is running about, fulfilling his duties.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This young boy is about the age of fifteen. He looks quite overworked.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 10,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "3d100+0",
+            "Damage": "1d5+5",
+            "Gold": 100,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18531,
+            "Aliases": [
+                "\r"
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18532,
+            "Aliases": [
+                "laborer",
+                "man"
+            ],
+            "ShortDesc": "a laborer",
+            "LongDesc": "A laborer for the winery works diligently bringing crates in from the outside.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man is of good stature. His muscles are strong and his skin darkly\r\r\r\r\r\r\r\n\rtanned from his strenuous outdoor occupation.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 30,
+            "AC": -18,
+            "HP": "32d100+0",
+            "Damage": "2d4+8",
+            "Gold": 500,
+            "XP": 31400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18533,
+            "Aliases": [
+                "vintor",
+                "cullen"
+            ],
+            "ShortDesc": "Vintor Cullen",
+            "LongDesc": "The Vintor, William Cullen, tastes a batch of wine to insure it's quality.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man tastes so much wine, he should stay drunk. He is a master of the\r\r\r\r\r\r\r\n\rliquid, and could tell you from where and when any bottle of wine was made\r\r\r\r\r\r\r\n\rin Midkemia by taste.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 40,
+            "THAC0": 30,
+            "AC": 0,
+            "HP": "1d1+1499",
+            "Damage": "2d3+30",
+            "Gold": 25000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18534,
+            "Aliases": [
+                "purchase",
+                "purchasing",
+                "clerk"
+            ],
+            "ShortDesc": "the purchasing clerk",
+            "LongDesc": "The purchasing clerk is making a deal with a merchant.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man is a tall, scrawny wimp. Lots of brains, nada braun.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 300,
+            "Level": 25,
+            "THAC0": 15,
+            "AC": -10,
+            "HP": "20d100+0",
+            "Damage": "1d3+15",
+            "Gold": 50000,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18535,
+            "Aliases": [
+                "royal",
+                "guard",
+                "baron's",
+                "baron"
+            ],
+            "ShortDesc": "a royal guard",
+            "LongDesc": "One of the Baron's Royal guards is standing at his post here.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The royal guard stands still, nothing moving but his eyes, which follow your\r\r\r\r\r\r\r\n\revery movement.  He seems wire-tense and ready to kill you with the slightest\r\r\r\r\r\r\r\n\rprovacation.  You are certain it would be better for you if you left him\r\r\r\r\r\r\r\n\ralone.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 51,
+            "THAC0": 35,
+            "AC": -25,
+            "HP": "60d100+0",
+            "Damage": "2d2+18",
+            "Gold": 10000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18536,
+            "Aliases": [
+                "minstrel"
+            ],
+            "ShortDesc": "a minstrel",
+            "LongDesc": "A minstrel awaits a hearing from the Baron, and plucks his harpischord to tune.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man has travelled many miles in his lifetime, just to give pleasure\r\r\r\r\r\r\r\n\rto the ears of the masses. Why anyone would live so meagerly, you can\r\r\r\r\r\r\r\n\rnot guess.",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 300,
+            "Level": 25,
+            "THAC0": 15,
+            "AC": -3,
+            "HP": "15d100+50",
+            "Damage": "1d3+12",
+            "Gold": 200,
+            "XP": 5000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18537,
+            "Aliases": [
+                "maiden",
+                "servant",
+                "lady"
+            ],
+            "ShortDesc": "the servant maiden",
+            "LongDesc": "The young maiden servant awaits duties from the Royal family.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This young lady is quite a charm to behold. Though not extravagantly\r\r\r\r\r\r\r\n\rbeautiful, she does have an.... air about her.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 20,
+            "THAC0": 11,
+            "AC": -5,
+            "HP": "5d100+0",
+            "Damage": "1d15+0",
+            "Gold": 100,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18538,
+            "Aliases": [
+                "lady",
+                "waiting"
+            ],
+            "ShortDesc": "the lady",
+            "LongDesc": "A lady in waiting is here. The Baroness couldn't be far away.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This lady is of noble stature, though not of noble blood. She is a middle\r\r\r\r\r\r\r\n\raged woman, who lives to serve the Baroness in all of her needs.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 20,
+            "THAC0": 11,
+            "AC": -5,
+            "HP": "5d100+0",
+            "Damage": "1d15+0",
+            "Gold": 100,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18539,
+            "Aliases": [
+                "cook",
+                ""
+            ],
+            "ShortDesc": "a cook",
+            "LongDesc": "The Baron's household cook stands here patiently cooking the next meal.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This older lady needs to shave! She is a short, pudgy, bigfoot monster!\r\r\r\r\r\r\r\n\rShe looks as if she hasn't taken a look in the mirror in years, but has\r\r\r\r\r\r\r\n\rrather spent her life in front of a hearth.",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 20,
+            "THAC0": 11,
+            "AC": -5,
+            "HP": "5d100+0",
+            "Damage": "1d15+0",
+            "Gold": 100,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18540,
+            "Aliases": [
+                "mathilda",
+                "baroness"
+            ],
+            "ShortDesc": "Mathilda",
+            "LongDesc": "The Baroness, Mathilda, stands contemplating her troubles.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Baroness isn't beautiful. Otto married her for the good of the state,\r\r\r\r\r\r\r\n\rnot for love. The lady from Land's End is quite dubious, and is very\r\r\r\r\r\r\r\n\rambitious for her son, Stephan.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 15,
+            "AC": -10,
+            "HP": "20d100+0",
+            "Damage": "1d2+20",
+            "Gold": 10000,
+            "XP": 8000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18541,
+            "Aliases": [
+                "otto",
+                "von",
+                "darkmoor",
+                "baron"
+            ],
+            "ShortDesc": "Otto von Darkmoor",
+            "LongDesc": "The Baron, Otto von Darkmoor, lies upon his deathbed.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Many years of grief have brought him to this day. He is dying. The chirurgeon\r\r\r\r\r\r\r\n\rsits the deathwatch, for the Baroness isn't here.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "BLIND",
+                "POISON"
+            ],
+            "Alignment": 700,
+            "Level": 40,
+            "THAC0": 0,
+            "AC": 1,
+            "HP": "16d100+0",
+            "Damage": "1d4+1",
+            "Gold": 1000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18542,
+            "Aliases": [
+                "chirurgeon",
+                "man",
+                "healer"
+            ],
+            "ShortDesc": "the chirurgeon",
+            "LongDesc": "A chirurgeon, or healer, sits here, sitting the deathwatch.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man was a personal friend of the Baron's. He sits to watch the \r\r\r\r\r\r\r\n\rBaron die, a morbid favor to him. His responisibility is to see\r\r\r\r\r\r\r\n\rthat the wishes of the dying Baron be done, as the Baroness refuses\r\r\r\r\r\r\r\n\rto be here. \r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 30,
+            "THAC0": 30,
+            "AC": 0,
+            "HP": "14d100+13",
+            "Damage": "1d4+1",
+            "Gold": 500,
+            "XP": 40000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18543,
+            "Aliases": [
+                "old",
+                "man"
+            ],
+            "ShortDesc": "the old man",
+            "LongDesc": "An old man sits in a rocker next to the fire, covered by a blanket.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man seems ancient. His countenence is nearly skeletal and he often\r\r\r\r\r\r\r\n\rshakes. He hold a pipe in his right hand. He says........\r\r\r\r\r\r\r\n\r\"Long ago there was a great war, those from other world came to take\r\r\r\r\r\r\r\n\rour Kingdom. Heh, that didn't last long. But it was then that we took\r\r\r\r\r\r\r\n\rnotice of other lands... the legendary Elvandar, city of the elhedel,\r\r\r\r\r\r\r\n\rNovindus, a great island across the Endless Sea, and nations still \r\r\r\r\r\r\r\n\rrarely known to the south. There are cities in the north, though the\r\r\r\r\r\r\r\n\rmorhedel, or rather the Brothers of the Dark Path reside there. They\r\r\r\r\r\r\r\n\rare in league with the Dark Ones, they are. Those dark elves would rather\r\r\r\r\r\r\r\n\rcut your throat than look at you. One you should seek out is Pug of\r\r\r\r\r\r\r\n\rStardock. He has save this whole world and others numerous times.\r\r\r\r\r\r\r\n\rHe could tell you of the goings on here. Now go, I must rest....\"\r\r\r\r\r\r\r\n\rThen he falls asleep.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 127,
+            "THAC0": 0,
+            "AC": -40,
+            "HP": "100d100+9000",
+            "Damage": "100d100+100",
+            "Gold": 20000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18544,
+            "Aliases": [
+                "citizen",
+                "woman"
+            ],
+            "ShortDesc": "a citizen of Darkmoor",
+            "LongDesc": "A woman walks here, tending to her own affairs.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "These are very peaceful people. They haven't seen war for over three centuries\r\r\r\r\r\r\r\n\ron this soil, although the battle of Sethanon was north of here. It never\r\r\r\r\r\r\r\n\rreached this far south.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 20,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "1d1+200",
+            "Damage": "1d4+3",
+            "Gold": 100,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18545,
+            "Aliases": [
+                "man",
+                "citizen",
+                ""
+            ],
+            "ShortDesc": "a citizen of Darkmoor",
+            "LongDesc": "A man walk purposefully by you, tending to unfinished tasks.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is one of the peaceful men, an upstanding citizen of the Barony of\r\r\r\r\r\r\r\n\rDarkmoor.",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 30,
+            "THAC0": 15,
+            "AC": -13,
+            "HP": "20d100+20",
+            "Damage": "1d6+3",
+            "Gold": 2000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18546,
+            "Aliases": [
+                "child"
+            ],
+            "ShortDesc": "a child",
+            "LongDesc": "A child hides in a corner, praying for your ignorance.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This child is terrified. he has no home and seeks shelter. You must\r\r\r\r\r\r\r\n\rhave scared him to death when you walked in.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 7,
+            "AC": -4,
+            "HP": "2d100+20",
+            "Damage": "1d20+0",
+            "Gold": 10,
+            "XP": 200,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18547,
+            "Aliases": [
+                "horse"
+            ],
+            "ShortDesc": "a horse",
+            "LongDesc": "A horse is lashed in his stable, and is resting upon fresh hay.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is a horse owned by a Darkmoor soldier. He is very well bred, and\r\r\r\r\r\r\r\n\ris trained in battle.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 18,
+            "THAC0": 10,
+            "AC": -4,
+            "HP": "100d10+0",
+            "Damage": "2d10+0",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18548,
+            "Aliases": [
+                "dog",
+                "stray",
+                "pet"
+            ],
+            "ShortDesc": "a dog",
+            "LongDesc": "A dog, possibly a stray, or even someone's pet, is strolling down the street.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This dog looks well bred, not like an unkempt stray.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 6,
+            "THAC0": 2,
+            "AC": 4,
+            "HP": "2d100+15",
+            "Damage": "1d3+0",
+            "Gold": 100,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18549,
+            "Aliases": [
+                "cat",
+                ""
+            ],
+            "ShortDesc": "a cat",
+            "LongDesc": "This cat seems particularly uniterested in you. It runs away at top speed.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "As we all know, cats belong to no one. They might stay with you, but cats\r\r\r\r\r\r\r\n\rhave a mind of thier own. The one is burning the wind away from you.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 10,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "2d75+10",
+            "Damage": "1d3+0",
+            "Gold": 100,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18550,
+            "Aliases": [
+                "looter,",
+                "loote,",
+                "loot,",
+                "loo"
+            ],
+            "ShortDesc": "a looter",
+            "LongDesc": "A looter sneaks about looking for valuables.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The looter's eyes uneasily dart from side to side. He looks like he\r\r\r\r\r\r\r\n\rcould be dangerous.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "SNEAK"
+            ],
+            "Alignment": -450,
+            "Level": 22,
+            "THAC0": 35,
+            "AC": 0,
+            "HP": "10d100+50",
+            "Damage": "1d3+3",
+            "Gold": 10000,
+            "XP": 22000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18560,
+            "Aliases": [
+                "horse"
+            ],
+            "ShortDesc": "a horse",
+            "LongDesc": "A horse is here, in a team of four to pull the wagon.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This horse is very well mannered to stand here for hours with his team\r\r\r\r\r\r\r\n\rawaiting cargo.",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 18,
+            "THAC0": 10,
+            "AC": -4,
+            "HP": "100d10+0",
+            "Damage": "2d10+0",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18563,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        }
+    ]
+}

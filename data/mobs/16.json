@@ -1,0 +1,934 @@
+{
+    "mobs": [
+        {
+            "Number": 1600,
+            "Aliases": [
+                "firefly",
+                "wood",
+                "fire",
+                "fly",
+                "pile"
+            ],
+            "ShortDesc": "the firefly",
+            "LongDesc": "A pile of wood lit on fire flies around this area.\n",
+            "DetailedDesc": "This looks exactly like a pile of wood lit on fire in the shape of what\nyou know of as a fly.  It is flying around being rather annoying.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "UNUSED20"
+            ],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 10,
+            "AC": 9,
+            "HP": "5d5+60",
+            "Damage": "4d3+4",
+            "Gold": 0,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1601,
+            "Aliases": [
+                "cat",
+                "winged",
+                "hawk",
+                "kittyhawk"
+            ],
+            "ShortDesc": "the kittyhawk",
+            "LongDesc": "A small-winged cat screeches and circles above you.\n",
+            "DetailedDesc": "The wings are hawk-like, with brown feathers, and the tail matches the wings.\nBut the head and legs are definitely that of the cat kingdom, and it has\nsharp white teeth and claws.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "UNUSED20"
+            ],
+            "Alignment": -50,
+            "Level": 14,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "1d20+100",
+            "Damage": "1d10+4",
+            "Gold": 0,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1602,
+            "Aliases": [
+                "book",
+                "worm"
+            ],
+            "ShortDesc": "the bookworm",
+            "LongDesc": "There is a book here, inching its way along the ground.\n",
+            "DetailedDesc": "Looking more closely at the book, you notice that it has a head similar to\nthat of a worm...strange...\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 3,
+            "THAC0": 3,
+            "AC": 10,
+            "HP": "1d20+20",
+            "Damage": "2d2+2",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1603,
+            "Aliases": [
+                "dragon",
+                "gap",
+                "steamer",
+                "stanley"
+            ],
+            "ShortDesc": "the Gap Dragon",
+            "LongDesc": "Stanley Steamer, the infamous Gap Dragon, drools hungrily as you enter.\n",
+            "DetailedDesc": "This is the most enormous animal you have ever seen in your entire life. He\ndominates the area, his six mighty legs as thick as tree trunks, and tipped\nwith claws that are fully six inches long. His fanged mouth is truly awful,\nand you quake in your boots as you contemplate his immensity. The steam\ngushing from his mouth is fully as hot as any fire you might encounter, and\njust as deadly. You'd better run away while you still can!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 122,
+            "THAC0": 40,
+            "AC": -14,
+            "HP": "1d100+10000",
+            "Damage": "6d6+35",
+            "Gold": 139000,
+            "XP": 275000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1604,
+            "Aliases": [
+                "tree",
+                "tangle",
+                "huge",
+                "terrible"
+            ],
+            "ShortDesc": "a tangle tree",
+            "LongDesc": "A huge and terrible tangle tree prepares to devour you!\n",
+            "DetailedDesc": "This tree looks like nothing more than a huge weeping willow, with thick and\nflexible tentacular branches. The trunk opens into a huge mouth, with sap\ndripping from it like saliva. The whole effect is horrifying, and you feel\nas if you must run now, or be devoured!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "NOTRACK"
+            ],
+            "Alignment": 0,
+            "Level": 40,
+            "THAC0": 22,
+            "AC": -5,
+            "HP": "1d100+500",
+            "Damage": "5d5+10",
+            "Gold": 22000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1605,
+            "Aliases": [
+                "wiggle",
+                "worm"
+            ],
+            "ShortDesc": "a wiggle",
+            "LongDesc": "A small, whitish worm \"zzzap!\"s its way ominously in your direction.\n",
+            "DetailedDesc": "Wiggles are memebers of the vole family, the original tunneling creatures.\nThey are tiny, nearly mindless, and live only to burrow their way through\nanything in their path...including you!\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 40,
+            "AC": -5,
+            "HP": "1d30+30",
+            "Damage": "5d5+10",
+            "Gold": 0,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1606,
+            "Aliases": [
+                "dragon",
+                "smoke",
+                "large"
+            ],
+            "ShortDesc": "a large smoker",
+            "LongDesc": "A large dragon with black smoke belching from its mouth slavers at you.\n",
+            "DetailedDesc": "This dragon is about average size, as dragons go. Some say that smoke dragons\nare even more dangerous than fire dragons, because that smoke can suffocate\nyou very quickly. Also, the two are sometimes found together.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 7,
+            "AC": 2,
+            "HP": "1d50+400",
+            "Damage": "3d4+15",
+            "Gold": 11100,
+            "XP": 51000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1607,
+            "Aliases": [
+                "small",
+                "fire",
+                "flying",
+                "dragon"
+            ],
+            "ShortDesc": "a small firebreather",
+            "LongDesc": "A small flying dragon puffs fire from its nostrils and swoops down on you.\n",
+            "DetailedDesc": "This dragon is made for strafing runs, all of its muscle goes to either the\nwings or the chest. Speed and firepower are its specialties, as you are just\nabout to discover...\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 29,
+            "THAC0": 12,
+            "AC": 0,
+            "HP": "1d30+300",
+            "Damage": "5d5+15",
+            "Gold": 2500,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1608,
+            "Aliases": [
+                "ram",
+                "battering"
+            ],
+            "ShortDesc": "a battering ram",
+            "LongDesc": "There is a ram here trying to batter it way through a wall.\n",
+            "DetailedDesc": "This sheep has small, curly horns and a curly pelt.  It seems to\nenjoy running into any obstacle in its path trying to crash through\nit.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 29,
+            "THAC0": 17,
+            "AC": 6,
+            "HP": "1d50+450",
+            "Damage": "6d5+15",
+            "Gold": 1000,
+            "XP": 23000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1609,
+            "Aliases": [
+                "ogre",
+                "huge",
+                "ugly"
+            ],
+            "ShortDesc": "an ogre",
+            "LongDesc": "A huge and incredibly ugly ogre glowers at you stupidly.\n",
+            "DetailedDesc": "Ogres from Xanth are about 12 feet tall and immensely strong. Their strength\nis directly proportional to their ugliness, and inversely proportional to\ntheir intelligence. This one looks VERY ugly and VERY stupid, so you'd\nbetter watch out...\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -350,
+            "Level": 70,
+            "THAC0": 10,
+            "AC": -2,
+            "HP": "1d100+600",
+            "Damage": "5d5+15",
+            "Gold": 0,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1610,
+            "Aliases": [
+                "angel",
+                "fish"
+            ],
+            "ShortDesc": "the angelfish",
+            "LongDesc": "A fish with a shiny halo over its head swims here.\n",
+            "DetailedDesc": "This small fish glows lightly, a halo shines over its head and you could\nswear those fins look an awful lot like wings.  This is the strangest looking\nfish you've ever seen... perhaps it won't be for long though, this is Xanth\nafter all.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 12,
+            "THAC0": 5,
+            "AC": 8,
+            "HP": "10d12+20",
+            "Damage": "4d4+4",
+            "Gold": 0,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1611,
+            "Aliases": [
+                "ant",
+                "lion"
+            ],
+            "ShortDesc": "the ant-lion",
+            "LongDesc": "An ant with the head of a lion is crawling around here.\n",
+            "DetailedDesc": "This small insect has the body of an ant and the maned head of\na lion.  It looks as though it could be a very powerful fighter,\nand the legs and jaws are strong enough and pointed enough to\ncause damage through armor.  There is also a stinger at the\nend of their abdomen.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -20,
+            "Level": 20,
+            "THAC0": 8,
+            "AC": 3,
+            "HP": "1d100+150",
+            "Damage": "5d4+10",
+            "Gold": 758,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1612,
+            "Aliases": [
+                "steer",
+                "bum",
+                "cow"
+            ],
+            "ShortDesc": "a bum steer",
+            "LongDesc": "A four-footed, cow type creature with hooves and horns is here.\n",
+            "DetailedDesc": "This bum steer looks around wondering where all his cigarettes went,\nand when you ask where the North Village is, he points off to the\nsouth and asks \"Got a smoke?  Come on man, just gimme a smoke, huh?\"\nYou shake your head at the obvious wrong answer to the question, and\ndon't bother answering his question.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 35,
+            "THAC0": 9,
+            "AC": -3,
+            "HP": "1d100+300",
+            "Damage": "5d5+15",
+            "Gold": 6500,
+            "XP": 17500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1613,
+            "Aliases": [
+                "cat",
+                "nine",
+                "tail",
+                "creature"
+            ],
+            "ShortDesc": "a cat-o'-nine-tails",
+            "LongDesc": "A cat with nine long tails sits here cleaning itself.\n",
+            "DetailedDesc": "As you look closer to this creature, you realize why you weren't\nsure if it was a normal cat.  It LOOKS like a normal cat, but it\nhas nine tails where there should be only one.  It notices you \nlooking at it and hisses at you, putting it's ears back against \nits head.\n",
+            "Actions": [
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 25,
+            "Level": 30,
+            "THAC0": 13,
+            "AC": 1,
+            "HP": "1d100+300",
+            "Damage": "4d4+4",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1614,
+            "Aliases": [
+                "cat",
+                "cactus"
+            ],
+            "ShortDesc": "a cactus cat",
+            "LongDesc": "There is a cat with a striped green and brown coat sitting here.\n",
+            "DetailedDesc": "You look closer at the cat and notice that its \"fur\" is actually\ncomposed of needles instead of fur.  The ears are actually thorns\nthat are large and stiff.  The claws of the cat area actually sharpened\nslicing blades of bone.  It blinks as you look at it.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 32,
+            "THAC0": 15,
+            "AC": -5,
+            "HP": "1d100+300",
+            "Damage": "5d3+10",
+            "Gold": 1250,
+            "XP": 14000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1615,
+            "Aliases": [
+                "fish",
+                "devil"
+            ],
+            "ShortDesc": "a devilfish",
+            "LongDesc": "There is a reddish fish with horns glanceing around here.\n",
+            "DetailedDesc": "You look closer at the fish and figure by it's color and it's \nhorns, it must be a Devilfish.  You think about everything you \nknow about the Devilfish and realize that it's probably looking\nfor an angel fish to \u003ccensored\u003e her.  The barbed tail on the\nback of the fish looks like a dangerous weapon.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 10,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "20d5+20",
+            "Damage": "4d4+4",
+            "Gold": 0,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1616,
+            "Aliases": [
+                "snake",
+                "copper",
+                "head"
+            ],
+            "ShortDesc": "a copperhead",
+            "LongDesc": "You see a gleam of metal and notice a copper-headed snake ready to strike.\n",
+            "DetailedDesc": "You look closer at the snake and are almost blinded by the glare\noff from the snake's copper head.  As it opens it's mouth wide to \nstrike at you, you notice even it's fangs and tongue are copper...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -50,
+            "Level": 22,
+            "THAC0": 8,
+            "AC": -4,
+            "HP": "1d100+200",
+            "Damage": "5d3+10",
+            "Gold": 1750,
+            "XP": 11000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1617,
+            "Aliases": [
+                "deer",
+                "fly"
+            ],
+            "ShortDesc": "a deerfly",
+            "LongDesc": "There is a four legged, antlered fly here.\n",
+            "DetailedDesc": "As you look closer at this creature it lifts its head at looks at\nyou with big, soulful, brown eyes.  You notice how soft the fur is \non they fly and think that it could be easy to kill, but then\nyou notice the deadly hooves and think it might not be THAT easy\nto kill after all.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 8,
+            "THAC0": 5,
+            "AC": 0,
+            "HP": "1d80+40",
+            "Damage": "4d4+4",
+            "Gold": 0,
+            "XP": 7500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1618,
+            "Aliases": [
+                "eagle",
+                "bird",
+                "double",
+                "headed"
+            ],
+            "ShortDesc": "a double-headed eagle",
+            "LongDesc": "A golden eagle with two heads sits perched on a branch here.\n",
+            "DetailedDesc": "As you look closer at the monster you notice that the wings glisten\na goldish color.  The beaks are sharp and ready to kill if need be\nand the talons are sharp enough to rip through any armor like a can\nopener.\n",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SENSE_LIFE"
+            ],
+            "Alignment": 100,
+            "Level": 70,
+            "THAC0": 17,
+            "AC": -8,
+            "HP": "20d10+700",
+            "Damage": "5d5+15",
+            "Gold": 15000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1619,
+            "Aliases": [
+                "dragon",
+                "fly"
+            ],
+            "ShortDesc": "a dragonfly",
+            "LongDesc": "There is a very small dragon buzzing around your head.\n",
+            "DetailedDesc": "This dragon looks like a miniature of it's large cousin.  It is\na Dragonfly, you assume.  It preys on bugs and occasionally keeps\na garden free of pests.  Basically, it's harmless, IF you don't\nannoy it.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 9,
+            "AC": -1,
+            "HP": "40d10+40",
+            "Damage": "4d4+10",
+            "Gold": 40,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1620,
+            "Aliases": [
+                "phoenix",
+                "bird"
+            ],
+            "ShortDesc": "the Phoenix",
+            "LongDesc": "There is a LARGE bird laying on a nest here.\n",
+            "DetailedDesc": "As you look closer to this bird, you realize that it must\nbe the mythical Phoenix.  The immortal bird that rises from\nhe ashes of it's own corpse.  The beauty of the bird is amazing.\nThe feathers on the wings look glossed over.  You would swear\nthis was a statue, if it wasn't moving.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SENSE_LIFE"
+            ],
+            "Alignment": 500,
+            "Level": 78,
+            "THAC0": 20,
+            "AC": -12,
+            "HP": "10d34+3000",
+            "Damage": "5d5+20",
+            "Gold": 50000,
+            "XP": 140000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1621,
+            "Aliases": [
+                "giant",
+                "invisible",
+                "stinky"
+            ],
+            "ShortDesc": "the Invisible Giant",
+            "LongDesc": "You smell an enormous invisible giant, the stench is incredibly offal.\n",
+            "DetailedDesc": "You can't see this giant, but you can't miss the smell.\nPlants are withering in the area as you watch, and bugs and \nanimals are dropping like flies. Your eyes are watering from the\naroma and you are suffering from the urge to RUN!!!\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INVISIBLE"
+            ],
+            "Alignment": 0,
+            "Level": 57,
+            "THAC0": 25,
+            "AC": -5,
+            "HP": "1d100+1500",
+            "Damage": "8d6+15",
+            "Gold": 23100,
+            "XP": 120000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1622,
+            "Aliases": [
+                "rabbit",
+                "bunny",
+                "carnivorous",
+                "fangs"
+            ],
+            "ShortDesc": "the carnivorous rabbit",
+            "LongDesc": "You see a cute little bunny here with blood dripping from its three-inch fangs.\n",
+            "DetailedDesc": "This bunny looks innocent enough from a few feet away, but as you get closer,\nyou notice that it has huge fangs, and is slavering at you hungrily. It must\nbe a fabled carnivorous rabiit, very deadly to the incautious.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 22,
+            "THAC0": 35,
+            "AC": 0,
+            "HP": "1d20+99",
+            "Damage": "1d50+0",
+            "Gold": 0,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1623,
+            "Aliases": [
+                "chimera",
+                "lion",
+                "dragon",
+                "goat",
+                "creature"
+            ],
+            "ShortDesc": "the chimera",
+            "LongDesc": "A creature with the heads of a lion, a goat, and a dragon lurks here.\n",
+            "DetailedDesc": "The chimera is an ancient heraldic beast, very dangerous. It has three heads,\na lion's head, a goat's heat, and a dragon's head. Its claws are also very\ndangerous, and the dragon's head can breathe fire. You are in for a tough\nfight, if you decide to stick around long enough.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 90,
+            "THAC0": 25,
+            "AC": -4,
+            "HP": "5d30+800",
+            "Damage": "5d5+20",
+            "Gold": 3200,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1624,
+            "Aliases": [
+                "cowboy",
+                "man",
+                "horned",
+                "bovine"
+            ],
+            "ShortDesc": "a cowboy",
+            "LongDesc": "A man with the head of a horned bovine gazes at you placidly.\n",
+            "DetailedDesc": "Cowboys are peaceful herbivores, and ordinarily do not molest travelers.\nHowever, they will fight fiercely if provoked, or to defend their cowgirls.\nThey are known to be pretty tough, and their horns are wickedly sharp. You\nwould probably do well to leave this one be.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 750,
+            "Level": 20,
+            "THAC0": 14,
+            "AC": 5,
+            "HP": "1d100+200",
+            "Damage": "7d3+10",
+            "Gold": 500,
+            "XP": 11000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1625,
+            "Aliases": [
+                "nickel",
+                "nickelpede",
+                "pede",
+                "insect"
+            ],
+            "ShortDesc": "a nickelpede",
+            "LongDesc": "A small, dangerous looking insect is here with picers about the size of a nickel.\n",
+            "DetailedDesc": "This little creature is about 4 inches long with 500 legs and magical\npincers that can gouge out circles of flesh called nickels.  It is\nmade of a silvery metal, and doesn't look very dangerous by itself.\nHowever, this insect, which you have figured out is a nickelpede, never\ncomes alone, no doubt there are more where it came from.  Together they\ncan swarm over a centaur or any other powerful creature given a little\ntime.  It would be best to go back before it's buddies come.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 10,
+            "AC": -5,
+            "HP": "5d20+20",
+            "Damage": "5d5+5",
+            "Gold": 5,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1626,
+            "Aliases": [
+                "guardian",
+                "keeper",
+                "door"
+            ],
+            "ShortDesc": "the guardian",
+            "LongDesc": "The Good Magician's guardian and doorkeeper squints at you suspiciously.\n",
+            "DetailedDesc": "This guardian is a normal-looking human, probably another person with a\nQuestion for the Magician. He doesn't appear particularly unfriendly, but\nhe is not about to let you pass, either. Looks like you will just have\nto persuade him otherwise...\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 28,
+            "THAC0": 20,
+            "AC": 6,
+            "HP": "10d30+200",
+            "Damage": "5d4+10",
+            "Gold": 1450,
+            "XP": 14500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1627,
+            "Aliases": [
+                "dime",
+                "pede",
+                "dimepede",
+                "insect"
+            ],
+            "ShortDesc": "a dimepede",
+            "LongDesc": "A small, dangerous looking insect is here with pincers about the size of a dime.\n",
+            "DetailedDesc": "This little creature is about 3 inches long with 500 legs and magical\npincers that can gouge out circles of flesh called dimes.  It is\nmade of a silvery metal, and doesn't look very dangerous by itself.\nHowever, this insect, which you have figured out is a dimepede, never\ncomes alone, no doubt there are more where it came from.  Together they\ncan swarm over a centaur or any other powerful creature given a little\ntime.  It would be best to go back before it's buddies come.\nDimepede cut out pieces of flesh smaller than nickelpedes, but they\nhurt twice as much, so be careful or you'll be nickel and dimed to death.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 10,
+            "AC": -2,
+            "HP": "10d20+20",
+            "Damage": "5d5+10",
+            "Gold": 10,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1628,
+            "Aliases": [
+                "quarter",
+                "pede",
+                "quarterpede",
+                "insect"
+            ],
+            "ShortDesc": "a quarterpede",
+            "LongDesc": "A small, dangerous looking insect is here with dual pincers about the size of a quarter.\n",
+            "DetailedDesc": "This little creature is about 6 inches long with 500 legs and magical\npincers that can gouge out circles of flesh called quarters.  Quarterpedes\nare much more feared than either dimepedes or nickelpedes because they\ncan gouge out two bits at a time, making them much more dangerous.\nQuarterpedes are about 5 times as big as nickelpedes and quite dangerous\nLooking at it, you can see it is probably about to attack you.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 15,
+            "AC": -2,
+            "HP": "20d20+30",
+            "Damage": "5d5+20",
+            "Gold": 25,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1629,
+            "Aliases": [
+                "cat",
+                "catapult",
+                "animal"
+            ],
+            "ShortDesc": "the catapult",
+            "LongDesc": "A huge cat with a strange looking tail stares back at you and purrs.\n",
+            "DetailedDesc": "This is the biggest cat you have ever seen.  It is about 10 feet tall at the\nshoulder and has a huge tail.  The tail ends in a strange cup shape.  As you\nwalk closer the tail goes from being straight up in the air back to parallel\nto the ground with an audible *click*. The cat points to the sign.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": -30,
+            "AC": -100,
+            "HP": "0d0+30000",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1698,
+            "Aliases": [
+                "ram",
+                "steam",
+                "big",
+                "hydraulic"
+            ],
+            "ShortDesc": "the hydraulic ram",
+            "LongDesc": "A large male sheep with steam puffing from its ears lowers its head and charges!\n",
+            "DetailedDesc": "This is a hydraulic ram, related to the battering ram, but bigger, stronger,\nand stupider, if possible. Hydraulic rams are usually ornery, and ready to\nbash their heads into anything they encounter. In this case, that's you.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 40,
+            "THAC0": 15,
+            "AC": -2,
+            "HP": "1d100+300",
+            "Damage": "5d5+20",
+            "Gold": 0,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1699,
+            "Aliases": [
+                "perfect"
+            ],
+            "ShortDesc": "Perfect 25th level mob",
+            "LongDesc": "There is a mob here\n",
+            "DetailedDesc": "This looks like your perfectly buffed 25th level mob.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 25,
+            "THAC0": 25,
+            "AC": -8,
+            "HP": "1d1+789",
+            "Damage": "1d1+13",
+            "Gold": 0,
+            "XP": 9000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

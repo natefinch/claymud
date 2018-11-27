@@ -1,0 +1,637 @@
+{
+    "mobs": [
+        {
+            "Number": 22301,
+            "Aliases": [
+                "drunk",
+                "golfer"
+            ],
+            "ShortDesc": "a drunk golfer",
+            "LongDesc": "A golfer is here, so drunk he can hardly stand up.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Ugh.  This guy REEKS of alcohol.  Nobody light a match near this guy or\r\r\r\r\r\n\rthe whole room will go up in flames.  \r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 5,
+            "AC": 2,
+            "HP": "1d30+219",
+            "Damage": "2d6+0",
+            "Gold": 500,
+            "XP": 7500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22302,
+            "Aliases": [
+                "inexperienced",
+                "golfer"
+            ],
+            "ShortDesc": "an inexperienced golfer",
+            "LongDesc": "An inexperienced golfer is here hacking feverishly at the ball.\r\r\r\r\r\n\r",
+            "DetailedDesc": "It's pretty obvious this guy hasn't been playing very long.  He's just grabbing\r\r\r\r\r\n\rthe club and swinging as hard as he can.  You sigh.  Time to put him out\r\r\r\r\r\n\rof his misery.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 25,
+            "Level": 15,
+            "THAC0": 10,
+            "AC": 0,
+            "HP": "1d30+279",
+            "Damage": "2d6+3",
+            "Gold": 1000,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22303,
+            "Aliases": [
+                "golfer",
+                "duffer"
+            ],
+            "ShortDesc": "an experienced duffer ",
+            "LongDesc": "An experienced duffer is here showing up all the young upstarts.\r\r\r\r\r\n\r",
+            "DetailedDesc": "From the looks of things, this guy has been playing golf since before you\r\r\r\r\r\n\rwere born.  He has power that belies his small stature and can make the ball\r\r\r\r\r\n\rbite into the green with precision and control.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 12,
+            "AC": -6,
+            "HP": "1d30+429",
+            "Damage": "4d6+1",
+            "Gold": 2500,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22304,
+            "Aliases": [
+                "gopher"
+            ],
+            "ShortDesc": "the Gopher",
+            "LongDesc": "The Gopher is here baring his teeth at you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Extremely quick and deadly, this is the source of all the mess around the\r\r\r\r\r\n\rgolf course.  He's a mean fighter and an even better dancer.  Just ask him\r\r\r\r\r\n\rand he'll tell you.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "BLIND",
+                "SANCTUARY"
+            ],
+            "Alignment": 100,
+            "Level": 42,
+            "THAC0": 15,
+            "AC": -7,
+            "HP": "1d50+869",
+            "Damage": "8d2+3",
+            "Gold": 15000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22305,
+            "Aliases": [
+                "Carl",
+                "assistant",
+                "greenskeeper"
+            ],
+            "ShortDesc": "Carl",
+            "LongDesc": "Carl, the Assistant Greenskeeper, is here searching for that blasted gopher.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Before you stands a very shabbily dressed man who bathes every month whether\r\r\r\r\r\n\rhe needs to or not.  If you stick around too long, he'll tell you the story\r\r\r\r\r\n\rabout how he was once the caddy for the Dali Lama.  Because of that, he will\r\r\r\r\r\n\rreceive total consciousness on his death bed, so he has that going for him.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -10,
+            "Level": 35,
+            "THAC0": 19,
+            "AC": -10,
+            "HP": "1d50+969",
+            "Damage": "4d6+1",
+            "Gold": 5000,
+            "XP": 52000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22306,
+            "Aliases": [
+                "Ty",
+                "Webb"
+            ],
+            "ShortDesc": "Ty Webb",
+            "LongDesc": "Ty Webb is here making tongue gestures at all the attractive ladies.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The definition of smooth, sly and seductive, Ty Webb is every woman's fantasy.\r\r\r\r\r\n\rHe's handsome, charming, sophisticated, talented and funny in a warped kind\r\r\r\r\r\n\rof way.  If that wasn't enough, he's also rich.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 40,
+            "THAC0": 15,
+            "AC": -2,
+            "HP": "1d50+569",
+            "Damage": "2d10+0",
+            "Gold": 50000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22307,
+            "Aliases": [
+                "Lou"
+            ],
+            "ShortDesc": "Lou",
+            "LongDesc": "Lou is here jealously guarding the caddy money.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Lou has been locked in this cage for a long time.  He looks weak and\r\r\r\r\r\n\rdehydrated.  Maybe you'd help him if he wasn't about to kill you.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 30,
+            "THAC0": 17,
+            "AC": -5,
+            "HP": "1d50+619",
+            "Damage": "2d12+10",
+            "Gold": 35000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22308,
+            "Aliases": [
+                "Al",
+                "Czervik",
+                "obnoxious"
+            ],
+            "ShortDesc": "Al Czervik",
+            "LongDesc": "Al Czervik is here being a general menace to the area.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Well, well, well...here he is, the incredibly rich and {in?}famous visitor\r\r\r\r\r\n\rto Bushwood Country Club.  He is rude, crude and socially unacceptable; i.e.\r\r\r\r\r\n\ra great guy.  If he had a daughter just like him...well, let's not go THAT\r\r\r\r\r\n\rfar.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 40,
+            "THAC0": 12,
+            "AC": -5,
+            "HP": "1d50+669",
+            "Damage": "6d4+0",
+            "Gold": 50000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22309,
+            "Aliases": [
+                "Judge",
+                "Smails"
+            ],
+            "ShortDesc": "Judge Smails",
+            "LongDesc": "Judge Smails is here looking snooty in your general direction.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You now stand before the unofficial head of Bushwood.  He wields a majority\r\r\r\r\r\n\rof the power in this Snob-a-torium.  Oh, and you could NEVER know this from\r\r\r\r\r\n\rlooking at him...the smug air about him, the expensive clothes that look\r\r\r\r\r\n\rabsolutely ridiculous.  Put this clod out of your misery, would ya?\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "UNUSED17"
+            ],
+            "Alignment": -250,
+            "Level": 35,
+            "THAC0": 22,
+            "AC": -10,
+            "HP": "1d75+1019",
+            "Damage": "2d12+7",
+            "Gold": 25000,
+            "XP": 52000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22310,
+            "Aliases": [
+                "Dr",
+                "Beeper"
+            ],
+            "ShortDesc": "Dr. Beeper",
+            "LongDesc": "Dr. Beeper is here looking for a phone to return a page.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man is a prime example of someone with more money than sense.  One\r\r\r\r\r\n\rof his patients is in his office right now with a tube stuck down her \r\r\r\r\r\n\rthroat; and he's here trying to squeeze 18 holes in.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 20,
+            "AC": -13,
+            "HP": "1d50+869",
+            "Damage": "4d10+3",
+            "Gold": 20000,
+            "XP": 52000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22311,
+            "Aliases": [
+                "Danny",
+                "Noonan"
+            ],
+            "ShortDesc": "Danny",
+            "LongDesc": "Danny Noonan is here mulling over college life.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Poor guy.  He's torn between going to college and working at a lumberyard.\r\r\r\r\r\n\rHe's also torn between the steady, sweet Maggie and the incredibly sexy\r\r\r\r\r\n\rLacey Underall.  Put him out of his misery...please?\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 250,
+            "Level": 30,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "1d50+819",
+            "Damage": "2d6+8",
+            "Gold": 10000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22312,
+            "Aliases": [
+                "Lacey",
+                "Underall"
+            ],
+            "ShortDesc": "Lacey",
+            "LongDesc": "Lacey Underall is here wiggling in the direction of anything male.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Wow.  There is exactly one phrase to describe this young woman:  \"Stacked\r\r\r\r\r\n\rto the Rack.\"  She is gorgeous and has the morals of an alleycat.  She's\r\r\r\r\r\n\rprobably planning on going to a bullfight on acid.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -50,
+            "Level": 25,
+            "THAC0": 15,
+            "AC": -7,
+            "HP": "1d50+719",
+            "Damage": "1d7+11",
+            "Gold": 15000,
+            "XP": 45000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 22313,
+            "Aliases": [
+                "Bishop",
+                "Bickering"
+            ],
+            "ShortDesc": "Bishop Bickering",
+            "LongDesc": "Bishop Bickering is here playing the BEST round of his life.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Here is the result of a life-long dedication of hard work in the service of\r\r\r\r\r\n\rGod...1 really good round of golf {not to mention the Heaven thing}.  The\r\r\r\r\r\n\rBishop is having the round of his life and is loving every minute of it.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 25,
+            "THAC0": 10,
+            "AC": -7,
+            "HP": "1d50+619",
+            "Damage": "2d6+3",
+            "Gold": 10000,
+            "XP": 47500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22314,
+            "Aliases": [
+                "Sandy",
+                "McDennis",
+                "greenskeeper"
+            ],
+            "ShortDesc": "the greenskeeper",
+            "LongDesc": "Sandy McDennis, the head greenskeeper, is here repairing the course.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Something tells you that this man is originally from Scotland.  It's reaching\r\r\r\r\r\n\ra bitbut it just could be the kilt he's wearing and the thick accent.  Then\r\r\r\r\r\n\ragain, you could be wrong.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 25,
+            "THAC0": 15,
+            "AC": -4,
+            "HP": "1d50+969",
+            "Damage": "6d4+0",
+            "Gold": 15000,
+            "XP": 45000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22315,
+            "Aliases": [
+                "Tony",
+                "D'Nunzio"
+            ],
+            "ShortDesc": "Tony D'Nunzio",
+            "LongDesc": "Tony D'Nunzio is here trying to look cool for all the chicks.\r\r\r\r\r\n\r",
+            "DetailedDesc": "What a waste of skin.  This guy is OBVIOUSLY not going anywhere in the\r\r\r\r\r\n\rnear future.  He obviously is a pothead with nothing better to do all\r\r\r\r\r\n\rday but caddy and pick on people.  \r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 20,
+            "THAC0": 13,
+            "AC": -2,
+            "HP": "1d50+669",
+            "Damage": "3d6+0",
+            "Gold": 5000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22316,
+            "Aliases": [
+                "Porterhouse"
+            ],
+            "ShortDesc": "Porterhouse",
+            "LongDesc": "Porterhouse is here taking a sanding machine to Judge Smail's shoes.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Porterhouse does quite a few things around Bushwood.  He's the person\r\r\r\r\r\n\rin charge of massage and general maintenance.  He also hates all the rich,\r\r\r\r\r\n\rsnooty members here.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 15,
+            "THAC0": 10,
+            "AC": 0,
+            "HP": "1d30+339",
+            "Damage": "3d5+1",
+            "Gold": 7500,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22317,
+            "Aliases": [
+                "Mr.",
+                "Wang"
+            ],
+            "ShortDesc": "Mr. Wang",
+            "LongDesc": "Mr. Wang is here taking pictures of everything in sight.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A tourist to this country, Mr. Wang simply wants to capture all of the\r\r\r\r\r\n\rplaces that he goes in the U.S. on film.  Unfortunately, Al brought him\r\r\r\r\r\n\rto this horrid place.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 15,
+            "AC": -3,
+            "HP": "1d30+339",
+            "Damage": "2d6+0",
+            "Gold": 6000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22318,
+            "Aliases": [
+                "Spalding"
+            ],
+            "ShortDesc": "Spalding",
+            "LongDesc": "Spalding, Judge Smail's grandson, is here picking his nose and eating what he finds.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Whiny, gross and just downright annoying, Spalding is the stereotypical \r\r\r\r\r\n\rspoiled brat.  The only reason he doesn't get beaten up every day is because\r\r\r\r\r\n\rof grandpa.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -50,
+            "Level": 20,
+            "THAC0": 10,
+            "AC": -2,
+            "HP": "1d50+519",
+            "Damage": "6d5+0",
+            "Gold": 15000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22319,
+            "Aliases": [
+                "Maggie"
+            ],
+            "ShortDesc": "Maggie",
+            "LongDesc": "Maggie is here celebrating not being pregnant.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Maggie has just realized that she's not pregnant with Danny's child.  Needless\r\r\r\r\r\n\rto say, she's kinda happy.  She's not ready to be a mom quite yet.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 75,
+            "Level": 15,
+            "THAC0": 10,
+            "AC": -3,
+            "HP": "1d30+279",
+            "Damage": "3d5+1",
+            "Gold": 2500,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 22320,
+            "Aliases": [
+                "Mr",
+                "Havekamp"
+            ],
+            "ShortDesc": "Mr. Havekamp",
+            "LongDesc": "Mr. Havekamp is here hitting the ball the wrong way.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is someone who has worked all his life to get where he is today.  He has\r\r\r\r\r\n\rsaved money constantly throughout his life to become a member of a country\r\r\r\r\r\n\rclub after he retired.  He has a noble, almost regal air about him.  He...\r\r\r\r\r\n\rwait...is he peeing on his ball?\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "BLIND"
+            ],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 10,
+            "AC": -1,
+            "HP": "1d30+369",
+            "Damage": "4d6+1",
+            "Gold": 7500,
+            "XP": 17000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22321,
+            "Aliases": [
+                "Mrs",
+                "Havekamp"
+            ],
+            "ShortDesc": "Mrs. Havekamp",
+            "LongDesc": "Mrs. Havekamp is here hitting her 25th straight ball into the lake.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Mrs. Havekamp is obviously here because her husband wanted to join a \r\r\r\r\r\n\rcountry club.  She doesn't know how to play golf but she tries.  She has a\r\r\r\r\r\n\rlittle trouble with this water hazard though.  She's put about 30 dollars\r\r\r\r\r\n\rworth of golf balls into the pond.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 6,
+            "AC": 4,
+            "HP": "1d30+249",
+            "Damage": "1d12+0",
+            "Gold": 2500,
+            "XP": 7500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 22322,
+            "Aliases": [
+                "local",
+                "nameless",
+                "caddy"
+            ],
+            "ShortDesc": "a caddy",
+            "LongDesc": "A local nameless caddy is here helping a member with their clubs.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This person only made it into the movie, and hence the zone, by being one \r\r\r\r\r\n\rof the dozens of extras in the film.  He's here to be a victim.  Treat him\r\r\r\r\r\n\ras such.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 8,
+            "AC": 0,
+            "HP": "1d30+189",
+            "Damage": "1d8+2",
+            "Gold": 1000,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22398,
+            "Aliases": [
+                "rana"
+            ],
+            "ShortDesc": "Rana",
+            "LongDesc": "You see Rana, the Dragon of ultimate power and control.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Before you stands the almighty and all-powerful dragon, Rana.  He is,\r\r\r\r\r\n\rhowever, being MUCH nicer than usual.  He solemnly displays two rings\r\r\r\r\r\n\ron a pillow before him.  He must be the ring-bearer for this joyous \r\r\r\r\r\n\roccasion.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 127,
+            "THAC0": 11,
+            "AC": -30,
+            "HP": "0d0+30000",
+            "Damage": "25d10+10",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

@@ -1,0 +1,1244 @@
+{
+    "mobs": [
+        {
+            "Number": 8400,
+            "Aliases": [
+                "watchman",
+                "watch",
+                "guard",
+                "cityguard",
+                "member",
+                "waterdeep"
+            ],
+            "ShortDesc": "a member of the Watch",
+            "LongDesc": "A member of the Watch is patrolling the streets\n",
+            "DetailedDesc": "The watchman is a sturdy-looking, battle-hardened warrior, who is just as\naccustomed to battling monsters in defense of Waterdeep as he is roughing\nup the petty scum like you who hang around the city to make trouble.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 25,
+            "THAC0": 15,
+            "AC": 10,
+            "HP": "6d10+300",
+            "Damage": "3d6+5",
+            "Gold": 10000,
+            "XP": 24975,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8401,
+            "Aliases": [
+                "guard",
+                "cityguard",
+                "waterdeep",
+                "member"
+            ],
+            "ShortDesc": "a member of the Guard",
+            "LongDesc": "A member of the Guard is here, standing watch over the citizens\n",
+            "DetailedDesc": "The cityguard may not be experienced in combat, but he is well-equipped and\nwell trained. He eyes you with suspicion and puts a hand to his weapon as you\nlook at him. You have to understand, he's trained to pick out potential\ntrouble-makers and criminals like yourself. No offense! He's just doing his\njob.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 18,
+            "THAC0": 10,
+            "AC": 10,
+            "HP": "6d8+250",
+            "Damage": "2d8+4",
+            "Gold": 5000,
+            "XP": 20775,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8402,
+            "Aliases": [
+                "jailor"
+            ],
+            "ShortDesc": "the jailor",
+            "LongDesc": "A jailor sits here, with his back up against the cell door\n",
+            "DetailedDesc": "The jailor looks to be the lazy sort. Keeping \"guard\" on drunken prisoners\nwhile having several members of the Watch around all the time isn't the\nmost taxing job in the world. The jailor has obviously been in better shape\nin his life. The flab of old muscles, long since replaced by fat, is easily\nseen. In his younger days he probably would have been a force to be\nreckoned with, but now he seems a bit ridiculous. You wonder if this job\nwasn't some sort of political appointment...\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 30,
+            "THAC0": 18,
+            "AC": 3,
+            "HP": "10d10+1400",
+            "Damage": "8d4+15",
+            "Gold": 5000,
+            "XP": 109125,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8403,
+            "Aliases": [
+                "lothar",
+                "drunk",
+                "adventurer",
+                "demon"
+            ],
+            "ShortDesc": "the odd-looking drunken adventurer",
+            "LongDesc": "An odd-looking, drunken adventurer is screaming to be released\n",
+            "DetailedDesc": "This female adventurer is an odd one indeed. She has horns growing from\nthe top of her head, and her eyes glow a dull red, as well as a set of\nleathery wings folded neatly behind her back. When she notices you staring,\nshe explains that she had been an elven man, but a foul atrifact altered\nher form, er his form...whatever. The gender change was a result of a \ndifferent accident. *sigh* yup, definitely an adventurer.\n    Regardless of her gender, and the fact that shee looks like a demon,\nshe's built like a linebacker, and could probably rip you in two. As drunk\nas she is, you wonder if it wouldn't be a good idea to ask about being\nmoved to another cell.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "UNUSED16"
+            ],
+            "Alignment": 100,
+            "Level": 40,
+            "THAC0": 30,
+            "AC": -5,
+            "HP": "10d10+1600",
+            "Damage": "10d5+4",
+            "Gold": 1000,
+            "XP": 182050,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 8404,
+            "Aliases": [
+                "yxylu",
+                "priest",
+                "cleric",
+                "adventurer",
+                "ridiculous"
+            ],
+            "ShortDesc": "the ridiculous-looking priest",
+            "LongDesc": "A ridiculous-looking adventuring priest is wandering around wearing a pot\n",
+            "DetailedDesc": "This has to be the strangest priest you have ever seen. He's wearing a pot\non his head as if it were some sort of helmet, and carrying a chicken\nunder each arm. If he is any indication of the priests around these parts,\nyou pray that you don't need any healing from the locals.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": 800,
+            "Level": 30,
+            "THAC0": 10,
+            "AC": -8,
+            "HP": "10d10+1400",
+            "Damage": "4d6+5",
+            "Gold": 15000,
+            "XP": 291000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8405,
+            "Aliases": [
+                "maysrill",
+                "scholar",
+                "mage",
+                "wizard",
+                "retired",
+                "adventurer"
+            ],
+            "ShortDesc": "a retired adventuring wizard",
+            "LongDesc": "A retired wizard sits here, reading an ancient book on some obscure topic\n",
+            "DetailedDesc": "   When you first look at him, you think he's one of those foolish scholars\nthat wouldn't know the first thing about the real world if it ran up and\nbreath-weaponed him. But when he notices you looking at him, he fixes you\nwith a quick glare, and in a split second you know that he has sized you\nup. You suddenly stop thinking of his worn robes as those of a isolated\nscholar, and realize that they are the well-worn robes of a powerful,\n    Seeming to have dismissed you as any possible threat, he goes back to\nreading his book.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -299,
+            "Level": 81,
+            "THAC0": 60,
+            "AC": -11,
+            "HP": "40d9+4800",
+            "Damage": "10d3+40",
+            "Gold": 30000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8406,
+            "Aliases": [
+                "Khelben",
+                "Blackstaff"
+            ],
+            "ShortDesc": "Khelben",
+            "LongDesc": "Khelben grumbles and at you and looks up from his spell-book\n",
+            "DetailedDesc": "The Lord Mage of Waterdeep:\n   Khelben is one of the most powerful mages in the world, and he acts\nlike it. Though he's dressed only in a simple, white, house robe, his\nphysical presence is intimidating. Far from being frail and weak, he is\na large, robust man, with a thick beard that is only beginning to show signs\nof graying; though there are rumors that he is really over 200 years old.\n   His youthful appearance is due to the fact that he is one of Mystra's\nChosen. A small number of Mystra's mortal followers hold within them\na small portion of her divine power, keeping them from aging as fast as\nother mortals, as well as protecting them from mental attacks.\n   Khelben's nickname, \"Blackstaff,\" comes from the staff of power he made,\nand named The Blackstaff.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_EVIL",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": 950,
+            "Level": 127,
+            "THAC0": 77,
+            "AC": -19,
+            "HP": "10d10+15000",
+            "Damage": "12d7+40",
+            "Gold": 50000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8407,
+            "Aliases": [
+                "Laeral",
+                "mage"
+            ],
+            "ShortDesc": "Laeral",
+            "LongDesc": "Khelben's wife, Laeral, stands here teaching the apprentices\n",
+            "DetailedDesc": "   Laeral is one of the Seven Sisters, a group of women who have chosen to \nfollow Mystra, and are among Her Chosen. As such, all of them appear\nto be much younger than the hundreds of years they have lived.\n   Not to be overshadowed by he husband's wizardry, Laeral is an archmage\nin her own right.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY",
+                "HELPER",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "UNUSED16"
+            ],
+            "Alignment": 700,
+            "Level": 80,
+            "THAC0": 59,
+            "AC": -19,
+            "HP": "20d49+4500",
+            "Damage": "10d5+20",
+            "Gold": 20000,
+            "XP": 600000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 8408,
+            "Aliases": [
+                "apprentice",
+                "mage",
+                "wizard"
+            ],
+            "ShortDesc": "the apprentice",
+            "LongDesc": "An apprentice is listening attentively to his teacher\n",
+            "DetailedDesc": "This newbie mage is unarmed and doesn't seem to be too dangerous\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "5d99+0",
+            "Damage": "1d20+0",
+            "Gold": 10,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8409,
+            "Aliases": [
+                "serra",
+                "priest",
+                "priestess",
+                "adventurer",
+                "adventuress"
+            ],
+            "ShortDesc": "a priestess of Mystra",
+            "LongDesc": "A priestess of Mystra kneels in prayer to her goddess\n",
+            "DetailedDesc": "This retired adventuring priestess has taken up a more active role in the\nchurch of the Lady of Mysteries. Though she seems content to remain a\nproductive member of society, her calm bearing around dangerous people\nlike yourself shows that she hasn't lost the \"edge\" that keeps one's \nskills from deteriorating. Before you think of attacking her, remember:\nshe is a priestess of the goddess who grants the power of all mages...\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 800,
+            "Level": 35,
+            "THAC0": 50,
+            "AC": -10,
+            "HP": "12d12+1500",
+            "Damage": "5d8+25",
+            "Gold": 10000,
+            "XP": 378720,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 8410,
+            "Aliases": [
+                "torav",
+                "adventurer",
+                "shady",
+                "character"
+            ],
+            "ShortDesc": "a shady character",
+            "LongDesc": "A shady character hides in the shaows\n",
+            "DetailedDesc": "This guys seems to want to keep out of sight at all costs. The thieves\nand cutthroats here seem to be perfectly willing to leave him alone too.\nThe points on his ears show that he carries some elven blood in him\nwhich explains why his eyes glow a dull red in the darkness.\n An interesting fetish hangs from his neck, and he keeps it guarded with\none hand constantly. Perhaps it's safety is the reason he is trying to keep\nhidden.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -400,
+            "Level": 35,
+            "THAC0": 20,
+            "AC": -8,
+            "HP": "1d100+1199",
+            "Damage": "20d2+9",
+            "Gold": 5000,
+            "XP": 149940,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8411,
+            "Aliases": [
+                "tashia",
+                "beautiful",
+                "elven",
+                "adventurer",
+                "adventuress",
+                "singer",
+                "bard"
+            ],
+            "ShortDesc": "an elven bard",
+            "LongDesc": "A beautiful elven bard sings a haunting melody.\n",
+            "DetailedDesc": "She's a welcome relief to look upon for weary travellers. She also seems\nto be making plenty of money, judging by the number of coins the partons\nare throwing to her. But like many of the people here, she just seems to be\nstopping here to rest from a long journey. Like all adventurers, she\ndoesn't seem to like staying put.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "HELPER"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 100,
+            "Level": 25,
+            "THAC0": 10,
+            "AC": -3,
+            "HP": "10d10+1000",
+            "Damage": "8d4+4",
+            "Gold": 15000,
+            "XP": 126600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 8412,
+            "Aliases": [
+                "thief"
+            ],
+            "ShortDesc": "a thief",
+            "LongDesc": "A thief sees you enter the hideout and attacks\n",
+            "DetailedDesc": "They stab first, ask questions later\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -500,
+            "Level": 20,
+            "THAC0": 15,
+            "AC": 10,
+            "HP": "8d50+0",
+            "Damage": "12d1+30",
+            "Gold": 1200,
+            "XP": 15300,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 8413,
+            "Aliases": [
+                "troll"
+            ],
+            "ShortDesc": "a troll",
+            "LongDesc": "a disgusting troll lumbers toward you\n",
+            "DetailedDesc": "The troll looks remarkably like a troll. It wants to eat you.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -350,
+            "Level": 50,
+            "THAC0": 39,
+            "AC": 3,
+            "HP": "20d20+1200",
+            "Damage": "8d6+25",
+            "Gold": 200,
+            "XP": 105750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 8414,
+            "Aliases": [
+                "orc"
+            ],
+            "ShortDesc": "an orc",
+            "LongDesc": " an orc makes a feeble attempt at an ambush, but you spot it easily\n",
+            "DetailedDesc": "The orc looks remarkably like an orc. It wants to eat you.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -200,
+            "Level": 5,
+            "THAC0": 10,
+            "AC": 10,
+            "HP": "7d13+250",
+            "Damage": "1d8+10",
+            "Gold": 8,
+            "XP": 22425,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 8415,
+            "Aliases": [
+                "barbarian",
+                "warrior"
+            ],
+            "ShortDesc": "a barbarian warrior",
+            "LongDesc": "a barbarian warrior watches you warily, wondering if you have honor\n",
+            "DetailedDesc": "The barbarian looks exactly like a barbarian. He doesn't look like he wants\nto eat you though *phew*\n",
+            "Actions": [
+                "ISNPC",
+                "AGGR_EVIL",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 300,
+            "Level": 40,
+            "THAC0": 25,
+            "AC": 5,
+            "HP": "10d10+1400",
+            "Damage": "10d9+5",
+            "Gold": 500,
+            "XP": 109125,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8416,
+            "Aliases": [
+                "foreign",
+                "foreigner",
+                "mage",
+                "wizard",
+                "man",
+                "wybaar"
+            ],
+            "ShortDesc": "a foreign mage",
+            "LongDesc": "a foreign-looking mage wanders the city.\n",
+            "DetailedDesc": "   Dressed in white robes uncommon for wizards of this area of the North,\nthis wizard stands out in a crowd. In fact, his whole demeanor suggests\nthat he's not from around these parts. Since he is most definitely an\nadventurer, it wouldn't surprise you to find out that he's not from this\nworld (some DM's let you get away with anything these days).\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "UNUSED16"
+            ],
+            "Alignment": 750,
+            "Level": 40,
+            "THAC0": 5,
+            "AC": -2,
+            "HP": "10d10+1401",
+            "Damage": "3d6+8",
+            "Gold": 50000,
+            "XP": 174720,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8417,
+            "Aliases": [
+                "hawker",
+                "vendor",
+                "man",
+                "street"
+            ],
+            "ShortDesc": "a hawker",
+            "LongDesc": "a street vendor is shouting about his wares at the top of his lungs.\n",
+            "DetailedDesc": "   Don't you just hate these guys?! They seem to be the only people\nwho never get a sore throat from too much yelling, and they're the ones\nyou most _want_ to have a sore throat. He continually yells out claim\nafter claim about whatever he is selling (he's a bit vague about what it\nactually is), and hardly pauses for breath. From his well-tailored clothes,\nhowever, you realize that he's doing good business (people must pay\nhim to shut up).\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SENSE_LIFE"
+            ],
+            "Alignment": -100,
+            "Level": 40,
+            "THAC0": 15,
+            "AC": 4,
+            "HP": "10d10+400",
+            "Damage": "10d2+3",
+            "Gold": 20000,
+            "XP": 34125,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8418,
+            "Aliases": [
+                "street",
+                "performer",
+                "man",
+                "mime"
+            ],
+            "ShortDesc": "a mime",
+            "LongDesc": "a street performer is here, working the crowd.\n",
+            "DetailedDesc": "  You have trouble seeing the performer through thecrowd that's watching\nhim. Then you notice it...his face is painted white, and he's not talking,\njust gesturing with his hands. It's a MIME!! As your rage boils at the\nthought of such a being, he notices that evil, psychotic glint in your\neyes...he knows you've got to try to kill him (principles and all). The\nmime starts to construct an invisible barrier with his hands (looks like\nhe's definining the walls of a box).\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 3,
+            "THAC0": 0,
+            "AC": -100,
+            "HP": "5d5+5",
+            "Damage": "5d5+5",
+            "Gold": 5,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8419,
+            "Aliases": [
+                "travelling",
+                "merchant",
+                "traveller",
+                "man"
+            ],
+            "ShortDesc": "a travelling merchant",
+            "LongDesc": "a travelling merchant is bringing foreign goods to trade.\n",
+            "DetailedDesc": "   Fine clothes, bulging purse, oversized waistline...yup, it's a merchant\nall right. The bane of all adventurers: they call the watch when robbed,\ncharge you for buying things, and just generally provide annoyance\nto anyone used to working outside the normal corporate power structure.\nIf it weren't for the fact that they are rich enough to afford bodyguards,\nadventurers would most likely have hunted them to the brink of extinction\ncenturies ago.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -299,
+            "Level": 30,
+            "THAC0": 30,
+            "AC": 3,
+            "HP": "10d10+1000",
+            "Damage": "5d5+10",
+            "Gold": 35000,
+            "XP": 79125,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8420,
+            "Aliases": [
+                "merchant",
+                "cormyrian",
+                "fat",
+                "man"
+            ],
+            "ShortDesc": "the merchant",
+            "LongDesc": "A fat Cormyrian merchant, smiles as you enter his shop.\n",
+            "DetailedDesc": "   This portly gentleman seems to have carved out quite a niche for\nhimself in the area of magic-sales. His clothes are exotic, and look\nsomewhat mystical, though you're fairly certain that's only for show.\nHe seems friendly enough, and willing to help you shop. Just be careful,\nhe didn't become successful by letting adventurers walk off with cheap\ndeals.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 0,
+            "Level": 127,
+            "THAC0": 100,
+            "AC": -100,
+            "HP": "1d1+29999",
+            "Damage": "100d100+100",
+            "Gold": 381000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8421,
+            "Aliases": [
+                "man",
+                "clerk"
+            ],
+            "ShortDesc": "a clerk",
+            "LongDesc": "A clerk is here, ready to sell you what you need.\n",
+            "DetailedDesc": "   This little man is the model of efficiency. He is knowledgeable on\nevery subject you could possible ask about...in the area of dry goods.\nJust let him know what you need, and he can get you anything...as \nlong as it's on the list of stuff the store sells.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 0,
+            "Level": 127,
+            "THAC0": 100,
+            "AC": -100,
+            "HP": "1d1+29999",
+            "Damage": "100d100+100",
+            "Gold": 381000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8450,
+            "Aliases": [
+                "drizzt",
+                "drow",
+                "dourden",
+                "ranger"
+            ],
+            "ShortDesc": "Drizzt Do'Urden",
+            "LongDesc": "The drow ranger, Drizzt Do'Urden, watches you carefully\n",
+            "DetailedDesc": "This is the legendary drow ranger, Drizzt Do'Urden. Born as the second son\nof the ninth house of Menzoberranzan, Daermon N'a'shezbaernon, he was\nraised in one of the harshest environments know to sentient beings. \nThough he was brought up by a race of killers, Drizzt had a sense\nof honor, taught to him by his father, and weapons-master, Zaknafein\nDo'Urden. Drizzt left the cruelty of his race behind and fled to the Underdark,\nwhere everyday survival is a struggle, and lived there for a decade. He\neventually made his way to the surface where his honor and\nabilities won him acceptance with his friends here in Mithril Hall. Don't\nbe fooled by his slender appearance, for no one has lived who could\ndefeat Drizzt in single combat.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "HELPER",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 95,
+            "AC": -38,
+            "HP": "12d10+8000",
+            "Damage": "4d5+65",
+            "Gold": 23,
+            "XP": 990000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8451,
+            "Aliases": [
+                "guenhwyvar"
+            ],
+            "ShortDesc": "Guenhwyvar",
+            "LongDesc": "Drizzt's panther ally, Guenhwyvar, awaits her master's call\n",
+            "DetailedDesc": "Big\nPowerful\nLoyal\nGuenhwyvar has served Drizzt loyally since he released her from enslavement to \nan evil drow mage named Masoj Hun'ett\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "UNUSED17",
+                "HIDE"
+            ],
+            "Alignment": 1000,
+            "Level": 51,
+            "THAC0": 40,
+            "AC": -15,
+            "HP": "1d1+3999",
+            "Damage": "6d8+20",
+            "Gold": 0,
+            "XP": 300000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 8452,
+            "Aliases": [
+                "wulfgar"
+            ],
+            "ShortDesc": "Wulfgar",
+            "LongDesc": "Wulfgar stands here, brooding\n",
+            "DetailedDesc": "This young barbarian warrior is very different from his people. He was taken\nprisoner by Bruenor after a battle, and as raised to manhood among the dwarves.\nHe worked in the mines and forges of the dwarven settlement in Icewind Dale,\nand his strength grew to a level unheard of among humans.\n    Having found a soft spot in Bruenor's heart, the dwarf crafted Aegis-Fang\nand gave it to Wulfgar - an extraodinary gift, given the strong enchantments on\nthe hammer. When Bruenor set out on his quest to find Mithril Hall, took up\nhis hammer and went along, eager to find adventure.\n   Far from being a brutish warrior, Wulfgar learned to fight cunningly,being\ntaught by the best, Drizzt Do'Urden. At times it seems as if his former teacher\nis the only one who could still best him.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP",
+                "NOBASH"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "SNEAK"
+            ],
+            "Alignment": 700,
+            "Level": 150,
+            "THAC0": 87,
+            "AC": -35,
+            "HP": "50d90+14000",
+            "Damage": "14d10+80",
+            "Gold": 12000,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8453,
+            "Aliases": [
+                "bruenor",
+                "battlehammer",
+                "king"
+            ],
+            "ShortDesc": "Bruenor",
+            "LongDesc": "Bruenor Battlehammer, 8th King of Mithril hall, stands here\n",
+            "DetailedDesc": "   As tough as the mountain stone and twice as stubborn. Bruenor has survived\nordeals that would have killed orges, and walked away every time. His gruff\ndemeanor and the battle scars, including a missing eye, tell you in no\nuncertain terms that this is not the dwarf to make an enemy of.\n    The last living survivor of the dwarves' flight from Mithril Hall, his\nlifelong ambition was to reclaim his homeland, and his birthright as king.\nLittle more than a lad when he last saw the Hall, his set out on a quest to\nfirst find, then reconquer Mithril Hall. Along with Drizzt, Wulfgar, and\nRegis, he scoured the northlands until he found it.\n    Now, as the eighth King of Mithril Hall, Bruenor has lost none of his\nfighting edge. \n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 600,
+            "Level": 115,
+            "THAC0": 60,
+            "AC": -20,
+            "HP": "12d30+12000",
+            "Damage": "8d4+35",
+            "Gold": 75000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8454,
+            "Aliases": [
+                "catti",
+                "cattibrie",
+                "girl",
+                "daughter"
+            ],
+            "ShortDesc": "Catti-brie",
+            "LongDesc": "Bruenor's adopted daughter, Catti-brie, smiles at you\n",
+            "DetailedDesc": "   Bruenor's adopted human daughter, Catti-brie was raised by the dwarves of\nclan Battlehammer as one of their own. Despite being raised by gruff, stern\ndwarves, Catti-brie still managed to keep a cheerfu l attitude. It was her\nthat introduced Drizzt to Bruenor, since she was not predjudiced against the\ndrow because of his race.\n    Catti-brie appears out of place among the dwarves. A young woman now, she\nhas beatiuful auburn hair and deep blue eyes. many who first meet her are\nsurprised by her beauty, expecting a girl raised by dwarves to look a little\nmore dwarf-like. Appearances aside, her fiery temper and blunt honesty betray\nher parenting. She has also learned to defend herself, being taught by Bruenor\nhimself. \n",
+            "Actions": [
+                "ISNPC",
+                "WIMPY",
+                "HELPER"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 56,
+            "THAC0": 50,
+            "AC": -15,
+            "HP": "18d10+2000",
+            "Damage": "1d12+20",
+            "Gold": 10000,
+            "XP": 157425,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 8455,
+            "Aliases": [
+                "regis",
+                "halfling"
+            ],
+            "ShortDesc": "Regis",
+            "LongDesc": "That lazy halfling, Regis, is wandering around\n",
+            "DetailedDesc": "Like all members of his unambitious race, he prides himself on his ability to\ndo the least amount of work he can get away with. Consequently, he spent\nhis early years as an up and coming thief on the streets on Calimport. But,\nwhen he \"received\" a \"gift\" from his guildmaster, an invaluable magical gem,\nhe was forced to flee to the lands of the North.\n     He found a home in the cities of Ten-Towns, beyond the boundaries of\ncivilization. He also made a friend of Breunor Battlehammer, the leader of a\nsmall dwarven clan. When Breunor set out with Drizzt and Wulfgar, Regis\naccompanied them on their journey....to find Mithril Hall.\n     With the success of that quest, he was welcomed to stay with the\ndwarves in their reclaimed ancestral home.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "SNEAK"
+            ],
+            "Alignment": 400,
+            "Level": 25,
+            "THAC0": 20,
+            "AC": 2,
+            "HP": "20d2+400",
+            "Damage": "4d4+8",
+            "Gold": 25000,
+            "XP": 32250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8456,
+            "Aliases": [
+                "regis",
+                "artemis",
+                "entreri",
+                "assassin",
+                "halfling"
+            ],
+            "ShortDesc": "Artemis Entreri",
+            "LongDesc": "That lazy halfling, Regis, is wandering around\n",
+            "DetailedDesc": "Wait! This isn't Regis!!!!\n     The master assassin, Aremis Entreri, has used a magical mask to take Regis'\nplace. Despite the fact that he appears as a halfling, he is actually a human, and\na deadly one. Sent the the master of the thieves' huild in Calmiport, Pasha Pook,\nhe is hunting for Regis...to answer for stealing the magical gem he now has.\n    However, Entreri is a master swordsman, and ever since his first encounter\nwith Drizzt, he has become obsessed with proving himself to be the drow's\nbetter in combat. Even his mission to capture Regis has been distorted toward\nthis end...he wants Regis as bait to lure Dizzt out.\n    The irony of Entreri's quest is that every time he faces Drizzt, he loses more\nof his superiority, for he narrowly escaped death at Drizzt's hands several times.\n    Entreri is good.......But Drizzt Do'Urden is the true master.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -900,
+            "Level": 85,
+            "THAC0": 45,
+            "AC": -8,
+            "HP": "1d1+3999",
+            "Damage": "6d3+45",
+            "Gold": 35000,
+            "XP": 300000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8457,
+            "Aliases": [
+                "thibbledorf",
+                "pwent",
+                "battlerager",
+                "battle",
+                "rager",
+                "wild"
+            ],
+            "ShortDesc": "Thibbledorf Pwent",
+            "LongDesc": "Thibbledorf Pwent, the most wild battlerager, growls at you menacingly\n",
+            "DetailedDesc": "This is perhaps the most offensive being you have ever encountered.\n    His razor-sharp, spiked armor is greased thoroughly, but still creaks and\nsqueals, grating on your nerves. He smells worse than any 10 dwarves you've\nmet, and it's seems a safe bet that he has _never_ bathed. His personality\nalso leaves a lot to be desired. He is crude, vulgar, and bluntly honest, telling\nyou exactly how little he thinks of you.\n   However, he seems to be a formidable oppenent: his armor is composed of\nrazor sharp bands of steel, designed more to slice an enemy to ribbons than to\ndefend him. At every join and seeming every possible point, spiked portrude\nfrom his \"armor,\" and his ehlmet serves simple to hold in place the 2 foot\nspike adorns the top of his head.\n    Only his fanatical loyalty (and the fact that he fights better than any in the\nHall, save Drizzt) keeps him tolerated.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "UNUSED17"
+            ],
+            "Alignment": 400,
+            "Level": 127,
+            "THAC0": 79,
+            "AC": 5,
+            "HP": "100d100+8000",
+            "Damage": "10d8+50",
+            "Gold": 8,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8458,
+            "Aliases": [
+                "shimmergloom",
+                "dragon",
+                "shadow",
+                "worm",
+                "wyrm"
+            ],
+            "ShortDesc": "Shimmergloom",
+            "LongDesc": "The corpse of a shadow dragon is lying here.\n",
+            "DetailedDesc": "It isn't dead!!!\n    Shimmergloom, the great shadow dragon that routed clan Battlehammer from\nMithril hall over 200 years ago, was though to be dead. Forgotten in the new\nfound prosperity of the Hall, Shimmergloom has been recovering from its\nhorrendous wounds.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": -900,
+            "Level": 75,
+            "THAC0": 50,
+            "AC": -15,
+            "HP": "1d1+5999",
+            "Damage": "12d10+50",
+            "Gold": 120000,
+            "XP": 900000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 8459,
+            "Aliases": [
+                "dwarf",
+                "dwarven",
+                "miner"
+            ],
+            "ShortDesc": "a dwarven miner",
+            "LongDesc": "a dwarven miner extracts precious mithril from the mines\n",
+            "DetailedDesc": "A sturdy-looking dwarf, this miner is preoccupied with finding mithril. Not\nthat it's tough to find, but the miner won't be distracted from this job. You \nstart to wonder whether this dwarf is male or female... for non-dwarves, it's\ntough to tell.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 700,
+            "Level": 40,
+            "THAC0": 25,
+            "AC": 2,
+            "HP": "20d100+1",
+            "Damage": "5d5+10",
+            "Gold": 15000,
+            "XP": 75825,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8460,
+            "Aliases": [
+                "dwarf",
+                "dwarven",
+                "miner"
+            ],
+            "ShortDesc": "a dwarven miner",
+            "LongDesc": "a dwarven miner extracts precious mithril from the mines\n",
+            "DetailedDesc": "A sturdy-looking dwarf, this miner is preoccupied with finding mithril. Not\nthat it's tough to find, but the miner won't be distracted from this job. You \nstart to wonder whether this dwarf is male or female... for non-dwarves, it's\ntough to tell.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 700,
+            "Level": 40,
+            "THAC0": 25,
+            "AC": 2,
+            "HP": "20d100+1",
+            "Damage": "5d5+10",
+            "Gold": 15000,
+            "XP": 75825,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 8461,
+            "Aliases": [
+                "general",
+                "dwarf",
+                "dwarven",
+                "dagna",
+                "dagnabit"
+            ],
+            "ShortDesc": "General Dagnabit",
+            "LongDesc": "General Dagnabit is here, looking for Bruenor\n",
+            "DetailedDesc": "Having first met Bruenor when King Harbromme of Citadel Adbar sent 8000 troops\nto help Bruenor reconquer Mirthil Hall, Dagnabit stayed on after the victory\nas general of the Hall's army. It is his duty to make sure that the forces of\nthe evil races of the Underdark don't gain entrance to Mithril Hall. He takes\nhis position very seriously, and is constantly updating Bruenor as to the\ncurrent state of the city's defense...much to Bruenor's annoyance. But\nDagnabit does his job well, and Bruenor tolerates his overzealousness. \n",
+            "Actions": [
+                "ISNPC",
+                "AGGR_EVIL",
+                "AGGR_NEUTRAL",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 110,
+            "THAC0": 40,
+            "AC": -10,
+            "HP": "50d50+6000",
+            "Damage": "15d3+13",
+            "Gold": 20000,
+            "XP": 545625,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8462,
+            "Aliases": [
+                "soldier",
+                "dwarf",
+                "dwarven"
+            ],
+            "ShortDesc": "a dwarven soldier",
+            "LongDesc": "a dwarven soldier patrols the Undercity\n",
+            "DetailedDesc": "A grim look of determination is fixed onto the face of this soldier. As the\nfront line of defense against an invasion from the Underdark, he knows that he\nwill be among the first to die in such a battle. He accepts his fate\nwillingly, and hopes that he doesn't die until he has taken out a few of the\ninvading scum. \n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGR_EVIL",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 600,
+            "Level": 75,
+            "THAC0": 40,
+            "AC": -5,
+            "HP": "14d10+1800",
+            "Damage": "20d2+10",
+            "Gold": 18000,
+            "XP": 150160,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8463,
+            "Aliases": [
+                "dwarven",
+                "dwarf",
+                "smith",
+                "mithril",
+                "mithrilsmith"
+            ],
+            "ShortDesc": "a dwarven mithril-smith",
+            "LongDesc": "a dwarven mithril-smith shows off his latest work\n",
+            "DetailedDesc": "A look of pride crosses this dwarf's face as he shows you the latest\nmasterpiece he has forged. You're actually quite impressed by his skill, and\nif he is typical of the smiths in the city, the dwarves will soon be very\nrich. \n",
+            "Actions": [
+                "ISNPC",
+                "AGGR_EVIL",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 600,
+            "Level": 45,
+            "THAC0": 40,
+            "AC": -5,
+            "HP": "14d10+1800",
+            "Damage": "20d2+10",
+            "Gold": 18000,
+            "XP": 150160,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 8464,
+            "Aliases": [
+                "buster",
+                "bracer",
+                "armorer",
+                "dwarf",
+                "dwarven"
+            ],
+            "ShortDesc": "Buster Bracer",
+            "LongDesc": "The dwarves' master armorer is at one with the god of craft\n",
+            "DetailedDesc": "*DO NOT ATTACK HIM, YOU WILL DIE*\n  Buster is the greatest of the dwarven armorers, and right now he is being\nprotected by Moradin, the dwarven god of craft. Buster's work must not\nbe interrupted and Moradin will give him the power to slay anything that\nattampts to harm him.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 127,
+            "THAC0": 100,
+            "AC": -100,
+            "HP": "1d1+29999",
+            "Damage": "100d100+100",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

@@ -1,0 +1,428 @@
+{
+    "mobs": [
+        {
+            "Number": 6500,
+            "Aliases": [
+                "dwarf",
+                "dwarven",
+                "guard"
+            ],
+            "ShortDesc": "the dwarf guard",
+            "LongDesc": "A dwarven guard is here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The guard looks very tough and mean. He wears his beard long, and he smells\r\r\r\r\r\r\n\rlike he hasn't bathed in over a month.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 35,
+            "THAC0": 20,
+            "AC": -2,
+            "HP": "6d20+560",
+            "Damage": "2d8+9",
+            "Gold": 10000,
+            "XP": 29000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6501,
+            "Aliases": [
+                "dwarf",
+                "dwarven",
+                "worker"
+            ],
+            "ShortDesc": "the dwarf worker",
+            "LongDesc": "A dwarven mining worker is here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is very dirty, and looks extremely over-worked.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 20,
+            "THAC0": 15,
+            "AC": 2,
+            "HP": "41d5+280",
+            "Damage": "2d4+12",
+            "Gold": 3500,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6502,
+            "Aliases": [
+                "wraith"
+            ],
+            "ShortDesc": "the wraith",
+            "LongDesc": "A wraith is awaiting your first move here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A black, almost transparent wraith.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "PROTECT_GOOD"
+            ],
+            "Alignment": -900,
+            "Level": 41,
+            "THAC0": 16,
+            "AC": -6,
+            "HP": "15d7+833",
+            "Damage": "4d5+25",
+            "Gold": 45708,
+            "XP": 44000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6503,
+            "Aliases": [
+                "storekeeper"
+            ],
+            "ShortDesc": "the Hide \u0026 Tooth storekeeper",
+            "LongDesc": "The Hide \u0026 Tooth storekeeper is standing here, waiting patiently.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The storekeeper is very rotund, but looks in excellent condition.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 1000,
+            "Level": 55,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "1d1+30000",
+            "Damage": "2d8+32",
+            "Gold": 33500,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6504,
+            "Aliases": [
+                "baker"
+            ],
+            "ShortDesc": "Granite Head the baker",
+            "LongDesc": "Granite Head, the baker, is waiting for a customer here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Granite Head is covered with flour and grains.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 55,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "1d1+30000",
+            "Damage": "2d8+22",
+            "Gold": 55000,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6505,
+            "Aliases": [
+                "lizard"
+            ],
+            "ShortDesc": "the giant lizard",
+            "LongDesc": "A giant lizard is foraging for food along the cavern floor here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This scaly creature looks like it is well adapted to it's underground\r\r\r\r\r\r\n\rhabitat.  He looks very powerful.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 100,
+            "Level": 35,
+            "THAC0": 20,
+            "AC": -1,
+            "HP": "6d20+566",
+            "Damage": "3d7+4",
+            "Gold": 200,
+            "XP": 41000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6506,
+            "Aliases": [
+                "giant"
+            ],
+            "ShortDesc": "the giant",
+            "LongDesc": "A giant is wandering around the mountainside here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The giant is about 18 feet tall, with arms of steel, and looks in\r\r\r\r\r\r\n\rexcellent physical condition.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 25,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "6d20+500",
+            "Damage": "4d3+2",
+            "Gold": 2000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6507,
+            "Aliases": [
+                "dwarven",
+                "dwarf",
+                "miner",
+                "mineworker",
+                "worker"
+            ],
+            "ShortDesc": "the dwarven mineworker",
+            "LongDesc": "A dwarven mineworker is here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The mineworker is very tired, and very dirty, and he has bulging muscles.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 6,
+            "THAC0": 10,
+            "AC": 7,
+            "HP": "13d5+70",
+            "Damage": "1d3+2",
+            "Gold": 600,
+            "XP": 1750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6508,
+            "Aliases": [
+                "dwarven",
+                "mineleader",
+                "dwarf",
+                "mine",
+                "leader"
+            ],
+            "ShortDesc": "the mine leader",
+            "LongDesc": "A dwarven mine leader is here, supervising the work.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The mine leader is very big and very strong, though he must be fairly bright\r\r\r\r\r\r\n\ralso, to have gotten this job.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 700,
+            "Level": 31,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "83d2+450",
+            "Damage": "3d4+6",
+            "Gold": 18000,
+            "XP": 36000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6509,
+            "Aliases": [
+                "dwarven",
+                "healer"
+            ],
+            "ShortDesc": "the dwarven healer",
+            "LongDesc": "The dwarven healer is here, aiding the sick of his people.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is a very skilled healer, and extremely faithful to his god.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 999,
+            "Level": 36,
+            "THAC0": 20,
+            "AC": -1,
+            "HP": "15d4+625",
+            "Damage": "3d8+4",
+            "Gold": 20000,
+            "XP": 34000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6510,
+            "Aliases": [
+                "dwarven",
+                "peon"
+            ],
+            "ShortDesc": "the dwarven peon",
+            "LongDesc": "A dwarven peon is awaiting help here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 5,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "16d3+58",
+            "Damage": "2d3+2",
+            "Gold": 75,
+            "XP": 875,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6511,
+            "Aliases": [
+                "dwarf"
+            ],
+            "ShortDesc": "the Dwarf",
+            "LongDesc": "A dwarf is here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 10,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "1d15+116",
+            "Damage": "3d3+1",
+            "Gold": 625,
+            "XP": 3750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6514,
+            "Aliases": [
+                "barrack",
+                "guard"
+            ],
+            "ShortDesc": "the barrack's guard",
+            "LongDesc": "A barrack guard is here, lounging around while off duty.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 23,
+            "THAC0": 14,
+            "AC": 1,
+            "HP": "8d10+283",
+            "Damage": "2d5+4",
+            "Gold": 1300,
+            "XP": 21000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6516,
+            "Aliases": [
+                "mazekeeper"
+            ],
+            "ShortDesc": "the mazekeeper",
+            "LongDesc": "A mazekeeper is here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "He looks VERY tough.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 48,
+            "THAC0": 20,
+            "AC": -7,
+            "HP": "416d4+3333",
+            "Damage": "4d3+5",
+            "Gold": 2000,
+            "XP": 145000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6517,
+            "Aliases": [
+                "giant",
+                "snake"
+            ],
+            "ShortDesc": "the giant snake",
+            "LongDesc": "There is a giant snake here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 45,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "500d6+1000",
+            "Damage": "4d4+22",
+            "Gold": 3000,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

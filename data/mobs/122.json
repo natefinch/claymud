@@ -1,0 +1,1063 @@
+{
+    "mobs": [
+        {
+            "Number": 12200,
+            "Aliases": [
+                "guardian",
+                "astral",
+                "figure"
+            ],
+            "ShortDesc": "the Astral Guardian",
+            "LongDesc": "A solemn grey figure watches over the entrance to the Astral plane.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Before you is a vaguely humanoid figure, of a slate grey color and\r\r\r\r\r\r\r\n\rdevoid of any true features. It stands before you with arms folded,\r\r\r\r\r\r\r\n\rface impassive, and with a seeming uninterest in the likes of you.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 90,
+            "THAC0": 40,
+            "AC": -11,
+            "HP": "5d5+8000",
+            "Damage": "8d4+72",
+            "Gold": 270000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 12201,
+            "Aliases": [
+                "nightmare",
+                "mare",
+                "horse"
+            ],
+            "ShortDesc": "a pitch-black nightmare",
+            "LongDesc": "A hideous nightmare creature glares at you with glowing amber eyes.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The nightmare is a wholly evil creature sent out by powerful demonic\r\r\r\r\r\r\r\n\rforces to torment the sleep of hapless mortals. It vaguely resembles\r\r\r\r\r\r\r\n\ra horse, with hide of deepest black and eyes a glowing amber color.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "POISON",
+                "SNEAK"
+            ],
+            "Alignment": -700,
+            "Level": 35,
+            "THAC0": 20,
+            "AC": -3,
+            "HP": "1d100+730",
+            "Damage": "5d5+25",
+            "Gold": 2500,
+            "XP": 93660,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 12202,
+            "Aliases": [
+                "hag",
+                "night"
+            ],
+            "ShortDesc": "the evil night hag",
+            "LongDesc": "A shadowy night hag drifts toward you, ready to steal your soul.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A shadowy creature with long talons and a leering grin hovers before\r\r\r\r\r\r\r\n\ryou. Her soul purpose is to hunt down and slay mortals in order to\r\r\r\r\r\r\r\n\robtain souls for her foul master to torment. Sunken sockets stare\r\r\r\r\r\r\r\n\remptily at you.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "CURSE"
+            ],
+            "Alignment": -1000,
+            "Level": 40,
+            "THAC0": 20,
+            "AC": 4,
+            "HP": "10d10+1500",
+            "Damage": "3d6+20",
+            "Gold": 20000,
+            "XP": 349875,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 12203,
+            "Aliases": [
+                "stalker",
+                "invisible"
+            ],
+            "ShortDesc": "an invisible stalker",
+            "LongDesc": "There is a wavy distortion in the space about you, and light seems to shift.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see only a wavy distortion in the air.  You reach out to touch it, and\r\r\r\r\r\r\r\n\rfeel nothing, not even the slightest of motions.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "AGGR_NEUTRAL"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "SNEAK"
+            ],
+            "Alignment": 200,
+            "Level": 24,
+            "THAC0": 30,
+            "AC": 2,
+            "HP": "5d20+500",
+            "Damage": "2d6+10",
+            "Gold": 5000,
+            "XP": 66300,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 12204,
+            "Aliases": [
+                "one",
+                "soulless",
+                "being"
+            ],
+            "ShortDesc": "a Soulless One",
+            "LongDesc": "A poor being wanders about mindlessly, it's soul long ago consumed.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This unfortunate being is without a soul, having had it torn mercilessly\r\r\r\r\r\r\r\n\rfrom it's body and devoured. It is now doomed to wander about the astral\r\r\r\r\r\r\r\n\rplane for eternity, without any awareness of it's own existence.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 20,
+            "AC": 4,
+            "HP": "5d10+120",
+            "Damage": "2d5+5",
+            "Gold": 500,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 12205,
+            "Aliases": [
+                "githyanki",
+                "gith",
+                "patroller"
+            ],
+            "ShortDesc": "a patrolling githyanki",
+            "LongDesc": "A vengeful githyanki searches for signs of the hated githzerai.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see an emaciated, leathery-skinned humanoid creature before you.\r\r\r\r\r\r\r\n\rHe stands almost as tall as an ordinary man, and like all githyanki,\r\r\r\r\r\r\r\n\rpossesses fanged teeth, and a reddish glow emanates from within\r\r\r\r\r\r\r\n\rsunken eyes. He has his long hair in jeweled braids and wears rags.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "CURSE"
+            ],
+            "Alignment": -340,
+            "Level": 21,
+            "THAC0": 14,
+            "AC": 2,
+            "HP": "2d50+320",
+            "Damage": "4d6+5",
+            "Gold": 1200,
+            "XP": 61050,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 12206,
+            "Aliases": [
+                "githyanki",
+                "warrior",
+                "gith"
+            ],
+            "ShortDesc": "a githyanki warrior",
+            "LongDesc": "A hideous githyanki clad in splint armor stands here.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a leathery-skinned humanoid creature that stands as tall as a normal\r\r\r\r\r\r\r\n\rman.  Like all githyanki, his teeth are fanged and his eyes hollow and sunken.\r\r\r\r\r\r\r\n\rHe is clad in ornately designed splinted armor, and wields a sword that\r\r\r\r\r\r\r\n\rwhistles through the air as it slices towards your neck.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_GOOD",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "CURSE"
+            ],
+            "Alignment": -500,
+            "Level": 70,
+            "THAC0": 25,
+            "AC": -3,
+            "HP": "5d15+1200",
+            "Damage": "5d5+6",
+            "Gold": 2500,
+            "XP": 204600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 12207,
+            "Aliases": [
+                "guardian",
+                "githyanki",
+                "gith"
+            ],
+            "ShortDesc": "a githyanki guardian",
+            "LongDesc": "A githyanki guardian stands here on the lookout for intruders like you!\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a leathery-skinned humanoid creature that stands as tall as a normal\r\r\r\r\r\r\r\n\rman.  Like all githyanki, his teeth are fanged and his eyes hollow and sunken.\r\r\r\r\r\r\r\n\rHe is clad in ornately designed splinted armor, and wields a sword that\r\r\r\r\r\r\r\n\rwhistles through the air as it slices towards your neck.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": -600,
+            "Level": 82,
+            "THAC0": 20,
+            "AC": -4,
+            "HP": "10d10+1500",
+            "Damage": "5d5+18",
+            "Gold": 6000,
+            "XP": 256575,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 12208,
+            "Aliases": [
+                "knight",
+                "githyanki",
+                "gith",
+                "figure"
+            ],
+            "ShortDesc": "a high githyanki knight",
+            "LongDesc": " A tall figure armored in dark splintmail observes you silently.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a leathery-skinned humanoid creature that stands a full foot taller\r\r\r\r\r\r\r\n\rthan a normal man.  His features are obscured by a suit of ornately designed\r\r\r\r\r\r\r\n\rsplinted armor -- you only hear the hissing of his breath and the scraping\r\r\r\r\r\r\r\n\rof his sword against its scabbard as it is unsheathed.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 97,
+            "THAC0": 15,
+            "AC": -7,
+            "HP": "10d10+1800",
+            "Damage": "5d5+25",
+            "Gold": 25000,
+            "XP": 306075,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 12209,
+            "Aliases": [
+                "githyanki",
+                "knight",
+                "protector",
+                "gith"
+            ],
+            "ShortDesc": "a githyanki protector",
+            "LongDesc": "A black knight of the githyanki stands guard here, protecting his queen.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a leathery-skinned humanoid creature standing a full foot taller\r\r\r\r\r\r\r\n\rthan a normal man. His features are obscured by the suit of ornately\r\r\r\r\r\r\r\n\rdesigned splint armor he wears - You hear only the hissing of his breath\r\r\r\r\r\r\r\n\rand the whistle of his sword as he sends it slicing at you!\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -700,
+            "Level": 100,
+            "THAC0": 25,
+            "AC": -3,
+            "HP": "10d10+3000",
+            "Damage": "10d2+30",
+            "Gold": 30000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 12210,
+            "Aliases": [
+                "gish",
+                "githyanki",
+                "gith",
+                "evil"
+            ],
+            "ShortDesc": "an evil gish",
+            "LongDesc": "A small githyanki laughs at you through fanged teeth.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a small, leathery-skinned humanoid creature standing nearly as\r\r\r\r\r\r\r\n\rtall as a normal man. Like all githyanki, his teeth are fanged and his\r\r\r\r\r\r\r\n\rred eyes hollow and sunken. The gish are well-versed in spell lore,\r\r\r\r\r\r\r\n\runlike the others. You realize this as ears detect a loud static discharge.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "AGGR_GOOD"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": -400,
+            "Level": 64,
+            "THAC0": 20,
+            "AC": 3,
+            "HP": "1d50+600",
+            "Damage": "3d5+10",
+            "Gold": 3000,
+            "XP": 140625,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 12211,
+            "Aliases": [
+                "gish",
+                "githyanki",
+                "gith",
+                "merciless"
+            ],
+            "ShortDesc": "a merciless gish",
+            "LongDesc": "A crazy gish gives you a mischievious grin as she prepares to attack...\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a leathery-skinned humanoid creature standing nearly as tall\r\r\r\r\r\r\r\n\ras yourself. Like all githyanki, her teeth are fanged and her eyes\r\r\r\r\r\r\r\n\rglow red as they gaze at you from within sunken sockets. As a gish, this\r\r\r\r\r\r\r\n\rone is well-versed in the Arts, unlike normal giths. A loud static\r\r\r\r\r\r\r\n\rdischarge warns you of impending attack.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "SNEAK"
+            ],
+            "Alignment": -340,
+            "Level": 68,
+            "THAC0": 20,
+            "AC": 5,
+            "HP": "1d100+350",
+            "Damage": "3d5+12",
+            "Gold": 3000,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 12212,
+            "Aliases": [
+                "warlock",
+                "githyanki",
+                "gith"
+            ],
+            "ShortDesc": "a Warlock of Gith",
+            "LongDesc": "A githyanki dressed in robes and bearing a silver sword stands here.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a mummified-looking humanoid clad in robes of deepest purple\r\r\r\r\r\r\r\n\rand bearing silver swords particular to giths. Like all githyanki, his\r\r\r\r\r\r\r\n\rteeth are fangs, and his reddish eyes sunk into their sockets. As you\r\r\r\r\r\r\r\n\rturn to flee, the impact of a fireball is felt against your back!\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_GOOD",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "CURSE",
+                "UNUSED16"
+            ],
+            "Alignment": -340,
+            "Level": 90,
+            "THAC0": 20,
+            "AC": 2,
+            "HP": "10d10+3000",
+            "Damage": "5d5+20",
+            "Gold": 10000,
+            "XP": 687375,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 12213,
+            "Aliases": [
+                "mindsucker",
+                "njalreesti",
+                "entity"
+            ],
+            "ShortDesc": "a Njalreesti mindsucker",
+            "LongDesc": "An almost transparent entity stares at you with glowing green eyes...\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Small, hard to hit, annoying to the powerful, deadly to the weak.\r\r\r\r\r\r\r\n\rThis is the nasty Njalreesti mindsucker of legend. Nearly transparent,\r\r\r\r\r\r\r\n\rwith glowing green eyes and a wide, gaping maw in which you see nothing\r\r\r\r\r\r\r\n\rbut pitch darkness, you hear it's high creening screech as it dives at you!\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "SNEAK"
+            ],
+            "Alignment": -1000,
+            "Level": 70,
+            "THAC0": 25,
+            "AC": -13,
+            "HP": "1d50+700",
+            "Damage": "2d50+0",
+            "Gold": 0,
+            "XP": 475000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 12214,
+            "Aliases": [
+                "lord",
+                "gith",
+                "lordgith"
+            ],
+            "ShortDesc": "Lord Gith",
+            "LongDesc": "Lord Gith suddenly forms from a cloud of blackness.\r\r\r\r\r\r\r\n\rHe stares right through you with deadly, cold eyes.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Lord Gith is the dead savior of the githyanki people, the warrior who led them\r\r\r\r\r\r\r\n\rto freedom from their former enslavers, the mind flayers.  He has been dead\r\r\r\r\r\r\r\n\rfor centuries and stands before you now due to an unholy alliance with powers\r\r\r\r\r\r\r\n\rbeyond mortal ken.\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\n\rHe gestures towards you.  You feel your heart tremble and your throat begin\r\r\r\r\r\r\r\n\rto tighten.  You are about to die.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_GOOD",
+                "HIDE"
+            ],
+            "Alignment": -900,
+            "Level": 90,
+            "THAC0": 55,
+            "AC": -12,
+            "HP": "10d15+9000",
+            "Damage": "6d5+50",
+            "Gold": 15000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 12215,
+            "Aliases": [
+                "spirit"
+            ],
+            "ShortDesc": "a demented spirit",
+            "LongDesc": "A crazed spirit floats about, intent on destroying all life.@\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The ghost makes no sound. It is a shadowy shell of it's former self, cursed\r\r\r\r\r\r\r\n\rnow to roam forever without rest. The mind of this creature has been\r\r\r\r\r\r\r\n\rtwisted and destroyed - tormented. It now is envious of you and intends\r\r\r\r\r\r\r\n\rto destroy you and all the true living beings it encounters...\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "HIDE"
+            ],
+            "Alignment": -340,
+            "Level": 25,
+            "THAC0": 35,
+            "AC": -10,
+            "HP": "6d6+250",
+            "Damage": "1d20+25",
+            "Gold": 0,
+            "XP": 60300,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 12216,
+            "Aliases": [
+                "githzerai",
+                "prisoner"
+            ],
+            "ShortDesc": "an imprisoned githzerai",
+            "LongDesc": "A githzerai prisoner plots his escape from this place.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a conniving humanoid, a descendant of a race of humans once\r\r\r\r\r\r\r\n\renslaved by the mindflayers, and related to the githyanki. Unfortunately,\r\r\r\r\r\r\r\n\rthe two races are bitter enemies, and this one happened to get caught.\r\r\r\r\r\r\r\n\rHe intends to escape...\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "CURSE",
+                "UNUSED16"
+            ],
+            "Alignment": -250,
+            "Level": 40,
+            "THAC0": 22,
+            "AC": -7,
+            "HP": "5d20+1050",
+            "Damage": "5d4+20",
+            "Gold": 42,
+            "XP": 181500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 12217,
+            "Aliases": [
+                "mindflayer",
+                "prisoner"
+            ],
+            "ShortDesc": "a tortured mindflayer prisoner",
+            "LongDesc": "A mindflayer lies here, scarred from the torture inflicted by the Gith.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a formerly tall humanoid creature with four tentacles hanging from\r\r\r\r\r\r\r\n\rwhere the mouth area should be. It is hunched over, bent and scarred from\r\r\r\r\r\r\r\n\rtorture inflicted on it by the githyanki. As you approach, it cringes.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "POISON"
+            ],
+            "Alignment": -400,
+            "Level": 50,
+            "THAC0": 10,
+            "AC": 6,
+            "HP": "5d5+400",
+            "Damage": "6d5+20",
+            "Gold": 23,
+            "XP": 93375,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 12218,
+            "Aliases": [
+                "dragon",
+                "red",
+                "enslaved",
+                "Ryessa"
+            ],
+            "ShortDesc": "Ryessa, the enslaved red dragon",
+            "LongDesc": "A giant red dragon is chained here, her breath heating the furnace.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This mighty scaled creature was subdued by the githyanki and magically\r\r\r\r\r\r\r\n\rbound here. Nevertheless, she is still an impressive sight, some thirty\r\r\r\r\r\r\r\n\rfeet in height and seventy from nose to tailtip, with an even more massive\r\r\r\r\r\r\r\n\rwingspan. She watches you warily, smoke drifting from her nostrils.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "UNUSED16"
+            ],
+            "Alignment": -600,
+            "Level": 74,
+            "THAC0": 23,
+            "AC": -6,
+            "HP": "10d10+6000",
+            "Damage": "5d5+35",
+            "Gold": 5000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 12219,
+            "Aliases": [
+                "fire",
+                "fires",
+                "flame",
+                "blast",
+                "massive"
+            ],
+            "ShortDesc": "a massive blast of fire",
+            "LongDesc": "The fires of the furnace burn away at your skin!\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The fire feeds on your skin like a living being, licking out at your hair.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "1d5+200",
+            "Damage": "2d12+2",
+            "Gold": 0,
+            "XP": 81200,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 12220,
+            "Aliases": [
+                "thri-kreen",
+                "thrikreen",
+                "insectoid",
+                "insect"
+            ],
+            "ShortDesc": "a planesfaring thri-kreen",
+            "LongDesc": "A planesfaring thri-kreen is floating about here, exploring the Astral.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A thrikreen is a six-limbed creature with a sandy-yellow exoskeleton. It\r\r\r\r\r\r\r\n\rhas powerful hind legs useful in motion and combat, as well as four upper\r\r\r\r\r\r\r\n\rlimbs with fingers and thumbs. It has two compound eyes and two antennae,\r\r\r\r\r\r\r\n\ras well as small, but powerful mandibles. This one looks deadly...\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": 100,
+            "Level": 87,
+            "THAC0": 20,
+            "AC": -14,
+            "HP": "10d10+2800",
+            "Damage": "3d10+20",
+            "Gold": 12343,
+            "XP": 342600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 12221,
+            "Aliases": [
+                "imp",
+                "chaos"
+            ],
+            "ShortDesc": "a ChAOs imp",
+            "LongDesc": "Sneaking about, or trying to at least, is a hideous little imp...\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A nasty, disgusting little batwinged humanoid ranging from the size of\r\r\r\r\r\r\r\n\ra rat to one of a small dog. It constantly shifts, and you're never real\r\r\r\r\r\r\r\n\rsure of what it will look like, except it's always something obscene or\r\r\r\r\r\r\r\n\rabominable. Right now it looks like it's claws are growing bigger...\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "SNEAK"
+            ],
+            "Alignment": -500,
+            "Level": 12,
+            "THAC0": 12,
+            "AC": -1,
+            "HP": "5d5+110",
+            "Damage": "1d20+0",
+            "Gold": 394,
+            "XP": 28125,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 12222,
+            "Aliases": [
+                "seraph",
+                "angel",
+                "christyna"
+            ],
+            "ShortDesc": "Christyna, the seraph,",
+            "LongDesc": "Standing here, guarding the life-strand of a mortal, is one of the seraphim.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This winged being is clad in golden white robes and flaps her wings\r\r\r\r\r\r\r\n\rgently as she hovers before you. She looks very beautiful, and very\r\r\r\r\r\r\r\n\rmuch at peace. A part of you hates her smugness, while another part\r\r\r\r\r\r\r\n\rdesperately yearns for the happiness she has. She looks at you kindly.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16"
+            ],
+            "Alignment": 1000,
+            "Level": 70,
+            "THAC0": 35,
+            "AC": -11,
+            "HP": "10d10+4000",
+            "Damage": "7d3+37",
+            "Gold": 77777,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 12223,
+            "Aliases": [
+                "Vorethras",
+                "slaad",
+                "hermit",
+                "green"
+            ],
+            "ShortDesc": "Vorethras, the slaad hermit",
+            "LongDesc": "Sitting here and meditating is an aged green slaad. His eyes are closed.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Vorethras has been meditating here for the last few time segments,\r\r\r\r\r\r\r\n\rand it is obvious he is very much unaware of what is going on about\r\r\r\r\r\r\r\n\rhim. Or so you think... He looks old for a slaad, his eyes are milky,\r\r\r\r\r\r\r\n\rand his green skin dry and patchy. Upon his head is a greyish headpiece\r\r\r\r\r\r\r\n\rand about his waist is a loincloth. He sits here, unmoving.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 80,
+            "THAC0": 22,
+            "AC": 2,
+            "HP": "1d100+2000",
+            "Damage": "4d4+18",
+            "Gold": 30000,
+            "XP": 553500,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 12224,
+            "Aliases": [
+                "test",
+                "droid"
+            ],
+            "ShortDesc": "the Mark I Test Droid",
+            "LongDesc": "Standing here like a block of stone is Raul's Mark I Test Droid.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 51,
+            "THAC0": 40,
+            "AC": 10,
+            "HP": "1d1+29900",
+            "Damage": "1d1+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 12225,
+            "Aliases": [
+                "nibalingg",
+                "humanoid",
+                "imp"
+            ],
+            "ShortDesc": "a sly little Nibalingg",
+            "LongDesc": "Pretending you cannot see him, or trying to at least, is a wretched Nibaling.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A tiny little hairless humanoid of a dull, greyish color, like clay.\r\r\r\r\r\r\r\n\rThere is a sack he carries on his back, and perhaps there is something\r\r\r\r\r\r\r\n\rin it! Large, soulful eyes stare up at you and regard you with utter\r\r\r\r\r\r\r\n\rterror! 'Please,' it says, 'Don't harm me. I am but a poor wanderer.' :(\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -500,
+            "Level": 15,
+            "THAC0": 5,
+            "AC": -10,
+            "HP": "6d6+100",
+            "Damage": "1d4+0",
+            "Gold": 2233,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 12226,
+            "Aliases": [
+                "freeblade",
+                "mesaros",
+                "blade"
+            ],
+            "ShortDesc": "the Mesaros freeblade",
+            "LongDesc": "Here on his way to the ill-famed Kadun Blood Pits is a Mesaros freeblade.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Kadun Pits are famed throughout the multiverse as _the_ place to\r\r\r\r\r\r\r\n\rcatch serious bloodsports. To survivors go riches and honor. To losers\r\r\r\r\r\r\r\n\rgo death and a thousand years of enslavement for their wretched souls...\r\r\r\r\r\r\r\n\rThis rough-edged human warrior looks ready to take them on. His body is\r\r\r\r\r\r\r\n\rpowerfully muscled, and his wits need be equally sharp.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "UNUSED16",
+                "SNEAK"
+            ],
+            "Alignment": -100,
+            "Level": 48,
+            "THAC0": 40,
+            "AC": -9,
+            "HP": "10d10+4000",
+            "Damage": "4d6+30",
+            "Gold": 10242,
+            "XP": 669075,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 12227,
+            "Aliases": [
+                "lich",
+                "queen",
+                "lichqueen",
+                "lich-queen"
+            ],
+            "ShortDesc": "the crazed Lich-Queen",
+            "LongDesc": "The evil Lich-Queen of the Githyanki reaches out to destroy you.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Lich-Queen of the githyanki was once human, but no longer. Her skin\r\r\r\r\r\r\r\n\rhas completely shrunken in about her bones, held together by sheer force\r\r\r\r\r\r\r\n\rof unholy power and the peculiarities of this plane of existence. The\r\r\r\r\r\r\r\n\rcold glare of her reddish eyes sends you into paroxysms of dread.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 91,
+            "THAC0": 30,
+            "AC": -12,
+            "HP": "10d20+6500",
+            "Damage": "6d5+45",
+            "Gold": 273000,
+            "XP": 148125,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 12228,
+            "Aliases": [
+                "nightmare",
+                "mare",
+                "horse"
+            ],
+            "ShortDesc": "a pitch-black nightmare",
+            "LongDesc": "A hideous nightmare creature glares at you with glowing amber eyes.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The nightmare is a wholly evil creature sent out by powerful demonic\r\r\r\r\r\r\r\n\rforces to torment the sleep of hapless mortals. It vaguely resembles\r\r\r\r\r\r\r\n\ra horse, with hide of deepest black and eyes a glowing amber color.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "INFRAVISION",
+                "POISON",
+                "SNEAK"
+            ],
+            "Alignment": -340,
+            "Level": 40,
+            "THAC0": 20,
+            "AC": -3,
+            "HP": "1d100+500",
+            "Damage": "5d5+10",
+            "Gold": 2500,
+            "XP": 66000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 12241,
+            "Aliases": [
+                "Teppuran",
+                "swordforger",
+                "forger",
+                "elf",
+                "smith"
+            ],
+            "ShortDesc": "Teppuran the swordforger",
+            "LongDesc": "A muscular mountain elf is hard at work here, shaping silvery metal.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A wiry, strongly muscled mountain elf, Teppuran has skin of light grey\r\r\r\r\r\r\r\n\rand long black hair streaked with strands of silver. He was captured in\r\r\r\r\r\r\r\n\ra raid over a century ago, and has since been forced to work here. They\r\r\r\r\r\r\r\n\rtreat him well so long as he behaves... He has a sad look on his face.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 500,
+            "Level": 84,
+            "THAC0": 48,
+            "AC": 6,
+            "HP": "1d100+1600",
+            "Damage": "5d5+25",
+            "Gold": 500,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

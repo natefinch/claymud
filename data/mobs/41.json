@@ -1,0 +1,988 @@
+{
+    "mobs": [
+        {
+            "Number": 4100,
+            "Aliases": [
+                "doctor",
+                "witch",
+                "hobgoblin"
+            ],
+            "ShortDesc": "the witch doctor",
+            "LongDesc": "A hobgoblin witch doctor growls as your arrival disrupts his ritual.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Clad in feathers and painted strangely, the witch doctor has a frightening\r\r\r\r\r\r\r\n\rappearance. It might not be a good idea to annoy him.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": -100,
+            "Level": 16,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "5d20+166",
+            "Damage": "2d6+0",
+            "Gold": 2500,
+            "XP": 7500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4101,
+            "Aliases": [
+                "ogre",
+                "magi"
+            ],
+            "ShortDesc": "the ogre magi",
+            "LongDesc": "An ogre magi is here, lurking in ambush for you.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Well, it looks dangerous!\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -800,
+            "Level": 14,
+            "THAC0": 12,
+            "AC": 1,
+            "HP": "3d10+166",
+            "Damage": "2d7+1",
+            "Gold": 500,
+            "XP": 6500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4102,
+            "Aliases": [
+                "snake",
+                "cobra",
+                "black"
+            ],
+            "ShortDesc": "the black cobra",
+            "LongDesc": "A terrifying black cobra raises its head to confront you.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a evil creature.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -700,
+            "Level": 13,
+            "THAC0": 12,
+            "AC": 5,
+            "HP": "10d10+83",
+            "Damage": "3d5+2",
+            "Gold": 0,
+            "XP": 1500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4103,
+            "Aliases": [
+                "thief",
+                "hobgoblin",
+                "assassin"
+            ],
+            "ShortDesc": "the hobgoblin assassin",
+            "LongDesc": "A hobgoblin assassin unsheathes his dagger and grins toothily.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Funny how you didn't notice him before...\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": -400,
+            "Level": 11,
+            "THAC0": 7,
+            "AC": 3,
+            "HP": "1d10+166",
+            "Damage": "2d5+2",
+            "Gold": 100,
+            "XP": 8500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4104,
+            "Aliases": [
+                "orc"
+            ],
+            "ShortDesc": "the orc",
+            "LongDesc": "A ugly orc is standing here.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "It's quite disgusting to look at.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -200,
+            "Level": 8,
+            "THAC0": 6,
+            "AC": 4,
+            "HP": "1d5+150",
+            "Damage": "2d4+1",
+            "Gold": 200,
+            "XP": 4000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4105,
+            "Aliases": [
+                "centipede"
+            ],
+            "ShortDesc": "a centipede",
+            "LongDesc": "A small harmless centipede is here.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Well it doesn't seem to pay any attention to you.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 300,
+            "Level": 7,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "5d10+83",
+            "Damage": "1d8+1",
+            "Gold": 0,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4106,
+            "Aliases": [
+                "raider",
+                "hobgoblin"
+            ],
+            "ShortDesc": "the hobgoblin raider",
+            "LongDesc": "A hobgoblin raider appears out of nowhere and attacks!\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "He doesn't look friendly at all...\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -300,
+            "Level": 12,
+            "THAC0": 10,
+            "AC": 3,
+            "HP": "5d10+166",
+            "Damage": "2d6+2",
+            "Gold": 500,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4107,
+            "Aliases": [
+                "goblin"
+            ],
+            "ShortDesc": "the goblin",
+            "LongDesc": "A nasty little goblin is here, waving a rock at you.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "It looks slimy..\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 11,
+            "THAC0": 6,
+            "AC": 4,
+            "HP": "6d10+41",
+            "Damage": "1d9+1",
+            "Gold": 20,
+            "XP": 750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4108,
+            "Aliases": [
+                "mantis",
+                "thri-kreen"
+            ],
+            "ShortDesc": "a thri-kreen",
+            "LongDesc": "A thri-kreen moves around here, going about its incomprehensible business.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Thri-kreen, or \"mantis warriors\" as they are sometimes called, are a race of\r\r\r\r\r\r\r\n\rintelligent insectoids slightly shorter than humans. They have four arms, any\r\r\r\r\r\r\r\n\rof which is as mobile as a human arm, though not quite as strong, and a shiny\r\r\r\r\r\r\r\n\rblack carapace that is tougher than most kinds of armor. They are not evil,\r\r\r\r\r\r\r\n\rand will not usually attack unless provoked.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 14,
+            "THAC0": 12,
+            "AC": 0,
+            "HP": "10d8+160",
+            "Damage": "3d4+0",
+            "Gold": 650,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4109,
+            "Aliases": [
+                "mantis",
+                "warrior",
+                "thri-kreen"
+            ],
+            "ShortDesc": "the thri-kreen warrior",
+            "LongDesc": "An insectoid mantis warrior moves to prevent your intrusion.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The thri-kreen, or \"mantis warriors\" as they are sometimes called, are a race\r\r\r\r\r\r\r\n\rof intelligent insectoids. They are slightly shorter than humans, on average.\r\r\r\r\r\r\r\n\rThey have four arm-like appendages, all of which are capable of wielding\r\r\r\r\r\r\r\n\rweapons. They also have a hard, shiny exoskeleton that is as tough as some of\r\r\r\r\r\r\r\n\rhumankind's best armor. This one is a warrior, and does not appear pleased to\r\r\r\r\r\r\r\n\rsee you.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 14,
+            "AC": -1,
+            "HP": "10d4+200",
+            "Damage": "2d6+2",
+            "Gold": 750,
+            "XP": 4000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4110,
+            "Aliases": [
+                "loremaster",
+                "thri",
+                "kreen",
+                "thri-kreen"
+            ],
+            "ShortDesc": "the thri-kreen loremaster",
+            "LongDesc": "The loremaster of the thri-kreen raises his ant-like head at your arrival.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This thri-kreen is smaller than most of the others. He wears a robe with some\r\r\r\r\r\r\r\n\rvery odd mystical symbols on it, none of which look at all familiar. He \r\r\r\r\r\r\r\n\rcarries an odd-looking dagger as well. He does not look amused at your\r\r\r\r\r\r\r\n\rpresence in his laboratory, so you might want to think about leaving.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 19,
+            "THAC0": 12,
+            "AC": 0,
+            "HP": "10d4+220",
+            "Damage": "1d6+1",
+            "Gold": 1000,
+            "XP": 5500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4111,
+            "Aliases": [
+                "hivemaster"
+            ],
+            "ShortDesc": "the Hivemaster",
+            "LongDesc": "The Hivemaster sits here on his throne, wondering what to do\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The thri-kreen Hivemaster is truly an awesome spectacle of insectoid splendor.\r\r\r\r\r\r\r\n\rHis exoskeleton looks like burnished ebony, and his limbs are strong and\r\r\r\r\r\r\r\n\rsupple. Truly a noble example of the breed. He eyes you inquisitvely, perhaps\r\r\r\r\r\r\r\n\rwondering if he should have you killed for disturbing him.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 26,
+            "THAC0": 17,
+            "AC": -3,
+            "HP": "3d12+300",
+            "Damage": "2d5+2",
+            "Gold": 1500,
+            "XP": 12000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4112,
+            "Aliases": [
+                "thri-kreen",
+                "mantis",
+                "concubine"
+            ],
+            "ShortDesc": "a thri-kreen concubine",
+            "LongDesc": "A thri-kreen concubine is lying here, awaiting the Hivemaster's pleasure.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This thri-kreen is a bit smaller than most of the others you've seen so far.\r\r\r\r\r\r\r\n\rIt is also shaped a little differently. The position it is lying in is\r\r\r\r\r\r\r\n\rprobably very provocative, if one is a human-sized insect.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": 11,
+            "Level": 18,
+            "THAC0": 10,
+            "AC": 0,
+            "HP": "1d8+160",
+            "Damage": "3d3+0",
+            "Gold": 350,
+            "XP": 5000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 4113,
+            "Aliases": [
+                "kuo-toa",
+                "fish",
+                "humanoid"
+            ],
+            "ShortDesc": "the kuo-toa",
+            "LongDesc": "A fish-faced humanoid surfaces from under the water and attacks!\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Kuo-toa are slightly shorter than humans, with webbed feet and hands, and the\r\r\r\r\r\r\r\n\rfaces of some very evil-looking fish. They are cruel, heartless, and evil,\r\r\r\r\r\r\r\n\rand this one is on its home turf in the water. You're definitely in trouble.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -750,
+            "Level": 19,
+            "THAC0": 13,
+            "AC": 0,
+            "HP": "4d10+200",
+            "Damage": "3d5+2",
+            "Gold": 1500,
+            "XP": 7000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4114,
+            "Aliases": [
+                "warrior",
+                "kuo-toa",
+                "fish"
+            ],
+            "ShortDesc": "a kuo-toa warrior",
+            "LongDesc": "A kuo-toa warrior swims toward you with hate in its eyes.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Larger than the average kuo-toa, this warrior has powerfully built arms and\r\r\r\r\r\r\r\n\rlegs, perfect for long harpoon casts and rapid swimming, respectively. But\r\r\r\r\r\r\r\n\ryou have probably already discovered this...\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -750,
+            "Level": 24,
+            "THAC0": 15,
+            "AC": -1,
+            "HP": "5d6+250",
+            "Damage": "4d6+0",
+            "Gold": 2250,
+            "XP": 6500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4115,
+            "Aliases": [
+                "mage",
+                "kuo-toa",
+                "fish"
+            ],
+            "ShortDesc": "the kuo-toa mage",
+            "LongDesc": "A kuo-toa mage raises its arms in a threatening gesture.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Despite their fishy appearance, kuo-toa are able to become quite powerful\r\r\r\r\r\r\r\n\ras magicians. This one is certainly no exception. Time to flee...\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -750,
+            "Level": 28,
+            "THAC0": 17,
+            "AC": -1,
+            "HP": "5d6+250",
+            "Damage": "2d10+0",
+            "Gold": 3000,
+            "XP": 13500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4116,
+            "Aliases": [
+                "priestess",
+                "high",
+                "kuo-toa",
+                "blipdoolpoolp"
+            ],
+            "ShortDesc": "the kuo-toa high priestess",
+            "LongDesc": "The high priestess of Blipdoolpoolp hisses at your defamation of her shrine!\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The high priestess is a bit shorter than the average kuo-toa, but as she\r\r\r\r\r\r\r\n\rhisses at you and bares her one-inch fangs, you feel distinctly uneasy.\r\r\r\r\r\r\r\n\rThe way she is waving her arms at you is distinctly disquieting as well.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 35,
+            "THAC0": 20,
+            "AC": -3,
+            "HP": "10d4+350",
+            "Damage": "5d5+1",
+            "Gold": 5000,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 4117,
+            "Aliases": [
+                "duergar",
+                "grey",
+                "dwarf",
+                "miner",
+                "gray"
+            ],
+            "ShortDesc": "a duergar miner",
+            "LongDesc": "A muscular duergar miner is here, sweat streaming from his brow as he labors.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Duergar, or grey dwarves as they are sometimes known to humanity, are about\r\r\r\r\r\r\r\n\rthe same size as their brethren who live aboveground. Their coloration is\r\r\r\r\r\r\r\n\rcompletely different, however. Their skins are a dusty grey, hair either\r\r\r\r\r\r\r\n\rwhite or black, and their eyes are an eerie-looking grey, with no pupils or\r\r\r\r\r\r\r\n\riris in evidence. Also, they do not like humans, so you had better watch\r\r\r\r\r\r\r\n\ryour step with them.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 23,
+            "THAC0": 13,
+            "AC": -1,
+            "HP": "10d6+250",
+            "Damage": "3d5+5",
+            "Gold": 2500,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4118,
+            "Aliases": [
+                "duergar",
+                "grey",
+                "gray",
+                "dwarf",
+                "miner"
+            ],
+            "ShortDesc": "an angry duergar",
+            "LongDesc": "An angry duergar miner, blinded by your lights, attacks with a shout!\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This duergar looks much the same as the others, but his eyes are apparently\r\r\r\r\r\r\r\n\ra bit more sensitive to the light than his brethren. Duergar do not much\r\r\r\r\r\r\r\n\rlike surface-dwellers in the first place, especially humans, and you doubt\r\r\r\r\r\r\r\n\rthat you will get out of this one without a fight...\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -350,
+            "Level": 22,
+            "THAC0": 10,
+            "AC": 0,
+            "HP": "10d6+250",
+            "Damage": "3d5+5",
+            "Gold": 2500,
+            "XP": 6600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4119,
+            "Aliases": [
+                "grey",
+                "gray",
+                "dwarf",
+                "miner",
+                "duergar",
+                "off-duty"
+            ],
+            "ShortDesc": "an off-duty duergar miner",
+            "LongDesc": "An off-duty duergar miner is sleeping the sleep of the exhausted here.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Duergar, or grey dwarves as they are sometimes called by humans, are short,\r\r\r\r\r\r\r\n\rsquat fellows, averaging a little over four feet in height. They are very\r\r\r\r\r\r\r\n\rbroad and muscular, and this one looks as if he has been working hard for\r\r\r\r\r\r\r\n\ra long time. It's probably not a good idea to wake him.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -150,
+            "Level": 23,
+            "THAC0": 13,
+            "AC": -1,
+            "HP": "10d6+250",
+            "Damage": "3d5+5",
+            "Gold": 2500,
+            "XP": 7000,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4120,
+            "Aliases": [
+                "grey",
+                "gray",
+                "dwarf",
+                "duergar",
+                "guard"
+            ],
+            "ShortDesc": "a duergar guard",
+            "LongDesc": "A duergar guard is here, making sure nothing untoward happens.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Short and broad, this particular grey dwarf looks as solid as a rock. He eyes\r\r\r\r\r\r\r\n\ryou with firm contempt, and it is easy to tell that he doesn't like you much.\r\r\r\r\r\r\r\n\rAfter a quick look at his sturdy-looking weapon, you wonder if it might no\r\r\r\r\r\r\r\n\rbe a good idea to leave before he gets angry...\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "HELPER"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 32,
+            "THAC0": 15,
+            "AC": -1,
+            "HP": "12d8+270",
+            "Damage": "2d10+4",
+            "Gold": 3500,
+            "XP": 8000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4121,
+            "Aliases": [
+                "duergar",
+                "mine",
+                "master",
+                "minemaster"
+            ],
+            "ShortDesc": "the duergar mine master",
+            "LongDesc": "The duergar mine master screams a battle cry and attacks!\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This dwarf looks as if he attained the position of mine master by taking on\r\r\r\r\r\r\r\n\rall the other duergar in the mine in combat...and winning. He is very angry\r\r\r\r\r\r\r\n\rat your disruption of his proceedings, and he hates humans anyway. You are\r\r\r\r\r\r\r\n\rdefinitely in deep trouble.\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -500,
+            "Level": 38,
+            "THAC0": 18,
+            "AC": -3,
+            "HP": "10d6+400",
+            "Damage": "3d9+3",
+            "Gold": 6500,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4122,
+            "Aliases": [
+                "troll",
+                "huge",
+                "green"
+            ],
+            "ShortDesc": "a huge green troll",
+            "LongDesc": "A huge green troll emerges from the shadows and attacks!\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Fully nine feet tall, with green, rubbery skin and huge black claws and\r\r\r\r\r\r\r\n\rfangs, trolls are among the most fearsome beasts one can encounter. They\r\r\r\r\r\r\r\n\rlack much intelligence, but possess great cunning, and their ability to\r\r\r\r\r\r\r\n\rregenerate any damage not caused by fire or acid makes them almost invincible.\r\r\r\r\r\r\r\n\rIf you have any will to live at all, run now!\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 28,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "10d8+300",
+            "Damage": "5d5+0",
+            "Gold": 3000,
+            "XP": 11500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4123,
+            "Aliases": [
+                "troll",
+                "reaver"
+            ],
+            "ShortDesc": "a troll reaver",
+            "LongDesc": "A troll reaver bellows in rage and hurls itself at you!\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Even larger than the average troll, troll reavers are also more to be\r\r\r\r\r\r\r\n\rfeared than their brethren. They are big, ugly, and have very little\r\r\r\r\r\r\r\n\rintelligence. They live to kill anything that moves, and you qualify...\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 34,
+            "THAC0": 17,
+            "AC": -1,
+            "HP": "12d6+370",
+            "Damage": "4d7+1",
+            "Gold": 4000,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4124,
+            "Aliases": [
+                "troll",
+                "king",
+                "trollking"
+            ],
+            "ShortDesc": "the troll king",
+            "LongDesc": "The largest troll of them all bares its fangs at you and attacks!\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This troll is HUGE. It must be almost ten feet tall! You'd better run while\r\r\r\r\r\r\r\n\ryou still have the legs to do it with!\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 43,
+            "THAC0": 22,
+            "AC": -3,
+            "HP": "8d5+500",
+            "Damage": "5d7+0",
+            "Gold": 10000,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4125,
+            "Aliases": [
+                "mind",
+                "flayer",
+                "mage"
+            ],
+            "ShortDesc": "the mind flayer",
+            "LongDesc": "An evil mind flayer prepares to devour your brain.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Mind flayers are sickening-looking humanoids, approximately human height but\r\r\r\r\r\r\r\n\rnot quite as broad. They have purple skin, and bulging, milky white eyes with\r\r\r\r\r\r\r\n\rno pupils. They have a number of long tentacles where their mouths should be.\r\r\r\r\r\r\r\n\rThey are very intelligent, and wholly evil. The are also very potent\r\r\r\r\r\r\r\n\rmagic-users. \r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 50,
+            "THAC0": 22,
+            "AC": -5,
+            "HP": "8d5+300",
+            "Damage": "3d7+2",
+            "Gold": 10000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4150,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4160,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4198,
+            "Aliases": [
+                "anarchy",
+                "wolf",
+                "companion"
+            ],
+            "ShortDesc": "Anarchy",
+            "LongDesc": "Anarchy, another of Dyrewulf's lupine companions, rests here peacefully.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Anarchy is a huge grey wolf, a little smaller than Chaos, but sleeker as well.\r\r\r\r\r\r\r\n\rHe wears a black leather collar studded with spikes, and a silver nameplate\r\r\r\r\r\r\r\n\rinforms you of his name. He is resting right now, so he doesn't feel like\r\r\r\r\r\r\r\n\rbothering with you, but you'd better not try anything funny!\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 40,
+            "AC": -40,
+            "HP": "0d0+30000",
+            "Damage": "10d10+40",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4199,
+            "Aliases": [
+                "chaos",
+                "wolf",
+                "companion"
+            ],
+            "ShortDesc": "Chaos",
+            "LongDesc": "Chaos, one of Dyrewulf's lupine companions, rests here by the fire.\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Chaos is a very large black wolf, with formidable-looking fangs and claws.\r\r\r\r\r\r\r\n\rHe wears a black leather collar studded with spikes, and a silver nameplate\r\r\r\r\r\r\r\n\ron the collar proclaims his name in large block letters. He looks far too\r\r\r\r\r\r\r\n\rtough for you to handle, so you'd better treat him with some respect!\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 40,
+            "AC": -40,
+            "HP": "0d0+30000",
+            "Damage": "10d10+40",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        }
+    ]
+}

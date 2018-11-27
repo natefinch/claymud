@@ -1,0 +1,817 @@
+{
+    "mobs": [
+        {
+            "Number": 15001,
+            "Aliases": [
+                "king",
+                "welmar",
+                "kingwelmar"
+            ],
+            "ShortDesc": "King Welmar",
+            "LongDesc": "The wise King Welmar sits here in his throne.\r\r\r\r\r\n\r",
+            "DetailedDesc": "In his later middle-age, with his beard starting to grey, King Welmar\r\r\r\r\r\n\ris still very powerfully built, and wouldn't take kindly to an attack.\r\r\r\r\r\n\rDespite that, you know he is well-loved throughout the land, and has\r\r\r\r\r\n\ra reputation as a wise and just ruler.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 69,
+            "THAC0": 48,
+            "AC": -7,
+            "HP": "5d4+2800",
+            "Damage": "4d8+16",
+            "Gold": 35000,
+            "XP": 150000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15002,
+            "Aliases": [
+                "ghost",
+                "horrible"
+            ],
+            "ShortDesc": "the horrible ghost",
+            "LongDesc": "You hear a frightening wail, and see a horrible Ghost approaching.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Ghost is almost translucent, and looks really SCARY!\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "HIDE"
+            ],
+            "Alignment": -700,
+            "Level": 22,
+            "THAC0": 14,
+            "AC": -6,
+            "HP": "25d6+416",
+            "Damage": "2d8+2",
+            "Gold": 3000,
+            "XP": 137500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15003,
+            "Aliases": [
+                "jim",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Jim the Royal guard",
+            "LongDesc": "Jim the Royal guard is here on duty.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Jim wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. He seems very well trained, and moves like an\r\r\r\r\r\n\rexperienced fighter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 19,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "8d6+360",
+            "Damage": "1d8+4",
+            "Gold": 400,
+            "XP": 68750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15004,
+            "Aliases": [
+                "brian",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Brian",
+            "LongDesc": "Brian the Royal guard is here, training with the Master.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Brian wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. He seems very well trained, and moves like an\r\r\r\r\r\n\rexperienced fighter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 19,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "8d6+360",
+            "Damage": "1d8+4",
+            "Gold": 400,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15005,
+            "Aliases": [
+                "mick",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Mick",
+            "LongDesc": "Mick the Royal guard is here, training with the Master.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Mick wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. He seems very well trained, and moves like an\r\r\r\r\r\n\rexperienced fighter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 19,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "8d6+360",
+            "Damage": "1d8+4",
+            "Gold": 400,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15006,
+            "Aliases": [
+                "matt",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Matt the Royal guard",
+            "LongDesc": "Matt the Royal guard is here on duty.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Matt wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. He seems very well trained, and moves like an\r\r\r\r\r\n\rexperienced fighter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 19,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "8d6+360",
+            "Damage": "1d8+4",
+            "Gold": 400,
+            "XP": 68750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15007,
+            "Aliases": [
+                "jochem",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Jochem the Royal guard",
+            "LongDesc": "Jochem the Royal guard sits here, off duty.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Jochem wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. He seems very well trained, and moves like a fighter\r\r\r\r\r\n\rwho has seen more than one battle, and longs to see the next!\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 18,
+            "THAC0": 13,
+            "AC": 2,
+            "HP": "8d6+416",
+            "Damage": "1d8+5",
+            "Gold": 400,
+            "XP": 70000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15008,
+            "Aliases": [
+                "anne",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Anne the Royal guard",
+            "LongDesc": "Anne the Royal guard is here on duty.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Anne wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. She seems very well trained, and moves like a fighter\r\r\r\r\r\n\rwho has seen more than one battle, and longs to see the next!\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 19,
+            "THAC0": 13,
+            "AC": 2,
+            "HP": "8d6+416",
+            "Damage": "1d8+5",
+            "Gold": 400,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 15009,
+            "Aliases": [
+                "andrew",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Andrew the Royal guard",
+            "LongDesc": "Andrew the Royal guard is here on duty.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Andrew wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. He seems very well trained, and moves like a fighter\r\r\r\r\r\n\rwho has seen more than one battle, and longs to see the next!\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 19,
+            "THAC0": 13,
+            "AC": 2,
+            "HP": "8d6+416",
+            "Damage": "1d8+5",
+            "Gold": 400,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15010,
+            "Aliases": [
+                "bertram",
+                "bert",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Bertram the Royal guard",
+            "LongDesc": "Bertram the Royal guard is here on duty.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Bertram wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. He seems very well trained, and carries his scars\r\r\r\r\r\n\rwith pride. This guy seems tough...\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 19,
+            "THAC0": 15,
+            "AC": 1,
+            "HP": "8d6+485",
+            "Damage": "1d8+7",
+            "Gold": 400,
+            "XP": 76000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15011,
+            "Aliases": [
+                "jeanette",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Jeanette the Royal guard",
+            "LongDesc": "Jeanette the Royal guard is here on duty.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Jeanette wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. She seems very well trained, and carries her scars\r\r\r\r\r\n\rwith pride. This girl could be nasty if she wanted to...\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 19,
+            "THAC0": 15,
+            "AC": 1,
+            "HP": "8d6+485",
+            "Damage": "1d8+7",
+            "Gold": 400,
+            "XP": 76000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 15012,
+            "Aliases": [
+                "peter",
+                "captain",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Peter, the Captain of the Royal guard",
+            "LongDesc": "Peter, the Captain of the Royal guard, walks around inspecting.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Peter wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. Even though all the other guards seem well trained,\r\r\r\r\r\n\ryou realise none of them would stand a chance against this man in a\r\r\r\r\r\n\rfight. He stands at least two metres tall, but still moves with an\r\r\r\r\r\n\ralmost feline grace. He actually radiates strength and confidence,\r\r\r\r\r\n\rand you have to fight a sudden urge to come to attention as you see\r\r\r\r\r\n\rhim.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 23,
+            "THAC0": 19,
+            "AC": -1,
+            "HP": "8d6+666",
+            "Damage": "2d6+8",
+            "Gold": 1000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15013,
+            "Aliases": [
+                "master",
+                "trainingmaster"
+            ],
+            "ShortDesc": "the Training Master",
+            "LongDesc": "The Training Master is here, supervising.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Aged, but experienced, the Training Master is skilled in the use\r\r\r\r\r\n\rof virtually every weapon type invented by Man.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 950,
+            "Level": 21,
+            "THAC0": 19,
+            "AC": 1,
+            "HP": "5d6+610",
+            "Damage": "1d8+8",
+            "Gold": 1000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15014,
+            "Aliases": [
+                "herald",
+                "royal"
+            ],
+            "ShortDesc": "the Royal Herald",
+            "LongDesc": "The Royal Herald is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is a young, powerfully built man, whose primary function\r\r\r\r\r\n\ris to make Royal Announcements.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 26,
+            "THAC0": 19,
+            "AC": -1,
+            "HP": "8d6+610",
+            "Damage": "3d9+12",
+            "Gold": 500,
+            "XP": 187500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15015,
+            "Aliases": [
+                "ergan",
+                "murderer"
+            ],
+            "ShortDesc": "Ergan the Murderer",
+            "LongDesc": "Slumped in a corner you see Ergan, aka the Murderer of Townsbridge.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You remember a time almost a decade ago, when the news of the day\r\r\r\r\r\n\rwas how this man had slaughtered the entire population of the little\r\r\r\r\r\n\rvillage of Townsbridge. He was imprisoned, and here he is: a shadow\r\r\r\r\r\n\rof the undoubtedly great warrior he once was, but still to be reckoned\r\r\r\r\r\n\rwith.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 21,
+            "THAC0": 12,
+            "AC": 2,
+            "HP": "8d6+430",
+            "Damage": "2d8+2",
+            "Gold": 0,
+            "XP": 112500,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15016,
+            "Aliases": [
+                "butler",
+                "james"
+            ],
+            "ShortDesc": "James the Butler",
+            "LongDesc": "James the Butler is standing here, looking pompous.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The typical perfect butler: upper middle age, a bit bald and with \r\r\r\r\r\n\ran impressive belly.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 11,
+            "THAC0": 7,
+            "AC": 3,
+            "HP": "1d6+276",
+            "Damage": "1d9+2",
+            "Gold": 200,
+            "XP": 23437,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15017,
+            "Aliases": [
+                "woman",
+                "cleaning"
+            ],
+            "ShortDesc": "the Cleaning Woman",
+            "LongDesc": "There is a Cleaning Woman here, trying not be noticed.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Although she has a menial job, she seems to like it.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "10d6+1",
+            "Damage": "1d5+0",
+            "Gold": 10,
+            "XP": 625,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 15018,
+            "Aliases": [
+                "cockroach",
+                "roach"
+            ],
+            "ShortDesc": "the Cockroach",
+            "LongDesc": "A large Cockroach is crawling by the wall.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Very large indeed, and they say cockroaches are hard to kill...\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -250,
+            "Level": 15,
+            "THAC0": 0,
+            "AC": 3,
+            "HP": "5d6+333",
+            "Damage": "2d5+5",
+            "Gold": 5,
+            "XP": 4687,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15019,
+            "Aliases": [
+                "astrologer"
+            ],
+            "ShortDesc": "the Astrologer",
+            "LongDesc": "The Astrologer is sitting here, studying a book.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is old and white-haired, with a long beard. As you see him, you\r\r\r\r\r\n\rcan almost believe the rumours about stars deciding Fate, and\r\r\r\r\r\n\rthat astrology is capable of seeing the future.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 900,
+            "Level": 127,
+            "THAC0": 40,
+            "AC": -35,
+            "HP": "100d100+25000",
+            "Damage": "10d10+50",
+            "Gold": 2000,
+            "XP": 200000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15020,
+            "Aliases": [
+                "tim",
+                "guard",
+                "lifeguard"
+            ],
+            "ShortDesc": "Tim, the King's Lifeguard",
+            "LongDesc": "Tim, the King's Lifeguard, is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This guy looks just like his twin, Tom. There seems to be no\r\r\r\r\r\n\rdoubt that he is completely prepared to give his life\r\r\r\r\r\n\rfor the King, if necessary.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 900,
+            "Level": 21,
+            "THAC0": 16,
+            "AC": 1,
+            "HP": "8d6+568",
+            "Damage": "1d8+8",
+            "Gold": 1000,
+            "XP": 80000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15021,
+            "Aliases": [
+                "tom",
+                "guard",
+                "lifeguard"
+            ],
+            "ShortDesc": "Tom, the King's Lifeguard",
+            "LongDesc": "Tom, the King's Lifeguard, is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This guy looks just like his twin, Tim. There seems to be no\r\r\r\r\r\n\rdoubt that he is completely prepared to give his life\r\r\r\r\r\n\rfor the King, if necessary.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 900,
+            "Level": 21,
+            "THAC0": 16,
+            "AC": 1,
+            "HP": "8d6+568",
+            "Damage": "1d8+8",
+            "Gold": 1000,
+            "XP": 80000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15022,
+            "Aliases": [
+                "chef",
+                "cook"
+            ],
+            "ShortDesc": "the Chef",
+            "LongDesc": "The Chef is here, shouting orders to the other cooks.\r\r\r\r\r\n\r",
+            "DetailedDesc": "It seems he has been tasting his own food a bit too enthusiastically.\r\r\r\r\r\n\rHe is, in other words, a bit fat.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 24,
+            "THAC0": 16,
+            "AC": -1,
+            "HP": "5d6+785",
+            "Damage": "4d4+4",
+            "Gold": 1000,
+            "XP": 110000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15023,
+            "Aliases": [
+                "cook"
+            ],
+            "ShortDesc": "the Cook",
+            "LongDesc": "There is a Cook here, making himself busy with a pot.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A junior cook, eager to do the Chef's bidding.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 300,
+            "Level": 7,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "5d7+126",
+            "Damage": "1d8+0",
+            "Gold": 50,
+            "XP": 3750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15024,
+            "Aliases": [
+                "david",
+                "guard"
+            ],
+            "ShortDesc": "David",
+            "LongDesc": "David, a big, mean-looking man, stands here, guarding the door.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He really is big, and you get the feeling he wouldn't take kindly\r\r\r\r\r\n\rto an attempt to get past him.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 250,
+            "Level": 22,
+            "THAC0": 18,
+            "AC": 0,
+            "HP": "5d6+651",
+            "Damage": "1d7+10",
+            "Gold": 2000,
+            "XP": 110000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15025,
+            "Aliases": [
+                "dick",
+                "guard"
+            ],
+            "ShortDesc": "Dick",
+            "LongDesc": "Dick, a big, mean-looking man, stands here, guarding the door.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He really is big, and you get the feeling he wouldn't take kindly\r\r\r\r\r\n\rto an attempt to get past him.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 250,
+            "Level": 22,
+            "THAC0": 18,
+            "AC": 0,
+            "HP": "5d6+651",
+            "Damage": "1d7+10",
+            "Gold": 2000,
+            "XP": 110000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15026,
+            "Aliases": [
+                "jerry",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Jerry the Royal guard",
+            "LongDesc": "Jerry the Royal guard is here off duty, playing dice.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Jerry wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. He seems very well trained, and moves like an\r\r\r\r\r\n\rexperienced fighter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 15,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "8d6+360",
+            "Damage": "1d8+4",
+            "Gold": 400,
+            "XP": 62000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15027,
+            "Aliases": [
+                "michael",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Michael the Royal guard",
+            "LongDesc": "Michael the Royal guard is here off duty, playing dice.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Michael wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. He seems very well trained, and moves like an\r\r\r\r\r\n\rexperienced fighter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 15,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "8d6+360",
+            "Damage": "1d8+4",
+            "Gold": 400,
+            "XP": 60000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15028,
+            "Aliases": [
+                "hans",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Hans the Royal guard",
+            "LongDesc": "Hans the Royal guard is here on duty.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Hans wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. He seems very well trained, and moves like a fighter\r\r\r\r\r\n\rwho has seen more than one battle, and longs to see the next!\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 21,
+            "THAC0": 13,
+            "AC": 2,
+            "HP": "8d6+416",
+            "Damage": "1d8+5",
+            "Gold": 400,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15029,
+            "Aliases": [
+                "boris",
+                "guard",
+                "royal"
+            ],
+            "ShortDesc": "Boris the Royal guard",
+            "LongDesc": "Boris the Royal guard is here on duty.\r\r\r\r\r\n\r",
+            "DetailedDesc": "As all members of the Guard, Boris wears the chain mail required of\r\r\r\r\r\n\rthem as uniform. He seems very well trained, and carries his scars\r\r\r\r\r\n\rwith pride. This guy seems tough...\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 22,
+            "THAC0": 15,
+            "AC": 1,
+            "HP": "8d6+485",
+            "Damage": "3d8+7",
+            "Gold": 400,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

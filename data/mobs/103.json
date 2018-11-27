@@ -1,0 +1,4225 @@
+{
+    "mobs": [
+        {
+            "Number": 10300,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10301,
+            "Aliases": [
+                "spider-man",
+                "spider",
+                "man",
+                "spiderman"
+            ],
+            "ShortDesc": "Spider-Man",
+            "LongDesc": "The Amazing Spider-Man is here clinging on his apartment wall...\n",
+            "DetailedDesc": "You see Spidey clinging to the wall -- he looks surprised that you've\nentered the apartment place.  You wonder to yourself what's his \nconnection to Peter Parker...  Spider-Man wears a strange looking \ncostume with a large spider in the center.  He has some web-shooters\non his wrist.  He doesn't look too happy that you're here -- Spidey  \nseems like he's about to spring at you!\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 180,
+            "THAC0": 88,
+            "AC": -32,
+            "HP": "10d10+13500",
+            "Damage": "13d12+70",
+            "Gold": 12000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10302,
+            "Aliases": [
+                "comic",
+                "book",
+                "collector"
+            ],
+            "ShortDesc": "a comic book collector",
+            "LongDesc": "A comic book collector is here looking for more books to add to his collection.\n",
+            "DetailedDesc": "He's just an ordinary comic book collector.  Like any comic book collector\nhe wanders around the convention, looking to find a dealer who's interested\nin trading his worthless comics for some high-grade Silver-Age treasures.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 10,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "10d10+200",
+            "Damage": "3d4+2",
+            "Gold": 1000,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10303,
+            "Aliases": [
+                "dealer",
+                "comic"
+            ],
+            "ShortDesc": "a comic book dealer",
+            "LongDesc": "A comic dealer is trying hard to sell his entire comic collection.   \n",
+            "DetailedDesc": "He's unemployed and in desperate need for money.  It's a shame that he's\nselling all those cool comic books that he had accumulated in the past.\nThe dealer is holding a strange key...it seems to be glowing...  The\ndealer seems to be holding the key firmly as though it was something\nprecious.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 24,
+            "THAC0": 20,
+            "AC": 2,
+            "HP": "10d10+620",
+            "Damage": "5d4+2",
+            "Gold": 1,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10304,
+            "Aliases": [
+                "Jarvis",
+                "butler"
+            ],
+            "ShortDesc": "Jarvis the Avenger's butler",
+            "LongDesc": "Jarvis, the Avenger's loyal butler, is here pruning some shrubbery.\n",
+            "DetailedDesc": "He's a tall, slender fellow wearing a black and white uniform.  He speaks\nwith a British accent and has been serving the Avengers for the last\nthirty years.  Good o' Jarvis is the most trustworthy servant that money\ncan buy... \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 25,
+            "THAC0": 25,
+            "AC": 2,
+            "HP": "10d10+650",
+            "Damage": "6d4+5",
+            "Gold": 1000,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10305,
+            "Aliases": [
+                "incredible",
+                "hulk"
+            ],
+            "ShortDesc": "the Incredible Hulk",
+            "LongDesc": "The Incredible Hulk is ready to destroy everything in sight.       \n",
+            "DetailedDesc": "He's 7 feet tall and weighs over half a ton.  The savage green goliath\ntowers over you.  You begin to shiver...his monstrous size is unimaginable.\nThe Hulk growls at you because he trusts no one.  Don't you think it's\ntime to leave?\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 400,
+            "Level": 72,
+            "THAC0": 68,
+            "AC": -25,
+            "HP": "10d10+8000",
+            "Damage": "12d10+64",
+            "Gold": 100000,
+            "XP": 102000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10306,
+            "Aliases": [
+                "dog",
+                "junk",
+                "yard",
+                "junk-yard"
+            ],
+            "ShortDesc": "a vicious junk-yard dog",
+            "LongDesc": "A vicious junk-yard dog is ready to rip you to pieces!!!\n",
+            "DetailedDesc": "This dog is no Fido...  He's rabid and ready to take you down.    \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 29,
+            "THAC0": 29,
+            "AC": 2,
+            "HP": "1d1+800",
+            "Damage": "4d6+8",
+            "Gold": 10,
+            "XP": 1500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10307,
+            "Aliases": [
+                "security",
+                "guard"
+            ],
+            "ShortDesc": "a security guard",
+            "LongDesc": "A security guard is here looking for any signs of trouble.\n",
+            "DetailedDesc": "He's a typical high-paid guard.  He stands 6'4\" and can kick you butt\nanytime--any day.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 32,
+            "THAC0": 32,
+            "AC": 0,
+            "HP": "1d1+800",
+            "Damage": "7d3+8",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10308,
+            "Aliases": [
+                "thing",
+                "orange",
+                "rock"
+            ],
+            "ShortDesc": "the Thing",
+            "LongDesc": "The Thing cries out,\"It's Clobbering Time!!!\"\n",
+            "DetailedDesc": "You see an ugly looking orange creature...  His skin is made of solid\nrock.  The creature is about 6'4\" and he's MASSIVE.  He looks at you\nwith distaste...it looks like you're in trouble, kiddo.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "SANCTUARY"
+            ],
+            "Alignment": 900,
+            "Level": 58,
+            "THAC0": 62,
+            "AC": -19,
+            "HP": "10d10+3700",
+            "Damage": "10d8+49",
+            "Gold": 40000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10309,
+            "Aliases": [
+                "human",
+                "torch",
+                "fire",
+                "burning"
+            ],
+            "ShortDesc": "the Human Torch",
+            "LongDesc": "The Human Torch is here laughing at Ben Grimm's jokes.\n",
+            "DetailedDesc": "He's the teenage sensation...the dream date for all young girls--he's \nthe dashing Johnny Storm but you can call him the Human Torch.  You\ndon't want to get too close to him--you might get burned...\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 57,
+            "THAC0": 64,
+            "AC": -6,
+            "HP": "10d10+3400",
+            "Damage": "9d9+40",
+            "Gold": 45000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10310,
+            "Aliases": [
+                "fantastic",
+                "mister",
+                "mr",
+                "elastic",
+                "plastic"
+            ],
+            "ShortDesc": "Mr. Fantastic",
+            "LongDesc": "Mr. Fantastic is wondering how Dr. Doom will try to take over the world.\n",
+            "DetailedDesc": "Reed Richards is the leader of the Fantastic Four.  He's valuable not\nfor his pathetic fighting abilities but rather his superior intelligence.\nMr. Fantastic is a cheap imitation of the Plastic Man however he has\nhis unique qualities...\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 56,
+            "THAC0": 63,
+            "AC": -6,
+            "HP": "10d10+3500",
+            "Damage": "9d9+45",
+            "Gold": 50000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10311,
+            "Aliases": [
+                "invisible",
+                "woman",
+                "girl",
+                ""
+            ],
+            "ShortDesc": "the Invisible Woman",
+            "LongDesc": "The Invisible Woman is wondering if anyone would ever notice her presence.\n",
+            "DetailedDesc": "She's invisible...  The Invisible Woman is also known as Susan Storm       \nRichards.  She's a very attractive young woman--it's a shame she likes\nold guys like Reed Richards.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 55,
+            "THAC0": 62,
+            "AC": -9,
+            "HP": "10d10+2000",
+            "Damage": "10d7+45",
+            "Gold": 50000,
+            "XP": 62000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10312,
+            "Aliases": [
+                "iron",
+                "man",
+                "steel",
+                "armor"
+            ],
+            "ShortDesc": "the Iron Man",
+            "LongDesc": "The Invincible Iron Man is trying to keep the Avengers in order.\n",
+            "DetailedDesc": "The man behind the armor is Tony Stark, multi-millionaire and entrepreneur.\n He also leads the Avengers when Captain America is absent.  Iron Man\nis a capable leader and also an intelligent strategist.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "SANCTUARY",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 62,
+            "THAC0": 69,
+            "AC": -28,
+            "HP": "10d10+5700",
+            "Damage": "12d9+55",
+            "Gold": 100000,
+            "XP": 79000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10313,
+            "Aliases": [
+                "giant",
+                "man",
+                "giant-man"
+            ],
+            "ShortDesc": "the Giant-Man",
+            "LongDesc": "A BIG, TALL guy is standing here watching where he's stepping...must be Giant-Man.\n",
+            "DetailedDesc": "He's can adjust his growth to be much taller than a 4 story building.  Hank\nPym also know as Giant-Man has developed a formula which could alter\nthe size of any living matter.  He became Giant-Man to use his new found\nformula for combat the forces of evil.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 53,
+            "THAC0": 50,
+            "AC": -5,
+            "HP": "10d10+2100",
+            "Damage": "6d6+25",
+            "Gold": 25000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10314,
+            "Aliases": [
+                "wasp",
+                "sting",
+                "small",
+                "bug",
+                "woman"
+            ],
+            "ShortDesc": "the Wasp",
+            "LongDesc": "There's a annoying bug here flying everywhere in the room...must be that Wasp.\n",
+            "DetailedDesc": "The Wasp is so small, she could sneak into any room without anyone knowing.\nShe's so tiny but don't be fooled by her size--the Wasp can sting...\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "HIDE"
+            ],
+            "Alignment": 1000,
+            "Level": 51,
+            "THAC0": 50,
+            "AC": -5,
+            "HP": "10d10+1800",
+            "Damage": "7d5+20",
+            "Gold": 50000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10315,
+            "Aliases": [
+                "hawkeye",
+                "hawk",
+                "eye",
+                "archer",
+                "arrow"
+            ],
+            "ShortDesc": "Hawkeye",
+            "LongDesc": "The Avenger's archer, Hawkeye, is here waiting to be leader someday *sigh*\n",
+            "DetailedDesc": "Hawkeye is the most accurate archer of all time.  He can shoot an arrow\nthat'll reach its target every time.  Hawkeye is also a skilled fighter.\n ",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 900,
+            "Level": 54,
+            "THAC0": 50,
+            "AC": -6,
+            "HP": "10d10+2000",
+            "Damage": "6d6+24",
+            "Gold": 55000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10316,
+            "Aliases": [
+                "vision",
+                "android"
+            ],
+            "ShortDesc": "Vision",
+            "LongDesc": "The super-android name Vision is here to assist the leader.\n",
+            "DetailedDesc": "The Vision is one of the most powerful Avengers.  He can easily change\nthe molecular matter of his body.  He can pass through walls like a\nghost...\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 53,
+            "THAC0": 42,
+            "AC": -5,
+            "HP": "10d10+1810",
+            "Damage": "6d6+34",
+            "Gold": 54000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10317,
+            "Aliases": [
+                "scarlet",
+                "witch",
+                "woman",
+                "sorceress",
+                "magic"
+            ],
+            "ShortDesc": "the Scarlet Witch",
+            "LongDesc": "The Scarlet Witch is trying hard to learn some new spells.\n",
+            "DetailedDesc": "She's considered the Sorceress Supreme in the Marvel Universe.  Though\nshe once served the mutant menace named Magneto...Scarlet Witch has\nbeen reformed.  She uses her black magics to conquer all her foes...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 500,
+            "Level": 52,
+            "THAC0": 49,
+            "AC": -6,
+            "HP": "10d10+1850",
+            "Damage": "6d6+28",
+            "Gold": 50000,
+            "XP": 62000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10318,
+            "Aliases": [
+                "quicksilver",
+                "silver",
+                "quick",
+                "speedster"
+            ],
+            "ShortDesc": "Quicksilver",
+            "LongDesc": "Quicksilver is wondering if he can beat the Flash in a race.\n",
+            "DetailedDesc": "Quicksilver is probably the fastest man in the Marvel Universe.  He's\namazingly quick and agile for a mutant.  Quicksilver is the brother of\nScarlet Witch.  Together they join the Avengers to combat the forces\nof evil.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SNEAK"
+            ],
+            "Alignment": 1000,
+            "Level": 53,
+            "THAC0": 48,
+            "AC": -6,
+            "HP": "10d10+1900",
+            "Damage": "7d5+29",
+            "Gold": 50000,
+            "XP": 63000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10319,
+            "Aliases": [
+                "hercules",
+                "olympian",
+                "strongman",
+                "muscle"
+            ],
+            "ShortDesc": "Hercules",
+            "LongDesc": "Hercules is here flexing his oversize muscles...showoff...\n",
+            "DetailedDesc": "The son of Zeus is always ready for combat.  His size and strenght are\nunmatched (with the exception of Thor, Hulk, Thing...err forget that line).\nHercules is the strongman of the Avengers.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 1000,
+            "Level": 54,
+            "THAC0": 47,
+            "AC": -6,
+            "HP": "10d10+1950",
+            "Damage": "6d6+28",
+            "Gold": 56000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10320,
+            "Aliases": [
+                "black",
+                "knight",
+                "swordsman"
+            ],
+            "ShortDesc": "the Black Knight",
+            "LongDesc": "A knight in dark armor is here polishing his ethereal sword.\n",
+            "DetailedDesc": "The Black Knight is the greatest swordsman that ever lived.  When he \nwields his magical blade there is none who can match him in the arts\nof sword fighting.  The Black Knight is one of the oldest and the \nmost celebrated Avenger.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_MAGIC",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 54,
+            "THAC0": 48,
+            "AC": -6,
+            "HP": "10d10+1980",
+            "Damage": "7d5+29",
+            "Gold": 60000,
+            "XP": 64000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10321,
+            "Aliases": [
+                "high",
+                "evolutionary",
+                "creator",
+                "god"
+            ],
+            "ShortDesc": "the High Evolutionary ",
+            "LongDesc": "The High Evolutionary wants to create the most perfect living creature.\n",
+            "DetailedDesc": "You see a man covered in armor from all places.  He wears an iron mask\nto conceal his identity.  His uniform makes him more godly so that his\n\"creation\" would look up to him for guidance.  The High Evolutionary\nis considered by many to be a GOD...he can destroy you with ease.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 500,
+            "Level": 60,
+            "THAC0": 64,
+            "AC": -19,
+            "HP": "10d10+5300",
+            "Damage": "10d11+55",
+            "Gold": 60000,
+            "XP": 69000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10322,
+            "Aliases": [
+                "king",
+                "conan",
+                "kingconan"
+            ],
+            "ShortDesc": "Conan the Barbarian",
+            "LongDesc": "King Conan is here praying to his God -- Crom.\n",
+            "DetailedDesc": "He's as savage as the legends claim him to be.  Conan is a big fellow --\nhis muscles are bulging out from his fur cloak.  No matter what age\nConan may be, he's still the toughest Cimmerian there will ever be.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 600,
+            "Level": 60,
+            "THAC0": 66,
+            "AC": -20,
+            "HP": "10d10+5100",
+            "Damage": "10d13+51",
+            "Gold": 60000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10323,
+            "Aliases": [
+                "sonja",
+                "red",
+                "woman",
+                "warrior",
+                "cimmerian"
+            ],
+            "ShortDesc": "Red Sonja",
+            "LongDesc": "Red Sonja the Lady Warrior is looking for a punk to kill.\n",
+            "DetailedDesc": "Red Sonja is a very attractive woman...  Her hair is the deepest red.  She's\none of the greatest warriors of her time.  Red Sonja is determined to \nfind the men who did her wrong.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 800,
+            "Level": 41,
+            "THAC0": 39,
+            "AC": -4,
+            "HP": "1d1+1200",
+            "Damage": "6d6+32",
+            "Gold": 1000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10324,
+            "Aliases": [
+                "firelord",
+                "fire",
+                "lord",
+                "cosmic",
+                "herald"
+            ],
+            "ShortDesc": "Firelord",
+            "LongDesc": "Firelord is soaring through space looking for some action.\n",
+            "DetailedDesc": "Firelord is a cosmic being of enormous power.  He's capable of destroying\na galaxy with just a small fraction of his awesome power cosmic.  He\nonce served the World-Devourer, Galactus.  Firelord looks as though his\nis on fire.  He wields a staff which he channels and directs his cosmic\npowers.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 400,
+            "Level": 42,
+            "THAC0": 52,
+            "AC": -5,
+            "HP": "1d1+1220",
+            "Damage": "6d6+26",
+            "Gold": 2000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10325,
+            "Aliases": [
+                "nova",
+                "cosmic",
+                "herald",
+                ""
+            ],
+            "ShortDesc": "Nova",
+            "LongDesc": "Nova is searching for a planet for her hungry master...Galactus!\n",
+            "DetailedDesc": "Nova is the currently the herald of the World-Devourer, Galactus.  She\nis constantly in search of a planet for her master's unsatiable \nappetite.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 300,
+            "Level": 44,
+            "THAC0": 43,
+            "AC": -5,
+            "HP": "10d10+650",
+            "Damage": "6d6+28",
+            "Gold": 4000,
+            "XP": 32000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10326,
+            "Aliases": [
+                "warlock",
+                "him",
+                "infinity",
+                ""
+            ],
+            "ShortDesc": "Warlock",
+            "LongDesc": "A man in a long cloak is riding through space...looks like the Warlock...\n",
+            "DetailedDesc": "Warlock is one of the most powerful beings in space.  He is the keeper\nof the six infinity gems.  Warlock travels with his companions through\nhis cosmic journey to understand the universe.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "PROTECT_EVIL"
+            ],
+            "Alignment": 1000,
+            "Level": 52,
+            "THAC0": 58,
+            "AC": -7,
+            "HP": "10d10+850",
+            "Damage": "6d6+32",
+            "Gold": 5600,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10327,
+            "Aliases": [
+                "drax",
+                "destroyer"
+            ],
+            "ShortDesc": "Drax the Destroyer",
+            "LongDesc": "Drax is riding the spaceways with his pal, Warlock.\n",
+            "DetailedDesc": "Drax is not a guy you'd like to mess with.  He's probably the strongest\nguy in the universe...his strenght can match that of the Hulk's.  The \nonly weakness to Drax is that he has a mind of a 7 year old...      \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 1000,
+            "Level": 37,
+            "THAC0": 43,
+            "AC": -2,
+            "HP": "1d1+900",
+            "Damage": "6d6+25",
+            "Gold": 2000,
+            "XP": 16000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10328,
+            "Aliases": [
+                "moondragon",
+                "moon",
+                "dragon"
+            ],
+            "ShortDesc": "Moondragon",
+            "LongDesc": "Moondragon is traveling with Warlock to protect the universe.\n",
+            "DetailedDesc": "Moondragon is a priestess from another world, far from our own.  She's\ngifted in many areas such as the art of fighting.  She also has \nmental abilities (telekinetic) that are so powerful that even she\ncould not control them.  Moondragon is an attractive woman even though\nshe's bald *gasp*.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 1000,
+            "Level": 35,
+            "THAC0": 42,
+            "AC": -2,
+            "HP": "1d1+850",
+            "Damage": "6d5+30",
+            "Gold": 2000,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10329,
+            "Aliases": [
+                "quasar",
+                "comet",
+                "cosmic"
+            ],
+            "ShortDesc": "Quasar",
+            "LongDesc": "Watch Out!  A comet is headed this way!  wait a sec...it's only Quasar.\n",
+            "DetailedDesc": "Quasar is an earthling who was given the cosmic bands to defend the\nuniverse from evil space invaders.  Quasar has the powers to convert\nlight into solid objects.  His powers make him one of Marvel's most\npowerful super-heroes.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 39,
+            "THAC0": 57,
+            "AC": -3,
+            "HP": "1d1+900",
+            "Damage": "6d6+31",
+            "Gold": 2000,
+            "XP": 14000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10330,
+            "Aliases": [
+                "skrull",
+                "soldier",
+                "killer"
+            ],
+            "ShortDesc": "a Skrull soldier",
+            "LongDesc": "A Skrull soldier is looking forward to killing some stinkin' humans.\n",
+            "DetailedDesc": "Boy, those damn Skrulls are sure butt-ugly!  Their green skins and\nlarge pointy ears are just repulsive.  However, they think the same\nway about humans.  This Skrull soldier wants to ravage the earth\nusing their new space portal.  Is there anyone who can save us\nfrom these monsters?\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "WIMPY",
+                "HELPER",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 25,
+            "THAC0": 28,
+            "AC": -1,
+            "HP": "1d1+510",
+            "Damage": "5d4+10",
+            "Gold": 1000,
+            "XP": 4500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10331,
+            "Aliases": [
+                "thanos",
+                "thano",
+                "titan"
+            ],
+            "ShortDesc": "Thanos the Titan",
+            "LongDesc": "Thanos is devising a new plan to conquer the universe!\n",
+            "DetailedDesc": "Thanos is known and feared throughout the universe.  His name scares \neven the most powerful, celestrial beings.  Thanos is always planning\nhow he can acquire more and more power.  He plans to rule the universe\none day, under HIS iron fist!\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "UNUSED17"
+            ],
+            "Alignment": -500,
+            "Level": 65,
+            "THAC0": 68,
+            "AC": -14,
+            "HP": "10d10+4300",
+            "Damage": "8d9+47",
+            "Gold": 100000,
+            "XP": 86000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10332,
+            "Aliases": [
+                "punk",
+                "loser",
+                "drug",
+                "drugpusher",
+                "addict",
+                "criminal"
+            ],
+            "ShortDesc": "a punk",
+            "LongDesc": "A punk is here trying to sell some dope.\n",
+            "DetailedDesc": "He's a stinkin' punk alright.  This drugpusher has been selling drugs\nsince he was a teen.  He'll kill you for money because he's an addict\nhimself.  This low-life has ruin the lives of many...don't you think\nit's time to pay this sucka back?\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "HELPER",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 18,
+            "THAC0": 13,
+            "AC": 2,
+            "HP": "1d1+300",
+            "Damage": "4d4+10",
+            "Gold": 500,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10333,
+            "Aliases": [
+                "drug",
+                "addict",
+                "loser",
+                "users",
+                "user"
+            ],
+            "ShortDesc": "a drug addict",
+            "LongDesc": "A drug addict is here shooting needles and sniffing coke.\n",
+            "DetailedDesc": "He's a total loser.  This man turn to drugs to escape the problems of\nthe world and in his life.  You wonder to yourself if this slime\ndeserves your pity...\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 8,
+            "THAC0": 8,
+            "AC": 1,
+            "HP": "1d1+180",
+            "Damage": "4d1+1",
+            "Gold": 10,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10334,
+            "Aliases": [
+                "thunder",
+                "strike",
+                "thunderstrike",
+                "thor",
+                "imitator",
+                "fake",
+                "god"
+            ],
+            "ShortDesc": "Thunderstrike ",
+            "LongDesc": "Thunderstrike is here searching for adventure and excitement.\n",
+            "DetailedDesc": "Thunderstrike was an ordinary human being who was transformed into a\ngod.  He became the second Thor but had to later relinquish that title.\nThunderstrike is a big blonde fellow, he looks and sometimes act like\nthe real Thor.  He even wields a hammer that looks like the real deal.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 1000,
+            "Level": 43,
+            "THAC0": 53,
+            "AC": -2,
+            "HP": "1d1+1200",
+            "Damage": "6d5+27",
+            "Gold": 9000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10335,
+            "Aliases": [
+                "loki",
+                "mischief",
+                "mischievious",
+                "god",
+                "asgardian",
+                "evil"
+            ],
+            "ShortDesc": "Loki, the God of Mischief",
+            "LongDesc": "Loki is plotting to take over Asgard with his evil allies.\n",
+            "DetailedDesc": "The Asgardian God is always determined to take over this kingdom.  He\nis determined to humble the noble Thor as well as his own father,\nthe mighty Odin.  Loki is the master schemer, however, he doesn't\nhave much success when Thor's there to stop him.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_MAGIC",
+                "SANCTUARY",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 64,
+            "THAC0": 66,
+            "AC": -24,
+            "HP": "10d10+5800",
+            "Damage": "10d9+50",
+            "Gold": 50000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10336,
+            "Aliases": [
+                "tiger",
+                "shark",
+                "fish",
+                "killer",
+                ""
+            ],
+            "ShortDesc": "Tiger Shark",
+            "LongDesc": "The Tiger Shark is ready to tear your apart...come a little closer...\n",
+            "DetailedDesc": "The Tiger Shark is a vicious killer.  He's in a quest to dominate the\n7 seas and to seek revenge upon the Sub-mariner for defeating him in\nevery battle.  Tiger Shark is a dangerous predator and he's no one\nyou should fool around with...\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 43,
+            "THAC0": 44,
+            "AC": -4,
+            "HP": "1d1+1190",
+            "Damage": "6d5+29",
+            "Gold": 25000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10337,
+            "Aliases": [
+                "attuma"
+            ],
+            "ShortDesc": "Attuma",
+            "LongDesc": "Attuma, the self-proclaimed Master of the 7 Seas, is looking for Namor.\n",
+            "DetailedDesc": "Attuma is truly a magnificent being.  He fighting skills underwater can\nmatch that of the Sub-Mariner himself.  Attuma has rarely lost a battle.\nThough he has lost to Namor the Sub-Mariner in countless confrontations--\nAttuma has defeated every other challengers who seek to take his throne.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -900,
+            "Level": 46,
+            "THAC0": 42,
+            "AC": -5,
+            "HP": "1d1+1000",
+            "Damage": "6d6+26",
+            "Gold": 20000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10338,
+            "Aliases": [
+                "captain",
+                "america",
+                "patriot",
+                "flag",
+                "us",
+                "freedom",
+                "fighter"
+            ],
+            "ShortDesc": "Captain America",
+            "LongDesc": "Captain America is trying to rid the world of crime and wrong-doers.\n",
+            "DetailedDesc": "Captain America, the patriotic super-hero, is always dedicated to stop\nthe Red Skull and all other super-baddies from harming innocent lives.\nHe is trusted by the President himself.  Cap is the most noble and\nhonest super-hero today.  Captain America wears a uniform made from\nthe US and a shield made of pure adamantium.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 150,
+            "THAC0": 88,
+            "AC": -34,
+            "HP": "10d10+17000",
+            "Damage": "18d11+69",
+            "Gold": 25000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10339,
+            "Aliases": [
+                "lord",
+                "mephisto",
+                "lordmephisto"
+            ],
+            "ShortDesc": "Mephisto",
+            "LongDesc": "Mephisto, the Lord of the Underworld, welcomes you to HELL!!!\n",
+            "DetailedDesc": "Mephisto is the master of the realm known as Hell.  He is truly evil\nincarnate.  Mephisto has taken the souls of many innocent people.  He'd\neven tried taking one from a super-being.  Mephisto is a powerful\nbeing who's well respected by the celestrial powers.  His \"magicks\" \nmake him the most deadliest adversary.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16"
+            ],
+            "Alignment": -1000,
+            "Level": 67,
+            "THAC0": 67,
+            "AC": -14,
+            "HP": "10d10+6000",
+            "Damage": "9d9+58",
+            "Gold": 100000,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10340,
+            "Aliases": [
+                "ghost",
+                "rider",
+                "spirit",
+                "revenge"
+            ],
+            "ShortDesc": "Ghost Rider",
+            "LongDesc": "The Ghost Rider wants to wrap his chains around Mephisto's neck.\n",
+            "DetailedDesc": "The Ghost Rider is truly a Spirit of Vengeance.  He seeks to stop \nmurdering super-villains as well as evil demons from harming the\ninnocent.  Ghost Rider is a supernatural being himself.  His hellfire\ncan surely burn through even the toughest stone walls!\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 400,
+            "Level": 50,
+            "THAC0": 58,
+            "AC": -6,
+            "HP": "1d1+800",
+            "Damage": "6d6+24",
+            "Gold": 16000,
+            "XP": 26000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10341,
+            "Aliases": [
+                "mary",
+                "jane",
+                "watson",
+                "mrs.",
+                "parker",
+                "wife",
+                "woman"
+            ],
+            "ShortDesc": "Mary Jane Watson Parker",
+            "LongDesc": "Mary Jane is here doing the dishes and waiting for her hubby to come home.\n",
+            "DetailedDesc": "She's a glamourous model and soap star.  That Peter Parker is sure lucky\nto have a wife like her.  Mary Jane has nice, long red hair that matches\nher luscious lips...you can imagine the rest ;)\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": 1000,
+            "Level": 30,
+            "THAC0": 30,
+            "AC": 1,
+            "HP": "10d10+1000",
+            "Damage": "5d5+30",
+            "Gold": 1000,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10342,
+            "Aliases": [
+                "aunt",
+                "may",
+                "ms.",
+                "parker",
+                "old",
+                "lady",
+                ""
+            ],
+            "ShortDesc": "Aunt May",
+            "LongDesc": "An old lady is going out to buy some grocery for her nephew.\n",
+            "DetailedDesc": "She's just a feeble, old lady.  A kind, gentle person...  There's no  \nneed to hurt such a friendly person. \n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 52,
+            "THAC0": 50,
+            "AC": -5,
+            "HP": "1d1+2000",
+            "Damage": "6d6+25",
+            "Gold": 10,
+            "XP": 1300,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10343,
+            "Aliases": [
+                "namor",
+                "sub-mariner",
+                "sub",
+                "mariner",
+                "prince",
+                "sea",
+                "atlantis"
+            ],
+            "ShortDesc": "Namor the Sub-Mariner",
+            "LongDesc": "Prince Namor, the king of Atlantis, is here.\n",
+            "DetailedDesc": "The Sub-Mariner is not a person anyone would want to mess with.  He has\nthe strenght of the Hulk and a very powerful army behind him.  Namor\nis the king of all atlantis and an enemy of all humans.  He had tried\non several occasions to invade the continents and was stopped by the\nFantastic Four.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -10,
+            "Level": 65,
+            "THAC0": 62,
+            "AC": -22,
+            "HP": "10d10+6000",
+            "Damage": "12d9+50",
+            "Gold": 90000,
+            "XP": 87000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10344,
+            "Aliases": [
+                "dead",
+                "pool",
+                "deadpool",
+                "assassin-for-hire",
+                "assassin",
+                "hire"
+            ],
+            "ShortDesc": "Deadpool",
+            "LongDesc": "Deadpool, the deadly assassin, is here waiting for a job.\n",
+            "DetailedDesc": "Deadpool is one of the most high-paid assassin in the world.  He is a\nmutant with the power to heal himself quickly.  He even can regenerate\nan arm if it was severed during an \"accident.\"  Deadpool is quick and\nagile.  He's also an expert in using all sorts of weapons.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 64,
+            "THAC0": 62,
+            "AC": -15,
+            "HP": "10d10+5500",
+            "Damage": "12d7+50",
+            "Gold": 75000,
+            "XP": 76000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10345,
+            "Aliases": [
+                "daredevil",
+                "dare",
+                "devil",
+                "red",
+                "mask",
+                "costume",
+                "murdock",
+                "matt"
+            ],
+            "ShortDesc": "Daredevil",
+            "LongDesc": "A man in a red mask and costume is standing here.\n",
+            "DetailedDesc": "Matt Murdock is the Daredevil, the Man without Fear!  Daredevil's \npower is his superhuman senses.  Blind for life because of an accident,\nMurdock was exposed to a mutagen which gave him his power to \"see\"\nthings with his sonar-like senses.  Daredevil wields a billy-club \nwhich he uses often in battle with super-villains.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "BLIND",
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 66,
+            "THAC0": 64,
+            "AC": -16,
+            "HP": "10d10+6800",
+            "Damage": "12d9+50",
+            "Gold": 79000,
+            "XP": 85000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10346,
+            "Aliases": [
+                "typhoid",
+                "mary",
+                "ninja",
+                "crazy",
+                "pshychotic"
+            ],
+            "ShortDesc": "Typhoid Mary",
+            "LongDesc": "A pshychotic-looking woman with two long katanas is looking at you *gulp*\n",
+            "DetailedDesc": "Typhoid Mary is not your ordinary assassin-for-hire.  She's on of\nKingpin's top hitman...err...hitwoman.  Mary wields two sharp kitana--\nshe is a master of ninjitsu and has kicked Daredevil's butt several\ntimes.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -500,
+            "Level": 53,
+            "THAC0": 50,
+            "AC": -4,
+            "HP": "10d10+1800",
+            "Damage": "7d6+20",
+            "Gold": 30000,
+            "XP": 39000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10347,
+            "Aliases": [
+                "bullseye",
+                "bull",
+                "eye",
+                "bulls",
+                "assassin",
+                ""
+            ],
+            "ShortDesc": "Bullseye",
+            "LongDesc": "Bullseye the lethal assassin is here waiting for someone to piss him off.\n",
+            "DetailedDesc": "Bullseye is a master of martial arts -- no matter what style.  He has\nfought many opponents and rarely does he ever loses.  Bullseye is the\nmost accurate sharpshooter and he never misses his target.  His\nemployer is Wilson Fisk aka the Kingpin...and Mr. Fisk pays him a lot!\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -1000,
+            "Level": 53,
+            "THAC0": 60,
+            "AC": -5,
+            "HP": "10d10+1800",
+            "Damage": "6d7+21",
+            "Gold": 40000,
+            "XP": 43000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10348,
+            "Aliases": [
+                "Rose",
+                "fisk",
+                "son",
+                "masked",
+                "man",
+                ""
+            ],
+            "ShortDesc": "the Rose",
+            "LongDesc": "A man in a purple mask and an Armani suit is quietly reading a newspaper.\n",
+            "DetailedDesc": "The Rose is not a person any man should mess with.  Though he has\nplotted against his father, the Kingpin, in the past the Rose has\nalways admire his father's ruthless tactics.    \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -1000,
+            "Level": 43,
+            "THAC0": 39,
+            "AC": -4,
+            "HP": "1d1+1200",
+            "Damage": "6d5+25",
+            "Gold": 25000,
+            "XP": 29000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10349,
+            "Aliases": [
+                "fisk",
+                "wilson",
+                "kingpin",
+                "fatman",
+                "fat",
+                "man",
+                "criminal",
+                "mastermind"
+            ],
+            "ShortDesc": "Kingpin",
+            "LongDesc": "Wilson Fisk the Kingpin of Crime is staring down at you!\n",
+            "DetailedDesc": "He is the mastermind behind the takeover of Apocalypse City.  The \nKingpin is well-known throughout the world as a kind and loving person.\nIt's a shame that most people don't know Fisk like you do.  He's a\ndrug dealer, a murderer, and everything else that's associate with\nthe criminal underworld.  Wilson Fisk is not exactly a man with you\nwrestle with.  Though he weighs more than 300 pounds -- Fisk is a\nmaster of judo plus many other arts of fighting!\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 63,
+            "THAC0": 67,
+            "AC": -12,
+            "HP": "10d10+5200",
+            "Damage": "9d8+50",
+            "Gold": 100000,
+            "XP": 72000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10350,
+            "Aliases": [
+                "mighty",
+                "thor",
+                "asgardian",
+                "prince",
+                "thunder",
+                "god"
+            ],
+            "ShortDesc": "the Mighty Thor",
+            "LongDesc": "Thor, the God of Thunder, is singing love songs to the fair maiden, Sif.\n",
+            "DetailedDesc": "Thor is one of the most noble gods in Asgard.  He is the son of the \nAll-Father Odin and is the next in line for the throne providing that\nOdin the immortal may die in a mishap someday.  Thor wields his\nmighty hammer which is made from the mystical and indestructible\nuru metal.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 74,
+            "THAC0": 68,
+            "AC": -22,
+            "HP": "10d10+8000",
+            "Damage": "12d11+65",
+            "Gold": 222000,
+            "XP": 200000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10351,
+            "Aliases": [
+                "Sif",
+                "lady",
+                "asgardian",
+                "goddess",
+                "god",
+                "pretty"
+            ],
+            "ShortDesc": "Sif",
+            "LongDesc": "The Lady Sif is here listening to Thor's wonderful songs...\n",
+            "DetailedDesc": "The Asgardian Goddess is well-known in the Norse folklore.  She was\nthe first love of Thor, the God of Thunder.  Sif is a master swords-man\nand she will fight for Asgard and to protect her beloved.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 33,
+            "THAC0": 38,
+            "AC": -2,
+            "HP": "1d1+800",
+            "Damage": "5d6+21",
+            "Gold": 3400,
+            "XP": 16000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10352,
+            "Aliases": [
+                "odin",
+                "ruler"
+            ],
+            "ShortDesc": "Odin",
+            "LongDesc": "Odin, the Ruler of Asgard, is sitting on his mighty throne.\n",
+            "DetailedDesc": "Odin is the All-Father of Asgard.  He is the most powerful Asgardian in\nthe kingdom.  Odin is a noble man even though he had made many bad\njudgements in the past.  Odin has a long white beard and a suit made\nof pure mystical steel.  \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 65,
+            "THAC0": 64,
+            "AC": -14,
+            "HP": "10d10+5900",
+            "Damage": "10d10+48",
+            "Gold": 70000,
+            "XP": 77000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10353,
+            "Aliases": [
+                "electro",
+                "electric",
+                "shock",
+                "shocker"
+            ],
+            "ShortDesc": "Electro",
+            "LongDesc": "Electro wants to give you a warm handshake -- come over here...\n",
+            "DetailedDesc": "Electro can generater unlimited amount of electricity from his body.  His\nelectric shock can burn you into ashes.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -900,
+            "Level": 38,
+            "THAC0": 42,
+            "AC": -1,
+            "HP": "1d1+900",
+            "Damage": "6d5+23",
+            "Gold": 10000,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10354,
+            "Aliases": [
+                "carnage",
+                "symbiote",
+                "venom",
+                ""
+            ],
+            "ShortDesc": "Carnage",
+            "LongDesc": "Carnage is here on a murdering spree!\n",
+            "DetailedDesc": "Carnage is the \"offspring\" of Venom.  His costume is made of the same\nalien substance as that of Venom's.  Carnage is much more ruthless and\ndangerous than any deranged criminal.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 42,
+            "THAC0": 44,
+            "AC": -1,
+            "HP": "1d1+1050",
+            "Damage": "7d5+27",
+            "Gold": 4000,
+            "XP": 21000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10355,
+            "Aliases": [
+                "kang"
+            ],
+            "ShortDesc": "Kang",
+            "LongDesc": "Kang, the master of time, is planning to take over the world.\n",
+            "DetailedDesc": "Kang is a criminal of the future, the past, and the present.  He is a\ndangerous man to deal with.  He can use actually use \"time\" as an\nultimate weapon against his enemies.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -800,
+            "Level": 39,
+            "THAC0": 42,
+            "AC": -1,
+            "HP": "1d1+900",
+            "Damage": "5d6+21",
+            "Gold": 12000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10356,
+            "Aliases": [
+                "vulture",
+                "bird",
+                "prey",
+                "old",
+                "geezer",
+                ""
+            ],
+            "ShortDesc": "Vulture",
+            "LongDesc": "A bird of prey named the Vulture is here looking for Spider-Man.\n",
+            "DetailedDesc": "Vulture has been a nemesis of Spider-Man for quite sometime.  His\npower of flight and manueverability in the air makes him a deadly\nfoe.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -800,
+            "Level": 37,
+            "THAC0": 49,
+            "AC": 0,
+            "HP": "1d1+800",
+            "Damage": "6d4+24",
+            "Gold": 9000,
+            "XP": 16000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10357,
+            "Aliases": [
+                "robot",
+                "guard",
+                "doom",
+                "servant",
+                "slave",
+                "dr."
+            ],
+            "ShortDesc": "a robot guard",
+            "LongDesc": "A robot guard of Dr. Doom is protecting his master.\n",
+            "DetailedDesc": "He looks exactly like Dr. Doom himself but he's only a robot...right?\nThese robots are designed to attack anyone to tries to harm Doom.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 20,
+            "THAC0": 20,
+            "AC": -1,
+            "HP": "1d1+500",
+            "Damage": "4d4+15",
+            "Gold": 1500,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10358,
+            "Aliases": [
+                "dr.",
+                "dr",
+                "doom",
+                "man"
+            ],
+            "ShortDesc": "Dr. Doom",
+            "LongDesc": "A man in an iron mask is looking at you and laughing out loud!\n",
+            "DetailedDesc": "Dr. Doom is one of the earth's most \"brightest\" criminal masterminds.\nHe is a master of science as well as the mystic arts.  Doom is the\nmost elusive super-villain because of his superior intelligence and \nwit.  \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 49,
+            "THAC0": 38,
+            "AC": -9,
+            "HP": "10d10+1200",
+            "Damage": "7d7+32",
+            "Gold": 20000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10359,
+            "Aliases": [
+                "dr.",
+                "doctor",
+                "doom",
+                "doctordoom"
+            ],
+            "ShortDesc": "Dr. Doom",
+            "LongDesc": "The real Dr. Doom is preparing for a battle with YOU!\n",
+            "DetailedDesc": "This is the ORIGINAL Dr. Doom not that robot fake you've just fought.\nDr. Doom laughs at you...  He doesn't think you have what it takes\nto stop him from taking over the world.  Doom wears an iron mask as\nwell as an armor all over his body.  He has gauntlets which could\nsend out a powerful burst of energy to his victim.  \n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 67,
+            "THAC0": 64,
+            "AC": -14,
+            "HP": "10d10+6200",
+            "Damage": "12d9+54",
+            "Gold": 98000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10360,
+            "Aliases": [
+                "dr",
+                "dr.",
+                "octopus",
+                "doctor",
+                "otto",
+                "octavius",
+                "tentacles"
+            ],
+            "ShortDesc": "Doctor Octopus",
+            "LongDesc": "Doctor Octopus walks across the room using his adamantium tentacles.\n",
+            "DetailedDesc": "You see a man with four long steel tentacles.  These tentacles are \nconnected to his body.  Doctor Octupus uses these tentacles as a \nmeans of controlling his criminal empire.  His tentacles are made\nof pure adamantium, the same substance used for Captain America's shield\nand Wolverine's skeleton!\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "UNUSED16"
+            ],
+            "Alignment": -1000,
+            "Level": 42,
+            "THAC0": 44,
+            "AC": -4,
+            "HP": "1d1+1050",
+            "Damage": "6d6+25",
+            "Gold": 30000,
+            "XP": 32000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10361,
+            "Aliases": [
+                "abomination",
+                "gamma",
+                "ray",
+                "hulk",
+                "monster",
+                "creature"
+            ],
+            "ShortDesc": "Abomination",
+            "LongDesc": "A green, scaly creature is ready to rip your head off -- he's the Abomination.\n",
+            "DetailedDesc": "The Abomination was exposed to gamma radiation similar to the Hulk...\nhowever his dosage was even greater.  That accident turned him into\na maniac with the strenght that even the Hulk can't match.  The\nAbomination is a green, scaly type creature -- he looks like a Merman.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -900,
+            "Level": 40,
+            "THAC0": 42,
+            "AC": -5,
+            "HP": "1d1+910",
+            "Damage": "6d5+24",
+            "Gold": 5000,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10362,
+            "Aliases": [
+                "waitress",
+                "mutant",
+                "waiter",
+                "server",
+                "woman"
+            ],
+            "ShortDesc": "a waitress",
+            "LongDesc": "A waitress with tight jeans is here to serve your needs.\n",
+            "DetailedDesc": "She's cute alright.  She wears some pretty tight jeans...maybe you\nshould ask her for her number.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 10,
+            "Level": 10,
+            "THAC0": 10,
+            "AC": 6,
+            "HP": "1d1+100",
+            "Damage": "4d1+1",
+            "Gold": 100,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10363,
+            "Aliases": [
+                "emma",
+                "frost",
+                "white",
+                "queen",
+                "whitequeen"
+            ],
+            "ShortDesc": "Emma Frost, the White Queen",
+            "LongDesc": "The White Queen is here drinking her usual -- a Bloody Mary.\n",
+            "DetailedDesc": "Emma Frost aka the White Queen is a mutant of great power.  Her power\nof telekinetic is impossible to match.  The White Queen wears a\nkinky leather outfit and a long white cape.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "AGGR_GOOD",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 39,
+            "THAC0": 44,
+            "AC": -4,
+            "HP": "1d1+950",
+            "Damage": "6d5+27",
+            "Gold": 10000,
+            "XP": 13000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10364,
+            "Aliases": [
+                "omega",
+                "red",
+                "tentacles",
+                "evil",
+                "mutant"
+            ],
+            "ShortDesc": "Omega Red",
+            "LongDesc": "Omega Red is trying to think of a way to kill Wolverine.\n",
+            "DetailedDesc": "Omega Red is the eternal enemy of Wolverine.  He wears a red and white\narmor with a large tentacle connected to each of his hands. \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "AGGR_GOOD",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 41,
+            "THAC0": 42,
+            "AC": -5,
+            "HP": "1d1+1000",
+            "Damage": "6d5+20",
+            "Gold": 20000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10365,
+            "Aliases": [
+                "sand",
+                "man",
+                "sandman",
+                "sandy",
+                "criminal",
+                "crime"
+            ],
+            "ShortDesc": "Sandman",
+            "LongDesc": "The Sandman is here looking for a fight -- whatcha lookin' at, punk?\n",
+            "DetailedDesc": "The Sandman has the power to change his body completely into sand.  He\ncan make a large mallet out of his hand as a weapon...  The Sandman\ncan turn his body into solid rock which makes him almost invincible.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -900,
+            "Level": 40,
+            "THAC0": 41,
+            "AC": -4,
+            "HP": "1d1+950",
+            "Damage": "5d6+20",
+            "Gold": 28000,
+            "XP": 22000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10366,
+            "Aliases": [
+                "venom",
+                "symbiote",
+                "alien",
+                "black",
+                "costume",
+                "spider-man",
+                "spider"
+            ],
+            "ShortDesc": "Venom",
+            "LongDesc": "The deadly Venom is here trying to find a way to kill Spider-Man.\n",
+            "DetailedDesc": "Venom is a ruthless killer.  He especially want to see Spider-Man dead.\nAfter countless defeats under the Web-Slinger, Venom has sworn to \nfind a way to kill Spider-Man.  Venom is wearing a black pajama with\na large symbol of a spider in the middle.  The suit is actually a\nliving alien --the host is the man in this costume, Eddie Brock.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 64,
+            "THAC0": 63,
+            "AC": -10,
+            "HP": "10d10+5500",
+            "Damage": "10d11+50",
+            "Gold": 78000,
+            "XP": 79000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10367,
+            "Aliases": [
+                "deathlok",
+                "deathlock",
+                "death",
+                "machine",
+                "man",
+                "lock",
+                "lok"
+            ],
+            "ShortDesc": "Deathlok",
+            "LongDesc": "The war-machine known as the Deathlok is standing here.\n",
+            "DetailedDesc": "He's half man and half machine.  Deathlok is a one-man-army and he's\nready to kick some punk's ass.  Deathlok wields a powerful phaser gun.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 40,
+            "THAC0": 45,
+            "AC": -5,
+            "HP": "1d1+930",
+            "Damage": "6d5+30",
+            "Gold": 25000,
+            "XP": 26000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10368,
+            "Aliases": [
+                "gilligan",
+                "geek",
+                "little",
+                "man",
+                "sailor",
+                "side-kick"
+            ],
+            "ShortDesc": "Gilligan",
+            "LongDesc": "A skinny sailor is running from the Skipper.\n",
+            "DetailedDesc": "Gilligan is a little guy--shy and honest.  He's wearing a red shirt and\nsome sailor's pants.  Gilligan is always getting in trouble and making\nthe Skipper mad.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 25,
+            "THAC0": 6,
+            "AC": 0,
+            "HP": "1d1+305",
+            "Damage": "3d5+5",
+            "Gold": 50000,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10369,
+            "Aliases": [
+                "skipper",
+                "fatman",
+                "fat",
+                "man",
+                "captain",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "ShortDesc": "the Skipper",
+            "LongDesc": "The Skipper is chasing Gilligan all around the island.\n",
+            "DetailedDesc": "The Skipper is always picking on poor Gilligan.  He's a pretty big guy.\nHe wears a large blue shirt and a captain's hat. \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 29,
+            "THAC0": 8,
+            "AC": -1,
+            "HP": "1d1+305",
+            "Damage": "4d4+11",
+            "Gold": 50000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10370,
+            "Aliases": [
+                "dr.",
+                "doctor",
+                "strange",
+                "sorcerer",
+                "wizard",
+                "supreme",
+                "doctor"
+            ],
+            "ShortDesc": "Dr. Strange the Sorcerer Supreme",
+            "LongDesc": "A man in a long cloak is floating in mid-air!\n",
+            "DetailedDesc": "Dr. Strange is the greatest and the most powerful magic-user on Earth.\nNo one can best him in the mystic arts.  Stephen Strange was trained \nby the Ancient One himself.  Strange is wearing a long cloak and he\nwears a bright gold band around his finger.  He's also holding a \n\"strange\" key.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 66,
+            "THAC0": 65,
+            "AC": -20,
+            "HP": "10d10+6500",
+            "Damage": "10d11+60",
+            "Gold": 75000,
+            "XP": 78000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10371,
+            "Aliases": [
+                "dreaded",
+                "dormammu",
+                "demon",
+                "alien",
+                "magician",
+                "sorcerer"
+            ],
+            "ShortDesc": "the Dreaded Dormammu",
+            "LongDesc": "An alien with a head of flame is staring at you -- with interest.\n",
+            "DetailedDesc": "Dormammu is the deadliest rival of Dr. Strange.  He had tried to murder\nStrange many times in the past.  He's locked up in this dimension with\nno where else to go.  \n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGR_EVIL",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 56,
+            "THAC0": 55,
+            "AC": -5,
+            "HP": "10d10+2200",
+            "Damage": "9d7+44",
+            "Gold": 42000,
+            "XP": 45000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10372,
+            "Aliases": [
+                "baron",
+                "mordo",
+                "desciple",
+                "student",
+                "magician",
+                "sorcerer"
+            ],
+            "ShortDesc": "Baron Mordo",
+            "LongDesc": "Baron Mordo wants to get his REVENGE on Doctor Strange.\n",
+            "DetailedDesc": "He used to be the only desciple of the Ancient One himself until Stephen\nStrange became a student.  Baron Mordo was never as good as Strange\nin the mystic arts.  Mordo vowed that he would be the one and only\nSupreme Sorcerer of earth after he kill off Strange.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "AGGR_EVIL",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 39,
+            "THAC0": 48,
+            "AC": -3,
+            "HP": "1d1+940",
+            "Damage": "6d5+18",
+            "Gold": 20000,
+            "XP": 34000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10373,
+            "Aliases": [
+                "clea",
+                "woman",
+                "strange",
+                "sorceress",
+                "beautiful"
+            ],
+            "ShortDesc": "Clea ",
+            "LongDesc": "A beautiful woman is held captive by that fiend Dormammu -- it's Clea.\n",
+            "DetailedDesc": "Clea is the beloved of Doctor Strange.  She was also a student of the\nevil Dormammu.  Her birth place is the same as that of Dormammu -- they\nbelong to another dimension.  \n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "BLIND",
+                "INVISIBLE"
+            ],
+            "Alignment": 1000,
+            "Level": 25,
+            "THAC0": 35,
+            "AC": 0,
+            "HP": "1d1+500",
+            "Damage": "5d4+15",
+            "Gold": 2400,
+            "XP": 16000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10374,
+            "Aliases": [
+                "kraven",
+                "hunter",
+                "criminal",
+                "spider-man"
+            ],
+            "ShortDesc": "Kraven the Hunter",
+            "LongDesc": "Kraven the Hunter is setting up a trap for Spider-Man.\n",
+            "DetailedDesc": "He's believed to be the greatest hunter in the world.  Kraven is an\nexpert of many different forms of martial arts.  He has the speed of\na cheetah and the strenght of an elephant. \n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -1000,
+            "Level": 40,
+            "THAC0": 44,
+            "AC": -4,
+            "HP": "10d10+900",
+            "Damage": "6d5+20",
+            "Gold": 30000,
+            "XP": 39000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10375,
+            "Aliases": [
+                "nick",
+                "fury",
+                "agent",
+                "shield",
+                "s.h.i.e.l.d."
+            ],
+            "ShortDesc": "Nick Fury",
+            "LongDesc": "Nick Fury, the leader of S.H.I.E.L.D., is here smoking a cigar.\n",
+            "DetailedDesc": "Nick Fury is the head of the organization called S.H.I.E.L.D.  He has\nlead his men into war with criminal organizations such as A.I.M. and\nHydra.  Fury is one of the most powerful men in the states -- his\ncontrol over the agents of Shield makes him as powerful as the\npresident himself!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 57,
+            "THAC0": 58,
+            "AC": -9,
+            "HP": "10d10+3800",
+            "Damage": "8d6+40",
+            "Gold": 65000,
+            "XP": 61000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10376,
+            "Aliases": [
+                "shield",
+                "agent",
+                "s.h.i.e.l.d.",
+                "guard"
+            ],
+            "ShortDesc": "a Shield agent",
+            "LongDesc": "A Shield agent is getting ready to kick some criminal butt.\n",
+            "DetailedDesc": "He's just a regular agent of Shield.  This agent is very well-trained.\nHe wears the standard Shield uniform and carries a few high-tech weapons.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 20,
+            "THAC0": 28,
+            "AC": 1,
+            "HP": "1d1+260",
+            "Damage": "4d4+5",
+            "Gold": 1400,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10377,
+            "Aliases": [
+                "timothy",
+                "tim",
+                "dum",
+                "dugan"
+            ],
+            "ShortDesc": "Timothy \"Dum Dum\" Dugan",
+            "LongDesc": "\"Dum Dum\" Dugan is looking for Nick Fury.\n",
+            "DetailedDesc": "Timothy \"Dum Dum\" Dugan is the right-hand man of Nick Fury.  He has\nbeen in many battles with Fury and was awarded as Nick's most\ntrusted officer and friend.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 40,
+            "THAC0": 42,
+            "AC": -4,
+            "HP": "10d10+975",
+            "Damage": "6d5+24",
+            "Gold": 20000,
+            "XP": 26000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10378,
+            "Aliases": [
+                "super",
+                "patriot",
+                "johnny",
+                "walker"
+            ],
+            "ShortDesc": "Super Patriot",
+            "LongDesc": "The Super Patriot is here to challenge Captain America.\n",
+            "DetailedDesc": "Johnny Walker aka the Super Patriot is a vigilante but unlike Captain\nAmerica he likes to \"teach\" these criminals a lesson.  He is much \nlike the Punisher -- a man who would go to extremes to punish the\ncriminal underworld.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 50,
+            "Level": 45,
+            "THAC0": 48,
+            "AC": -5,
+            "HP": "10d10+899",
+            "Damage": "6d5+38",
+            "Gold": 30000,
+            "XP": 43000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10379,
+            "Aliases": [
+                "heimdall",
+                "guardian",
+                "rainbow",
+                "bridge"
+            ],
+            "ShortDesc": "Heimdall the guardian",
+            "LongDesc": "The brave Heimdall is here to guard the entrance to Asgard.\n",
+            "DetailedDesc": "Heimdall is a large man -- about 6'11\" and he doesn't look too friendly.\nHe's an expert swordman as well as one of Odin's most trusted soldiers.\nHe was given the position of guarding the entrance to Asgard by Odin\nhimself.  He's willing to give up his life than to let a trespasser pass\nby him without authorization.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 60,
+            "THAC0": 65,
+            "AC": -19,
+            "HP": "10d10+2000",
+            "Damage": "10d8+45",
+            "Gold": 35000,
+            "XP": 54000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10380,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10381,
+            "Aliases": [
+                "fandral",
+                "warrior",
+                "asgardian"
+            ],
+            "ShortDesc": "Fandral",
+            "LongDesc": "Fandral the Unbeatable is guarding the royal family of Asgard.\n",
+            "DetailedDesc": "Fandral is probably the best swordsman in the Warriors' Three.  He\nhas beaten countless foes within minutes and sometimes even seconds!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 34,
+            "THAC0": 44,
+            "AC": -4,
+            "HP": "1d1+600",
+            "Damage": "6d5+19",
+            "Gold": 5600,
+            "XP": 16000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10382,
+            "Aliases": [
+                "hogun",
+                "handsome",
+                "blonde",
+                "asgardian",
+                "warrior"
+            ],
+            "ShortDesc": "Hogun",
+            "LongDesc": "A dashing, handsome warrior named Hogun is here to serve his majesty.\n",
+            "DetailedDesc": "He bold and daring...Hogun is a man of many talents.  He is an expert\nswordsman and one of Odin's most trusted warriors.  Hogun has fought\nalongside with the Warriors' Three for many long years.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 33,
+            "THAC0": 42,
+            "AC": -3,
+            "HP": "1d1+580",
+            "Damage": "6d5+18",
+            "Gold": 5000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10383,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10384,
+            "Aliases": [
+                "volstagg",
+                "fatman",
+                "fat",
+                "man",
+                "warrior"
+            ],
+            "ShortDesc": "Volstagg",
+            "LongDesc": "An overweight warrior named Volstagg is here to protect Odin.\n",
+            "DetailedDesc": "Volstagg is one of the members of the Warriors' Three.  His size is\nawesome -- Volstagg weighs more than a thousand pounds yet he has\nthe agility and speed of a \"normal\" man. \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 33,
+            "THAC0": 42,
+            "AC": -3,
+            "HP": "1d1+570",
+            "Damage": "6d5+15",
+            "Gold": 5000,
+            "XP": 14000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10385,
+            "Aliases": [
+                "galactus"
+            ],
+            "ShortDesc": "Galactus the world-devourer",
+            "LongDesc": "The all-mighty Galactus is standing here...\n",
+            "DetailedDesc": "Galactus is considered by many to be a God because of his awesome powers.\nHe can absorb the energies of a planet and use these energies to feed \nhis unsatiable hunger.  Galactus uses his superior intelligence and \ntechnology to reach his goal.  There is no one who can match the unlimited\npower that he possesses.  Galactus has the \"power cosmic\" -- the power\nof the life-force of all living things.  Galactus used this power cosmic\nto create heralds such as the Silver Surfer, Firelord, Terrax, Nova, and\nthe Destroyer.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 95,
+            "THAC0": 70,
+            "AC": -30,
+            "HP": "10d10+13000",
+            "Damage": "20d10+75",
+            "Gold": 285000,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10386,
+            "Aliases": [
+                "silver",
+                "surfer",
+                "herald",
+                "surfboard",
+                "soarer",
+                "cosmic"
+            ],
+            "ShortDesc": "Silver Surfer",
+            "LongDesc": "Silver Surfer is here to protect his former master.\n",
+            "DetailedDesc": "Silver Surfer was the first herald of the mighty Galactus.  No other\nherald was more powerful than the Surfer.  Silver Surfer can absorb\ncosmic powers easily because his silvery skin acts as a \"solar cell.\"\nHe holds a surfboard which he can control with his mind.  The board\nis totally indestructable and not even the brutish strength of the\nHulk can break it.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 65,
+            "THAC0": 68,
+            "AC": -20,
+            "HP": "10d10+6000",
+            "Damage": "12d9+59",
+            "Gold": 80000,
+            "XP": 79000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10387,
+            "Aliases": [
+                "hobgoblin",
+                "green",
+                "goblin",
+                "hob",
+                "pumpkin"
+            ],
+            "ShortDesc": "Hobgoblin",
+            "LongDesc": "The deadly Hobgoblin is here, counting his loot.\n",
+            "DetailedDesc": "Hobgoblin is one of Spider-Man's most deadliest foes.  He's also one of\nthe most highly paid assassin around.  The Hobgoblin has no conscience\nwhen killing anyone.  He's a psychotic murderer with no remorse.  Spider-\nMan has never been able to capture this ellusive criminal.  The Hobgoblin\nhas been known to work for the Rose and the Kingpin.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "BLIND",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 62,
+            "THAC0": 65,
+            "AC": -18,
+            "HP": "10d10+5000",
+            "Damage": "10d7+55",
+            "Gold": 80000,
+            "XP": 74000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10388,
+            "Aliases": [
+                "punisher",
+                "frank",
+                "castle",
+                "vigilante",
+                "skull"
+            ],
+            "ShortDesc": "the Punisher",
+            "LongDesc": "A man with a large skull on his chest is loading his .38 caliber pistol.\n",
+            "DetailedDesc": "Punisher is THE vigilante of all vigilantes.  Frank Castle (the Punisher)\nhas vowed to destroy all criminal empires of the world.  He gives no\nmercy to drug pushers, pimp, murderers, and all other sinners.  The\nPunisher is a one-man-army who's ready to clean house -- preferably\nthe house of the Kingpin!\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 66,
+            "THAC0": 67,
+            "AC": -20,
+            "HP": "10d10+6500",
+            "Damage": "10d11+65",
+            "Gold": 75000,
+            "XP": 80000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10389,
+            "Aliases": [
+                "microchip",
+                "micro",
+                "chip",
+                "computer",
+                "wiz",
+                "friend",
+                "side-kick",
+                "sidekick"
+            ],
+            "ShortDesc": "Microchip",
+            "LongDesc": "Microchip, the Punisher's sidekick, is here.\n",
+            "DetailedDesc": "Microchip is the loyal sidekick of the Punisher.  They both share the \nsame dream -- to put an end to all crime.  Microchip's history is much\nlike the Punisher.  His family was murdered and he seeks revenge on\nall criminals by assisting the Punisher.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 35,
+            "THAC0": 38,
+            "AC": -5,
+            "HP": "1d1+860",
+            "Damage": "6d5+20",
+            "Gold": 18000,
+            "XP": 26000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10390,
+            "Aliases": [
+                "morlock",
+                "mutant",
+                "freak"
+            ],
+            "ShortDesc": "a Morlock",
+            "LongDesc": "A Morlock is here, looking for some food.\n",
+            "DetailedDesc": "A typical Morlock...  He's filthy and hungry for food.  The Morlocks are\nmutant outcasts of society.  Because of their hideous appearance, they\nfear they may be lynch by the \"normal\" people.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 24,
+            "THAC0": 26,
+            "AC": 0,
+            "HP": "1d1+250",
+            "Damage": "5d4+6",
+            "Gold": 2000,
+            "XP": 2500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10391,
+            "Aliases": [
+                "morlock",
+                "leech",
+                "mutant",
+                "freak"
+            ],
+            "ShortDesc": "Leech",
+            "LongDesc": "Leech is trying to contact the X-Men.\n",
+            "DetailedDesc": "Leech is one of the youngest Morlocks in the clan.  He has the power\nto absorb powers of other mutants.  Leech was once a member of the\nfirst X-Factor team.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 26,
+            "THAC0": 26,
+            "AC": 0,
+            "HP": "1d1+380",
+            "Damage": "5d4+4",
+            "Gold": 2000,
+            "XP": 2500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10392,
+            "Aliases": [
+                "mole",
+                "man",
+                "small",
+                "underground",
+                "dweller"
+            ],
+            "ShortDesc": "the Mole Man",
+            "LongDesc": "The Mole Man is planning to invade the surface world.\n",
+            "DetailedDesc": "The Mole Man is the first super-villain who fought the Fantastic Four.\nHe commands his people to attack the surface world countless times.\nThe Mole Man is the king of his underground empire.  His men are \nloyal to his commands and right now, the Mole Man is planning another\nstrike on the surface grounds.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 59,
+            "THAC0": 57,
+            "AC": -19,
+            "HP": "10d10+5000",
+            "Damage": "10d8+52",
+            "Gold": 56000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10393,
+            "Aliases": [
+                "watcher",
+                "watch",
+                "ubiquitous",
+                "god"
+            ],
+            "ShortDesc": "the Watcher",
+            "LongDesc": "The ubiquitous Watcher is here, watching your every movement...\n",
+            "DetailedDesc": "Not much is known about the all-powerful Watcher.  His race is as old\nas the universe itself.  All of the Watchers possesses incredible  \npower.  Not many can withstand their power.  The Watchers are a \npeaceful race.  Their purpose is to observe and record all major\nevents happening in the universe.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 69,
+            "THAC0": 66,
+            "AC": -13,
+            "HP": "10d10+5800",
+            "Damage": "8d8+46",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 10394,
+            "Aliases": [
+                "red",
+                "skull",
+                "nazi",
+                "racist",
+                "german",
+                "mask",
+                ""
+            ],
+            "ShortDesc": "the Red Skull",
+            "LongDesc": "The bastard Nazi named Red Skull is here, making a long speech.\n",
+            "DetailedDesc": "Red Skull is the oldest and the most deadliest foe of Captain America.\nDuring World War II, Red Skull assisted Hitler in a massacre of innocent\npeople in Poland.  He teaches his lackeys the ways of the Nazi and\ntries hard at recruiting men into his clan.  Red Skull wears a bloody\nred mask which makes all his men fear him and thus they would be loyal\nto him as well.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 65,
+            "THAC0": 63,
+            "AC": -14,
+            "HP": "10d10+5400",
+            "Damage": "8d8+49",
+            "Gold": 59000,
+            "XP": 76000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10395,
+            "Aliases": [
+                "nazi",
+                "soldier",
+                "follower",
+                "hate",
+                "guard"
+            ],
+            "ShortDesc": "a Nazi soldier",
+            "LongDesc": "A Nazi soldier is following carefully the words of the Red Skull.\n",
+            "DetailedDesc": "He's in his mid-teens, unemployed, a former convict, and a drug user --\nthe signs of a total loser.  Kill him, please.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 25,
+            "THAC0": 25,
+            "AC": -1,
+            "HP": "1d1+320",
+            "Damage": "5d4+20",
+            "Gold": 3000,
+            "XP": 11000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10396,
+            "Aliases": [
+                "morbius",
+                "vampire",
+                "living",
+                "dracula",
+                ""
+            ],
+            "ShortDesc": "Morbius the living vampire",
+            "LongDesc": "Morbius, the living vampire, wants your thick, warm blood.\n",
+            "DetailedDesc": "Morbius was once a prominent doctor.  He was exposed to a virus which\ngave him a \"disease.\"  Doctor Morbius was transformed into a living\nvampire and requires blood as his nourishment.  \n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SENSE_LIFE"
+            ],
+            "Alignment": -50,
+            "Level": 41,
+            "THAC0": 44,
+            "AC": -4,
+            "HP": "1d1+940",
+            "Damage": "6d5+39",
+            "Gold": 30000,
+            "XP": 39000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10397,
+            "Aliases": [
+                "spiral",
+                "sorceress",
+                "six-armed",
+                "mojo"
+            ],
+            "ShortDesc": "Spiral",
+            "LongDesc": "A six-armed sorceress named Spiral is here, looking for Longshot.\n",
+            "DetailedDesc": "Spiral is a sorceress from another dimension.  Her \"magicks\" are \nalmost as powerful as that of Doctor Strange's.  Spiral has six arms\nfour which are mechanical.  She uses her many arms to wave gestures\nfor a spell.  Spiral is a master at teleporting through different\ndimensions.  She often travels to earth to make trouble for\nLongshot and the X-Men.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_MAGIC",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 41,
+            "THAC0": 46,
+            "AC": -5,
+            "HP": "10d10+1000",
+            "Damage": "6d5+28",
+            "Gold": 27000,
+            "XP": 32000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10398,
+            "Aliases": [
+                "disguise",
+                "changeling",
+                "mystique",
+                "mutant"
+            ],
+            "ShortDesc": "Mystique",
+            "LongDesc": "Mystique is here, planning to destroy the X-Men.\n",
+            "DetailedDesc": "Mystique is a master of disguise.  She can change her face and clothes\nin a matter of seconds.  Mystique is a very powerful mutant and also an\nintelligent leader.  The government recruited her to become the leader\nof the Freedom Force -- a band of mutants who serve the government.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_MAGIC"
+            ],
+            "Alignment": -500,
+            "Level": 37,
+            "THAC0": 48,
+            "AC": -4,
+            "HP": "1d1+875",
+            "Damage": "6d5+28",
+            "Gold": 27000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10399,
+            "Aliases": [
+                "longshot",
+                "long",
+                "shot",
+                "mojo",
+                "x-man"
+            ],
+            "ShortDesc": "Longshot",
+            "LongDesc": "Longshot is on a mission to find his former love, Dazzler.\n",
+            "DetailedDesc": "Longshot is from a dimension unlike our own.  He comes from a dimension\nwhere television programs control the minds of the people.  Longshot\nwants to change all that and thus he became a rebel and a wanted \ncriminal on his home planet.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 42,
+            "THAC0": 40,
+            "AC": -5,
+            "HP": "10d10+650",
+            "Damage": "6d5+35",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10400,
+            "Aliases": [
+                "balder",
+                "brave",
+                "asgardian",
+                "warrior"
+            ],
+            "ShortDesc": "Balder the Brave",
+            "LongDesc": "Balder the Brave is preparing to battle the Ragnorak.\n",
+            "DetailedDesc": "Balder is believed to be the bravest man in Asgard.  Because of his     \npast deeds, he was granted the title \"the Brave\" by the mighty\nOdin himself.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_MAGIC"
+            ],
+            "Alignment": 1000,
+            "Level": 39,
+            "THAC0": 45,
+            "AC": -5,
+            "HP": "1d1+800",
+            "Damage": "6d5+26",
+            "Gold": 35000,
+            "XP": 36000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10401,
+            "Aliases": [
+                "green",
+                "goblin",
+                "harry",
+                "osborne",
+                "madman"
+            ],
+            "ShortDesc": "the Green Goblin",
+            "LongDesc": "Green Goblin is soaring through the sky, looking for Spider-Man.\n",
+            "DetailedDesc": "Harry Osborne aka the Green Goblin, is a man gone mad.  Harry was once\nthe best friend of Spider-Man's alter-ego, Peter Parker.  The Green\nGoblin is one of the few people who knows the true identity of\nSpider-Man.  The Goblin wears a green mask and rides on anti-gravity\nglider.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 53,
+            "THAC0": 57,
+            "AC": -5,
+            "HP": "1d1+1900",
+            "Damage": "7d7+38",
+            "Gold": 34000,
+            "XP": 37000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10402,
+            "Aliases": [
+                "havok",
+                "x-man",
+                "cyclops",
+                "havoc"
+            ],
+            "ShortDesc": "Havok",
+            "LongDesc": "Havok is here, causing havoc for criminals everywhere.\n",
+            "DetailedDesc": "Havok was once the leader of the group, X-Factor.  He is the younger\nbrother of the X-Man named Cyclops.  Havok has powers that are almost\nuncontrollable.  Like Cyclops, Havok was born with this strange mutant\npower.  He was once an X-Man himself -- for a brief period of time.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 53,
+            "THAC0": 59,
+            "AC": -9,
+            "HP": "10d10+1900",
+            "Damage": "6d6+34",
+            "Gold": 65000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10403,
+            "Aliases": [
+                "polaris",
+                "magnetism",
+                "x-man",
+                "mutant",
+                "mistress"
+            ],
+            "ShortDesc": "Polaris",
+            "LongDesc": "Polaris, the mistress of magnetism, is here looking for Havok.\n",
+            "DetailedDesc": "Polaris has the power to control anything which is made of metal.  Her\npowers are quite similar to that of Magneto's but not as powerful.\nHowever, she has not maximize the potential of her powers.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 40,
+            "THAC0": 43,
+            "AC": -4,
+            "HP": "1d1+930",
+            "Damage": "6d5+30",
+            "Gold": 40000,
+            "XP": 42000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10404,
+            "Aliases": [
+                "elektra",
+                "electra",
+                "ninja",
+                "assassin",
+                "woman",
+                ""
+            ],
+            "ShortDesc": "Elektra",
+            "LongDesc": "A ninja assassin named Elektra has Daredevil on her hitlist.\n",
+            "DetailedDesc": "Elektra was once the world's greatest assassin.  She became involved \nwith Daredevil and that relationship changed her life.  Elektra was\nthought to be dead many years ago until the management at Marvel \nComics revived her.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 38,
+            "THAC0": 42,
+            "AC": -4,
+            "HP": "1d1+730",
+            "Damage": "6d5+30",
+            "Gold": 38000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 10405,
+            "Aliases": [
+                "beta",
+                "ray",
+                "bill",
+                "thor",
+                "alien"
+            ],
+            "ShortDesc": "Beta Ray Bill",
+            "LongDesc": "Beta Ray Bill is having a drink with his friend, Thunderstrike.\n",
+            "DetailedDesc": "Beta Ray Bill is an alien from a planet, hundreds of light-years away.\nHe was granted the power of Thor by Odin himself.  Bill was also \ngiven a hammer which almost rivals that of Thor's enchanted Mjornir.\nBeta Ray Bill used his new powers to serve justice on his home\nplanet.  He makes frequent visits to Asgard and Earth.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 53,
+            "THAC0": 48,
+            "AC": -10,
+            "HP": "10d10+2500",
+            "Damage": "7d6+38",
+            "Gold": 36000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10406,
+            "Aliases": [
+                "banshee",
+                "wail",
+                "irish",
+                "x-man"
+            ],
+            "ShortDesc": "Banshee",
+            "LongDesc": "The Banshee is here, scaring the punks off the streets.\n",
+            "DetailedDesc": "A former X-Man, the Banshee's weapon is his \"wail\" which can tear \nopen walls or steel safes.  The Banshee is an Irish man, about 40\nsomething.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 38,
+            "THAC0": 40,
+            "AC": -5,
+            "HP": "1d1+780",
+            "Damage": "6d5+31",
+            "Gold": 25000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10407,
+            "Aliases": [
+                "vengeance",
+                "ghost",
+                "rider",
+                "ghost-rider",
+                "spirit",
+                "demon"
+            ],
+            "ShortDesc": "Vengeance",
+            "LongDesc": "Vengeance is looking for some action on the streets.\n",
+            "DetailedDesc": "Vengeance is the Ghost Rider wannabe.  His powers are similar to those \nof the Ghost Rider but their attitudes are quite different.  Vengeance\nbelieves in extreme violence towards criminals and he has been known\nto kill them during confrontations.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 50,
+            "Level": 46,
+            "THAC0": 44,
+            "AC": -6,
+            "HP": "10d10+1400",
+            "Damage": "6d5+30",
+            "Gold": 27000,
+            "XP": 42000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10408,
+            "Aliases": [
+                "annihilus",
+                "annihilator",
+                "annihilation",
+                "negative",
+                "alien"
+            ],
+            "ShortDesc": "Annihilus",
+            "LongDesc": "Annihilus is here, to take over the universe.\n",
+            "DetailedDesc": "Annihilus is the master of the Negative Zone -- a dimension that is\nnot known by many.  He vowed to invade the universe someday in an \nattempt to destroy Earth.  Annihilus possesses unimaginable powers \nthat even the Fantastic Four cannot handle.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 43,
+            "THAC0": 45,
+            "AC": -5,
+            "HP": "1d1+1150",
+            "Damage": "6d5+31",
+            "Gold": 30000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10409,
+            "Aliases": [
+                "iron",
+                "fist",
+                "iron-fist",
+                "rand",
+                "danny",
+                "daniel",
+                "kung-fu"
+            ],
+            "ShortDesc": "Iron Fist",
+            "LongDesc": "Iron Fist is looking for his good pal, Luke Cage the Power Man.\n",
+            "DetailedDesc": "Iron Fist is a master of martial arts.  He was trained in Tibet and  \nbecame a master.  Iron Fist's power is his Chi -- the internal power\nthat all men possesses.  He harness this Chi into his fist.  Iron  \nFist can deliver a blow to any man and they would die instantly.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 44,
+            "THAC0": 43,
+            "AC": -4,
+            "HP": "1d1+1240",
+            "Damage": "6d5+28",
+            "Gold": 30000,
+            "XP": 39000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10410,
+            "Aliases": [
+                "ultron",
+                "adamantium",
+                "android"
+            ],
+            "ShortDesc": "Ultron",
+            "LongDesc": "An adamantium android named Ultron is on a murdering rampage.\n",
+            "DetailedDesc": "Ultron is an android made of pure adamantium and thus he is \nindestructable.  He also has a plasma burst which could kill even\nthe mightiest heroes.  Ultron is a highly intelligent life-form.\nHe's capable of rational decisions even though he's a killing machine.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 45,
+            "THAC0": 50,
+            "AC": -7,
+            "HP": "1d1+700",
+            "Damage": "6d5+27",
+            "Gold": 23000,
+            "XP": 36000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10411,
+            "Aliases": [
+                "luke",
+                "cage",
+                "power",
+                "man",
+                "muscle",
+                "big",
+                "man"
+            ],
+            "ShortDesc": "Luke Cage the Power Man",
+            "LongDesc": "Luke Cage is here, beating on a gang of punks.\n",
+            "DetailedDesc": "Luke Cage is the Power Man.  He dedicated his life to stopping crime\nby any means necessary.  Cage is a big guy with bulletproof skin.  He\nmade a big name for himself by kicking criminal butts.  All the punks\non the street fear him...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 40,
+            "THAC0": 43,
+            "AC": -5,
+            "HP": "1d1+920",
+            "Damage": "6d5+30",
+            "Gold": 26000,
+            "XP": 31000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10412,
+            "Aliases": [
+                "ancient",
+                "one",
+                "old",
+                "man",
+                "magic",
+                "strange",
+                "frail",
+                "store-owner",
+                "wizard",
+                "sorcerer"
+            ],
+            "ShortDesc": "the Ancient One",
+            "LongDesc": "The Ancient One is here to serve your needs.\n",
+            "DetailedDesc": "He's the most powerful sorcerer on this planet.  Even though he looks\nsmall and weak, the Ancient One can send you to OBLIVION with one of\nhis deadly fireballs!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 90,
+            "THAC0": 70,
+            "AC": -100,
+            "HP": "10d10+30000",
+            "Damage": "3d2+2",
+            "Gold": 270000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10413,
+            "Aliases": [
+                "sabretooth",
+                "cat",
+                "tooth",
+                "sabre",
+                "claws"
+            ],
+            "ShortDesc": "Sabretooth",
+            "LongDesc": "Sabretooth is here, stalking his prey...\n",
+            "DetailedDesc": "Sabretooth is the deadliest foe of the X-Man known as Wolverine.  He's a\nbig fellow, about 6'6\", and has the agility of an olympic athlete.\nSabretooth has a healing factor just like Wolverine as well as heightened\nsenses.  Sabretooth has claws that are sharp as razor... don't get too\nclose, kid, or you'll get cut!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 63,
+            "THAC0": 62,
+            "AC": -20,
+            "HP": "10d10+5300",
+            "Damage": "10d10+54",
+            "Gold": 76000,
+            "XP": 78000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10414,
+            "Aliases": [
+                "nomad",
+                "bucky"
+            ],
+            "ShortDesc": "Nomad",
+            "LongDesc": "A mysterious stranger named Nomad is here.\n",
+            "DetailedDesc": "Nomad is the former partner of the patriotic super-hero, Captain America.\nHe was formerly known as Bucky, an old side-kick of Cap's.  Nomad is\na skilled fighter and an expert target shooter. \n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 38,
+            "THAC0": 42,
+            "AC": -4,
+            "HP": "1d1+810",
+            "Damage": "6d5+27",
+            "Gold": 25000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10415,
+            "Aliases": [
+                "ghost",
+                "bucky",
+                "barnes",
+                ""
+            ],
+            "ShortDesc": "the ghost of Bucky Barnes",
+            "LongDesc": "The ghost of Bucky Barnes is here to protect his partner, Captain America.\n",
+            "DetailedDesc": "Bucky Barnes use to be the partner of the star-spangled crime fighter,\nCaptain America.  Bucky was killed during one of Cap's many missions\nduring World War II.  Bucky Barnes was given the medal of honor by\nthe President himself.  It seems, however, that Bucky is still alive...\nHis ghost is here to protect his noble partner from any kind of danger!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "HIDE"
+            ],
+            "Alignment": 1000,
+            "Level": 200,
+            "THAC0": 120,
+            "AC": -8,
+            "HP": "10d10+30000",
+            "Damage": "4d4+0",
+            "Gold": 70000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10416,
+            "Aliases": [
+                "iceman",
+                "ice",
+                "man",
+                "frost"
+            ],
+            "ShortDesc": "Iceman",
+            "LongDesc": "Iceman is here, looking for Professor Xavier.\n",
+            "DetailedDesc": "Iceman was one of the original X-Men.  Recently he has regrouped with his\nold team-mates to form a new group called X-Factor.  Iceman has the mutant\npower to turn anything into ice.  He helped the X-Men in countless battles\nagainst super-powered criminals.  \n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 55,
+            "THAC0": 54,
+            "AC": -8,
+            "HP": "10d10+2000",
+            "Damage": "6d6+35",
+            "Gold": 60000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10417,
+            "Aliases": [
+                "generic",
+                "super",
+                "hero",
+                "superhero"
+            ],
+            "ShortDesc": "a passing super hero",
+            "LongDesc": "A super hero is flying here, on patrol.\n",
+            "DetailedDesc": "This is one of the city's many super heroes, helping out innocent citizens\nwherever they need help.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 51,
+            "THAC0": 30,
+            "AC": -5,
+            "HP": "40d20+1",
+            "Damage": "5d5+10",
+            "Gold": 100,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 10482,
+            "Aliases": [
+                "test",
+                "dummy",
+                ""
+            ],
+            "ShortDesc": "Test Dummy",
+            "LongDesc": "A Test Dummy is standing here.\n",
+            "DetailedDesc": "nothing.",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 50,
+            "THAC0": 90,
+            "AC": -8,
+            "HP": "10d10+30000",
+            "Damage": "6d5+39",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

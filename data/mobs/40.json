@@ -1,0 +1,888 @@
+{
+    "mobs": [
+        {
+            "Number": 4000,
+            "Aliases": [
+                "snake",
+                "constrictor"
+            ],
+            "ShortDesc": "the giant snake",
+            "LongDesc": "A giant constrictor snake drops on you from above!\r\r\r\r\r\n\r",
+            "DetailedDesc": "It looks hungry.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": -200,
+            "Level": 12,
+            "THAC0": 13,
+            "AC": 4,
+            "HP": "8d10+83",
+            "Damage": "3d6+0",
+            "Gold": 0,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4001,
+            "Aliases": [
+                "snake"
+            ],
+            "ShortDesc": "the green snake",
+            "LongDesc": "A small green snake is here, and it doesn't look too friendly...\r\r\r\r\r\n\r",
+            "DetailedDesc": "It looks harmless.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -100,
+            "Level": 8,
+            "THAC0": 8,
+            "AC": 4,
+            "HP": "5d10+50",
+            "Damage": "2d6+1",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4002,
+            "Aliases": [
+                "centipede"
+            ],
+            "ShortDesc": "the small centipede",
+            "LongDesc": "A small centipede is here, making its way across the floor.\r\r\r\r\r\n\r",
+            "DetailedDesc": "It looks completely harmless.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 3,
+            "THAC0": 0,
+            "AC": 6,
+            "HP": "3d10+33",
+            "Damage": "1d6+0",
+            "Gold": 0,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4003,
+            "Aliases": [
+                "kobold"
+            ],
+            "ShortDesc": "the kobold",
+            "LongDesc": "An ugly kobold is here, searching for dinner.\r\r\r\r\r\n\r",
+            "DetailedDesc": "It looks ugly.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -100,
+            "Level": 6,
+            "THAC0": 4,
+            "AC": 5,
+            "HP": "3d10+66",
+            "Damage": "1d8+1",
+            "Gold": 50,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4004,
+            "Aliases": [
+                "orc"
+            ],
+            "ShortDesc": "the orc",
+            "LongDesc": "The orc walks around, looking for someone to kill.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You notice an evil look in his eyes...\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -350,
+            "Level": 7,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "3d10+100",
+            "Damage": "2d4+0",
+            "Gold": 100,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4005,
+            "Aliases": [
+                "orc",
+                "raider"
+            ],
+            "ShortDesc": "the orcish raider",
+            "LongDesc": "An orcish raider draws its sword and menaces you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He looks dreadful.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 12,
+            "THAC0": 9,
+            "AC": 2,
+            "HP": "5d20+125",
+            "Damage": "2d6+2",
+            "Gold": 200,
+            "XP": 4000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4006,
+            "Aliases": [
+                "rat",
+                "giant"
+            ],
+            "ShortDesc": "a giant rat",
+            "LongDesc": "A giant rat scuttles around here, spreading disease.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Mangy and germ-ridden, this mobile trash heap is probably up to no good.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 0,
+            "AC": 6,
+            "HP": "3d10+33",
+            "Damage": "2d4+0",
+            "Gold": 0,
+            "XP": 750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4007,
+            "Aliases": [
+                "spider",
+                "brown",
+                "recluse"
+            ],
+            "ShortDesc": "a brown recluse",
+            "LongDesc": "A very large brown recluse spider crawls up the wall.\r\r\r\r\r\n\r",
+            "DetailedDesc": "It's big, hairy and ugly. You think it may be poisonous.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SNEAK"
+            ],
+            "Alignment": 0,
+            "Level": 8,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "3d10+100",
+            "Damage": "2d4+1",
+            "Gold": 0,
+            "XP": 4000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4008,
+            "Aliases": [
+                "orc",
+                "chieftain"
+            ],
+            "ShortDesc": "the orcish chieftain",
+            "LongDesc": "The orcish chieftain bellows at you and attacks!\r\r\r\r\r\n\r",
+            "DetailedDesc": "The strongest of the orcs, the chieftain is a powerful adversary and is much\r\r\r\r\r\n\rtoo stupid to take prisoners...\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 16,
+            "THAC0": 12,
+            "AC": 2,
+            "HP": "1d16+200",
+            "Damage": "2d6+5",
+            "Gold": 750,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4009,
+            "Aliases": [
+                "hobgoblin",
+                "chief"
+            ],
+            "ShortDesc": "the hobgoblin chief",
+            "LongDesc": "The chief of the hobgoblins grins at you mercilessly.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is the nastiest hobgoblin of them all, and he certainly looks it!\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 17,
+            "THAC0": 12,
+            "AC": 2,
+            "HP": "1d1+250",
+            "Damage": "3d5+2",
+            "Gold": 1000,
+            "XP": 4500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4010,
+            "Aliases": [
+                "gnoll",
+                "houndmaster",
+                "master"
+            ],
+            "ShortDesc": "the Houndmaster",
+            "LongDesc": "You come face to face with the gnollish master of the hounds!\r\r\r\r\r\n\r",
+            "DetailedDesc": "Seven and a half feet tall, hairy, and with the face of a hyena, the master\r\r\r\r\r\n\rof the hounds is a grim sight. He is clad all in black leather, and carries\r\r\r\r\r\n\ra long leather whip for use on his charges...or intruders...\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 17,
+            "THAC0": 12,
+            "AC": 2,
+            "HP": "1d6+250",
+            "Damage": "3d5+2",
+            "Gold": 1250,
+            "XP": 4500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4011,
+            "Aliases": [
+                "warg",
+                "wolf",
+                "hound"
+            ],
+            "ShortDesc": "a warg",
+            "LongDesc": "A slavering, vicious warg is chained up to the wall here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Its fur appears matted with blood, and its back looks very badly scarred by\r\r\r\r\r\n\rthe cuts of a whip. You would almost feel sorry for the beast if it wasn't\r\r\r\r\r\n\rtrying to rip your throat out...\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -350,
+            "Level": 8,
+            "THAC0": 7,
+            "AC": 4,
+            "HP": "10d5+83",
+            "Damage": "2d4+1",
+            "Gold": 0,
+            "XP": 4000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4012,
+            "Aliases": [
+                "torturer",
+                "gnoll"
+            ],
+            "ShortDesc": "the gnollish torturer",
+            "LongDesc": "A gnollish torturer advances on you with glee in his eyes.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A typical gnoll, huge and hairy. You notice an unusual glint of cruelty in\r\r\r\r\r\n\rthe torturer's eyes, though, and you recall a rumor around Midgaard that\r\r\r\r\r\n\rsaid the gnolls picked their torturers from the gnolls that were too savage\r\r\r\r\r\n\rto become soldiers...\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 14,
+            "THAC0": 12,
+            "AC": 2,
+            "HP": "1d16+200",
+            "Damage": "2d6+3",
+            "Gold": 450,
+            "XP": 4000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4013,
+            "Aliases": [
+                "gnoll",
+                "master",
+                "tortturer",
+                "mastertorturer"
+            ],
+            "ShortDesc": "the Master Torturer",
+            "LongDesc": "The gnolls' Master Torturer sits here, enjoying his meal.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Foulness personified. The Master Torturer is nearly eight feet tall, with\r\r\r\r\r\n\ra filthy, hairy hyena face currently drenched in blood. He wears black\r\r\r\r\r\n\rleather clothing crudely stitched together, and a cruel cat-o'-nine tails\r\r\r\r\r\n\rhangs at his belt. You feel ill just looking at him.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 14,
+            "THAC0": 12,
+            "AC": 1,
+            "HP": "1d10+266",
+            "Damage": "1d12+0",
+            "Gold": 1500,
+            "XP": 4000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4014,
+            "Aliases": [
+                "gnoll",
+                "warrior"
+            ],
+            "ShortDesc": "the gnoll warrior",
+            "LongDesc": "A gnoll warrior is here, narrowing his eyes and raising a weapon.\r\r\r\r\r\n\r",
+            "DetailedDesc": "It appears that gnolls choose their warriors for sheer size and stopping\r\r\r\r\r\n\rpower. This one is fully eight feet tall, and his fangs protrude from his\r\r\r\r\r\n\rhyena-like face for nearly two inches. He looks like a serious ass-kicker.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "HELPER"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 12,
+            "THAC0": 10,
+            "AC": 1,
+            "HP": "10d8+90",
+            "Damage": "3d4+0",
+            "Gold": 850,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4015,
+            "Aliases": [
+                "raider",
+                "gnoll"
+            ],
+            "ShortDesc": "a gnollish raider",
+            "LongDesc": "A gnollish raider surprises you and attacks!\r\r\r\r\r\n\r",
+            "DetailedDesc": "Evil-looking and cunning, gnollish raiders are chosen for stealth and not\r\r\r\r\r\n\rfor size as the warriors are. However, they fight just as fiercely, as you\r\r\r\r\r\n\rhave no doubt already discovered...\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "HIDE"
+            ],
+            "Alignment": -500,
+            "Level": 11,
+            "THAC0": 12,
+            "AC": 3,
+            "HP": "1d10+90",
+            "Damage": "3d4+0",
+            "Gold": 1250,
+            "XP": 1550,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4016,
+            "Aliases": [
+                "gnoll"
+            ],
+            "ShortDesc": "a gnoll",
+            "LongDesc": "A gnoll shambles around here, looking for somebody to hurt quite seriously.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Gnolls are humanoids of about seven and a half feet in height. They are\r\r\r\r\r\n\rstringy, hairy, and entirely disgusting. They also have the faces and heads\r\r\r\r\r\n\rof hyenas, and their language is guttural and foul. This appears to be a\r\r\r\r\r\n\rprime example of the breed.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 11,
+            "THAC0": 10,
+            "AC": 4,
+            "HP": "5d10+145",
+            "Damage": "2d6+2",
+            "Gold": 1000,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4017,
+            "Aliases": [
+                "subchief",
+                "gnoll"
+            ],
+            "ShortDesc": "a gnoll subchief",
+            "LongDesc": "A gnoll subchief raises his weapon as you enter.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This gnoll is not quite as large as the warriors, but he is most certainly\r\r\r\r\r\n\rlarger than you are. His weapons and armor appear to be of better quality\r\r\r\r\r\n\rand repair than the other gnolls, and you wonder if it might not be a good\r\r\r\r\r\n\ridea to live to fight another day.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 15,
+            "THAC0": 10,
+            "AC": 0,
+            "HP": "2d12+200",
+            "Damage": "5d2+2",
+            "Gold": 1350,
+            "XP": 3550,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4018,
+            "Aliases": [
+                "gnoll",
+                "chieftain"
+            ],
+            "ShortDesc": "the gnoll chieftain",
+            "LongDesc": "The evil chieftain of the gnolls screams a battle cry and attacks!\r\r\r\r\r\n\r",
+            "DetailedDesc": "The gnoll's chieftain is one big, bad, hairy humanoid. Not as burly as the\r\r\r\r\r\n\rwarriors, not as stealthy as the raiders, but somehow he encompasses the\r\r\r\r\r\n\rbest of both. He will be a difficult adversary.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -800,
+            "Level": 17,
+            "THAC0": 12,
+            "AC": 1,
+            "HP": "14d2+280",
+            "Damage": "3d6+0",
+            "Gold": 2500,
+            "XP": 4500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4019,
+            "Aliases": [
+                "gnoll",
+                "weapon",
+                "master",
+                "weaponmaster"
+            ],
+            "ShortDesc": "the gnoll weapons master",
+            "LongDesc": "The gnollish master of weapons is here, observing his charges.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The gnolls' weapons master is around the same size as the warriors, nearly\r\r\r\r\r\n\reight feet tall and unusually broad for a gnoll. His many battle scars tell\r\r\r\r\r\n\ryou that he has seen plenty of action, and his fanged sneer tells you that\r\r\r\r\r\n\rhe is not too old to see a little more.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 15,
+            "THAC0": 12,
+            "AC": 2,
+            "HP": "2d12+200",
+            "Damage": "5d2+2",
+            "Gold": 1150,
+            "XP": 4500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4020,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4050,
+            "Aliases": [
+                "bandit",
+                "leader"
+            ],
+            "ShortDesc": "the bandit leader",
+            "LongDesc": "The bandit leader is here, looking for intruders.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He seems to be a strong, brainless fighter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -300,
+            "Level": 12,
+            "THAC0": 12,
+            "AC": 4,
+            "HP": "16d10+83",
+            "Damage": "2d8+1",
+            "Gold": 1000,
+            "XP": 4000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4051,
+            "Aliases": [
+                "bandit"
+            ],
+            "ShortDesc": "a bandit",
+            "LongDesc": "A bandit is here, hiding out from the law.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He seems to know his way with weapons.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -400,
+            "Level": 10,
+            "THAC0": 7,
+            "AC": 5,
+            "HP": "5d10+133",
+            "Damage": "2d5+0",
+            "Gold": 200,
+            "XP": 2500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4052,
+            "Aliases": [
+                "hobgoblin"
+            ],
+            "ShortDesc": "the hobgoblin",
+            "LongDesc": "A small hobgoblin stands here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The hobgoblin looks quite lost.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -300,
+            "Level": 7,
+            "THAC0": 8,
+            "AC": 6,
+            "HP": "5d8+116",
+            "Damage": "2d4+0",
+            "Gold": 100,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4053,
+            "Aliases": [
+                "snake",
+                "brown",
+                "rattlesnake"
+            ],
+            "ShortDesc": "a rattlesnake",
+            "LongDesc": "A dusty brown snake rattles its tail at you in warning...\r\r\r\r\r\n\r",
+            "DetailedDesc": "The snake looks quite mean.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -600,
+            "Level": 12,
+            "THAC0": 10,
+            "AC": 4,
+            "HP": "6d10+100",
+            "Damage": "3d5+1",
+            "Gold": 0,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4054,
+            "Aliases": [
+                "centipede",
+                "giant"
+            ],
+            "ShortDesc": "the giant centipede",
+            "LongDesc": "A giant centipede is scuttling around here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The centipede doesn't really seem to notice you.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d10+83",
+            "Damage": "1d7+0",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4055,
+            "Aliases": [
+                "hobgoblin",
+                "subchief"
+            ],
+            "ShortDesc": "a hobgoblin subchief",
+            "LongDesc": "A hobgoblin subchief is here, looking for victims to torture.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The hobgoblin looks quite dangerous.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 14,
+            "THAC0": 12,
+            "AC": 2,
+            "HP": "1d16+200",
+            "Damage": "2d6+3",
+            "Gold": 300,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4056,
+            "Aliases": [
+                "orc",
+                "subchief"
+            ],
+            "ShortDesc": "an orcish subchief",
+            "LongDesc": "An orcish subchief turns and growls at your entry.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Well, he doesn't seem to be friendly.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -800,
+            "Level": 11,
+            "THAC0": 7,
+            "AC": 2,
+            "HP": "5d10+166",
+            "Damage": "2d5+2",
+            "Gold": 150,
+            "XP": 8500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4057,
+            "Aliases": [
+                "lion",
+                "mountain"
+            ],
+            "ShortDesc": "the mountain lion",
+            "LongDesc": "A mountain lion is here, growling at you viciously.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The lion looks very nasty with huge claws and big teeth.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 6,
+            "THAC0": 4,
+            "AC": 5,
+            "HP": "1d10+100",
+            "Damage": "2d4+0",
+            "Gold": 0,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4058,
+            "Aliases": [
+                "ogre"
+            ],
+            "ShortDesc": "the ogre",
+            "LongDesc": "An ogre roams around here, glowering and smelling bad.\r\r\r\r\r\n\r",
+            "DetailedDesc": "About 7 feet tall, this ogre is nasty, smelly, and brutal. Also not too bright.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 16,
+            "THAC0": 12,
+            "AC": 2,
+            "HP": "1d10+266",
+            "Damage": "2d10+0",
+            "Gold": 1000,
+            "XP": 4000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

@@ -1,0 +1,940 @@
+{
+    "mobs": [
+        {
+            "Number": 1100,
+            "Aliases": [
+                "elven",
+                "wizard"
+            ],
+            "ShortDesc": "the Elven Wizard",
+            "LongDesc": "An Elven Wizard is here, creating fireworks for the festivities.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Elven Wizard looks at you in a solemn sort of way.  His gaze seems to\r\r\r\r\r\r\n\rpenetrate through your innermost being.  He is wearing a silvery cloak\r\r\r\r\r\r\n\rand holding a multi-colored staff.  Although he appears to be older\r\r\r\r\r\r\n\rthan the oldest man, he seems to have an inner strength which most mortals\r\r\r\r\r\r\n\rcannot overcome.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 500,
+            "Level": 18,
+            "THAC0": 14,
+            "AC": -2,
+            "HP": "5d10+200",
+            "Damage": "3d2+8",
+            "Gold": 3725,
+            "XP": 27300,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1101,
+            "Aliases": [
+                "keeper",
+                "ring"
+            ],
+            "ShortDesc": "the Ring Keeper",
+            "LongDesc": "The Keeper of the Ring is here, guarding his treasure jealously.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Ring Keeper is a rather short and stout halfling. He wears brown\r\r\r\r\r\r\n\rleather breeches, a linen shirt, and a blue vest, and is barefoot.\r\r\r\r\r\r\n\rNormally a peaceful and easygoing individual, he will fight you to\r\r\r\r\r\r\n\rthe death in order to keep that which belongs to him.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 29,
+            "THAC0": 15,
+            "AC": -5,
+            "HP": "16d10+550",
+            "Damage": "4d2+2",
+            "Gold": 8000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1102,
+            "Aliases": [
+                "sam",
+                "gamgee",
+                "farmer"
+            ],
+            "ShortDesc": "Sam Gamgee",
+            "LongDesc": "Farmer Gamgee sniffs the air, wondering if harvest time is near.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This halfing is quite handsome, probably because his face is\r\r\r\r\r\r\n\rsomewhat leaner, and he has no muttonchop sideburns. His blue\r\r\r\r\r\r\n\reyes are rather engaging, too. His face is ruddy and tanned from\r\r\r\r\r\r\n\rbeing out in the sun, and his hands are calloused. He smiles at you.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 9,
+            "THAC0": 10,
+            "AC": 4,
+            "HP": "5d5+160",
+            "Damage": "4d3+0",
+            "Gold": 53,
+            "XP": 8000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1103,
+            "Aliases": [
+                "toddler"
+            ],
+            "ShortDesc": "a toddler",
+            "LongDesc": "A toddler crawls about, looking for something to chew on.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The toddler is dressed in nothing but his birthday suit.  He crawls about\r\r\r\r\r\r\n\rfor he hasn't learned to walk yet.  He peers up at you and asks \"da da?\"\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 4,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d3+10",
+            "Damage": "1d3+10",
+            "Gold": 20,
+            "XP": 0,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1104,
+            "Aliases": [
+                "nursemaid"
+            ],
+            "ShortDesc": "a nursemaid",
+            "LongDesc": "A nursemaid wanders about, trying to keep track of all the toddlers.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The nursemaid looks rather tired and worn out.  Taking care of so many\r\r\r\r\r\r\n\rtoddlers for too long has evidently taken its toll.  She looks to you and\r\r\r\r\r\r\n\rin her eyes you can see her longing for a better life.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 5,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "2d5+92",
+            "Damage": "2d3+1",
+            "Gold": 50,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1105,
+            "Aliases": [
+                "cow"
+            ],
+            "ShortDesc": "a cow",
+            "LongDesc": "A cow is here, chewing her cud.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The cow looks like it hasn't been milked in quite some time.  Although she\r\r\r\r\r\r\n\ris past her prime, you see that she still has a lot of years left, and that\r\r\r\r\r\r\n\rif provoked, her rear kick can be quite deadly.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "4d4+44",
+            "Damage": "1d4+3",
+            "Gold": 0,
+            "XP": 200,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1106,
+            "Aliases": [
+                "pig"
+            ],
+            "ShortDesc": "a pig",
+            "LongDesc": "A pig wallows in the mud and oinks in contentment.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The pig appears quite happy to be a pig.  He is oblivious to your presence\r\r\r\r\r\r\n\rand cares only for the care-free life that he leads.  It is enormously fat\r\r\r\r\r\r\n\rand consequently cannot move around very quickly.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 3,
+            "AC": 7,
+            "HP": "3d3+33",
+            "Damage": "2d2+1",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1107,
+            "Aliases": [
+                "chicken"
+            ],
+            "ShortDesc": "a chicken",
+            "LongDesc": "A chicken sits on her nest.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The chicken is bright and healthy.  She has no weapons but her beak.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 7,
+            "HP": "2d2+22",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 100,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1108,
+            "Aliases": [
+                "bull"
+            ],
+            "ShortDesc": "a bull",
+            "LongDesc": "A bull scratches at the ground and lowers his head.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The bull is in top condition.  He looks like quite a fighter, nothing to be\r\r\r\r\r\r\n\rreckoned with.  With his horns and his hooves he can attack just about\r\r\r\r\r\r\n\ranything.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 7,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "6d6+66",
+            "Damage": "1d4+4",
+            "Gold": 0,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1109,
+            "Aliases": [
+                "horse"
+            ],
+            "ShortDesc": "a horse",
+            "LongDesc": "A horse becomes frightened by your presence.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The horse looks at you and turns away.  You can tell that it is afraid of you.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "4d4+44",
+            "Damage": "1d8+0",
+            "Gold": 2,
+            "XP": 460,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1110,
+            "Aliases": [
+                "shiriff"
+            ],
+            "ShortDesc": "a burly shiriff",
+            "LongDesc": "A burly shiriff of the Shire is here on duty.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is a shiriff of this Shire. He stands over waist high, which\r\r\r\r\r\r\n\ris quite tall for a halfling. His head is going bald, and he has\r\r\r\r\r\r\n\rthick, curly muttonchop sideburns. He gives you a cursory look-over,\r\r\r\r\r\r\n\rthen goes about his business of peacekeeping.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 750,
+            "Level": 12,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "20d2+110",
+            "Damage": "1d4+5",
+            "Gold": 150,
+            "XP": 11200,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1111,
+            "Aliases": [
+                "shiriff"
+            ],
+            "ShortDesc": "a shiriff",
+            "LongDesc": "A shiriff of the Shire looks for signs of trouble.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This shiriff looks to be thinner than the average halfling, but\r\r\r\r\r\r\n\ris still rather tall - height being a requirement for becoming\r\r\r\r\r\r\n\ra shiriff, it seems. He has long sideburns, but they are closely\r\r\r\r\r\r\n\rcropped, and not so bushy as some like to have it. You take it\r\r\r\r\r\r\n\rhe must be a rookie. Or maybe not...\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 150,
+            "Level": 12,
+            "THAC0": 15,
+            "AC": 5,
+            "HP": "5d5+125",
+            "Damage": "1d4+5",
+            "Gold": 160,
+            "XP": 10500,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1112,
+            "Aliases": [
+                "thain"
+            ],
+            "ShortDesc": "the Thain",
+            "LongDesc": "The Thain commands respect from all Shire folk.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A personable yet serious halfling, the Thain looks at you and yells a\r\r\r\r\r\r\n\rdeep 'Hullo'.  He walks about comfortably, secure in the knowledge that\r\r\r\r\r\r\n\ras long as he's in office, the Shire will always remain a safe haven for\r\r\r\r\r\r\n\rShire folk.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 20,
+            "THAC0": 20,
+            "AC": -4,
+            "HP": "5d8+230",
+            "Damage": "2d3+5",
+            "Gold": 10000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1113,
+            "Aliases": [
+                "innkeeper"
+            ],
+            "ShortDesc": "the Innkeeper",
+            "LongDesc": "The Innkeeper stands here awaiting your order.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Innkeeper is a jolly old halfling who spends his days eavesdropping on\r\r\r\r\r\r\n\rlocal gossip.  In his younger days, he was quite a seasoned traveller.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 11,
+            "THAC0": 15,
+            "AC": -1,
+            "HP": "3d4+190",
+            "Damage": "1d8+0",
+            "Gold": 300,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1114,
+            "Aliases": [
+                "miller"
+            ],
+            "ShortDesc": "the Miller",
+            "LongDesc": "The Miller is here, overseeing his busy mill workers.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Miller is an impatient young halfling, always trying to command more\r\r\r\r\r\r\n\rrespect from his workers than he can get.  He looks like the type of person\r\r\r\r\r\r\n\rwho deserves a spanking but never got one.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 50,
+            "Level": 0,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "5d5+90",
+            "Damage": "1d4+4",
+            "Gold": 0,
+            "XP": 7875,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1115,
+            "Aliases": [
+                "mill",
+                "worker"
+            ],
+            "ShortDesc": "the mill worker",
+            "LongDesc": "The mill worker runs to and fro.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The mill worker is in fine shape from the hard labor that he does at the\r\r\r\r\r\r\n\rmill.  He doesn't notice your presence, but he looks like he could break you\r\r\r\r\r\r\n\rin two without thinking about it.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 8,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "4d4+60",
+            "Damage": "1d6+3",
+            "Gold": 75,
+            "XP": 5250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1116,
+            "Aliases": [
+                "warrior",
+                "elven",
+                "elf"
+            ],
+            "ShortDesc": "the elven warrior",
+            "LongDesc": "The elven warrior watches you with somber eyes.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This tall elven warrior is light and fair-skinned. The expression\r\r\r\r\r\r\n\rhe wears is solemn and tragic. Despairing of this cruel world, his\r\r\r\r\r\r\n\ronly reason for continuing to be is slowly fading away.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 600,
+            "Level": 18,
+            "THAC0": 16,
+            "AC": 2,
+            "HP": "10d10+380",
+            "Damage": "2d4+7",
+            "Gold": 10000,
+            "XP": 3625,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1117,
+            "Aliases": [
+                "prince",
+                "dwarven",
+                "dwarf"
+            ],
+            "ShortDesc": "the dwarven prince",
+            "LongDesc": "The dwarven prince sits here, waiting patiently for his king's return.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Grim and cold, the dwarven prince is quite strong and bulky, even\r\r\r\r\r\r\n\rfor the dwarves of his land. His glowing eyes peer out from 'neath\r\r\r\r\r\r\n\rbushy brows at stare at you. He strokes his long beard occasionally.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 30,
+            "THAC0": 20,
+            "AC": -1,
+            "HP": "10d10+600",
+            "Damage": "2d5+8",
+            "Gold": 10000,
+            "XP": 52400,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1118,
+            "Aliases": [
+                "shopkeeper"
+            ],
+            "ShortDesc": "the shopkeeper",
+            "LongDesc": "the shopkeeper smiles and patiently waits for you to buy something.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The shopkeeper will fight like a madman to protect his store from riff-raff\r\r\r\r\r\r\n\rlike you.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 72,
+            "THAC0": 40,
+            "AC": -12,
+            "HP": "100d100+20000",
+            "Damage": "1d8+50",
+            "Gold": 60000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1119,
+            "Aliases": [
+                "grocer"
+            ],
+            "ShortDesc": "the grocer",
+            "LongDesc": "The grocer offers you the finest breads in all the land.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The grocer is a large, jovial halfling who knows how to enjoy his pipeweed.\r\r\r\r\r\r\n\rHowever, he also knows that it's worth protecting and so will do everything\r\r\r\r\r\r\n\rin his power to prevent riff-raff like you from stealing it.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 74,
+            "THAC0": 30,
+            "AC": -12,
+            "HP": "100d100+20000",
+            "Damage": "2d8+50",
+            "Gold": 55000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1120,
+            "Aliases": [
+                "blacksmith"
+            ],
+            "ShortDesc": "the blacksmith",
+            "LongDesc": "The blacksmith bids you welcome to his humble store.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The blacksmith is a lean and mean fighting machine.  His knowledge of weapons\r\r\r\r\r\r\n\rand armour would certainly help him in any fight against riff-raff like you.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 75,
+            "THAC0": 19,
+            "AC": -100,
+            "HP": "1d1+30000",
+            "Damage": "1d8+50",
+            "Gold": 225000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1121,
+            "Aliases": [
+                "battle",
+                "master",
+                "battlemaster"
+            ],
+            "ShortDesc": "the battle master",
+            "LongDesc": "The battle master offers you the services of his fine trainees.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The battle master is a wizened fighter, with many scars to prove his worth.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 350,
+            "Level": 38,
+            "THAC0": 20,
+            "AC": -8,
+            "HP": "10d25+300",
+            "Damage": "2d6+10",
+            "Gold": 15000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1122,
+            "Aliases": [
+                "halfling",
+                "youth"
+            ],
+            "ShortDesc": "a halfling youth",
+            "LongDesc": "A halfling youth stands here, waiting for nothing in particular.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The halfling youth is not yet quite in the prime of his youth.  He's knee\r\r\r\r\r\r\n\rhigh and you get the sudden urge to step on him.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 3,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "3d3+33",
+            "Damage": "1d6+0",
+            "Gold": 35,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1123,
+            "Aliases": [
+                "seasoned",
+                "adventurer"
+            ],
+            "ShortDesc": "a seasoned adventurer",
+            "LongDesc": "A seasoned adventurer sits here, telling tales of fame and fortune.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The seasoned adventurer has seen his share of glory days.  Although he is\r\r\r\r\r\r\n\rpast his prime, he still looks like he could put up more than his share of\r\r\r\r\r\r\n\ra good fight.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 13,
+            "THAC0": 15,
+            "AC": 3,
+            "HP": "8d8+100",
+            "Damage": "2d3+7",
+            "Gold": 170,
+            "XP": 1500,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1124,
+            "Aliases": [
+                "local",
+                "gossip"
+            ],
+            "ShortDesc": "a local gossip",
+            "LongDesc": "A local gossip asks you, \"Have you heard the latest?\"\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The gossip is all talk and no action.  You're transfixed by her ability to\r\r\r\r\r\r\n\rtalk so much so quickly.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "4d4+44",
+            "Damage": "1d4+2",
+            "Gold": 50,
+            "XP": 200,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1125,
+            "Aliases": [
+                "halfling",
+                "beauty"
+            ],
+            "ShortDesc": "a halfling beauty",
+            "LongDesc": "A halfling beauty stares dreamily into your eyes.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "She is the most beautiful creature you've seen in quite some time.  As you\r\r\r\r\r\r\n\rstare at her, thoughts of all else vanish.  You get the sudden urge to grovel\r\r\r\r\r\r\n\rat her feet, hoping she'll take you in like a lost puppy.  You wouldn't dare\r\r\r\r\r\r\n\rharm a hair on her precious little head.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "3d3+60",
+            "Damage": "1d4+4",
+            "Gold": 75,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1126,
+            "Aliases": [
+                "trainee"
+            ],
+            "ShortDesc": "a trainee",
+            "LongDesc": "A trainee screams a death cry as he delivers the fatal blow to a dummy.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The trainee smiles smugly, aware of your interest in him.  He's a little\r\r\r\r\r\r\n\rfresh, but his enthusiasm and desire to please more than make up for what\r\r\r\r\r\r\n\rhe lacks in skill.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 5,
+            "THAC0": 13,
+            "AC": 5,
+            "HP": "2d5+80",
+            "Damage": "1d4+3",
+            "Gold": 50,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1127,
+            "Aliases": [
+                "chic",
+                "urbanite"
+            ],
+            "ShortDesc": "a chic urbanite",
+            "LongDesc": "A chic urbanite sits here, enjoying his class status.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The urbanite seems very much at home in his surroundings.  His clothes are\r\r\r\r\r\r\n\rall of the latest fashions and his manners impeccable.  He offers you some\r\r\r\r\r\r\n\rcoins if you'd be so good as to order a drink for him.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "4d4+34",
+            "Damage": "2d2+2",
+            "Gold": 100,
+            "XP": 500,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1128,
+            "Aliases": [
+                "country",
+                "bumpkin"
+            ],
+            "ShortDesc": "a country bumpkin",
+            "LongDesc": "A country bumpkin dreams of pipeweed and its many uses.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The country bumpkin snores noisily.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 4,
+            "AC": 5,
+            "HP": "5d5+55",
+            "Damage": "1d4+3",
+            "Gold": 70,
+            "XP": 1000,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1130,
+            "Aliases": [
+                "innkeeper"
+            ],
+            "ShortDesc": "the Innkeeper",
+            "LongDesc": "The Innkeeper stands here awaiting your order.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Innkeeper is a jolly old halfling who spends his days eavesdropping on\r\r\r\r\r\r\n\rlocal gossip.  In his younger days, he was quite a seasoned traveller.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 17,
+            "THAC0": 14,
+            "AC": 2,
+            "HP": "3d4+190",
+            "Damage": "1d8+15",
+            "Gold": 300,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1131,
+            "Aliases": [
+                "receptionist"
+            ],
+            "ShortDesc": "the receptionist",
+            "LongDesc": "The receptionist sits here, signing forms.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is a very professional looking type.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 20,
+            "THAC0": 19,
+            "AC": -2,
+            "HP": "12d12+220",
+            "Damage": "1d8+14",
+            "Gold": 200,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1132,
+            "Aliases": [
+                "shiriff"
+            ],
+            "ShortDesc": "a wandering shiriff",
+            "LongDesc": "A shiriff of the Shire looks for the lost halfling youth.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The shiriff is over waist high, quite tall for a halfling.\r\r\r\r\r\r\n\rHe looks at you, smiles and asks you if you have seen a halfling youth\r\r\r\r\r\r\n\rsomewhere outside the shire.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 150,
+            "Level": 10,
+            "THAC0": 14,
+            "AC": 5,
+            "HP": "5d5+120",
+            "Damage": "1d6+3",
+            "Gold": 150,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1133,
+            "Aliases": [
+                "mastiff"
+            ],
+            "ShortDesc": "a loyal mastiff",
+            "LongDesc": "A large brown-furred mastiff is flopped here lazily on the ground.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is a rather large mastiff specially bred by the halflings\r\r\r\r\r\r\n\rto help them in defending burrow and home. They are particularly\r\r\r\r\r\r\n\rgentle in manner towards their halfling friends, and are fiercely\r\r\r\r\r\r\n\rprotective of them. This one's jaws look large enough to sink into\r\r\r\r\r\r\n\ryour leg. ",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER"
+            ],
+            "Affections": [
+                "SENSE_LIFE"
+            ],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 3,
+            "AC": 10,
+            "HP": "1d10+34",
+            "Damage": "1d3+2",
+            "Gold": 0,
+            "XP": 300,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1134,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1137,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        }
+    ]
+}

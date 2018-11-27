@@ -1,0 +1,712 @@
+{
+    "mobs": [
+        {
+            "Number": 1701,
+            "Aliases": [
+                "gatekeeper"
+            ],
+            "ShortDesc": "the Gatekeeper",
+            "LongDesc": "A bored gatekeeper is standing guard here.\n",
+            "DetailedDesc": "This man is in charge of the gate to the castle.  His orders are to not\nlet anyone in, but his eyes shine with avarice, and he might be persuaded\nto open the gate for the right price.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 65,
+            "THAC0": 3,
+            "AC": -100,
+            "HP": "1d1+29999",
+            "Damage": "1d1+1",
+            "Gold": 100,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1702,
+            "Aliases": [
+                "guard",
+                "castle"
+            ],
+            "ShortDesc": "a castle guard",
+            "LongDesc": "A castle guard stands ready to defend the keep.\n",
+            "DetailedDesc": "\nThis castle guard, like many others, is a victim of circumstance.  A generally\nhonest and good man, he is forced to work in the castle for Lord Glum, else\nhis family would suffer.  He follows orders reluctantly, but his fear of Lord\nGlum and his concern for his family keep him loyal to the castle.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 12,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "1d1+144",
+            "Damage": "1d6+5",
+            "Gold": 1000,
+            "XP": 1,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1703,
+            "Aliases": [
+                "common",
+                "commoner",
+                "frightened"
+            ],
+            "ShortDesc": "a commoner",
+            "LongDesc": "A frightened commoner goes about his business.\n",
+            "DetailedDesc": "This man has seen eno\nugh of Lord Glum's reign to know to be very frightened\nof him.  While a decent enough fellow, he will do nothing to bring the wrath\nof any of the Lords Grymourne upon him.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 450,
+            "Level": 7,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "1d1+37",
+            "Damage": "1d8+2",
+            "Gold": 100,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1704,
+            "Aliases": [
+                "elderly",
+                "servant"
+            ],
+            "ShortDesc": "an elderly servant",
+            "LongDesc": "An elderly servant is running errands for her master.\n",
+            "DetailedDesc": "This old lady has worked in the castle for many decades, and has stuck on in\nthe hopes that one day Lord Glum will be driven from the keep.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 8,
+            "THAC0": 5,
+            "AC": 8,
+            "HP": "1d1+70",
+            "Damage": "1d7+3",
+            "Gold": 1,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1705,
+            "Aliases": [
+                "boy",
+                "stableboy",
+                "stable"
+            ],
+            "ShortDesc": "a stableboy",
+            "LongDesc": "A stableboy is looking for a horse that got away from him.\n",
+            "DetailedDesc": "Barely 16, this young lad is partly scared of all Bloodguard, and partly\nfascinated by them.  A good boy, raised by fine parents who were killed \nduring Lord Glum's rise to power.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 10,
+            "HP": "1d1+5",
+            "Damage": "1d6+1",
+            "Gold": 15,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1706,
+            "Aliases": [
+                "maid",
+                "girl"
+            ],
+            "ShortDesc": "a maid",
+            "LongDesc": "A pretty maid is cleaning up here.\n",
+            "DetailedDesc": "A\n pretty girl who is probably married to one of the guards.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 8,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "1d1+88",
+            "Damage": "2d4+4",
+            "Gold": 0,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1707,
+            "Aliases": [
+                "sergeant",
+                "arms",
+                "guard"
+            ],
+            "ShortDesc": "a sergeant-at-arms",
+            "LongDesc": "A sergeant-at-arms is giving orders to the men.\n",
+            "DetailedDesc": "A hardened warrior, he keeps the others in line for the Lords Grymourne.  He\nreports directly to Sir David himself, and while not an evil man, he is jaded\nenough to not care what happens to those around him.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "1d1+224",
+            "Damage": "2d5+10",
+            "Gold": 0,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1708,
+            "Aliases": [
+                "blood",
+                "guard",
+                "bloodguard",
+                "warrior"
+            ],
+            "ShortDesc": "a bloodguard warrior",
+            "LongDesc": "A bloodguard warrior is waiting to ambush someone.\n",
+            "DetailedDesc": "These fanatic warriors are the product of demented experimentation.  They\nonly live to kill, and they are loyal only to Lord Glum. They are the backbone\nof his shock troops, and fight until death no matter what.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -400,
+            "Level": 25,
+            "THAC0": 25,
+            "AC": -1,
+            "HP": "1d1+364",
+            "Damage": "6d2+15",
+            "Gold": 5000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1709,
+            "Aliases": [
+                "blood",
+                "guard",
+                "bloodguard",
+                "warrior"
+            ],
+            "ShortDesc": "a bloodguard warrior",
+            "LongDesc": "A bloodguard warrior is looking for someone to kill.\n",
+            "DetailedDesc": "These fanatic warriors are utterly devoted to Lord Glum,  Nothing will stop\nthem short of death, theirs or yours.  They know no fear, no pity, no mercy.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -400,
+            "Level": 25,
+            "THAC0": 25,
+            "AC": -1,
+            "HP": "1d1+364",
+            "Damage": "6d2+15",
+            "Gold": 15000,
+            "XP": 36000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1710,
+            "Aliases": [
+                "chaos",
+                "warrior",
+                "legion"
+            ],
+            "ShortDesc": "a warrior of chaos",
+            "LongDesc": "A Warrior of Chaos patrols the halls here.\n",
+            "DetailedDesc": "A mighty warrior and member of the Legions of Chaos, this being was created\nout of the very fabric of entropy to be the perfect fighting force for Lord\nGlum.  Every day more and more chaos warriors join the ranks of the Chaos\nBrigade here in the castle.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": -400,
+            "Level": 30,
+            "THAC0": 25,
+            "AC": -4,
+            "HP": "1d1+656",
+            "Damage": "4d4+15",
+            "Gold": 30000,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1711,
+            "Aliases": [
+                "chaos",
+                "warrior",
+                "legion",
+                "champion"
+            ],
+            "ShortDesc": "the Champion of Chaos",
+            "LongDesc": "The Champion of Chaos, leader of the Chaos Brigade, looks at you menacingly.\n",
+            "DetailedDesc": "Once a Chaos Warrior, this creature fought it's way through the ranks to become\nthe most fearsome of all the Legion of Chaos.  Wielding a large runeblade,\nhe cuts a path through his foes as he steals their life essence.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -700,
+            "Level": 45,
+            "THAC0": 20,
+            "AC": -8,
+            "HP": "1d1+1048",
+            "Damage": "5d5+25",
+            "Gold": 75000,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1712,
+            "Aliases": [
+                "sentinel",
+                "guardian"
+            ],
+            "ShortDesc": "the sentinel",
+            "LongDesc": "The sentinel is standing guard here.\n",
+            "DetailedDesc": "A large stone golem, the sentinel is a mighty guardian who has been set here\nto prevent any from entering the throne room beyond.  He is slow, but made\nof solid granite and nearly impossible to destroy.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 60,
+            "THAC0": 18,
+            "AC": 0,
+            "HP": "0d0+30000",
+            "Damage": "4d4+40",
+            "Gold": 100000,
+            "XP": 350000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1713,
+            "Aliases": [
+                "key",
+                "master",
+                "keymaster"
+            ],
+            "ShortDesc": "the keymaster",
+            "LongDesc": "\nThe keymaster of Castle Grymourne lies in wait.\n",
+            "DetailedDesc": "This is Lord Glum's keymaster, responsible for keeping people in, or keep\nthem from leaving.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -300,
+            "Level": 20,
+            "THAC0": 15,
+            "AC": -10,
+            "HP": "1d10+200",
+            "Damage": "4d4+10",
+            "Gold": 5000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1714,
+            "Aliases": [
+                "sir",
+                "david",
+                "grymourne"
+            ],
+            "ShortDesc": "Sir David",
+            "LongDesc": "Sir David Grymourne is overseeing the troops here.\n",
+            "DetailedDesc": "Younger brother to Lord Glum, Sir David is the general in charge of his human\narmies.  An Anti-Paladin in the Order of the Ebon Flame, Sir David is a mighty\nwarrior in his own right.  He rules the outer castle with an iron hand.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -750,
+            "Level": 50,
+            "THAC0": 30,
+            "AC": -10,
+            "HP": "10d10+2500",
+            "Damage": "5d5+25",
+            "Gold": 150000,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1715,
+            "Aliases": [
+                "lord",
+                "glum",
+                "grymourne",
+                "lordglum"
+            ],
+            "ShortDesc": "Lord Glum",
+            "LongDesc": "Lord Glum looks out over his subjects with disdain.\n",
+            "DetailedDesc": "Lord Glum is a powerfully built giant of a man.  In fact, he looks more demon \nthan man, and you wonder \nat his origins.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 150,
+            "THAC0": 90,
+            "AC": -35,
+            "HP": "100d10+15600",
+            "Damage": "20d10+65",
+            "Gold": 55000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1716,
+            "Aliases": [
+                "demon",
+                "doppel",
+                "doppel-demon"
+            ],
+            "ShortDesc": "the Doppel-Demon",
+            "LongDesc": "The Doppel-demon has been revealed!\n",
+            "DetailedDesc": "In it's true form, the Doppel-Demon is enormous. Eight feet tall and well over\n500 pounds, the demon has razor sharp talons and spiked protruding all over his\nskin.  It's power is much greater in it's true incarnation.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -400,
+            "Level": 60,
+            "THAC0": 48,
+            "AC": -10,
+            "HP": "20d20+2000",
+            "Damage": "14d5+43",
+            "Gold": 180000,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1717,
+            "Aliases": [
+                "tangi",
+                "grymourne"
+            ],
+            "ShortDesc": "Tangi",
+            "LongDesc": "The Bloodguard leader, Tangi, is creating new bloodguards.\n",
+            "DetailedDesc": "\nBrother to Lord Glum and Sir David, Tangi is the middle brother of the three.\nHe leads the fanatical warriors of Lord Glum known as the Bloodguard.  He is\nhalf-insane himself, either due to nature or his own brother's conditioning.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -400,
+            "Level": 65,
+            "THAC0": 30,
+            "AC": -25,
+            "HP": "20d20+3500",
+            "Damage": "6d5+45",
+            "Gold": 195000,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1718,
+            "Aliases": [
+                "chaos",
+                "priest"
+            ],
+            "ShortDesc": "a priest of chaos",
+            "LongDesc": "A priest is here, worshiping the dark forces of chaos.\n",
+            "DetailedDesc": "One of the disciples of Sir Sabbath Grymourne, this priest is a loyal follower\nof the lords of Chaos.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": -400,
+            "Level": 25,
+            "THAC0": 25,
+            "AC": -8,
+            "HP": "10d10+600",
+            "Damage": "5d5+25",
+            "Gold": 50000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1719,
+            "Aliases": [
+                "sir",
+                "sabbath",
+                "grymourne"
+            ],
+            "ShortDesc": "Sir Sabbath",
+            "LongDesc": "Sir Sabbath Grymourne stands here incanting a prayer to the lords of Chaos.\n",
+            "DetailedDesc": "Sir Sabbath Grymourne is a high priest of Chaos, and the father of the brothers\nGrymourne.  His eldest son, Lord Glum, rules the lands around the castle with\nthe help of Sir Sabbath and his demonic allies.  Sir Sabbath is wholly evil,\nand no trace of pity or mercy are to be found left within his soul.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -400,
+            "Level": 130,
+            "THAC0": 40,
+            "AC": -30,
+            "HP": "25d25+8000",
+            "Damage": "20d6+60",
+            "Gold": 10000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1720,
+            "Aliases": [
+                "lord",
+                "glum",
+                "grymourne",
+                "lordglum"
+            ],
+            "ShortDesc": "Lord Glum",
+            "LongDesc": "Lord Glum Grymourne smiles at you, and fear enters your heart.\n",
+            "DetailedDesc": "As you look upon him in his true form, Lord Glum sends fear through your entire\nsoul.  He can crush you with the least effort, and you realize how puny your\nexistance truly is.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_GOOD"
+            ],
+            "Alignment": -1000,
+            "Level": 140,
+            "THAC0": 85,
+            "AC": -32,
+            "HP": "50d50+17000",
+            "Damage": "20d10+80",
+            "Gold": 25000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1721,
+            "Aliases": [
+                "seer"
+            ],
+            "ShortDesc": "the Seer of Midgaard",
+            "LongDesc": "The Seer of Midgaard is scrying the future.\n",
+            "DetailedDesc": "She looks very mysterious.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 0,
+            "AC": -100,
+            "HP": "1d1+25000",
+            "Damage": "1d1+1",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1722,
+            "Aliases": [
+                "blah"
+            ],
+            "ShortDesc": "blah",
+            "LongDesc": "Jiro\n",
+            "DetailedDesc": "it's blah\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 100,
+            "Level": 20,
+            "THAC0": 2,
+            "AC": 0,
+            "HP": "10d10+100",
+            "Damage": "2d2+2",
+            "Gold": 3,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

@@ -1,0 +1,1654 @@
+{
+    "mobs": [
+        {
+            "Number": 24200,
+            "Aliases": [
+                "shaolin",
+                "master",
+                "shaolinmaster"
+            ],
+            "ShortDesc": "a Shaolin master",
+            "LongDesc": "A Shaolin master is standing here, teaching his students.\n",
+            "DetailedDesc": "This Shaolin monk shows no expression at all.  All he does is\njust instructs his students to practice and to learn from his\ndemostrations.  The Shaolin master is wearing an orange robe like\nany other Shaolin headmasters here.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 8,
+            "THAC0": 4,
+            "AC": 3,
+            "HP": "1d1+180",
+            "Damage": "4d1+2",
+            "Gold": 125,
+            "XP": 4000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24201,
+            "Aliases": [
+                "shaolin",
+                "master",
+                "shaolinmaster"
+            ],
+            "ShortDesc": "a Shaolin master",
+            "LongDesc": "A Shaolin master is walking around the temple, observing the pupils.\n",
+            "DetailedDesc": "This Shaolin monk shows no expression at all.  All he does is\njust instructs his students to practice and to learn from his\ndemostrations.  The Shaolin master is wearing an orange robe like\nany other Shaolin headmasters here.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 8,
+            "THAC0": 4,
+            "AC": 3,
+            "HP": "1d1+180",
+            "Damage": "4d1+2",
+            "Gold": 125,
+            "XP": 4000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24202,
+            "Aliases": [
+                "student",
+                "shaolin",
+                "pupil",
+                "monk"
+            ],
+            "ShortDesc": "a Shaolin student",
+            "LongDesc": "A student of Shaolin is standing here, studying the martial arts.\n",
+            "DetailedDesc": "This Shaolin student is like all other students here in the\ntemple.  He's a diligent man, always studying the ancient\nmanuscripts and learning the martial arts of Shaolin.  This\nstudent wears a blue robe, and unlike the monks in this temple\nhe has to keep his hair until he becomes a true master.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 6,
+            "HP": "1d1+100",
+            "Damage": "4d1+0",
+            "Gold": 55,
+            "XP": 750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24203,
+            "Aliases": [
+                "student",
+                "shaolin",
+                "pupil",
+                "monk"
+            ],
+            "ShortDesc": "a Shaolin student",
+            "LongDesc": "A Shaolin student is walking around, reciting the holy manuscripts.\n",
+            "DetailedDesc": "This Shaolin student is like all other students here in the\ntemple.  He's a diligent man, always studying the ancient\nmanuscripts and learning the martial arts of Shaolin.  This\nstudent wears a blue robe, and unlike the monks in this temple\nhe has to keep his hair until he becomes a true master.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 6,
+            "HP": "1d1+100",
+            "Damage": "4d1+0",
+            "Gold": 55,
+            "XP": 750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24204,
+            "Aliases": [
+                "monk",
+                "shaolin",
+                ""
+            ],
+            "ShortDesc": "a Shaolin monk",
+            "LongDesc": "A Shaolin monk is walking around, meditating and watching the students.\n",
+            "DetailedDesc": "This Shaolin monk is unlike the Shaolin master who has to teach the\nyoung students.  His purpose for staying here in the temple is to\nwatch the students carefully to make sure they don't step out of \nline.  He wants to make sure that each student is discipline and that\nthey will study hard in their learnings.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "1d1+120",
+            "Damage": "5d1+0",
+            "Gold": 60,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24205,
+            "Aliases": [
+                "master",
+                "woo",
+                "masterwoo"
+            ],
+            "ShortDesc": "Master Woo",
+            "LongDesc": "Master Woo, the 'Wing-Chun' master, is practicing his technique.\n",
+            "DetailedDesc": "This Shaolin master is one of the most powerful monks here in the\ntemple.  His skill in the arts of Wing-Chun is unmatched.  \nWing-Chun is a 'graceful' martial art that deals with balance and\nspeed.  It was originally a skill invented by a woman with that\nsame name and now, it's used throughout China and the rest of the\nworld.  Master Woo is an average size man and he wears a long, dull\nmonk's robe.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 69,
+            "THAC0": 65,
+            "AC": -20,
+            "HP": "10d10+1395",
+            "Damage": "10d3+32",
+            "Gold": 25000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24206,
+            "Aliases": [
+                "master",
+                "baoh",
+                "masterbaoh"
+            ],
+            "ShortDesc": "Master Baoh",
+            "LongDesc": "Master Baoh, the 'Sticking Hands' master, is displaying his skills.\n",
+            "DetailedDesc": "Baoh is the master of the martial art technique known as 'Sticking\nHands.'  This martial art is best used against an enemy of a greater\nsize.  The 'Sticking Hands' was popularized by Bruce Lee.  Though\nLee did not invent this technique he demonstrated to the world its\npower and how effective it could be.  Baoh is the master of this\ntechnique and there's no one here in Shaolin that could best him\nusing the same technique.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 69,
+            "THAC0": 65,
+            "AC": -18,
+            "HP": "10d10+1395",
+            "Damage": "10d3+32",
+            "Gold": 25000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24207,
+            "Aliases": [
+                "master",
+                "lam",
+                "masterlam"
+            ],
+            "ShortDesc": "Master Lam",
+            "LongDesc": "Master Lam, the Monkey Kung-Fu master, is showing off his amazing skills.\n",
+            "DetailedDesc": "Master Lam knows that no one in Shaolin is better at the\ntechnique known as Monkey Kung-Fu than he is.  This skill is an\nold martial art form of Shaolin and it's still widely use today.\nThe Monkey Kung-Fu is faast and unpredictable.  It's not easy to\nlearn this strange skill because a person must have the agility\nas well as the intelligence to study and understand this technique.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 76,
+            "THAC0": 75,
+            "AC": -20,
+            "HP": "10d10+1770",
+            "Damage": "3d15+33",
+            "Gold": 30000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24208,
+            "Aliases": [
+                "masterkhal-lung",
+                "master",
+                "khal-lung",
+                "khal",
+                "lung"
+            ],
+            "ShortDesc": "Master Khal-Lung",
+            "LongDesc": "Master Khal-Lung, the Dragon Kung-Fu master, is practicing his lethal kung-fu.\n",
+            "DetailedDesc": "The Dragon Kung-Fu is definitely a dangerous martial art when\nit's used for the wrong purpose.  The Dragon claws and Dragon\ntail are two steps to this lethal martial art.  The claws are the\nhands and the tail is the swift leg of the Dragon Kung-Fu \nfighter.  Khal-Lung knows that only one who can control his\n'inner self' may be master this deadly martial art.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 61,
+            "THAC0": 55,
+            "AC": -14,
+            "HP": "10d10+1020",
+            "Damage": "6d5+29",
+            "Gold": 20000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24209,
+            "Aliases": [
+                "master",
+                "gow",
+                "mastergow"
+            ],
+            "ShortDesc": "Master Gow",
+            "LongDesc": "Master Gow, the Shaolin 'Long-Fist' master, is practicing his kung-fu.\n",
+            "DetailedDesc": "Speed and power are the keys to understanding the 'Long-Fist'\nmartial art technique.  Not only that, this skill also focus on\nfinding and concentrating on weak points of the human body.\nMaster Gow is a full contact fighter whenever he uses this skill,\nand when he attacks, you can be sure that you'll be disabled as\nsoon as his deadly blows connect.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 69,
+            "THAC0": 65,
+            "AC": -20,
+            "HP": "10d10+1395",
+            "Damage": "10d3+32",
+            "Gold": 25000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24210,
+            "Aliases": [
+                "masterwong-fei-hong",
+                "master",
+                "wong",
+                "fei",
+                "hong"
+            ],
+            "ShortDesc": "Master Wong-Fei-Hong",
+            "LongDesc": "Master Wong-Fei-Hong, the Drunken Fist Master, is drinking some rice wine.\n",
+            "DetailedDesc": "The Drunken Fist is the one of the popular if not the most\npopular martial art in China today.  This strange form of martial\nart is most effective when the fighter is drunk, however, not many\nexpert users of this technique require wine to demostrate this skill.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 85,
+            "THAC0": 65,
+            "AC": -20,
+            "HP": "10d10+1395",
+            "Damage": "10d3+32",
+            "Gold": 25000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24211,
+            "Aliases": [
+                "master",
+                "tang",
+                "mastertang"
+            ],
+            "ShortDesc": "Master Tang",
+            "LongDesc": "Master Tang, the Crane Kung-Fu master, is standing on one leg.\n",
+            "DetailedDesc": "Master Tang is here meditating as he stands on one of his legs\nwith arms stretched out wide.  The Crane Kung-Fu is more of an\nexercise skill but it could be used as a fighting technique. The\nCrane Kung-Fu focus on balance and grace and thus it's one of\nShaolin's most 'tamed' martial arts.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 61,
+            "THAC0": 55,
+            "AC": -14,
+            "HP": "10d10+1020",
+            "Damage": "6d5+29",
+            "Gold": 18000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24212,
+            "Aliases": [
+                "monk",
+                "crazy",
+                "fo",
+                "lung",
+                "fo-lung"
+            ],
+            "ShortDesc": "Fo-Lung the rebel monk",
+            "LongDesc": "A crazy monk is here, trying to break those chains that bind him.\n",
+            "DetailedDesc": "As long as he lives, Fo-Lung is a threat to everyone.  This\ninsane, bloodthirsty monk has killed many when he first escaped\nfrom Shaolin.  Fo-Lung used to be the master of 'Wu-Shu'-- a fast\nand lethal martial art that's widely used around the world.  A Wu-\nShu expert is always a dangerous opponent when it comes to a fight.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 85,
+            "THAC0": 65,
+            "AC": -20,
+            "HP": "10d10+1395",
+            "Damage": "10d3+32",
+            "Gold": 25000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24213,
+            "Aliases": [
+                "lai-hong",
+                "hong",
+                "lai",
+                "master",
+                "monk"
+            ],
+            "ShortDesc": "Master Lai-Hong",
+            "LongDesc": "Master Lai-Hong, the Snake Kung-Fu master, is practicing his deadly skill.\n",
+            "DetailedDesc": "The Snake Kung-Fu is very popular in China.  Lai-Hong is the\nmaster of this martial art here in the Shaolin Temple and he could\nuse this deadly skill quite well.  The Snake Kung-Fu requires that\nthe fighter uses every part of his body, similar to how a snake\nwould use its body to move and kill.  Speed is the key if a person\nis to learn the way of the Snake Kung-Fu.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 69,
+            "THAC0": 65,
+            "AC": -20,
+            "HP": "10d10+1395",
+            "Damage": "10d3+32",
+            "Gold": 25000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24214,
+            "Aliases": [
+                "wu-king",
+                "wu",
+                "king"
+            ],
+            "ShortDesc": "Master Wu-King",
+            "LongDesc": "Master Wu-King, the Tiger Kung-Fu master, is practicing his skill.\n",
+            "DetailedDesc": "Tiger Kung-Fu is a skill that focus on strength and accuracy.\nThe hand claws of the Tiger Kung-Fu fighter mimic the powerful\nclaws of the tiger.  The deadly hand claws could rip through most\nthings once the fighter has master this technique.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 61,
+            "THAC0": 55,
+            "AC": -14,
+            "HP": "10d10+1020",
+            "Damage": "6d5+29",
+            "Gold": 18000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24215,
+            "Aliases": [
+                "master",
+                "lew",
+                "masterlew"
+            ],
+            "ShortDesc": "Master Lew",
+            "LongDesc": "Master Lew, the 'Steel Bridge' master, is practicing his powerful skill.\n",
+            "DetailedDesc": "Master Lew has isolated himself from the outside world so that he\nmay study the 'Steel Bridge' technique more thoroughly.  To learn\nthis mysterious form of martial art, one must focus the mind and \nconcentrate on his studies.  This is the only way a person may \nuncover the secrets of the power behind this Shaolin martial art.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 69,
+            "THAC0": 65,
+            "AC": -20,
+            "HP": "10d10+1395",
+            "Damage": "13d2+33",
+            "Gold": 25000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24216,
+            "Aliases": [
+                "master",
+                "chai",
+                "masterchai"
+            ],
+            "ShortDesc": "Master Chai",
+            "LongDesc": "Master Chai, the Tai-Chi master and head Shaolin monk, is standing here.\n",
+            "DetailedDesc": "Master Chai is the head abbott here in this temple.  He is\npracticing a graceful martial art called Tai-Chi which he is\nthe master of.  Though the martial art that he's practicing seems\nto look weak, slow, and useless, it could be something more than\njust an exercise technique.  Tai-Chi is not something anyone\nshould underestimate.  This art form can be used against any\nopponent and it works best when the Tai Chi fighter wields a long\ndouble-edge Tai-Chi sword.  Tai Chi focuses on 'repelling' the\nopponent's own force and strength without having the Tai-Chi\nfighter exerting his own force.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 125,
+            "THAC0": 80,
+            "AC": -22,
+            "HP": "10d10+2770",
+            "Damage": "15d5+37",
+            "Gold": 35000,
+            "XP": 42000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24217,
+            "Aliases": [
+                "chow",
+                "sentinel",
+                "monk"
+            ],
+            "ShortDesc": "Sentinel Chow",
+            "LongDesc": "Sentinel Chow is here, looking for any signs of trouble in Shaolin.\n",
+            "DetailedDesc": "Chow is the leader of the four lethal Shaolin Sentinels.  He will\nhalt any troublemakers in the temple by any force necessary.  His\nprimary orders are to keep the temple in peace and make sure no\none dares to interrupt the headmasters in their study.  Sentinel\nChow looks like an awesome man.  With robes made of a thin gold\nmaterial and a staff made of bronze, he looks like a man who\ncould really do some damage.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 55,
+            "AC": -14,
+            "HP": "10d10+1020",
+            "Damage": "4d2+41",
+            "Gold": 18000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24218,
+            "Aliases": [
+                "lai-man",
+                "lai",
+                "man",
+                "sentinel",
+                "monk"
+            ],
+            "ShortDesc": "Sentinel Lai-Man",
+            "LongDesc": "Sentinel Lai-Man is here, patrolling this area.\n",
+            "DetailedDesc": "Lai-Man doesn't look like a pushover when you first see him.  He\nstands tall with his powerful staff in hand and he looks like he\ncould really hurt someone.  Lai-Man is one of the four deadly\nSentinels of Shaolin and he will enforce the laws here in the\ntemple.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 55,
+            "AC": -14,
+            "HP": "10d10+1020",
+            "Damage": "12d2+29",
+            "Gold": 18000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24219,
+            "Aliases": [
+                "kwong",
+                "sentinel",
+                "monk"
+            ],
+            "ShortDesc": "Sentinel Kwong",
+            "LongDesc": "The always-vigilant Sentinel Kwong is looking around the temple.\n",
+            "DetailedDesc": "This Shaolin master is one of the four deadly Shaolin Sentinels.\nHe will do anything to stop invaders who are here to cause\ntrouble for the Shaolin headmasters and pupils.  Kwong looks like\nan impressive man, with lean bulging muscles, this man is someone\nyou don't want to fight...trust me.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 55,
+            "AC": -14,
+            "HP": "10d10+1020",
+            "Damage": "6d5+29",
+            "Gold": 18000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24220,
+            "Aliases": [
+                "tam",
+                "sentinel",
+                "monk"
+            ],
+            "ShortDesc": "Sentinel Tam",
+            "LongDesc": "Sentinel Tam is here, looking for toublemakers to bash on.\n",
+            "DetailedDesc": "Sentinel Tam is one of the most aggressive of the four Shaolin\nSentinels.  He will hurt you bad if you try to do anything bad\naround the temple.  Tam is a master of the bronze staff that he's\ncarrying and he wouldn't hesitate to use this weapon if he knows\nsomeone here is a troublemaker.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 55,
+            "AC": -14,
+            "HP": "10d10+1020",
+            "Damage": "9d3+29",
+            "Gold": 18000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24221,
+            "Aliases": [
+                "ninja",
+                "ninja-assassin",
+                "assassin",
+                "chinese"
+            ],
+            "ShortDesc": "a Chinese ninja-assassin",
+            "LongDesc": "A very silent and deadly ninja is looking for his target...\n",
+            "DetailedDesc": "This Chinese ninja-assassin is trying to find the person that\nhe's here to assassinate.  His quiet footsteps and his uncanny\ninvisibility makes him quite elusive to even the four Shaolin\nSentinels.  This Chinese ninja, unlike the Japanese ninjas, is\nmuch more faster, smarter, and many times deadlier.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "SANCTUARY",
+                "SNEAK"
+            ],
+            "Alignment": -500,
+            "Level": 61,
+            "THAC0": 55,
+            "AC": -14,
+            "HP": "10d10+1020",
+            "Damage": "10d3+27",
+            "Gold": 18000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24222,
+            "Aliases": [
+                "empress",
+                "dowager"
+            ],
+            "ShortDesc": "Empress Dowager",
+            "LongDesc": "Empress Dowager is here, praying to a statue that stands before her.\n",
+            "DetailedDesc": "Empress Dowager is one of the most cruelest ruler in China's\nhistory.  She has sentence more than ten thousand men to the \nguillotine when she was in power and many, many people despise\nthis mad woman.  Dowager is a god-fearing worshipper.  She\nbelieves that everything she did, all those men she murdered,\nwere the instructions of her God.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 57,
+            "THAC0": 75,
+            "AC": -14,
+            "HP": "10d10+2020",
+            "Damage": "12d2+29",
+            "Gold": 16000,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 24223,
+            "Aliases": [
+                "ghost",
+                "bruce",
+                "lee",
+                ""
+            ],
+            "ShortDesc": "Bruce Lee's ghost",
+            "LongDesc": "Bruce Lee's ghost is looking for Brandon.  Do you know where he is?\n",
+            "DetailedDesc": "A strange figure in the shape of Bruce Lee is walking silently \naround the temple.  He seems to be looking for someone, maybe\nhe's looking for his son, Brandon.  This ghostly image of Bruce\nLee is wearing some dark kung-fu pants much like the pants Lee\nwore in all his movies.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 85,
+            "AC": -27,
+            "HP": "10d10+7400",
+            "Damage": "12d10+75",
+            "Gold": 50000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24224,
+            "Aliases": [
+                "ghost",
+                "brandon",
+                "lee"
+            ],
+            "ShortDesc": "Brandon Lee's ghost",
+            "LongDesc": "A lonely, ghost figure of Brandon Lee cries out, 'Who killed me?'\n",
+            "DetailedDesc": "Brandon Lee has come back from the dead because his murder is \nstill unsolved.  This vengeful ghost wants the man who switch\nthose blank bullets for the real thing.  Brandon could've had a\ngreat life, an engagement to a lovely woman and a blooming \ncareer, but all that was taken away by someone who wanted him \ndead for a reason that is still unknown...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "SANCTUARY",
+                "SNEAK"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 65,
+            "AC": -20,
+            "HP": "10d10+1395",
+            "Damage": "10d3+42",
+            "Gold": 20000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24225,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#1"
+            ],
+            "ShortDesc": "Bronze Man #1",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 58,
+            "THAC0": 45,
+            "AC": -16,
+            "HP": "10d10+1520",
+            "Damage": "4d3+29",
+            "Gold": 25000,
+            "XP": 27000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24226,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#2"
+            ],
+            "ShortDesc": "Bronze Man #2",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 58,
+            "THAC0": 45,
+            "AC": -16,
+            "HP": "10d10+1520",
+            "Damage": "4d3+29",
+            "Gold": 25000,
+            "XP": 27000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24227,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#3"
+            ],
+            "ShortDesc": "Bronze Man #3",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 59,
+            "THAC0": 55,
+            "AC": -16,
+            "HP": "10d10+1520",
+            "Damage": "4d3+29",
+            "Gold": 25000,
+            "XP": 27000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24228,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#4"
+            ],
+            "ShortDesc": "Bronze Man #4",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 61,
+            "THAC0": 55,
+            "AC": -10,
+            "HP": "10d10+1520",
+            "Damage": "5d5+27",
+            "Gold": 29000,
+            "XP": 33000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24229,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#5"
+            ],
+            "ShortDesc": "Bronze Man #5",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 66,
+            "THAC0": 65,
+            "AC": -14,
+            "HP": "10d10+1530",
+            "Damage": "6d5+29",
+            "Gold": 30000,
+            "XP": 35500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24230,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#6"
+            ],
+            "ShortDesc": "Bronze Man #6",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 64,
+            "AC": -19,
+            "HP": "10d10+1545",
+            "Damage": "10d4+33",
+            "Gold": 32000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24231,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#7"
+            ],
+            "ShortDesc": "Bronze Man #7",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 80,
+            "THAC0": 65,
+            "AC": -19,
+            "HP": "10d10+1800",
+            "Damage": "10d5+35",
+            "Gold": 32000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24232,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#8"
+            ],
+            "ShortDesc": "Bronze Man #8",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 81,
+            "THAC0": 70,
+            "AC": -19,
+            "HP": "10d10+1900",
+            "Damage": "10d5+35",
+            "Gold": 32000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24233,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#9"
+            ],
+            "ShortDesc": "Bronze Man #9",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 86,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "10d10+2070",
+            "Damage": "10d5+40",
+            "Gold": 35000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24234,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#10"
+            ],
+            "ShortDesc": "Bronze Man #10",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 86,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "10d10+2070",
+            "Damage": "12d4+40",
+            "Gold": 35000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24235,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#11"
+            ],
+            "ShortDesc": "Bronze Man #11",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 88,
+            "THAC0": 72,
+            "AC": -20,
+            "HP": "10d10+2070",
+            "Damage": "15d4+36",
+            "Gold": 35000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24236,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#12"
+            ],
+            "ShortDesc": "Bronze Man #12",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 88,
+            "THAC0": 72,
+            "AC": -20,
+            "HP": "10d10+2500",
+            "Damage": "18d2+40",
+            "Gold": 35000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24237,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#13"
+            ],
+            "ShortDesc": "Bronze Man #13",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 88,
+            "THAC0": 75,
+            "AC": -20,
+            "HP": "10d10+2420",
+            "Damage": "11d5+35",
+            "Gold": 35000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24238,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#14"
+            ],
+            "ShortDesc": "Bronze Man #14",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 103,
+            "THAC0": 80,
+            "AC": -24,
+            "HP": "10d10+2470",
+            "Damage": "10d5+60",
+            "Gold": 40000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24239,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#15"
+            ],
+            "ShortDesc": "Bronze Man #15",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 103,
+            "THAC0": 80,
+            "AC": -24,
+            "HP": "10d10+2470",
+            "Damage": "10d3+70",
+            "Gold": 40000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24240,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#16"
+            ],
+            "ShortDesc": "Bronze Man #16",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 105,
+            "THAC0": 85,
+            "AC": -24,
+            "HP": "10d10+2670",
+            "Damage": "12d2+72",
+            "Gold": 40000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24241,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#17"
+            ],
+            "ShortDesc": "Bronze Man #17",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 85,
+            "AC": -26,
+            "HP": "10d10+4950",
+            "Damage": "15d5+66",
+            "Gold": 40000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24242,
+            "Aliases": [
+                "man",
+                "bronze",
+                "#18"
+            ],
+            "ShortDesc": "Bronze Man #18",
+            "LongDesc": "A Bronze Man is standing here, guarding the large entrance.\n",
+            "DetailedDesc": "The lean, muscular bronze body of this deadly guardian looks\nimpenetrable.  This Bronse Man is always ready to hurt anyone who\ntries passing through those massive, red oak doors behind him.  \nNot many could defeat this lethal guardian.  Only those with\npatience and great strength may be able to earn a victory from\nthis seemingly invincible guardian.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 85,
+            "AC": -27,
+            "HP": "10d10+5660",
+            "Damage": "10d10+75",
+            "Gold": 75000,
+            "XP": 180000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24243,
+            "Aliases": [
+                "monk",
+                "bald-headed",
+                "guy",
+                "man",
+                "student",
+                "shaolin"
+            ],
+            "ShortDesc": "a Shaolin student",
+            "LongDesc": "A bald-headed monk is running up the stairs with two pails of water!\n",
+            "DetailedDesc": "INCREDIBLE!  No one can move that quickly up the stairs even without\ncarrying those two large pails of water.  This monk must have the\nstrength of ten men.  He moves up the stairs as though he's not even\ntired from climbing those other few thousands steps before him.  \n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 6,
+            "HP": "1d1+100",
+            "Damage": "4d1+0",
+            "Gold": 55,
+            "XP": 750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24244,
+            "Aliases": [
+                "buddha",
+                "statue",
+                "golden",
+                "god"
+            ],
+            "ShortDesc": "the statue of Buddha",
+            "LongDesc": "A large golden Buddha statue is sitting on top a huge stone pedestal.\n",
+            "DetailedDesc": "This holy statue of Buddha is strangely covered in solid gold and it's left\nhere for all to come and worship it.  The large statue looks as though it's\nalive as you come closer to inspect it...\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 83,
+            "AC": -29,
+            "HP": "10d10+5880",
+            "Damage": "10d10+75",
+            "Gold": 150000,
+            "XP": 110000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24298,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "             ",
+            "LongDesc": "              \n",
+            "DetailedDesc": "        ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24299,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        }
+    ]
+}

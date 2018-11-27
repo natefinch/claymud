@@ -1,0 +1,548 @@
+{
+    "mobs": [
+        {
+            "Number": 6000,
+            "Aliases": [
+                "john",
+                "lumberjack"
+            ],
+            "ShortDesc": "John the Lumberjack",
+            "LongDesc": "John the Lumberjack is here, looking for some trees to chop down.\r\r\r\r\n\r",
+            "DetailedDesc": "He is six feet tall and looks quite strong, muscles bulging under his heavy,\r\r\r\r\n\rchequered shirt.  His features are worn with hard work and his expression is\r\r\r\r\n\rone of a peaceful man leading a simple life.\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SENSE_LIFE"
+            ],
+            "Alignment": 370,
+            "Level": 7,
+            "THAC0": 5,
+            "AC": 6,
+            "HP": "1d12+100",
+            "Damage": "1d4+3",
+            "Gold": 100,
+            "XP": 2625,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6001,
+            "Aliases": [
+                "rabbit"
+            ],
+            "ShortDesc": "the rabbit",
+            "LongDesc": "A small rabbit is foraging in the bushes here.\r\r\r\r\n\r",
+            "DetailedDesc": "It is a small, furry creature with long ears and big feet.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 6,
+            "HP": "1d4+1",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 150,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6002,
+            "Aliases": [
+                "bear"
+            ],
+            "ShortDesc": "the brown bear",
+            "LongDesc": "A big, brown, angry-looking bear is here.\r\r\r\r\n\r",
+            "DetailedDesc": "The bear is a big, brown, furry animal with very large claws and very sharp\r\r\r\r\n\rteeth.  It doesn't resemble those cute little dolls from toy shops at all.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "AGGR_NEUTRAL"
+            ],
+            "Affections": [],
+            "Alignment": -50,
+            "Level": 13,
+            "THAC0": 7,
+            "AC": 3,
+            "HP": "1d12+163",
+            "Damage": "2d6+2",
+            "Gold": 0,
+            "XP": 10000,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6003,
+            "Aliases": [
+                "rabbit"
+            ],
+            "ShortDesc": "the ferocious rabbit",
+            "LongDesc": "A ferocious rabbit is here, glaring hungrily at you.\r\r\r\r\n\r",
+            "DetailedDesc": "This small, furry creature with long ears and big feet has been attacked by\r\r\r\r\n\rthe dreaded rabbit rabies, a horrible disease that turns helpless and innocent\r\r\r\r\n\rrabbits into ferocious and bloodthirsty monsters.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -150,
+            "Level": 4,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "1d4+43",
+            "Damage": "1d8+0",
+            "Gold": 0,
+            "XP": 875,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6004,
+            "Aliases": [
+                "deer"
+            ],
+            "ShortDesc": "the fallow deer",
+            "LongDesc": "A fallow deer is grazing peacefully here.\r\r\r\r\n\r",
+            "DetailedDesc": "She is a graceful creature on long, slender legs, and with large, brown eyes\r\r\r\r\n\rlooking back at you with an air of watchful interest.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 350,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 5,
+            "HP": "3d8+13",
+            "Damage": "1d6+0",
+            "Gold": 0,
+            "XP": 575,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 6005,
+            "Aliases": [
+                "fox"
+            ],
+            "ShortDesc": "the brown fox",
+            "LongDesc": "A brown fox is stalking rabbits through the underbrush here.\r\r\r\r\n\r",
+            "DetailedDesc": "It is a large fox with beautiful, red-brown fur and a long, thick bushy tail.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -50,
+            "Level": 3,
+            "THAC0": 2,
+            "AC": 6,
+            "HP": "1d4+30",
+            "Damage": "1d6+0",
+            "Gold": 0,
+            "XP": 562,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6006,
+            "Aliases": [
+                "bird",
+                "large"
+            ],
+            "ShortDesc": "the bird",
+            "LongDesc": "A large bird with a broken wing has been cornered here.\r\r\r\r\n\r",
+            "DetailedDesc": "The bird isn't going to live much longer, by the looks of it.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 3,
+            "AC": 10,
+            "HP": "3d3+1",
+            "Damage": "1d2+1",
+            "Gold": 0,
+            "XP": 62,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6007,
+            "Aliases": [
+                "bobcat",
+                "cat"
+            ],
+            "ShortDesc": "the bobcat",
+            "LongDesc": "A medium sized bobcat is stalking a bird here.\r\r\r\r\n\r",
+            "DetailedDesc": "The bobcat has sharp claws and teeth, and will probably eat you instead of the\r\r\r\r\n\rbird if you give it the chance.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "SENSE_LIFE"
+            ],
+            "Alignment": -150,
+            "Level": 9,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "1d12+100",
+            "Damage": "2d4+3",
+            "Gold": 0,
+            "XP": 2750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6008,
+            "Aliases": [
+                "sparrow"
+            ],
+            "ShortDesc": "the sparrow",
+            "LongDesc": "A sparrow is flapping around by the ground.\r\r\r\r\n\r",
+            "DetailedDesc": "The sparrow looks like it is enjoying life.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "5d3+1",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 62,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6009,
+            "Aliases": [
+                "robin"
+            ],
+            "ShortDesc": "the robin",
+            "LongDesc": "A robin is hopping around looking for bugs to eat.\r\r\r\r\n\r",
+            "DetailedDesc": "The robin looks quite intent on finding a bug or worm to eat.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "5d3+1",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 62,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6010,
+            "Aliases": [
+                "squirrel"
+            ],
+            "ShortDesc": "the squirrel",
+            "LongDesc": "A squirrel is here seeking refuge in it's nest.\r\r\r\r\n\r",
+            "DetailedDesc": "It peers out of it's next at you anxiously, seeming to plead silently with you\r\r\r\r\n\rto leave it alone.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 8,
+            "HP": "1d7+15",
+            "Damage": "1d5+0",
+            "Gold": 0,
+            "XP": 300,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6011,
+            "Aliases": [
+                "badger"
+            ],
+            "ShortDesc": "the sleepy badger",
+            "LongDesc": "A furry brown badger is curled up under a log here.\r\r\r\r\n\r",
+            "DetailedDesc": "The badger is slowly awakening and peering up at you from it's burrow. You know\r\r\r\r\n\rthat it won't be moving this slow for long.  It's sharp claws and teeth catch\r\r\r\r\n\ryour attention when you consider killing it.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 50,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d5+80",
+            "Damage": "2d3+2",
+            "Gold": 0,
+            "XP": 1625,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6012,
+            "Aliases": [
+                "grey",
+                "squirrel"
+            ],
+            "ShortDesc": "the grey squirrel",
+            "LongDesc": "A grey squirrel with a bushy tail is foraging for nuts here.\r\r\r\r\n\r",
+            "DetailedDesc": "This happy creature seems to pay you no heed as it goes about it's search for\r\r\r\r\n\rnuts among the leaves and twigs on the ground here.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": 150,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d12+36",
+            "Damage": "1d6+0",
+            "Gold": 0,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6013,
+            "Aliases": [
+                "chipmunk"
+            ],
+            "ShortDesc": "the small chipmunk",
+            "LongDesc": "A small brown-red chipmunk dashes from tree to tree here.\r\r\r\r\n\r",
+            "DetailedDesc": "The absolute zenith of hyperactivity, this small rodent seems to never tire of\r\r\r\r\n\rrunning up, down, and around the trees in this area.  If you could ever catch\r\r\r\r\n\rit, you imagine it would make an easy meal.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": 170,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 5,
+            "HP": "3d5+5",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6014,
+            "Aliases": [
+                "crow",
+                "black",
+                "bird"
+            ],
+            "ShortDesc": "the large black crow",
+            "LongDesc": "A large black crow flits about here, picking at bits of carrion.\r\r\r\r\n\r",
+            "DetailedDesc": "The bird eyes you warily, but continues with it's meal.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_EVIL"
+            ],
+            "Affections": [],
+            "Alignment": -20,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d12+36",
+            "Damage": "1d5+1",
+            "Gold": 3,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6015,
+            "Aliases": [
+                "grotesque",
+                "vulture"
+            ],
+            "ShortDesc": "the grotesque vulture",
+            "LongDesc": "A grotesque vulture covered in blood and gore is here feeding madly.\r\r\r\r\n\r",
+            "DetailedDesc": "It sickens you to even look at this foul bird.  Bits of dried gore stick to\r\r\r\r\n\rit's beak, and unidentifiable organs hang from it's talons and feathers.  \r\r\r\r\n\rIt sees you and attacks, protecting it's horrible feast!\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "SLEEP"
+            ],
+            "Alignment": -700,
+            "Level": 8,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "1d12+113",
+            "Damage": "2d3+2",
+            "Gold": 14,
+            "XP": 4375,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6016,
+            "Aliases": [
+                "buck",
+                "deer"
+            ],
+            "ShortDesc": "the young buck",
+            "LongDesc": "A young 5-point buck is drinking from the lake here.\r\r\r\r\n\r",
+            "DetailedDesc": "This young male deer is drinking from the edge of the lake and watching you\r\r\r\r\n\rwarily.  His antlers are not full size yet, and will no doubt be quite \r\r\r\r\n\rimpressive in a few years.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 350,
+            "Level": 7,
+            "THAC0": 3,
+            "AC": 4,
+            "HP": "1d12+80",
+            "Damage": "1d5+3",
+            "Gold": 0,
+            "XP": 1875,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6017,
+            "Aliases": [
+                "fish"
+            ],
+            "ShortDesc": "the fish",
+            "LongDesc": "",
+            "DetailedDesc": "The fish looks about the right size for a meal.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "3d5+0",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 75,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6097,
+            "Aliases": [
+                "guard",
+                "ranger"
+            ],
+            "ShortDesc": "the ranger's guild guard",
+            "LongDesc": "A guard dressed in dark green watches you carefully.\r\r\r\r\n\r",
+            "DetailedDesc": "The guard seems to blend in with the forest around him.  He is\r\r\r\r\n\rwearing dark green clothes which leave his arms bare to the\r\r\r\r\n\rshoulder. His long stringy muscles are defined along his arms\r\r\r\r\n\rgiving you the impression of strength and edurance.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 52,
+            "THAC0": 20,
+            "AC": -9,
+            "HP": "100d50+3000",
+            "Damage": "4d10+15",
+            "Gold": 10000,
+            "XP": 550000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6099,
+            "Aliases": [
+                "wise",
+                "old",
+                "man"
+            ],
+            "ShortDesc": "a wise old man",
+            "LongDesc": "A very old man squats near the fire warming his hands.\r\r\r\r\n\r",
+            "DetailedDesc": "An old man wearing nothing but a loincloth.  His skin naturally dark\r\r\r\r\n\rbut also darkened and wrinkled from years of exposure to the sun.\r\r\r\r\n\rA mane of long gray hair is pulled back into a pony tail behind his\r\r\r\r\n\rhead.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 300,
+            "Level": 127,
+            "THAC0": 30,
+            "AC": -10,
+            "HP": "100d50+6000",
+            "Damage": "10d5+15",
+            "Gold": 0,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

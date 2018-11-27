@@ -1,0 +1,742 @@
+{
+    "mobs": [
+        {
+            "Number": 6400,
+            "Aliases": [
+                "parent"
+            ],
+            "ShortDesc": "a parent",
+            "LongDesc": "A parent is looking for its child.\n",
+            "DetailedDesc": "You see a generic parent.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 2,
+            "AC": 8,
+            "HP": "2d20+20",
+            "Damage": "2d5+1",
+            "Gold": 2000,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6401,
+            "Aliases": [
+                "brat"
+            ],
+            "ShortDesc": "a brat",
+            "LongDesc": "A little brat is here, having lots of fun.\n",
+            "DetailedDesc": "You see an annoying little bratty child.  She seems like she is lost.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "1d15+2",
+            "Damage": "1d1+1",
+            "Gold": 1000,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 6402,
+            "Aliases": [
+                "kid"
+            ],
+            "ShortDesc": "a kid",
+            "LongDesc": "A kid is here, bothering you.\n",
+            "DetailedDesc": "You see a young kid.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "2d8+5",
+            "Damage": "1d1+1",
+            "Gold": 1000,
+            "XP": 90,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6403,
+            "Aliases": [
+                "mother"
+            ],
+            "ShortDesc": "a mother",
+            "LongDesc": "A mother is here.\n",
+            "DetailedDesc": "You see a mother.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 8,
+            "HP": "2d10+10",
+            "Damage": "4d2+0",
+            "Gold": 2000,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 6404,
+            "Aliases": [
+                "janitor"
+            ],
+            "ShortDesc": "a janitor",
+            "LongDesc": "A janitor is taking his break.\n",
+            "DetailedDesc": "You see a dirty teenager smoking a cigarette.\n",
+            "Actions": [
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 2,
+            "AC": 8,
+            "HP": "2d5+2",
+            "Damage": "2d3+0",
+            "Gold": 2000,
+            "XP": 300,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6405,
+            "Aliases": [
+                "father"
+            ],
+            "ShortDesc": "a father",
+            "LongDesc": "A father is here counting his cash.\n",
+            "DetailedDesc": "You see an average father.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 3,
+            "THAC0": 2,
+            "AC": 8,
+            "HP": "5d2+15",
+            "Damage": "1d6+1",
+            "Gold": 100,
+            "XP": 560,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6406,
+            "Aliases": [
+                "monster",
+                "big",
+                "matterhorn",
+                "white"
+            ],
+            "ShortDesc": "the Matterhorn Monster",
+            "LongDesc": "A big, horrible white monster is here growling at you!\n",
+            "DetailedDesc": "You are scared shitless of this horrifying white beast.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -500,
+            "Level": 11,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "10d10+100",
+            "Damage": "1d5+10",
+            "Gold": 750,
+            "XP": 8500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6407,
+            "Aliases": [
+                "c3p0"
+            ],
+            "ShortDesc": "C3P0",
+            "LongDesc": "C3P0 is here guiding you on your tour of the stars.\n",
+            "DetailedDesc": "You see a golden robot.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 8,
+            "THAC0": 6,
+            "AC": 5,
+            "HP": "6d6+30",
+            "Damage": "4d4+1",
+            "Gold": 129,
+            "XP": 4500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6408,
+            "Aliases": [
+                "child"
+            ],
+            "ShortDesc": "a child",
+            "LongDesc": "A child is here.\n",
+            "DetailedDesc": "You see a young child that seems to be lost.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 20,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "2d4+1",
+            "Damage": "1d1+1",
+            "Gold": 15,
+            "XP": 200,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6409,
+            "Aliases": [
+                "r2d2"
+            ],
+            "ShortDesc": "R2D2",
+            "LongDesc": "R2D2 is rolling around making chirping noises.\n",
+            "DetailedDesc": "You see a small, white robot about the size of a trashcan.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 8,
+            "THAC0": 6,
+            "AC": 5,
+            "HP": "6d6+30",
+            "Damage": "4d4+1",
+            "Gold": 150,
+            "XP": 4500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6410,
+            "Aliases": [
+                "drug",
+                "pusher"
+            ],
+            "ShortDesc": "the drug pusher",
+            "LongDesc": "A drug pusher is here dealing with the kids.\n",
+            "DetailedDesc": "You see a nappy stoner dude.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 2,
+            "THAC0": 2,
+            "AC": 8,
+            "HP": "4d2+2",
+            "Damage": "1d1+1",
+            "Gold": 25,
+            "XP": 275,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6413,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6414,
+            "Aliases": [
+                "captain",
+                "eo"
+            ],
+            "ShortDesc": "Captain EO",
+            "LongDesc": "Captain EO is here entertaining the youngsters.\n",
+            "DetailedDesc": "You see a pathetic excuse for a human being molesting some young children.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 24,
+            "THAC0": 13,
+            "AC": 4,
+            "HP": "5d200+50",
+            "Damage": "20d2+1",
+            "Gold": 21000,
+            "XP": 41000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6415,
+            "Aliases": [
+                "spook",
+                "ghost"
+            ],
+            "ShortDesc": "a spook",
+            "LongDesc": "A ghostly spook is floating about.\n",
+            "DetailedDesc": "You should run!\n",
+            "Actions": [
+                "ISNPC",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL"
+            ],
+            "Affections": [
+                "INVISIBLE"
+            ],
+            "Alignment": -200,
+            "Level": 7,
+            "THAC0": 10,
+            "AC": 7,
+            "HP": "3d25+25",
+            "Damage": "2d3+0",
+            "Gold": 0,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6416,
+            "Aliases": [
+                "dumb",
+                "pirate"
+            ],
+            "ShortDesc": "the dumb pirate",
+            "LongDesc": "The dumb pirate is here drink ale and pillaging.\n",
+            "DetailedDesc": "You see a moronic one-eyed man.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -300,
+            "Level": 13,
+            "THAC0": 18,
+            "AC": 7,
+            "HP": "2d75+50",
+            "Damage": "4d6+0",
+            "Gold": 350,
+            "XP": 14000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6417,
+            "Aliases": [
+                "snow",
+                "white"
+            ],
+            "ShortDesc": "Snow White",
+            "LongDesc": "Snow White is looking for her dwarves.\n",
+            "DetailedDesc": "You see a pale woman wearing a cheap costume.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 42,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "8d100+200",
+            "Damage": "20d2+5",
+            "Gold": 16425,
+            "XP": 91000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 6418,
+            "Aliases": [
+                "pluto"
+            ],
+            "ShortDesc": "Pluto",
+            "LongDesc": "Pluto is looking for a beastly fido.\n",
+            "DetailedDesc": "Pluto licks you up and down.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 16,
+            "THAC0": 12,
+            "AC": 8,
+            "HP": "4d100+100",
+            "Damage": "4d5+10",
+            "Gold": 100,
+            "XP": 21000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6419,
+            "Aliases": [
+                "goofy"
+            ],
+            "ShortDesc": "Goofy",
+            "LongDesc": "Goofy is here being goofy.\n",
+            "DetailedDesc": "You see a funny looking thing... What the hell is it?\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 21,
+            "THAC0": 12,
+            "AC": 6,
+            "HP": "5d200+300",
+            "Damage": "3d5+10",
+            "Gold": 30000,
+            "XP": 33500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6420,
+            "Aliases": [
+                "chip"
+            ],
+            "ShortDesc": "Chip",
+            "LongDesc": "Chip the chipmunk is here.\n",
+            "DetailedDesc": "You see a funny chipmunk.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 15,
+            "THAC0": 15,
+            "AC": 5,
+            "HP": "8d50+30",
+            "Damage": "5d5+2",
+            "Gold": 0,
+            "XP": 18500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6421,
+            "Aliases": [
+                "dale"
+            ],
+            "ShortDesc": "Dale",
+            "LongDesc": "Dale the chipmunk is here, hugging little children.\n",
+            "DetailedDesc": "You see a funky chipmunk smoking crack.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 15,
+            "THAC0": 16,
+            "AC": 7,
+            "HP": "8d50+30",
+            "Damage": "5d5+0",
+            "Gold": 0,
+            "XP": 18500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 6422,
+            "Aliases": [
+                "big",
+                "al"
+            ],
+            "ShortDesc": "Big Al",
+            "LongDesc": "Big Al is playing banjo for all the kids.\n",
+            "DetailedDesc": "You see a fat brown bear playing banjo.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 10,
+            "Level": 15,
+            "THAC0": 19,
+            "AC": 8,
+            "HP": "8d40+100",
+            "Damage": "5d2+8",
+            "Gold": 0,
+            "XP": 18500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6423,
+            "Aliases": [
+                "indian"
+            ],
+            "ShortDesc": "an indian",
+            "LongDesc": "An indian is here trying to scalp people.\n",
+            "DetailedDesc": "You see the classic all-american indian brave.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 7,
+            "THAC0": 19,
+            "AC": 10,
+            "HP": "3d10+20",
+            "Damage": "3d2+1",
+            "Gold": 120,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6424,
+            "Aliases": [
+                "zulu",
+                "warrior"
+            ],
+            "ShortDesc": "Zulu warrior",
+            "LongDesc": "A Zulu warrior is running around naked.\n",
+            "DetailedDesc": "You see an African Zulu tribal warrior.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -50,
+            "Level": 19,
+            "THAC0": 15,
+            "AC": 9,
+            "HP": "10d100+50",
+            "Damage": "5d4+5",
+            "Gold": 200,
+            "XP": 28500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6425,
+            "Aliases": [
+                "mad",
+                "hatter"
+            ],
+            "ShortDesc": "the Mad Hatter",
+            "LongDesc": "The Mad Hatter is here grinning away.\n",
+            "DetailedDesc": "You see a silly old man with a huge hat.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 78,
+            "THAC0": 40,
+            "AC": -5,
+            "HP": "10d10+1000",
+            "Damage": "5d5+10",
+            "Gold": 25000,
+            "XP": 271000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6426,
+            "Aliases": [
+                "axe",
+                "murderer"
+            ],
+            "ShortDesc": "the Axe Murderer",
+            "LongDesc": "The Axe Murderer is here killing everyone in sight!\n",
+            "DetailedDesc": "You see what could happen to you with all this silly chanting!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -999,
+            "Level": 13,
+            "THAC0": 19,
+            "AC": 8,
+            "HP": "3d85+20",
+            "Damage": "2d4+2",
+            "Gold": 350,
+            "XP": 13500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6427,
+            "Aliases": [
+                "donald",
+                "duck"
+            ],
+            "ShortDesc": "Donald Duck",
+            "LongDesc": "Donald Duck is here cursing madly.\n",
+            "DetailedDesc": "You see a large, white duck.  He appears to be quaking and saying profane\nthings to you.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 18,
+            "THAC0": 12,
+            "AC": 5,
+            "HP": "3d100+150",
+            "Damage": "3d10+5",
+            "Gold": 725,
+            "XP": 26000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6436,
+            "Aliases": [
+                "mickey",
+                "mouse"
+            ],
+            "ShortDesc": "Mickey Mouse",
+            "LongDesc": "Mickey Mouse is standing before you.\n",
+            "DetailedDesc": "You see Mickey Mouse.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 90,
+            "THAC0": 47,
+            "AC": -10,
+            "HP": "10d5+1000",
+            "Damage": "7d7+11",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 6440,
+            "Aliases": [
+                "red",
+                "redferne",
+                "shopkeeper",
+                "junior"
+            ],
+            "ShortDesc": "Redferne Jr.",
+            "LongDesc": "Redferne Jr. is here, selling gifts to children.\n",
+            "DetailedDesc": "Apparently, Lord Redferne didn't like what his son was doing..so here he\nis\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "UNUSED16"
+            ],
+            "Alignment": 900,
+            "Level": 127,
+            "THAC0": 18,
+            "AC": -25,
+            "HP": "1d1+30000",
+            "Damage": "4d4+40",
+            "Gold": 200000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

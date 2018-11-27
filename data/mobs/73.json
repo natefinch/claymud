@@ -1,0 +1,921 @@
+{
+    "mobs": [
+        {
+            "Number": 7300,
+            "Aliases": [
+                "bully"
+            ],
+            "ShortDesc": "a bully",
+            "LongDesc": "A bully sits on the swing, kicking the little kids away.\n",
+            "DetailedDesc": "The bully is a tall, chubby kid.  You think he may be growing\na bit too fast for his age - he doesn't seem to know quite what\nto dowith his arms and legs.  He's wearing a T-shirt, and a small\npair of boots.  He's picking on all the smaller kids, stealing\ntheir lunch money and making them cry.  How rude!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 7,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "8d6+20",
+            "Damage": "2d7+2",
+            "Gold": 3000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7301,
+            "Aliases": [
+                "student"
+            ],
+            "ShortDesc": "a Map student",
+            "LongDesc": "A student stand here looking at the map\n",
+            "DetailedDesc": "It's a student.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 10,
+            "HP": "2d2+10",
+            "Damage": "1d1+0",
+            "Gold": 20,
+            "XP": 90,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7302,
+            "Aliases": [
+                "Principal",
+                "Jack"
+            ],
+            "ShortDesc": "Principal Jack",
+            "LongDesc": "Principal Jack is standing here.\n",
+            "DetailedDesc": "This man is definately the principal of the school.  The power\nthat you feel radiating from him is like none you have ever\nfelt before, yet it does not appear that he outwardly menaces or\nattempts to control the students under his power.  Perhaps you\ncould learn a few lessons from this man.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 500,
+            "Level": 75,
+            "THAC0": 20,
+            "AC": -100,
+            "HP": "20d20+20000",
+            "Damage": "1d1+0",
+            "Gold": 18794,
+            "XP": 2500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7303,
+            "Aliases": [
+                "Nurse"
+            ],
+            "ShortDesc": "the ABC nurse",
+            "LongDesc": "The ABC nurse looks more then ready to help.\n",
+            "DetailedDesc": "Looking at the ABC nurse, you have the strong desire to drool and\nbellow HEEEELLLLLLOOO NURSE!! As you close your mouth and repress\nthis desire, she turns around and looks in your direction.\n",
+            "Actions": [
+                "ISNPC",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 800,
+            "Level": 24,
+            "THAC0": 17,
+            "AC": 4,
+            "HP": "7d10+50",
+            "Damage": "5d5+10",
+            "Gold": 100,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 7304,
+            "Aliases": [
+                "Mud",
+                "school",
+                "Student"
+            ],
+            "ShortDesc": "Mud school student",
+            "LongDesc": "There is a mud school student wandering around.\n",
+            "DetailedDesc": "This student looks like he'd rather be out having a good time\nthan be stuck in school.  He's just a normal-looking student,\nnothing special.\n",
+            "Actions": [
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 3,
+            "THAC0": 4,
+            "AC": 8,
+            "HP": "1d2+5",
+            "Damage": "1d1+0",
+            "Gold": 10,
+            "XP": 1500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7305,
+            "Aliases": [
+                "Considering",
+                "Student"
+            ],
+            "ShortDesc": "Considering Student",
+            "LongDesc": "The student here seems to be looking at something considering the worth.\n",
+            "DetailedDesc": "This student looks at his target and is trying to consider if\nhe could take it in a fight or if it would kick his butt.  He\ndoesn't seem to be sure though.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 10,
+            "Level": 3,
+            "THAC0": 4,
+            "AC": 8,
+            "HP": "3d3+10",
+            "Damage": "1d2+1",
+            "Gold": 20,
+            "XP": 1500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7306,
+            "Aliases": [
+                "member",
+                "team",
+                "player"
+            ],
+            "ShortDesc": "a player",
+            "LongDesc": "A member of the \"Players\" team stands here.\n",
+            "DetailedDesc": "They are of average height for there age. They're wearing red,\nwhite, and blue uniforms. White socks with red shorts with a blue\nstripe on each side and a blue shirt with red and white stripes.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 3,
+            "THAC0": 2,
+            "AC": 10,
+            "HP": "10d3+5",
+            "Damage": "2d3+1",
+            "Gold": 250,
+            "XP": 1500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7307,
+            "Aliases": [
+                "mob",
+                "monster",
+                "team",
+                "member"
+            ],
+            "ShortDesc": "a monster",
+            "LongDesc": "A team member of \"Monsters\" stands here.\n",
+            "DetailedDesc": "They are a little larger and bigger builter then the team\nmembers of the players. They are wearing black and orange\nuniforns. Orange socks with black stripes, orange shorts with\nblack stripes and a black shirt with a skull and cross bone\non the front and the team name on the back.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -10,
+            "Level": 5,
+            "THAC0": 4,
+            "AC": 8,
+            "HP": "10d3+10",
+            "Damage": "3d2+3",
+            "Gold": 450,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7308,
+            "Aliases": [
+                "third",
+                "base",
+                "coach"
+            ],
+            "ShortDesc": "third base coach",
+            "LongDesc": "The third base coach stands here.\n",
+            "DetailedDesc": "This is one of the older kids. He seems to know what he is doing.\nHe is wearing a black and white uniforms since he is on neither team.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 7,
+            "THAC0": 6,
+            "AC": 8,
+            "HP": "2d30+10",
+            "Damage": "1d8+5",
+            "Gold": 100,
+            "XP": 8000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7309,
+            "Aliases": [
+                "umpire",
+                "ump"
+            ],
+            "ShortDesc": "a umpire",
+            "LongDesc": "An umpire stands here.\n",
+            "DetailedDesc": "He is a teacher at this school. You have seen him before in one\nof the classrooms. He is wearing a black and white umpires uniform\nwith a whistle around his neck.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 6,
+            "AC": 7,
+            "HP": "2d30+10",
+            "Damage": "2d4+1",
+            "Gold": 50,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7310,
+            "Aliases": [
+                "vice",
+                "principal"
+            ],
+            "ShortDesc": "Vice Principal",
+            "LongDesc": "The mudschool's Vice Principal stands here with your diploma in his hand.\n",
+            "DetailedDesc": "He is a average built, middle aged guy. He has a VERY receded\nhairline. Guess these students have started to get on his nerves.\nHe is wearing a gray pinstriped suit that looks to be out of date.\nHe is wearing a small pair of reading glasses so he makes sure you\nget the right diplomia.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 3,
+            "THAC0": 3,
+            "AC": 9,
+            "HP": "10d2+10",
+            "Damage": "1d3+2",
+            "Gold": 500,
+            "XP": 1500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7311,
+            "Aliases": [
+                "mudschool",
+                "graduate"
+            ],
+            "ShortDesc": "mudschool graduate",
+            "LongDesc": "A mudschool graduate stands here getting his diploma.\n",
+            "DetailedDesc": "He is a wearing a graduation cap and gown made of paper. He is of\naverage build and height. \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 3,
+            "THAC0": 3,
+            "AC": 9,
+            "HP": "2d6+5",
+            "Damage": "2d2+2",
+            "Gold": 350,
+            "XP": 1500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7312,
+            "Aliases": [
+                "bug",
+                "bugs"
+            ],
+            "ShortDesc": "bug",
+            "LongDesc": "There is a bug creeping around here.\n",
+            "DetailedDesc": "The bug looks slimy and icky.  You don't want to have to pick it\nup because of all the goo coming off from it.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 7,
+            "HP": "3d2+2",
+            "Damage": "1d1+1",
+            "Gold": 0,
+            "XP": 1200,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7313,
+            "Aliases": [
+                "Newbies",
+                "'R'",
+                "Us",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Newbie's 'R' Us Shopkeeper",
+            "LongDesc": "The Newbies 'R' Us shopkeeper stands here trying to sell you some goods.\n",
+            "DetailedDesc": "A short, roly-poly man beams at you from underneath his fringe\nof white hair.  He gives you a friendly wave and bellows a\ngreeting as you come through the door.  It is utterly impossible\nto be near this man and not feel welcome.  Of course, you could\nprobably do without half of the stuff he wants you buy, but\nhe's so nice about it who can say no?\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "1d1+30000",
+            "Damage": "2d2+5",
+            "Gold": 100000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7314,
+            "Aliases": [
+                "wimpy",
+                "student",
+                ""
+            ],
+            "ShortDesc": "Wimpy student",
+            "LongDesc": "There is a student here fleeing from the nasty looking teacher.\n",
+            "DetailedDesc": "This student looks absolutly terrified of the teacher.  He is trying \nto get out of the room, befor the teacher kills him for what he did.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 10,
+            "Level": 3,
+            "THAC0": 4,
+            "AC": 8,
+            "HP": "2d3+2",
+            "Damage": "1d2+0",
+            "Gold": 20,
+            "XP": 1500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7315,
+            "Aliases": [
+                "student",
+                "reappear"
+            ],
+            "ShortDesc": "Quitting Student",
+            "LongDesc": "A student has just reappeard here.\n",
+            "DetailedDesc": "The student looks very happy as she seems to have figured out\nhow to quit without losing her equipment.  But she knows that\nif she does ever lose equipment she can always talk to an immortal.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 10,
+            "Level": 3,
+            "THAC0": 5,
+            "AC": 7,
+            "HP": "3d4+2",
+            "Damage": "2d1+1",
+            "Gold": 30,
+            "XP": 1500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 7316,
+            "Aliases": [
+                "Deathtrap",
+                "Student"
+            ],
+            "ShortDesc": "Deathtrap student",
+            "LongDesc": "There is a student here looking around carefully.\n",
+            "DetailedDesc": "The student if looking very carefully in every possible direction,\nbefore he takes even one step.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 3,
+            "THAC0": 6,
+            "AC": 8,
+            "HP": "2d4+1",
+            "Damage": "2d2+0",
+            "Gold": 30,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7317,
+            "Aliases": [
+                "mudschool",
+                "guard"
+            ],
+            "ShortDesc": "MudSchool Guard",
+            "LongDesc": "A MudSchool Guard stands here only allowing the newbies pass into the school.\n",
+            "DetailedDesc": "This guard is one tough looking woman.  She's 6'3, and wearing\na muscle shirt that displays muscles which make you feel like\nquite a girly man. You take one look at her and you can tell that\nshe is the type of person who is proficient in types of martial\narts that you can't even pronounce. She also seems to be very\nagile, and you can tell she will be HARD to hit. Her uniform is\ndark blue, and there is a gun in her holster.  You'd better not\nmess with her - you won't live to regret it.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 200,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "100d20+30000",
+            "Damage": "1d1+1",
+            "Gold": 25000,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 7318,
+            "Aliases": [
+                "help",
+                "helping",
+                "student",
+                "students"
+            ],
+            "ShortDesc": "Help student",
+            "LongDesc": "There is a student here looking through a VERY big book.\n",
+            "DetailedDesc": "This student seems to be trying to find something in the book in\nfront of her.  She seems to be having trouble because of all the\ncross referancing, but she finally finds it and goes onto another\ntopic.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 5,
+            "AC": 9,
+            "HP": "3d3+3",
+            "Damage": "2d1+1",
+            "Gold": 40,
+            "XP": 900,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 7319,
+            "Aliases": [
+                "student"
+            ],
+            "ShortDesc": "Recall Student",
+            "LongDesc": "A student has suddenly appeared here.\n",
+            "DetailedDesc": "It's a student all right.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 10,
+            "HP": "2d2+30",
+            "Damage": "1d1+0",
+            "Gold": 8,
+            "XP": 450,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7320,
+            "Aliases": [
+                "BBarney",
+                "Commando"
+            ],
+            "ShortDesc": "a KILLER Barney Commando",
+            "LongDesc": "A KILL Barney Commando is here, guarding Barney..\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "UNUSED17",
+                "SNEAK"
+            ],
+            "Alignment": -1000,
+            "Level": 127,
+            "THAC0": 30,
+            "AC": -7,
+            "HP": "100d100+3500",
+            "Damage": "6d7+30",
+            "Gold": 40000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7321,
+            "Aliases": [
+                "Barney",
+                "fanatic's",
+                "mother"
+            ],
+            "ShortDesc": "a Barney Fanatic's loving mother",
+            "LongDesc": "a Barney Fanatic's loving mother stands here, smilling happily...\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGR_GOOD",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "UNUSED16"
+            ],
+            "Alignment": -1000,
+            "Level": 66,
+            "THAC0": 25,
+            "AC": -5,
+            "HP": "20d100+3500",
+            "Damage": "6d6+30",
+            "Gold": 25000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7322,
+            "Aliases": [
+                "Barney",
+                "Fanatic"
+            ],
+            "ShortDesc": "a little Barney Fanatic",
+            "LongDesc": "a liitle Barney fanatic is here, making people puke..\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 63,
+            "THAC0": 20,
+            "AC": -6,
+            "HP": "10d10+2600",
+            "Damage": "7d4+25",
+            "Gold": 20000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7323,
+            "Aliases": [
+                "Barney"
+            ],
+            "ShortDesc": "Barney, the BIG purple ALIAN!",
+            "LongDesc": "Barney stands here spreading his filthy happiness!\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 127,
+            "THAC0": 35,
+            "AC": -10,
+            "HP": "100d10+10345",
+            "Damage": "8d5+35",
+            "Gold": 381000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7324,
+            "Aliases": [
+                "student"
+            ],
+            "ShortDesc": "Door Student",
+            "LongDesc": "A student is opening a door here.\n",
+            "DetailedDesc": "Yep. It's a student.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 2,
+            "AC": 8,
+            "HP": "2d2+50",
+            "Damage": "1d2+1",
+            "Gold": 20,
+            "XP": 850,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7325,
+            "Aliases": [
+                "student"
+            ],
+            "ShortDesc": "ID student",
+            "LongDesc": "A student stands here reciting a scroll.\n",
+            "DetailedDesc": "It's a student alright.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "3d3+35",
+            "Damage": "1d1+1",
+            "Gold": 10,
+            "XP": 666,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7326,
+            "Aliases": [
+                "mistdemon",
+                "demon"
+            ],
+            "ShortDesc": "a mistdemon",
+            "LongDesc": "A demon suddenly appears out of the mist in front of you.\n",
+            "DetailedDesc": "It looks as if the demon is created completly from mist so it might be\ndifficult to hit.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -50,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "5d4+90",
+            "Damage": "3d3+1",
+            "Gold": 0,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7327,
+            "Aliases": [
+                "boy",
+                "king",
+                "boyking"
+            ],
+            "ShortDesc": "Sandcastle king",
+            "LongDesc": "A boy sits here on a throne of sand and he has dubbed himself king.\n",
+            "DetailedDesc": "This is the boy that has created this sandcastle for him and his friends,\nthe mist demons, to play in.  He's going to give you one chance to get\nout of here, but after that he is more than willing to kill you.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 5,
+            "AC": 3,
+            "HP": "6d4+150",
+            "Damage": "2d3+2",
+            "Gold": 0,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7328,
+            "Aliases": [
+                "mistdemon",
+                "demon"
+            ],
+            "ShortDesc": "a mistdemon",
+            "LongDesc": "A demon suddenly appears out of the mist in front of you.\n",
+            "DetailedDesc": "It looks as if the demon is created completly from mist so it might be\ndifficult to hit.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -50,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "5d4+90",
+            "Damage": "3d3+1",
+            "Gold": 0,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7336,
+            "Aliases": [
+                "dr",
+                "armitage"
+            ],
+            "ShortDesc": "Dr. Armitage",
+            "LongDesc": "This insane doctor is murmuring something intelligable.\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 0,
+            "AC": 2,
+            "HP": "100d1+0",
+            "Damage": "1d20+0",
+            "Gold": 666,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7350,
+            "Aliases": [
+                "pirate"
+            ],
+            "ShortDesc": "Little Pirate",
+            "LongDesc": "A small pirate is here snarling at you..\n",
+            "DetailedDesc": "You see here a young boy, dressed as a pirate and playing some\ngame. Yet, he snarls at you in seriousness and brandishes his\ntiny sword in a very meanacing manner.  It is distressing to see\nthis small boy dressed in rags...I wonder where his parent area.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 4,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "10d2+0",
+            "Damage": "1d6+0",
+            "Gold": 50,
+            "XP": 650,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7351,
+            "Aliases": [
+                "Head"
+            ],
+            "ShortDesc": "Big Head",
+            "LongDesc": "You are startled by the big head that greets you..\n",
+            "DetailedDesc": "You look at this hideous head..which is beginning to remind\nyou of one of those stupid japanese \"B\" movies you watched\nas a child.  Hmm..he holds a nice item...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 7,
+            "THAC0": 1,
+            "AC": 2,
+            "HP": "50d1+1",
+            "Damage": "2d5+1",
+            "Gold": 500,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7399,
+            "Aliases": [
+                "mudschool",
+                "training",
+                "dummy"
+            ],
+            "ShortDesc": "Mudschool's training dummy",
+            "LongDesc": "A MudSchool Training Dummy is lying on the floor here.\n",
+            "DetailedDesc": "It is the height of a average man. The dummy has alot of holes in it from\nyears of us.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "CURSE"
+            ],
+            "Alignment": 0,
+            "Level": 3,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "5d5+20",
+            "Damage": "2d2+2",
+            "Gold": 150,
+            "XP": 0,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Neutral"
+        }
+    ]
+}

@@ -1,0 +1,143 @@
+{
+    "mobs": [
+        {
+            "Number": 2500,
+            "Aliases": [
+                "barrel"
+            ],
+            "ShortDesc": "a barrel",
+            "LongDesc": "A large barrel rests on the ground.\n",
+            "DetailedDesc": "It's a barrel.  It's large.  Get the picture?\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "0d0+1",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2501,
+            "Aliases": [
+                "zombie"
+            ],
+            "ShortDesc": "a zombie",
+            "LongDesc": "A zombie shambles towards you, its arms out-stretched.\n",
+            "DetailedDesc": "This thing is a walking corpse; pieces are falling off everywhere.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 0,
+            "Level": 28,
+            "THAC0": 4,
+            "AC": 0,
+            "HP": "100d4+1",
+            "Damage": "2d3+5",
+            "Gold": 65,
+            "XP": 16000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2502,
+            "Aliases": [
+                "skeleton"
+            ],
+            "ShortDesc": "a skeleton",
+            "LongDesc": "A skeleton wielding an axe is coming right at you.\n",
+            "DetailedDesc": "White bones, big axe. 'nuff said.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 9,
+            "AC": 10,
+            "HP": "80d4+1",
+            "Damage": "2d6+5",
+            "Gold": 65,
+            "XP": 16000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2503,
+            "Aliases": [
+                "scavenger"
+            ],
+            "ShortDesc": "a scavenger",
+            "LongDesc": "A small scuttling scavenger comes over to gnaw on your leg.\n",
+            "DetailedDesc": "This thing is all red, running on two legs hunched over. It scuttles around\nfrom one place to the next, attacking and then running away. It's large teeth\nlike to rip through flesh and bone.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 8,
+            "AC": 3,
+            "HP": "1d100+150",
+            "Damage": "5d3+10",
+            "Gold": 75,
+            "XP": 14000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2504,
+            "Aliases": [
+                "goblin",
+                "fallen",
+                "one"
+            ],
+            "ShortDesc": "a Fallen One",
+            "LongDesc": "A strange little goblin like creature comes up and attacks you.\n",
+            "DetailedDesc": "This little creature looks sort of like a goblin.  It is wielding a spear and\nthrusts it at you menacingly.  Its body is barely covered by the rags it\nwears, and it bares its teeth at you as it attacks.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 6,
+            "AC": 3,
+            "HP": "1d100+150",
+            "Damage": "4d3+5",
+            "Gold": 75,
+            "XP": 14000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

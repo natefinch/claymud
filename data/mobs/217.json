@@ -1,0 +1,664 @@
+{
+    "mobs": [
+        {
+            "Number": 21700,
+            "Aliases": [
+                "hill",
+                "giant"
+            ],
+            "ShortDesc": "a hill giant",
+            "LongDesc": "A hill giant lumbers around here, looking for something to smash.\r\r\r\r\n\r",
+            "DetailedDesc": "Hill giants are ugly humanoids, about 10 1/2 feet tall and very strong. They\r\r\r\r\n\raren't very smart, but what they lack in intelligence they more than make up\r\r\r\r\n\rfor in brutality and strength. This one isn't happy to see you.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -750,
+            "Level": 35,
+            "THAC0": 25,
+            "AC": -2,
+            "HP": "12d4+550",
+            "Damage": "7d5+10",
+            "Gold": 5000,
+            "XP": 68500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21701,
+            "Aliases": [
+                "hill",
+                "giant",
+                "giantess"
+            ],
+            "ShortDesc": "a hill giantess",
+            "LongDesc": "A female hill giant roams around here, looking for humans to kill and eat.\r\r\r\r\n\r",
+            "DetailedDesc": "Female hill giants are no prettier than their male counterparts, being only\r\r\r\r\n\rslightly shorter and with the same low brow and brutish jawline. While they\r\r\r\r\n\rare not quite as strong as their menfolk, they are certainly stronger than \r\r\r\r\n\ryou are...you'd best hope this one hasn't seen you!\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -750,
+            "Level": 31,
+            "THAC0": 25,
+            "AC": 0,
+            "HP": "12d3+475",
+            "Damage": "6d5+8",
+            "Gold": 4350,
+            "XP": 57500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21702,
+            "Aliases": [
+                "wolf",
+                "dire"
+            ],
+            "ShortDesc": "a dire wolf",
+            "LongDesc": "A dire wolf poises itself to leap at your throat!\r\r\r\r\n\r",
+            "DetailedDesc": "This wolf looks lean and hungry...it's probably living off whatever carrion\r\r\r\r\n\rit's hill giant masters don't claim for themselves. It slavers eagerly as it\r\r\r\r\n\rcontemplates your succulent flesh...\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "SNEAK"
+            ],
+            "Alignment": -100,
+            "Level": 18,
+            "THAC0": 27,
+            "AC": 4,
+            "HP": "15d5+200",
+            "Damage": "5d2+5",
+            "Gold": 0,
+            "XP": 24500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21703,
+            "Aliases": [
+                "hill",
+                "giant",
+                "raider"
+            ],
+            "ShortDesc": "a hill giant raider",
+            "LongDesc": "A hill giant raider advances on you with murder in his eyes!\r\r\r\r\n\r",
+            "DetailedDesc": "This hill giant is even taller and uglier than the norm, which is really\r\r\r\r\n\rsaying something. His arms look powerful enough to crush granite, and the\r\r\r\r\n\rstench rising from his unwashed body is nearly palpable. He looks as if he\r\r\r\r\n\rcould cheerfully tear off all your limbs and eat them while you watch.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -750,
+            "Level": 41,
+            "THAC0": 27,
+            "AC": -1,
+            "HP": "18d4+600",
+            "Damage": "7d3+13",
+            "Gold": 6750,
+            "XP": 80000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21704,
+            "Aliases": [
+                "guthru",
+                "chodak",
+                "giant",
+                "hill",
+                "king"
+            ],
+            "ShortDesc": "Chodak Guthru",
+            "LongDesc": "Chodak Guthru, King of the Hill Giants, contemplates your imminent demise.\r\r\r\r\n\r",
+            "DetailedDesc": "Chodak Guthru is an awesome sight. Nearly twelve feet tall, his brutish \r\r\r\r\n\rfeatures show great cunning, as well as numerous battle scars. His mighty\r\r\r\r\n\rarms look strong enough to crack granite, or at the very least, every bone\r\r\r\r\n\rin your body. His expression says that unless you are a very fast runner,\r\r\r\r\n\ryour bones will be decorating his hall tonight...\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": -750,
+            "Level": 47,
+            "THAC0": 29,
+            "AC": -3,
+            "HP": "22d4+750",
+            "Damage": "7d5+10",
+            "Gold": 10000,
+            "XP": 115000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21705,
+            "Aliases": [
+                "stone",
+                "giant"
+            ],
+            "ShortDesc": "a stone giant",
+            "LongDesc": "A tall and lanky stone giant ignores your presence.\r\r\r\r\n\r",
+            "DetailedDesc": "Stone giants are lankier than their brethren of the hills, though taller.\r\r\r\r\n\rThis one stands nearly twelve feet high, with a complexion like old granite\r\r\r\r\n\rand eyes like tarnished steel. He appears not to notice your presence in his\r\r\r\r\n\rhome, and it doesn't look like it would concern him if he did. Bothering him\r\r\r\r\n\ror molesting his peers would probably not be a good idea, however.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 41,
+            "THAC0": 27,
+            "AC": -1,
+            "HP": "18d4+600",
+            "Damage": "7d3+13",
+            "Gold": 6750,
+            "XP": 80000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21706,
+            "Aliases": [
+                "stone",
+                "giantess"
+            ],
+            "ShortDesc": "a stone giantess",
+            "LongDesc": "A stone giantess calmly goes about her business here.\r\r\r\r\n\r",
+            "DetailedDesc": "This stone giantess has a rather plain, homely look about her, but not nearly\r\r\r\r\n\ras fearsome as the hill giantesses. Perhaps it is the lack of a bloodthirsty\r\r\r\r\n\rsnarl that does it. This giantess is perfectly content to leave you be, as\r\r\r\r\n\rlong as you are content to do the same. Otherwise, she might simply have to\r\r\r\r\n\rsqueeze you to a bloody pulp, and we don't want that, now, do we?\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 33,
+            "THAC0": 27,
+            "AC": -1,
+            "HP": "18d4+600",
+            "Damage": "7d3+13",
+            "Gold": 3750,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21707,
+            "Aliases": [
+                "stone",
+                "giant",
+                "crusher",
+                "rock"
+            ],
+            "ShortDesc": "a stone giant rock-crusher",
+            "LongDesc": "A stone giant rock-crusher is here, searching for attractive gemstones.\r\r\r\r\n\r",
+            "DetailedDesc": "Stone giants have a primitive's love of pretty stones, hence their profession\r\r\r\r\n\rof rock-crusher. These giants basically tear promising ore from the caves\r\r\r\r\n\rwith their bare hands and squeeze it into shiny gems. This one is intent on\r\r\r\r\n\rhis task, and does not appear to notice you. You shudder as you contemplate\r\r\r\r\n\rwhat those hands might do to your soft and yielding flesh!\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 30,
+            "AC": -1,
+            "HP": "18d4+600",
+            "Damage": "7d5+15",
+            "Gold": 12000,
+            "XP": 131000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21708,
+            "Aliases": [
+                "kechke",
+                "aandaan",
+                "chief",
+                "giant",
+                "stone"
+            ],
+            "ShortDesc": "Aandaan Kechke",
+            "LongDesc": "Aandaan Kechke, Chief of the Stone Giants, examines the latest ore sample.\r\r\r\r\n\r",
+            "DetailedDesc": "Aandaan Kechke is rather unimpressive for a chief of the stone giants, but\r\r\r\r\n\rhe is widely known for his discerning eye in ore quality. Even the dwarves\r\r\r\r\n\rhave a grudging respect for his skills. However, his task demands a lot of\r\r\r\r\n\rconcentration, so it would probably be wise to leave before you disturb him.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 54,
+            "THAC0": 32,
+            "AC": -4,
+            "HP": "20d6+700",
+            "Damage": "7d5+18",
+            "Gold": 14500,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21709,
+            "Aliases": [
+                "bear",
+                "cave"
+            ],
+            "ShortDesc": "a huge cave bear",
+            "LongDesc": "A huge cave bear cocks its head at you quizzically.\r\r\r\r\n\r",
+            "DetailedDesc": "Stone giants are known to be fond of cave bears, and frequently keep them\r\r\r\r\n\raround as pets. This is a huge example of the type, and looks very well fed.\r\r\r\r\n\rIt doesn't seem aggressive, but you probably don't want to mess with it.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "HELPER"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 31,
+            "THAC0": 28,
+            "AC": 2,
+            "HP": "2d4+450",
+            "Damage": "4d10+6",
+            "Gold": 0,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21710,
+            "Aliases": [
+                "frost",
+                "giant"
+            ],
+            "ShortDesc": "a frost giant",
+            "LongDesc": "A frost giant ambles around here, singing guttural songs of bloodshed.\r\r\r\r\n\r",
+            "DetailedDesc": "This frost giant towers over you, almost 15 feet tall. His skin is ivory in\r\r\r\r\n\rcolor, with a bit of red from the biting wind whistling around you. His hair\r\r\r\r\n\ris a vibrant yellow color, and his bushy beard is the same. His eyes are as\r\r\r\r\n\rblue as the northern ice, and narrowed in anger as he detects your presence.\r\r\r\r\n\rIt's probably about time you left, don't you think?\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "UNUSED17"
+            ],
+            "Alignment": -750,
+            "Level": 50,
+            "THAC0": 31,
+            "AC": 0,
+            "HP": "8d8+700",
+            "Damage": "7d5+15",
+            "Gold": 10000,
+            "XP": 131000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21711,
+            "Aliases": [
+                "frost",
+                "giantess"
+            ],
+            "ShortDesc": "a frost giantess",
+            "LongDesc": "A frost giantess wanders the area, looking for humans to kill for supper.\r\r\r\r\n\r",
+            "DetailedDesc": "This is one big lady! She is at least twice the height of the tallest of\r\r\r\r\n\rhumans, and the yellow braids hanging from her head are as thick as hawsers\r\r\r\r\n\rused to moor ships to the docks. She might be considered attractive if she\r\r\r\r\n\rwas a bit cleaner, and closer to your size, and didn't consider you a source\r\r\r\r\n\rof food. Probably best just to stay away.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "UNUSED17"
+            ],
+            "Alignment": -750,
+            "Level": 38,
+            "THAC0": 31,
+            "AC": -2,
+            "HP": "8d8+650",
+            "Damage": "7d5+12",
+            "Gold": 7500,
+            "XP": 80000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21712,
+            "Aliases": [
+                "frost",
+                "giant",
+                "berserker"
+            ],
+            "ShortDesc": "a frost giant berserker",
+            "LongDesc": "A frost giant berserker screams a battle cry and attacks you!\r\r\r\r\n\r",
+            "DetailedDesc": "This frost giant looks much like the others, except his body is crisscrossed\r\r\r\r\n\rwith scars of various size and severity. It looks as if he has seen many a\r\r\r\r\n\rbattle, and the mad fury in his eyes tells you that he is about to see one\r\r\r\r\n\rmore, and that he is fairly sure of who will win...\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -750,
+            "Level": 60,
+            "THAC0": 33,
+            "AC": 2,
+            "HP": "8d8+800",
+            "Damage": "7d7+18",
+            "Gold": 30000,
+            "XP": 200000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21713,
+            "Aliases": [
+                "wolf",
+                "winter"
+            ],
+            "ShortDesc": "a winter wolf",
+            "LongDesc": "A winter wolf drifts silently out of the snow and pounces on you!\r\r\r\r\n\r",
+            "DetailedDesc": "This wolf is pure white except for its mouth and eyes, both of which are\r\r\r\r\n\rbright red. You notice smoke rising from its mouth, then realize that it is\r\r\r\r\n\rnot smoke at all, but a killing frost! That frost could chill a man to his\r\r\r\r\n\rbones, you think, as you prepare to be deep-frozen.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -350,
+            "Level": 42,
+            "THAC0": 28,
+            "AC": 2,
+            "HP": "2d4+450",
+            "Damage": "4d10+6",
+            "Gold": 0,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21714,
+            "Aliases": [
+                "djanneskald",
+                "jakan",
+                "frost",
+                "giant",
+                "thegn"
+            ],
+            "ShortDesc": "Jakan Djanneskald",
+            "LongDesc": "Jakan Djanneskald, Thegn of the Frost Giants, howls a battle cry and attacks!\r\r\r\r\n\r",
+            "DetailedDesc": "Jakan Djanneskald, the mighty Thegn of the Frost Giants, was once a berserker\r\r\r\r\n\rwho took one too many blows to the head from the fire giants. As a result,\r\r\r\r\n\rhe has discovered that he has a brain, and though he is still unskilled in\r\r\r\r\n\rits use, he is still VERY capable of tearing you to pieces. Wait just a\r\r\r\r\n\rmoment, and he will demonstrate...\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -750,
+            "Level": 63,
+            "THAC0": 35,
+            "AC": -3,
+            "HP": "8d8+875",
+            "Damage": "7d7+20",
+            "Gold": 31250,
+            "XP": 275000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21715,
+            "Aliases": [
+                "fire",
+                "giantess"
+            ],
+            "ShortDesc": "a fire giantess",
+            "LongDesc": "A fire giantess frowns pitilessly at you, puny human invader.\r\r\r\r\n\r",
+            "DetailedDesc": "Fire giantesses are similar to human nobles in that they are haughty and\r\r\r\r\n\rarrogant, not to be bothered by a puny human such as yourself. This one is\r\r\r\r\n\rsort of attractive in a dusky way, but the stare of disgust she gives you as\r\r\r\r\n\ryou look her over quells any urges you might be feeling. She's still a very\r\r\r\r\n\rbig girl, so it would not be wise to anger her.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -750,
+            "Level": 41,
+            "THAC0": 33,
+            "AC": 2,
+            "HP": "6d6+775",
+            "Damage": "7d5+18",
+            "Gold": 9000,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21716,
+            "Aliases": [
+                "fire",
+                "giant"
+            ],
+            "ShortDesc": "a fire giant",
+            "LongDesc": "A fire giant bares his orange-red teeth at you in a terrifying grimace.\r\r\r\r\n\r",
+            "DetailedDesc": "Though not quite as tall as their cold-weather kinsmen atop the mountain,\r\r\r\r\n\rfire giants are a bit more powerful, and quite a bit more intelligent. This\r\r\r\r\n\rone has coal-black skin and bristly hair of fiery orange. His eyes glow a\r\r\r\r\n\rmalevolent red as he looks you over and decides to dispose of you quickly.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -750,
+            "Level": 63,
+            "THAC0": 33,
+            "AC": -4,
+            "HP": "8d8+800",
+            "Damage": "7d7+20",
+            "Gold": 30000,
+            "XP": 275000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21717,
+            "Aliases": [
+                "fire",
+                "giant",
+                "warrior"
+            ],
+            "ShortDesc": "a fire giant warrior",
+            "LongDesc": "A fire giant warrior grits his teeth in rage as you approach! RUN FOR IT!\r\r\r\r\n\r",
+            "DetailedDesc": "Fire giant warriors are very disciplined, at least compared to other giants.\r\r\r\r\n\rThey are usually well-armed and armored, and while their tactics may be a\r\r\r\r\n\rbit inferior to those of the human and demi-human races, their huge size and\r\r\r\r\n\rstrength compensate for this rather well. You might as well lie down...dead\r\r\r\r\n\rpeople aren't supposed to be walking around.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -500,
+            "Level": 75,
+            "THAC0": 37,
+            "AC": -6,
+            "HP": "10d10+1000",
+            "Damage": "7d8+26",
+            "Gold": 65000,
+            "XP": 350000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21718,
+            "Aliases": [
+                "hound",
+                "hell",
+                "hellhound"
+            ],
+            "ShortDesc": "a hell hound",
+            "LongDesc": "A grim and evil hell hound snarls and poises itself to spring...\r\r\r\r\n\r",
+            "DetailedDesc": "Hell hounds look much like large black rottweilers, as large as a man, with\r\r\r\r\n\rsooty black fur and baleful red eyes. They are boon companions of fire giants,\r\r\r\r\n\rwho often use them for hunting (humans). Their fangs are strong and sharp,\r\r\r\r\n\rand they have the ability to breathe fire as well. Trouble!\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -350,
+            "Level": 38,
+            "THAC0": 32,
+            "AC": 0,
+            "HP": "2d4+450",
+            "Damage": "5d12+6",
+            "Gold": 0,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21719,
+            "Aliases": [
+                "akbar",
+                "ab",
+                "sholom",
+                "fire",
+                "giant",
+                "lord"
+            ],
+            "ShortDesc": "Sholom ab Akbar",
+            "LongDesc": "Sholom ab Akbar, Lord of the Fire Giants, roars in fury as you enter!\r\r\r\r\n\r",
+            "DetailedDesc": "Sholom ab Akbar is the tallest of the fire giants, standing nearly 13 feet\r\r\r\r\n\rhigh. His coal-black skin bears the marks of many battles, and his cruel red\r\r\r\r\n\reyes have seen much bloodshed. Your presence here disturbs him greatly, and\r\r\r\r\n\rhe is about to do a little disturbing of his own...\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -500,
+            "Level": 86,
+            "THAC0": 40,
+            "AC": -8,
+            "HP": "12d12+1450",
+            "Damage": "8d8+30",
+            "Gold": 80000,
+            "XP": 400000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21720,
+            "Aliases": [
+                "cordruin",
+                "endros",
+                "buel",
+                "giant",
+                "storm",
+                "king"
+            ],
+            "ShortDesc": "Buel Endros Cordruin",
+            "LongDesc": "Buel Endros Cordruin, King of the Storm Giants, is being held prisoner here.\r\r\r\r\n\r",
+            "DetailedDesc": "This majestic storm giant would tower over you if he were standing, but a\r\r\r\r\n\rheavy set of black iron chains hold him to the ground. His eyes are proud\r\r\r\r\n\rand furious at this violation of his dignity, but he is unable to free\r\r\r\r\n\rhimself in the presence of all of these fire giants. He catches your eye\r\r\r\r\n\rwith a desperate glance, hoping you will free him from his torment.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": 500,
+            "Level": 101,
+            "THAC0": 43,
+            "AC": -12,
+            "HP": "20d20+1500",
+            "Damage": "10d8+35",
+            "Gold": 100000,
+            "XP": 450000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        }
+    ]
+}

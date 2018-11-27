@@ -1,0 +1,950 @@
+{
+    "mobs": [
+        {
+            "Number": 2000,
+            "Aliases": [
+                "king",
+                "arthur",
+                "kingarthur"
+            ],
+            "ShortDesc": "King Arthur",
+            "LongDesc": "King Arthur, ruler of England and lord of all Paladins, stands here!\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see before you a tall, strong, noble-looking man who radiates goodness \r\r\r\r\r\r\r\r\n\rand justice. He stands proudly and will fight any evil-doer who dares to\r\r\r\r\r\r\r\r\n\rsoil his lands.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 55,
+            "AC": -15,
+            "HP": "10d10+6205",
+            "Damage": "30d5+40",
+            "Gold": 30000,
+            "XP": 751200,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2001,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2002,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2004,
+            "Aliases": [
+                "knight",
+                "green",
+                "bernlad",
+                "de",
+                "hautdessert",
+                "sir"
+            ],
+            "ShortDesc": "the Green Knight",
+            "LongDesc": "Sir Bernlad De Hautdessert, the Green Knight, stands here tall and proud.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Sir Bernlad De Hautdessert is tall and muscular, he exudes confidence that he\r\r\r\r\r\r\r\r\n\rcan best you in any contest. He stand ready to prove his manhood through\r\r\r\r\r\r\r\r\n\ra test of arms. You may wish to reconsider this, he once had his head cut\r\r\r\r\r\r\r\r\n\roff and came back to life!\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "UNUSED17"
+            ],
+            "Alignment": 400,
+            "Level": 75,
+            "THAC0": 66,
+            "AC": -15,
+            "HP": "10d10+1675",
+            "Damage": "5d3+55",
+            "Gold": 12000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2005,
+            "Aliases": [
+                "guard"
+            ],
+            "ShortDesc": "a guard",
+            "LongDesc": "A guard stands here watching your every movement.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A proud guard of Camelot watches you with suspicion.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_ALIGN"
+            ],
+            "Alignment": 0,
+            "Level": 25,
+            "THAC0": 25,
+            "AC": 0,
+            "HP": "20d20+25",
+            "Damage": "2d12+0",
+            "Gold": 100,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2006,
+            "Aliases": [
+                "Watchman"
+            ],
+            "ShortDesc": "a watchman",
+            "LongDesc": "The watchman is watching you.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is a man with eyes like an eagle. He watches for enemy armies who would\r\r\r\r\r\r\r\r\n\rlay siege upon the realm of Camelot. He is wary and suspicious of any \r\r\r\r\r\r\r\r\n\rstrangers who might distract him from his duties.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 20,
+            "THAC0": 25,
+            "AC": 1,
+            "HP": "20d15+20",
+            "Damage": "5d3+2",
+            "Gold": 75,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2007,
+            "Aliases": [
+                "thief"
+            ],
+            "ShortDesc": "a thief",
+            "LongDesc": "A sneaky little thief sits here hiding in wait...\r\n",
+            "DetailedDesc": "This thief preys on unsuspecting travelers, he's NOT your friend!\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "GROUP"
+            ],
+            "Alignment": -1000,
+            "Level": 30,
+            "THAC0": 10,
+            "AC": -2,
+            "HP": "10d30+100",
+            "Damage": "4d6+2",
+            "Gold": 1000,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2008,
+            "Aliases": [
+                "crystal",
+                "monster"
+            ],
+            "ShortDesc": "crystal monster",
+            "LongDesc": "crystal monster\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You are facing a monster from your worst nightmares. It is made of razor\r\r\r\r\r\r\r\r\n\rsharp crystal, but moves fluidly. It does not look friendly.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "UNUSED16",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 35,
+            "THAC0": 30,
+            "AC": -12,
+            "HP": "25d20+500",
+            "Damage": "6d4+6",
+            "Gold": 5,
+            "XP": 7500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2009,
+            "Aliases": [
+                "Royal",
+                "Guard"
+            ],
+            "ShortDesc": "a royal guard",
+            "LongDesc": "A member if the Royal guard stands here stoically.\r\n",
+            "DetailedDesc": "These are special guards who are intrusted to protect the King and the Royal \r\r\r\r\r\r\r\r\n\rfamily. They have the appearance of experience and toughness.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "GROUP"
+            ],
+            "Alignment": 1000,
+            "Level": 40,
+            "THAC0": 25,
+            "AC": 1,
+            "HP": "20d35+500",
+            "Damage": "2d5+14",
+            "Gold": 1000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2010,
+            "Aliases": [
+                "captain"
+            ],
+            "ShortDesc": "Captain of the Guard",
+            "LongDesc": "The captain of the guard eyes you carefully.\r\n",
+            "DetailedDesc": "You find yourself in front of a neat, stern, and wary man who carries himself\r\r\r\r\r\r\r\r\n\rlike a leader of an elite force. He eyes you with suspicion.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 52,
+            "THAC0": 45,
+            "AC": -1,
+            "HP": "5d20+450",
+            "Damage": "3d5+10",
+            "Gold": 2500,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2011,
+            "Aliases": [
+                "Jeramiah"
+            ],
+            "ShortDesc": "Jeramiah",
+            "LongDesc": "Jeramiah the blacksmith works the forge with rippling muscles.\r\n",
+            "DetailedDesc": "You see a sweaty, very muscular man making music as he hammers out armors and\r\r\r\r\r\r\r\r\n\rimplements of destruction. You get the feeling he could crush you with his\r\r\r\r\r\r\r\r\n\rbare hands.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 46,
+            "THAC0": 40,
+            "AC": -12,
+            "HP": "20d20+1000",
+            "Damage": "6d2+25",
+            "Gold": 10000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2017,
+            "Aliases": [
+                "the",
+                "black",
+                "knight"
+            ],
+            "ShortDesc": "the Black Knight",
+            "LongDesc": "You have found the legendary Black Knight, prepare for battle!\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The black knight stands tall and forboding, you cannot make out his features\r\r\r\r\r\r\r\r\n\rsave that he is cut and rippled with muscles. You feel a chill go through you\r\r\r\r\r\r\r\r\n\ras he awaits your charge.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -1000,
+            "Level": 65,
+            "THAC0": 40,
+            "AC": -7,
+            "HP": "10d12+1000",
+            "Damage": "3d5+30",
+            "Gold": 15000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2018,
+            "Aliases": [
+                "merlin"
+            ],
+            "ShortDesc": "Merlin the Magnificent",
+            "LongDesc": "Merlin\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You stand before the greatest wizard of legend, Merlin is said to have more\r\r\r\r\r\r\r\r\n\rtricks up his sleeve than a professional gambler. He looks to be an old man\r\r\r\r\r\r\r\r\n\rbut don't let appearances fool you, his father was a demon and his mother was\r\r\r\r\r\r\r\r\n\rhuman!\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 61,
+            "THAC0": 55,
+            "AC": -15,
+            "HP": "100d10+1000",
+            "Damage": "10d5+10",
+            "Gold": 20000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2019,
+            "Aliases": [
+                "Morgan",
+                "Le",
+                "Fay"
+            ],
+            "ShortDesc": "Morgan Le Fay",
+            "LongDesc": "Morgan Le Fay\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a beautiful woman with long, dark hair before you. When she looks\r\r\r\r\r\r\r\r\n\rinto your eyes you are held entranced by her bewitching stares. You doubt you\r\r\r\r\r\r\r\r\n\rcan survive the powers of this witch. She means to have you...for dinner!\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SANCTUARY",
+                "PROTECT_GOOD",
+                "UNUSED16"
+            ],
+            "Alignment": -1000,
+            "Level": 65,
+            "THAC0": 55,
+            "AC": -12,
+            "HP": "10d10+1570",
+            "Damage": "5d10+20",
+            "Gold": 15000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 2020,
+            "Aliases": [
+                "Killer",
+                "bat"
+            ],
+            "ShortDesc": "a killer bat!",
+            "LongDesc": "A killer bat is ready to attack you!\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A killer bat is huge, mean, and poisonous!\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "GROUP",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 27,
+            "THAC0": 30,
+            "AC": -1,
+            "HP": "10d40+100",
+            "Damage": "3d6+10",
+            "Gold": 0,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2021,
+            "Aliases": [
+                "man",
+                "modred"
+            ],
+            "ShortDesc": "Modred",
+            "LongDesc": "An angry looking young man stands here scowling at you.\r\n",
+            "DetailedDesc": "You see before you a good looking young man who is tall and strong. Modred's\r\nice blue eyes cut through you like lasers. He seems angry at the world and\r\nready to smite you where you stand.\r\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "UNUSED16",
+                "SNEAK"
+            ],
+            "Alignment": -1000,
+            "Level": 63,
+            "THAC0": 60,
+            "AC": -10,
+            "HP": "50d8+1000",
+            "Damage": "2d3+20",
+            "Gold": 10000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2022,
+            "Aliases": [
+                "Lancelot"
+            ],
+            "ShortDesc": "Sir Lancelot",
+            "LongDesc": "Sir Lancelot du Lake stands before you looking proud.\r\n",
+            "DetailedDesc": "Before you stands the best knight in the realm. Sir Lancelot du Lake is not\r\r\r\r\r\r\r\r\n\ra man to be trifled with. He stands tall and proud, his muscles bulge with\r\r\r\r\r\r\r\r\n\rreadiness to pound you into the ground. This expedition is beginning to seem\r\r\r\r\r\r\r\r\n\rway more dangerous than you first anticipated!\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 900,
+            "Level": 118,
+            "THAC0": 55,
+            "AC": -10,
+            "HP": "10d10+4000",
+            "Damage": "6d5+40",
+            "Gold": 10000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2023,
+            "Aliases": [
+                "a",
+                "page"
+            ],
+            "ShortDesc": "a noble page",
+            "LongDesc": "a noble page ready's his master's armor\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Here you find a noble page, a knight's best servant.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 16,
+            "THAC0": 20,
+            "AC": 1,
+            "HP": "50d4+12",
+            "Damage": "4d4+10",
+            "Gold": 500,
+            "XP": 1500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2024,
+            "Aliases": [
+                "a",
+                "knight"
+            ],
+            "ShortDesc": "a knight",
+            "LongDesc": "A knight is here practicing his moves.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is a young knight who is working hard so that someday King Arthur may\r\r\r\r\r\r\r\r\n\rnotice his brave deeds and invite him to sit at the ledgendary Round Table.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_EVIL",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_ALIGN"
+            ],
+            "Alignment": 1000,
+            "Level": 25,
+            "THAC0": 30,
+            "AC": 0,
+            "HP": "100d6+15",
+            "Damage": "2d3+7",
+            "Gold": 10000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2025,
+            "Aliases": [
+                "Lady",
+                "of",
+                "the",
+                "lake"
+            ],
+            "ShortDesc": "the Lady of the Lake",
+            "LongDesc": "A hand rises out of the water, holding a sword.\r\n",
+            "DetailedDesc": "You stand before the most beautiful woman you have ever seen, she is the\r\r\r\r\r\r\r\r\n\rlegendary keeper of King Arthur's sword Excalibur, and said to be the most\r\r\r\r\r\r\r\r\n\rpowerful force for good in the region. Many men have lost their lives trying to\r\r\r\r\r\r\r\r\n\rwrest the secrets of the lady of the lake...will you be the next?\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SANCTUARY",
+                "UNUSED16"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 50,
+            "AC": -15,
+            "HP": "1d100+3000",
+            "Damage": "8d8+40",
+            "Gold": 15000,
+            "XP": 300000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 2026,
+            "Aliases": [
+                "a",
+                "squire"
+            ],
+            "ShortDesc": "a knight's squire",
+            "LongDesc": "A knight's squire stands here, ready to tend to his sire's needs.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is a knight's squire, he fancies himself a good warrior.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 20,
+            "THAC0": 20,
+            "AC": -1,
+            "HP": "100d6+10",
+            "Damage": "4d5+10",
+            "Gold": 1000,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2027,
+            "Aliases": [
+                "cook"
+            ],
+            "ShortDesc": "a cook",
+            "LongDesc": "A cook is here, not wanting to be disturbed.\r\n",
+            "DetailedDesc": "This is one of King Arthur's cooks, they don't like to have rabble rousers in\r\r\r\r\r\r\r\r\n\rtheir kitchen.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "100d6+15",
+            "Damage": "4d5+5",
+            "Gold": 1000,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2028,
+            "Aliases": [
+                "Sir",
+                "Gawain"
+            ],
+            "ShortDesc": "Gawain",
+            "LongDesc": "Sir Gawain is here\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a stocky looking man with red hair and blue eyes. Sir Gawain is known\r\r\r\r\r\r\r\r\n\rfor his honesty and his honor, you feel uncomfortable in his presence.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 63,
+            "THAC0": 60,
+            "AC": -12,
+            "HP": "45d6+1000",
+            "Damage": "5d5+35",
+            "Gold": 10000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2029,
+            "Aliases": [
+                "guard"
+            ],
+            "ShortDesc": "a palace guard",
+            "LongDesc": "This guard is wandering around looking for intruders\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "AGGR_EVIL",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_ALIGN"
+            ],
+            "Alignment": 500,
+            "Level": 25,
+            "THAC0": 20,
+            "AC": -1,
+            "HP": "100d10+3",
+            "Damage": "5d5+5",
+            "Gold": 2500,
+            "XP": 7000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2030,
+            "Aliases": [
+                "queen",
+                "guinevere",
+                "queenguinevere"
+            ],
+            "ShortDesc": "Queen Guinevere",
+            "LongDesc": "Queen Guinevere will be very put out if you get blood on the carpet.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is King Arthur's wife, the beautiful Queen Guinevere, she doesn't look\r\r\r\r\r\r\r\r\n\ramused by your intrusion.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "UNUSED16"
+            ],
+            "Alignment": 1000,
+            "Level": 50,
+            "THAC0": 45,
+            "AC": -12,
+            "HP": "10d10+1250",
+            "Damage": "5d5+29",
+            "Gold": 5000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 2031,
+            "Aliases": [
+                "lady"
+            ],
+            "ShortDesc": "lady in waiting",
+            "LongDesc": "One of the Queen's ladies in waiting\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is one of the Queen's ladies in waiting...or is she?\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 28,
+            "THAC0": 1,
+            "AC": 0,
+            "HP": "25d5+1000",
+            "Damage": "5d5+3",
+            "Gold": 1000,
+            "XP": 1500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 2032,
+            "Aliases": [
+                "A",
+                "knight",
+                "who",
+                "goes",
+                "NI!"
+            ],
+            "ShortDesc": "the knights who say \"NI!\"",
+            "LongDesc": "A huge two headed knight blocks your path.\r\n",
+            "DetailedDesc": "This is the strangest knight you've ever seen.  He must be 15 feet\r\ntall and has two heads, who are always arguing.  He looks at you\r\nand says \"NI!\"  Pain wracks your body and you clutch at your ears\r\ntrying to shut out the awful noise.  You can't take much more of\r\nthis.. suddenly the knights stop and demand of you.....\r\nA SHRUBBERY!\r\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "UNUSED16"
+            ],
+            "Alignment": 0,
+            "Level": 82,
+            "THAC0": 60,
+            "AC": -20,
+            "HP": "10d10+2450",
+            "Damage": "4d4+50",
+            "Gold": 50000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2082,
+            "Aliases": [
+                "rabbit",
+                "bunny",
+                "cute"
+            ],
+            "ShortDesc": "a cute little bunny rabbit",
+            "LongDesc": "The cute little bunny looks at you, it's so adorable!\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You look at this irresistably cute little furry white rabbit and wonder why\r\r\r\r\r\r\r\r\n\ranyone would call it vicious or man-eating. Boy are you in for a surprise!\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "1d100+400",
+            "Damage": "1d8+0",
+            "Gold": 25000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2099,
+            "Aliases": [
+                "Cerberus"
+            ],
+            "ShortDesc": "Cerberus",
+            "LongDesc": "Cerberus doesn't like strangers\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Lazarus has some strange pets, you have never seen a more hideous abberation\r\r\r\r\r\r\r\r\n\rthan this vicious looking, three headed dog. He looks ready to tear your \r\r\r\r\r\r\r\r\n\rthroat out and eat the rest of you for dessert.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16"
+            ],
+            "Alignment": -1000,
+            "Level": 100,
+            "THAC0": 100,
+            "AC": -100,
+            "HP": "100d100+3000",
+            "Damage": "100d100+100",
+            "Gold": 100000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2100,
+            "Aliases": [
+                "statue"
+            ],
+            "ShortDesc": "Statue",
+            "LongDesc": "A beautifully carved statue of Thyra, Goddess of Passion is here.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You look at this lovingly carved statue of the Goddess Thyra, she looks at\r\r\r\r\r\r\r\r\n\ryou through marble eyes of desire that strikes deep into your body. You feel\r\r\r\r\r\r\r\r\n\roverwhelmed with desire and passion, the curves of her nude body are so \r\r\r\r\r\r\r\r\n\rdelicate and beautiful, you wonder who could have made mere marble look\r\r\r\r\r\r\r\r\n\rthis good.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "1d1+1",
+            "Damage": "1d1+1",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2102,
+            "Aliases": [
+                "\r"
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        }
+    ]
+}

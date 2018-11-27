@@ -1,0 +1,903 @@
+{
+    "mobs": [
+        {
+            "Number": 1900,
+            "Aliases": [
+                "witch",
+                "blair",
+                "force"
+            ],
+            "ShortDesc": "the Blair Witch",
+            "LongDesc": "Something is here, you can feel the evil.\n",
+            "DetailedDesc": "Here flowing with the darkest of magic, conjured perhaps from within your\nvery soul, is the evil interface between this world and the next.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "WATERWALK",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_GOOD",
+                "NOTRACK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 150,
+            "THAC0": 85,
+            "AC": -35,
+            "HP": "10d100+20000",
+            "Damage": "20d10+80",
+            "Gold": 375000,
+            "XP": 325000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1901,
+            "Aliases": [
+                "heather"
+            ],
+            "ShortDesc": "Heather",
+            "LongDesc": "Heather is here trying to catch all this on video.\n",
+            "DetailedDesc": "Heather Donahue was born in Upper Darby, PA, but relocated to Baltimore, close to\nwhere her great-grandmother lived. Heather's earliest memories are of her\ngreat-grandma's tales of civil war ghosts and witches said to haunt the area. While\nHeather relished the terror those stories inspired in her, she later came to appreciate\nthe historical and sociological value that this oral tradition provided. She became\nintrigued in investigating the origins of these stories, primarily as an act of\npreservation. Moving out of home 1991 to attend Montgomery College in Rockville, she \nstudied video production. After saving money she earned as the videographer of countless\nweddings, she planned her first major project - a documentary on the story of her\ngreat-grandmothers that both fascinated and frightened her the most. The story that\nresurfaced so often in both history and her own mind - the legend of the Blair Witch.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 160,
+            "THAC0": 60,
+            "AC": -20,
+            "HP": "10d10+7000",
+            "Damage": "10d5+127",
+            "Gold": 100000,
+            "XP": 1,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1902,
+            "Aliases": [
+                "Josh"
+            ],
+            "ShortDesc": "Josh",
+            "LongDesc": "Josh is here about to lose his mind in these woods as well.\n",
+            "DetailedDesc": "Joshua Leonard began making films at 9 years old, documenting local sporting events\nand family gatherings on his father's 8mm Bell \u0026 Howell. In high school he\nwrote and directed his own TV show \"MD. Skunk\" which quickly became a local\nfavourite of the Rockville youth culture and the highest rated midnight show on WQED\ncable channel 3. \"MD. Skunk\" was noted for its unique mixture of skateboarding tricks\nand punk rock concert footage cleverly edited with stock car chases and classic\ngunfights. Joshua later graduated from the television program at Montgomery Community\nCollege, having learned an array of filmmaking techniques, including on-line Beta\nediting, basic sound design, 3-point lighting, and 16mm film production. \n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 160,
+            "THAC0": 60,
+            "AC": -10,
+            "HP": "10d10+7200",
+            "Damage": "10d5+127",
+            "Gold": 100000,
+            "XP": 1,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1903,
+            "Aliases": [
+                "mike"
+            ],
+            "ShortDesc": "Mike",
+            "LongDesc": "Mike is here cursing the day he met Josh and Heather.\n",
+            "DetailedDesc": "Well, ever since Josh and Heather found out that Mike threw away the map, he\nhasn't been too popular.  He isn't too happy with them either.  He's totally\ncreeped out and ready to go home.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 150,
+            "THAC0": 60,
+            "AC": -10,
+            "HP": "10d10+7000",
+            "Damage": "10d10+127",
+            "Gold": 100000,
+            "XP": 1,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1904,
+            "Aliases": [
+                "noise"
+            ],
+            "ShortDesc": "a terrifying noise",
+            "LongDesc": "A terrifying noise pierces the darkness.\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 200,
+            "THAC0": 35,
+            "AC": -10,
+            "HP": "0d0+2000",
+            "Damage": "20d6+1",
+            "Gold": 100000,
+            "XP": 1,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1905,
+            "Aliases": [
+                "scream"
+            ],
+            "ShortDesc": "a haunting scream",
+            "LongDesc": "A scream is coming from all directions scaring the hell out of you!\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 200,
+            "THAC0": 35,
+            "AC": -10,
+            "HP": "0d0+2000",
+            "Damage": "20d5+1",
+            "Gold": 100000,
+            "XP": 1,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1906,
+            "Aliases": [
+                "wild",
+                "imagination"
+            ],
+            "ShortDesc": "a wild imagination",
+            "LongDesc": "Your imagination is here running wild!\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 200,
+            "THAC0": 70,
+            "AC": -10,
+            "HP": "0d0+10000",
+            "Damage": "20d10+100",
+            "Gold": 100000,
+            "XP": 1,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1907,
+            "Aliases": [
+                "complete",
+                "paranoia"
+            ],
+            "ShortDesc": "complete paranoia",
+            "LongDesc": "Your paranoia alone is enough to kill you.\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 200,
+            "THAC0": 70,
+            "AC": -10,
+            "HP": "0d0+10000",
+            "Damage": "20d10+100",
+            "Gold": 100000,
+            "XP": 1,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1908,
+            "Aliases": [
+                "mary",
+                "brown",
+                "crazy",
+                "woman"
+            ],
+            "ShortDesc": "Mary Brown",
+            "LongDesc": "Mary Brown is here quoting bible verses.\n",
+            "DetailedDesc": "Genesis 31:45-52: \"And Jacob took a stone, and set it up for a pillar. And\nJacob said unto his brethren, Gather stones, and they took stones, and made a\nheap.... And Laban said to Jacob, Behold this heap, and behold this pillar,\nwhich I have cast betwixt me and thee.  This heap be witness, and this pillar\nbe witness, that I will not pass over this heap to thee, and that thou shall\nnot pass over this heap and this pillar unto me, for harm.\" Ecclesiastes\n10:9: \"Who so removeth stones shall be hurt therewith, and he that cleaveth\nwood shall be endangered thereby.\"\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "NOTRACK"
+            ],
+            "Alignment": 1000,
+            "Level": 130,
+            "THAC0": 120,
+            "AC": -40,
+            "HP": "50d20+10500",
+            "Damage": "30d5+90",
+            "Gold": 5000,
+            "XP": 177000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1909,
+            "Aliases": [
+                "rustin",
+                "parr"
+            ],
+            "ShortDesc": "Rustin Parr",
+            "LongDesc": "Rustin Parr is here listening to the voices in his head.\n",
+            "DetailedDesc": "Rustin Parr began hearing the scary voice of an old woman in the woods and in\nNovember 1940 she told him to go to Burkittsville and get the first two\nchildren he saw and to kill them. He followed the voice's directions\ncompletely. Over time, Rustin murdered seven children. One was spared, Kyle\nBrody, who was made to stand in the corner while Rustin performed the awful\nact in the cellar of his house. After the seventh child was killed, Rustin\nawoke to find the cloaked figure before him, saying he was \"finished\". She\nwould leave if he went to Burkittsville and confessed. Rustin released Kyle,\nand walked into the town market saying, \"I'm finally finished.\"  The voice\ndid stop in Rustin's head and he never saw the figure again. He didn't know\nwho the cloaked woman was, but believed she was a ghost. Rustin Parr was\nhanged in the autumn of 1941.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "POISON",
+                "PROTECT_GOOD",
+                "NOTRACK"
+            ],
+            "Alignment": -1000,
+            "Level": 150,
+            "THAC0": 90,
+            "AC": -40,
+            "HP": "50d50+12000",
+            "Damage": "60d3+55",
+            "Gold": 175000,
+            "XP": 300000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1910,
+            "Aliases": [
+                "hand",
+                "pale",
+                "womans"
+            ],
+            "ShortDesc": "a pale womans hand",
+            "LongDesc": "A pale womans hand is reaching up from beneath the water.\n",
+            "DetailedDesc": "The pale hand has a firm grip on little Eileen Treacle with every\nintention of drowning her.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "PROTECT_GOOD",
+                "NOTRACK"
+            ],
+            "Alignment": -1000,
+            "Level": 175,
+            "THAC0": 75,
+            "AC": -34,
+            "HP": "50d50+8000",
+            "Damage": "15d10+80",
+            "Gold": 0,
+            "XP": 220000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1911,
+            "Aliases": [
+                "child",
+                "spirit",
+                "murdered"
+            ],
+            "ShortDesc": "the spirit of a murdered child",
+            "LongDesc": "The spirit of a child murdered by Rustin Parr is here playing in the woods.\n",
+            "DetailedDesc": "One of the seven victims of Rustin Parr in 1941, this small child\nnow wanders freely between heaven and earth.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_EVIL",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": 1000,
+            "Level": 100,
+            "THAC0": 60,
+            "AC": -30,
+            "HP": "50d50+20000",
+            "Damage": "30d5+50",
+            "Gold": 0,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1912,
+            "Aliases": [
+                "fisherman",
+                "man",
+                "young"
+            ],
+            "ShortDesc": "a young fisherman",
+            "LongDesc": "A young fisherman is here trying his luck in the creek.\n",
+            "DetailedDesc": "He's dressed in flannel and jeans and holding a fishing pole.  But, he\nis more interested in talking than fishing.\n\"I've heard the myths and I don't really believe much in it.\"\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "NOTRACK"
+            ],
+            "Alignment": 1000,
+            "Level": 140,
+            "THAC0": 75,
+            "AC": -20,
+            "HP": "30d30+8300",
+            "Damage": "1d127+60",
+            "Gold": 75000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1913,
+            "Aliases": [
+                "fisherman",
+                "man",
+                "old"
+            ],
+            "ShortDesc": "an older fisherman",
+            "LongDesc": "An older fisherman is here complaining about kids these days.\n",
+            "DetailedDesc": "He's dressed in a jacket and cap and holding a fishing pole.  He keeps\ninterrupting the younger fisherman and correcting him on the stories\nof the local legends.\n         \"You damn fool kids will never learn.\"\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "NOTRACK"
+            ],
+            "Alignment": 1000,
+            "Level": 140,
+            "THAC0": 75,
+            "AC": -20,
+            "HP": "30d30+8300",
+            "Damage": "1d127+60",
+            "Gold": 75000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1914,
+            "Aliases": [
+                "resident",
+                "local",
+                "burkittsville"
+            ],
+            "ShortDesc": "a resident of Burkittsville",
+            "LongDesc": "A resident of Burkittsville is here claiming no knowledge of the towns strange past.\n",
+            "DetailedDesc": "Like many of the towns people, this man doesn't want to stir up the\npast by speaking with strangers about the legends surrounding this\narea.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK"
+            ],
+            "Alignment": -1000,
+            "Level": 100,
+            "THAC0": 66,
+            "AC": -30,
+            "HP": "15d15+2100",
+            "Damage": "50d1+65",
+            "Gold": 25000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1915,
+            "Aliases": [
+                "villager",
+                "burkittsville",
+                "local"
+            ],
+            "ShortDesc": "a local",
+            "LongDesc": "A local is here willing to speak about the towns dark history.\n",
+            "DetailedDesc": "This man doesn't really believe any of the old legends surrounding the\ntown but knows all the old stories by heart and loves to entertain\ntravelers by embellishing a bit.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK"
+            ],
+            "Alignment": -1000,
+            "Level": 100,
+            "THAC0": 66,
+            "AC": -30,
+            "HP": "15d15+2100",
+            "Damage": "50d1+65",
+            "Gold": 25000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1916,
+            "Aliases": [
+                "elly",
+                "kedward",
+                "woman",
+                "transparent",
+                "ghost"
+            ],
+            "ShortDesc": "Elly Kedward",
+            "LongDesc": "A transparent figure of a woman gives you a bone chilling stare.\n",
+            "DetailedDesc": "Accused of luring children into her home to draw blood from them in 1785,\nElly Kedward was found guilty of witchcraft and banished from the village\nof Blair during a particularly harsh winter.  She placed a curse on the\nentire town.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_GOOD",
+                "NOTRACK"
+            ],
+            "Alignment": -1000,
+            "Level": 125,
+            "THAC0": 81,
+            "AC": -35,
+            "HP": "1d1+8999",
+            "Damage": "1d100+105",
+            "Gold": 75000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1917,
+            "Aliases": [
+                "voice",
+                "josh",
+                "scream"
+            ],
+            "ShortDesc": "a voice calling for help",
+            "LongDesc": " A voice is screaming out for help!\n",
+            "DetailedDesc": "It sounds a whole lot like Josh's voice.  It sounds like its coming from\nevery room in the house and the person calling for help sounds in\ndeathly pain.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "PROTECT_GOOD",
+                "NOTRACK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 150,
+            "THAC0": 79,
+            "AC": -35,
+            "HP": "50d50+12000",
+            "Damage": "3d60+70",
+            "Gold": 0,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1918,
+            "Aliases": [
+                "witch",
+                "blair",
+                "force"
+            ],
+            "ShortDesc": "the Blair Witch",
+            "LongDesc": "A spirit is here in the form of a hairy, half-human, half-animal beast.\n",
+            "DetailedDesc": "Here flowing with the darkest of magic, conjured perhaps from within your\nvery soul, is the evil interface between this world and the next.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "WATERWALK",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_GOOD",
+                "NOTRACK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 150,
+            "THAC0": 85,
+            "AC": -35,
+            "HP": "10d100+20000",
+            "Damage": "20d10+80",
+            "Gold": 375000,
+            "XP": 325000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1919,
+            "Aliases": [
+                "sheriff",
+                "ron",
+                "cravens"
+            ],
+            "ShortDesc": "Sheriff Ron Cravens",
+            "LongDesc": "The local sheriff is keeping an eye out for trouble makers like you.\n",
+            "DetailedDesc": "                   October 16 1995\nStudents from the University of Maryland's Anthropology Department\ndiscover a duffel bag containing film cans, DAT tapes, video-cassettes,\na Hi-8 video camera, Heather's journal and a CP-16 film camera buried\nunder the foundation of a 100-year-old cabin. When the evidence is \nexamined, Burkittsville Sheriff Ron Cravens announces that the 11\nrolls of black-and-white film and 10 HI8 video tapes are indeed the\nproperty of Heather Donahue and her crew.\n\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "HELPER",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_EVIL",
+                "NOTRACK"
+            ],
+            "Alignment": 1000,
+            "Level": 200,
+            "THAC0": 86,
+            "AC": -40,
+            "HP": "1d1+23999",
+            "Damage": "20d2+107",
+            "Gold": 100000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1920,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "0d0+1",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1921,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "0d0+1",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1930,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "0d0+1",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1931,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "0d0+1",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1932,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "0d0+1",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

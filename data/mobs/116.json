@@ -1,0 +1,196 @@
+{
+    "mobs": [
+        {
+            "Number": 11600,
+            "Aliases": [
+                "guard",
+                "armed",
+                "mental",
+                "ward"
+            ],
+            "ShortDesc": "the armed guard",
+            "LongDesc": "The armed guard stands here guarding the doors the the mental ward.\n",
+            "DetailedDesc": "This guard looks to be a bit on the dumb side.  Wonder if you can \noutsmart him?\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 300,
+            "Level": 32,
+            "THAC0": 12,
+            "AC": 5,
+            "HP": "10d10+300",
+            "Damage": "5d5+20",
+            "Gold": 3000,
+            "XP": 8000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 11601,
+            "Aliases": [
+                "sarah",
+                "connor",
+                "woman"
+            ],
+            "ShortDesc": "Sarah Connor",
+            "LongDesc": "Sarah Connor is standing here.\n",
+            "DetailedDesc": "She is a strong woman and is very smart. But she's a little nuts. Why else\nwould she be here? She is very skilful. She could probly break out any time\nshe wanted to.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 75,
+            "AC": -25,
+            "HP": "5d5+14000",
+            "Damage": "10d9+50",
+            "Gold": 50000,
+            "XP": 500000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 11602,
+            "Aliases": [
+                "factory",
+                "worker"
+            ],
+            "ShortDesc": "a factory worker",
+            "LongDesc": "A factory worker stands here nervously doing his job.\n",
+            "DetailedDesc": "This person looks to be scared of their supervisor.  Wonder if you \ncould get them fired and have their job?\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 1000,
+            "Level": 43,
+            "THAC0": 18,
+            "AC": -15,
+            "HP": "20d10+200",
+            "Damage": "4d4+12",
+            "Gold": 5,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11603,
+            "Aliases": [
+                "Nurse",
+                "R.N.",
+                "hospital",
+                "personel"
+            ],
+            "ShortDesc": "a Nurse, who works at county hospital",
+            "LongDesc": "A nurse is standing here waiting to take someones temperature.\n",
+            "DetailedDesc": "This nurse looks like she doesn't take no for an answer when the Doctor \norders something.  She appears capable and knowledgeable in her field.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "BLIND",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 70,
+            "THAC0": 40,
+            "AC": -2,
+            "HP": "5d5+2800",
+            "Damage": "1d1+35",
+            "Gold": 5000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11604,
+            "Aliases": [
+                "Dr.",
+                "Doctor",
+                "personel",
+                "0"
+            ],
+            "ShortDesc": "a Doctor who practices at county hospital",
+            "LongDesc": "A Doctor stands here look at his patients chart.\n",
+            "DetailedDesc": "This Doctor looks  to be very in tune to his patients needs.  He looks\nlike he has been here all night and he looks like he needs some sleep.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "BLIND",
+                "SANCTUARY"
+            ],
+            "Alignment": 100,
+            "Level": 127,
+            "THAC0": 65,
+            "AC": -26,
+            "HP": "1d100+13000",
+            "Damage": "10d10+70",
+            "Gold": 5000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11605,
+            "Aliases": [
+                "patient"
+            ],
+            "ShortDesc": "a Patient at the county hospital",
+            "LongDesc": "A patient at the county hospital is sleeping here.\n",
+            "DetailedDesc": "This patient is very tired and appears to need the sleep they are getting.\nPlease be quiet and let them sleep.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "BLIND",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 41,
+            "THAC0": 25,
+            "AC": -2,
+            "HP": "10d10+500",
+            "Damage": "3d4+20",
+            "Gold": 5000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Neutral"
+        }
+    ]
+}

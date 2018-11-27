@@ -1,0 +1,487 @@
+{
+    "mobs": [
+        {
+            "Number": 5605,
+            "Aliases": [
+                "man",
+                "eumaios",
+                "swineherd"
+            ],
+            "ShortDesc": "Eumaios the swineherd",
+            "LongDesc": "Eumaios the swineherd is here keeping watch over his flock.\n",
+            "DetailedDesc": "The swineherd Eumaios is tyically a gentle man hired by Odysseus to raise the\nflock for feasting.  He is dressed moderately in a fresh cloak and tunic, and\nhas a cap upon his head.  Like most of Odysseus' people, he awaits the return\nof their king.  For every day that Odysseus is gone, this man must slaughter\nthe finest of his herd for the suitors of the queen.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 60,
+            "THAC0": 40,
+            "AC": -12,
+            "HP": "10d10+3000",
+            "Damage": "10d10+45",
+            "Gold": 15000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5606,
+            "Aliases": [
+                "girl",
+                "maiden"
+            ],
+            "ShortDesc": "young maiden",
+            "LongDesc": "A young maiden on her way to the village.\n",
+            "DetailedDesc": "This young girl is a maid-in-waiting for Queen Penelope.  She must be on her\nway to town to get more fabric for the queen to weave.  Her hair is all tucked\nup in a bonnet, and her face glooms of sorrow.  She longs for the return\nof Odysseus, the King.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 20,
+            "THAC0": 15,
+            "AC": -5,
+            "HP": "10d100+200",
+            "Damage": "5d5+5",
+            "Gold": 200,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5607,
+            "Aliases": [
+                "man",
+                "ministrel",
+                "phemios"
+            ],
+            "ShortDesc": "Phemios the ministrel",
+            "LongDesc": "The ministrel Phemios sits here playing his harp and singing.\n",
+            "DetailedDesc": "Phemios spends his days playing his harp and singing poems of life.  He holds\nhis golden harp sacred, as his life depends upon his song and music.  Phemios\nwears a brown tunic, with dark brown leggings that have oxhide patches below\nthe knees. As he sits here watching the children in the court yard, he sings\nof the sorrow bestowed upon Penelope's heart as she longs for Odysseus to\nreturn.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 45,
+            "THAC0": 25,
+            "AC": -10,
+            "HP": "10d10+2500",
+            "Damage": "5d10+25",
+            "Gold": 500,
+            "XP": 10050,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5608,
+            "Aliases": [
+                "athena"
+            ],
+            "ShortDesc": "Grey-eyed Athena",
+            "LongDesc": "Grey-eyed Athena takes her stand beside Odysseus\n",
+            "DetailedDesc": "With eyes that shine like the sea, Athena, the daughter of Zues is here to assist\nOdysseus with his revenge upon the many suitors that have come to the manor hall in \npersuit of marrying his wife Penelope while he is away and thought to be dead.\n",
+            "Actions": [
+                "ISNPC",
+                "AWARE",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "SNEAK",
+                "UNUSED20"
+            ],
+            "Alignment": 0,
+            "Level": 130,
+            "THAC0": 60,
+            "AC": -20,
+            "HP": "20d20+9500",
+            "Damage": "5d10+50",
+            "Gold": 73590,
+            "XP": 161000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5609,
+            "Aliases": [
+                "odysseus"
+            ],
+            "ShortDesc": "Odysseus",
+            "LongDesc": "Odysseus is here to take revenge on his wife's suitors.\n",
+            "DetailedDesc": "This man is the King of Ithaka, husband to Penelope, and father to Telemakho.\nAfter much time away from his family, he has returned with a vengeance.  His\nplans are to kill all the men that have spent their days in the manor hall\neating and drinking of the finest food and wine, bringing gifts to the queen\nin hopes to marry her and become the new king of Ithaka before his return.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 500,
+            "Level": 75,
+            "THAC0": 55,
+            "AC": -14,
+            "HP": "10d25+9750",
+            "Damage": "8d15+40",
+            "Gold": 100000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5610,
+            "Aliases": [
+                "queen",
+                "penelope"
+            ],
+            "ShortDesc": "Queen Penelope",
+            "LongDesc": "Queen Penelope sits her weaving her loom.\n",
+            "DetailedDesc": "Over many years, the daughter of Lord Autolykis spends her time weaving her loom while\nwaiting for her husband Odysseus to return.  She tricked her suitors to keep them\nat bay, in order to bide time by telling them that she must finish weaving her loom\nbefore she will remarry, or else her thread will be spun in vain.  So by the\nlight of day she weaves, and by candlelight at night she unweaves her loom.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 52,
+            "THAC0": 20,
+            "AC": -9,
+            "HP": "6d10+5890",
+            "Damage": "4d10+20",
+            "Gold": 18750,
+            "XP": 350000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5611,
+            "Aliases": [
+                "son",
+                "Telemakho"
+            ],
+            "ShortDesc": "Telemakho",
+            "LongDesc": "Telemakhos is here collecting items for battle.\n",
+            "DetailedDesc": "With the help of Athena, the son of Odysseus developed the courage to go out in \nsearch for news of his father's journey.  Telemakho gathers a few items to prepare\nfor the journey to the town of Pylos, where he will ask Nestor, the master charioteer \nfor his wisdom and to hear the travelers stories of Odysseus.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 70,
+            "THAC0": 45,
+            "AC": -15,
+            "HP": "8d15+8978",
+            "Damage": "9d14+59",
+            "Gold": 58930,
+            "XP": 18040,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5612,
+            "Aliases": [
+                "nursemaid",
+                "Eurykleia"
+            ],
+            "ShortDesc": "Eurykleia the nursemaid",
+            "LongDesc": "Eurykleia the nursemaid.\n",
+            "DetailedDesc": "This nursemaid was the woman that cared for Odysseus since he was a young\nchild.  She is the first one to recognize him when he returned from his\njourney. She has dark, soft eyes, and long white hair.  Her clothes are old\nbut made from a fine material.  She will stand by her people till the bitter\nend, holding true to her loyalty.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 25,
+            "THAC0": 11,
+            "AC": -5,
+            "HP": "2d8+268",
+            "Damage": "2d8+0",
+            "Gold": 100,
+            "XP": 3984,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5613,
+            "Aliases": [
+                "dog",
+                "watchdog",
+                "mutt"
+            ],
+            "ShortDesc": "the swineherd's dog",
+            "LongDesc": "A watch dog is standing here snarling at you.\n",
+            "DetailedDesc": "This dog is one of the many dogs owned by the swineherd to keep a close watch\nover the flock. He appears quite annoyed by your presence and snarls at you.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 20,
+            "AC": 1,
+            "HP": "4d6+560",
+            "Damage": "3d6+8",
+            "Gold": 10,
+            "XP": 1200,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5614,
+            "Aliases": [
+                "woman",
+                "servant"
+            ],
+            "ShortDesc": "a serving woman",
+            "LongDesc": "A serving woman stands here guarding the storeroom.\n",
+            "DetailedDesc": "The serving woman is here preparing a few traveling jugs for Telemakhos to\ntake on his journey for news of his father's voyage.  She has gathered a few\nof the two-handled travelling jugs filled with wine, and poured out barley\ninto leather bags.  Now she waits for Telemakhos to come after it get's dark\nto collect them, as he must wait untill his mother has retired for the night\nto start his journey to Pylos, and then to Sparta.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 5,
+            "AC": 1,
+            "HP": "5d10+500",
+            "Damage": "4d5+10",
+            "Gold": 100,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5615,
+            "Aliases": [
+                "Mentes",
+                "lord",
+                "ruler"
+            ],
+            "ShortDesc": "Mentes, son of Ankhialos",
+            "LongDesc": "Mentes, the ruler of sefaring Taphos stands here.\n",
+            "DetailedDesc": "Years of friendship endure between this man's family and that of Odysseus.\nMentes, son of the veteran Ankhialos, is the ruler of seafaring Taphos.  He\nhas come to Ithaka to encourage young Telemakhos to go abroad for news of his\nfather from Nestor, the noble sage at Pylos, and then to Menelaos, the\nred-haired king of Sparta.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 0,
+            "THAC0": 25,
+            "AC": -5,
+            "HP": "10d23+1101",
+            "Damage": "10d3+15",
+            "Gold": 6000,
+            "XP": 95000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5616,
+            "Aliases": [
+                "handmaid",
+                "maid"
+            ],
+            "ShortDesc": "the queen's handmaid",
+            "LongDesc": "A handmaiden of the queen stands here.\n",
+            "DetailedDesc": "This woman is one of the handmaids that tend to Queen Penelope throughout the\nday.  She is dressed in a long gown and wears a veil drawn over across her\ncheeks.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 5,
+            "AC": 1,
+            "HP": "5d10+500",
+            "Damage": "4d5+10",
+            "Gold": 100,
+            "XP": 400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5617,
+            "Aliases": [
+                "handmaid",
+                "maid"
+            ],
+            "ShortDesc": "the queen's handmaid",
+            "LongDesc": "A handmaiden of the queen stands here.\n",
+            "DetailedDesc": "This woman is one of the handmaids that tend to Queen Penelope throughout the\nday.  She is dressed in a long gown and wears a veil drawn over across her\ncheeks.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 5,
+            "AC": 1,
+            "HP": "5d10+500",
+            "Damage": "4d5+10",
+            "Gold": 100,
+            "XP": 400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5618,
+            "Aliases": [
+                "larder",
+                "mistress",
+                "woman",
+                "servant"
+            ],
+            "ShortDesc": "a larder mistress",
+            "LongDesc": "The larder mistress with her tray, generously serves the guests.\n",
+            "DetailedDesc": "As you enter the manor hall, this larder mistress tempts you with As you\nenter the manor hall, this larder mistress, with her tray, tries to serve you\ngenerously of the food that's been prepared for the evening's feast.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 5,
+            "AC": 1,
+            "HP": "5d10+500",
+            "Damage": "4d5+10",
+            "Gold": 100,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5619,
+            "Aliases": [
+                "fido",
+                "dog"
+            ],
+            "ShortDesc": "a rabid dog",
+            "LongDesc": "A rabid dog brushes against you.\n",
+            "DetailedDesc": "Fido is a small dog that has a foul smell and pieces of rotted meat hanging\naround his teeth.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 0,
+            "THAC0": 5,
+            "AC": 10,
+            "HP": "1d6+1000",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 155,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5680,
+            "Aliases": [
+                "Bulbasaur",
+                "creature",
+                "pokemon"
+            ],
+            "ShortDesc": "Bulbasaur",
+            "LongDesc": "A creature stands here hunched over ready to attack you!\n",
+            "DetailedDesc": "This creature stands two-feet, four-inches high and weighs 15 pounds. It had\nred eyes and a thich blue-green body with dark spots.  All Bulbasaurs are a\ncombination of Grass-type and Poison-type, and have plant-like\ncharacteristics such as large, leafy growths on their backs. Over time the\nBulbasaur evolves into either plant or animal.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 125,
+            "THAC0": 95,
+            "AC": -45,
+            "HP": "12d12+26000",
+            "Damage": "12d12+95",
+            "Gold": 82000,
+            "XP": 200000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

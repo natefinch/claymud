@@ -1,0 +1,2816 @@
+{
+    "mobs": [
+        {
+            "Number": 3800,
+            "Aliases": [
+                "Villager"
+            ],
+            "ShortDesc": "a villager",
+            "LongDesc": "A villager does villager-type things here.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a normal every-day villager doing the daily things necessary to\r\r\r\r\r\r\r\r\n\rsurvive.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 3,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d6+45",
+            "Damage": "1d4+0",
+            "Gold": 50,
+            "XP": 275,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3801,
+            "Aliases": [
+                "king"
+            ],
+            "ShortDesc": "the King",
+            "LongDesc": "The King sits here, looking at you with a royal calm.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The King sits on his throne with worry creasing his handsome face.  He\r\r\r\r\r\r\r\r\n\rlooks hopefully at you and, pushing up his glasses, says, \"Please, if\r\r\r\r\r\r\r\r\n\ryou are willing to risk your life to rescue my son, I will gladly\r\r\r\r\r\r\r\r\n\rcompensate you for the danger, as well as give you the hand of my\r\r\r\r\r\r\r\r\n\rdaughter, the princess Chelsea.\"\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -25,
+            "HP": "10d50+30000",
+            "Damage": "1d4+50",
+            "Gold": 375000,
+            "XP": 102000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3802,
+            "Aliases": [
+                "Queen"
+            ],
+            "ShortDesc": "the Queen",
+            "LongDesc": "The Queen sits here, smiling happily.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see the smiling visage of the town's queen.  Her dark locks of hair and\r\r\r\r\r\r\r\r\n\rruby red lips remind you of a fairy tale character.  While she smiles amiably\r\r\r\r\r\r\r\r\n\rat you, you can sense a deep sadness springing from her, no doubt caused\r\r\r\r\r\r\r\r\n\rby the void left inside her when her son was kidnapped.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -25,
+            "HP": "10d50+30000",
+            "Damage": "1d4+50",
+            "Gold": 25000,
+            "XP": 102000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3803,
+            "Aliases": [
+                "princess",
+                "Chelsea"
+            ],
+            "ShortDesc": "Princess Chelsea",
+            "LongDesc": "Princess Chelsea stands here, looking hopefully into your eyes.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The princess is quite beautiful, and you are captivated by her dancing,\r\r\r\r\r\r\r\r\n\rviolet eyes, as well as her long, lavender hair.  She is dressed in a \r\r\r\r\r\r\r\r\n\rlong white dress which suits her role as princess.  However, on her\r\r\r\r\r\r\r\r\n\rneck, you see a holy symbol denoting her membership in the guild of\r\r\r\r\r\r\r\r\n\rSanctus.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGR_EVIL"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 52,
+            "THAC0": 40,
+            "AC": -5,
+            "HP": "8d5+3000",
+            "Damage": "1d4+25",
+            "Gold": 35000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3804,
+            "Aliases": [
+                "highwayman",
+                "highway",
+                "high",
+                "thief"
+            ],
+            "ShortDesc": "the Highwayman",
+            "LongDesc": "You see a highwayman here, waiting for potential victims.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a typical highway robber, except his armor his a collection of\r\r\r\r\r\r\r\r\n\rplates and leather that have been accumulated in his years of thievery.\r\r\r\r\r\r\r\r\n\rSomething tells you to move on before he spots you and threatens you at\r\r\r\r\r\r\r\r\n\rswordpoint. ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -350,
+            "Level": 6,
+            "THAC0": 0,
+            "AC": 7,
+            "HP": "15d20+25",
+            "Damage": "1d8+2",
+            "Gold": 1000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3805,
+            "Aliases": [
+                "squire"
+            ],
+            "ShortDesc": "a squire",
+            "LongDesc": "A squire stands here, attending his knight's needs.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a scrawny young boy who one day wishes to be a knight.  Within\r\r\r\r\r\r\r\r\n\rhis eyes you see the fires of potential, which will one day be realized.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d10+30",
+            "Damage": "1d4+1",
+            "Gold": 50,
+            "XP": 300,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3806,
+            "Aliases": [
+                "page"
+            ],
+            "ShortDesc": "a page",
+            "LongDesc": "A page stands here, waiting to be told what to do.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a page, eagerly awaiting orders.  ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d10+30",
+            "Damage": "1d4+1",
+            "Gold": 50,
+            "XP": 300,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3807,
+            "Aliases": [
+                "knight",
+                "realm"
+            ],
+            "ShortDesc": "a knight of the realm",
+            "LongDesc": "A knight of the realm stands here, defending the kingdom.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large, burly knight who is ready to defend his kingdom with his\r\r\r\r\r\r\r\r\n\rlife. You don't want to mess with this man, for fear of your own life.\r\r\r\r\r\r\r\r\n\rHe bows his head your way, and smiles amiably.  ",
+            "Actions": [
+                "ISNPC",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "2d10+150",
+            "Damage": "1d4+3",
+            "Gold": 200,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3808,
+            "Aliases": [
+                "guard",
+                "royal",
+                "knight"
+            ],
+            "ShortDesc": "a royal guard",
+            "LongDesc": "A royal guard stands here, protecting the realm.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A really big and brawny man stands here, wearing armor and wielding a \r\r\r\r\r\r\r\r\n\rlarge halberd.  He will do anything to protect his kingdom and his liege,\r\r\r\r\r\r\r\r\n\rso don't mess with him.  ",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 13,
+            "THAC0": 3,
+            "AC": 8,
+            "HP": "15d15+200",
+            "Damage": "1d4+5",
+            "Gold": 10000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3809,
+            "Aliases": [
+                "member",
+                "court"
+            ],
+            "ShortDesc": "a member of the court",
+            "LongDesc": "A member of the court stands here.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a member of the court standing here, looking aloof and snooty.\r\r\r\r\r\r\r\r\n\rYou have an urge to bash his face in.  ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "5d10+20",
+            "Damage": "1d6+0",
+            "Gold": 500,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3810,
+            "Aliases": [
+                "shoppekeepe",
+                "shop",
+                "keep",
+                "keepe",
+                "keeper",
+                "shoppe"
+            ],
+            "ShortDesc": "the shoppekeepe",
+            "LongDesc": "The shoppekeepe sits here, waiting for your purchase.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The owner looks very big and very seasoned.  From the stories you have\r\r\r\r\r\r\r\r\n\rheard about him from the villagers, he used to be an adventurer before\r\r\r\r\r\r\r\r\n\rsettling down and starting up this store... but his days as an hero have\r\r\r\r\r\r\r\r\n\rnot been forgotten, as can be clearly seen from the items in the shop.\r\r\r\r\r\r\r\r\n\rHe sits behind the counter waiting for you to pay for your purchases.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "50d10+30000",
+            "Damage": "10d5+50",
+            "Gold": 50000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3811,
+            "Aliases": [
+                "steelsmith",
+                "steel",
+                "smith"
+            ],
+            "ShortDesc": "a steelsmith",
+            "LongDesc": "A steelsmith stands here, taking pride in his workmanship.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The smith looks like he has spent most of his life working steel.  He is\r\r\r\r\r\r\r\r\n\rvery large and intimidating, with a booming voice and a hearty laugh.\r\r\r\r\r\r\r\r\n\rA generous man, who takes pride in his work, and whose prices are fair.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "50d10+30000",
+            "Damage": "10d5+50",
+            "Gold": 100000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3812,
+            "Aliases": [
+                "sorceress",
+                "owner",
+                "magic",
+                "shop"
+            ],
+            "ShortDesc": "the sorceress",
+            "LongDesc": "A sorceress stands here, scrutinizing you as you browse through her wares.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a middle aged sorceress who still has retained much of her beauty.\r\r\r\r\r\r\r\r\n\rShe smiles at you as you enter the store, and tells you to take your time\r\r\r\r\r\r\r\r\n\rlooking for the items that you may need.  She looks at you intently, \r\r\r\r\r\r\r\r\n\robviously wary of thieves, and you would not want to mess with this lady,\r\r\r\r\r\r\r\r\n\rfor the townspeople have spoken of her power.  ",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "50d4+30000",
+            "Damage": "1d4+50",
+            "Gold": 50000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3813,
+            "Aliases": [
+                "armorer"
+            ],
+            "ShortDesc": "the armorer",
+            "LongDesc": "The armorer stands here, smiling proudly at her workmanship.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The armorer stands here, looking pleased that her shop has been visited\r\r\r\r\r\r\r\r\n\rby so many customers.  She looks toughened from the years of her working\r\r\r\r\r\r\r\r\n\rsteel, and seasoned from her years of adventuring, which have been the\r\r\r\r\r\r\r\r\n\rgossip among the townsfolk.  Rumor has it that she is good friends with\r\r\r\r\r\r\r\r\n\rthe sorceress who runs the magic shop, and that they often collaborate\r\r\r\r\r\r\r\r\n\rto create the most wondrous of armours... one of which she sells openly\r\r\r\r\r\r\r\r\n\rat her shop, the famous assault armor.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "50d10+30000",
+            "Damage": "5d10+50",
+            "Gold": 50000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3814,
+            "Aliases": [
+                "shopkeeper",
+                "shop",
+                "keeper",
+                "keep",
+                "woman"
+            ],
+            "ShortDesc": "the shopkeeper",
+            "LongDesc": "The shopkeeper stands here, smiling amiably at you.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see before you a friendly shopkeeper who is perpetually smiling at you.\r\r\r\r\r\r\r\r\n\rBut in her eyes you see the mark of a fair, yet shrewd business woman.  She\r\r\r\r\r\r\r\r\n\rlooks seasoned and from the gossip you hear among the townsfolk, she had\r\r\r\r\r\r\r\r\n\ronce led a successful career as a thief.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "50d20+30000",
+            "Damage": "10d5+50",
+            "Gold": 375000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3815,
+            "Aliases": [
+                "priest",
+                "holy"
+            ],
+            "ShortDesc": "the holy priest",
+            "LongDesc": "A holy priest stands here, waiting to tend to your needs.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a priest standing here, smiling warmly at you.  From the villagers,\r\r\r\r\r\r\r\r\n\ryou have discovered that each of the shop owners here once adventured together,\r\r\r\r\r\r\r\r\n\rand have just recently retired from their adventuring to open shops at this \r\r\r\r\r\r\r\r\n\rtown. The priest had also been one of them... he was the cleric within\r\r\r\r\r\r\r\r\n\rthe group.  Now he is just a regular priest, tending this church and selling\r\r\r\r\r\r\r\r\n\rvaluable holy items to various adventurers.  All the money will, of course,\r\r\r\r\r\r\r\r\n\rgo to charity.  ",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "50d8+30000",
+            "Damage": "10d5+50",
+            "Gold": 50000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3816,
+            "Aliases": [
+                "wolf",
+                "wild"
+            ],
+            "ShortDesc": "a wild wolf",
+            "LongDesc": "A wild wolf stands here, snarling at you angrily.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see before you a rather large, rather hungry-looking wolf.  It seems\r\r\r\r\r\r\r\r\n\rto be waiting for you to make the first move...  ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "3d8+10",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 50,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3817,
+            "Aliases": [
+                "dog",
+                "wild"
+            ],
+            "ShortDesc": "a wild dog",
+            "LongDesc": "A wild dog stands here, foaming at the mouth.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a wild dog here, foaming at the mouth and barking at you wildly.\r\r\r\r\r\r\r\r\n\rYou think you will keep your distance from this wild creature.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "2d8+8",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 30,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3818,
+            "Aliases": [
+                "eagle",
+                "wild",
+                "wounded"
+            ],
+            "ShortDesc": "a wild eagle",
+            "LongDesc": "A wild eagle lies here wounded, with an arrow in its wing.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a poor, wild, eagle, who has had the misfortune of being shot\r\r\r\r\r\r\r\r\n\rwith an arrow.  You wonder if you should put it out of it's misery.  ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "3d8+10",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 100,
+            "LoadPosition": "POSITION_MORTALLYW",
+            "DefaultPosition": "POSITION_MORTALLYW",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3819,
+            "Aliases": [
+                "boar",
+                "wild"
+            ],
+            "ShortDesc": "a wild boar",
+            "LongDesc": "A wild boar snorts here, waiting to impale you on its horns.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a wild boar ahead of you.  You think it'd be a wise decision\r\r\r\r\r\r\r\r\n\rto stay away from its path.  ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "5d10+20",
+            "Damage": "1d6+1",
+            "Gold": 0,
+            "XP": 300,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3820,
+            "Aliases": [
+                "thief"
+            ],
+            "ShortDesc": "a thief",
+            "LongDesc": "A thief lurks here, waiting for unsuspecting victims.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see an unscrupulous character who is dressed like a bandit.  He is\r\r\r\r\r\r\r\r\n\rwandering around, hiding and sneaking within shadows looking for victims\r\r\r\r\r\r\r\r\n\rto rob.  ",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SNEAK"
+            ],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "10d8+20",
+            "Damage": "1d4+3",
+            "Gold": 500,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3821,
+            "Aliases": [
+                "imp",
+                "emerald",
+                "small"
+            ],
+            "ShortDesc": "an emerald imp",
+            "LongDesc": "A small, emerald imp is here, flapping it's tiny wings.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a tiny imp flapping its wings.  Its emerald color is a good\r\r\r\r\r\r\r\r\n\rcamouflage in this dark forest, and you wouldn't have seen it if it \r\r\r\r\r\r\r\r\n\rhadn't started flapping its wings.  You have heard stories about the\r\r\r\r\r\r\r\r\n\rDemon Lord using imps as his messengers... maybe you shouldn't let \r\r\r\r\r\r\r\r\n\rthis little devil get away.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 7,
+            "THAC0": 4,
+            "AC": 4,
+            "HP": "1d10+20",
+            "Damage": "2d4+4",
+            "Gold": 0,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3822,
+            "Aliases": [
+                "godzilla",
+                "monster",
+                "dragon"
+            ],
+            "ShortDesc": "Godzilla",
+            "LongDesc": "Godzilla is on a rampage here in the city\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You hear the distant rumble of not so little feet in the distance. Looking\r\r\r\r\r\r\r\r\n\rup you see the largest lizard you've ever seen staring down on you. Having\r\r\r\r\r\r\r\r\n\rteeth like a Tyrannosaurus and the spine plates of a Stegosaurus, this thing\r\r\r\r\r\r\r\r\n\rdoes NOT look like a monster you'd like to toy around with. Keeping your di\r\r\r\r\r\r\r\r\n\r, you run for life as he lets out a stream of fiery breath.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 13,
+            "THAC0": 5,
+            "AC": -1,
+            "HP": "10d15+400",
+            "Damage": "5d1+0",
+            "Gold": 1000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3823,
+            "Aliases": [
+                "siren"
+            ],
+            "ShortDesc": "the Siren",
+            "LongDesc": "The Siren stands here, singing her sweet song.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a beautiful woman standing on this small island, humming a slow\r\r\r\r\r\r\r\r\n\rmelody to herself.  As you look closer, you find yourself captivated by\r\r\r\r\r\r\r\r\n\rher beautiful eyes, and as she starts singing, you find yourself closer\r\r\r\r\r\r\r\r\n\rand closer to falling for the woman's charms...\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "CHARM"
+            ],
+            "Alignment": 0,
+            "Level": 9,
+            "THAC0": 5,
+            "AC": 2,
+            "HP": "2d10+200",
+            "Damage": "1d8+2",
+            "Gold": 5000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3824,
+            "Aliases": [
+                "goblin"
+            ],
+            "ShortDesc": "a goblin",
+            "LongDesc": "A goblin stands here, looking at you with evil intent.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "It's a vicious looking goblin with sharp teeth and sharp claws.  You wonder\r\r\r\r\r\r\r\r\n\rwhat it's thinking as it looks at you, drooling ichor onto the grass.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 3,
+            "THAC0": 2,
+            "AC": 5,
+            "HP": "10d10+10",
+            "Damage": "1d4+1",
+            "Gold": 100,
+            "XP": 9000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3825,
+            "Aliases": [
+                "hobgoblin",
+                "goblin"
+            ],
+            "ShortDesc": "a hobgoblin",
+            "LongDesc": "You see a hobgoblin here, grinning at you visciously.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a nasty looking creature which eyes you hungrily.  It slowly circles\r\r\r\r\r\r\r\r\n\raround you as if sizing you up and looks like it could easily rip apart a\r\r\r\r\r\r\r\r\n\rnormal human being in a matter of seconds.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 5,
+            "HP": "12d10+30",
+            "Damage": "1d4+2",
+            "Gold": 150,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3826,
+            "Aliases": [
+                "orc"
+            ],
+            "ShortDesc": "an orc",
+            "LongDesc": "A disgusting orc stands here, looking at your weapon greedily.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "An orc stands before you, obviously wanting to kill you for your weapon.  \r\r\r\r\r\r\r\r\n\rYou wonder if you should put this creature in its place and be done with\r\r\r\r\r\r\r\r\n\rit. ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 2,
+            "THAC0": 1,
+            "AC": 7,
+            "HP": "9d10+10",
+            "Damage": "1d5+0",
+            "Gold": 100,
+            "XP": 8000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3827,
+            "Aliases": [
+                "gargoyle"
+            ],
+            "ShortDesc": "a gargoyle",
+            "LongDesc": "A stone gargoyle sits here, pondering an unknown question.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large creature which is known as a gargoyle.  They are generally\r\r\r\r\r\r\r\r\n\rquiet creatures that usually do not bother anyone.  They have even been used\r\r\r\r\r\r\r\r\n\ras the embodiment of protection for castles.  You think you'd best leave \r\r\r\r\r\r\r\r\n\rthis one alone.  ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 4,
+            "HP": "8d15+10",
+            "Damage": "1d6+0",
+            "Gold": 2000,
+            "XP": 9000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3828,
+            "Aliases": [
+                "dwarf",
+                "dark"
+            ],
+            "ShortDesc": "a dark dwarf",
+            "LongDesc": "A dark dwarf stands here, seeking his fortune.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a dwarf dressed in dark clothing.  You realize that this is not an\r\r\r\r\r\r\r\r\n\rordinary dwarf, who are generally polite and kind, though sometimes gruff.\r\r\r\r\r\r\r\r\n\rThis one only has greed in his eyes, and looks like he'd kill you just for\r\r\r\r\r\r\r\r\n\rone gold piece.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "6d10+20",
+            "Damage": "1d4+1",
+            "Gold": 300,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3829,
+            "Aliases": [
+                "elf",
+                "dark"
+            ],
+            "ShortDesc": "a dark elf",
+            "LongDesc": "A dark elf stands here, hiding in the shadows.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a dark elf who stands there, unseen in the shadows of the forest.\r\r\r\r\r\r\r\r\n\rHe looks at you with a menacing sneer on his face and looks pretty mean.\r\r\r\r\r\r\r\r\n\rYou wonder if you should move on before he does something drastic.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -750,
+            "Level": 4,
+            "THAC0": 3,
+            "AC": 3,
+            "HP": "12d10+30",
+            "Damage": "1d6+1",
+            "Gold": 2000,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3830,
+            "Aliases": [
+                "beetle",
+                "earth",
+                "giant"
+            ],
+            "ShortDesc": "a giant earth beetle",
+            "LongDesc": "A giant earth beetle sleeps here.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a giant earth beetle that looks about the size of a large ox.  You\r\r\r\r\r\r\r\r\n\rwonder if it is wise to disturb its slumber. \r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "7d10+20",
+            "Damage": "1d3+1",
+            "Gold": 100,
+            "XP": 5000,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3831,
+            "Aliases": [
+                "lich",
+                "undead",
+                "corpse"
+            ],
+            "ShortDesc": "a lich",
+            "LongDesc": "A fearsome lich looks at you with comtempt.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This creature of the undead does not appreciate you intrusion upon his\r\r\r\r\r\r\r\r\n\rdomain. His hollow sockets glow with pinpoints of eerie red light. \r\r\r\r\r\r\r\r\n\rHaving seen untold horrors of many centuries of undead life, his half-\r\r\r\r\r\r\r\r\n\rrotted skull contorts in a sneer, no longer knowing the light of the\r\r\r\r\r\r\r\r\n\rliving. As you look his way, he raises a skeletal finger in the air\r\r\r\r\r\r\r\r\n\rcalling down the power of the princes of Satan upon you.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 12,
+            "THAC0": 11,
+            "AC": -2,
+            "HP": "10d2+300",
+            "Damage": "1d4+3",
+            "Gold": 10000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3832,
+            "Aliases": [
+                "Igarashi",
+                "Miya"
+            ],
+            "ShortDesc": "Miya Igarashi",
+            "LongDesc": "Igarashi stands around holding a bike chain in her hand.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Igarashi, like Kazuya, had somehow ended up wondering into Devil's Wood.\r\r\r\r\r\r\r\r\n\rNot being very used to knights, monsters, and queens, she holds her\r\r\r\r\r\r\r\r\n\rbike chain warily, preparing to strike anything that may strike her back.\r\r\r\r\r\r\r\r\n\rShe has long blue hair and honey eyes. She wears her school jacket and\r\r\r\r\r\r\r\r\n\ra pair of blue jeans and a scarf. As you see her take a battle stance,\r\r\r\r\r\r\r\r\n\ryou see a hint of worry under that tough exterior of hers.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": 700,
+            "Level": 12,
+            "THAC0": 6,
+            "AC": 1,
+            "HP": "1d4+300",
+            "Damage": "1d4+6",
+            "Gold": 250,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3833,
+            "Aliases": [
+                "Kazuya",
+                "Hasukawa",
+                "suka",
+                "suka-chan",
+                "ya",
+                "ya-kun"
+            ],
+            "ShortDesc": "Kazuya Hasukawa",
+            "LongDesc": "Kazuya is here with a cloud of misfortune over his head.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This poor, unfortunate boy had the ill luck to fall in love with a girl who\r\r\r\r\r\r\r\r\n\rended up marrying his gay brother. Here he stands around with a lost look\r\r\r\r\r\r\r\r\n\rin his eyes, wondering how in the world he ended up in Devil's Wood (must\r\r\r\r\r\r\r\r\n\rbe his cosmic misfortune! ^_^ Here he is seen wearing his school uniform and\r\r\r\r\r\r\r\r\n\rcarrying around a brief case with yesterday's homework. His red hair is\r\r\r\r\r\r\r\r\n\rtossled about by the wind. What capture you as you look at him are his \r\r\r\r\r\r\r\r\n\rfuull, red eyes. They gleam with a pureness and gentleness that only a boy\r\r\r\r\r\r\r\r\n\rhis age could have.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 12,
+            "THAC0": 6,
+            "AC": 1,
+            "HP": "1d4+300",
+            "Damage": "1d4+6",
+            "Gold": 3000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3834,
+            "Aliases": [
+                "Mitsuru",
+                "Ikeda",
+                "sempai"
+            ],
+            "ShortDesc": "Mitsuru Ikeda",
+            "LongDesc": "Mitsuru stands here, trying to hide from all the ghosts chasing him.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a handsome, young man standing here, breathing heavily.  His dusty\r\r\r\r\r\r\r\r\n\rblonde hair and violet eyes draw you to him.  Noticing your curious look,\r\r\r\r\r\r\r\r\n\rhe smiles broadly at you, greeting you with a curt handshake, and introduces\r\r\r\r\r\r\r\r\n\rhimself as Ikeda Mitsuru, the sempai (upperclassman) of Ryoukurin Ryou \r\r\r\r\r\r\r\r\n\rdorm (Or as the locals like to call it, Greenwood).  He is an amiable\r\r\r\r\r\r\r\r\n\rperson and you don't think you'd like to mess with him.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 12,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "1d4+300",
+            "Damage": "1d4+6",
+            "Gold": 2000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3835,
+            "Aliases": [
+                "Shinobu",
+                "Tezuka",
+                "man"
+            ],
+            "ShortDesc": "Shinobu Tezuka",
+            "LongDesc": "Shinobu is sitting here, meditating upon some great secret.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a young man sitting on the ground here, deep in thought.  He senses\r\r\r\r\r\r\r\r\n\ryour questioning look and looks at you with a smile, introducing himself as\r\r\r\r\r\r\r\r\n\rTezuka Shinobu.  You find his face quite handsome, and his dark hair is\r\r\r\r\r\r\r\r\n\rcolored with a strange deep purple tint.  You nod to him and go merrily on\r\r\r\r\r\r\r\r\n\ryour way, not wanting to bother this young, thoughtful, yet somehow powerful\r\r\r\r\r\r\r\r\n\rman with your troubles.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 12,
+            "THAC0": 4,
+            "AC": 4,
+            "HP": "1d4+300",
+            "Damage": "1d4+3",
+            "Gold": 300,
+            "XP": 8000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3836,
+            "Aliases": [
+                "Shun",
+                "Kisaragi",
+                "man",
+                "woman"
+            ],
+            "ShortDesc": "Shun Kisaragi",
+            "LongDesc": "Shun is standing here, looking around with wide-eyed wonder.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see what appears to be a young woman standing here, looking around in\r\r\r\r\r\r\r\r\n\rawe. She notices your strange look and smiles at you amiably.  You are\r\r\r\r\r\r\r\r\n\rpleasantly surprised at her honest beauty and her long, lavender locks \r\r\r\r\r\r\r\r\n\rcapture your attention.  She introduces herself as Kisaragi Shun, and runs\r\r\r\r\r\r\r\r\n\roff somewhere else.  You find yourself wondering about this wonderful\r\r\r\r\r\r\r\r\n\rperson, thinking something is peculiar with her...\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 12,
+            "THAC0": 4,
+            "AC": 5,
+            "HP": "1d4+300",
+            "Damage": "1d4+1",
+            "Gold": 200,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3837,
+            "Aliases": [
+                "Tochizawa",
+                "student"
+            ],
+            "ShortDesc": "Tochizawa",
+            "LongDesc": "Tochizawa stands here, directing his film.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a young man with dirty blonde hair and glasses.  He is standing\r\r\r\r\r\r\r\r\n\rhere, furiously directing his film, telling the cast members what they\r\r\r\r\r\r\r\r\n\rshould do and where everything should go.  You can feel the burning fires\r\r\r\r\r\r\r\r\n\rof inspiration in this young man.  Looking at him, you wonder what kind\r\r\r\r\r\r\r\r\n\rof strange land you have walked into.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 12,
+            "THAC0": 4,
+            "AC": 2,
+            "HP": "1d4+300",
+            "Damage": "1d4+4",
+            "Gold": 1000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3838,
+            "Aliases": [
+                "Doctor",
+                "dr.",
+                "hasukawa",
+                "kazuhiro"
+            ],
+            "ShortDesc": "Kazuhiro Hasukawa",
+            "LongDesc": "Dr. Hasukawa is here, checking up on patients.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Kazuhiro is the older brother of Kazuya Hasukawa. Very intelligent-\r\r\r\r\r\r\r\r\n\rlooking upon first glance, his eyes seem to tell you that he knows \r\r\r\r\r\r\r\r\n\rsomething that you don't. Short brown hair frames his almost pale face.\r\r\r\r\r\r\r\r\n\rHe pushes his glasses up on his nose and looks your way with an\r\r\r\r\r\r\r\r\n\racknowledging look.",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 12,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "1d4+300",
+            "Damage": "1d4+2",
+            "Gold": 2000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3839,
+            "Aliases": [
+                "Sumire",
+                "Hasukawa",
+                "Kitani"
+            ],
+            "ShortDesc": "Sumire Hasukawa",
+            "LongDesc": "Sumire strolls here, on her way to visit her little brother, Kazuya.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a lovely woman with dark lavender hair and eyes.  Her smile seems\r\r\r\r\r\r\r\r\n\rto brighten the day and her voice melts your heart.  She notices your \r\r\r\r\r\r\r\r\n\rstaring gaze, and introduces herself as Hasukawa Sumire, although she\r\r\r\r\r\r\r\r\n\rstumbles a bit as she says the word Hasukawa.  You gather from the ring on\r\r\r\r\r\r\r\r\n\rher finger that she is a newlywed.  She blushes at your perceptiveness and\r\r\r\r\r\r\r\r\n\rnods in the affirmative.  She tells you that her maiden name is Kitani,\r\r\r\r\r\r\r\r\n\rbut she was just married recently, and now, she is en route to visiting her\r\r\r\r\r\r\r\r\n\rnew brother-in-law, Kazuya.  ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 12,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "1d4+300",
+            "Damage": "1d4+2",
+            "Gold": 2000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3840,
+            "Aliases": [
+                "Furusawa",
+                "sempai",
+                "man"
+            ],
+            "ShortDesc": "Furusawa",
+            "LongDesc": "Furusawa stands here, carrying his motorcycle around.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a handsome man, standing at an intimidating height, and build like\r\r\r\r\r\r\r\r\n\ra brick.  He has brown hair which is slicked back, except for a single \r\r\r\r\r\r\r\r\n\relusive lock which falls lightly on his forehead.  Seeing your curious\r\r\r\r\r\r\r\r\n\rlooks, he introduces himself as Furusawa, one of the sempai at the Ryokurin\r\r\r\r\r\r\r\r\n\rRyou dorm, otherwise known as Greenwood.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 12,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "1d4+300",
+            "Damage": "1d4+2",
+            "Gold": 2000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3841,
+            "Aliases": [
+                "man",
+                "young",
+                "device",
+                "Aoki",
+                "Kunihisa"
+            ],
+            "ShortDesc": "Kunihisa Aoki",
+            "LongDesc": "You see a young man here, looking furiously at a strange device.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a young man here, working at a strange looking device.  His wide\r\r\r\r\r\r\r\r\n\reyes are concentrated upon the light which eminates from the magical\r\r\r\r\r\r\r\r\n\rdevice which he carries.  Noticing your questioning gaze, he looks up\r\r\r\r\r\r\r\r\n\rfrom his device and says, \"Hi, I'm Aoki Kunihisa, how do you do?\"  He\r\r\r\r\r\r\r\r\n\rexplains that he is working on the computer graphics for the Devil's Wood\r\r\r\r\r\r\r\r\n\rmovie. You look at him dubiously and decide to avoid this obviously\r\r\r\r\r\r\r\r\n\rinsane person.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 12,
+            "THAC0": 5,
+            "AC": 6,
+            "HP": "1d4+300",
+            "Damage": "1d4+2",
+            "Gold": 2000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3842,
+            "Aliases": [
+                "man",
+                "young",
+                "device",
+                "Aoki",
+                "Kunihisa"
+            ],
+            "ShortDesc": "Hideya Sakaguchi",
+            "LongDesc": "You see a young man here, looking furiously at a strange device.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a young man here, working at a strange looking device.  His wide\r\r\r\r\r\r\r\r\n\reyes are concentrated upon the light which eminates from the magical\r\r\r\r\r\r\r\r\n\rdevice which he carries.  Noticing your gaze, he looks up at you and smiles,\r\r\r\r\r\r\r\r\n\rsaying, \"Good day, I'm Sakaguchi Hideya, what can I do for you?\"  He\r\r\r\r\r\r\r\r\n\rexplains that he is working on the special effects for the Devil's Wood\r\r\r\r\r\r\r\r\n\rmovie. You look at him dubiously and decide to avoid this obviously\r\r\r\r\r\r\r\r\n\rinsane person.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 12,
+            "THAC0": 5,
+            "AC": 6,
+            "HP": "1d4+300",
+            "Damage": "1d4+2",
+            "Gold": 2000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3843,
+            "Aliases": [
+                "man",
+                "young",
+                "short",
+                "hair",
+                "effeminate",
+                "gay"
+            ],
+            "ShortDesc": "Yoshiki Watanabe",
+            "LongDesc": "You see a young man here, strolling along happily.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a young man here, with short hair and effeminate features.  He\r\r\r\r\r\r\r\r\n\rwalks with an air of lightness and for some reason, you are a bit fearful\r\r\r\r\r\r\r\r\n\rof walking near him.  He smiles at you and says, \"Hi, I'm Watanabe\r\r\r\r\r\r\r\r\n\rYoshiki, pleased to meet you.\"  You nod in his direction and walk away.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 12,
+            "THAC0": 5,
+            "AC": 6,
+            "HP": "1d4+300",
+            "Damage": "1d4+2",
+            "Gold": 2000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3844,
+            "Aliases": [
+                "man",
+                "young",
+                "short",
+                "hair",
+                "effeminate",
+                "gay"
+            ],
+            "ShortDesc": "Tatsura Fujikake",
+            "LongDesc": "You see a young man here, strolling along happily.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a young man here, with short hair and effeminate features.  He\r\r\r\r\r\r\r\r\n\rwalks with an air of lightness and for some reason, you are a bit fearful\r\r\r\r\r\r\r\r\n\rof going to close to him.  He smiles at a distance and says, \"Hi, I'm\r\r\r\r\r\r\r\r\n\rFujikake Tatsura, what's your name?\"  You smile warily at him and state\r\r\r\r\r\r\r\r\n\ryour name politely, and excuse yourself to an imaginary previous\r\r\r\r\r\r\r\r\n\rengagement. ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 12,
+            "THAC0": 5,
+            "AC": 6,
+            "HP": "1d4+300",
+            "Damage": "1d4+2",
+            "Gold": 2000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3845,
+            "Aliases": [
+                "Nagisa",
+                "Tezuka",
+                "woman",
+                "beautiful"
+            ],
+            "ShortDesc": "Nagisa Tezuka",
+            "LongDesc": "You see a beautiful woman here, looking around furiously.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a beautiful woman here, looking around furiously for something.\r\r\r\r\r\r\r\r\n\rShe has dark hair, and eyes, and wears some light make-up.  Her dark\r\r\r\r\r\r\r\r\n\rclothes pique your interest, and her perfume is somewhat oily.  As she\r\r\r\r\r\r\r\r\n\rnotices your gaze, she looks at you with hard eyes and says, \"Where the\r\r\r\r\r\r\r\r\n\rhell is Shinobu?!?!\"  You look at her quizzically and one of her\r\r\r\r\r\r\r\r\n\rbodyguards whispers to you, \"That's Tezuka Nagisa, you'd better not mess\r\r\r\r\r\r\r\r\n\rwith her if you know what's good for you.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 12,
+            "THAC0": 3,
+            "AC": 7,
+            "HP": "1d4+300",
+            "Damage": "1d4+2",
+            "Gold": 1000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3846,
+            "Aliases": [
+                "A",
+                "man",
+                "suit"
+            ],
+            "ShortDesc": "a",
+            "LongDesc": "You see a tall, lanky man with dark glasses and a suit.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a tall, lanky man here, with slicked-back hair, a thin mustache,\r\r\r\r\r\r\r\r\n\rand a pair of dark sunglasses.  He is wearing a very nice suit, and looks\r\r\r\r\r\r\r\r\n\rat you with contempt.  you look carefully at him and notice his very\r\r\r\r\r\r\r\r\n\rprotective stance near the beautiful woman who also stands here.  As you\r\r\r\r\r\r\r\r\n\rwalk by them, you hear the woman say, \"A, we need to do something about\r\r\r\r\r\r\r\r\n\rmy evil brother!\"  ",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 4,
+            "AC": 9,
+            "HP": "1d4+300",
+            "Damage": "1d4+2",
+            "Gold": 100,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3847,
+            "Aliases": [
+                "A",
+                "man",
+                "dark",
+                "glasses"
+            ],
+            "ShortDesc": "B",
+            "LongDesc": "You see a large, muscular man with dark glasses and a suit.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large, burly man here, with slicked back hair, and very dark\r\r\r\r\r\r\r\r\n\rsunglasses.  He is wearing a very nice suit, and looks at you with a sneer.\r\r\r\r\r\r\r\r\n\rYOu look carefully at him and notice his very protective stance near the\r\r\r\r\r\r\r\r\n\rbeautiful woman who is also here.  As you walk by them, you hear the\r\r\r\r\r\r\r\r\n\rwoman say, \"B! How could you let my brother's wimpy roommate beat you up!?\"\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 4,
+            "AC": 9,
+            "HP": "1d4+300",
+            "Damage": "1d4+2",
+            "Gold": 100,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3848,
+            "Aliases": [
+                "A",
+                "man",
+                "dark",
+                "glasses"
+            ],
+            "ShortDesc": "C",
+            "LongDesc": "You see a normal looking man here, with dark glasses and a suit.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a relatively normal looking, young man here.  He has dusty blonde\r\r\r\r\r\r\r\r\n\rhair and dark glasses which hide his eyes.  He is wearing a very expensive\r\r\r\r\r\r\r\r\n\rsuit and you look at him with a questioning look.  He notices your look\r\r\r\r\r\r\r\r\n\rand says to you, \"It's not bad being a bodyguard, the pay is very good.\" \r\r\r\r\r\r\r\r\n\rYou then notices his protective stance near the beautiful woman who is\r\r\r\r\r\r\r\r\n\ralso standing here, as you walk past them, you hear her say, \"C!  How could\r\r\r\r\r\r\r\r\n\ryou go out and buy cake while I my evil brother came over and harrassed me?\"\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 4,
+            "AC": 9,
+            "HP": "1d4+300",
+            "Damage": "1d4+2",
+            "Gold": 100,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3849,
+            "Aliases": [
+                "A",
+                "man",
+                "dark",
+                "glasses"
+            ],
+            "ShortDesc": "D",
+            "LongDesc": "You see a short, chubby man here, with dark glasses and a suit.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a short, chubby young man with brown hair and dark glasses.  He\r\r\r\r\r\r\r\r\n\ris wearing a very expensive suit and you wonder what he is doing.  He\r\r\r\r\r\r\r\r\n\rgives you a curt smile, and you notice his defensive stance near the\r\r\r\r\r\r\r\r\n\rbeautiful woman who is also standing here.  As you pass them by, you hear\r\r\r\r\r\r\r\r\n\rthe woman say, \"D!  You miserable excuse for a bodyguard, what do you\r\r\r\r\r\r\r\r\n\rthink you were doing when my brother was here?\"\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 4,
+            "AC": 9,
+            "HP": "1d4+300",
+            "Damage": "1d4+2",
+            "Gold": 100,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3850,
+            "Aliases": [
+                "cockroach",
+                "bug",
+                "giant"
+            ],
+            "ShortDesc": "a giant cockroach",
+            "LongDesc": "You see a giant cockroach crawling around here.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Ewww, it's a humungous cockroach!  You wonder if it's possible to kill this\r\r\r\r\r\r\r\r\n\rthing given it's enormous size.  ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d6+8",
+            "Damage": "1d2+0",
+            "Gold": 0,
+            "XP": 15,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3851,
+            "Aliases": [
+                "rat",
+                "giant"
+            ],
+            "ShortDesc": "a giant rat",
+            "LongDesc": "A giant rat looks for scraps of food here.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a giant rat here, rooting through the trash on the floor, looking\r\r\r\r\r\r\r\r\n\rfor something to eat.  You look at it with pity, and wonder if you should\r\r\r\r\r\r\r\r\n\rput it out of its misery.  ",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d4+2",
+            "Damage": "1d2+0",
+            "Gold": 0,
+            "XP": 20,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3852,
+            "Aliases": [
+                "cobra",
+                "snake"
+            ],
+            "ShortDesc": "a cobra",
+            "LongDesc": "A cobra slithers nearby, looking for a victim.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a cobra slithering nearby, and think you should stay away from\r\r\r\r\r\r\r\r\n\rits poisonous bite.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 10,
+            "HP": "1d10+10",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 30,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3853,
+            "Aliases": [
+                "boa",
+                "constrictor",
+                "snake"
+            ],
+            "ShortDesc": "a boa constrictor",
+            "LongDesc": "A boa constrictor slithers here, waiting to crush its victims.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a long snake, and its body is think and strong.  You'd think you'd\r\r\r\r\r\r\r\r\n\rkeep your distance from this snake...\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "1d12+20",
+            "Damage": "1d4+1",
+            "Gold": 0,
+            "XP": 50,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3854,
+            "Aliases": [
+                "coyote",
+                "wild"
+            ],
+            "ShortDesc": "a wild coyote",
+            "LongDesc": "A coyote is here, looking at you with an evil gleam in its eye.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a coyote lurking about, and its eyes gleam with an evil light,\r\r\r\r\r\r\r\r\n\rlooking at you as it drools hungrily.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 2,
+            "AC": 9,
+            "HP": "4d8+20",
+            "Damage": "1d4+2",
+            "Gold": 0,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3855,
+            "Aliases": [
+                "hyena",
+                "laughing"
+            ],
+            "ShortDesc": "a laughing hyena",
+            "LongDesc": "A hyena stalks here, laughing at you.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a laughing hyena here.  Its grin strikes fear in your heart and\r\r\r\r\r\r\r\r\n\ryou think you'd better move out of here soon.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "3d10+10",
+            "Damage": "1d4+1",
+            "Gold": 0,
+            "XP": 75,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3856,
+            "Aliases": [
+                "cow",
+                "milk",
+                "graze",
+                "grazing"
+            ],
+            "ShortDesc": "a cow",
+            "LongDesc": "A cow stands here, grazing on the grass.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large cow here, grazing on the grass, and minding its own \r\r\r\r\r\r\r\r\n\rbusiness.  You think you'd better leave it be and let it go on with\r\r\r\r\r\r\r\r\n\rits life.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d10+2",
+            "Damage": "1d2+0",
+            "Gold": 0,
+            "XP": 10,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3857,
+            "Aliases": [
+                "ant",
+                "giant"
+            ],
+            "ShortDesc": "a giant ant",
+            "LongDesc": "You see a giant ant crawling along the ground here.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a giant ant here.  It crawls along the ground quickly and seems\r\r\r\r\r\r\r\r\n\rto be looking for something to eat.  You think that you'd better keep\r\r\r\r\r\r\r\r\n\raway from it.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d4+0",
+            "Damage": "1d2+0",
+            "Gold": 0,
+            "XP": 30,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3858,
+            "Aliases": [
+                "beggar",
+                "wondering",
+                "poor",
+                "man"
+            ],
+            "ShortDesc": "a beggar",
+            "LongDesc": "A poor beggar wanders here, looking for something to eat.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a poor beggar here, looking for something to eat.  He looks at you\r\r\r\r\r\r\r\r\n\rwith a pleading look at sticks an open hand at you.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d8+5",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 50,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3859,
+            "Aliases": [
+                "ogre",
+                "giant"
+            ],
+            "ShortDesc": "an ogre",
+            "LongDesc": "You see a giant ogre here, stomping around the forest.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a giant ogre here.  He looks mean and nasty, and smells as if he \r\r\r\r\r\r\r\r\n\rhasn't been washed in years.  You think you'd better stay clear of him if\r\r\r\r\r\r\r\r\n\ryou don't want to gag on your own vomit.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 8,
+            "HP": "10d4+100",
+            "Damage": "1d4+6",
+            "Gold": 300,
+            "XP": 8000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3860,
+            "Aliases": [
+                "minotaur",
+                "large"
+            ],
+            "ShortDesc": "a minotaur",
+            "LongDesc": "You see a large minotaur here, snorting angrily\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large minotaur here, snorting at you.  He looks very big and you\r\r\r\r\r\r\r\r\n\rdon't think you can take him.  You wonder what he is doing in this part of\r\r\r\r\r\r\r\r\n\rthe woods....\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 14,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "1d4+400",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3861,
+            "Aliases": [
+                "elemental",
+                "spirit",
+                "water",
+                "Udine"
+            ],
+            "ShortDesc": "Udine",
+            "LongDesc": "You see a water elemental here, splashing around happily.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a small spirit floating around in the water happily.  She smiles\r\r\r\r\r\r\r\r\n\rat you and splashes water at you playfully.  She winks at you and says,\r\r\r\r\r\r\r\r\n\rHi, I'm Udine, the water elemental, how do you do?\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "15d10+400",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3862,
+            "Aliases": [
+                "Ifrit",
+                "fire",
+                "elemental",
+                "spirit"
+            ],
+            "ShortDesc": "Ifrit",
+            "LongDesc": "You see a fire elemental burn here, smiling at you with a sly grin.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You find yourself looking into the bright, red eyes of a fire elemental.\r\r\r\r\r\r\r\r\n\rIt smiles at you with a mischievous grin and winks.  He looks very strong,\r\r\r\r\r\r\r\r\n\rand you doubt you could take him in a fair fight.  He dances around you\r\r\r\r\r\r\r\r\n\rand says, \"Heya!  I'm Ifrit!  How do you do?\"\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "15d10+400",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3863,
+            "Aliases": [
+                "Sylph",
+                "elemental",
+                "wind",
+                "spirit"
+            ],
+            "ShortDesc": "Sylph",
+            "LongDesc": "You see a wind elemental here, dancing happily in the fog.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a pretty, wind elememtal here, dancing in the thick fog which covers\r\r\r\r\r\r\r\r\n\rthis area.  She smiles at you happily and dances around you, patting you on\r\r\r\r\r\r\r\r\n\rthe head.  She says, \"Hi, I'm Sylph.  Can I help you with anything?\"\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 8,
+            "AC": 6,
+            "HP": "15d10+400",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3864,
+            "Aliases": [
+                "Gaia",
+                "earth",
+                "elemental"
+            ],
+            "ShortDesc": "Gaia",
+            "LongDesc": "You see an earth elemental here, tending her plants.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a beautiful earth elemental here.  She is watering her plants as\r\r\r\r\r\r\r\r\n\ryou walk in and she smiles at you.  \"I don't get many visitors here in \r\r\r\r\r\r\r\r\n\rthis old castle.  Is there anything I can do for you?  I'm Gaia, the one\r\r\r\r\r\r\r\r\n\rin charge of the flow of this sandfall.\"\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 8,
+            "AC": 5,
+            "HP": "15d10+400",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3865,
+            "Aliases": [
+                "Lucid",
+                "sun",
+                "elemental"
+            ],
+            "ShortDesc": "Lucid",
+            "LongDesc": "You see a sun elemental here, basking in the warm sunlight.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a small creature which seems to be a sun elemental.  He is here\r\r\r\r\r\r\r\r\n\rlaying down on his back and enjoying a sunbath.  He notices your presence\r\r\r\r\r\r\r\r\n\rand smiles at you, \"Hi, I'm Lucid.  Would you care to join me in a nice\r\r\r\r\r\r\r\r\n\rsunbath?  The weather's really nice today.\"  You smile in his direction\r\r\r\r\r\r\r\r\n\rwhich gets you a warm smile in return.  The sun elemental sleepily shuts\r\r\r\r\r\r\r\r\n\rhis eyes and relaxes.  ",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 8,
+            "AC": 5,
+            "HP": "15d10+400",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3866,
+            "Aliases": [
+                "Luna",
+                "moon",
+                "elemental"
+            ],
+            "ShortDesc": "Luna",
+            "LongDesc": "You see a moon elemental here, basking in the cool moonlight.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a small creature which seems to be a moon elemental.  She is here\r\r\r\r\r\r\r\r\n\rlaying down on her back and enjoying a moonbath.  She notices your presence\r\r\r\r\r\r\r\r\n\rand smiles at you, \"Hi, I'm Luna.  Would you care to join me in a nice \r\r\r\r\r\r\r\r\n\rmoonbath?  The night's really nice today and I wouldn't mind some company.\"\r\r\r\r\r\r\r\r\n\rYou smile in her direction, which gets you a cool smile in return.  The\r\r\r\r\r\r\r\r\n\rmoon elemental shuts her eyes sleepily and is soon in a restful sleep.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 8,
+            "AC": 5,
+            "HP": "15d10+400",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3867,
+            "Aliases": [
+                "Gallowin",
+                "water",
+                "dragon",
+                "blue"
+            ],
+            "ShortDesc": "Gallowin",
+            "LongDesc": "A humungous blue dragon sits here, guarding her treasure.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large dragon here, it has bluish scales and looks at you with\r\r\r\r\r\r\r\r\n\ra suspicious look.  You guess it must be a pet of some sort, by the looks\r\r\r\r\r\r\r\r\n\rof it, since it is chained to the wall and has a collar around it with the\r\r\r\r\r\r\r\r\n\rwords, \"Gallowin of the water\" on it.  Upon closer inspection you can see\r\r\r\r\r\r\r\r\n\ra chest chained to it, and you wonder what could be inside it.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 17,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "10d15+200",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3868,
+            "Aliases": [
+                "Bryst",
+                "fire",
+                "dragon",
+                "red"
+            ],
+            "ShortDesc": "Bryst",
+            "LongDesc": "A humungous red dragon sits here, guarding her treasure.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large dragon here, it has reddish scales and looks at you with\r\r\r\r\r\r\r\r\n\ra suspicious look.  You guess it must be a pet of some sort, by the looks\r\r\r\r\r\r\r\r\n\rof it, since it is chained to the wall and has a collar around it with the\r\r\r\r\r\r\r\r\n\rwords, \"Bryst of the fire\" on it.  Upon closer inspection, you can see a \r\r\r\r\r\r\r\r\n\rchest chained to it, and you wonder what could be inside it.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 17,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "10d15+200",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3869,
+            "Aliases": [
+                "Lanstar",
+                "wind",
+                "dragon",
+                "white"
+            ],
+            "ShortDesc": "Lanstar",
+            "LongDesc": "A humungous white dragon sits here, guarding his treasure.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large dragon here, with white scales.  It looks at you suspiciously\r\r\r\r\r\r\r\r\n\ras you wonder around the room.  You guess it must be a pet of some sort, since\r\r\r\r\r\r\r\r\n\rit is chained to the wall, and has a collar around it, with the words, \r\r\r\r\r\r\r\r\n\r\"Lanstar of the wind\" written on it.  Upon closer inspection, you can see\r\r\r\r\r\r\r\r\n\ra chest chained to it, and you wonder what could be inside it.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 17,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "10d15+200",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3870,
+            "Aliases": [
+                "Dinodilos",
+                "rock",
+                "dragon",
+                "black"
+            ],
+            "ShortDesc": "Dinodilos",
+            "LongDesc": "A humungous black dragon sits here, guarding her treasure.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large dragon here, with black scales.  It looks at you suspiciously\r\r\r\r\r\r\r\r\n\ras you wander about the room.  You guess it must be a pet of some sort, since\r\r\r\r\r\r\r\r\n\rit is chained to the wall, and has a collar around it.  Looking closely, you\r\r\r\r\r\r\r\r\n\rsee the words, \"Dinodilos of the rock\" written upon the collar.  You see a\r\r\r\r\r\r\r\r\n\rchest held against the dragon's breast, as you look on in awe.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 17,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "10d15+200",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3871,
+            "Aliases": [
+                "Burstone",
+                "mountain",
+                "dragon",
+                "grey"
+            ],
+            "ShortDesc": "Burstone",
+            "LongDesc": "A humungous grey dragon sits here, guarding his treasure.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large dragon here, with grey scales.  It looks at you suspiciously\r\r\r\r\r\r\r\r\n\ras you wander about the room.  You guess it must be a pet of some sort, since\r\r\r\r\r\r\r\r\n\rit is chained to the wall, and has a collar around it.  Looking closely, you\r\r\r\r\r\r\r\r\n\rsee the words, \"Burstone of the mountain\" written upon the collar.  You see a\r\r\r\r\r\r\r\r\n\rchest held against the dragon's breast, as you look on in awe.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 17,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "10d15+200",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3872,
+            "Aliases": [
+                "Rose",
+                "c'est",
+                "la",
+                "vie",
+                "moon",
+                "dragon",
+                "silver"
+            ],
+            "ShortDesc": "Rose c'est la vie",
+            "LongDesc": "A humungous silver dragon sits here, guarding his treasure.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large dragon here, with silver scales.  It looks at you with\r\r\r\r\r\r\r\r\n\rgreat suspicion as you wander about the room.  You guess it must be a pet\r\r\r\r\r\r\r\r\n\rof some sort, judging from the chains which bind it to the wall.  Looking\r\r\r\r\r\r\r\r\n\rclosely, you see the words, \"Rose c'est la vie of the moon\" written upon its\r\r\r\r\r\r\r\r\n\rcollar.  You see a chest which the dragon hold close to it as well...\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 17,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "10d15+200",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3873,
+            "Aliases": [
+                "Omzack",
+                "thunder",
+                "dragon",
+                "gold"
+            ],
+            "ShortDesc": "Omzack",
+            "LongDesc": "A humungous gold dragon sits here, guarding his treasure.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large dragon here, with golden scales.  It looks at you suspiciously\r\r\r\r\r\r\r\r\n\ras you wander about the room.  You guess it must be a pet of some sort, as\r\r\r\r\r\r\r\r\n\ryou can see a collar around it's neck, which reads, \"Omzack of the thunder\".\r\r\r\r\r\r\r\r\n\rIt holds a chest close to it.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 17,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "10d15+200",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3874,
+            "Aliases": [
+                "Zeorymer",
+                "heavens",
+                "dragon",
+                "white",
+                "blue"
+            ],
+            "ShortDesc": "Zeorymer",
+            "LongDesc": "A humungous white and blue dragons sits here, guarding its treasure.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a large dragon here, with white and blue scales.  It looks at you\r\r\r\r\r\r\r\r\n\rsuspiciously as you wander about.  You guess it must be a pet of some sort\r\r\r\r\r\r\r\r\n\rsince you see a collar around it which reads, \"Zeorymer of the heavens\".\r\r\r\r\r\r\r\r\n\rYou see it holding a chest close to it, protecting some sort of precious\r\r\r\r\r\r\r\r\n\rtreasure.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 17,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "10d15+200",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3875,
+            "Aliases": [
+                "clorets",
+                "demon",
+                "lord",
+                "demonlordclorets"
+            ],
+            "ShortDesc": "Demon Lord Clorets",
+            "LongDesc": "You see the demon lord standing before you, grinning evilly.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a tall man, with long, lavendar hair.  He gives you a malicious smile\r\r\r\r\r\r\r\r\n\rand says, \"So, you're the adventurers who have come on behalf of the King.\r\r\r\r\r\r\r\r\n\rWell, since you have made it this far, I will tell you what I am doing.\r\r\r\r\r\r\r\r\n\rLook around you.  These are the sands of time.  There is a spell that will\r\r\r\r\r\r\r\r\n\rmake me master of all time, and one of the components is a newborn child born\r\r\r\r\r\r\r\r\n\ron the night of the full moon.  I won't allow anyone to stand in my way!\"\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 16,
+            "THAC0": 10,
+            "AC": 1,
+            "HP": "1d4+400",
+            "Damage": "1d4+10",
+            "Gold": 10000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3876,
+            "Aliases": [
+                "ghoul"
+            ],
+            "ShortDesc": "a ghoul",
+            "LongDesc": "A ghoul stands here, guarding its master.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see an evil looking ghoul standing here.  It is obviously guarding its\r\r\r\r\r\r\r\r\n\rmaster and it looks pretty tough.  You wonder what's the best way to deal\r\r\r\r\r\r\r\r\n\rwith the undead...\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 2,
+            "THAC0": 3,
+            "AC": 9,
+            "HP": "5d8+10",
+            "Damage": "1d4+2",
+            "Gold": 100,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3877,
+            "Aliases": [
+                "spectre"
+            ],
+            "ShortDesc": "a spectre",
+            "LongDesc": "A spectre stands here, holding its scythe in an attack position.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see an evil looking spectre standing here.  It is obviously guarding\r\r\r\r\r\r\r\r\n\rits master and it looks pretty dangerous.  You wonder what's the best way\r\r\r\r\r\r\r\r\n\rto deal with the undead creature...\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 3,
+            "THAC0": 5,
+            "AC": 8,
+            "HP": "7d8+20",
+            "Damage": "1d6+2",
+            "Gold": 200,
+            "XP": 4000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3878,
+            "Aliases": [
+                "zombie"
+            ],
+            "ShortDesc": "a zombie",
+            "LongDesc": "A zombie stands here, guarding its master.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see an evil looking zombie standing here. It is obviously guarding its\r\r\r\r\r\r\r\r\n\rmaster and it looks pretty tough.  You wonder what's the best way to deal\r\r\r\r\r\r\r\r\n\rwith this undead creature.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 3,
+            "THAC0": 4,
+            "AC": 8,
+            "HP": "6d8+15",
+            "Damage": "1d5+2",
+            "Gold": 150,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3879,
+            "Aliases": [
+                "worm",
+                "sand",
+                "sandworm"
+            ],
+            "ShortDesc": "a sandworm",
+            "LongDesc": "You see a disgusting sandworm here, trying to lure you into its lair.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a huge sandworm here.  It tries to suck you into its lair with little\r\r\r\r\r\r\r\r\n\rsuccess.  You think you'd better run away from it as soon as possible, before\r\r\r\r\r\r\r\r\n\rit gets smarter...\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 5,
+            "THAC0": 7,
+            "AC": 7,
+            "HP": "7d10+20",
+            "Damage": "1d4+4",
+            "Gold": 300,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3880,
+            "Aliases": [
+                "Herb",
+                "adventurer",
+                "lemon",
+                "homeless",
+                "handsome"
+            ],
+            "ShortDesc": "Herb",
+            "LongDesc": "You see an adventurer here, wearing a half-cape and armor.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a handsome adventurer here.  He smiles at you with an honest smile,\r\r\r\r\r\r\r\r\n\rand introduces himself, \"Hi, I'm Lemon Herb, the homeless, are you going\r\r\r\r\r\r\r\r\n\ron the quest to rescue the prince too?\"  He looks like a formidable foe and\r\r\r\r\r\r\r\r\n\ryou don't think you'd like to mess with him.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 19,
+            "THAC0": 7,
+            "AC": 6,
+            "HP": "10d15+400",
+            "Damage": "1d4+10",
+            "Gold": 5000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3881,
+            "Aliases": [
+                "Tino",
+                "man",
+                "red",
+                "retainer"
+            ],
+            "ShortDesc": "Tino",
+            "LongDesc": "You see a red-haired young man here.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a young man here, looking depressed.  He has red hair and bright\r\r\r\r\r\r\r\r\n\reyes.  You look at him carefully, measuring his character.  He looks up \r\r\r\r\r\r\r\r\n\rand says, \"Hi, I'm Tino, Herb's retainer.  We're on a mission to rescue the\r\r\r\r\r\r\r\r\n\rprince of this realm.\"  You nod your head and wonder if you should join\r\r\r\r\r\r\r\r\n\rthis quest as well.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 14,
+            "THAC0": 5,
+            "AC": 10,
+            "HP": "10d15+400",
+            "Damage": "1d4+10",
+            "Gold": 100,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3882,
+            "Aliases": [
+                "boatsman",
+                "boat",
+                "man"
+            ],
+            "ShortDesc": "a boatsman",
+            "LongDesc": "A boatsman stands here, waiting for customers.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a big, burly bear of a man who sits here, with an oar in hand.\r\r\r\r\r\r\r\r\n\rHe nods in your direction and asks, \"If you would like to pay for fare\r\r\r\r\r\r\r\r\n\racross the lake, you're out of luck.  There's a Siren who is there who\r\r\r\r\r\r\r\r\n\rcaptures anyone who would cross the lake... but I am willing to sell you\r\r\r\r\r\r\r\r\n\ra boat, since I have no use for them if the Siren remains here.\"\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "10d50+30000",
+            "Damage": "1d4+50",
+            "Gold": 10000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3883,
+            "Aliases": [
+                "woman",
+                "wife",
+                "boat",
+                "boatsman"
+            ],
+            "ShortDesc": "the boatsman's wife",
+            "LongDesc": "A woman stands here, bowing in your direction.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 10,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "1d4+300",
+            "Damage": "1d4+6",
+            "Gold": 1000,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3884,
+            "Aliases": [
+                "knight",
+                "red"
+            ],
+            "ShortDesc": "the red knight",
+            "LongDesc": "You see a knight here, dressed in red armor.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You look at a knight here.  He is dressed in red armor, and he looks very\r\r\r\r\r\r\r\r\n\rstrong.  Obviously, he must be one of the many adventurers trying to rescue\r\r\r\r\r\r\r\r\n\rthe baby prince that was captured by the Demon Lord.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 16,
+            "THAC0": 8,
+            "AC": 5,
+            "HP": "1d4+400",
+            "Damage": "1d4+6",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3885,
+            "Aliases": [
+                "knight",
+                "blue"
+            ],
+            "ShortDesc": "the blue knight",
+            "LongDesc": "You see a knight here, dressed in blue armor.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You look at a knight here.  He is dressed in blue armor, and looks very\r\r\r\r\r\r\r\r\n\rexperienced.  Obviously, he must be one of the many adventurers trying to\r\r\r\r\r\r\r\r\n\rrescue the baby prince that was captured by the Demon Lord.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 16,
+            "THAC0": 8,
+            "AC": 5,
+            "HP": "1d4+400",
+            "Damage": "1d4+6",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3886,
+            "Aliases": [
+                "knight",
+                "white"
+            ],
+            "ShortDesc": "the white knight",
+            "LongDesc": "You see a knight here, dressed in white armor.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You look at a knight here.  He is dressed in white armor, and he looks very\r\r\r\r\r\r\r\r\n\rcompetent.  Obviously, he must be one of the many adventurers trying to rescue\r\r\r\r\r\r\r\r\n\rthe baby prince that was captured by the Demon Lord.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 16,
+            "THAC0": 8,
+            "AC": 5,
+            "HP": "1d4+400",
+            "Damage": "1d4+6",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3887,
+            "Aliases": [
+                "knight",
+                "green"
+            ],
+            "ShortDesc": "the green knight",
+            "LongDesc": "You see a knight here, dressed in green armor.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You look at a knight here.  He is dressed in green armor, and he looks very\r\r\r\r\r\r\r\r\n\rtough.  Obviously, he must be one of the many adventurers trying to rescue\r\r\r\r\r\r\r\r\n\rthe baby prince that was captured by the Demon Lord.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 16,
+            "THAC0": 8,
+            "AC": 5,
+            "HP": "1d4+400",
+            "Damage": "1d4+6",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3888,
+            "Aliases": [
+                "bard"
+            ],
+            "ShortDesc": "a bard",
+            "LongDesc": "A bard stands here, singing songs of better days\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A bard stands here, singing to a crowd of villagers.  Noticing your arrival,\r\r\r\r\r\r\r\r\n\rhe changes his song to that of a legend that you've heard sung before...\r\r\r\r\r\r\r\r\n\r\"Seven companions once sought adventure,\r\r\r\r\r\r\r\r\n\rOne was a brave knight, willing to risk it all,\r\r\r\r\r\r\r\r\n\rOne was a wise priest, strong in his beliefs,\r\r\r\r\r\r\r\r\n\rOne was a powerful mage, worldly in her ways,\r\r\r\r\r\r\r\r\n\rOne was a cunning thief, quick to help her friends,\r\r\r\r\r\r\r\r\n\rOne was a holy warrior, fiercely faithful to her God,\r\r\r\r\r\r\r\r\n\rOne was a dark warrior, black in soul, but brilliant in battle,\r\r\r\r\r\r\r\r\n\rOne was a cavalier of nature, friend to all that lives,\r\r\r\r\r\r\r\r\n\rThe seven found death, and one sacrificed for the six,\r\r\r\r\r\r\r\r\n\rThe remaining ones mourned, and created a tribute to their friend,\r\r\r\r\r\r\r\r\n\rA labor of love, a work of art, a memory to honor,\r\r\r\r\r\r\r\r\n\rMined, cleansed, forged, decorated, blessed, magicked...\r\r\r\r\r\r\r\r\n\rThe honor of the fallen friend defeated death,\r\r\r\r\r\r\r\r\n\rand was entrusted to the keeping of nature,\r\r\r\r\r\r\r\r\n\rAs a token to life, to remember their lost friend.\"\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 2,
+            "THAC0": 3,
+            "AC": 8,
+            "HP": "5d8+20",
+            "Damage": "1d4+2",
+            "Gold": 100,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3889,
+            "Aliases": [
+                "man",
+                "old",
+                "wise"
+            ],
+            "ShortDesc": "a wise old man",
+            "LongDesc": "You see an old man here, sitting in the sun.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see an old man here, who is sitting in the sun, and enjoying the warm\r\r\r\r\r\r\r\r\n\rweather.  He looks up at you and says, \"Hi there, youngster, I bet you want\r\r\r\r\r\r\r\r\n\rto hear a story.  Well, the only one that I know of is the one the bards\r\r\r\r\r\r\r\r\n\rhave been singing.  But you know what?  It's a true story.  The shopkeepers\r\r\r\r\r\r\r\r\n\rin the town are the remaining six companions.  It's a shame that their friend\r\r\r\r\r\r\r\r\n\rhad to die though, it really broke their spirits.  And they locked away\r\r\r\r\r\r\r\r\n\rthe tribute to their friend in many different places, so that no one could\r\r\r\r\r\r\r\r\n\rabuse its power, and they even locked it away from the people they gave it\r\r\r\r\r\r\r\r\n\rto, and gave the key to one they knew wouldn't give the key away, or have the\r\r\r\r\r\r\r\r\n\rkey taken away from...\"\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d10+10",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 30,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3890,
+            "Aliases": [
+                "Wren-type",
+                "cyborg"
+            ],
+            "ShortDesc": "Wren",
+            "LongDesc": "A cyborg called Wren wanders about, being gawked by onlookers.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You have never seen such a man (or whatever it is) wander the streets of \r\r\r\r\r\r\r\r\n\rJapan (except for Godzilla ^_^) He is donned in black-plated armor that\r\r\r\r\r\r\r\r\n\rlooks impervious enough to withstand the force of a nuclear warhead. He\r\r\r\r\r\r\r\r\n\rwields an enormous pulse cannon on one arm which looks like it could take\r\r\r\r\r\r\r\r\n\rdown a skyscraper with one hit. People stare in awe and fear at him\r\r\r\r\r\r\r\r\n\r, surprised by his height and sheer strength. Tall and dark, his eyes shine\r\r\r\r\r\r\r\r\n\rwith an intense intelligence and calmness. His chistled features are framed\r\r\r\r\r\r\r\r\n\rby a black head gear that comes in contrast with his pale skin. Looking\r\r\r\r\r\r\r\r\n\rin you direction he asks, \"Do you know the coordinates to the nearest space\r\r\r\r\r\r\r\r\n\rstation?\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "HELPER"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 456,
+            "Level": 26,
+            "THAC0": 13,
+            "AC": -4,
+            "HP": "30d20+2",
+            "Damage": "4d5+3",
+            "Gold": 3000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3891,
+            "Aliases": [
+                "Parn",
+                "guild",
+                "master",
+                "guildmaster",
+                "warrior"
+            ],
+            "ShortDesc": "Parn",
+            "LongDesc": "Parn, the warrior guildmaster stands here, judging your form.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see the warrior guildmaster here.  His name is Parn, as you have heard \r\r\r\r\r\r\r\r\n\rhis name whispered across the town.  He looks like a fierce warrior, and\r\r\r\r\r\r\r\r\n\ryet, his eyes tell you of a more innocent time.  You have heard that he came\r\r\r\r\r\r\r\r\n\rfrom an island known as Lodoss, and is only here temporarily.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "50d10+30000",
+            "Damage": "1d4+50",
+            "Gold": 30000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3892,
+            "Aliases": [
+                "Etoh",
+                "guildmaster",
+                "guild",
+                "master",
+                "cleric"
+            ],
+            "ShortDesc": "Etoh",
+            "LongDesc": "Etoh, the cleric guildmaster stands here, teaching you how to be more spiritual.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see the cleric guildmaster here.  His name is Etoh, as you have heard\r\r\r\r\r\r\r\r\n\rhis name whispered across the town.  He looks like a very wise cleric, and\r\r\r\r\r\r\r\r\n\ryet, his eyes shine of keen knowledge as well.  You have heard that he is\r\r\r\r\r\r\r\r\n\ra king in a distant land known as Lodoss, be he has been travelling with his\r\r\r\r\r\r\r\r\n\rfriends, and is only taking this position temporarily.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "50d10+30000",
+            "Damage": "1d4+50",
+            "Gold": 30000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3893,
+            "Aliases": [
+                "Slayn",
+                "guild",
+                "master",
+                "guildmaster",
+                "mage"
+            ],
+            "ShortDesc": "Slayn",
+            "LongDesc": "Slayn, the mage guildmaster stands here, correcting your spellcasting.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see the mage guildmaster here.  His name is Slayn, as you have heard\r\r\r\r\r\r\r\r\n\rhis name whispered across the town.  He looks like a compentent magician,\r\r\r\r\r\r\r\r\n\rand his eyes tell you that he his a good man.  You have heard that he comes\r\r\r\r\r\r\r\r\n\rfrom an island known as Lodoss, and is here only as a temporary position,\r\r\r\r\r\r\r\r\n\rbefore he goes onword with his journeys.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "50d10+30000",
+            "Damage": "1d4+50",
+            "Gold": 30000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3894,
+            "Aliases": [
+                "Woodchuck",
+                "Wood",
+                "chuck",
+                "master",
+                "guildmaster",
+                "thief"
+            ],
+            "ShortDesc": "Woodchuck",
+            "LongDesc": "Woodchuck, the thief guildmaster stands here, backstabbing you with a spoon.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see the thief guildmaster here.  His name is Woodchuck, and you have\r\r\r\r\r\r\r\r\n\rheard his name whispered across the town.  He looks like a very sneaky \r\r\r\r\r\r\r\r\n\rindividual, but the look in his eyes tell you he is a very loyal companion.\r\r\r\r\r\r\r\r\n\rYou have heard that he comes from an island known as Lodoss, and is here\r\r\r\r\r\r\r\r\n\rwith his friends only as a temporary stop off before their quest continues.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "50d10+30000",
+            "Damage": "1d4+50",
+            "Gold": 30000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3895,
+            "Aliases": [
+                "Ghim",
+                "guild",
+                "master",
+                "guildmaster",
+                "ranger"
+            ],
+            "ShortDesc": "Ghim",
+            "LongDesc": "Ghim, the ranger guildmaster stands here, checking the direction of the wind.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see the ranger guildmaster here.  His name is Ghim, and you have heard\r\r\r\r\r\r\r\r\n\rhis name whispered among the townspeople.  He is an old dwarf, but you can\r\r\r\r\r\r\r\r\n\rsee the wisdom in his eyes.  You have heard that he is just passing by the\r\r\r\r\r\r\r\r\n\rtown, and only filling this position temporarily, before he moves onword.\r\r\r\r\r\r\r\r\n\rYou have also heard of tales of his death, and wonder what he is doing here.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "50d10+30000",
+            "Damage": "1d4+50",
+            "Gold": 30000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_MORTALLYW",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3896,
+            "Aliases": [
+                "Deedlit",
+                "guild",
+                "master",
+                "guildmaster",
+                "paladin",
+                "elf"
+            ],
+            "ShortDesc": "Deedlit",
+            "LongDesc": "Deedlit, the paladin guildmaster stands here, giggling at your mistakes.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see the paladin guildmaster here.  Her name is Deedlit, and you have heard\r\r\r\r\r\r\r\r\n\rof her from the whispers of the townspeople.  She is an elf, and only here\r\r\r\r\r\r\r\r\n\rtemporarily.  While she is really no paladin, she knows of many clerical\r\r\r\r\r\r\r\r\n\rspells, and her natural fighting ability makes her an obvious choice as a\r\r\r\r\r\r\r\r\n\rguildmaster.  You have heard that she is only passing by, and will be moving\r\r\r\r\r\r\r\r\n\ron shortly.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "50d10+30000",
+            "Damage": "1d4+50",
+            "Gold": 30000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3897,
+            "Aliases": [
+                "Pirotess",
+                "guild",
+                "master",
+                "guildmaster",
+                "anti-paladin"
+            ],
+            "ShortDesc": "Pirotess",
+            "LongDesc": "Pirotess, the anti-paladin guildmaster stands here, casting a spell.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see the anti-paladin guildmaster here.  Her name is Pirotess, and you \r\r\r\r\r\r\r\r\n\rhave heard stories about her from the villagers.  She is a dark-elf, from\r\r\r\r\r\r\r\r\n\rthe looks of it, and her knowledge of the dark magics and her fighting ablility\r\r\r\r\r\r\r\r\n\rmakes her an easy choice as guildmaster.  No one knows where she comes\r\r\r\r\r\r\r\r\n\rfrom, and she will probably leave soon, but for now, she is the guildmaster\r\r\r\r\r\r\r\r\n\rand is willing to teach you what you need to know.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 125,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "50d10+30000",
+            "Damage": "4d5+3",
+            "Gold": 10000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3898,
+            "Aliases": [
+                "wife",
+                "glutton"
+            ],
+            "ShortDesc": "the glutton's wife",
+            "LongDesc": "The glutton's wife lays on the ground sensually, waiting to be harrassed.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Taken from Diva's house of pleasure, this woman makes the perfect mate for\r\r\r\r\r\r\r\r\n\rthe glutton of punishment. Wagging her tongue in your direction, she waits\r\r\r\r\r\r\r\r\n\rto be punished as she runs her hands up and down her scantily clad body.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1,
+            "Level": 47,
+            "THAC0": 10,
+            "AC": 10,
+            "HP": "1d8+30000",
+            "Damage": "15d3+40",
+            "Gold": 0,
+            "XP": 1,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3899,
+            "Aliases": [
+                "glutton",
+                "punishment"
+            ],
+            "ShortDesc": "a glutton for punishment",
+            "LongDesc": "A glutton for punishment is here, chopping wood.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a very strange looking man.  He seems to look quite depressed and\r\r\r\r\r\r\r\r\n\rhas a very sad look on his face.  He looks at you with imploring eyes, and\r\r\r\r\r\r\r\r\n\rasks you to punish him for his sins.  You wonder if you should do it, because\r\r\r\r\r\r\r\r\n\rhe looks like a very strong man, able to take a lot of punishment.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 49,
+            "THAC0": 10,
+            "AC": 6,
+            "HP": "1d8+30000",
+            "Damage": "15d2+0",
+            "Gold": 1,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

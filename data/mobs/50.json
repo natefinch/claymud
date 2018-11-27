@@ -1,0 +1,493 @@
+{
+    "mobs": [
+        {
+            "Number": 5000,
+            "Aliases": [
+                "dervish",
+                "raggity"
+            ],
+            "ShortDesc": "the dervish",
+            "LongDesc": "A raggity dervish walks on aimlessly.\r\r\r\r\n\r",
+            "DetailedDesc": "Dressed in loose fitting rags, this man looks like he could use some rest.\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": 900,
+            "Level": 6,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "1d10+100",
+            "Damage": "2d4+0",
+            "Gold": 70,
+            "XP": 2250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5001,
+            "Aliases": [
+                "dervish",
+                "large"
+            ],
+            "ShortDesc": "the dervish",
+            "LongDesc": "A large dervish watches for signs of trouble.\r\r\r\r\n\r",
+            "DetailedDesc": "Dressed in loose fitting rags, this man looks like he could use LOTS of rest.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": 650,
+            "Level": 12,
+            "THAC0": 8,
+            "AC": 3,
+            "HP": "3d6+166",
+            "Damage": "2d6+1",
+            "Gold": 150,
+            "XP": 7250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5002,
+            "Aliases": [
+                "snake",
+                "coral"
+            ],
+            "ShortDesc": "the coral snake",
+            "LongDesc": "A brightly colored snake slithers along the sands.\r\r\r\r\n\r",
+            "DetailedDesc": "This relatively harmless snake has bright alternating bands of red, yellow\r\r\r\r\n\rand black.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -10,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 4,
+            "HP": "1d6+66",
+            "Damage": "1d9+0",
+            "Gold": 0,
+            "XP": 1250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5003,
+            "Aliases": [
+                "scorpion",
+                "small"
+            ],
+            "ShortDesc": "the small scorpion",
+            "LongDesc": "A small, red scorpion scuttles away at your approach.\r\r\r\r\n\r",
+            "DetailedDesc": "The little tail is mighty dangerous for such a small creature.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -50,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 1,
+            "HP": "1d6+66",
+            "Damage": "1d8+0",
+            "Gold": 0,
+            "XP": 1250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5004,
+            "Aliases": [
+                "worm",
+                "giant",
+                "purple"
+            ],
+            "ShortDesc": "the sand worm",
+            "LongDesc": "A giant, purple sand worm thrusts up out of the sand and attacks!\r\r\r\r\n\r",
+            "DetailedDesc": "He's big, mean, and purple.  Watch out!\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -300,
+            "Level": 28,
+            "THAC0": 20,
+            "AC": 3,
+            "HP": "3d10+533",
+            "Damage": "3d7+14",
+            "Gold": 2540,
+            "XP": 47250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5005,
+            "Aliases": [
+                "dragon",
+                "brass"
+            ],
+            "ShortDesc": "the brass dragon",
+            "LongDesc": "A very large brass dragon steps out of the darkness and says \"Hello\".\r\r\r\r\n\rThen adds to it, \"Prepare to die, have a nice day!\"\r\r\r\r\n\r",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 950,
+            "Level": 30,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "3d6+500",
+            "Damage": "3d6+4",
+            "Gold": 1500,
+            "XP": 52250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5006,
+            "Aliases": [
+                "nomad",
+                "leader"
+            ],
+            "ShortDesc": "the nomad leader",
+            "LongDesc": "The nomad leader sits silently in prayer.\r\r\r\r\n\r",
+            "DetailedDesc": "He is clad in silk robes lined with gold thread. At his side is a large,\r\r\r\r\n\rengraved cutlass.  He has an especially haughty air about him.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 950,
+            "Level": 18,
+            "THAC0": 13,
+            "AC": 0,
+            "HP": "3d6+283",
+            "Damage": "2d8+5",
+            "Gold": 1000,
+            "XP": 22250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5007,
+            "Aliases": [
+                "nomad",
+                "commander"
+            ],
+            "ShortDesc": "the nomad commander",
+            "LongDesc": "The nomad commander stands here staring at you suspiciously.\r\r\r\r\n\r",
+            "DetailedDesc": "This is the nomad leader's second in command.  His clothes are richly woven\r\r\r\r\n\rof silk and gold thread.  A nasty cutlass hangs at his side.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 14,
+            "THAC0": 12,
+            "AC": 1,
+            "HP": "3d6+225",
+            "Damage": "2d5+3",
+            "Gold": 600,
+            "XP": 12250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5008,
+            "Aliases": [
+                "nomad",
+                "warrior"
+            ],
+            "ShortDesc": "the nomad warrior",
+            "LongDesc": "A proud nomad warrior stands here.\r\r\r\r\n\r",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 700,
+            "Level": 10,
+            "THAC0": 9,
+            "AC": 2,
+            "HP": "1d6+175",
+            "Damage": "2d6+1",
+            "Gold": 300,
+            "XP": 6250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5009,
+            "Aliases": [
+                "slave",
+                "young"
+            ],
+            "ShortDesc": "the slave",
+            "LongDesc": "A young slave sits here staring at you with pleading eyes.\r\r\r\r\n\r",
+            "DetailedDesc": "",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 2,
+            "THAC0": 2,
+            "AC": 9,
+            "HP": "1d4+41",
+            "Damage": "1d5+0",
+            "Gold": 0,
+            "XP": 500,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5010,
+            "Aliases": [
+                "dracolich",
+                "lich"
+            ],
+            "ShortDesc": "the dracolich",
+            "LongDesc": "A pile of bones rises up to form a skeletal dracolich.\r\r\r\r\n\r",
+            "DetailedDesc": "The dracolich is now only bone with pieces of flesh hanging from it.\r\r\r\r\n\rObviously it no longer fears death.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 77,
+            "THAC0": 20,
+            "AC": -6,
+            "HP": "10d10+1500",
+            "Damage": "3d5+35",
+            "Gold": 75000,
+            "XP": 169750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5011,
+            "Aliases": [
+                "drider",
+                "drow"
+            ],
+            "ShortDesc": "the drider",
+            "LongDesc": "The drider looks at you viciously while it draws its sword.\r\r\r\r\n\r",
+            "DetailedDesc": "This half-spider, half-drow creature is a formidable opponent.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -1000,
+            "Level": 11,
+            "THAC0": 8,
+            "AC": 2,
+            "HP": "1d6+158",
+            "Damage": "2d6+2",
+            "Gold": 200,
+            "XP": 4750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 5012,
+            "Aliases": [
+                "duergar",
+                "dark",
+                "dwarf"
+            ],
+            "ShortDesc": "the dark dwarf",
+            "LongDesc": "A duergar is here mining precious stones with his pick.\r\r\r\r\n\r",
+            "DetailedDesc": "The duergar could crush your head as easily as it does those rocks.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -850,
+            "Level": 7,
+            "THAC0": 4,
+            "AC": 3,
+            "HP": "1d11+100",
+            "Damage": "2d5+1",
+            "Gold": 170,
+            "XP": 3250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5013,
+            "Aliases": [
+                "myconoid"
+            ],
+            "ShortDesc": "the myconoid",
+            "LongDesc": "A myconoid lumbers along peacefully.\r\r\r\r\n\r",
+            "DetailedDesc": "The myconoid looks something like a giant mushroom (and probably has the same\r\r\r\r\n\reffect).\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 850,
+            "Level": 8,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "1d12+113",
+            "Damage": "2d7+0",
+            "Gold": 50,
+            "XP": 4250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5014,
+            "Aliases": [
+                "myconoid",
+                "shaman"
+            ],
+            "ShortDesc": "the myconoid shaman",
+            "LongDesc": "A rather large myconoid stands here chanting in a strange tongue.\r\r\r\r\n\r",
+            "DetailedDesc": "The shaman shoots spores into the air.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "AGGR_EVIL",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 136,
+            "Level": 8,
+            "THAC0": 1,
+            "AC": 10,
+            "HP": "1d12+288",
+            "Damage": "1d7+2",
+            "Gold": 2500,
+            "XP": 4250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 5015,
+            "Aliases": [
+                "dustdigger"
+            ],
+            "ShortDesc": "the dustdigger",
+            "LongDesc": "A small oasis invites you to dive in.\r\r\r\r\n\r",
+            "DetailedDesc": "\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 11,
+            "THAC0": 10,
+            "AC": 1,
+            "HP": "1d6+141",
+            "Damage": "3d4+0",
+            "Gold": 450,
+            "XP": 4750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 5017,
+            "Aliases": [
+                "camel",
+                "rabid"
+            ],
+            "ShortDesc": "the rabid camel",
+            "LongDesc": "A very dangerous rabid camel snorts at you.\r\r\r\r\n\r",
+            "DetailedDesc": "Don't mess with this animal.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": -351,
+            "Level": 9,
+            "THAC0": 8,
+            "AC": 6,
+            "HP": "1d6+100",
+            "Damage": "2d4+3",
+            "Gold": 270,
+            "XP": 5250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

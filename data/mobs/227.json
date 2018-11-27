@@ -1,0 +1,2379 @@
+{
+    "mobs": [
+        {
+            "Number": 22700,
+            "Aliases": [
+                "rat",
+                "small"
+            ],
+            "ShortDesc": "a small rat",
+            "LongDesc": "A small rat.\n",
+            "DetailedDesc": "This rat doesn't look any different than all the other rats you have ever\nseen. It is small, filthy, and sitting in it's own feces.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "BLIND"
+            ],
+            "Alignment": -300,
+            "Level": 110,
+            "THAC0": 5,
+            "AC": 1,
+            "HP": "9d6+20",
+            "Damage": "4d2+0",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22701,
+            "Aliases": [
+                "rat"
+            ],
+            "ShortDesc": "a giant rat",
+            "LongDesc": "A giant rat.\n",
+            "DetailedDesc": "This rat has been mutated by warpstone. It is very large. It stands a good\ntwo feet off of the ground, and is a good four or five feet long. It's eyes\nseem to glow with an unnatural evil.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 5,
+            "AC": 0,
+            "HP": "25d4+25",
+            "Damage": "4d3+5",
+            "Gold": 0,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22702,
+            "Aliases": [
+                "rat",
+                "ogre",
+                "adolescent"
+            ],
+            "ShortDesc": "an adolescent rat ogre",
+            "LongDesc": "An adolescent rat ogre.\n",
+            "DetailedDesc": "Before you stands a huge rat like ogre. Through the twisted mutating effect\nof warpstone, and the ingenious breeding procedures of the Skaven packmasters\nthey have managed to get a near perfect mix of a rat and an ogre. It has the\nbrutish strength of an ogre, the lightning reflexes of a rat, and the razor\nsharp teeth and claws of a Skaven. You are glad the packmaster isn't in this\npen to order this beast to attack you.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 10,
+            "AC": -7,
+            "HP": "60d5+1400",
+            "Damage": "25d2+10",
+            "Gold": 0,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22703,
+            "Aliases": [
+                "skaven",
+                "eshin",
+                "gutter",
+                "runner"
+            ],
+            "ShortDesc": "a Clan Eshin gutter runner",
+            "LongDesc": "A gutter runner is here, training to be an assassin.\n",
+            "DetailedDesc": "This Skaven is dressed in dark trousers. He is wearing only a vest on his\nbody, and has an array of weapons about him. He is currently trying to survive\nthe Circle of Assassins. If he survives, he will be promoted to a Clan Eshin\nassassin. If he doesn't survive, he may get fed to the Clan Moulder rat ogres,\nif the assassin who kills him doesn't eat him first that is...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 50,
+            "AC": -5,
+            "HP": "100d7+900",
+            "Damage": "2d8+10",
+            "Gold": 1000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22704,
+            "Aliases": [
+                "eshin",
+                "assassin",
+                "skaven"
+            ],
+            "ShortDesc": "a Clan Eshin Assassin",
+            "LongDesc": "A Clan Eshin assassin is here lurking in the shadows.\n",
+            "DetailedDesc": "Once you have laid eyes on a Clan Eshin assassin, you have sealed your fate.\nThese Skaven are more talented than ANYONE at the art of stealthy murder.\nIf Clan Eshin has you as a target you can forget about seeing tomorrow...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -250,
+            "Level": 110,
+            "THAC0": 60,
+            "AC": -13,
+            "HP": "100d10+2300",
+            "Damage": "6d4+30",
+            "Gold": 10000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22705,
+            "Aliases": [
+                "Snikch",
+                "Skaven",
+                "eshin",
+                "assassin"
+            ],
+            "ShortDesc": "Deathmaster Snikch",
+            "LongDesc": "Deathmaster Snikch, Chief Assassin of Clan Eshin, is here.\n",
+            "DetailedDesc": "Snikch is the most elite killer known. His background is shrouded in mystery.\nPerhaps the only thing more mysterious than his background, is his wherabouts\nat any given time. Lord Sneek, the Skaven Nightlord and member of the council\nof Thirteen, likes to keep the wherabouts of his pet killer, Snikch, a total\nmystery at all times.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -350,
+            "Level": 150,
+            "THAC0": 90,
+            "AC": -38,
+            "HP": "100d2+16500",
+            "Damage": "16d12+80",
+            "Gold": 15000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22706,
+            "Aliases": [
+                "warlock",
+                "engineer",
+                "skaven",
+                "skryre"
+            ],
+            "ShortDesc": "a Clan Skryre Warlock engineer",
+            "LongDesc": "A Clan Skryre Warlock engineer is here, tinkering with technology.\n",
+            "DetailedDesc": "Engineers are the lowest rank of Clan Skryre Warlocks. They are the beginning\nof the Skaven magic users. Though they may be the least trained in the ways\nof magic, their ambitions are usually enough to get them through most battles.\nIf they can survive long enough, thay may someday become a Warlock Master,\nand maybe, if they are VERY lucky, a Grey Seer.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "UNUSED16"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 18,
+            "AC": -4,
+            "HP": "60d11+900",
+            "Damage": "8d3+25",
+            "Gold": 5000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22707,
+            "Aliases": [
+                "warlock",
+                "champion",
+                "skaven",
+                "skryre"
+            ],
+            "ShortDesc": "a Clan Skryre Warlock Champion",
+            "LongDesc": "A Clan Skryre Warlock Champion waits to kill you.\n",
+            "DetailedDesc": "Warlock champions are one step up from Warlock engineers. They have proven\nthey have the magical abilities to advance in the Clan Skryre echelon. Theirs\nis the trusted task of helping the Warlock Masters bring their diabolical\nnew devices to fruition by overseeing the construction and testing of such\ndevices. Unfortunately not many champions make it past this stage because\nthey are usually killed by some testing procedure. This is perhaps in the\nbest interest of the Warlock Master who authorized the testing, and is \nnothing more than the Skaven way...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 20,
+            "AC": -6,
+            "HP": "60d11+1500",
+            "Damage": "8d4+30",
+            "Gold": 8000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22708,
+            "Aliases": [
+                "warlock",
+                "master",
+                "skaven",
+                "skryre"
+            ],
+            "ShortDesc": "a Clan Skryre Warlock master",
+            "LongDesc": "A Clan Skryre Warlock master prepares to blast you with a potent spell.\n",
+            "DetailedDesc": "Warlock masters are as high as is possible to attain in the Clan Skryre\nechelon. They have mastered the art of magic use in all it's Skaven forms.\nThey only await backing by either a Lord of Decay, or a Grey Seer. If they\nreceive such backing, they will then themselves be promoted to the lofty\nposition of Grey Seer, and will be as independant of the law as is possible\nfor any Skaven, saving the Council of Thirteen.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 25,
+            "AC": -8,
+            "HP": "60d11+2500",
+            "Damage": "8d5+35",
+            "Gold": 10000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22709,
+            "Aliases": [
+                "grey",
+                "seer",
+                "skaven"
+            ],
+            "ShortDesc": "a Skaven Grey Seer",
+            "LongDesc": "A Skaven Grey Seer is here, testing the winds of magic.\n",
+            "DetailedDesc": "Grey Seers are the ultimate magic users in Skaven society. Their purpose is\nto uphold and defend the Council of Thirteen, although many ambitious Grey\nSeers seek to unseat various members of the Council of Thirteen (this is\nhighly unlikely though as the current members of the Council have occupied\ntheir positions for many centuries.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 30,
+            "AC": -10,
+            "HP": "60d11+3500",
+            "Damage": "8d5+40",
+            "Gold": 25000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22710,
+            "Aliases": [
+                "Ikit",
+                "claw",
+                "skryre",
+                "chief",
+                "warlock",
+                "skaven"
+            ],
+            "ShortDesc": "Ikit Claw",
+            "LongDesc": "Ikit Claw, Chief Warlock of Clan Skryre grins evilly.\n",
+            "DetailedDesc": "Ikit Claw is one of the most powerful sorcerers in the Old World, being\nsecond in power only to Teclis, the High Elf mage. Ikit has dedicated his\nlife to the study of all forms of magery, including the spells of men, Elves\nand Orcs. Ikit is tall and white-furred, always a sign of distinction and\npower amongst the Skaven. His face and arm were badly burned during a failed\nexperiment long ago. He has constructed an intricate mask to cover his \nmutilated and hairless skull, and a cunningly-made skeletal claw of iron, \ncrystal, and brass to give strength to his withered arm.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 155,
+            "THAC0": 90,
+            "AC": -37,
+            "HP": "60d11+16000",
+            "Damage": "20d10+85",
+            "Gold": 10000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22711,
+            "Aliases": [
+                "thazartak",
+                "skaven",
+                "warlock",
+                "master",
+                "skryre"
+            ],
+            "ShortDesc": "Thazartak",
+            "LongDesc": "Thazartak, Skaven Warlock Master of Clan Skryre is here.\n",
+            "DetailedDesc": "Thazartak is one of the most powerful Warlock masters. He is of the same\nbirthing as the Skaven Grey Seer Thanquol. His ambition is undisguised, as\nthe 22 failed assassination attempts on Thanquol make obvious. He despises\nThanquol and will stop at nothing to replace him as the Council of Thirteen's\npet Grey Seer.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_GOOD",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 130,
+            "THAC0": 92,
+            "AC": -37,
+            "HP": "60d11+15000",
+            "Damage": "40d4+75",
+            "Gold": 10000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22712,
+            "Aliases": [
+                "skryre",
+                "team",
+                "warpfire",
+                "skaven"
+            ],
+            "ShortDesc": "a Clan Skryre warpfire team",
+            "LongDesc": "A Clan Skryre warpfire team is here, shooting flames at you.\n",
+            "DetailedDesc": "This team consists of two Skaven. One is carrying a huge barrel of chemicals\non his back, while the other wields a hugr nozzle which is attacked to the\nbarrel by a hose. The nozzle is spouting a green looking flame. I would\nnot suggest getting to close to the flames...\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 15,
+            "AC": -12,
+            "HP": "60d11+1000",
+            "Damage": "9d3+15",
+            "Gold": 2000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22713,
+            "Aliases": [
+                "skryre",
+                "skaven",
+                "jezzail",
+                "team"
+            ],
+            "ShortDesc": "a Clan Skryre jezzail team",
+            "LongDesc": "A Clan Skryre jezzail team aims at your head.\n",
+            "DetailedDesc": "A jezzail team consists of two skaven wielding a huge rifle. One Skaven holds\na stick upon which the other Skaven rests the end of the barrel. The jezzail\nitself is a rather large gun capable of punching holes in heavy armor with\nrelative ease.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 15,
+            "AC": -8,
+            "HP": "60d11+1000",
+            "Damage": "9d3+15",
+            "Gold": 3000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22714,
+            "Aliases": [
+                "skaven",
+                "giant",
+                "frankenstein"
+            ],
+            "ShortDesc": "a Skaven-giant",
+            "LongDesc": "a Skaven-giant is rampaging about here.\n",
+            "DetailedDesc": "What is this horror? This creature looks like it has been stiched together\nfrom the pieces of a Skaven and a giant. If there were such a creature in\nthe Old World as Frankensteins monster, this would be it. It even appears\nto have been animated from the dead through science.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 45,
+            "AC": -20,
+            "HP": "20d5+2000",
+            "Damage": "6d3+30",
+            "Gold": 50000,
+            "XP": 80000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22715,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino",
+                "immense"
+            ],
+            "ShortDesc": "an immense albino guard",
+            "LongDesc": "An immense albino guard of the Council of Thirteen is here, guarding his key.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22716,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino"
+            ],
+            "ShortDesc": "an albino guard",
+            "LongDesc": "An albino guard is here, guarding the gates.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22717,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino",
+                "skavenguard"
+            ],
+            "ShortDesc": "an albino guard",
+            "LongDesc": "An albino guard is here, guarding the gates.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22718,
+            "Aliases": [
+                "eshin",
+                "assassin",
+                "guard"
+            ],
+            "ShortDesc": "an assassin guard",
+            "LongDesc": "A Clan Eshin Assassin guard is here keeping the unprepared out.\n",
+            "DetailedDesc": "This Skaven has jet black fur. In this dark tunnel it is hard to even make\nout anything about him because the color of his fur helps him blend into the\ndarkness.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "11d60+30000",
+            "Damage": "6d5+25",
+            "Gold": 0,
+            "XP": 500000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22719,
+            "Aliases": [
+                "skaven"
+            ],
+            "ShortDesc": "a Skaven",
+            "LongDesc": "A Skaven is here, watching the fighting below.\n",
+            "DetailedDesc": "This Skaven is watching the fighting taking place in the Clan Mors Arena. Like\nall Skaven, he looks more akin to a rat than to a human, but it is hard to \ntell for sure. Anyways he seems to be very proccupied by the contests below.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "SNEAK"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 20,
+            "AC": 5,
+            "HP": "10d10+200",
+            "Damage": "4d2+0",
+            "Gold": 2000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22720,
+            "Aliases": [
+                "skaven",
+                "clanrat",
+                "warrior"
+            ],
+            "ShortDesc": "a Clanrat",
+            "LongDesc": "A Skaven Clanrat warrior is here, ready to fight.\n",
+            "DetailedDesc": "The Clanrat warriors are drwan from the Warlord clans and are the mainstay\nof any Skaven army. In battle they form up into vast chittering hordes which\noverwhelm the foe in a terrifying avalanche of insane rat-warriors. Individual\nClanrats are vicious, but can be ill disciplined and cowardly. In large packs\nthey become fanatically over-confident and well-nigh unstoppable.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 20,
+            "AC": -6,
+            "HP": "10d10+2000",
+            "Damage": "5d4+20",
+            "Gold": 25000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22721,
+            "Aliases": [
+                "stormvermin",
+                "clanrat",
+                "warrior",
+                "skaven"
+            ],
+            "ShortDesc": "a Stormvermin",
+            "LongDesc": "A black-furred Stormvermin is here, wanting to kill you!!!\n",
+            "DetailedDesc": "The Stormvermin are the hand-picked warrior elite of the Clanrat hordes.\nStormvermin are much larger than ordinary Clanrats and many have black fur.\nFor this reason, black-furred Skaven have a reputation for being killers, \nand are much feared amongst the Clanrats.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 40,
+            "AC": -7,
+            "HP": "10d10+3500",
+            "Damage": "6d5+30",
+            "Gold": 30000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22722,
+            "Aliases": [
+                "Queek",
+                "head-taker",
+                "skaven",
+                "warlord",
+                "mors"
+            ],
+            "ShortDesc": "Queek",
+            "LongDesc": "Warlord Queek Head-Taker is here, looking quite impressive!!\n",
+            "DetailedDesc": "Warlord Queek Head-Taker is the right claw of Warlord Gnawdwell, the ruler of\nClan Mors and the City of Pillars. His vitriolic temper and immense ego are\nwell known among the Skaven and greatly admired. He takes pleasure in \nchallenging opposing leaders and heros to single combat and slaying them. The\nsevered heads on Queek's trophy rack are kept as momentoes of the more\nchallenging fights, making him an unmistakable sight on the battle field, his\ncollection includes the head of Krug Ironhand of Karak Drazh, Ikit Slash of\nFester Spike, and the hands of Albrecht Kraus.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 155,
+            "THAC0": 88,
+            "AC": -39,
+            "HP": "60d60+16000",
+            "Damage": "15d15+75",
+            "Gold": 20000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22723,
+            "Aliases": [
+                "warrior",
+                "minotaur"
+            ],
+            "ShortDesc": "the Minotaur Warrior",
+            "LongDesc": "A captured minotaur warrior is here, far away from Mahn Tor.\n",
+            "DetailedDesc": "You see a huge minotaur that is wearing the robes of a slave. He has black\nfur and red eyes. He look formidable even in the robes of a slave.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -330,
+            "Level": 110,
+            "THAC0": 21,
+            "AC": 0,
+            "HP": "300d1+50",
+            "Damage": "3d7+10",
+            "Gold": 9000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22724,
+            "Aliases": [
+                "ogre",
+                "huge",
+                "ugly"
+            ],
+            "ShortDesc": "an ogre",
+            "LongDesc": "A huge and incredibly ugly ogre glowers at you stupidly.\n",
+            "DetailedDesc": "This is an ogre captured from the magical land of Xanth. The Skaven love to\nwatch a good fight and will go to just about any land to get a worthy opponent.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -350,
+            "Level": 110,
+            "THAC0": 35,
+            "AC": -2,
+            "HP": "1d100+2769",
+            "Damage": "10d6+3",
+            "Gold": 0,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22725,
+            "Aliases": [
+                "orc"
+            ],
+            "ShortDesc": "an orc",
+            "LongDesc": "An orc is here, along way away from Moria.\n",
+            "DetailedDesc": "This orc has been dragged from the mines of Moria, to this arena in\nSkavenblight. Here he will be forced to fight day after day until he finally\ndies at the hands of either a Clan Mors trainee, or some other poor creature\ncaptured by the Skaven.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 110,
+            "THAC0": 9,
+            "AC": 2,
+            "HP": "5d20+125",
+            "Damage": "2d6+2",
+            "Gold": 200,
+            "XP": 11000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22726,
+            "Aliases": [
+                "skaven",
+                "slave"
+            ],
+            "ShortDesc": "a Skaven slave",
+            "LongDesc": "A Skaven slave is here, looking quite pitiful.\n",
+            "DetailedDesc": "Skaven slaves are the dregs of Skaven society, slaves too unskilled or stupid\nto be put to work in the mines or forges. Nearly all Skavenslaves are from\nClans which have been defeated and enslaved in intercine Clan warfare.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 10,
+            "AC": 10,
+            "HP": "10d10+200",
+            "Damage": "4d1+0",
+            "Gold": 0,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22727,
+            "Aliases": [
+                "moulder",
+                "skaven",
+                "packmaster"
+            ],
+            "ShortDesc": "a Packmaster",
+            "LongDesc": "A Clan Moulder Packmaster is looking for some warpstone.\n",
+            "DetailedDesc": "Clan Moulder is one of the smallest Clans in numbers but controls a large\namount of warpstone which it uses to create new and ever more dangerous\ncreatures. The Packmasters are the one to whom is given the responsiblity of\ntraining these creatures, as well as controlling them in the heat of battle.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 45,
+            "AC": 5,
+            "HP": "10d10+2000",
+            "Damage": "4d3+10",
+            "Gold": 25000,
+            "XP": 17000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22728,
+            "Aliases": [
+                "rat",
+                "ogre"
+            ],
+            "ShortDesc": "a Rat Ogre",
+            "LongDesc": "A Rat Ogre towers above you.\n",
+            "DetailedDesc": "Rat Ogres are the most feared of all the Clan Moulder's mutant beasts. Rat\nOgres are huge, Skaven-like creatures the size and strength of true Ogres,\nbut possessed of the speed and ferocity of Skaven. A Rat Ogre's small brain\nis devoted entirely to fighting and bloodshed, so in battle units of Rat Ogres\nare controlled by Clan Moulder Packmasters who direct the monsters and unleash\ntheir devastating charges when the time is right.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -250,
+            "Level": 110,
+            "THAC0": 60,
+            "AC": 2,
+            "HP": "10d10+3500",
+            "Damage": "6d3+45",
+            "Gold": 0,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22729,
+            "Aliases": [
+                "throt",
+                "moulder",
+                "unclean",
+                "skaven"
+            ],
+            "ShortDesc": "Throt the Unclean",
+            "LongDesc": "Throt the Unclean Skaven Packmaster of Clan Moulder is training some Rat Ogres.\n",
+            "DetailedDesc": "Throt the Unclean is one of Clan Moulder's strongest Packmasters. His rise\nthrough the ranks of Clan Moulder has been carefully watched by agents of\nLord Verminkin, though whether he intends to reward or destroy him remains to\nbe seen. Throt is a fearsome fighter renowned for his fantastic strength.\nAs well as his steel-hard muscles, Thro has been blessed with the mutation of\na third arm since his birthing and has learned to wield a sword and a man-\ncatcher together with deadly skill. Throt lost an eye in his last fight with\na rival Packmaster and has had it replaced with a glowing warpstone charm,\nmaking him look wierder than ever.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -25,
+            "HP": "60d60+9500",
+            "Damage": "10d15+65",
+            "Gold": 75000,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22730,
+            "Aliases": [
+                "pestilens",
+                "censer",
+                "bearers",
+                "skaven"
+            ],
+            "ShortDesc": "a Plague Censer Bearer",
+            "LongDesc": "A Clan Pestilens Plague Censer Bearer is waving his censer around.\n",
+            "DetailedDesc": "The most fanatical and deranged members of Clan Pestilens are given the\nsingular honor of wielding a plague censer. As the Plague Monks march into\nbattle they are preceded by a loose group of Plague Censer Bearers who pollute\nthe air with foul fumes. Swinging their censers, the bearers swarm forward\nto the chanted accompaniment of the Liturgus Infecticus.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 30,
+            "AC": -10,
+            "HP": "10d10+2000",
+            "Damage": "4d4+15",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22731,
+            "Aliases": [
+                "pestilens",
+                "skaven",
+                "plague",
+                "monk"
+            ],
+            "ShortDesc": "a Plague Monk",
+            "LongDesc": "A Clan Pestilens Plague Monk is spreading disease.\n",
+            "DetailedDesc": "The Plague Monks are a devout order which have dedicated themselves utterly\nto the spreading of corruption and decay in the name of the Horned Rat. They\nare the initiates of infection and the disciples of disease. In battle Plague\nMonk regiments hurl themselves into the fray with fanatical ferocity, eager\nto bring death and destruction to their foes.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 35,
+            "AC": 5,
+            "HP": "10d10+3000",
+            "Damage": "4d3+10",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22732,
+            "Aliases": [
+                "pestilens",
+                "plague",
+                "priest",
+                "skaven"
+            ],
+            "ShortDesc": "a Plague Priest",
+            "LongDesc": "A Clan Pestilens Plague Priest is speading disease here.\n",
+            "DetailedDesc": "Plague Priests are among the foulest and most degenerate ratmen in the rotting\nbrotherhood of the diciples of decay. They command all the other Clan Pestilens\nmembers (with the exception of both Skrolk and Nurglitch). \n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 50,
+            "AC": -15,
+            "HP": "10d10+5000",
+            "Damage": "5d6+35",
+            "Gold": 75000,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22733,
+            "Aliases": [
+                "Skrolk",
+                "lord",
+                "pestilens",
+                "plaguuelord",
+                "skaven"
+            ],
+            "ShortDesc": "Lord Skrolk",
+            "LongDesc": "Lord Skrolk, Plaguelord of Clan Pestilens is eyeing you.\n",
+            "DetailedDesc": "Lord Skrolk is very old an unutterably evil. By the blessing of the Horned\nRat he has lived many times his ordinary lifespan and unleashed unspeakable\nwoes upon the world of men. At the beginning of his life Skrolk was a simple\nPlague Monk, but his devotion to the Horned Rat drew him up to the long\nstruggle for power which eventually led him to Skavenblight to offer his\nservices to Nurglitch, the seventh Arch-Plaguelord. Nurglitch-who-is-seventh\nset him many long and arduous trials, including traversing the insanely\ndangerous Blindwyrm Labyrinth beneath Clan Pestilens' hold in Lustria. Sucess\ncame to Skrolk in all things.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_GOOD"
+            ],
+            "Alignment": -1000,
+            "Level": 130,
+            "THAC0": 93,
+            "AC": -36,
+            "HP": "60d60+13000",
+            "Damage": "16d12+75",
+            "Gold": 22000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22734,
+            "Aliases": [
+                "Nurglitch",
+                "skaven",
+                "pestilens",
+                "plaguelord"
+            ],
+            "ShortDesc": "Nurglitch",
+            "LongDesc": "Arch-Plaguelord Nurglitch of Clan Pestilens is rotting here.\n",
+            "DetailedDesc": "Nurglitch is the highest ranking Clan Pestilens you can ever achieve. He now\nhas no healthy cell left in his entire body. He might almost be considered a\nliving dead, except his cells still live, they are just infested and rotting.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_GOOD"
+            ],
+            "Alignment": -1000,
+            "Level": 155,
+            "THAC0": 92,
+            "AC": -35,
+            "HP": "60d60+15000",
+            "Damage": "20d10+75",
+            "Gold": 40000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22735,
+            "Aliases": [
+                "Morskittar",
+                "lord",
+                "skryre",
+                "skaven"
+            ],
+            "ShortDesc": "Morskittar",
+            "LongDesc": "Lord Morskittar of Clan Skryre is devising some fiendish contraption.\n",
+            "DetailedDesc": "Lord Morksittar is the head of Clan Skryre. Clan Skryre focuses on making\nthe most destrutive devices. Their past successes include the Doom Wheel,\nthe jezzail, the warpfire thrower, and the all too feared Screaming Bell\nTower. You can beleive that Morskittar is right now working on a more \ndestructive, if not effective, way to kill you.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 65,
+            "AC": -27,
+            "HP": "60d60+15000",
+            "Damage": "10d10+50",
+            "Gold": 75000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22736,
+            "Aliases": [
+                "Verminkin",
+                "lord",
+                "skaven",
+                "moulder"
+            ],
+            "ShortDesc": "Verminkin",
+            "LongDesc": "Lord Verminkin, the leader of Clan Moulder, waits to destroy you.\n",
+            "DetailedDesc": "Lord Verminkin is the highest ranking Skaven in the Clan Moulder. Moulder\nspecializes in mutating creatures through careful breeding processes and\nexposure to warpstone. Lord Verminkin oversaw the creation of the infamous\nRat Ogres. He surely has the power to call help to his side when needed.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -27,
+            "HP": "60d60+12000",
+            "Damage": "10d10+40",
+            "Gold": 125000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22737,
+            "Aliases": [
+                "Nightlord",
+                "Sneek",
+                "lord",
+                "skaven",
+                "eshin"
+            ],
+            "ShortDesc": "Lord Sneek",
+            "LongDesc": "Lord Sneek, Lord of Decay and Nightlord of Clan Eshin lurks in the shadows\nhere.\n",
+            "DetailedDesc": "Lord Sneek is one of the most feared Skaven ever. While he is not as good at\nthe art of subtle killing as his pet killer, Snikch, the very fact that he\ncommands Snikch's every move makes him even more fearsome. He has been on the\nCouncil of Thirteen for a very long time and is only slightly less adept at\nthe art of murder than Snikch.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 155,
+            "THAC0": 89,
+            "AC": -36,
+            "HP": "60d60+16000",
+            "Damage": "20d10+80",
+            "Gold": 5000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22738,
+            "Aliases": [
+                "Gnawdwell",
+                "lord",
+                "warlord",
+                "mors",
+                "skaven"
+            ],
+            "ShortDesc": "Warlord Gnawdwell",
+            "LongDesc": "Lord Gnawdwell, Chief Warlord and residing member of the Council of Thirteen is here.\n",
+            "DetailedDesc": "Warlord Gnawdwell is probably the most skilled fighter among the Skaven. He\nmight have a hard time killing Snikch, or Sneek, but when it comes to open\nbattle, where your enemy is seen, Gnawdwell shines. He has practiced every\nform of fighting known to man and some that have been kept secret from man.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 75,
+            "AC": -27,
+            "HP": "60d60+15000",
+            "Damage": "12d12+65",
+            "Gold": 75000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22739,
+            "Aliases": [
+                "Sleekit",
+                "master",
+                "grey",
+                "seer",
+                "skaven"
+            ],
+            "ShortDesc": "Sleekit",
+            "LongDesc": "Master Sleekit, the Grey Seer of the Council is researching some spells.\n",
+            "DetailedDesc": "Sleekit is the current residing Grey Seer on the Council of Thirteen. He\ninherited the position after an aweseome duel with, Kritislik, the Grey Seer\nwho formerly occupied the position. Sleekit trained Thanquol and now uses him\nas his little pet magician.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 127,
+            "THAC0": 72,
+            "AC": -100,
+            "HP": "60d60+8000",
+            "Damage": "10d10+40",
+            "Gold": 75000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22740,
+            "Aliases": [
+                "Velasque",
+                "lord",
+                "skaven",
+                "cleric"
+            ],
+            "ShortDesc": "Lord Velasque",
+            "LongDesc": "Cleric-Lord Velasque is learning how to keep his Skaven alive in battle.\n",
+            "DetailedDesc": "Velasque has occupied his Council position for several centuries. There is\nsome speculation as to whether this is due to the blessing of the Horned Rat,\nor because Velasque himself studies the art of healing and the preservation\nof life (a fact that has made the other Skaven to think he somewhat less of\na Skaven).\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -100,
+            "HP": "60d60+15000",
+            "Damage": "10d10+50",
+            "Gold": 75000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22741,
+            "Aliases": [
+                "Paskrit",
+                "lord",
+                "skaven"
+            ],
+            "ShortDesc": "Lord Paskrit",
+            "LongDesc": "Lord Paskrit is here, observing the stars.\n",
+            "DetailedDesc": "Lord Paskrit is one of the original twelve council members. He is so old that\nhe has devised a way to understand the future by looking at the stars. So here\nin his observatory, Paskrit sits and observes the stars to see what might \nhappen. Does he see your death in the near future?\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 65,
+            "AC": -100,
+            "HP": "60d60+7500",
+            "Damage": "10d10+60",
+            "Gold": 75000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22742,
+            "Aliases": [
+                "Skritisqueel",
+                "philosopher",
+                "skaven",
+                "lord"
+            ],
+            "ShortDesc": "Lord Skritisqueel",
+            "LongDesc": "Skritisqueel is here, thinking of a way to further the Skaven causes.\n",
+            "DetailedDesc": "Skritisqueel is the most intelligent of all Skaven. When the Skaven have a \nproblem they cannot figure out, they seek out Skritisqueel. Whil he would\nmuch rather spend his time considering the mysteries of the universe, and\nnot be bothered by the petty intrigues of the Skaven wars, he also knows\nthat if he wishes to maintain the blessing of the Horned Rat he must do what\nhe can to help his fellow Skaven out.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "60d60+1000",
+            "Damage": "10d10+35",
+            "Gold": 75000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22743,
+            "Aliases": [
+                "Vasque",
+                "librarian",
+                "skaven",
+                "lord"
+            ],
+            "ShortDesc": "Lord Vasque",
+            "LongDesc": "Lord Vasque is here, cataloging some documents.\n",
+            "DetailedDesc": "Lord Vasque has been on the council so long that his main concerc is to keep\na written account of all Skaven history. He remembers things that no other\nSkaven, with the exception of a few council members, do. This is what he does\nall day long, and he seems to enjoy it immensely. How odd for a Skaven...\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 65,
+            "AC": -27,
+            "HP": "60d60+1000",
+            "Damage": "10d10+45",
+            "Gold": 75000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22744,
+            "Aliases": [
+                "Rakscree",
+                "lord",
+                "skaven"
+            ],
+            "ShortDesc": "Lord Rakscree",
+            "LongDesc": "Lord Rakscree is here, getting ready to kill you!!!\n",
+            "DetailedDesc": "Nothing much is known about Lord Rakscree, except that he is possibly the\nmost mysterious of all Skaven (with the exception of maybe Sneek and Snikch).\nAll that is know about Rakscree is the rumors which circulate after some poor\nSkaven has been made to see him face to face...and was never seen again.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_GOOD"
+            ],
+            "Alignment": -1000,
+            "Level": 140,
+            "THAC0": 90,
+            "AC": -36,
+            "HP": "60d60+16000",
+            "Damage": "20d10+65",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22745,
+            "Aliases": [
+                "Thraskin",
+                "lord",
+                "skaven"
+            ],
+            "ShortDesc": "Lord Thraskin",
+            "LongDesc": "Lord Thraskin is pondering some concept here.\n",
+            "DetailedDesc": "Lord Thraskin is a very old and very evil Skaven. He is one of the few residing\nmembers who was there when the Horned Rat created the Thirteen Sided Pillar.\nWhile he was not one of the first members of the council, various events have\nbrought about his rise to the council, and he is now considered one of the\nmost reverred members of the council.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 140,
+            "THAC0": 85,
+            "AC": -25,
+            "HP": "60d60+13000",
+            "Damage": "10d10+55",
+            "Gold": 75000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22746,
+            "Aliases": [
+                "horned",
+                "rat",
+                "hornedrat"
+            ],
+            "ShortDesc": "the Horned Rat",
+            "LongDesc": "The Horned Rat towers above you like a monolith!!!\n",
+            "DetailedDesc": "The Horned Rat is the Skaven god. He was born out of the Chaos void, and \nloves nothing more than chaos personified. He stands a good twenty-five feet\ntall, looks alot like a Skaven, except that he has hoofed feet and horns on his\nhead. He does not look like someone you would like to mess with at all.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 90,
+            "AC": -100,
+            "HP": "60d60+30000",
+            "Damage": "20d20+100",
+            "Gold": 0,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22747,
+            "Aliases": [
+                "rat",
+                "ogre",
+                "boneripper"
+            ],
+            "ShortDesc": "Boneripper",
+            "LongDesc": "Boneripper, Thanquols personal body guard, is here, looking for Thanquol.\n",
+            "DetailedDesc": "Boneripper was given to Thanquol by the Council of Thirteen after he failed\nto destroy the city of Nuln. His failed attempt however, resulted in wiping\nout the Skaven warriors of Clan Skab, who had planned a revolt against the\nCouncil. This coupled with the fact that half of the city of Nuln was\ndestroyed, prompted the Council to reward Thanquol with a Rat Ogre who had\nbeen mutated by Clan Moulder to have three arms. Thanquol was so pleased with\nhis luck that he named the Rat Ogre Boneripper, after his former Rat Ogre\nbody guard who died at the hands of Gotrek, during the failed attempt to\ndestroy Nuln.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 60,
+            "AC": 4,
+            "HP": "60d60+5000",
+            "Damage": "7d7+35",
+            "Gold": 0,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22748,
+            "Aliases": [
+                "skaven",
+                "chieftan",
+                "mors"
+            ],
+            "ShortDesc": "a Skaven Chieftan",
+            "LongDesc": "A Skaven Chieftan of Clan Mors is training here.\n",
+            "DetailedDesc": "Chieftans are powerful indivuals who have fought their way up through the\nranks of the Skaven to become the lieutenants of a great Warlord.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 35,
+            "AC": -10,
+            "HP": "10d10+1000",
+            "Damage": "3d3+15",
+            "Gold": 10000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22749,
+            "Aliases": [
+                "warlord",
+                "general",
+                "skaven",
+                "mors"
+            ],
+            "ShortDesc": "a Warlord General",
+            "LongDesc": "A Skaven Warlord General is here, training his troops.\n",
+            "DetailedDesc": "A General is a powerful Clanrat Warlord who has either been given direct\ncommand of an army by order of the Council of Thirteen or is undertaking a\nconquest as part of his own private schemes.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 55,
+            "AC": -13,
+            "HP": "10d10+1500",
+            "Damage": "5d5+20",
+            "Gold": 35000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22750,
+            "Aliases": [
+                "champion",
+                "skaven",
+                "mors"
+            ],
+            "ShortDesc": "a Champion",
+            "LongDesc": "A Skaven Champion of Clan Mors is here.\n",
+            "DetailedDesc": "This Skaven doesn't look much different than the other Skaven you have seen\nhere in the Clan Mors Arena. He is most likely an especially powerful or\nadept Skaven warrior, hence the title Champion.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 45,
+            "AC": -12,
+            "HP": "10d10+1000",
+            "Damage": "3d3+20",
+            "Gold": 20000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22751,
+            "Aliases": [
+                "doomwheel"
+            ],
+            "ShortDesc": "a Doomwheel",
+            "LongDesc": "A Clan Skryre Doomwheel rumbles ominously toward you!!!\n",
+            "DetailedDesc": "The Doomwheel was designed by the mad genius Ikit Claw. It consists of a \nhuge wheel which is steered by a smaller wheel in the back of this fiendish\ncontraption. Within the larger of the wheels are six giant rats which are\nfed a stimulant drug, and driven into an insane frenzy by the lightning\nflashing and sparking around them. As they tumple over each other the wheel\nrumbles forward steadily, but inconsistantly. Their movements also power the\nhuge warp generators within the wheel's chasis. With three huge metal claws\nprotruding from the front and both sides, the generators unleash their\ndreadful warplightning when the Warlock Engineer throws the switch, lashing\nout at the nearest target, be they friend or foe.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 55,
+            "AC": -20,
+            "HP": "30d30+1500",
+            "Damage": "10d2+10",
+            "Gold": 0,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22752,
+            "Aliases": [
+                "chaos",
+                "spawn"
+            ],
+            "ShortDesc": "a chaos spawn",
+            "LongDesc": "A chaos spawn.\n",
+            "DetailedDesc": "This creature is a spawn of the swirling energies of chaos itself. There\nis no real way to describe it except to say that it hates any and everything.\nIt will attack randomly and regardless of race.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 55,
+            "AC": -10,
+            "HP": "10d10+2000",
+            "Damage": "9d4+25",
+            "Gold": 0,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22753,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino",
+                "immense"
+            ],
+            "ShortDesc": "an immense albino guard",
+            "LongDesc": "An immense albino guard of the Council of Thirteen is here, guarding his key.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22754,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino",
+                "immense"
+            ],
+            "ShortDesc": "an immense albino guard",
+            "LongDesc": "An immense albino guard of the Council of Thirteen is here, guarding his key.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22755,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino",
+                "immense"
+            ],
+            "ShortDesc": "an immense albino guard",
+            "LongDesc": "An immense albino guard of the Council of Thirteen is here, guarding his key.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22756,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino",
+                "immense"
+            ],
+            "ShortDesc": "an immense albino guard",
+            "LongDesc": "An immense albino guard of the Council of Thirteen is here, guarding his key.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22757,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino"
+            ],
+            "ShortDesc": "an albino guard",
+            "LongDesc": "An albino guard is here, guarding the gates.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22758,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino"
+            ],
+            "ShortDesc": "an albino guard",
+            "LongDesc": "An albino guard is here, guarding the gates.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22759,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino"
+            ],
+            "ShortDesc": "an albino guard",
+            "LongDesc": "An albino guard is here, guarding the gates.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22760,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino"
+            ],
+            "ShortDesc": "an albino guard",
+            "LongDesc": "An albino guard is here, guarding the gates.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 127,
+            "THAC0": 86,
+            "AC": -30,
+            "HP": "11d60+5200",
+            "Damage": "8d6+60",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22761,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino"
+            ],
+            "ShortDesc": "an albino guard",
+            "LongDesc": "An albino guard is here, guarding the gates.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22762,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino"
+            ],
+            "ShortDesc": "an albino guard",
+            "LongDesc": "An albino guard is here, guarding the gates.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22763,
+            "Aliases": [
+                "skaven",
+                "guard",
+                "albino"
+            ],
+            "ShortDesc": "an albino guard",
+            "LongDesc": "An albino guard is here, guarding the gates.\n",
+            "DetailedDesc": "This Skaven is huge in comparison to other Skaven you have seen. His fur is\nalso the purest white. You are not sure whether his skin color and size are\nthe result of magic, mutation, breeding, or just natural.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 70,
+            "AC": -20,
+            "HP": "11d60+2500",
+            "Damage": "8d6+35",
+            "Gold": 25000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22854,
+            "Aliases": [
+                "Thanquol",
+                "grey",
+                "seer",
+                "skaven"
+            ],
+            "ShortDesc": "Grey Seer Thanquol",
+            "LongDesc": "Grey Seer Thanquol is here, guarding the door.\n",
+            "DetailedDesc": "Thanquol is a cunning and exceptionally dangerous Grey Seer with a peculiar\ngift for avoiding death and inspiring fear in his fellow Skaven. In traditional\nSkaven fashion he clawed his way up the order of Grey Seers over the bodies\nof his opponents, entering the order as a novice and eventually consuming\nhis mentor. His rapid rise from the bowels of the Under-City beneath\nSkavenblight to the heights of power has been noticed by the Coincil of\nThirteen and it seems he has some patrons, as well as some enemies, amongst\nthe Lords of Decay.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 110,
+            "THAC0": 65,
+            "AC": -29,
+            "HP": "60d60+10000",
+            "Damage": "10d10+60",
+            "Gold": 75000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

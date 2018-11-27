@@ -1,0 +1,618 @@
+{
+    "mobs": [
+        {
+            "Number": 11500,
+            "Aliases": [
+                "ghost"
+            ],
+            "ShortDesc": "a ghost",
+            "LongDesc": "A ghost is haunting you.\n",
+            "DetailedDesc": "The ghost can barely be seen, but it sure is frightening!\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INVISIBLE"
+            ],
+            "Alignment": -500,
+            "Level": 11,
+            "THAC0": 10,
+            "AC": 10,
+            "HP": "5d5+100",
+            "Damage": "4d4+4",
+            "Gold": 1000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11501,
+            "Aliases": [
+                "skeleton"
+            ],
+            "ShortDesc": "a skeleton",
+            "LongDesc": "A skeleton is here, getting ready to attack you.\n",
+            "DetailedDesc": "You see an enchanted arrangement of bones leering at you.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": -200,
+            "Level": 4,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "4d4+40",
+            "Damage": "2d2+4",
+            "Gold": 50,
+            "XP": 750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11502,
+            "Aliases": [
+                "zombie"
+            ],
+            "ShortDesc": "a zombie",
+            "LongDesc": "A zombie is wandering around.\n",
+            "DetailedDesc": "You see a walking, decaying corpse filled with worms and surrounded by flies.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 5,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "3d3+40",
+            "Damage": "1d6+5",
+            "Gold": 15,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11503,
+            "Aliases": [
+                "vampire"
+            ],
+            "ShortDesc": "the vampire",
+            "LongDesc": "The evil vampire creeps out of shadows.\n",
+            "DetailedDesc": "You see a fanged man who comes from the shadows of night.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -500,
+            "Level": 10,
+            "THAC0": 7,
+            "AC": 0,
+            "HP": "10d8+6",
+            "Damage": "3d6+2",
+            "Gold": 200,
+            "XP": 1700,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 11504,
+            "Aliases": [
+                "vampire",
+                "lord"
+            ],
+            "ShortDesc": "the Vampire Lord",
+            "LongDesc": "A malevolent vampire glares hungrily at you.\n",
+            "DetailedDesc": "A tall pale skin figured humanoid looms before you. It'd the Vampire Lord! Glowing red\neyes peer out from his dark ankle length cloak. Long shiny front teeth gleam\nwith evil as a drop of blood trickles down his left cheek. Prepare to die!\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -500,
+            "Level": 67,
+            "THAC0": 40,
+            "AC": -10,
+            "HP": "20d10+1000",
+            "Damage": "6d6+20",
+            "Gold": 10000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 11505,
+            "Aliases": [
+                "lich"
+            ],
+            "ShortDesc": "a lich",
+            "LongDesc": "An evil lich lurks here.\n",
+            "DetailedDesc": "You see an abomination of evil.  A magic skeleton enshrouded in darkness,\nlurches over you.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "HIDE"
+            ],
+            "Alignment": -400,
+            "Level": 43,
+            "THAC0": 25,
+            "AC": -5,
+            "HP": "5d5+500",
+            "Damage": "5d5+5",
+            "Gold": 10000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11506,
+            "Aliases": [
+                "jeffrey",
+                "jef",
+                "dahmer",
+                "jeff"
+            ],
+            "ShortDesc": "Jeffrey Dahmer",
+            "LongDesc": "Jeffrey Dahmer is here, serving up a fabulous appetizer.\n",
+            "DetailedDesc": "You see a decayed figure of a man.  He has greyish skin, as if he himself\nhas crossed over into the world of darkness.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -700,
+            "Level": 47,
+            "THAC0": 60,
+            "AC": -5,
+            "HP": "10d10+2500",
+            "Damage": "7d7+20",
+            "Gold": 375,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 11507,
+            "Aliases": [
+                "samhain",
+                "necromancer",
+                "man"
+            ],
+            "ShortDesc": "Samhain",
+            "LongDesc": "Samhain sits here on his throne glaring at you with an evil grimace.\n",
+            "DetailedDesc": "You see a dark, evil, old man.  He has a long, silver beard, a blackened face\n(quite resembling an ancient corpse), and boney, withered hands.  He wears \na frayed, blackened robe and holds a marvelous cane.  You should think\ntwice about using magic against him!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 39,
+            "THAC0": 40,
+            "AC": -5,
+            "HP": "10d10+1000",
+            "Damage": "5d5+10",
+            "Gold": 25000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 11508,
+            "Aliases": [
+                "ghoul"
+            ],
+            "ShortDesc": "a ghoul",
+            "LongDesc": "A ghoul is lurking around, looking for flesh to eat.\n",
+            "DetailedDesc": "You see a walking, decaying corpse.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -400,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 7,
+            "HP": "2d8+2",
+            "Damage": "1d8+0",
+            "Gold": 50,
+            "XP": 300,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11509,
+            "Aliases": [
+                "skeleton",
+                "skeletal",
+                "guard",
+                "guardian"
+            ],
+            "ShortDesc": "the skeletal guardian",
+            "LongDesc": "A skeletal guardian is guarding the king.\n",
+            "DetailedDesc": "You see a skeleton wearing magical armor and holding a huge sword.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -800,
+            "Level": 12,
+            "THAC0": 13,
+            "AC": 10,
+            "HP": "2d100+50",
+            "Damage": "2d8+2",
+            "Gold": 2000,
+            "XP": 11000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11510,
+            "Aliases": [
+                "shadow",
+                "demon"
+            ],
+            "ShortDesc": "the shadow demon",
+            "LongDesc": "A shadow demon is hiding in the shadows, waiting for a kill.\n",
+            "DetailedDesc": "You see a dark shadow.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 3,
+            "THAC0": 6,
+            "AC": 10,
+            "HP": "2d30+5",
+            "Damage": "2d5+0",
+            "Gold": 200,
+            "XP": 2250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11525,
+            "Aliases": [
+                "yujdgek",
+                "vampire",
+                "troll"
+            ],
+            "ShortDesc": "Yujdgek",
+            "LongDesc": "Yujdgek stands here guarding the way.\n",
+            "DetailedDesc": "You see a small troll before you. Standing only 5 feet in stature, this little\nguy with his bulging muslces can pack a real wallop! He must be guarding something special.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 39,
+            "THAC0": 30,
+            "AC": -5,
+            "HP": "10d10+350",
+            "Damage": "5d5+10",
+            "Gold": 0,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 11526,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11527,
+            "Aliases": [
+                "vampire",
+                "bat"
+            ],
+            "ShortDesc": "a vampire bat",
+            "LongDesc": "A vampire bat swoops in and tries to bite you.\n",
+            "DetailedDesc": "The gnarled face of a vampire bat hovers in front of your face. Armed with\nsharp poisonous fangs, it goes for your neck!\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -1000,
+            "Level": 3,
+            "THAC0": 60,
+            "AC": 10,
+            "HP": "2d30+5",
+            "Damage": "2d5+0",
+            "Gold": 200,
+            "XP": 2250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11576,
+            "Aliases": [
+                "Leila",
+                "Vampiress",
+                "vampire",
+                "queen"
+            ],
+            "ShortDesc": "Leila, Queen of vampires",
+            "LongDesc": "Leila , Queen of vampires appears from the mist.\n",
+            "DetailedDesc": "Beautiful as a summer day, Liela, looks out of place down here. Long flowing\nred hair decorates her head while, puppy dog eyes peer out from her wonderful\nfigure. If not for the 2 inch fangs emmiting from her mouth, you would consider\ntaking her home to meet mom.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 51,
+            "THAC0": 40,
+            "AC": -30,
+            "HP": "30d10+2700",
+            "Damage": "5d5+15",
+            "Gold": 153000,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 11578,
+            "Aliases": [
+                "Soul",
+                "lost",
+                "ghost"
+            ],
+            "ShortDesc": "a wondering soul",
+            "LongDesc": "A wondering soul weeps before you.\n",
+            "DetailedDesc": "Caught between good and bad, this soul has been banished to this desolate \nlocation. The apparition approaches you as you enter.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 51,
+            "THAC0": 40,
+            "AC": -27,
+            "HP": "6d70+90",
+            "Damage": "4d5+25",
+            "Gold": 50000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11585,
+            "Aliases": [
+                "Ursula",
+                "zombie",
+                "lost"
+            ],
+            "ShortDesc": "Ursula the deformed zombie",
+            "LongDesc": "A deformed zombie gropes at you.\n",
+            "DetailedDesc": "Banished because of his deformed appearance a large zombie stands before you.\nStanding 7'0\" tall with 3 eyes, Ursula, doesn't even fit in down here and has\nbeen sent to separate chambers. She is not very happy and plans on taking her\naggressions out on you!\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "BLIND",
+                "SANCTUARY",
+                "POISON"
+            ],
+            "Alignment": -1000,
+            "Level": 50,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "1d1+2000",
+            "Damage": "4d5+25",
+            "Gold": 100000,
+            "XP": 125000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 11590,
+            "Aliases": [
+                "vampire",
+                "women",
+                "vampiress"
+            ],
+            "ShortDesc": "a vampiress",
+            "LongDesc": "A vampiress stands before you.\n",
+            "DetailedDesc": "The female counterpart of the vampires found in the castle, this women vampire\nglows with a nasty smelling aura that gives you the impression she might be\na little tougher than the vampires found above.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGR_GOOD",
+                "NOSLEEP"
+            ],
+            "Affections": [],
+            "Alignment": -500,
+            "Level": 20,
+            "THAC0": 15,
+            "AC": -10,
+            "HP": "10d10+0",
+            "Damage": "2d5+5",
+            "Gold": 300,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 11598,
+            "Aliases": [
+                "Crypt",
+                "Keeper",
+                "corpse"
+            ],
+            "ShortDesc": "the Crypt Keeper",
+            "LongDesc": "The Crypt Keeper decomposes before you.\n",
+            "DetailedDesc": "Centuries old, the Crypt Keeper has been telling stories that leave grown men\nweeping in puddles. Made of decomposed flesh and bones, he sits here and \nenjoys his seductive vampiresses. Startled by your appearance, he jumps to \nattack.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "POISON"
+            ],
+            "Alignment": -1000,
+            "Level": 79,
+            "THAC0": 65,
+            "AC": -27,
+            "HP": "50d100+2000",
+            "Damage": "5d5+50",
+            "Gold": 100000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 11599,
+            "Aliases": [
+                "hell",
+                "hound",
+                "hellhound"
+            ],
+            "ShortDesc": "a hellhound",
+            "LongDesc": "A Hellhound stands here, guarding the gate.\n",
+            "DetailedDesc": "You see a small powerful dog standing here.  He is made of pure concrete.  His\neyes glow brightly now that you are close to him.  You think you can here\na glow in the bowels of his soul.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 39,
+            "THAC0": 30,
+            "AC": -5,
+            "HP": "10d10+300",
+            "Damage": "5d5+10",
+            "Gold": 0,
+            "XP": 60000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

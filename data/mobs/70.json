@@ -1,0 +1,536 @@
+{
+    "mobs": [
+        {
+            "Number": 7000,
+            "Aliases": [
+                "troll",
+                "mud",
+                "mudtroll"
+            ],
+            "ShortDesc": "a mud troll",
+            "LongDesc": "A mud troll bares his yellowed fangs and growls as he looks at you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A small, twisted-bodied creature with large yellow fangs looks as if he\r\r\r\r\r\n\rwould like to have you as his next meal. Covered in yellowish-brown muck,\r\r\r\r\r\n\rhe looks right at home in this slimy place. He growls under his breath.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -500,
+            "Level": 21,
+            "THAC0": 4,
+            "AC": 2,
+            "HP": "1d100+100",
+            "Damage": "4d5+2",
+            "Gold": 100,
+            "XP": 20000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7001,
+            "Aliases": [
+                "bat"
+            ],
+            "ShortDesc": "a black bat",
+            "LongDesc": "A black bat hangs from the ceiling, sleeping quietly.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A small black bat hangs from the ceiling, sleeping peacefully, until\r\r\r\r\r\n\rarroused by an attack. When attacked, she will fight fiercely with tooth\r\r\r\r\r\n\rand claw, never giving in till the battle is done.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": -500,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d40+10",
+            "Damage": "1d6+0",
+            "Gold": 0,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 7002,
+            "Aliases": [
+                "rat"
+            ],
+            "ShortDesc": "a large sewer rat",
+            "LongDesc": "A large sewer rat stands here, looking at you hungrily.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A hairy sewer rat, coat caked with mud, looks at you speculatively. He\r\r\r\r\r\n\rhasn't eaten for a bit and thinks you look mighty tasty. His yellow eyes\r\r\r\r\r\n\rglow in the darkness menacingly. He makes chittering noises calling to his\r\r\r\r\r\n\rmates to come and join him in a nice, large meal.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 12,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "1d10+100",
+            "Damage": "2d4+1",
+            "Gold": 30,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7003,
+            "Aliases": [
+                "spider"
+            ],
+            "ShortDesc": "a red kia spider",
+            "LongDesc": "A red kia spider is here, spinning her web.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A large, red kia spider with huge fangs hangs heavily in its web. Its\r\r\r\r\r\n\rbright red color is a warning of sorts to the unwary. She moves her legs\r\r\r\r\r\n\rrestlessly, studying you intently. Venom drips from her fangs.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -700,
+            "Level": 6,
+            "THAC0": 0,
+            "AC": 3,
+            "HP": "1d12+13",
+            "Damage": "1d4+0",
+            "Gold": 1,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 7004,
+            "Aliases": [
+                "beetle"
+            ],
+            "ShortDesc": "a giant beetle",
+            "LongDesc": "A giant beetle crawls up the wall here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A giant beetle crawls up the wall, searching for things to eat. Its hard \r\r\r\r\r\n\rshell protects it well from most of the denisons here. Its antannae wiggle \r\r\r\r\r\n\rand it's wings flutter slightly as it moves from one side to the other.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -300,
+            "Level": 10,
+            "THAC0": 0,
+            "AC": 3,
+            "HP": "3d10+163",
+            "Damage": "2d4+2",
+            "Gold": 1000,
+            "XP": 9375,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7005,
+            "Aliases": [
+                "leech"
+            ],
+            "ShortDesc": "a giant leech",
+            "LongDesc": "A giant leech wriggles happily through the muck.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A giant leech wiggles through the muck, its skin slimy with the stagnant\r\r\r\r\r\n\rwater in which it lives. It is searching for its next meal and its attention\r\r\r\r\r\n\ris focused on you. Wriggling excitedly, it moves toward you.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "3d5+58",
+            "Damage": "1d7+0",
+            "Gold": 2,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7006,
+            "Aliases": [
+                "snake"
+            ],
+            "ShortDesc": "a snake",
+            "LongDesc": "A brilliant green and blue snake slithers toward you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A brilliant green and blue snake slithers though the muck in search of lunch.\r\r\r\r\r\n\rHe wears bright colors to make up for his nasty environment and, also, to\r\r\r\r\r\n\rwarn others that he is very dangerous. He looks at you speculatively.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -500,
+            "Level": 6,
+            "THAC0": 0,
+            "AC": 7,
+            "HP": "3d5+66",
+            "Damage": "1d9+0",
+            "Gold": 1,
+            "XP": 2500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7007,
+            "Aliases": [
+                "adventurer"
+            ],
+            "ShortDesc": "an adventurer",
+            "LongDesc": "An adventurer is wandering around, hopelessly lost.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A wandering adventurer has become hopelessly lost in the sewers. Painfully\r\r\r\r\r\n\rthin, he obviously does not like what can be found to eat down here. Aimless,\r\r\r\r\r\n\rhe wanders through the sewers looking for fluffy bunnies to kill.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 16,
+            "THAC0": 4,
+            "AC": 2,
+            "HP": "1d10+150",
+            "Damage": "2d6+1",
+            "Gold": 300,
+            "XP": 23750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7008,
+            "Aliases": [
+                "homunculus",
+                "homo"
+            ],
+            "ShortDesc": "a homunculus",
+            "LongDesc": "A homunculus is here, hovering above the muck.\r\r\r\r\r\n\r",
+            "DetailedDesc": "About a foot and a half tall, the homunculus has greenish reptilian skin and\r\r\r\r\r\n\ra bat-like mouth with teeth that pass on venom. It flexes its leathery wings\r\r\r\r\r\n\rand then springs to hover in midair, looking at you appraisingly.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -780,
+            "Level": 18,
+            "THAC0": 5,
+            "AC": 1,
+            "HP": "4d3+175",
+            "Damage": "2d6+2",
+            "Gold": 500,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7009,
+            "Aliases": [
+                "guard",
+                "rat",
+                ""
+            ],
+            "ShortDesc": "the Rat King's guard",
+            "LongDesc": "A guard of the Rat King stand here, watching closely.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The rat guard stands his post watchfully, eyes gleaming with surpressed hate.\r\r\r\r\r\n\rHis mottled fur is spattered with muck. Copying humans, he has aquired bits\r\r\r\r\r\n\rand pieces of garb which he wears, not always in its correct location. He\r\r\r\r\r\n\rbares his teeth fiercely as he looks at you.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -500,
+            "Level": 25,
+            "THAC0": 8,
+            "AC": -5,
+            "HP": "5d6+225",
+            "Damage": "3d3+3",
+            "Gold": 1200,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7010,
+            "Aliases": [
+                "King",
+                "rat",
+                "Hthalas"
+            ],
+            "ShortDesc": "Hthalas the Rat King",
+            "LongDesc": "A man-sized rat is here, looking at you with hate-filled eyes.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A man-size rat with gleaming yellow eyes and teeth to match looks at you\r\r\r\r\r\n\rspeculatively. Radiating an aura of evil, he stands with great assurance.\r\r\r\r\r\n\rHe is dressed in dirty red velvet and leather clothes and his fur looks\r\r\r\r\r\n\ras if it has been long since his last grooming.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -1000,
+            "Level": 40,
+            "THAC0": 15,
+            "AC": -5,
+            "HP": "5d5+1000",
+            "Damage": "4d8+2",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 7011,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7012,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7013,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7040,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7041,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7042,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7043,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7044,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7045,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 7046,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        }
+    ]
+}

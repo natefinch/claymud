@@ -1,0 +1,1472 @@
+{
+    "mobs": [
+        {
+            "Number": 22500,
+            "Aliases": [
+                "red",
+                "scorpion",
+                "bug"
+            ],
+            "ShortDesc": "a red scorpion",
+            "LongDesc": "A small, harmless-looking red scorpion stands its ground here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This tiny creature may be small, but its aggressive, and poisonous.\r\r\r\r\r\n\rIt would probably be in your best interest to avoid it.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -300,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 1,
+            "HP": "5d6+25",
+            "Damage": "1d5+0",
+            "Gold": 45,
+            "XP": 825,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22501,
+            "Aliases": [
+                "Khazim",
+                "khazim",
+                "salesman",
+                "merchant",
+                "jeweler",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Khazim the Jewelry dealer",
+            "LongDesc": "Khazim is standing behind the counter, guarding his merchandise closely.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Khazim is a medium-sized fellow that, despite the glamorous treasures he sells,\r\r\r\r\r\n\ris rather plain in appearance.  His only distinguishing features are a small\r\r\r\r\r\n\rmoustache, and a tattoo of a large diamond ring on his left arm.  The old\r\r\r\r\r\n\rleather beltpack he is wearing seems to bulge noticably, and you idly wonder\r\r\r\r\r\n\rif he keeps his profits in there.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 29,
+            "THAC0": 20,
+            "AC": -6,
+            "HP": "2d8+800",
+            "Damage": "4d10+2",
+            "Gold": 14500,
+            "XP": 61250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22502,
+            "Aliases": [
+                "kid",
+                "child"
+            ],
+            "ShortDesc": "a small child",
+            "LongDesc": "A child is here playing in the sand.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The child has dark eyes and is covered with sand.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "5d5+26",
+            "Damage": "1d5+0",
+            "Gold": 10,
+            "XP": 625,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22503,
+            "Aliases": [
+                "mutt",
+                "dog"
+            ],
+            "ShortDesc": "a stray mutt",
+            "LongDesc": "A stray mutt is wandering around here looking for food.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The mutt is a medium-sized mixed breed.  It is skinny, hungry, and not very\r\r\r\r\r\n\rfriendly. It scavenges its food from the streets, and generous shopkeepers.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d6+10",
+            "Damage": "1d4+0",
+            "Gold": 10,
+            "XP": 155,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22504,
+            "Aliases": [
+                "man",
+                "janitor",
+                "streetcleaner",
+                "cleaner"
+            ],
+            "ShortDesc": "a poor streetcleaner",
+            "LongDesc": "A poor streetcleaner is walking around cleaning up.\r\r\r\r\r\n\r",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "5d6+26",
+            "Damage": "1d5+0",
+            "Gold": 34,
+            "XP": 625,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22529,
+            "Aliases": [
+                "camel"
+            ],
+            "ShortDesc": "a bad-tempered camel",
+            "LongDesc": "A bad-tempered camel that has lost its owner is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The camel is quite large, in good health, and looks to be quite nasty.  You\r\r\r\r\r\n\rwonder where its owner is - and if they're still alive.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -200,
+            "Level": 8,
+            "THAC0": 14,
+            "AC": 0,
+            "HP": "8d5+100",
+            "Damage": "1d6+0",
+            "Gold": 200,
+            "XP": 5700,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22550,
+            "Aliases": [
+                "rakul",
+                "guildmaster"
+            ],
+            "ShortDesc": "Rakul the Guildmaster",
+            "LongDesc": "The Guildmaster stands here waiting to train you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Rakul is a young, well-built man of strength and speed.  His backstab is\r\r\r\r\r\n\rlightning fast and deadly.  His dark eyes betray little emotion, and his\r\r\r\r\r\n\rexpression is that of a wary and sharp-eyed killer.  He eyes you coldly.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 75,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "16d10+8500",
+            "Damage": "1d8+50",
+            "Gold": 75000,
+            "XP": 350000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22551,
+            "Aliases": [
+                "gazeem",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Gazeem",
+            "LongDesc": "Gazeem stands here amidst a pile of debris.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This shifty-eyed little man gives you the immediate impression that you are\r\r\r\r\r\n\rbeing scrutinized closely.  He \"works\" for Jafar sometimes, and you hope you\r\r\r\r\r\n\rnever have to find out in exactly what capacity.  He has a reputation for\r\r\r\r\r\n\rthievery, and it is also rumored that he would slit your throat to obtain\r\r\r\r\r\n\rwhat he wants from you.  You quickly decide you made a wrong turn somewhere.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 40,
+            "THAC0": 16,
+            "AC": -5,
+            "HP": "7d8+1000",
+            "Damage": "6d4+4",
+            "Gold": 2000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22552,
+            "Aliases": [
+                "rahul",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Rahul",
+            "LongDesc": "A seedy-looking shopkeeper is standing behind the counter.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Rahul is a rather short, extremely skinny man in his middle ages.  His attire\r\r\r\r\r\n\ris worn, and baggy.  On his head he wears a turban that has seen better days,\r\r\r\r\r\n\rand his leather thongs have been tied together with pieces of twine.  You get\r\r\r\r\r\n\rthe feeling that the used rug business hasn't been so good, and wonder where\r\r\r\r\r\n\rhe finds gold to put food on his family's table.  Maybe you don't want to know.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -300,
+            "Level": 25,
+            "THAC0": 16,
+            "AC": -4,
+            "HP": "7d10+800",
+            "Damage": "5d4+3",
+            "Gold": 900,
+            "XP": 41000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22553,
+            "Aliases": [
+                "ahkim",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Ahkim",
+            "LongDesc": "Ahkim stands here measuring a strip of leather.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A rather short, seasoned-looking chap, Ahkim is well-up in years.  His health\r\r\r\r\r\n\ris perfect however, and he makes a good living here.  His workmanship is of\r\r\r\r\r\n\rthe finest quality, and his prices reasonable.  His features are sharp, and so\r\r\r\r\r\n\rare his eyes - thieves stay well clear of this shop.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 500,
+            "Level": 24,
+            "THAC0": 15,
+            "AC": -3,
+            "HP": "9d10+700",
+            "Damage": "4d4+4",
+            "Gold": 800,
+            "XP": 39000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22554,
+            "Aliases": [
+                "ali",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Ali",
+            "LongDesc": "Ali slides out from behind the counter and grins evilly.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Ali is tall, skinny, and very ugly.  His clothes are dirty, he is unclean and\r\r\r\r\r\n\runshaven. Under his left eye there is a hideous scar that looks like it was\r\r\r\r\r\n\rcaused by a knife wound.  You decide to beat a hasty retreat.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -700,
+            "Level": 27,
+            "THAC0": 14,
+            "AC": -2,
+            "HP": "5d7+970",
+            "Damage": "4d5+2",
+            "Gold": 500,
+            "XP": 48000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22556,
+            "Aliases": [
+                "fouad",
+                "shopkeeper",
+                "salesman"
+            ],
+            "ShortDesc": "Fouad the camel salesman",
+            "LongDesc": "Fouad the used camel salesman is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Fouad is of medium height and leans toward the heavy side.  He inherited\r\r\r\r\r\n\rthe business from his father Ahkmed, and visits his fathers grave in the\r\r\r\r\r\n\rMidgaard Cemetery once a week on Sundays.  He has a nasty scar on his neck.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 100,
+            "Level": 75,
+            "THAC0": 25,
+            "AC": -10,
+            "HP": "4d9+10000",
+            "Damage": "3d8+30",
+            "Gold": 90000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22557,
+            "Aliases": [
+                "abdul",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Abdul",
+            "LongDesc": "Abdul is standing here filling a canteen with water from a barrel.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Abdul is a short man of medium build.  His beard is neatly trimmed, and he\r\r\r\r\r\n\rdresses well.  He keeps his shop clean and sanitary, and tests his water on\r\r\r\r\r\n\ra regular basis for contamination.  He bows as you enter his shop.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 500,
+            "Level": 75,
+            "THAC0": 21,
+            "AC": -10,
+            "HP": "16d10+10000",
+            "Damage": "1d8+55",
+            "Gold": 91500,
+            "XP": 350000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22558,
+            "Aliases": [
+                "rasmed",
+                "postmaster",
+                "post",
+                "master"
+            ],
+            "ShortDesc": "Rasmed the Postmistress",
+            "LongDesc": "Rasmed is waiting here to help you with your mail.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Rasmed has been the Postmistress of Agrabah since her husband was mortally\r\r\r\r\r\n\rwounded by a kick to the head from one of Fouads used camels.  She is neat\r\r\r\r\r\n\rand orderly, and the mailroom is in good order.  Her children all help her to\r\r\r\r\r\n\rdeliver the mail to the local townspeople, and she is friendly to outsiders.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 60,
+            "AC": -25,
+            "HP": "1d1+30000",
+            "Damage": "1d8+55",
+            "Gold": 72400,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 22559,
+            "Aliases": [
+                "ramin",
+                "guildmaster"
+            ],
+            "ShortDesc": "Ramin the Guildmaster",
+            "LongDesc": "The Guildmaster stands here waiting to train you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Ramin is of medium build and height, yet is one of the most powerful men\r\r\r\r\r\n\rin Agrabah.  He is an older man, with a long grey beard and moustache.  He\r\r\r\r\r\n\rsmiles at you as you enter the Guild, and you feel more at ease.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 21,
+            "AC": -10,
+            "HP": "16d10+9000",
+            "Damage": "1d8+55",
+            "Gold": 80000,
+            "XP": 350000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22560,
+            "Aliases": [
+                "shakka",
+                "storekeeper"
+            ],
+            "ShortDesc": "Shakka",
+            "LongDesc": "Shakka stands here behind the counter waiting to serve you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Shakka is a beautiful, dark-skinned woman with raven black hair and eyes.\r\r\r\r\r\n\rShe is an accomplished musicienne, and is often invited to the Sultans Palace\r\r\r\r\r\n\rto play and sing for the Sultan's social affairs.  She is quiet, shy, and\r\r\r\r\r\n\rthere is a mysteriousness about her that fascinates you.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 400,
+            "Level": 23,
+            "THAC0": 15,
+            "AC": -3,
+            "HP": "9d10+650",
+            "Damage": "3d4+4",
+            "Gold": 700,
+            "XP": 39000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 22561,
+            "Aliases": [
+                "khazil",
+                "armorer",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Khazil the Armorer",
+            "LongDesc": "Khazil the Armorer is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Khazil is a large, muscular, tough-looking guy.  He wears various pieces of\r\r\r\r\r\n\rstrange-looking armor on his body that looks very awkward and heavy.  He seems\r\r\r\r\r\n\rto be quite accustomed to wearing it, however, and his movements seem to be\r\r\r\r\r\n\runaffected by it.  You marvel at the strength of this man, as that armor must\r\r\r\r\r\n\rweigh at least half as much as he.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -300,
+            "Level": 75,
+            "THAC0": 21,
+            "AC": -10,
+            "HP": "16d10+8700",
+            "Damage": "1d8+55",
+            "Gold": 102000,
+            "XP": 350000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22562,
+            "Aliases": [
+                "majiq",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Majiq",
+            "LongDesc": "Majiq is standing here amidst an array of colorful bottles.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Majiq is not a native to this country, and in fact, nobody in Agrabah really\r\r\r\r\r\n\rknows where she comes from.  She has long, tawny-coloured hair, and her eyes\r\r\r\r\r\n\rchange from blue to green with the light.  She is of slender build, and her\r\r\r\r\r\n\reyes speak of mysteries within.  She is friendly and gets along very well with\r\r\r\r\r\n\rthe native people here.  Along with the feeling of confusion and mystery, you\r\r\r\r\r\n\rare suddenly jolted by a surge of seemingly boundless magickal power that\r\r\r\r\r\n\roverwhelms you as she turns her eyes to meet yours.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 500,
+            "Level": 75,
+            "THAC0": 18,
+            "AC": -6,
+            "HP": "8d7+10000",
+            "Damage": "6d4+30",
+            "Gold": 75000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 22563,
+            "Aliases": [
+                "ahman",
+                "guildmaster"
+            ],
+            "ShortDesc": "Ahman the Guildmaster",
+            "LongDesc": "Ahman the Mages Guildmaster is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Ahman is rather tall and very thin.  He wears a long purple robe that reaches\r\r\r\r\r\n\rto the floor, and a purple turban.  He is a young man, yet his wisdom far\r\r\r\r\r\n\rexceeds others of his years.  His eyes betray little, and his expression is\r\r\r\r\r\n\rwary, and distant.  You feel an immense power emanating from him.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "16d10+8300",
+            "Damage": "1d8+50",
+            "Gold": 80000,
+            "XP": 350000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22564,
+            "Aliases": [
+                "rabul",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Rabul",
+            "LongDesc": "Rabul is here waiting to serve you a good meal.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Rabul is of medium height and slender build.  He is neatly dressed, and has\r\r\r\r\r\n\ra beard and moustache.  He is very friendly, and laughs and jokes with his\r\r\r\r\r\n\rcustomers while serving them hot drinks and good food.  He walks with a slight\r\r\r\r\r\n\rlimp due to an incident with a very nasty camel a few years ago.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 800,
+            "Level": 30,
+            "THAC0": 15,
+            "AC": -3,
+            "HP": "8d10+650",
+            "Damage": "3d5+3",
+            "Gold": 90000,
+            "XP": 38000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22565,
+            "Aliases": [
+                "abul",
+                "guildmaster"
+            ],
+            "ShortDesc": "Abul the Guildmaster",
+            "LongDesc": "Your Guildmaster stands here waiting to train you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Before you stands the most impressive Warrior you have ever met.  For the\r\r\r\r\r\n\rmen of this country, he is massive - and his strength exceeds that of three\r\r\r\r\r\n\rstrong, healthy men.  He has scars all over his body from battle - you cringe\r\r\r\r\r\n\rto think of the fate of his opponents.  You suddenly feel very small.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 21,
+            "AC": -10,
+            "HP": "16d10+10000",
+            "Damage": "1d8+60",
+            "Gold": 80000,
+            "XP": 400000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22566,
+            "Aliases": [
+                "ahmed",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Ahmed the Tailor",
+            "LongDesc": "Ahmed is sitting here tailoring a pair of pants.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Ahmed is a short, friendly guy of slender build.  He is of a rather quiet\r\r\r\r\r\n\rnature, but once he gets to know a person, he will joke and engage in long\r\r\r\r\r\n\rconversations. He is dressed impeccably, and is an excellent tailor.  The\r\r\r\r\r\n\rtwinkle in his eyes tells you he has a rarely-seen mischievious nature.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 800,
+            "Level": 24,
+            "THAC0": 16,
+            "AC": -3,
+            "HP": "7d9+700",
+            "Damage": "5d3+4",
+            "Gold": 900,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22567,
+            "Aliases": [
+                "brahim",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Brahim the WeaponsMaster",
+            "LongDesc": "Brahim stands here eyeing you coldly.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Brahim looks like one mean mother.  You cringe under his gaze.  He is quite\r\r\r\r\r\n\rtall, and built like a tank.  You wonder if all those bulges under his clothes\r\r\r\r\r\n\rare muscles, or concealed weapons.  At any rate, his expression sends you a\r\r\r\r\r\n\rloud and clear message, and you decide messing with him is out of the question.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -400,
+            "Level": 75,
+            "THAC0": 21,
+            "AC": -10,
+            "HP": "16d10+8700",
+            "Damage": "1d8+55",
+            "Gold": 102000,
+            "XP": 350000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22568,
+            "Aliases": [
+                "haslam",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Haslam",
+            "LongDesc": "Haslam is behind the counter waiting to serve you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Haslam is of medium height and build, has a rather unkempt beard and\r\r\r\r\r\n\rmoustache, and a very sharp eye for thieves.  He is quite muscular, with\r\r\r\r\r\n\ra nasty-looking scar over his right eyebrow, and in excellent health.  He's\r\r\r\r\r\n\rnot such a friendly guy - although he likes outsiders that have lots of money.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 600,
+            "Level": 75,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "16d10+8600",
+            "Damage": "1d8+50",
+            "Gold": 90000,
+            "XP": 350000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22569,
+            "Aliases": [
+                "rajiv",
+                "baker"
+            ],
+            "ShortDesc": "Rajiv the Baker",
+            "LongDesc": "Rajiv stands behind the counter waiting to serve you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Rajiv is a short and very fat man.  He has a short, neatly trimmed beard and\r\r\r\r\r\n\rmoustache, and is fastidious about cleanliness and sanitation.  His pastries\r\r\r\r\r\n\rand breads are delicious, and he spends almost as much time sampling them as\r\r\r\r\r\n\rhe does baking them.  Don't let his size fool you though - that isn't all fat,\r\r\r\r\r\n\rand there are very few people in Agrabah that would dare to mess with him.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 600,
+            "Level": 75,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "16d10+8500",
+            "Damage": "1d8+50",
+            "Gold": 91500,
+            "XP": 350000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22570,
+            "Aliases": [
+                "raslim",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Raslim",
+            "LongDesc": "Raslim stands here in a bloody apron.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Raslim is a very large man, and extremely strong.  He has small, beady eyes\r\r\r\r\r\n\rthat are sharp as an eagles.  He buys a lot of his meat from Fouad, the used\r\r\r\r\r\n\rcamel salesman, and is very good with a butchers knife and meat cleaver, so\r\r\r\r\r\n\rit would not be such a good idea to irritate him.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 45,
+            "THAC0": 18,
+            "AC": -5,
+            "HP": "6d7+975",
+            "Damage": "3d7+4",
+            "Gold": 500,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22571,
+            "Aliases": [
+                "merhlin",
+                "shopkeeper",
+                "wizard",
+                "magician"
+            ],
+            "ShortDesc": "Merhlin",
+            "LongDesc": "Merhlin stands here pondering over an old scroll.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A small, thin man, Merhlin looks deceptively harmless.  He is dressed in a\r\r\r\r\r\n\rdark purple robe that has a strange gold symbol embossed on the back.  He\r\r\r\r\r\n\rties it with a braided belt that has strange charms dangling from it, and\r\r\r\r\r\n\rwears a dark purple turban with an eerie glowing stone in the center.  As he\r\r\r\r\r\n\rturns his gaze on you, you feel a powerful burst of energy hit you full-force.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 400,
+            "Level": 75,
+            "THAC0": 18,
+            "AC": -8,
+            "HP": "8d7+10000",
+            "Damage": "6d4+30",
+            "Gold": 900,
+            "XP": 51000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22573,
+            "Aliases": [
+                "hesthra",
+                "receptionist"
+            ],
+            "ShortDesc": "Hesthra",
+            "LongDesc": "Hesthra is standing here behind the counter.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Hesthra is a young, slender, dark-eyed beauty.  However, she was born with\r\r\r\r\r\n\ra birth defect, and one leg is shorter than the other, causing her to limp.\r\r\r\r\r\n\rHer husband drinks heavily, but is a good provider, and her children are well\r\r\r\r\r\n\rlooked after.  She smiles at you as you enter the room.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 21,
+            "AC": -10,
+            "HP": "16d10+10000",
+            "Damage": "1d8+55",
+            "Gold": 20000,
+            "XP": 350000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 22574,
+            "Aliases": [
+                "tanbami",
+                "cryogenist"
+            ],
+            "ShortDesc": "Tanbami",
+            "LongDesc": "Tanbami is standing here behind the counter.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Tanbami is a short, rather heavy set woman, with dark eyes and bushy\r\r\r\r\r\n\reyebrows. She is in her later years, and has many deep wrinkles in her\r\r\r\r\r\n\rface. Her family is not one of the richest in Agrabah - but they make a decent\r\r\r\r\r\n\rliving between all of them.  She smiles at you as you walk in the door.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 21,
+            "AC": -10,
+            "HP": "16d10+10000",
+            "Damage": "1d8+55",
+            "Gold": 20000,
+            "XP": 350000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 22575,
+            "Aliases": [
+                "hestrim",
+                "fruitdealer",
+                "shopkeeper",
+                "salesman"
+            ],
+            "ShortDesc": "Hestrim the Fruit salesman",
+            "LongDesc": "Hestrim stands here, watching everyone nervously.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Hestrim is a tall skinny man, with a dark complection typical of Persians.\r\r\r\r\r\n\rHe has small beads of sweat rolling from his forehead, probably because he\r\r\r\r\r\n\ris so nervous.  He literally jumps at every movement and sound, and is\r\r\r\r\r\n\rnever at rest.  You wonder how on earth someone could ever sneak up\r\r\r\r\r\n\ron him.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 500,
+            "Level": 36,
+            "THAC0": 20,
+            "AC": -3,
+            "HP": "2d8+900",
+            "Damage": "7d5+13",
+            "Gold": 55000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22576,
+            "Aliases": [
+                "mesra",
+                "datedealer",
+                "shopkeeper",
+                "salesman"
+            ],
+            "ShortDesc": "Mesra the Date Woman",
+            "LongDesc": "Mesra stands here, thinking about times of the past and idly watching passerbys.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Mesra is a frail looking woman indeed - her income was severely diminished\r\r\r\r\r\n\rwhen her husband passed on, and her diet has suffered because of it.  Her\r\r\r\r\r\n\rwaist is hardly as big around as your thigh, and you wonder how this poor\r\r\r\r\r\n\rwoman survives.  She seems distracted and less than interested in the dates\r\r\r\r\r\n\rshe sells here.  You feel pity for her, and deep inside you wonder if you\r\r\r\r\r\n\rcould take advantage of such a poor soul.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 19,
+            "THAC0": 13,
+            "AC": 8,
+            "HP": "2d8+350",
+            "Damage": "1d8+7",
+            "Gold": 5000,
+            "XP": 7500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 22577,
+            "Aliases": [
+                "hagul",
+                "figdealer",
+                "salesman",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Hagul the Retail-Fig-Dealer",
+            "LongDesc": "Hagul stands here, demonstrating how to eat the fresh figs that he sells.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Hagul is a rather plump man - which you suppose comes with the trade of\r\r\r\r\r\n\rFig-dealing. His hands are stained from eating figs all day, and as\r\r\r\r\r\n\rhe looks up at you and offers to shake your hand out of salutation, you\r\r\r\r\r\n\rrespectfully decline.  Although Hagul looks slightly hurt, you think\r\r\r\r\r\n\rhe'll manage to get over it.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 500,
+            "Level": 23,
+            "THAC0": 15,
+            "AC": 1,
+            "HP": "2d8+650",
+            "Damage": "5d3+3",
+            "Gold": 30000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22578,
+            "Aliases": [
+                "tamin",
+                "salesman",
+                "shopkeeper"
+            ],
+            "ShortDesc": "Tamin the Pistachio-man",
+            "LongDesc": "Tamin is standing here, advertising his pistachio's quite loudly.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Tamin is a clean-cut, handsome looking fellow.  Were it not for his \r\r\r\r\r\n\rheight of 5'2\", you think you may have found him easy to be around. As\r\r\r\r\r\n\rit is, you try to stifle your laughter as you watch him standing on\r\r\r\r\r\n\ra wooden crate, yelling about how good his fresh pistachios are.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 500,
+            "Level": 30,
+            "THAC0": 18,
+            "AC": -2,
+            "HP": "2d8+800",
+            "Damage": "5d4+14",
+            "Gold": 45000,
+            "XP": 41000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22579,
+            "Aliases": [
+                "hakico"
+            ],
+            "ShortDesc": "Crazy Hakico",
+            "LongDesc": "Crazy Hakico is standing here in front of his wagon.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Hakico is short, pudgy, and smells very, very strongly of camel dung.  ICK.\r\r\r\r\r\n\rHe has a deal going with Fouad the used camel salesman here in town, and gets\r\r\r\r\r\n\rthe \"fertilizer\" dirt cheap.  (For the price of cleaning it up.)  Of course,\r\r\r\r\r\n\rFouad gets a cut of the profit, or Hakico gets a cut of the throat.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 300,
+            "Level": 44,
+            "THAC0": 17,
+            "AC": -5,
+            "HP": "8d7+1200",
+            "Damage": "4d4+2",
+            "Gold": 700,
+            "XP": 48000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22580,
+            "Aliases": [
+                "camel",
+                "young"
+            ],
+            "ShortDesc": "a young camel",
+            "LongDesc": "A young healthy camel is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The camel is in fairly good condition in spite of being worked hard as a\r\r\r\r\r\n\rpack-animal.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "1d12+130",
+            "Damage": "1d8+0",
+            "Gold": 0,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22581,
+            "Aliases": [
+                "camel",
+                "strong"
+            ],
+            "ShortDesc": "a strong camel",
+            "LongDesc": "An old, but strong camel is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The camel is old, but can still get from place to place.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 50,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d12+60",
+            "Damage": "1d6+0",
+            "Gold": 0,
+            "XP": 1250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22582,
+            "Aliases": [
+                "camel",
+                "old"
+            ],
+            "ShortDesc": "a very old camel",
+            "LongDesc": "A very old camel is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The camel is old and weak, but loyal to its owner.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "1d6+30",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 625,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 22583,
+            "Aliases": [
+                "taslim",
+                "guildmaster",
+                "master"
+            ],
+            "ShortDesc": "Taslim the Guildmaster",
+            "LongDesc": "Your guildmaster is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Even though your guildmaster looks old and tired, you can clearly see the\r\r\r\r\r\n\rvast amount of knowledge he possesses.  He is wearing fine magic clothing,\r\r\r\r\r\n\rand you notice that he is surrounded by a blue shimmering aura.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "1d1+10000",
+            "Damage": "1d8+50",
+            "Gold": 18794,
+            "XP": 380000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22584,
+            "Aliases": [
+                "knight",
+                "guildguard",
+                "guildg"
+            ],
+            "ShortDesc": "the Paladin Knight",
+            "LongDesc": "A Paladin knight is guarding the entrance.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is an expert warrior who has attained knighthood through countless\r\r\r\r\r\n\rchivalrous deeds.  His duty is to protect the Guild of Paladins, and his\r\r\r\r\r\n\rexpert skills combined with his experience in warfare makes him a deadly\r\r\r\r\r\n\ropponent.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 800,
+            "Level": 55,
+            "THAC0": 20,
+            "AC": -8,
+            "HP": "16d10+2950",
+            "Damage": "2d8+33",
+            "Gold": 2000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22585,
+            "Aliases": [
+                "muhaha",
+                "guildmaster",
+                "master"
+            ],
+            "ShortDesc": "Muhaha the Guildmaster",
+            "LongDesc": "Your guildmaster is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Even though your guildmaster looks tired and battle scarred, you can\r\r\r\r\r\n\rclearly see the vast amount of knowledge he possesses.  He is\r\r\r\r\r\n\rwearing dark black armor, and you notice that he is surrounded by\r\r\r\r\r\n\ra black aura.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 75,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "1d1+10000",
+            "Damage": "1d8+50",
+            "Gold": 18794,
+            "XP": 380000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22586,
+            "Aliases": [
+                "knight",
+                "guildguard",
+                "guildg"
+            ],
+            "ShortDesc": "the Dark Knight",
+            "LongDesc": "A dark knight is guarding the entrance.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is an expert warrior who has attained knighthood through many battles and\r\r\r\r\r\n\rmuch bloodshed.  His duty is to protect the Guild of AntiPaladins, and his\r\r\r\r\r\n\rexpert skill combined with his experience in warfare makes him a deadly\r\r\r\r\r\n\ropponent.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 800,
+            "Level": 55,
+            "THAC0": 20,
+            "AC": -8,
+            "HP": "16d10+2950",
+            "Damage": "2d8+33",
+            "Gold": 2000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22587,
+            "Aliases": [
+                "thief",
+                "guildguard",
+                "guildg"
+            ],
+            "ShortDesc": "the Thieves Knight",
+            "LongDesc": "A thief is guarding the entrance.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is a tough opponent who has attained knighthood through countless battles\r\r\r\r\r\n\rand much bloodshed.  His duty is to protect the Guild of Thieves, and his\r\r\r\r\r\n\rexpert skill combined with his speed and cunning make him a deadly opponent.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 800,
+            "Level": 55,
+            "THAC0": 20,
+            "AC": -8,
+            "HP": "16d10+2950",
+            "Damage": "2d8+33",
+            "Gold": 2000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22588,
+            "Aliases": [
+                "knight",
+                "guildguard",
+                "guildg"
+            ],
+            "ShortDesc": "a Knight Templar",
+            "LongDesc": "A Knight Templar is guarding the entrance.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is an expert cleric who has attained knighthood through countless\r\r\r\r\r\n\rchivalrous deeds.  His duty is to protect the Guild of Clerics, and his\r\r\r\r\r\n\rexpert skills combined with his experience in warfare makes him a deadly\r\r\r\r\r\n\ropponent, and not to be trifled with.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 800,
+            "Level": 55,
+            "THAC0": 20,
+            "AC": -8,
+            "HP": "16d10+2950",
+            "Damage": "2d8+33",
+            "Gold": 2000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22589,
+            "Aliases": [
+                "knight",
+                "guildguard",
+                "guard",
+                "mage"
+            ],
+            "ShortDesc": "the Mage Knight",
+            "LongDesc": "A Mage is guarding the entrance.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is an expert magic user and fearless warrior.  His duty is to protect the\r\r\r\r\r\n\rGuild of Mages, and his expertise in spell casting combined with his experience\r\r\r\r\r\n\rin warfare makes him a deadly opponent.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 800,
+            "Level": 55,
+            "THAC0": 20,
+            "AC": -8,
+            "HP": "16d10+2950",
+            "Damage": "2d8+33",
+            "Gold": 2000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22590,
+            "Aliases": [
+                "knight",
+                "guildg"
+            ],
+            "ShortDesc": "the Knight",
+            "LongDesc": "A knight is guarding the entrance.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is an expert warrior who has attained knighthood through countless\r\r\r\r\r\n\rchivalrous deeds.  His duty is to protect the Guild of Swordsmen and his\r\r\r\r\r\n\rextreme skill combined with his experience in warfare makes him a deadly\r\r\r\r\r\n\ropponent.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 800,
+            "Level": 55,
+            "THAC0": 20,
+            "AC": -8,
+            "HP": "16d10+2950",
+            "Damage": "2d8+33",
+            "Gold": 2000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 22591,
+            "Aliases": [
+                "arab",
+                "guard"
+            ],
+            "ShortDesc": "an Arabian guard",
+            "LongDesc": "An Arabian guard is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is a large, strong, trustworthy (?) guard.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 1000,
+            "Level": 29,
+            "THAC0": 20,
+            "AC": 1,
+            "HP": "1d24+375",
+            "Damage": "1d8+12",
+            "Gold": 500,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

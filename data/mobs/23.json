@@ -1,0 +1,1092 @@
+{
+    "mobs": [
+        {
+            "Number": 2300,
+            "Aliases": [
+                "knight",
+                "ethereal",
+                "dark"
+            ],
+            "ShortDesc": "the Dark Ethereal Knight",
+            "LongDesc": "A dark ethereal knight hovers over the bloody clearing.\n",
+            "DetailedDesc": "The ethereal knight is clad in shadowy black armor. It appears as though he\nwas involved in the carnage that occurred here. His soul is trapped here, as\nhe waits for release.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 35,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "1d1+799",
+            "Damage": "4d7+15",
+            "Gold": 10000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2301,
+            "Aliases": [
+                "treant",
+                "tree"
+            ],
+            "ShortDesc": "the Old Treant",
+            "LongDesc": "A huge, gnarled tree stands here, battered by age and nature.\n",
+            "DetailedDesc": "The old tree looks as though the wind has battered and torn at it for years.\nVery few leaves remain. Its limbs are crooked and gnarled. It moans as the \nwind pushes it back and forth.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 250,
+            "Level": 20,
+            "THAC0": 20,
+            "AC": -3,
+            "HP": "250d1+50",
+            "Damage": "3d6+5",
+            "Gold": 5000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2302,
+            "Aliases": [
+                "dweller",
+                "cave"
+            ],
+            "ShortDesc": "the Cave Dweller",
+            "LongDesc": "A slimy, gross creature is here munching on a corpse.\n",
+            "DetailedDesc": "The cave dweller looks like a mixture of several disgusting monsters. It has\na bird's beak, huge white eyes, a furry body, and long clawed hands and feet.\nIt sees you and snarls.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_MAGIC",
+                "PROTECT_GOOD"
+            ],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 15,
+            "AC": 2,
+            "HP": "150d1+75",
+            "Damage": "3d6+3",
+            "Gold": 2500,
+            "XP": 21000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2303,
+            "Aliases": [
+                "toad",
+                "rock"
+            ],
+            "ShortDesc": "the Rock Toad",
+            "LongDesc": "A rather large rock toad sits here, croaking loudly.\n",
+            "DetailedDesc": "A grey toad. Its about the size of a cow. Small horns grow all over its body.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -250,
+            "Level": 14,
+            "THAC0": 14,
+            "AC": 4,
+            "HP": "150d1+35",
+            "Damage": "2d8+3",
+            "Gold": 1500,
+            "XP": 17500,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2304,
+            "Aliases": [
+                "weeping",
+                "willow",
+                "tree"
+            ],
+            "ShortDesc": "the Weeping Willow",
+            "LongDesc": "A large willow tree stands here, weeping.\n",
+            "DetailedDesc": "The weeping willow has long thins branches. These branches seem to droop in\nanguish and dismay. You hear a faint sound of crying.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 25,
+            "THAC0": 20,
+            "AC": -5,
+            "HP": "550d1+50",
+            "Damage": "4d6+5",
+            "Gold": 9000,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 2305,
+            "Aliases": [
+                "mist",
+                "mistling"
+            ],
+            "ShortDesc": "the Mistling",
+            "LongDesc": "A mistling emerges from the mist surrounding you.\n",
+            "DetailedDesc": "It looks like a thin wisp of mist that has gained substance and size.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "SLEEP"
+            ],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 19,
+            "AC": 5,
+            "HP": "200d1+20",
+            "Damage": "2d9+3",
+            "Gold": 1000,
+            "XP": 22000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2306,
+            "Aliases": [
+                "swamp",
+                "wraith"
+            ],
+            "ShortDesc": "the Swamp Wraith",
+            "LongDesc": "A swamp wraith emerges from the mist here.\n",
+            "DetailedDesc": "The swamp wraith is made of mist and is in the image of a great warrior. He\nappears to emerge from the mist. You feel the cold radiating from his form as\nhe nears you.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 20,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "250d1+25",
+            "Damage": "6d4+5",
+            "Gold": 10000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2307,
+            "Aliases": [
+                "ogre",
+                "villager"
+            ],
+            "ShortDesc": "the Ogre Villager",
+            "LongDesc": "The ogre villager is here, going about its chores.\n",
+            "DetailedDesc": "You see a pitifully overworked ogre. It is dressed in rags and shuffles along\nwith its head hung low. It sees you and cringes in mortal terror.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 10,
+            "THAC0": 9,
+            "AC": 3,
+            "HP": "100d1+20",
+            "Damage": "2d6+2",
+            "Gold": 200,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2308,
+            "Aliases": [
+                "warrior",
+                "ogre"
+            ],
+            "ShortDesc": "the Ogre Warrior",
+            "LongDesc": "The ogre warrior stands here, growling fiercely.\n",
+            "DetailedDesc": "The ogre warrior is dressed in thick fur armor. He looks quite large and\nformidable.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -350,
+            "Level": 15,
+            "THAC0": 14,
+            "AC": 1,
+            "HP": "175d1+25",
+            "Damage": "3d6+3",
+            "Gold": 2000,
+            "XP": 22000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2309,
+            "Aliases": [
+                "guard",
+                "ogre"
+            ],
+            "ShortDesc": "the Ogre Guard",
+            "LongDesc": "The ogre guard is here manning his post faithfully.\n",
+            "DetailedDesc": "The ogre guard stands here manning his post. It appears as though he would\nfight to the death before abandoning his post.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -500,
+            "Level": 19,
+            "THAC0": 20,
+            "AC": 2,
+            "HP": "200d1+50",
+            "Damage": "3d6+5",
+            "Gold": 7000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2310,
+            "Aliases": [
+                "shaman",
+                "ogre"
+            ],
+            "ShortDesc": "the Ogre Shaman",
+            "LongDesc": "The ogre shaman is here chanting arcane words and waving his arms.\n",
+            "DetailedDesc": "The ogre shaman is draped in thick fur cloaks and pelts. He has all types of\ncharms and holy symbols draped about him. He looks at you and snarls.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": -750,
+            "Level": 20,
+            "THAC0": 20,
+            "AC": 1,
+            "HP": "250d1+50",
+            "Damage": "4d6+5",
+            "Gold": 10000,
+            "XP": 45000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2311,
+            "Aliases": [
+                "chief",
+                "chieftain",
+                "ogre"
+            ],
+            "ShortDesc": "the Ogre Chieftain",
+            "LongDesc": "The ogre chieftain is here, observing his subjects.\n",
+            "DetailedDesc": "This is the biggest ogre you have ever seen. He is heavily equipped and looks\nquite formidable. He towers high above you and growls menacingly.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "PROTECT_GOOD",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 55,
+            "THAC0": 24,
+            "AC": -10,
+            "HP": "1d1+3499",
+            "Damage": "8d8+35",
+            "Gold": 50000,
+            "XP": 145000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2312,
+            "Aliases": [
+                "barbarian"
+            ],
+            "ShortDesc": "the Plains Barbarian",
+            "LongDesc": "A plains barbarian is here, clad in heavy furs.\n",
+            "DetailedDesc": "The plains barbarian is clad in heavy furs. He seems used to the chilling cold\nand icy wastes.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 20,
+            "AC": 1,
+            "HP": "250d1+50",
+            "Damage": "3d6+4",
+            "Gold": 5000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2313,
+            "Aliases": [
+                "yeti",
+                "white"
+            ],
+            "ShortDesc": "the White Yeti",
+            "LongDesc": "The white yeti crouches here snarling.\n",
+            "DetailedDesc": "The white yeti looks like a huge white snow ape. Its long arms end in long\ncurved talons and its mouth is full of sharp teeth.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -350,
+            "Level": 16,
+            "THAC0": 19,
+            "AC": 5,
+            "HP": "200d1+25",
+            "Damage": "3d7+3",
+            "Gold": 1000,
+            "XP": 28000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2314,
+            "Aliases": [
+                "worm",
+                "ice",
+                "iceworm"
+            ],
+            "ShortDesc": "the Ice Worm",
+            "LongDesc": "A huge ice worm burrows through the ice and snow here. It rears up and\nattacks!\n",
+            "DetailedDesc": "The huge worm is almost 50 feet long. Its huge gaping mouth spews ice and snow\nas it charges directly at you.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 20,
+            "AC": -5,
+            "HP": "1d1+499",
+            "Damage": "5d6+10",
+            "Gold": 3500,
+            "XP": 45000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2315,
+            "Aliases": [
+                "citizen",
+                "minotaur"
+            ],
+            "ShortDesc": "the Minotaur Citizen",
+            "LongDesc": "A minotaur citizen is here, hurrying through the icy streets.\n",
+            "DetailedDesc": "You see a rather ragged and cold minotaur. It appears to be looking for a warm\nplace to seek refuge from the cold.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 15,
+            "THAC0": 15,
+            "AC": 3,
+            "HP": "100d1+90",
+            "Damage": "2d5+5",
+            "Gold": 3000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2316,
+            "Aliases": [
+                "guard",
+                "minotaur"
+            ],
+            "ShortDesc": "the Minotaur Guard",
+            "LongDesc": "A minotaur guard catches you trespassing and attacks!\n",
+            "DetailedDesc": "The minotaur is clad in heavy furs. Beneath these furs, you see the gleam of\nhis armor.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -330,
+            "Level": 22,
+            "THAC0": 22,
+            "AC": 0,
+            "HP": "400d1+40",
+            "Damage": "4d6+5",
+            "Gold": 10000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2317,
+            "Aliases": [
+                "warrior",
+                "minotaur"
+            ],
+            "ShortDesc": "the Minotaur Warrior",
+            "LongDesc": "A minotaur warrior is here looking for intruders.\n",
+            "DetailedDesc": "You see a huge minotaur that is dressed in thick furs and armor. He has black\nfur and red eyes. He looks quite capable of protecting the city.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -330,
+            "Level": 21,
+            "THAC0": 21,
+            "AC": 0,
+            "HP": "300d1+50",
+            "Damage": "3d7+10",
+            "Gold": 9000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2318,
+            "Aliases": [
+                "minotaur",
+                "gatekeeper"
+            ],
+            "ShortDesc": "the Minotaur Gatekeeper",
+            "LongDesc": "A minotaur is here guarding the Keep of Mahn-Tor.\n",
+            "DetailedDesc": "The minotaur stands rigidly before the gates of the keep. It looks quite\nmiserable standing in the driven snow and ice.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": -330,
+            "Level": 51,
+            "THAC0": 24,
+            "AC": -10,
+            "HP": "1d1+999",
+            "Damage": "6d7+15",
+            "Gold": 25000,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 2319,
+            "Aliases": [
+                "minotaur",
+                "high",
+                "guard"
+            ],
+            "ShortDesc": "the High Minotaur Guard",
+            "LongDesc": "The minotaur high guard is here guarding the Keep.\n",
+            "DetailedDesc": "The high guard is dressed in blue plate armour. He looks quite dangerous and\nskilled.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -330,
+            "Level": 25,
+            "THAC0": 24,
+            "AC": -5,
+            "HP": "600d1+20",
+            "Damage": "4d7+4",
+            "Gold": 15000,
+            "XP": 120000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2320,
+            "Aliases": [
+                "minotaur",
+                "royal",
+                "guard"
+            ],
+            "ShortDesc": "the Royal Minotaur Guard",
+            "LongDesc": "The royal minotaur guard considers you an intruder and attacks!\n",
+            "DetailedDesc": "The royal guard is quite huge. He is dressed in heavy red armor and wields a\nhuge glaive. He looks quite capable of protecting the keep.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -330,
+            "Level": 26,
+            "THAC0": 26,
+            "AC": -7,
+            "HP": "650d1+50",
+            "Damage": "5d5+4",
+            "Gold": 50000,
+            "XP": 105000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2321,
+            "Aliases": [
+                "guard",
+                "minotaur",
+                "elite"
+            ],
+            "ShortDesc": "the Elite Minotaur Guard",
+            "LongDesc": "The elite minotaur guard sees you and attacks!\n",
+            "DetailedDesc": "This minotaur wields a huge morningstar and is clad in heavy crimson plate and\nfurs.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": -250,
+            "Level": 28,
+            "THAC0": 28,
+            "AC": -8,
+            "HP": "800d1+50",
+            "Damage": "6d5+5",
+            "Gold": 75000,
+            "XP": 127500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2322,
+            "Aliases": [
+                "girl",
+                "haremgirl",
+                "harem",
+                "slave"
+            ],
+            "ShortDesc": "the Harem Girl",
+            "LongDesc": "A harem girl cowers here in fear.\n",
+            "DetailedDesc": "She looks quite attractive. Her low cut gown reveals why she was chosen to be\nin the harem.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "50d1+10",
+            "Damage": "3d1+5",
+            "Gold": 10,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2323,
+            "Aliases": [
+                "butler",
+                "minotaur"
+            ],
+            "ShortDesc": "the Minotaur Butler",
+            "LongDesc": "A minotaur butler stands here rigidly, awaiting orders.\n",
+            "DetailedDesc": "He looks quite regal and refined to be a minotaur.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 250,
+            "Level": 20,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "1d12+247",
+            "Damage": "3d6+4",
+            "Gold": 5000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2324,
+            "Aliases": [
+                "keeper",
+                "minotaur",
+                "ring-keeper"
+            ],
+            "ShortDesc": "the Minotaur Ring-Keeper",
+            "LongDesc": "The minotaur ring-keeper stands guarding his post.\n",
+            "DetailedDesc": "The ring-keeper is a huge minotaur. You notice a huge ring of multicolored\nkeys hanging from his belt. He wears huge, spiked brass knuckles.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": -300,
+            "Level": 51,
+            "THAC0": 29,
+            "AC": -9,
+            "HP": "1d1+2499",
+            "Damage": "7d7+18",
+            "Gold": 50000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2325,
+            "Aliases": [
+                "gorak",
+                "minotaur",
+                "warrior",
+                "master"
+            ],
+            "ShortDesc": "Gorak",
+            "LongDesc": "Gorak, the Minotaur Master Warrior, is here practicing his skills.\n",
+            "DetailedDesc": "Gorak is HUGE. His bulging muscles are confined beneath heavy armor. He is the\nmaster of the warrior guild of Mahn-Tor.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "HIDE"
+            ],
+            "Alignment": -300,
+            "Level": 55,
+            "THAC0": 35,
+            "AC": -15,
+            "HP": "10d10+7500",
+            "Damage": "10d10+50",
+            "Gold": 50000,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2326,
+            "Aliases": [
+                "darkoth",
+                "minotaur",
+                "anti-paladin",
+                "master"
+            ],
+            "ShortDesc": "Darkoth",
+            "LongDesc": "Darkoth, the minotaur anti-paladin, stands here grinning wickedly.\n",
+            "DetailedDesc": "Darkoth is a living incarnation of evil. He radiates a dark aura, and a cold\nchill runs down your spine. He is the master of the Mahn-Tor anti-paladins.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 60,
+            "THAC0": 35,
+            "AC": -20,
+            "HP": "10d10+8000",
+            "Damage": "10d10+50",
+            "Gold": 55000,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2327,
+            "Aliases": [
+                "tyrgoth",
+                "minotaur",
+                "paladin",
+                "master"
+            ],
+            "ShortDesc": "Tyrgoth",
+            "LongDesc": "Tyrgoth, the minotaur paladin, is here worshipping silently.\n",
+            "DetailedDesc": "Tyrgoth is the minotaur incarnation of good. You feel safe and at ease in his\npresence. He is the leader of the Mahn-Tor paladins.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_EVIL",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 57,
+            "THAC0": 35,
+            "AC": -15,
+            "HP": "10d10+8000",
+            "Damage": "10d10+50",
+            "Gold": 51000,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2328,
+            "Aliases": [
+                "amyrok",
+                "minotaur",
+                "mage",
+                "master"
+            ],
+            "ShortDesc": "Amyrok",
+            "LongDesc": "Amyrok, the minotaur archmage, is here chanting arcane spells.\n",
+            "DetailedDesc": "Amyrok is a small minotaur. He is clad in loose robes and emits an aura of\npower. He appears quite dangerous, despite his size. He is the leader of the\nmages of Mahn-Tor.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 300,
+            "Level": 57,
+            "THAC0": 35,
+            "AC": -10,
+            "HP": "10d10+7500",
+            "Damage": "9d9+50",
+            "Gold": 50000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2329,
+            "Aliases": [
+                "sumaron",
+                "minotaur",
+                "cleric",
+                "master"
+            ],
+            "ShortDesc": "Sumaron",
+            "LongDesc": "Sumaron, master cleric of Mahn-Tor, is here looking holy.\n",
+            "DetailedDesc": "Sumaron is clad in white glowing robes. He is goodness incarnate. He is the\nmaster of all the clerics of Mahn-Tor.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "PROTECT_GOOD",
+                "HIDE"
+            ],
+            "Alignment": 1000,
+            "Level": 57,
+            "THAC0": 35,
+            "AC": -17,
+            "HP": "10d10+8000",
+            "Damage": "9d9+50",
+            "Gold": 48000,
+            "XP": 175000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2330,
+            "Aliases": [
+                "nasturn",
+                "minotaur",
+                "druid",
+                "master"
+            ],
+            "ShortDesc": "Nasturn",
+            "LongDesc": "Nasturn, the minotaur druid, is here studying the arts of nature.\n",
+            "DetailedDesc": "Nasturn is quite a natural looking minotaur. He is dressed in leather and\nwears no metal of any type. He looks at you and smiles.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 500,
+            "Level": 55,
+            "THAC0": 35,
+            "AC": -15,
+            "HP": "10d10+7500",
+            "Damage": "9d9+50",
+            "Gold": 40000,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2331,
+            "Aliases": [
+                "belrak",
+                "minotaur",
+                "ranger",
+                "master"
+            ],
+            "ShortDesc": "Belrak",
+            "LongDesc": "Belrak, the minotaur ranger, looks unhappy about having visitors.\n",
+            "DetailedDesc": "Belrak is clad in green and brown leather. He looks quite agile and thin, when\ncompared to the normal minotaur. He looks at you with a slight smirk.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 500,
+            "Level": 60,
+            "THAC0": 35,
+            "AC": -15,
+            "HP": "10d10+7500",
+            "Damage": "10d10+50",
+            "Gold": 55000,
+            "XP": 200000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2332,
+            "Aliases": [
+                "Dorgar"
+            ],
+            "ShortDesc": "Dorgar",
+            "LongDesc": "Dorgar stands here.\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "SNEAK"
+            ],
+            "Alignment": -500,
+            "Level": 57,
+            "THAC0": 35,
+            "AC": -10,
+            "HP": "10d10+7500",
+            "Damage": "9d9+50",
+            "Gold": 48000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2333,
+            "Aliases": [
+                "mahn-tor",
+                "minotaur",
+                "grand",
+                "master"
+            ],
+            "ShortDesc": "Mahn-Tor",
+            "LongDesc": "Mahn-Tor, the minotaur grand master, is here looking down at you.\n",
+            "DetailedDesc": "Mahn-Tor towers above you. He is simply huge. Mahn-Tor is clad in the best of\narmor and robes. He wields the largest axe you have ever seen. You can see why\nMahn-Tor is the leader of the minotaurs. He is awe-inspiring.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "HIDE"
+            ],
+            "Alignment": -500,
+            "Level": 65,
+            "THAC0": 40,
+            "AC": -13,
+            "HP": "100d10+10000",
+            "Damage": "11d11+60",
+            "Gold": 50000,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 2399,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        }
+    ]
+}

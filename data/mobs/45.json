@@ -1,0 +1,927 @@
+{
+    "mobs": [
+        {
+            "Number": 4550,
+            "Aliases": [
+                "small",
+                "elemental"
+            ],
+            "ShortDesc": "small elemental",
+            "LongDesc": "A small elemental is here.\n",
+            "DetailedDesc": "A small little elemental is here.  You're not quite sure what kind it is, but\nit is cute.  Too bad you have to kill it.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "3d3+40",
+            "Damage": "1d6+5",
+            "Gold": 15,
+            "XP": 6500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4551,
+            "Aliases": [
+                "fire",
+                "tiny",
+                "flame",
+                "elemental"
+            ],
+            "ShortDesc": "a tiny flame",
+            "LongDesc": "A tiny flame flickers.\n",
+            "DetailedDesc": "A tiny flame is running around, making things smolder.  It just doesn't have\nenough oomph to set things on fire yet.  But some day, he's gonna grow up big\nand strong...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "3d3+40",
+            "Damage": "1d6+5",
+            "Gold": 15,
+            "XP": 6500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4552,
+            "Aliases": [
+                "spark",
+                "elemental"
+            ],
+            "ShortDesc": "a small spark",
+            "LongDesc": "A small spark floats here.\n",
+            "DetailedDesc": "A small spark seems to be floating on nothing.  It shimmers with electrical\nenergy\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "UNUSED20"
+            ],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "3d3+40",
+            "Damage": "1d6+5",
+            "Gold": 15,
+            "XP": 6500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4553,
+            "Aliases": [
+                "mist",
+                "elemental"
+            ],
+            "ShortDesc": "a mist",
+            "LongDesc": "A cloud of mist drifts by.\n",
+            "DetailedDesc": "A damp, cool mist is floating in the breeze here.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "3d3+40",
+            "Damage": "1d6+5",
+            "Gold": 15,
+            "XP": 6500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4554,
+            "Aliases": [
+                "dust",
+                "elemental"
+            ],
+            "ShortDesc": "a dust cloud",
+            "LongDesc": "A cloud of dust is making you cough!\n",
+            "DetailedDesc": "A small dust storm is gathering the surrounding loose dirt.  It's making you\ncough...better put an end to it.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "3d3+40",
+            "Damage": "1d6+5",
+            "Gold": 15,
+            "XP": 6500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4555,
+            "Aliases": [
+                "breeze",
+                "elemental"
+            ],
+            "ShortDesc": "a slight breeze",
+            "LongDesc": "A slight breeze ruffles your hair (if you have any)\n",
+            "DetailedDesc": "A slight breeze, invisible to the naked eye, is swirling around you.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "UNUSED20"
+            ],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "3d3+40",
+            "Damage": "1d6+5",
+            "Gold": 15,
+            "XP": 6500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4556,
+            "Aliases": [
+                "medium",
+                "elemental"
+            ],
+            "ShortDesc": "a medium elemental",
+            "LongDesc": "A medium elemental mopes around.\n",
+            "DetailedDesc": "You see a slightly muscular blob of creation moving about with no direction.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 8,
+            "AC": 0,
+            "HP": "2d5+101",
+            "Damage": "2d4+2",
+            "Gold": 1000,
+            "XP": 13000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4557,
+            "Aliases": [
+                "medium",
+                "fire",
+                "camp"
+            ],
+            "ShortDesc": "a campfire",
+            "LongDesc": "A small controlled campfire is burning brightly.\n",
+            "DetailedDesc": "A good sized campfire is here, controlled and burning brightly\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOSLEEP",
+                "NOBASH"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 8,
+            "AC": 0,
+            "HP": "2d5+101",
+            "Damage": "2d4+2",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4558,
+            "Aliases": [
+                "shock",
+                "medium",
+                "elec"
+            ],
+            "ShortDesc": "a shock",
+            "LongDesc": "A built-up electric discharge is here.\n",
+            "DetailedDesc": "You see a shock just waiting to happen...there is just that kind of charged\nup atmosphere.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AWARE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 8,
+            "AC": 0,
+            "HP": "2d5+101",
+            "Damage": "2d4+2",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4559,
+            "Aliases": [
+                "puddle",
+                "medium",
+                "water"
+            ],
+            "ShortDesc": "a puddle",
+            "LongDesc": "A puddle is lazing around your feet.\n",
+            "DetailedDesc": "A small, shallow puddle is just slurping around minding its own business.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "WATERWALK"
+            ],
+            "Alignment": 10,
+            "Level": 12,
+            "THAC0": 8,
+            "AC": 0,
+            "HP": "2d5+101",
+            "Damage": "2d4+2",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4560,
+            "Aliases": [
+                "rock",
+                "medium"
+            ],
+            "ShortDesc": "a rock",
+            "LongDesc": "A rock is rolling here.\n",
+            "DetailedDesc": "Well it's kind of round, actually it's kind of cute and happ...hey wait a\nsecond, it's a rock, dammit!\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AWARE",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "NOTRACK"
+            ],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "2d5+101",
+            "Damage": "2d4+2",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4561,
+            "Aliases": [
+                "cloud",
+                "air",
+                "medium"
+            ],
+            "ShortDesc": "a cloud",
+            "LongDesc": "A medium storm cloud is in the forecast.\n",
+            "DetailedDesc": "You see a hmm, cumulo-nimbus cloud?  or perhaps it is a thunderhead, in any\ncase it is threatening the area with rain.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "WATERWALK",
+                "UNUSED20"
+            ],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 12,
+            "AC": 0,
+            "HP": "2d5+101",
+            "Damage": "2d4+2",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4562,
+            "Aliases": [
+                "large",
+                "elemental"
+            ],
+            "ShortDesc": "a large elemental",
+            "LongDesc": "A large elemental is beating on the smaller ones.\n",
+            "DetailedDesc": "A large miasma of elemental material is here, kicking butt!\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AWARE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 20,
+            "THAC0": 16,
+            "AC": -4,
+            "HP": "5d8+230",
+            "Damage": "2d3+5",
+            "Gold": 10000,
+            "XP": 22000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4563,
+            "Aliases": [
+                "blaze",
+                "fire",
+                "large"
+            ],
+            "ShortDesc": "a blaze",
+            "LongDesc": "A blaze is burning brightly here!\n",
+            "DetailedDesc": "A blaze is here setting your world on fire.  Boy is it HOT!\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOSLEEP",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 400,
+            "Level": 20,
+            "THAC0": 16,
+            "AC": -4,
+            "HP": "5d8+230",
+            "Damage": "2d3+5",
+            "Gold": 10000,
+            "XP": 26000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4564,
+            "Aliases": [
+                "bolt",
+                "elec",
+                "large",
+                "bolt",
+                "elec",
+                "large"
+            ],
+            "ShortDesc": "a bolt",
+            "LongDesc": "A bolt of lightning sizzles the air.\n",
+            "DetailedDesc": "A bolt of sheer power is eminating from everywhere!  The whole area is\ncharged.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "UNUSED20"
+            ],
+            "Alignment": 400,
+            "Level": 20,
+            "THAC0": 16,
+            "AC": -4,
+            "HP": "5d8+230",
+            "Damage": "2d3+5",
+            "Gold": 10000,
+            "XP": 26000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4565,
+            "Aliases": [
+                "tsunami",
+                "wave",
+                "water",
+                "large"
+            ],
+            "ShortDesc": "a tsunami",
+            "LongDesc": "A large wave is approaching.\n",
+            "DetailedDesc": "A very large wave that brings massive destruction is heading toward you at\nincredible speed!\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "WATERWALK"
+            ],
+            "Alignment": 400,
+            "Level": 20,
+            "THAC0": 20,
+            "AC": -4,
+            "HP": "5d8+230",
+            "Damage": "2d3+5",
+            "Gold": 10000,
+            "XP": 26000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4566,
+            "Aliases": [
+                "boulder",
+                "earth",
+                "large"
+            ],
+            "ShortDesc": "a boulder",
+            "LongDesc": "A large boulder is blocking the path.\n",
+            "DetailedDesc": "A large boulder, possibly granite or limestone, is rolling around looking for\nsomething to crush.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 20,
+            "THAC0": 20,
+            "AC": -4,
+            "HP": "5d8+230",
+            "Damage": "2d3+5",
+            "Gold": 10000,
+            "XP": 22000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4567,
+            "Aliases": [
+                "baby",
+                "dragon",
+                "air",
+                "large"
+            ],
+            "ShortDesc": "a baby rainbow dragon",
+            "LongDesc": "A baby dragon is floating in the air currents.\n",
+            "DetailedDesc": "A beautiful, colored dragon is floating in the air.  She is small, so she\nmust be a baby dragon.  Her wings are a beautiful rainbow color.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "PROTECT_EVIL",
+                "UNUSED20"
+            ],
+            "Alignment": 400,
+            "Level": 25,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "5d8+230",
+            "Damage": "2d3+5",
+            "Gold": 10000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 4568,
+            "Aliases": [
+                "lord",
+                "fire"
+            ],
+            "ShortDesc": "the Lord of Fire",
+            "LongDesc": "The Lord of Fire is smoking up the realm.\n",
+            "DetailedDesc": "The Lord of Fire sits on a throne of pure flame.  His body is made up of\nFire. All the women say he's hot stuff...\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 96,
+            "THAC0": 40,
+            "AC": -7,
+            "HP": "7d42+1801",
+            "Damage": "9d9+10",
+            "Gold": 40000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4569,
+            "Aliases": [
+                "lord",
+                "lightning"
+            ],
+            "ShortDesc": "the Lord of Lightning",
+            "LongDesc": "The Lord of Lightning is standing in front of you forbodingly.\n",
+            "DetailedDesc": "A man, if he can be called a man, made entirely of electricity, is standing\nhere. He commands the power of Lightning, and looks to be a most imposing\nenemy.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "WATERWALK",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED17",
+                "UNUSED20"
+            ],
+            "Alignment": -1000,
+            "Level": 96,
+            "THAC0": 40,
+            "AC": -7,
+            "HP": "7d42+1801",
+            "Damage": "9d9+10",
+            "Gold": 40000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4570,
+            "Aliases": [
+                "lord",
+                "water"
+            ],
+            "ShortDesc": "the Lord of Water",
+            "LongDesc": "The Lord of Water is swimming around happily.\n",
+            "DetailedDesc": "The Lord of Water swims around in her throne room.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "WATERWALK",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 96,
+            "THAC0": 40,
+            "AC": -7,
+            "HP": "7d42+1801",
+            "Damage": "9d9+10",
+            "Gold": 40000,
+            "XP": 400000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 4571,
+            "Aliases": [
+                "earth",
+                "lord"
+            ],
+            "ShortDesc": "the Lord of Earth",
+            "LongDesc": "The Lord of Earth is being annoyed by you!\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "UNUSED17",
+                "UNUSED20"
+            ],
+            "Alignment": 1000,
+            "Level": 96,
+            "THAC0": 40,
+            "AC": -7,
+            "HP": "7d42+1801",
+            "Damage": "9d9+10",
+            "Gold": 40000,
+            "XP": 400000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4572,
+            "Aliases": [
+                "air",
+                "lord"
+            ],
+            "ShortDesc": "the Lord of Air",
+            "LongDesc": "The Lord of Air is sitting on his throne, looking angry!\n",
+            "DetailedDesc": "The Lord of Air is sitting upon a tornado, as if it was a throne.  He doesn't\nlike riff-raff like you running around his realm, and he really hates you\nusing up his air.  Unfortunately for you, he has spotted you!\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED20"
+            ],
+            "Alignment": -1000,
+            "Level": 96,
+            "THAC0": 40,
+            "AC": -7,
+            "HP": "7d42+1801",
+            "Damage": "9d9+10",
+            "Gold": 40000,
+            "XP": 500000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 4573,
+            "Aliases": [
+                "elemental",
+                "guardian"
+            ],
+            "ShortDesc": "the Elemental Guardian",
+            "LongDesc": "The Guardian of the Canyon is here blocking your way!\n",
+            "DetailedDesc": "A large, no a HUGE creature is standing here blocking the path into the\ncanyon. He doesn't appear to like you very much.  It's just too bad that\nyou'll have to sneak by him to get into the canyon.  The Guardian is a rough\nand tough fellow.  You might want to think before fighting him.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "UNUSED16"
+            ],
+            "Alignment": -1000,
+            "Level": 96,
+            "THAC0": 40,
+            "AC": -7,
+            "HP": "7d42+1801",
+            "Damage": "9d9+10",
+            "Gold": 40000,
+            "XP": 450000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4574,
+            "Aliases": [
+                "mobprog",
+                "blocker"
+            ],
+            "ShortDesc": "the invisible force",
+            "LongDesc": "The invisible force prevents all level 51s and above from entering.\n",
+            "DetailedDesc": "He's the Quicker Picker-upper\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INVISIBLE"
+            ],
+            "Alignment": 0,
+            "Level": 150,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "0d0+1",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4575,
+            "Aliases": [
+                "shark"
+            ],
+            "ShortDesc": "a shark",
+            "LongDesc": "A shark is swimming in the pool\n",
+            "DetailedDesc": "Uh Oh...it's JAWS!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 0,
+            "AC": 3,
+            "HP": "3d3+40",
+            "Damage": "1d6+5",
+            "Gold": 15,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4576,
+            "Aliases": [
+                "school",
+                "fish"
+            ],
+            "ShortDesc": "a school of fish",
+            "LongDesc": "A school of fish swims around your feet.\n",
+            "DetailedDesc": "There is a school of fish swimming around.  They look harmless enough.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 0,
+            "AC": 3,
+            "HP": "3d3+40",
+            "Damage": "1d6+5",
+            "Gold": 15,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4577,
+            "Aliases": [
+                "sea",
+                "horse"
+            ],
+            "ShortDesc": "a sea horse",
+            "LongDesc": "A sea horse is swimming here.\n",
+            "DetailedDesc": "It looks and smells like a sea horse, therefore, it must be a sea horse.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 0,
+            "AC": 3,
+            "HP": "3d3+40",
+            "Damage": "1d6+5",
+            "Gold": 15,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 4578,
+            "Aliases": [
+                "illusionist"
+            ],
+            "ShortDesc": "an illusionist",
+            "LongDesc": "An illusionist is here gathering spell components.\n",
+            "DetailedDesc": "The illusionist is dressed in brilliantly colored clothing.  He appears to\nbe in his early twenties, but the affects aren't really showing.  The\nillusionist looks frail and weak...but then again, looks can be deceiving...\n\nThe illusionist is using:\n\u003cwielded\u003e                  an invisible sword\n\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "SENSE_LIFE",
+                "WATERWALK",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 10,
+            "Level": 13,
+            "THAC0": 8,
+            "AC": 0,
+            "HP": "2d5+101",
+            "Damage": "2d4+2",
+            "Gold": 1000,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

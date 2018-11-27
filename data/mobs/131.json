@@ -1,0 +1,904 @@
+{
+    "mobs": [
+        {
+            "Number": 13100,
+            "Aliases": [
+                "cap",
+                "captain",
+                "mercenary",
+                "merc"
+            ],
+            "ShortDesc": "the captain",
+            "LongDesc": "The Captain of the Mercenaries is here, growling ferally at you.\n",
+            "DetailedDesc": " Snarling in his madness, the Captain of the Mercenaries looks up from\nhis half-eaten fido.  You see that he is in the last stages of radiation\nsickness, but he moves like a drug-crazed killer: quickly and with a savage\nstrength.  He seems to pause, as if trying to decide what to do.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": -440,
+            "Level": 14,
+            "THAC0": 7,
+            "AC": -1,
+            "HP": "5d100+5",
+            "Damage": "2d5+1",
+            "Gold": 425,
+            "XP": 9850,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13101,
+            "Aliases": [
+                "mercenary",
+                "merc"
+            ],
+            "ShortDesc": "the mercenary",
+            "LongDesc": "A mutated mercenary is here, willing to work for anything.\n",
+            "DetailedDesc": "He looks something like a nightmare you had last night.  He has very little\nhair, even less teeth, and the skin is oozing off his body in several\ndifferent places.  You don't think you want to stick your valuable weapons\ninto these remains of what used to be an elite killer for hire.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": -330,
+            "Level": 13,
+            "THAC0": 6,
+            "AC": 1,
+            "HP": "4d100+2",
+            "Damage": "2d4+1",
+            "Gold": 300,
+            "XP": 2500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13102,
+            "Aliases": [
+                "fido"
+            ],
+            "ShortDesc": "an irradiated fido",
+            "LongDesc": "A glowing beastly fido is here.\n",
+            "DetailedDesc": "Larger, and more deadly looking than it's pre-war counterparts, this fido\nlooks at you with intimidatingly intelligent eyes.  It's fur is thick and\nbristly, and it's eyes glow with a luminescent green hue.  As you look at\nit, a tongue lolls out of its mouth, revealing dual rows of pointed teeth\nthe size of carpenter's nails.  This is definitely not a normal dog...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 7,
+            "HP": "12d10+2",
+            "Damage": "1d2+1",
+            "Gold": 30,
+            "XP": 400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 13103,
+            "Aliases": [
+                "fido"
+            ],
+            "ShortDesc": "a frozen fido",
+            "LongDesc": "A glowing white frigid fido is here.\n",
+            "DetailedDesc": "Larger, and more deadly looking than it's pre-war counterpart, this fido\nlooks as if it is carved out of a block of blue-white ice.  It's eyes seem\nunusually intelligent, and they glow with a luminescent blue hue.  As you\nlook at it, it exhales a puff of vapor that seems even colder than the air\naround you.  Even for the mutated fidos, this one is very strange...\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 7,
+            "HP": "12d10+2",
+            "Damage": "1d2+2",
+            "Gold": 30,
+            "XP": 400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 13104,
+            "Aliases": [
+                "fido"
+            ],
+            "ShortDesc": "a transparent fido",
+            "LongDesc": "A transparent beastly fido is here.\n",
+            "DetailedDesc": "Larger, and more deadly looking than it's pre-war counterparts, this fido\nlooks at you with intimidatingly intelligent eyes.  It's fur is thick and\nbristly, and it's eyes glow with a luminescent green hue.  As you look at\nit, a tongue lolls out of its mouth, revealing dual rows of pointed teeth\nthe size of carpenter's nails.  This is definitely not a normal dog...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "INVISIBLE"
+            ],
+            "Alignment": -200,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 7,
+            "HP": "12d10+2",
+            "Damage": "1d2+3",
+            "Gold": 30,
+            "XP": 400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 13105,
+            "Aliases": [
+                "fido"
+            ],
+            "ShortDesc": "a sneaky fido",
+            "LongDesc": "A sneaky glowing beastly fido is here.\n",
+            "DetailedDesc": "Larger, and more deadly looking than it's pre-war counterparts, this fido\nlooks at you with intimidatingly intelligent eyes.  It's fur is thick and\nbristly, and it's eyes glow with a luminescent green hue.  As you look at\nit, a tongue lolls out of its mouth, revealing dual rows of pointed teeth\nthe size of carpenter's nails.  This is definitely not a normal dog...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -200,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 7,
+            "HP": "12d10+2",
+            "Damage": "1d2+3",
+            "Gold": 30,
+            "XP": 400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 13106,
+            "Aliases": [
+                "mercenary",
+                "merc"
+            ],
+            "ShortDesc": "the mercenary",
+            "LongDesc": "A mutated mercenary is here, willing to work for anything.\n",
+            "DetailedDesc": "He looks something like a nightmare you had last night.  He has very little\nhair, even less teeth, and the skin is oozing off his body in several\ndifferent places.  You don't think you want to stick your valuable weapons\ninto these remains of what used to be an elite killer for hire.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -330,
+            "Level": 13,
+            "THAC0": 6,
+            "AC": 1,
+            "HP": "4d10+200",
+            "Damage": "2d2+5",
+            "Gold": 600,
+            "XP": 2500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13107,
+            "Aliases": [
+                "janitor"
+            ],
+            "ShortDesc": "the Janitor",
+            "LongDesc": " A gaunt, sickly janitor is here, still trying to clean up.\n",
+            "DetailedDesc": " It appears the janitors are more closely related to cockroaches than was\npreviously thought, as this one seems to have survived.  He ignores your\ngaze completely as he vainly attempts to do his job.  Unfortunately for him,\nthe bodies seem to be moving, at least they seem to be moving to him...\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "5d6+26",
+            "Damage": "1d5+0",
+            "Gold": 34,
+            "XP": 625,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13108,
+            "Aliases": [
+                "fido"
+            ],
+            "ShortDesc": "a frozen fido",
+            "LongDesc": "A glowing white frigid fido is here.\n",
+            "DetailedDesc": "Larger, and more deadly looking than it's pre-war counterpart, this fido\nlooks as if it is carved out of a block of blue-white ice.  It's eyes seem\nunusually intelligent, and they glow with a luminescent blue hue.  As you\nlook at it, it exhales a puff of vapor that seems even colder than the air\naround you.  Even for the mutated fidos, this one is very strange...\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 7,
+            "HP": "12d10+2",
+            "Damage": "1d2+3",
+            "Gold": 30,
+            "XP": 400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 13109,
+            "Aliases": [
+                "skeleton",
+                "skel"
+            ],
+            "ShortDesc": "a skeleton",
+            "LongDesc": "A skeleton is here, its empty skull grinning at you.\n",
+            "DetailedDesc": " This is the long-dead remains of one of the inhabitants of Midgaard.  As you\nstudy it, you notice a slight tremor begin to vibrate the bones of it's legs,\nand as you watch, it begins to move towards you, clawing the air hungrily.\n",
+            "Actions": [
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 8,
+            "THAC0": 4,
+            "AC": 5,
+            "HP": "5d10+100",
+            "Damage": "2d2+1",
+            "Gold": 800,
+            "XP": 800,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 13110,
+            "Aliases": [
+                "skeleton",
+                "skel"
+            ],
+            "ShortDesc": "a skeleton",
+            "LongDesc": "A skeleton is here, its empty skull grinning at you.\n",
+            "DetailedDesc": " This is the long-dead remains of one of the inhabitants of Midgaard.  As you\nstudy it, you notice a slight tremor begin to vibrate the bones of it's legs,\nand as you watch, it begins to move towards you, clawing the air hungrily.\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 8,
+            "THAC0": 4,
+            "AC": 5,
+            "HP": "5d10+100",
+            "Damage": "2d2+1",
+            "Gold": 800,
+            "XP": 800,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 13111,
+            "Aliases": [
+                "peddler",
+                "street",
+                "Peddler",
+                "Street"
+            ],
+            "ShortDesc": "the street peddler",
+            "LongDesc": "A street peddler is here selling junk.\n",
+            "DetailedDesc": " As you look at the filthy peddler your first urge is to turn and puke.  He\nhas to be one of the filthiest things you have ever seen.  His clothes are\ntorn and patched so badly that you couldn't guess at their origional colour\neven if they were clean.  The rest of him doesn't look that good.  You try \nto keep downwind of him as much as possible.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -100,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 7,
+            "HP": "4d10+75",
+            "Damage": "1d5+3",
+            "Gold": 500,
+            "XP": 600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13112,
+            "Aliases": [
+                "cockroach",
+                "humanoid",
+                "man"
+            ],
+            "ShortDesc": "a humanoid cockroach",
+            "LongDesc": "A human-looking cockroach stands here on two legs.\n",
+            "DetailedDesc": " This has to be the most unusual creature you have ever seen.  It looks like\nyou average cockroach, but it is as big as a man, and stands on it's legs\nand uses it's arms like a man.  Whether it was a cockroach or a man before\nthe war, you cannot tell.  You decide that this place isn't all that safe\nfor you.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": -500,
+            "Level": 10,
+            "THAC0": 5,
+            "AC": 5,
+            "HP": "5d10+170",
+            "Damage": "1d4+3",
+            "Gold": 1000,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 13120,
+            "Aliases": [
+                "guildmaster",
+                "master"
+            ],
+            "ShortDesc": "the Guildmaster",
+            "LongDesc": "The Mage Guildmaster is here, staring coldly at you.\n",
+            "DetailedDesc": "The guildmaster looks older and more tired, but otherwise appears to have\nbeen unaffected by the war.  He is wearing fine magic clothing, and you notice\na faint blue aura surrounding his body.  He is muttering unintelligible\nphrases under his breath, and you think he would just as soon turn you into a\ntoad as not if he noticed you here.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 60,
+            "THAC0": 25,
+            "AC": -10,
+            "HP": "1d1+10000",
+            "Damage": "1d8+50",
+            "Gold": 30000,
+            "XP": 380000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13121,
+            "Aliases": [
+                "guildmaster",
+                "master"
+            ],
+            "ShortDesc": "the Guildmaster",
+            "LongDesc": "The Guildmaster of Thieves is here, looking worn and wary.\n",
+            "DetailedDesc": "Even though the Guildmaster of Thieves looks formidable, you can see that\nonly his power has allowed him to survive this long.  His eyes are very\nbloodshot, and his skin has an unhealthy pallor to it.  But he still looks\nstrong enough to take on anything.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 60,
+            "THAC0": 25,
+            "AC": -10,
+            "HP": "1d1+10000",
+            "Damage": "1d8+50",
+            "Gold": 30000,
+            "XP": 380000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 13122,
+            "Aliases": [
+                "guildmaster",
+                "master"
+            ],
+            "ShortDesc": "the Guildmaster",
+            "LongDesc": "The High Clericist, Guildmaster of Odin is here, weeping.\n",
+            "DetailedDesc": "Dressed in the remains of his once beautiful clerical robes, this old man\nlooks less like like a guildmaster, and more like a sad, tired old man.\nRegardless of that, his aura of power is undiminished, and he still looks\nvery strong.  You reason that, if he's lasted this long, here, in this gods\nforsaken place, he must have some power left.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 60,
+            "THAC0": 25,
+            "AC": -10,
+            "HP": "1d1+10000",
+            "Damage": "1d8+50",
+            "Gold": 30000,
+            "XP": 380000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 13123,
+            "Aliases": [
+                "guildmaster",
+                "master"
+            ],
+            "ShortDesc": "the Guildmaster",
+            "LongDesc": "The Guild Master-at-Arms is here, hands resting on his broadsword.\n",
+            "DetailedDesc": "This great knight is dressed in a magnificent suit of armor which is now\nscarred by countless battles and covered in blood.  You look into his eyes\nand see firm resolution to defend the guild to the death.  You don't think\nit would be wise to trouble him by asking him to teach a weakling like you.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 60,
+            "THAC0": 25,
+            "AC": -10,
+            "HP": "1d1+10000",
+            "Damage": "1d8+50",
+            "Gold": 30000,
+            "XP": 380000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 13124,
+            "Aliases": [
+                "guildmaster",
+                "master"
+            ],
+            "ShortDesc": "the Guildmaster",
+            "LongDesc": "The Guildmaster of Paladins stands here, trying to shine his armor.\n",
+            "DetailedDesc": " Trying to look as if nothing was amiss, the Guildmaster for the Paladins\nis here, vainly trying to scour the pits and crevaces in his armor that were\ncaused by the radioactive fallout.  He's not having much sucess, but that\nhasn't stopped him from trying.  He barely acknowledges you as you enter\nand look him over.  He returns immediately to his polishing attempts.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 60,
+            "THAC0": 25,
+            "AC": -10,
+            "HP": "1d1+10000",
+            "Damage": "1d8+50",
+            "Gold": 30000,
+            "XP": 380000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 13125,
+            "Aliases": [
+                "inventor"
+            ],
+            "ShortDesc": "an inventor",
+            "LongDesc": "The inventor is here, tinkering on a gadget\n",
+            "DetailedDesc": "The inventor is fairly small but incredibly skilled with his hands.  He is\ncompletely bald and wears a pair of silver spectacles.  For a small fee, \nhe will allow you to enter his time machine and visit the future.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 200,
+            "THAC0": 60,
+            "AC": -100,
+            "HP": "0d0+30000",
+            "Damage": "10d10+60",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13126,
+            "Aliases": [
+                "mayor",
+                "Mayor"
+            ],
+            "ShortDesc": "the Mayor of Midgaard",
+            "LongDesc": "The Mayor of Midgaard stands here, crying over his city\n",
+            "DetailedDesc": "  The Mayor of Midaard managed to survive the holocaust somehow.  His\nclothes and overall appearance would suggest that he is not living \nthe comfortable life he was used to.  He is filthy like the rest of\nwhat is left of his city, but he seems to be in much better shape than\nhe used to be.",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 0,
+            "Level": 37,
+            "THAC0": 10,
+            "AC": -4,
+            "HP": "1d1+3999",
+            "Damage": "1d8+10",
+            "Gold": 1000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13127,
+            "Aliases": [
+                "Gambit",
+                "gambit"
+            ],
+            "ShortDesc": "Gambit",
+            "LongDesc": "Gambit stands here, mourning the loss of everything he has fought for.\n",
+            "DetailedDesc": "  Gambit appears to have given up all hope of life.  The radiation has\ndestroyed the powers he used to have, and reduced him to a mere shadow\nof the man he used to be.\n",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 57,
+            "AC": -10,
+            "HP": "1d1+4999",
+            "Damage": "5d5+20",
+            "Gold": 1000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13128,
+            "Aliases": [
+                "vampire",
+                "lord",
+                "vampirelord",
+                "vampire-lord"
+            ],
+            "ShortDesc": "the Vampire Lord",
+            "LongDesc": "The Vampire Lord stands here, as dark as he ever was.\n",
+            "DetailedDesc": "  You look at the Vampire Lord and notice he is in excellent shape.\nHe must be one of the few that actually profited from the holocaust.\nYou go to turn away, but his eyes catch yours, and hold them for a\nlong time.  Then all of a sudden he flashes a smile at you with sharp,\npointy teeth, and the spell is broken.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 127,
+            "THAC0": 80,
+            "AC": -20,
+            "HP": "1d1+9999",
+            "Damage": "12d10+75",
+            "Gold": 25000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13129,
+            "Aliases": [
+                "minotaur",
+                "mahn",
+                "tor",
+                "mahn-tor"
+            ],
+            "ShortDesc": "Mahn Tor",
+            "LongDesc": "Mahn Tor is standing here.\n",
+            "DetailedDesc": "  Mahn Tor was once the leader of the minotaurs that dwelled in the\nkeep west of Midgaard.  He is the last of his kind, all of his\nbrethren having been killed by the holocaust.  He will fight to the \ndeath to keep the species alive.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 145,
+            "THAC0": 90,
+            "AC": -37,
+            "HP": "1d1+16999",
+            "Damage": "18d11+70",
+            "Gold": 20000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13130,
+            "Aliases": [
+                "eric",
+                "draven",
+                "Eric",
+                "Draven"
+            ],
+            "ShortDesc": "Eric Draven",
+            "LongDesc": "Eric Draven stands here, trapped between worlds.\n",
+            "DetailedDesc": "  Eric Draven looks very much like the spirit he is.  He is still\nwearing his face paint and dark clothing, and has his guitar slung\nacross his back.  Having avenged Shelly's death he now wanders the\nlands looking to be reunited with his love.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 83,
+            "AC": -27,
+            "HP": "1d1+14999",
+            "Damage": "6d5+40",
+            "Gold": 10000,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13131,
+            "Aliases": [
+                "jupiter",
+                "Jupiter"
+            ],
+            "ShortDesc": "Jupiter",
+            "LongDesc": "Jupiter is here, wondering how his fellow gods could have done this.\n",
+            "DetailedDesc": "  Jupiter was once the strongest of the Roman gods.  The only one\nof those immortal beings to survive the holocaust, he now wanders\nthe wastelands, lost and lonely.\n",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 80,
+            "THAC0": 68,
+            "AC": -10,
+            "HP": "1d1+4999",
+            "Damage": "10d3+20",
+            "Gold": 10000,
+            "XP": 80000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13132,
+            "Aliases": [
+                "king",
+                "welmar",
+                "kingwelmar"
+            ],
+            "ShortDesc": "King Welmar",
+            "LongDesc": "King Welmar is here, looking for his bodyguards.\n",
+            "DetailedDesc": "  Once the leader of a proud kingdom, King Welmar has lost everything.\nHis face shows only  sadness at the  loss, and a firm resolution to\navenge the destruction of his realm.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 500,
+            "Level": 150,
+            "THAC0": 90,
+            "AC": -40,
+            "HP": "1d1+16000",
+            "Damage": "30d5+75",
+            "Gold": 20000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13133,
+            "Aliases": [
+                "Hercules",
+                "hercules"
+            ],
+            "ShortDesc": "Hercules",
+            "LongDesc": "Hercules stands here looking for another quest.\n",
+            "DetailedDesc": "  Hercules looks as impressive as ever.  The mortal man deemed good\nenough to be admitted to the ranks of the gods appears to have survived\nthe very gods that gave him that status.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 750,
+            "Level": 150,
+            "THAC0": 90,
+            "AC": -38,
+            "HP": "1d1+18000",
+            "Damage": "22d10+55",
+            "Gold": 20000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 13134,
+            "Aliases": [
+                "fido"
+            ],
+            "ShortDesc": "an aggressive fido",
+            "LongDesc": "A glowing beastly fido is here.\n",
+            "DetailedDesc": "Larger, and more deadly looking than it's pre-war counterparts, this fido\nlooks at you with intimidatingly intelligent eyes.  It's fur is thick and\nbristly, and it's eyes glow with a luminescent green hue.  As you look at\nit, a tongue lolls out of its mouth, revealing dual rows of pointed teeth\nthe size of carpenter's nails.  This is definitely not a normal dog...\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "AGGR_EVIL",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 7,
+            "HP": "12d10+2",
+            "Damage": "1d2+1",
+            "Gold": 30,
+            "XP": 400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 13135,
+            "Aliases": [
+                "glass",
+                "monster",
+                "glassmonster",
+                "glass-monster"
+            ],
+            "ShortDesc": "the Glass Monster",
+            "LongDesc": "The Glass Monster sits here.\n",
+            "DetailedDesc": "  You look at this impossible being and see nothing but a pile of molten\nglass formed in a vague man like shape.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "HIDE"
+            ],
+            "Alignment": 1000,
+            "Level": 145,
+            "THAC0": 88,
+            "AC": -38,
+            "HP": "1d1+18999",
+            "Damage": "14d10+100",
+            "Gold": 100,
+            "XP": 50000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 13199,
+            "Aliases": [
+                "barmaid",
+                "woman"
+            ],
+            "ShortDesc": "a barmaid",
+            "LongDesc": "A barmaid is here ready to get you whatever you need.\n",
+            "DetailedDesc": "You look at what has to be one of the most stunning women you have ever seen.\nShe is wearing a long strapless black dress, with a long slit up the side\nrevealing most of her long legs.  Her legs are well musculed from getting\npeople like yourself more to drink.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "100d50+1",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        }
+    ]
+}

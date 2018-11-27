@@ -1,0 +1,985 @@
+{
+    "mobs": [
+        {
+            "Number": 3100,
+            "Aliases": [
+                "maid"
+            ],
+            "ShortDesc": "the Maid",
+            "LongDesc": "The Maid is waiting for your order.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "She is very beautiful with golden hair, and deep blue eyes.  A good reason\r\r\r\r\r\r\n\rfor coming here more often, you think to yourself.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "1d1+30000",
+            "Damage": "1d8+22",
+            "Gold": 2000,
+            "XP": 200000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3101,
+            "Aliases": [
+                "psionicist",
+                "guildguard"
+            ],
+            "ShortDesc": "the Psionic",
+            "LongDesc": "A burly looking psionicist is here guarding the back door.\n",
+            "DetailedDesc": "This man is wearing simple robes, yet you feel an aura of power coming from\nhim.  You feel your memories and thoughts stripped away by his power, your\nvery deepest and darkest secrets revealed.  You stand stock still as his\npower takes a hold of your body while he probes your mind for psionics.  His\neyes are dark and you can see his muscles tense as he rips the answers from\nyour mind.  Only the most powerful of people would even think of messing with\nthis man.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 900,
+            "Level": 57,
+            "THAC0": 20,
+            "AC": -20,
+            "HP": "16d10+2950",
+            "Damage": "5d8+22",
+            "Gold": 2000,
+            "XP": 312200,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3102,
+            "Aliases": [
+                "waiter"
+            ],
+            "ShortDesc": "the Waiter",
+            "LongDesc": "A man sits behind the counter directing glasses and bottles with his mind.\n",
+            "DetailedDesc": "This man used to be a wandering adventurer, and now having gained power and\nfortune, lives his life as a waiter, using his abilities to serve rather than\ndestroy.  He seems content, surrounded by friends who understand him.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 35,
+            "THAC0": 19,
+            "AC": 2,
+            "HP": "16d10+1083",
+            "Damage": "1d8+20",
+            "Gold": 2000,
+            "XP": 36000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3120,
+            "Aliases": [
+                "sexton"
+            ],
+            "ShortDesc": "the Sexton",
+            "LongDesc": "A Sexton is sitting here, drinking hot tea.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Sexton looks like he is relaxing after another gravedigging job.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 3,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "3d6+58",
+            "Damage": "1d7+0",
+            "Gold": 13,
+            "XP": 500,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3121,
+            "Aliases": [
+                "swan"
+            ],
+            "ShortDesc": "the swan",
+            "LongDesc": "A swan is swimming around in the pond.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The white swan is very elegant.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "3d6+16",
+            "Damage": "1d5+0",
+            "Gold": 0,
+            "XP": 250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3122,
+            "Aliases": [
+                "duckling"
+            ],
+            "ShortDesc": "the duckling",
+            "LongDesc": "A duckling is swimming around in the pond.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The duckling is adorable, it looks most of all like a tiny furball.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d1+0",
+            "Damage": "1d1+0",
+            "Gold": 0,
+            "XP": 2,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3123,
+            "Aliases": [
+                "sparrow"
+            ],
+            "ShortDesc": "the sparrow",
+            "LongDesc": "A sparrow is flapping around on the ground.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The sparrow looks like it is enjoying life.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "3d6+0",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 62,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3124,
+            "Aliases": [
+                "duck"
+            ],
+            "ShortDesc": "the duck",
+            "LongDesc": "A duck is here, quacking happily.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The duck is quite fat.  It looks like it is enjoying life.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "3d6+8",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 187,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3130,
+            "Aliases": [
+                "statue"
+            ],
+            "ShortDesc": "the statue of Brian 'Wes' Wesley",
+            "LongDesc": "The statue of Brian 'Wes' Wesley, former IMP, stands here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see before you the statue of Wesley.  He was known in real life\r\r\r\r\r\r\n\ras Brian...and you know he helped rebuild and repair a failed\r\r\r\r\r\r\n\rmud known as RealityBites....\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 40,
+            "AC": -15,
+            "HP": "100d100+10000",
+            "Damage": "10d10+40",
+            "Gold": 250000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3131,
+            "Aliases": [
+                "statue"
+            ],
+            "ShortDesc": "the statue of Toby 'Corwin' Johnston",
+            "LongDesc": "The statue of Toby 'Corwin' Johnston, former CIMP, stands here.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see before you Toby, he was a good guy in life and I personally \r\r\r\r\r\r\n\rhope he is happy where he is now.  He was my friend and will not\r\r\r\r\r\r\n\rbe forgotten on this mud. \r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\rSincerly, Matt (Sheol)\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 40,
+            "AC": -15,
+            "HP": "100d100+10000",
+            "Damage": "10d10+40",
+            "Gold": 250000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3140,
+            "Aliases": [
+                "chief"
+            ],
+            "ShortDesc": "the Chief Guard",
+            "LongDesc": "The Chief Guard is looking very upset.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A very angry chief.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 800,
+            "Level": 22,
+            "THAC0": 17,
+            "AC": 1,
+            "HP": "1d12+350",
+            "Damage": "1d8+18",
+            "Gold": 0,
+            "XP": 36000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3141,
+            "Aliases": [
+                "cityguard",
+                "guard"
+            ],
+            "ShortDesc": "the upset cityguard",
+            "LongDesc": "A cityguard stands here, looking very upset.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A big, strong, angry guard.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 16,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "1d12+205",
+            "Damage": "1d8+3",
+            "Gold": 0,
+            "XP": 22500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3142,
+            "Aliases": [
+                "secretary"
+            ],
+            "ShortDesc": "the Secretary",
+            "LongDesc": "A secretary is sitting at the desk, typing away on the typewriter.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "She looks very busy.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r\u003e\r\r\r\r\r\r\n\rThe Secretary says 'Sorry, but the Mayor is extremely busy today.'\r\r\r\r\r\r\n\rThe Secretary says 'Please sit down and have a seat in the meantime.'\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 10,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "1d12+246",
+            "Damage": "2d7+1",
+            "Gold": 100,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3143,
+            "Aliases": [
+                "mayor"
+            ],
+            "ShortDesc": "the Mayor",
+            "LongDesc": "The Mayor is sitting in his huge chair, snoring loudly.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is a stocky, middle-aged man with thin, grey hair.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 1000,
+            "Level": 72,
+            "THAC0": 35,
+            "AC": -4,
+            "HP": "1d1+2499",
+            "Damage": "1d8+18",
+            "Gold": 1000,
+            "XP": 226000,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3144,
+            "Aliases": [
+                "crier"
+            ],
+            "ShortDesc": "the Town Crier",
+            "LongDesc": "The Town Crier is here, weeping quietly.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is very good at his job - completely dissolved in tears.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "3d6+16",
+            "Damage": "1d5+0",
+            "Gold": 34,
+            "XP": 250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3150,
+            "Aliases": [
+                "lynx"
+            ],
+            "ShortDesc": "a Lynx",
+            "LongDesc": "A Lynx is here, sharpening it's claws on a treestump.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  You see a small cat-like animal, not much bigger than your \r\r\r\r\r\r\n\raverage housecat.  You reach out to pet it, but quickly change\r\r\r\r\r\r\n\ryour mind when it hisses at you and swings a pawful of freshly\r\r\r\r\r\r\n\rsharpend claws at your hand.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 10,
+            "AC": 0,
+            "HP": "1d1+350",
+            "Damage": "5d3+7",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3151,
+            "Aliases": [
+                "Coyote"
+            ],
+            "ShortDesc": "a Coyote",
+            "LongDesc": "A coyote is here, chewing on an old bone.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The coyote looks up from her bone and glances at you with mild\r\r\r\r\r\r\n\rinterest.  She decides that you're no threat to her and goes back\r\r\r\r\r\r\n\rto work getting the last scraps of meat off of the bone.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 18,
+            "THAC0": 12,
+            "AC": 0,
+            "HP": "1d1+400",
+            "Damage": "5d4+8",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3152,
+            "Aliases": [
+                "wolf"
+            ],
+            "ShortDesc": "a Wolf",
+            "LongDesc": "A wolf sits here, looking at you quietly.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The wolf looks at you with dark brown eyes, making sure you don't\r\r\r\r\r\r\n\rcome to close to his pack.  His thick grey fur is ruffled by the\r\r\r\r\r\r\n\rbreeze.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 25,
+            "THAC0": 15,
+            "AC": -1,
+            "HP": "1d1+750",
+            "Damage": "5d5+8",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3153,
+            "Aliases": [
+                "cougar"
+            ],
+            "ShortDesc": "a Cougar",
+            "LongDesc": "A cougar is here, relaxing the bright sunshine.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The cougar looks rather content, almost purring in the sunshine.\r\r\r\r\r\r\n\rHis light brown fur doesn't hide the powerful muscules that turn\r\r\r\r\r\r\n\rthis cat into a powerful hunter.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 27,
+            "THAC0": 17,
+            "AC": -2,
+            "HP": "1d1+800",
+            "Damage": "5d5+10",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3154,
+            "Aliases": [
+                "wolverine"
+            ],
+            "ShortDesc": "a Wolverine",
+            "LongDesc": "A wolverine is here, snarling viciously at you.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  You look at the wolverine and decide that this has got to be one\r\r\r\r\r\r\n\rof the most vicious creatures you have ever seen.  It's not much\r\r\r\r\r\r\n\rbigger than a small dog, but it is all teeth and claws.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 36,
+            "THAC0": 20,
+            "AC": -3,
+            "HP": "1d1+1050",
+            "Damage": "8d3+12",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3155,
+            "Aliases": [
+                "wild",
+                "boar"
+            ],
+            "ShortDesc": "a Wild Boar",
+            "LongDesc": "A wild boar is here, rooting trough the undergrowth.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The wild boar looks like it would make an excellent meal.  It\r\r\r\r\r\r\n\rnoticese you and snorts at you.  You notice it's rather nasty\r\r\r\r\r\r\n\rtusks, and decide you'd better make other plans for lunch.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 38,
+            "THAC0": 22,
+            "AC": -4,
+            "HP": "1d1+1100",
+            "Damage": "8d3+14",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3156,
+            "Aliases": [
+                "mountain",
+                "lion"
+            ],
+            "ShortDesc": "a Mountain Lion",
+            "LongDesc": "A mountain lion is here, basking in the sun.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  You look at this magnificent animal and watch it for a while as\r\r\r\r\r\r\n\rit cleans itself.  It glances up at you and swishes it's tail\r\r\r\r\r\r\n\rannoyedly for a second, looking like it might leap at you to tear\r\r\r\r\r\r\n\ryou limb from limb, and then goes back to it's task.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 47,
+            "THAC0": 25,
+            "AC": -8,
+            "HP": "1d1+1450",
+            "Damage": "9d3+16",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3157,
+            "Aliases": [
+                "grizzly",
+                "bear"
+            ],
+            "ShortDesc": "a Grizzly Bear",
+            "LongDesc": "A massive grizzly bear is here, looking for his next meal.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  You look at the bear and are awed by the sheer size of it.  You\r\r\r\r\r\r\n\rwisely decide to leave him alone, just in case he decides to make\r\r\r\r\r\r\n\ryou his next meal.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 28,
+            "AC": -10,
+            "HP": "1d1+1500",
+            "Damage": "10d4+18",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3160,
+            "Aliases": [
+                "pixie"
+            ],
+            "ShortDesc": "a Pixie",
+            "LongDesc": "A Pixie is here, flying around your face.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The pixie is very small, maybe six inches tall, with little \r\r\r\r\r\r\n\rtransparent wings.  She is wearing a little green dress, and you \r\r\r\r\r\r\n\rfind yourself wishing she was bigger.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 10,
+            "AC": 0,
+            "HP": "1d1+350",
+            "Damage": "5d3+7",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3161,
+            "Aliases": [
+                "Fairy"
+            ],
+            "ShortDesc": "a Fairy",
+            "LongDesc": "A fairy is here, sitting on a branch.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The fairy is a small creature, about half a foot tall with little\r\r\r\r\r\r\n\rwings.  He looks bored.  Maybe he's waiting for his next job.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 18,
+            "THAC0": 12,
+            "AC": 0,
+            "HP": "1d1+400",
+            "Damage": "5d4+8",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3162,
+            "Aliases": [
+                "pheonix"
+            ],
+            "ShortDesc": "a Pheonix",
+            "LongDesc": "A pheonix is here, rising from the ashes.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  You look at this mystical creature and wonder about it's origins.\r\r\r\r\r\r\n\rA bird like this you have never seen before.  It looks very majestic\r\r\r\r\r\r\n\rwith it's bright red feathers.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 25,
+            "THAC0": 15,
+            "AC": -1,
+            "HP": "1d1+750",
+            "Damage": "5d5+8",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3163,
+            "Aliases": [
+                "unicorn"
+            ],
+            "ShortDesc": "a Unicorn",
+            "LongDesc": "A unicorn is here, eating some clover.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  You look at the magical unicorn and wonder what it would be like\r\r\r\r\r\r\n\rriding this magnificent animal.  It looks at you and shakes it's\r\r\r\r\r\r\n\rmane, pointing it's horn at you, as if it's daring you to try.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 27,
+            "THAC0": 17,
+            "AC": -2,
+            "HP": "1d1+800",
+            "Damage": "5d5+10",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 3164,
+            "Aliases": [
+                "griffen"
+            ],
+            "ShortDesc": "a griffen",
+            "LongDesc": "A griffen is here, sharpening it's beak on a rock.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  This griffon is definately one of the stranger creatures you have\r\r\r\r\r\r\n\rever seen.  It has the body of a lion, and the head and wings of an\r\r\r\r\r\r\n\reagle.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 36,
+            "THAC0": 20,
+            "AC": -3,
+            "HP": "1d1+1050",
+            "Damage": "8d3+12",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3165,
+            "Aliases": [
+                "golem"
+            ],
+            "ShortDesc": "a Golem",
+            "LongDesc": "A golem is here, awaiting it's creators orders.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The golem appears to have been made from pure magic.  It stands\r\r\r\r\r\r\n\rthere, unthinking, unmoving, fearing nothing.  It's purpose in life\r\r\r\r\r\r\n\ris to serve it's master.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 38,
+            "THAC0": 22,
+            "AC": -4,
+            "HP": "1d1+1100",
+            "Damage": "8d3+14",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3166,
+            "Aliases": [
+                "dragon"
+            ],
+            "ShortDesc": "a Dragon",
+            "LongDesc": "A dragon is here, looking for more treasure.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The dragon is looking at you with intelligent eyes.  You find\r\r\r\r\r\r\n\ryourself strangely drawn into those eyes, as if you are coming \r\r\r\r\r\r\n\runder a spell.  The dragon blinks it's eyes and the spell is broken.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 47,
+            "THAC0": 25,
+            "AC": -8,
+            "HP": "1d1+1450",
+            "Damage": "9d3+16",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 3167,
+            "Aliases": [
+                "genie"
+            ],
+            "ShortDesc": "a Genie",
+            "LongDesc": "A genie is here, waiting to fulfill your wishes.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The genie looks like it is made of nothing but smoke.  But yet it\r\r\r\r\r\r\n\ris still one of the most powerful magical beings know.  It has the\r\r\r\r\r\r\n\rpower to grant everyman's deepest and darkest wishes.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 28,
+            "AC": -10,
+            "HP": "1d1+1500",
+            "Damage": "10d4+18",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3170,
+            "Aliases": [
+                "shadow"
+            ],
+            "ShortDesc": "a Shadow",
+            "LongDesc": "A shadow is here, hugging the wall.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The shadow doesn't really appear to be there.  You can practically\r\r\r\r\r\r\n\rlook right through it, and it seems to have no substance at all.\r\r\r\r\r\r\n\rYou look around for what could be casting the shadow, and see\r\r\r\r\r\r\n\rnothing.  You suddenly get very nervous.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 18,
+            "THAC0": 12,
+            "AC": 0,
+            "HP": "1d1+400",
+            "Damage": "5d4+8",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3171,
+            "Aliases": [
+                "water",
+                "demon"
+            ],
+            "ShortDesc": "a Water Demon",
+            "LongDesc": "A water demon is here, shimmering quietly.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The water demon looks very much like water.  It doesn't seem to\r\r\r\r\r\r\n\rhave any real substance, it just kind of flows through space and\r\r\r\r\r\r\n\rtime.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 25,
+            "THAC0": 15,
+            "AC": -1,
+            "HP": "1d1+750",
+            "Damage": "5d5+8",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3172,
+            "Aliases": [
+                "fire",
+                "demon"
+            ],
+            "ShortDesc": "a Fire Demon",
+            "LongDesc": "A fire demon is here, flickering in the breeze.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The fire demon looks like it is made from fire, it has no real\r\r\r\r\r\r\n\rsubstance.  It just flickers it's way through space and time.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 27,
+            "THAC0": 17,
+            "AC": -2,
+            "HP": "1d1+800",
+            "Damage": "5d5+10",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 3173,
+            "Aliases": [
+                "demon",
+                "lord",
+                "demonlord"
+            ],
+            "ShortDesc": "a Demon Lord",
+            "LongDesc": "A demon lord is here, filling your heart with fear.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "  The demon lord is one of the most powerful demons.  It has no\r\r\r\r\r\r\n\rshape you can readily define or recognize.  You cannot tell\r\r\r\r\r\r\n\rwhere it starts or where it ends.  It just is.  And it scares you.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 32,
+            "AC": -12,
+            "HP": "1d1+1750",
+            "Damage": "11d5+20",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

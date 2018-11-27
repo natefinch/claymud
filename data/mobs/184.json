@@ -1,0 +1,509 @@
+{
+    "mobs": [
+        {
+            "Number": 18400,
+            "Aliases": [
+                "fire",
+                "drake",
+                "dragon"
+            ],
+            "ShortDesc": "a large firedrake",
+            "LongDesc": "A firedrake, the largest you've ever seen, hides in the shadows of the cave.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The firedrake is a close cousin to the almost extinct species of great\r\r\r\r\r\r\r\r\n\rdragons that existed in Midkemia long ago. He is about 50 feet from\r\r\r\r\r\r\r\r\n\rhead to tail and his wings could span 20 yards or more.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "HIDE"
+            ],
+            "Alignment": -600,
+            "Level": 71,
+            "THAC0": 40,
+            "AC": -60,
+            "HP": "1d1+5000",
+            "Damage": "7d6+20",
+            "Gold": 20000,
+            "XP": 150000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18401,
+            "Aliases": [
+                "wolf",
+                "animal"
+            ],
+            "ShortDesc": "a Frightened Wolf",
+            "LongDesc": "A frightened wolf hides in the shadows of the cavern.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A frightened wolf hides in the shadows.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "HELPER"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 15,
+            "THAC0": 5,
+            "AC": -2,
+            "HP": "1d1+300",
+            "Damage": "3d4+5",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18402,
+            "Aliases": [
+                "pup",
+                "puppy",
+                "baby"
+            ],
+            "ShortDesc": "a cute puppy",
+            "LongDesc": "A cute little puppy lies here on the floor.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A cute little wolf pup.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "BLIND"
+            ],
+            "Alignment": 0,
+            "Level": 8,
+            "THAC0": 2,
+            "AC": 4,
+            "HP": "1d1+100",
+            "Damage": "4d1+5",
+            "Gold": 0,
+            "XP": 300,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18403,
+            "Aliases": [
+                "matron",
+                "wolf"
+            ],
+            "ShortDesc": "the Matron Wolf",
+            "LongDesc": "\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The matron wolf hides while readying to protect her young.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_EVIL",
+                "HELPER"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 10,
+            "AC": 4,
+            "HP": "1d1+250",
+            "Damage": "3d3+3",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18404,
+            "Aliases": [
+                "petty",
+                "thief",
+                "man",
+                "idiot"
+            ],
+            "ShortDesc": "a petty thief",
+            "LongDesc": "Some idiot is peering at you as if you couldn't see him from behind a tree.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "He doesn't seem to be a very good thief. He ducks behind the tree every\r\r\r\r\r\r\r\r\n\rtime you look his way.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 1,
+            "THAC0": 5,
+            "AC": 10,
+            "HP": "1d1+0",
+            "Damage": "1d0+10",
+            "Gold": 1,
+            "XP": 10,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18405,
+            "Aliases": [
+                "gnoll",
+                "rat",
+                "scout",
+                "creature",
+                "small"
+            ],
+            "ShortDesc": "a gnoll scout",
+            "LongDesc": "A small creature is scouting noisily through the bushes.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This creature is a small gnoll covered in stolen clothing that barely\r\r\r\r\r\r\r\r\n\rfit him. He must have stolen it from unwary souls who he chanced by\r\r\r\r\r\r\r\r\n\rhere in the forest. As small, yet potent fighters (and more often than\r\r\r\r\r\r\r\r\n\rnot thieves) they are cowards by themselves. But in the larger hunting\r\r\r\r\r\r\r\r\n\rparties that they sometimes form, they can be a terribly skilled\r\r\r\r\r\r\r\r\n\ropponent. You find this race of creatures disgusting due to thier\r\r\r\r\r\r\r\r\n\rhuman and rat like origins. It is said that they poison thier weapons\r\r\r\r\r\r\r\r\n\rwith a natural toxin to weaken thier opponents. Now you can understand\r\r\r\r\r\r\r\r\n\rwhy they were driven back into the deep forests by humans.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 10,
+            "Level": 13,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "5d2+250",
+            "Damage": "3d5+5",
+            "Gold": 350,
+            "XP": 650,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18406,
+            "Aliases": [
+                "elemental",
+                "guard",
+                "guardian",
+                "lake",
+                "monster"
+            ],
+            "ShortDesc": "the Guardian of the Lake",
+            "LongDesc": "A Large Elemental of Water is floating just beneath the waves.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This magically created creature stands fifteen feet tall. It has a sinister\r\r\r\r\r\r\r\r\n\rlook about it.  You can see through its body as if it were waves in a stream.\r\r\r\r\r\r\r\r\n\rHis body forms from the water and has four appendages that resemble arms.\r\r\r\r\r\r\r\r\n\rThis faceless creature was placed here for a purpose, for he is readying \r\r\r\r\r\r\r\r\n\rto destroy you.\r\r\r\r\r\r\r\r\n\r\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "INVISIBLE"
+            ],
+            "Alignment": 100,
+            "Level": 47,
+            "THAC0": 32,
+            "AC": -27,
+            "HP": "20d100+1500",
+            "Damage": "20d2+2",
+            "Gold": 0,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18407,
+            "Aliases": [
+                "cougar",
+                "cat",
+                "lion"
+            ],
+            "ShortDesc": "a Large Cougar",
+            "LongDesc": "A cougar is wandering aimlessly through the forest.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Cougars are common animals in these mountains, although few people live to \r\r\r\r\r\r\r\r\n\rtell that to those idiots who roam aimlessly about in them. This cougar is\r\r\r\r\r\r\r\r\n\rquite large, and for now, seems to have satiated his appetite with a small\r\r\r\r\r\r\r\r\n\rrabbit. He is resting on a large tree limb devouring his meal while\r\r\r\r\r\r\r\r\n\rpaying you no mind whatsoever. He obviously doesn't see you as a threat.\r\r\r\r\r\r\r\r\n\rYou, however, still aren't comfortable staring into his huge yellow eyes.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 11,
+            "AC": -2,
+            "HP": "100d1+300",
+            "Damage": "12d2+3",
+            "Gold": 0,
+            "XP": 1200,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18408,
+            "Aliases": [
+                "bandit",
+                "thief",
+                "man",
+                "pilferer"
+            ],
+            "ShortDesc": "a highway bandit",
+            "LongDesc": "A scruffy, short man is hiding here, acting very strange.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You wouldn't think he was a thief if he wasn't hiding in the shadows.\r\r\r\r\r\r\r\r\n\rHe looks common enough... a short, scruffy, stinky vagabond with nowhere to\r\r\r\r\r\r\r\r\n\rgo and noone who cares. His torn grey tunic and ripped woolen trousers\r\r\r\r\r\r\r\r\n\rmake you feel slightly sorry for him. He has a strange grin in his face.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -400,
+            "Level": 37,
+            "THAC0": 30,
+            "AC": -15,
+            "HP": "5d100+1250",
+            "Damage": "3d7+4",
+            "Gold": 10000,
+            "XP": 8000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18409,
+            "Aliases": [
+                "man",
+                "leader"
+            ],
+            "ShortDesc": "the Leader of a Band of Highway Thieves",
+            "LongDesc": "You see a well dressed man sleeping here, on an ornately fashioned mat.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This man looks to be a lost, rich noble. He must have been separated from\r\r\r\r\r\r\r\r\n\rhis party and is taking a nap before he continues his search for his comrades.\r\r\r\r\r\r\r\r\n\rHis mat is a beautiful oriental style rug, and he wears the finest of furs\r\r\r\r\r\r\r\r\n\rabout his body. Jewelry adorns him from his head to his feet. Heh, this\r\r\r\r\r\r\r\r\n\rlooks like easy pickin's.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 60,
+            "THAC0": 40,
+            "AC": -37,
+            "HP": "16d100+3000",
+            "Damage": "10d5+0",
+            "Gold": 100000,
+            "XP": 120000,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18410,
+            "Aliases": [
+                "squirrel",
+                "busy"
+            ],
+            "ShortDesc": "the squirrel",
+            "LongDesc": "A squirrel scampers around, collecting nuts as he contemplates his hunger.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "It's a squirrel, for god's sake, it can't hurt you (badly); KILL IT!\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 6,
+            "THAC0": 4,
+            "AC": 6,
+            "HP": "28d10+5",
+            "Damage": "1d2+0",
+            "Gold": 0,
+            "XP": 600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18411,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18430,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18442,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 18445,
+            "Aliases": [
+                "bear",
+                ""
+            ],
+            "ShortDesc": "a bear",
+            "LongDesc": "A wounded bear limps thru the underbrush.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "As you quickly glance at the charging bear, you see an old arrow wound in \r\r\r\r\r\r\r\r\n\rher side.  She looks crazed with the pain of her wound.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "CURSE",
+                "INFRAVISION"
+            ],
+            "Alignment": -700,
+            "Level": 17,
+            "THAC0": 9,
+            "AC": -3,
+            "HP": "60d10+100",
+            "Damage": "7d3+11",
+            "Gold": 0,
+            "XP": 8000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 18450,
+            "Aliases": [
+                "keshian",
+                "merchant",
+                "man"
+            ],
+            "ShortDesc": "a short merchant",
+            "LongDesc": "A short, dark skinned merchant rests upon his wagon.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Empire of Great Kesh lies at the southern border of the Kingdom of the\r\r\r\r\r\r\r\r\n\rIsles. Half of the border is disputed, and therefore, the relations between\r\r\r\r\r\r\r\r\n\rthe lands are tense. Some in Kesh would like to go to war to gain those\r\r\r\r\r\r\r\r\n\rborders while others, such as this man, see profit in peace.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 37,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "1d1+999",
+            "Damage": "2d4+20",
+            "Gold": 28000,
+            "XP": 28000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18451,
+            "Aliases": [
+                "horse"
+            ],
+            "ShortDesc": "a horse",
+            "LongDesc": "A horse in a team of four is pulling a wagon here.\r\r\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This poor animal looks terribly over worked. Drawing a wagon from here\r\r\r\r\r\r\r\r\n\rto Kesh is no easy task.\r\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 18,
+            "THAC0": 10,
+            "AC": -4,
+            "HP": "100d10+0",
+            "Damage": "2d10+0",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

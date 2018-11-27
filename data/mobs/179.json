@@ -1,0 +1,3585 @@
+{
+    "mobs": [
+        {
+            "Number": 17900,
+            "Aliases": [
+                "fish",
+                "large"
+            ],
+            "ShortDesc": "a large fish",
+            "LongDesc": "A large fish swims by you.\n",
+            "DetailedDesc": "This fish is almost as big as you. It has green scales, and a large jaw\nwith sharp teeth.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "NOBASH"
+            ],
+            "Affections": [
+                "WATERWALK",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 25,
+            "THAC0": 16,
+            "AC": -2,
+            "HP": "10d9+120",
+            "Damage": "3d5+10",
+            "Gold": 10,
+            "XP": 13200,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17901,
+            "Aliases": [
+                "traveler",
+                "man",
+                "weary"
+            ],
+            "ShortDesc": "a traveler",
+            "LongDesc": "A weary man trudges by.\n",
+            "DetailedDesc": "He is a weary looking man, carrying all his possessions on his back. Day\nin and day out he drags himself along dusty roads headed to some far away\ndestination.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 10,
+            "AC": 7,
+            "HP": "1d50+150",
+            "Damage": "1d4+5",
+            "Gold": 1300,
+            "XP": 9600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17902,
+            "Aliases": [
+                "adventurer",
+                "man",
+                "strong"
+            ],
+            "ShortDesc": "a wandering adventurer",
+            "LongDesc": "A strong, narrow-eyed man walks past.\n",
+            "DetailedDesc": "He is a strong man, with a rough look. He watches his surroundings\ncarefully as he walks in search of fame and fortune.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 12,
+            "AC": 2,
+            "HP": "3d50+230",
+            "Damage": "4d4+10",
+            "Gold": 7000,
+            "XP": 21000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17903,
+            "Aliases": [
+                "lion",
+                "mountain"
+            ],
+            "ShortDesc": "a mountain lion",
+            "LongDesc": "A mountain lion growls at you from behind some rocks.\n",
+            "DetailedDesc": "The short, light brown fur on this cat's back stands up as you get near. A\nlow rumble escapes it's clenched jaw full of sharp teeth.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 25,
+            "THAC0": 15,
+            "AC": 3,
+            "HP": "3d20+150",
+            "Damage": "4d5+10",
+            "Gold": 0,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17904,
+            "Aliases": [
+                "tiger"
+            ],
+            "ShortDesc": "a tiger",
+            "LongDesc": "A tiger is crouched in a tree ready to pounce.\n",
+            "DetailedDesc": "This tiger has orange-brown fur and black and brown streaks. It bears it's.\nteeth and extends it's claws. It does not seem at all friendly.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 17,
+            "AC": 2,
+            "HP": "4d20+160",
+            "Damage": "4d5+12",
+            "Gold": 0,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17905,
+            "Aliases": [
+                "bear",
+                "brownbear"
+            ],
+            "ShortDesc": "a bear",
+            "LongDesc": "A large, brown bear towers over you.\n",
+            "DetailedDesc": "This bear is huge, and its looking down at you. It's claws are sharp, but\nit's huge mouth and stained teeth look like they could tear you apart and\neat you in seconds.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 16,
+            "AC": 1,
+            "HP": "6d20+250",
+            "Damage": "4d10+25",
+            "Gold": 0,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17906,
+            "Aliases": [
+                "deer"
+            ],
+            "ShortDesc": "a deer",
+            "LongDesc": "A deer watches you.\n",
+            "DetailedDesc": "This deer has a large set of antlers. It must be old to have such a rack\nand to stand before a human so fearlessly.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 23,
+            "THAC0": 10,
+            "AC": 6,
+            "HP": "3d25+150",
+            "Damage": "3d4+5",
+            "Gold": 0,
+            "XP": 10400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17907,
+            "Aliases": [
+                "elf",
+                "spy"
+            ],
+            "ShortDesc": "an elf spy",
+            "LongDesc": "A sneaky elf is hiding in a tree watching you.\n",
+            "DetailedDesc": "He is small and has pointy ears. He is dressed in leather and brown and\ngreen clothing meant to blend in with the forest.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "HIDE"
+            ],
+            "Alignment": -150,
+            "Level": 30,
+            "THAC0": 13,
+            "AC": 2,
+            "HP": "3d40+180",
+            "Damage": "3d4+8",
+            "Gold": 5500,
+            "XP": 22000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17908,
+            "Aliases": [
+                "kender"
+            ],
+            "ShortDesc": "a kender",
+            "LongDesc": "A chattery little kender is going through your things.\n",
+            "DetailedDesc": "This small being with pointy ears and long hair pulled up in a topknot. He\nis smaller in you, but he doesn't seem to notice as he rattles on about\neverything he has ever experienced. He is always smiling and always\nfiddling with something that looks like an item you have...\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AWARE",
+                "WIMPY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 0,
+            "Level": 25,
+            "THAC0": 12,
+            "AC": 1,
+            "HP": "7d18+220",
+            "Damage": "1d8+5",
+            "Gold": 4000,
+            "XP": 20500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17909,
+            "Aliases": [
+                "ghost",
+                "form",
+                "transparent",
+                "human"
+            ],
+            "ShortDesc": "a ghost",
+            "LongDesc": "The transparent form of a human glides silently about.\n",
+            "DetailedDesc": "This thing looks like a faded picture of a human. It is transparent, and\nit's colors are faded almost to the point of being black and white. On its\nface is a look of sadness and longing.\n",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "NOTRACK",
+                "SNEAK"
+            ],
+            "Alignment": -750,
+            "Level": 25,
+            "THAC0": 14,
+            "AC": 3,
+            "HP": "5d10+180",
+            "Damage": "1d15+15",
+            "Gold": 0,
+            "XP": 11500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17910,
+            "Aliases": [
+                "skeleton",
+                "bones",
+                "knight"
+            ],
+            "ShortDesc": "a skeleton",
+            "LongDesc": "The animated bones of a long dead knight walk around.\n",
+            "DetailedDesc": "Before you are the animated remains of a long dead knight. It's bones are\npicked clean and make knocking sounds whenever it moves. It still wears a\nfew pieces of dented and rusting armor.\n",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -800,
+            "Level": 28,
+            "THAC0": 15,
+            "AC": 4,
+            "HP": "5d15+200",
+            "Damage": "3d6+15",
+            "Gold": 100,
+            "XP": 14000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17911,
+            "Aliases": [
+                "wraith",
+                "form",
+                "dark",
+                "cloak"
+            ],
+            "ShortDesc": "a wraith",
+            "LongDesc": "An invisible form in a cloak of dark energy flies by.\n",
+            "DetailedDesc": "A cloak of what can only be described as black fire covers a being that\nyou cannot see. Two red holes in the air serve as eyes and lock your gaze,\nholding you captive.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 40,
+            "THAC0": 15,
+            "AC": 2,
+            "HP": "3d20+300",
+            "Damage": "3d10+20",
+            "Gold": 0,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17912,
+            "Aliases": [
+                "soth",
+                "lord",
+                "knight",
+                "death"
+            ],
+            "ShortDesc": "Lord Soth",
+            "LongDesc": "A death knight in Solamnic armor stands before you.\n",
+            "DetailedDesc": "This man was once a powerful Solamnic knight, but he turned toward\nTakhisis. His keep burned and he was killed, but he came back as a dreaded\ndeath knight. He still wears the armor of the Solamnic knights, but it is\nblack and charred. His skin is deathly pale, and hit eyes glow with unholy\nfire.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "CURSE",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 130,
+            "THAC0": 72,
+            "AC": -32,
+            "HP": "20d100+20000",
+            "Damage": "5d10+50",
+            "Gold": 98000,
+            "XP": 600000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17913,
+            "Aliases": [
+                "knight",
+                "Solamnic"
+            ],
+            "ShortDesc": "a Solamnic knight",
+            "LongDesc": "A knight in Solamnic armor patrols the tower.\n",
+            "DetailedDesc": "He is a tall, strong man with a large, long mustache. He wears well\npolished armor and carries a sword in a sheath. He proudly guards the\ntower and keeps a close eye on you as you walk about.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 35,
+            "THAC0": 16,
+            "AC": -1,
+            "HP": "4d30+250",
+            "Damage": "5d5+14",
+            "Gold": 1200,
+            "XP": 25500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17914,
+            "Aliases": [
+                "knight",
+                "Solamnic"
+            ],
+            "ShortDesc": "a Solamnic knight",
+            "LongDesc": "A knight in Solamnic armor guards the tower.\n",
+            "DetailedDesc": "He is a tall, strong man with a large, long mustache. He wears well\npolished armor and carries a sword in a sheath. He proudly guards the\ntower and keeps a close eye on you as you walk about.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 800,
+            "Level": 38,
+            "THAC0": 16,
+            "AC": -1,
+            "HP": "5d30+260",
+            "Damage": "5d5+14",
+            "Gold": 1200,
+            "XP": 27000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17915,
+            "Aliases": [
+                "knight",
+                "officer",
+                "sword",
+                "solamnic"
+            ],
+            "ShortDesc": "the Knight of the Sword",
+            "LongDesc": "An officer in armor decorated with a sword symbol stands before you.\n",
+            "DetailedDesc": "This knight is short and stocky. He is the head of the sword division of\nknights and a member of the counsel. His face is stern, scarred from\nbattle, and covered in a long bushy mustache.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 900,
+            "Level": 75,
+            "THAC0": 25,
+            "AC": -4,
+            "HP": "20d50+1000",
+            "Damage": "6d5+25",
+            "Gold": 5000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17916,
+            "Aliases": [
+                "knight",
+                "officer",
+                "crown",
+                "solamnic"
+            ],
+            "ShortDesc": "the Knight of the Crown",
+            "LongDesc": "An officer in armor decorated with a crown symbol stands before you.\n",
+            "DetailedDesc": "This tall knight is the head of the crown division of the knights and as\nsuch, a member of the counsel. He has a knowledgeable look and appraises\nyou with a quick glance. Like all the knights, he has a long mustache.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 900,
+            "Level": 80,
+            "THAC0": 27,
+            "AC": -4,
+            "HP": "20d50+1200",
+            "Damage": "6d5+30",
+            "Gold": 5000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17917,
+            "Aliases": [
+                "thomas",
+                "sir",
+                "knight",
+                "officer",
+                "rose",
+                "solamnic"
+            ],
+            "ShortDesc": "Sir Thomas",
+            "LongDesc": "Sir Thomas, leader of the knights of Solamnia, stands proudly before you.\n",
+            "DetailedDesc": "This is Sir Thomas, the head of the rose division of the knights and\nleader of the counsel. He is old, but still strong. His hair has all\nturned white except for a long, red mustache.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 900,
+            "Level": 95,
+            "THAC0": 30,
+            "AC": -6,
+            "HP": "20d50+1500",
+            "Damage": "6d5+40",
+            "Gold": 10000,
+            "XP": 75000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17918,
+            "Aliases": [
+                "treant",
+                "tree"
+            ],
+            "ShortDesc": "a treant",
+            "LongDesc": "A living tree reaches out for you.\n",
+            "DetailedDesc": "The bark on this tree forms a face and the branches reach out to grab you.\nIt is uprooted and walks about slowly. On it's face is a look of evil and\nhatred.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "NOTRACK",
+                "HIDE"
+            ],
+            "Alignment": -550,
+            "Level": 60,
+            "THAC0": 20,
+            "AC": 5,
+            "HP": "1d500+1000",
+            "Damage": "5d7+20",
+            "Gold": 843,
+            "XP": 45000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17919,
+            "Aliases": [
+                "treant",
+                "tree"
+            ],
+            "ShortDesc": "a treant",
+            "LongDesc": "A living tree reaches out for you.\n",
+            "DetailedDesc": "The bark on this tree forms a face and the branches reach out to grab you.\nIt is uprooted and walks about slowly. On it's face is a look of evil and\nhatred.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "NOTRACK",
+                "HIDE"
+            ],
+            "Alignment": -550,
+            "Level": 60,
+            "THAC0": 20,
+            "AC": 5,
+            "HP": "1d500+1000",
+            "Damage": "5d7+20",
+            "Gold": 843,
+            "XP": 45000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17920,
+            "Aliases": [
+                "knight",
+                "Solamnic"
+            ],
+            "ShortDesc": "a Solamnic knight",
+            "LongDesc": "A knight in Solamnic armor patrols Palanthas.\n",
+            "DetailedDesc": "He is a tall, strong man with a large, long mustache. He wears well\npolished armor and carries a sword in a sheath. He has sworn to guard\nPalanthas at any cost.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 800,
+            "Level": 38,
+            "THAC0": 16,
+            "AC": -1,
+            "HP": "5d30+260",
+            "Damage": "5d5+14",
+            "Gold": 1200,
+            "XP": 27000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17921,
+            "Aliases": [
+                "guard"
+            ],
+            "ShortDesc": "a guard",
+            "LongDesc": "A guard patrols Palanthas, keeping the peace.\n",
+            "DetailedDesc": "This is a well built, middle aged man, wearing leather armor and carrying\na short sword on his belt. When not on duty he is just another citizen of\nPalanthas. He watches every nearby to make sure there is no trouble.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 650,
+            "Level": 30,
+            "THAC0": 14,
+            "AC": 0,
+            "HP": "4d20+200",
+            "Damage": "4d5+12",
+            "Gold": 800,
+            "XP": 22000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17922,
+            "Aliases": [
+                "guard"
+            ],
+            "ShortDesc": "a guard",
+            "LongDesc": "A guard protects the city from invaders.\n",
+            "DetailedDesc": "This is a well built, middle aged man, wearing leather armor and carrying\na short sword on his belt. When not on duty he is just another citizen of\nPalanthas. He watches every nearby to make sure there is no trouble.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 650,
+            "Level": 30,
+            "THAC0": 14,
+            "AC": 0,
+            "HP": "4d20+200",
+            "Damage": "4d5+12",
+            "Gold": 800,
+            "XP": 22000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17923,
+            "Aliases": [
+                "citizen"
+            ],
+            "ShortDesc": "a citizen of Palanthas",
+            "LongDesc": "A citizen of Palanthas walks about.\n",
+            "DetailedDesc": "He is a young man, dressed in plain clothes. He has a smile on his face as\nhe goes about his business in the city.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 20,
+            "THAC0": 10,
+            "AC": 7,
+            "HP": "1d50+150",
+            "Damage": "1d4+5",
+            "Gold": 900,
+            "XP": 9600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17924,
+            "Aliases": [
+                "citizen"
+            ],
+            "ShortDesc": "a citizen of Palanthas",
+            "LongDesc": "A citizen of Palanthas walks about.\n",
+            "DetailedDesc": "She is a young woman, wearing a simple dress. She has a smile on her face\nas she goes about her business in the city.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 20,
+            "THAC0": 10,
+            "AC": 7,
+            "HP": "1d50+150",
+            "Damage": "1d4+5",
+            "Gold": 900,
+            "XP": 9600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17925,
+            "Aliases": [
+                "noble"
+            ],
+            "ShortDesc": "a noble",
+            "LongDesc": "A noble sits here looking bored.\n",
+            "DetailedDesc": "He is dressed in very expensive clothes and his lazy life shows in his\nround, soft body. He sits talking about politics and ignoring you.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 300,
+            "Level": 13,
+            "THAC0": 7,
+            "AC": 8,
+            "HP": "1d50+150",
+            "Damage": "1d4+2",
+            "Gold": 11500,
+            "XP": 6000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17926,
+            "Aliases": [
+                "jailor",
+                "man"
+            ],
+            "ShortDesc": "the jailor",
+            "LongDesc": "A large man watches over the jail.\n",
+            "DetailedDesc": "He is a very muscular man. He wears leather and a short sword like the\ncity guards. He has a short scruffy beard, and a foul look on his face.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 600,
+            "Level": 33,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "4d20+220",
+            "Damage": "4d5+15",
+            "Gold": 3200,
+            "XP": 23500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17927,
+            "Aliases": [
+                "acolyte"
+            ],
+            "ShortDesc": "an acolyte",
+            "LongDesc": "An acolyte tends the library.\n",
+            "DetailedDesc": "He is dressed in a plain brown robe. He walks about silently, shelving\nbooks, making notes in records, and watching the people using the library.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 22,
+            "THAC0": 12,
+            "AC": 7,
+            "HP": "2d30+170",
+            "Damage": "3d4+10",
+            "Gold": 700,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17928,
+            "Aliases": [
+                "astinus",
+                "man"
+            ],
+            "ShortDesc": "Astinus",
+            "LongDesc": "A man of indeterminate age sits, writing in a book.\n",
+            "DetailedDesc": "This is Astinus, the writer of the world's history. He has been around\nsince the creation of the world, writing down everything that happens.\nSome say he is a student of the god Gilean. Others say he is the god\nGilean himself. He does not look old, nor does he look young. In his eyes\nis infinite wisdom, but the rest of his features are forgotten almost as\nsoon as you look away.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 130,
+            "THAC0": 65,
+            "AC": -30,
+            "HP": "0d0+30000",
+            "Damage": "2d65+65",
+            "Gold": 1000,
+            "XP": 200000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17929,
+            "Aliases": [
+                "crysania",
+                "woman",
+                "high",
+                "priestess",
+                "crysaniaprogname"
+            ],
+            "ShortDesc": "High-priestess Crysania",
+            "LongDesc": "A sightless woman who sees with the eyes of Paladine stands before you.\n",
+            "DetailedDesc": "This is Crysania, the leader of the church of Paladine. She has long,\nblack hair and pale skin. She wears a blue robe. Although she is blind,\nshe sees the world more clearly than most people.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "BLIND",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "UNUSED17"
+            ],
+            "Alignment": 950,
+            "Level": 105,
+            "THAC0": 10,
+            "AC": -15,
+            "HP": "20d100+6000",
+            "Damage": "3d6+10",
+            "Gold": 200,
+            "XP": 140000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17930,
+            "Aliases": [
+                "tandar",
+                "tiger",
+                "tandarprogname"
+            ],
+            "ShortDesc": "Tandar",
+            "LongDesc": "A very large white tiger watches you closely.\n",
+            "DetailedDesc": "This tiger is a very rare white tiger with gray and black stripes. It's\neyes are green flecked with gold and seem to hold intelligence. It is very\nhuge and could easily pin you down and kill you. It's paws are as big as\nyour head.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": 351,
+            "Level": 125,
+            "THAC0": 81,
+            "AC": -25,
+            "HP": "10d300+17000",
+            "Damage": "5d30+80",
+            "Gold": 0,
+            "XP": 340000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17931,
+            "Aliases": [
+                "jenna",
+                "woman",
+                "mage"
+            ],
+            "ShortDesc": "Jenna",
+            "LongDesc": "A red robed woman stands behind a counter.\n",
+            "DetailedDesc": "This is Jenna, a powerful red robed mage. She is rumored to be Dalamar's\nmistress. Although she is aging, she is still good looking and still has\ndark black hair. Her eyes are intelligent and commanding, and she watches\nyou carefully.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 101,
+            "THAC0": 100,
+            "AC": -50,
+            "HP": "0d0+10000",
+            "Damage": "0d0+100",
+            "Gold": 88000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17932,
+            "Aliases": [
+                "blacksmith",
+                "man"
+            ],
+            "ShortDesc": "a blacksmith",
+            "LongDesc": "A strong man invites you in and asks if he can help you.\n",
+            "DetailedDesc": "He is very muscular, wearing a brown shirt and pants that can't hide the\nbulges and ripples. You are sure he could pick you up with one hand and\nthrow you out the door. He wears an apron for safety while working and to\nkeep his profits safe in pockets on the inside of the apron.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 101,
+            "THAC0": 100,
+            "AC": -50,
+            "HP": "0d0+10000",
+            "Damage": "0d0+100",
+            "Gold": 44000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17933,
+            "Aliases": [
+                "blacksmith",
+                "man"
+            ],
+            "ShortDesc": "a blacksmith",
+            "LongDesc": "A strong man invites you in and asks if he can help you.\n",
+            "DetailedDesc": "He has a patch on one eye and a scar that extends out of the patch. His\nbare arms reveal other battle scars. He has a worn and weathered look\nabout him, but he is still very strong. As he goes about his work, his\nexpertise in handling weapons is apparent.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 101,
+            "THAC0": 100,
+            "AC": -50,
+            "HP": "0d0+10000",
+            "Damage": "0d0+100",
+            "Gold": 44000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17934,
+            "Aliases": [
+                "shopkeeper",
+                "man"
+            ],
+            "ShortDesc": "a shopkeeper",
+            "LongDesc": "A short man with slicked back hair gives you a sly look.\n",
+            "DetailedDesc": "He has a strange, slightly impish look about him. Some say he is half\nkender, and by the looks of his slightly pointy ears and his collection of\nitems, that could be true. He is only four and a half feet tall, but he\ntalks with a quick and controlling voice that makes him seem much larger.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 0,
+            "Level": 101,
+            "THAC0": 100,
+            "AC": -50,
+            "HP": "0d0+10000",
+            "Damage": "0d0+100",
+            "Gold": 44000,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17935,
+            "Aliases": [
+                "Tasslehoff",
+                "Burrfoot",
+                "kender"
+            ],
+            "ShortDesc": "Tasslehoff Burrfoot",
+            "LongDesc": "A very annoying kender is talking your ear off.\n",
+            "DetailedDesc": "This is the infamous Tasslehoff Burrfoot. He has a long topknot even for a\nkender. He carries with him lots of items, many of which look very\nfamiliar. He has even more stories than items, and never seems to stop\ntalking.\n",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AWARE",
+                "WIMPY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 0,
+            "Level": 105,
+            "THAC0": 35,
+            "AC": -20,
+            "HP": "2d300+13500",
+            "Damage": "3d6+35",
+            "Gold": 43695,
+            "XP": 95000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17936,
+            "Aliases": [
+                "traveler",
+                "man",
+                "weary"
+            ],
+            "ShortDesc": "a traveler",
+            "LongDesc": "A weary man trudges by.\n",
+            "DetailedDesc": "He is a weary looking man, carrying all his possessions on his back. Day\nin and day out he drags himself along dusty roads headed to some far away\ndestination.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 10,
+            "AC": 7,
+            "HP": "1d50+150",
+            "Damage": "1d4+5",
+            "Gold": 1300,
+            "XP": 9600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17937,
+            "Aliases": [
+                "shark"
+            ],
+            "ShortDesc": "a shark",
+            "LongDesc": "A very large shark swims toward you.\n",
+            "DetailedDesc": "It is coming toward you fast with its jaws gaping, exposing rows of sharp\nteeth.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "WATERWALK",
+                "INFRAVISION",
+                "NOTRACK"
+            ],
+            "Alignment": 0,
+            "Level": 35,
+            "THAC0": 18,
+            "AC": -1,
+            "HP": "7d20+400",
+            "Damage": "5d7+25",
+            "Gold": 142,
+            "XP": 29000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17938,
+            "Aliases": [
+                "bird"
+            ],
+            "ShortDesc": "a huge bird",
+            "LongDesc": "A huge bird circles above you.\n",
+            "DetailedDesc": "This bird has a 25 foot wing span. It has a short, pointy beak that looks\nlike it was made for crushing and tearing, and long talons to capture it's\nprey. It is covered in red and brown feathers, with yellow around it's\neyes.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOBASH"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": 0,
+            "Level": 35,
+            "THAC0": 20,
+            "AC": -2,
+            "HP": "6d20+320",
+            "Damage": "6d7+20",
+            "Gold": 0,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17939,
+            "Aliases": [
+                "knight",
+                "takhisis"
+            ],
+            "ShortDesc": "a Knight of Takhisis",
+            "LongDesc": "A knight in dark armor patrols the tower.\n",
+            "DetailedDesc": "He is a tall, strong, clean-shaven man. He wears dark armor decorated with\na death lily and carries a sword in a sheath. He proudly guards the keep\nand keeps a close eye on you as you walk about.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": -800,
+            "Level": 45,
+            "THAC0": 20,
+            "AC": -6,
+            "HP": "4d30+450",
+            "Damage": "6d5+20",
+            "Gold": 1200,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17940,
+            "Aliases": [
+                "knight",
+                "takhisis"
+            ],
+            "ShortDesc": "a Knight of Takhisis",
+            "LongDesc": "A knight in dark armor guards the tower.\n",
+            "DetailedDesc": "He is a tall, strong, clean-shaven man. He wears dark armor decorated with\na death lily and carries a sword in a sheath. He proudly guards the keep\nand keeps a close eye on you as you walk about.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -800,
+            "Level": 48,
+            "THAC0": 20,
+            "AC": -6,
+            "HP": "5d30+500",
+            "Damage": "6d5+24",
+            "Gold": 1200,
+            "XP": 37000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17941,
+            "Aliases": [
+                "mage",
+                "gray",
+                "robed",
+                "man"
+            ],
+            "ShortDesc": "a gray robed mage",
+            "LongDesc": "A man in a hooded gray robe walks by.\n",
+            "DetailedDesc": "He has a slender build and wears long gray robes. A hood shadows his face.\nThe smell of rose pedals and bat guano gives him away as a mage.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "UNUSED16"
+            ],
+            "Alignment": -800,
+            "Level": 50,
+            "THAC0": 16,
+            "AC": -2,
+            "HP": "4d30+400",
+            "Damage": "6d5+16",
+            "Gold": 3100,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17942,
+            "Aliases": [
+                "steel",
+                "brightblade",
+                "man",
+                "knight"
+            ],
+            "ShortDesc": "Steel Brightblade",
+            "LongDesc": "A proud young man stands before the shrine of Takhisis.\n",
+            "DetailedDesc": "This is Steel Brightblade, son of Sturm Brightblade and Kitiara uth Matar.\nThis unlikely union produced Steel, a man of great pride and honor. He\nserves Takhisis like his mother, but he follows a strict code of honor\nlike his father. Two voices fight in his head for control. On the outside\nhe is strong and tough, despite his youth.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -349,
+            "Level": 100,
+            "THAC0": 35,
+            "AC": -7,
+            "HP": "10d50+1750",
+            "Damage": "6d5+35",
+            "Gold": 2410,
+            "XP": 80000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17943,
+            "Aliases": [
+                "ariakan",
+                "lord",
+                "knight"
+            ],
+            "ShortDesc": "Lord Ariakan",
+            "LongDesc": "A tall, commanding knight stands here.\n",
+            "DetailedDesc": "This is Lord Ariakan, commander of the Knights of Takhisis. He is aging,\nbut he has an air of strength and power about him. He wears full plate\narmor as comfortably as most people wear clothes and has a large sword in\na sheath at his side.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -850,
+            "Level": 120,
+            "THAC0": 48,
+            "AC": -16,
+            "HP": "25d50+8500",
+            "Damage": "5d7+50",
+            "Gold": 10450,
+            "XP": 145000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17944,
+            "Aliases": [
+                "lillith",
+                "nightlord",
+                "woman",
+                "mage"
+            ],
+            "ShortDesc": "Nightlord Lillith",
+            "LongDesc": "A lithe woman in gray robes watches you intently.\n",
+            "DetailedDesc": "This is Nightlord Lillith, leader of the gray robed mages that are a part\nof the Knights of Takhisis. She is aging, but she has piercing, green eyes\nand a voice that drips with venom. She does not tolerate any mistakes and\nit is clear that anything she wants done, gets done.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": -900,
+            "Level": 115,
+            "THAC0": 25,
+            "AC": -16,
+            "HP": "20d50+6000",
+            "Damage": "6d5+25",
+            "Gold": 54700,
+            "XP": 130000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17945,
+            "Aliases": [
+                "citizen"
+            ],
+            "ShortDesc": "a citizen of Solace",
+            "LongDesc": "A citizen of Solace walks about.\n",
+            "DetailedDesc": "She is a young woman, wearing a simple dress. She has a smile on her face\nas she goes about her business in the town.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 23,
+            "THAC0": 12,
+            "AC": 6,
+            "HP": "2d50+170",
+            "Damage": "1d4+6",
+            "Gold": 400,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17946,
+            "Aliases": [
+                "elf",
+                "scout"
+            ],
+            "ShortDesc": "an elf scout",
+            "LongDesc": "A combat-ready elf watches you closely.\n",
+            "DetailedDesc": "He is small and has pointy ears. He wears leather armor and a sheathed\nsword. He watches you closely and has fighting in his eyes.\n",
+            "Actions": [
+                "ISNPC",
+                "AWARE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": -150,
+            "Level": 35,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "6d40+180",
+            "Damage": "3d5+12",
+            "Gold": 5500,
+            "XP": 28000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17947,
+            "Aliases": [
+                "tanis",
+                "halfelven",
+                "elf"
+            ],
+            "ShortDesc": "Tanis Half-Elven",
+            "LongDesc": "An aging half elf greets you with a warm smile.\n",
+            "DetailedDesc": "This aging half-elf is one of the heroes of the lance. He looks mostly\nelven, but has a beard, which no true elf could have. He is still young by\nelven standards, but his human half is catching up to him. His hair is\ngraying and he isn't as fit as he used to be, but he is still a powerful\npresence.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AWARE",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 850,
+            "Level": 125,
+            "THAC0": 55,
+            "AC": -16,
+            "HP": "25d50+8500",
+            "Damage": "4d7+55",
+            "Gold": 6530,
+            "XP": 160000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17948,
+            "Aliases": [
+                "caramon",
+                "man"
+            ],
+            "ShortDesc": "Caramon Majere",
+            "LongDesc": "A bear of a man welcomes you with hearty clap on the back.\n",
+            "DetailedDesc": "This gigantic man is one of the heroes of the lance. He is aging and some\nof his bulk is migrating south, but he is still as strong as three men. He\nis very kind and trusting. By the look on his face as he watches his wife,\nTika, it is clear that his heart is also huge, in proportion with his body.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 850,
+            "Level": 125,
+            "THAC0": 55,
+            "AC": -16,
+            "HP": "30d50+10000",
+            "Damage": "8d9+60",
+            "Gold": 4300,
+            "XP": 160000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17949,
+            "Aliases": [
+                "alhana",
+                "starbreeze",
+                "elf",
+                "maiden"
+            ],
+            "ShortDesc": "Alhana Starbreeze",
+            "LongDesc": "A pregnant, exhausted elf maiden lies here.\n",
+            "DetailedDesc": "This is Alhana Starbreeze, the outcast leader of the Silvanesti. She is\none of the most beautiful of her kind, but right now she hardly looks it.\nShe has been on the run for months and is now in labor, about to give\nbirth to an elf of both Qualinesti and Silvanesti blood, heir to both\nkingdoms.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 650,
+            "Level": 20,
+            "THAC0": 10,
+            "AC": 6,
+            "HP": "2d50+150",
+            "Damage": "3d4+8",
+            "Gold": 12400,
+            "XP": 9000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17950,
+            "Aliases": [
+                "porthios",
+                "elf"
+            ],
+            "ShortDesc": "Porthios",
+            "LongDesc": "A haggard but regal elf sits at a table.\n",
+            "DetailedDesc": "This is Porthios, the exiled leader of Qualinesti. He is a proud elf of\nroyal heritage and it shows on his face. He is slightly stooped and worn,\nold before his time because of his exile. He wears leather armor and\ncarries a sword as his side, ready to fight at any time.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": -100,
+            "Level": 40,
+            "THAC0": 16,
+            "AC": -1,
+            "HP": "7d40+200",
+            "Damage": "4d5+15",
+            "Gold": 10340,
+            "XP": 35000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17951,
+            "Aliases": [
+                "tika",
+                "woman"
+            ],
+            "ShortDesc": "Tika",
+            "LongDesc": "A woman with fiery red hair asks if she can get you anything.\n",
+            "DetailedDesc": "This woman is one of the heroes of the lance. Her lined face shows her\nage, but her red hair and temper are as lively as ever. She runs the inn\nand uses her skillet to keep Caramon, her giant of a husband, fed and in\nline.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 850,
+            "Level": 120,
+            "THAC0": 35,
+            "AC": -11,
+            "HP": "20d50+7000",
+            "Damage": "3d5+35",
+            "Gold": 6730,
+            "XP": 130000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17952,
+            "Aliases": [
+                "laurana",
+                "elf",
+                "maiden"
+            ],
+            "ShortDesc": "Laurana",
+            "LongDesc": "An elf maiden stands here.\n",
+            "DetailedDesc": "She is a beautiful elf maiden with long blonde hair and delicate features.\nShe watches you closely and speaks very intelligently. She is Porthios'\nsister and Tanis' wife.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": 800,
+            "Level": 35,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "6d40+200",
+            "Damage": "4d5+10",
+            "Gold": 8500,
+            "XP": 30500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17953,
+            "Aliases": [
+                "spirit",
+                "dark"
+            ],
+            "ShortDesc": "a dark spirit",
+            "LongDesc": "A shapeless black being flies toward you.\n",
+            "DetailedDesc": "It looks like a huge ink blot floating in mid air.\n",
+            "Actions": [
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "UNUSED20"
+            ],
+            "Alignment": 0,
+            "Level": 70,
+            "THAC0": 32,
+            "AC": -5,
+            "HP": "5d20+550",
+            "Damage": "3d7+20",
+            "Gold": 0,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17954,
+            "Aliases": [
+                "parsalian",
+                "mage",
+                "white"
+            ],
+            "ShortDesc": "Parsalian",
+            "LongDesc": "A very old white robed mage stands before you.\n",
+            "DetailedDesc": "This is Parsalian, leader of the white robes. He is very old, but still\nsteady. His hair is as white as his robes. He is one of the most powerful\nmages on Krynn.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": 900,
+            "Level": 130,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "20d50+10000",
+            "Damage": "4d5+20",
+            "Gold": 32000,
+            "XP": 180000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17955,
+            "Aliases": [
+                "palin",
+                "mage",
+                "white"
+            ],
+            "ShortDesc": "Palin Majere",
+            "LongDesc": "A young white robed mage is taking his test.\n",
+            "DetailedDesc": "Although he doesn't look very special, this young man is Caramon's son,\nwhich makes Raistlin his uncle. The potential for very powerful magic\nflows in his veins.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": 750,
+            "Level": 100,
+            "THAC0": 25,
+            "AC": -12,
+            "HP": "5d100+3000",
+            "Damage": "5d5+25",
+            "Gold": 640,
+            "XP": 105000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17956,
+            "Aliases": [
+                "mage",
+                "white"
+            ],
+            "ShortDesc": "a white robed mage",
+            "LongDesc": "A white robed mage walks about.\n",
+            "DetailedDesc": "This man or woman is indistinguishable from the other white robed mages in\nthe tower. They walk about at the same slow pace, hands and face hidden\nwithin their white robes.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": 750,
+            "Level": 45,
+            "THAC0": 15,
+            "AC": -2,
+            "HP": "4d30+400",
+            "Damage": "5d5+16",
+            "Gold": 2800,
+            "XP": 36000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17957,
+            "Aliases": [
+                "mage",
+                "red"
+            ],
+            "ShortDesc": "a red robed mage",
+            "LongDesc": "A red robed mage walks about.\n",
+            "DetailedDesc": "This man or woman is indistinguishable from the other red robed mages in\nthe tower. They walk about at the same slow pace, hands and face hidden\nwithin their red robes.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 45,
+            "THAC0": 15,
+            "AC": -2,
+            "HP": "4d30+400",
+            "Damage": "5d5+16",
+            "Gold": 2800,
+            "XP": 36000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17958,
+            "Aliases": [
+                "mage",
+                "black"
+            ],
+            "ShortDesc": "a black robed mage",
+            "LongDesc": "A black robed mage walks about.\n",
+            "DetailedDesc": "This man or woman is indistinguishable from the other black robed mages in\nthe tower. They walk about at the same slow pace, hands and face hidden\nwithin their black robes.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": -750,
+            "Level": 45,
+            "THAC0": 15,
+            "AC": -2,
+            "HP": "4d30+400",
+            "Damage": "5d5+16",
+            "Gold": 2800,
+            "XP": 36000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17959,
+            "Aliases": [
+                "mage",
+                "white"
+            ],
+            "ShortDesc": "a white robed mage",
+            "LongDesc": "A white robed mage stands here.\n",
+            "DetailedDesc": "This man or woman is indistinguishable from the other white robed mages in\nthe tower. They walk about at the same slow pace, hands and face hidden\nwithin their white robes.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 750,
+            "Level": 100,
+            "THAC0": 15,
+            "AC": -6,
+            "HP": "10d30+2000",
+            "Damage": "5d5+16",
+            "Gold": 2800,
+            "XP": 110000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17960,
+            "Aliases": [
+                "mage",
+                "red"
+            ],
+            "ShortDesc": "a red robed mage",
+            "LongDesc": "A red robed mage stands here.\n",
+            "DetailedDesc": "This man or woman is indistinguishable from the other red robed mages in\nthe tower. They walk about at the same slow pace, hands and face hidden\nwithin their red robes.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 100,
+            "THAC0": 15,
+            "AC": -6,
+            "HP": "10d30+2000",
+            "Damage": "5d5+16",
+            "Gold": 2800,
+            "XP": 110000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17961,
+            "Aliases": [
+                "mage",
+                "black"
+            ],
+            "ShortDesc": "a black robed mage",
+            "LongDesc": "A black robed mage stands here.\n",
+            "DetailedDesc": "This man or woman is indistinguishable from the other black robed mages in\nthe tower. They walk about at the same slow pace, hands and face hidden\nwithin their black robes.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -750,
+            "Level": 100,
+            "THAC0": 15,
+            "AC": -6,
+            "HP": "10d30+2000",
+            "Damage": "5d5+16",
+            "Gold": 2800,
+            "XP": 110000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17962,
+            "Aliases": [
+                "hand",
+                "bone"
+            ],
+            "ShortDesc": "a bony hand",
+            "LongDesc": "A bony hand grabs at you!\n",
+            "DetailedDesc": "The bones of the dead reach up and try to pull you down to join them!\nTheir grip is chilling and unbreakable.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "NOTRACK"
+            ],
+            "Alignment": -349,
+            "Level": 80,
+            "THAC0": 55,
+            "AC": -10,
+            "HP": "5d40+800",
+            "Damage": "5d9+25",
+            "Gold": 0,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17963,
+            "Aliases": [
+                "shadow",
+                "form",
+                "dark"
+            ],
+            "ShortDesc": "a shadowy form",
+            "LongDesc": "Something dark and shapeless brushes against you.\n",
+            "DetailedDesc": "You can't seem to focus on it.\n",
+            "Actions": [
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "NOTRACK"
+            ],
+            "Alignment": -900,
+            "Level": 85,
+            "THAC0": 30,
+            "AC": -22,
+            "HP": "5d40+900",
+            "Damage": "4d8+30",
+            "Gold": 0,
+            "XP": 82000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17964,
+            "Aliases": [
+                "guardian",
+                "spirit",
+                "night"
+            ],
+            "ShortDesc": "the guardian spirit",
+            "LongDesc": "The night takes form before you and blocks your way.\n",
+            "DetailedDesc": "A black form in the shape of a human hovers before you and repels you like\nan ice cold blast of wind. Deep within the eye sockets are sickly glowing\nyellow eyes watching your every move.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "NOTRACK"
+            ],
+            "Alignment": -800,
+            "Level": 130,
+            "THAC0": 70,
+            "AC": -19,
+            "HP": "10d100+12000",
+            "Damage": "5d30+70",
+            "Gold": 0,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17965,
+            "Aliases": [
+                "dalamar",
+                "elf",
+                "mage"
+            ],
+            "ShortDesc": "Dalamar",
+            "LongDesc": "An elf in black robes watches you slyly.\n",
+            "DetailedDesc": "This Dalamar, a dark elf and leader of the black robed mages. He has a\nperpetual stern look on his face. Every now and then he clutches at his\nchest where Raistlin, his shalafi, burned holes with his fingers that will\nnever heal.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "UNUSED17"
+            ],
+            "Alignment": -850,
+            "Level": 128,
+            "THAC0": 25,
+            "AC": -12,
+            "HP": "20d50+10000",
+            "Damage": "6d5+25",
+            "Gold": 83000,
+            "XP": 170000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17966,
+            "Aliases": [
+                "knight",
+                "takhisis"
+            ],
+            "ShortDesc": "a Knight of Takhisis",
+            "LongDesc": "A knight in dark armor guards the tower.\n",
+            "DetailedDesc": "He is a tall, strong, clean-shaven man. He wears dark armor decorated with\na death lily and carries a sword in a sheath. He proudly guards the keep\nand keeps a close eye on you as you walk about.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -800,
+            "Level": 48,
+            "THAC0": 20,
+            "AC": -6,
+            "HP": "5d30+500",
+            "Damage": "6d5+24",
+            "Gold": 1200,
+            "XP": 37000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17967,
+            "Aliases": [
+                "dragon",
+                "flame"
+            ],
+            "ShortDesc": "a flame dragon",
+            "LongDesc": "A dragon made of pure flame swoops down on you.\n",
+            "DetailedDesc": "This dragon is made of pure flame, with smoke for eyes. As it flies about\nit burns any flicker of life it finds.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": -1000,
+            "Level": 120,
+            "THAC0": 40,
+            "AC": -25,
+            "HP": "10d300+10000",
+            "Damage": "10d15+80",
+            "Gold": 0,
+            "XP": 150000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17968,
+            "Aliases": [
+                "shadow-wight",
+                "wight",
+                "patch",
+                "blackness"
+            ],
+            "ShortDesc": "a shadow-wight",
+            "LongDesc": "A patch of blackness flits around.\n",
+            "DetailedDesc": "As you look at the shadow-wight it takes on your form, but the eyes stay\nblack. Terror overcomes you as your very existence begins to erode. It\nwhispers to you, \"You are nothing\". Your memories begin to fade as your\nphysical body does the same. Soon it will be as if you never existed, your\nvery memory wiped out, even from your parents' minds.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 100,
+            "THAC0": 65,
+            "AC": -39,
+            "HP": "8d100+4600",
+            "Damage": "10d20+100",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17969,
+            "Aliases": [
+                "reorx",
+                "dougan",
+                "redhammer",
+                "dwarf"
+            ],
+            "ShortDesc": "Dougan Redhammer",
+            "LongDesc": "A well dressed dwarf is here, trying to hide.\n",
+            "DetailedDesc": "This dwarf is dressed in better clothing than any dwarf you've ever seen.\nHe is wearing a frilly silk shirt, a red velvet waistcoat and breeches,\nblack stockings, black shoes, and a wide-brimmed hat. His beard and hair\nare both long and neatly groomed. It is rumored that this is the avatar of\nthe god Reorx.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 130,
+            "THAC0": 70,
+            "AC": -35,
+            "HP": "0d0+30000",
+            "Damage": "1d6+70",
+            "Gold": 0,
+            "XP": 200000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17970,
+            "Aliases": [
+                "usha",
+                "woman"
+            ],
+            "ShortDesc": "Usha",
+            "LongDesc": "A beautiful woman is hiding from something up ahead.\n",
+            "DetailedDesc": "She is one of the most beautiful humans you have ever seen. She is an\norphan, but it seems likely that her parents are Raistlin and one of the\nIrdra.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "PROTECT_EVIL"
+            ],
+            "Alignment": 800,
+            "Level": 100,
+            "THAC0": 30,
+            "AC": -15,
+            "HP": "10d40+1200",
+            "Damage": "3d8+30",
+            "Gold": 1200,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17971,
+            "Aliases": [
+                "citizen"
+            ],
+            "ShortDesc": "a citizen of Istar",
+            "LongDesc": "A citizen of Istar walks about.\n",
+            "DetailedDesc": "He is a young man, dressed in nice clothes. He has a smile on his face as\nhe goes about his business in the city.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 20,
+            "THAC0": 10,
+            "AC": 7,
+            "HP": "1d50+150",
+            "Damage": "1d4+5",
+            "Gold": 900,
+            "XP": 9600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17972,
+            "Aliases": [
+                "fistandantilus",
+                "mage"
+            ],
+            "ShortDesc": "Fistandantilus",
+            "LongDesc": "A black robed mage stands before you.\n",
+            "DetailedDesc": "He is tall and quite imposing for a mage. On his face is very serious\nlook. His hands are very nimble. The rest of him is covered in a heavy\nblack robe.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "UNUSED17",
+                "UNUSED20"
+            ],
+            "Alignment": -950,
+            "Level": 135,
+            "THAC0": 20,
+            "AC": 10,
+            "HP": "5d500+15000",
+            "Damage": "4d5+20",
+            "Gold": 23500,
+            "XP": 260000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17973,
+            "Aliases": [
+                "priest",
+                "man"
+            ],
+            "ShortDesc": "the King Priest",
+            "LongDesc": "An elegantly dressed fat man sits in a throne-like chair.\n",
+            "DetailedDesc": "He is quite robust, having fed on unlimited amounts of the most rich foods\nfor decades. He is dressed red and purple velvet and is adorned with many\ngold rings and necklaces.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 350,
+            "Level": 110,
+            "THAC0": 30,
+            "AC": -8,
+            "HP": "20d100+15000",
+            "Damage": "5d6+30",
+            "Gold": 156000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17974,
+            "Aliases": [
+                "dragon"
+            ],
+            "ShortDesc": "a red dragon",
+            "LongDesc": "A red dragon sits here, guarding its treasure.\n",
+            "DetailedDesc": "It is a huge red dragon with sharp teeth and claws, a long tail, and\npowerful, wide wings.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -900,
+            "Level": 115,
+            "THAC0": 40,
+            "AC": -37,
+            "HP": "20d200+20000",
+            "Damage": "10d15+40",
+            "Gold": 245160,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17975,
+            "Aliases": [
+                "dragon"
+            ],
+            "ShortDesc": "a blue dragon",
+            "LongDesc": "A blue dragon sits here, guarding its treasure.\n",
+            "DetailedDesc": "It is a huge blue dragon with sharp teeth and claws, a long tail, and\npowerful, wide wings.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -900,
+            "Level": 115,
+            "THAC0": 40,
+            "AC": -37,
+            "HP": "20d200+20000",
+            "Damage": "10d15+40",
+            "Gold": 245160,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17976,
+            "Aliases": [
+                "dragon"
+            ],
+            "ShortDesc": "a green dragon",
+            "LongDesc": "A green dragon sits here, guarding its treasure.\n",
+            "DetailedDesc": "It is a huge green dragon with sharp teeth and claws, a long tail, and\npowerful, wide wings.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -900,
+            "Level": 115,
+            "THAC0": 40,
+            "AC": -37,
+            "HP": "20d200+20000",
+            "Damage": "10d15+40",
+            "Gold": 245160,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17977,
+            "Aliases": [
+                "dragon"
+            ],
+            "ShortDesc": "a black dragon",
+            "LongDesc": "A black dragon sits here, guarding its treasure.\n",
+            "DetailedDesc": "It is a huge black dragon with sharp teeth and claws, a long tail, and\npowerful, wide wings.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -900,
+            "Level": 115,
+            "THAC0": 40,
+            "AC": -37,
+            "HP": "20d200+20000",
+            "Damage": "10d15+40",
+            "Gold": 245160,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17978,
+            "Aliases": [
+                "dragon"
+            ],
+            "ShortDesc": "a white dragon",
+            "LongDesc": "A white dragon sits here, guarding its treasure.\n",
+            "DetailedDesc": "It is a huge white dragon with sharp teeth and claws, a long tail, and\npowerful, wide wings.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -900,
+            "Level": 115,
+            "THAC0": 40,
+            "AC": -37,
+            "HP": "20d200+20000",
+            "Damage": "10d15+40",
+            "Gold": 245160,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17979,
+            "Aliases": [
+                "dragon"
+            ],
+            "ShortDesc": "a gold dragon",
+            "LongDesc": "A gold dragon sits here, guarding its treasure.\n",
+            "DetailedDesc": "It is a huge gold dragon with sharp teeth and claws, a long tail, and\npowerful, wide wings.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGR_EVIL",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 900,
+            "Level": 115,
+            "THAC0": 40,
+            "AC": -37,
+            "HP": "20d200+20000",
+            "Damage": "10d15+40",
+            "Gold": 245160,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17980,
+            "Aliases": [
+                "dragon"
+            ],
+            "ShortDesc": "a silver dragon",
+            "LongDesc": "A silver dragon sits here, guarding its treasure.\n",
+            "DetailedDesc": "It is a huge silver dragon with sharp teeth and claws, a long tail, and\npowerful, wide wings.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGR_EVIL",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 900,
+            "Level": 115,
+            "THAC0": 40,
+            "AC": -37,
+            "HP": "20d200+20000",
+            "Damage": "10d15+40",
+            "Gold": 245160,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17981,
+            "Aliases": [
+                "dragon"
+            ],
+            "ShortDesc": "a copper dragon",
+            "LongDesc": "A copper dragon sits here, guarding its treasure.\n",
+            "DetailedDesc": "It is a huge copper dragon with sharp teeth and claws, a long tail, and\npowerful, wide wings.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGR_EVIL",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 900,
+            "Level": 115,
+            "THAC0": 40,
+            "AC": -37,
+            "HP": "20d200+20000",
+            "Damage": "10d15+40",
+            "Gold": 245160,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17982,
+            "Aliases": [
+                "dragon"
+            ],
+            "ShortDesc": "a bronze dragon",
+            "LongDesc": "A bronze dragon sits here, guarding its treasure.\n",
+            "DetailedDesc": "It is a huge bronze dragon with sharp teeth and claws, a long tail, and\npowerful, wide wings.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGR_EVIL",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 900,
+            "Level": 115,
+            "THAC0": 40,
+            "AC": -37,
+            "HP": "20d200+20000",
+            "Damage": "10d15+40",
+            "Gold": 245160,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17983,
+            "Aliases": [
+                "dragon"
+            ],
+            "ShortDesc": "a brass dragon",
+            "LongDesc": "A brass dragon sits here, guarding its treasure.\n",
+            "DetailedDesc": "It is a huge brass dragon with sharp teeth and claws, a long tail, and\npowerful, wide wings.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGR_EVIL",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 900,
+            "Level": 115,
+            "THAC0": 40,
+            "AC": -37,
+            "HP": "20d200+20000",
+            "Damage": "10d15+40",
+            "Gold": 245160,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17984,
+            "Aliases": [
+                "chaos",
+                "being",
+                "gigantic"
+            ],
+            "ShortDesc": "Chaos",
+            "LongDesc": "A gigantic fiery being stands before you.\n",
+            "DetailedDesc": "This is Chaos, the father of All and Nothing, creator of the gods. He is\nmade of molten iron, with great pits of nothingness for eyes, and flaring\nfire for hair.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 200,
+            "THAC0": 75,
+            "AC": -40,
+            "HP": "100d20+30000",
+            "Damage": "15d20+100",
+            "Gold": 0,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17985,
+            "Aliases": [
+                "kitiara",
+                "woman"
+            ],
+            "ShortDesc": "Kitiara",
+            "LongDesc": "The pale, ghostly form of a woman snarls and lunges at you!\n",
+            "DetailedDesc": "This is Kitiara uth Matar, or rather, was Kitiara uth Matar. Her soul has\nbecome a death knight, the same as Lord Soth. She was cruel and evil in\nlife, but it was nothing compared with her spirit in death.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AWARE",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "CURSE",
+                "INFRAVISION",
+                "SNEAK",
+                "HIDE",
+                "UNUSED20"
+            ],
+            "Alignment": -950,
+            "Level": 140,
+            "THAC0": 68,
+            "AC": -25,
+            "HP": "10d200+7500",
+            "Damage": "3d6+90",
+            "Gold": 0,
+            "XP": 210000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17986,
+            "Aliases": [
+                "raistlin",
+                "majere",
+                "mage"
+            ],
+            "ShortDesc": "Raistlin Majere",
+            "LongDesc": "A stooped, black robed mage watches you through hourglass shaped pupils.\n",
+            "DetailedDesc": "He is a stooped mage that looks very physically weak. His skin has a\ngolden tint and the pupils of his eyes are shaped like hourglasses, a\ncurse bestowed on him. This is the legendary Raistlin Majere, the most\npowerful mage to ever walk Krynn! He did not die after all. For failing to\nbecome a god he was punished to life in the Abyss, dying every day only to\nbe healed for the next day's slaughter. Something has changed though, and\nhe is free.\n",
+            "Actions": [
+                "ISNPC",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED17",
+                "UNUSED20"
+            ],
+            "Alignment": -800,
+            "Level": 150,
+            "THAC0": 20,
+            "AC": -37,
+            "HP": "50d300+18000",
+            "Damage": "4d5+20",
+            "Gold": 1600,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17987,
+            "Aliases": [
+                "soul",
+                "ghostly",
+                "image"
+            ],
+            "ShortDesc": "a damned soul",
+            "LongDesc": "A weary, ghostly image floats by.\n",
+            "DetailedDesc": "This is the soul of some evil person that is now under Takhisis' control.\nIt is tortured and berated, all the while made to serve her.\n",
+            "Actions": [
+                "ISNPC",
+                "AWARE",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "CURSE",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": -600,
+            "Level": 105,
+            "THAC0": 65,
+            "AC": -20,
+            "HP": "15d100+1000",
+            "Damage": "5d6+45",
+            "Gold": 0,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 17988,
+            "Aliases": [
+                "takhisis",
+                "goddess"
+            ],
+            "ShortDesc": "Takhisis",
+            "LongDesc": "Takhisis, goddess of evil, stands here.\n",
+            "DetailedDesc": "She is beautiful and frightening. She has black hair and cold, black eyes\nand wears polished black armor.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": -1000,
+            "Level": 175,
+            "THAC0": 80,
+            "AC": -37,
+            "HP": "0d0+30000",
+            "Damage": "10d10+80",
+            "Gold": 0,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17989,
+            "Aliases": [
+                "paladine",
+                "god"
+            ],
+            "ShortDesc": "Paladine",
+            "LongDesc": "Paladine, god of good, stands here.\n",
+            "DetailedDesc": "He is tall and grim-faced. He looks like a powerful knight, and wears\nsilver armor.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": 1000,
+            "Level": 175,
+            "THAC0": 80,
+            "AC": -37,
+            "HP": "0d0+30000",
+            "Damage": "10d10+80",
+            "Gold": 0,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17990,
+            "Aliases": [
+                "gilean",
+                "god"
+            ],
+            "ShortDesc": "Gilean",
+            "LongDesc": "Gilean, god of knowledge, stands here.\n",
+            "DetailedDesc": "He looks very studious, always writing in a book.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": 0,
+            "Level": 175,
+            "THAC0": 80,
+            "AC": -37,
+            "HP": "0d0+30000",
+            "Damage": "10d10+80",
+            "Gold": 0,
+            "XP": 750000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17991,
+            "Aliases": [
+                "reorx",
+                "god"
+            ],
+            "ShortDesc": "Reorx",
+            "LongDesc": "Reorx, god of creation, stands here.\n",
+            "DetailedDesc": "He has a dwarven appearance and is very well dressed.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": 0,
+            "Level": 165,
+            "THAC0": 77,
+            "AC": -36,
+            "HP": "0d0+25000",
+            "Damage": "10d10+75",
+            "Gold": 0,
+            "XP": 650000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17992,
+            "Aliases": [
+                "sargonnas",
+                "god"
+            ],
+            "ShortDesc": "Sargonnas",
+            "LongDesc": "Sargonnas, the minotaur god, stands here.\n",
+            "DetailedDesc": "He looks a lot like a minotaur and has long horns.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": -1000,
+            "Level": 165,
+            "THAC0": 77,
+            "AC": -36,
+            "HP": "0d0+25000",
+            "Damage": "10d10+75",
+            "Gold": 0,
+            "XP": 650000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17993,
+            "Aliases": [
+                "solinari",
+                "god"
+            ],
+            "ShortDesc": "Solinari",
+            "LongDesc": "Solinari, god of the white mages, stands here.\n",
+            "DetailedDesc": "He looks like a lean human and wears white robes.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": 1000,
+            "Level": 165,
+            "THAC0": 77,
+            "AC": -36,
+            "HP": "0d0+25000",
+            "Damage": "10d10+75",
+            "Gold": 0,
+            "XP": 650000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17994,
+            "Aliases": [
+                "lunitari",
+                "goddess"
+            ],
+            "ShortDesc": "Lunitari",
+            "LongDesc": "Lunitari, goddess of the red mages, stands here.\n",
+            "DetailedDesc": "She looks like a lean human and wears red robes.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": 0,
+            "Level": 165,
+            "THAC0": 77,
+            "AC": -36,
+            "HP": "0d0+25000",
+            "Damage": "10d10+75",
+            "Gold": 0,
+            "XP": 650000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17995,
+            "Aliases": [
+                "nuitari",
+                "god"
+            ],
+            "ShortDesc": "Nuitari",
+            "LongDesc": "Nuitari, god of the black mages, stands here.\n",
+            "DetailedDesc": "He looks like a lean human and wears black robes.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": -1000,
+            "Level": 165,
+            "THAC0": 77,
+            "AC": -36,
+            "HP": "0d0+25000",
+            "Damage": "10d10+75",
+            "Gold": 0,
+            "XP": 650000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17996,
+            "Aliases": [
+                "mishakal",
+                "goddess"
+            ],
+            "ShortDesc": "Mishakal",
+            "LongDesc": "Mishakal, goddess of healing, stands here.\n",
+            "DetailedDesc": "She is dressed in a simple blue gown and has a warm smile.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": 1000,
+            "Level": 165,
+            "THAC0": 77,
+            "AC": -36,
+            "HP": "0d0+25000",
+            "Damage": "10d10+75",
+            "Gold": 0,
+            "XP": 650000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17997,
+            "Aliases": [
+                "chislev",
+                "goddess"
+            ],
+            "ShortDesc": "Chislev",
+            "LongDesc": "Chislev, goddess of nature, stands here.\n",
+            "DetailedDesc": "She is a goddess of simple beauty. She wears a crown of flowers and leaves\nin her brown hair and is covered by a simple, green cloth.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": 1000,
+            "Level": 155,
+            "THAC0": 75,
+            "AC": -35,
+            "HP": "0d0+20000",
+            "Damage": "10d10+70",
+            "Gold": 0,
+            "XP": 550000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 17998,
+            "Aliases": [
+                "hiddukel",
+                "god"
+            ],
+            "ShortDesc": "Hiddukel",
+            "LongDesc": "Hiddukel, god of deals, stands here.\n",
+            "DetailedDesc": "He is a short, fat god. He has slicked black hair and reminds you of a\nused car salesman.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": -1000,
+            "Level": 155,
+            "THAC0": 75,
+            "AC": -35,
+            "HP": "0d0+20000",
+            "Damage": "10d10+70",
+            "Gold": 0,
+            "XP": 550000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 17999,
+            "Aliases": [
+                "zivilyn",
+                "god"
+            ],
+            "ShortDesc": "Zivilyn",
+            "LongDesc": "Zivilyn, god of time, stands here.\n",
+            "DetailedDesc": "He flickers and looks blurry because he exists in all times, seeing all\npossibilities.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": 1000,
+            "Level": 155,
+            "THAC0": 75,
+            "AC": -35,
+            "HP": "0d0+20000",
+            "Damage": "10d10+70",
+            "Gold": 0,
+            "XP": 550000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18000,
+            "Aliases": [
+                "morgion",
+                "god"
+            ],
+            "ShortDesc": "Morgion",
+            "LongDesc": "Morgion, god of disease, stands here.\n",
+            "DetailedDesc": "He is deathly pale and has skin that looks diseased.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": -1000,
+            "Level": 155,
+            "THAC0": 75,
+            "AC": -35,
+            "HP": "0d0+20000",
+            "Damage": "10d10+70",
+            "Gold": 0,
+            "XP": 550000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 18001,
+            "Aliases": [
+                "chemosh",
+                "god"
+            ],
+            "ShortDesc": "Chemosh",
+            "LongDesc": "Chemosh, god of death, stands here.\n",
+            "DetailedDesc": "He looks like a human that has been formed into a demon, with gray skin,\nyellow claw, and powerful but misshapen limbs.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED20"
+            ],
+            "Alignment": -1000,
+            "Level": 155,
+            "THAC0": 75,
+            "AC": -35,
+            "HP": "0d0+20000",
+            "Damage": "10d10+70",
+            "Gold": 0,
+            "XP": 550000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

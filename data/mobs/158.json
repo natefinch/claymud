@@ -1,0 +1,1288 @@
+{
+    "mobs": [
+        {
+            "Number": 15800,
+            "Aliases": [
+                "ranger",
+                "forest",
+                "police",
+                "policeman",
+                "authority",
+                ""
+            ],
+            "ShortDesc": "a forest ranger",
+            "LongDesc": "A forest ranger is here, checking on all visitors to the forest.\n",
+            "DetailedDesc": "The ranger is a big man and he looks tough to hurt.  He wears a\nclean blue uniform with a ranger's hat.  His tall, black boots\ngive him an appearance that he's a strict man, one who follows\norder and is intolerant to rule-breakers.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 200,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "10d10+30000",
+            "Damage": "2d1+0",
+            "Gold": 0,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15801,
+            "Aliases": [
+                "bear",
+                "grizzly",
+                ""
+            ],
+            "ShortDesc": "a bear",
+            "LongDesc": "A large, brown bear is here looking for some wild berries.\n",
+            "DetailedDesc": "There's nothing special about this bear.  All throughout the\nforest, these brown bears roam around here searching for food.  It\ndoesn't look hostile nor does it look like a ferocious meat-\neater.  This bear weighs about a ton and when it's threatened it\nwill fight back.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 6,
+            "HP": "1d1+90",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15802,
+            "Aliases": [
+                "deer",
+                "white-tail",
+                "buck"
+            ],
+            "ShortDesc": "a white-tail deer",
+            "LongDesc": "There's a white-tail deer here, prancing around the forest.\n",
+            "DetailedDesc": "This deer looks tall and strong. It has long, powerful horns that look quite\nthreatening.  The young deer is here just wandering in the forest, as though\nnothing could harm it.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d1+50",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 3600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15803,
+            "Aliases": [
+                "boar",
+                "pig"
+            ],
+            "ShortDesc": "a wild boar",
+            "LongDesc": "A wild boar is here charging through the forest.\n",
+            "DetailedDesc": "The boars in this forest look like they're rabid or something.\nThey just love charging through the forest even when there's no\nsign of danger anywhere.  It would be advisable for you not to\nget in their way.  This boar has two strong tusks and it probably\nweighs more than 200 pounds.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 3,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "1d1+70",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15804,
+            "Aliases": [
+                "alligator",
+                "gator"
+            ],
+            "ShortDesc": "an alligator",
+            "LongDesc": "An alligator is coming closer and closer to you!\n",
+            "DetailedDesc": "Messing with an alligator is dangerous for your health!  This\nreptile has a set of teeth that can scar steel.  Its body is\nmassive and in this swamp it's the king of all predators.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 6,
+            "HP": "1d1+90",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15805,
+            "Aliases": [
+                "anaconda",
+                "snake"
+            ],
+            "ShortDesc": "an anaconda",
+            "LongDesc": "There's a large anaconda here dangling on a tree branch.\n",
+            "DetailedDesc": "The anaconda is one of the most dangerous snakes in the world.\nIts coil could wrap you up and escape from them is almost \nalways impossible.  This anaconda weighs about a hundred pounds\nand it could be as long as 25 feet.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 3,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "1d1+70",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 4500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15806,
+            "Aliases": [
+                "jaguar",
+                "jag",
+                ""
+            ],
+            "ShortDesc": "a jaguar",
+            "LongDesc": "A hungry jaguar is here looking for something to kill.\n",
+            "DetailedDesc": "Never mess with a big cat that's very hungry.  This jaguar has\npowerful claws and its slash can rip through flesh like butter.\nThe jaguar is a beautiful animal with one of the most prized\nanimal pelts in the world.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 6,
+            "HP": "1d1+90",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15807,
+            "Aliases": [
+                "gorilla",
+                "ape"
+            ],
+            "ShortDesc": "a gorilla",
+            "LongDesc": "An ugly gorilla is here sleeping on a soft bed of leaves.\n",
+            "DetailedDesc": "This gorilla is very BIG.  Its powerful hands could easily \nuproot small trees...its fist can make dents on steel plates.\nWhen a gorilla is mad or frighten, its strength can increase by\nthree folds and he would go berserk and kill anything that \nthreatens it.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 6,
+            "HP": "1d1+90",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15808,
+            "Aliases": [
+                "possum",
+                "opossum"
+            ],
+            "ShortDesc": "a possum",
+            "LongDesc": "A tree-climbing possum is here looking for some beetles.\n",
+            "DetailedDesc": "Did you know that a possum is the only non-primates with an\nopposable thumb?  Just wanted to share something I learned from\nwatching public service television.  This small North-American\nmarsupial is here looking for fresh beetles which is one of their\nmain diets.  The possum would eat almost anything that it comes\nacross.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d1+50",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 3900,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15809,
+            "Aliases": [
+                "tiger",
+                ""
+            ],
+            "ShortDesc": "a tiger",
+            "LongDesc": "A ferocious tiger is looking forward to having some venison for supper.\n",
+            "DetailedDesc": "This predator is indeed ferocious!  Being one of the biggest of \nthe big cats in this world, this striped beast could easily be\ncalled the king of the jungle.  With its powerful sharp claws and\nits threatening long teeth, the tiger is the most feared predator\nin any jungle or forest.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "1d1+110",
+            "Damage": "1d5+0",
+            "Gold": 0,
+            "XP": 8400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15810,
+            "Aliases": [
+                "elephant"
+            ],
+            "ShortDesc": "an elephant",
+            "LongDesc": "An enormous, grey elephant is here feasting on some shrubbery.\n",
+            "DetailedDesc": "With its long, majestic tusks this great beast is considered by\nmany to be the most beautiful animal on Earth.  The elephant is\nprobably the most feared animal in the jungle...not even the big\ncats would dare come close to attacking these big-eared mammals.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 6,
+            "HP": "1d1+90",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15811,
+            "Aliases": [
+                "woodpecker",
+                "pecker",
+                "wood",
+                "bird"
+            ],
+            "ShortDesc": "a woodpecker",
+            "LongDesc": "A red woodpecker is here pecking on a petrified tree.\n",
+            "DetailedDesc": "Not exactly being the smartest bird in the animal kingdom, the\nwoodpecker is close to extinction.  Though it's one of the most\nprettiest of birds, the woodpecker has a brain smaller that a pea!\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "1d1+30",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 2700,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15812,
+            "Aliases": [
+                "lizard"
+            ],
+            "ShortDesc": "a lizard",
+            "LongDesc": "There's a colorful lizard here crawling on the ground.\n",
+            "DetailedDesc": "This lizard is quite a colorful critter.  It has a horned nose\nand its eyes are large and round.  It moves almost faster than\nthe eye can see.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "1d1+30",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 1700,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15813,
+            "Aliases": [
+                "spider"
+            ],
+            "ShortDesc": "a spider",
+            "LongDesc": "A large, hairy spider is here looking for some insects.\n",
+            "DetailedDesc": "It's big and it's hairy.  This spider is also quite venomous and\nit can paralyze its victim before they escape this eight-legged\npredator.  This spider is hungry for big, juicy insects.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "1d1+30",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 1700,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15814,
+            "Aliases": [
+                "rhinoceros",
+                "rhino"
+            ],
+            "ShortDesc": "a rhinoceros",
+            "LongDesc": "There's a big rhinoceros here eating some plants.\n",
+            "DetailedDesc": "This horned beast could scare even the greatest predator away.\nWIth its powerful horn, which could pierce steel plates, this\nrhinoceros has no natural enemies.  Its body is also tougher than\nsun-dried leather and its head is shielded with strong boney plates.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 6,
+            "HP": "1d1+90",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15815,
+            "Aliases": [
+                "chimpanzee",
+                "chimp"
+            ],
+            "ShortDesc": "a chimpanzee",
+            "LongDesc": "A funny-looking chimpanzee is here eating a big banana.\n",
+            "DetailedDesc": "This chimpanzee looks quite happy with his life.  He looks like\nhe's having fun just eating a plain banana.  The chimp is playing\nwith his food at the same time he's eating it.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d1+50",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 3900,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15816,
+            "Aliases": [
+                "wolf"
+            ],
+            "ShortDesc": "a wolf",
+            "LongDesc": "A grey wolf is running around the forest, looking for his pack.\n",
+            "DetailedDesc": "This wild animal is always dangerous anywhere and when it's with\na pack, he could become fearless and kill preys as big as a\nbuffalo.  This wolf has sharp flesh-piercing teeth and it can\ntear open throats with the simplest of ease.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 3,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "1d1+70",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 4500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15817,
+            "Aliases": [
+                "caterpillar",
+                "worm"
+            ],
+            "ShortDesc": "a caterpillar",
+            "LongDesc": "There's a green caterpillar crawling on the forest grounds.\n",
+            "DetailedDesc": "This caterpillar looks plump and juicy, it would make a fine treat\nfor any bird or any other predators in the wild.  The caterpillar\nis here crawling on the ground, searching for some green plants\nto nibble on.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "1d1+30",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 2700,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15818,
+            "Aliases": [
+                "butterfly",
+                "fly"
+            ],
+            "ShortDesc": "a butterfly",
+            "LongDesc": "A monarch butterfly is here fluttering its large wings.\n",
+            "DetailedDesc": "The monarch butterfly is the largest butterfly in the world.\nWith a wing span that could spread a good twelve inches it would\nmake a great meal for any hungry predator.  The entire forest is \ninhabited by many of these grand butterflies, they are of great\nimportance to the food chain.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "1d1+30",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 2700,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15819,
+            "Aliases": [
+                "beetle",
+                "bug"
+            ],
+            "ShortDesc": "a beetle",
+            "LongDesc": "There's a round beetle here running across the forest grounds.\n",
+            "DetailedDesc": "This large beetle looks frighten of anything that comes close to\nit.  This bug is a great specimen for any bug collector.  Its rich,\ndark color and those strange orange spots on its body are just\nmagnificent.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "1d1+30",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 2700,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15820,
+            "Aliases": [
+                "sloth",
+                "three-toed"
+            ],
+            "ShortDesc": "a three-toed sloth",
+            "LongDesc": "A three-toed sloth is slowly, slowly climbing up a tree.\n",
+            "DetailedDesc": "The sloth is probably the slowest moving mammal on Earth.  It\ntakes its time as it tries to climb up a tree.  Though the furry\ncreature seems lazy, it's slow because of its unique bone \nstructure.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d1+50",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 3900,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15821,
+            "Aliases": [
+                "armadillo"
+            ],
+            "ShortDesc": "an armadillo",
+            "LongDesc": "An armadillo is searching for a meal of small bugs.\n",
+            "DetailedDesc": "With its hard body covering, the armadillo is an obstacle for any\nhungry predator.  Not many great beasts could rip through the\narmadillo's stronghold, even the fierce badger would have a tough\ntime trying to cut through the armadillo's defense.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d1+50",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 3900,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15822,
+            "Aliases": [
+                "rabbit",
+                "hare",
+                ""
+            ],
+            "ShortDesc": "a rabbit",
+            "LongDesc": "A grey rabbit is hopping up and down and all around.\n",
+            "DetailedDesc": "This grey hare is probably the food of choice for all medium-\nsized predators.  It's not the fastest moving animal and also not\nthe brightest, thus this rabbit tends to become the main diet of\nwolves, bobcats, owls, and many other animals.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d1+50",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 3900,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15823,
+            "Aliases": [
+                "frog",
+                "toad"
+            ],
+            "ShortDesc": "a frog",
+            "LongDesc": "There's a poisonous frog here, croaking on a log.\n",
+            "DetailedDesc": "Don't touch this frog...it looks poisonous.  From the exotic\ncolor and the size of this frog, anyone can tell this frog looks\ndangerous.  The aborigines of Brazil used these frogs to make\npoison arrows.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d1+50",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 3900,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15824,
+            "Aliases": [
+                "snail",
+                "slug"
+            ],
+            "ShortDesc": "a snail",
+            "LongDesc": "A slimy little snail is moving slowly across the ground.\n",
+            "DetailedDesc": "The tiny snail is here looking for some plant leaves to chew on.  \nThis little shelled bug is one of nature's most destructive\ninsect because of their appetite for fresh green leaves.  The\nsnail has a slimy body and a protective shell.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "1d1+30",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 2700,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15825,
+            "Aliases": [
+                "parrot",
+                "bird"
+            ],
+            "ShortDesc": "a parrot",
+            "LongDesc": "a rainbow-colored parrot is here eating a wild fruit.\n",
+            "DetailedDesc": "The parrot is one of the forest's most beautiful birds because\nthey come in a variety of magnificent colors.  The parrot is a\nfriendly bird but it's unfortunate that many people use traps to\ncatch these lovely birds and sell them.  Many of the rare parrots\ntoday are very close to extinction and there's not much anyone\ncan do about it.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "1d1+30",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 2700,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15826,
+            "Aliases": [
+                "bigfoot",
+                "foot",
+                "big"
+            ],
+            "ShortDesc": "Bigfoot",
+            "LongDesc": "The elusive Bigfoot is here looking to get his photo taken.\n",
+            "DetailedDesc": "This strange primate is here wandering through the forest.  You\nare fascinated by this great beast as he passes you by.  He looks\nvery shy and is about to run away.  The Bigfoot is a huge \ncreature.  He stands about eight feet tall and his knuckles are\nalmost to the floor.  This freak-of-nature has the strength of\nten men and can kill when it becomes frighten for any reason.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 5,
+            "AC": 2,
+            "HP": "1d1+210",
+            "Damage": "4d1+2",
+            "Gold": 0,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15827,
+            "Aliases": [
+                "bob",
+                "hunter"
+            ],
+            "ShortDesc": "Hunter Bob",
+            "LongDesc": "Hunter Bob is here carefully cleaning his Winchester.\n",
+            "DetailedDesc": "Hunter Bob looks like a fierce hunter.  He's a big man with a big\ngun and this hunter is no push-over when it comes to a good\nfight.  Hunter Bob has conquered the jungles of Africa, South\nAmerica, Austrailia, and now he's trying to hunt all the animals\nin the Newbie Forest.  He's a merciless hunter and he makes sure\nthat the animal he kills will have a place in his trophy case!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 12,
+            "THAC0": 6,
+            "AC": 0,
+            "HP": "1d1+270",
+            "Damage": "5d1+3",
+            "Gold": 275,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15828,
+            "Aliases": [
+                "painter",
+                "smurf",
+                "artist"
+            ],
+            "ShortDesc": "Painter Smurf",
+            "LongDesc": "Painter Smurf is here looking for his ideal model for his painting.\n",
+            "DetailedDesc": "Painter is the best artist in the Smurf village.  His brush-\nstrokes are absolutely the best in the world.  Painter has a thin\nmoustache and he speaks with a strange French accent.  He wears a\npainter's cap and always carry with him , his lucky paintbrush.\n",
+            "Actions": [
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15829,
+            "Aliases": [
+                "farmer",
+                "smurf"
+            ],
+            "ShortDesc": "Farmer Smurf",
+            "LongDesc": "Farmer Smurf is working hard to gather all the crops for winter.\n",
+            "DetailedDesc": "Farmer is the most prolific Smurf in the village.  His crops have\nsaved many Smurfs from starvation in the winter.  Every year, \nFarmer was given the trust of all the Smurfs to plant and\nfertilize the crops for next year's harvest.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15830,
+            "Aliases": [
+                "greedy",
+                "smurf",
+                ""
+            ],
+            "ShortDesc": "Greedy Smurf",
+            "LongDesc": "Greedy Smurf is keeping all of the Smurfberries for himself.\n",
+            "DetailedDesc": "Greedy Smurf is not as greedy as most think he is.  He doesn't\nalways do things for himself.  Sometimes he would help others in\nneed like the time when Gargamel destroyed the Smurf's winter\nfood reserves, it was Greedy who was willing to share his goods\nand thus saving the entire village from starvation.\n",
+            "Actions": [
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15831,
+            "Aliases": [
+                "grouchy",
+                "smurf",
+                "grouch"
+            ],
+            "ShortDesc": "Grouchy Smurf",
+            "LongDesc": "Grouchy Smurf doesn't feel like being happy today.\n",
+            "DetailedDesc": "This Smurf may be the only Smurf in town who is rarely if ever\nhappy.  Unlike the others, Grouchy Smurf is simply happy by not\nbeing happy...er, in expression sense, Grouchy may look unhappy\nbut really, he's seriously happy.\n",
+            "Actions": [
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15832,
+            "Aliases": [
+                "baby",
+                "smurf"
+            ],
+            "ShortDesc": "Baby Smurf",
+            "LongDesc": "Baby Smurf is here crying for Smurfette's attention.\n",
+            "DetailedDesc": "This strange little Smurf is the cutest of all Smurfs in the\nvillage.  Everyone just loves Baby Smurf because he's just \nirresistable.  The little critter is also a powerful mutant\nmagician.  His special powers have saved the Smurfs countless\ntimes during encounters with Gargamel and other evil baddies.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15833,
+            "Aliases": [
+                "vanity",
+                "smurf",
+                ""
+            ],
+            "ShortDesc": "Vanity Smurf",
+            "LongDesc": "Vanity Smurf is here modeling front of his mirror.\n",
+            "DetailedDesc": "Is there anyone who could be more vainglorious than Vanity Smurf\nhimself?  Vanity sits in front of a mirror all day long and\nadmires himself just because he looks better than the rest of the\nSmurfs.  He may be conceited sometimes but this little Smurf is\nalso sensitive and kind...when he wants to be.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15834,
+            "Aliases": [
+                "handy",
+                "smurf"
+            ],
+            "ShortDesc": "Handy Smurf",
+            "LongDesc": "Handy Smurf is pointing a wooden, handcrafted gadget at your face!\n",
+            "DetailedDesc": "Handy Smurf is the best carpenter and inventor in town.  No other\ncan match him in the skill of building and inventing new gadgets.\nHandy Smurf wears a white overall with a pencil on his ear.\nBecause of his intelligence, Handy Smurf is admired by Smurfette so\nmuch that even Hefty Smurf can't do a thing about it.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15835,
+            "Aliases": [
+                "hefty",
+                "smurf",
+                "strongman",
+                "weightlifter"
+            ],
+            "ShortDesc": "hefty smurf",
+            "LongDesc": "Hefty Smurf tells you, 'Wanna wrestle, you big ogre?'\n",
+            "DetailedDesc": "Hefty Smurf is the strongest Smurf in the village.  He could beat \nthree or four other Smurfs in a tug-o-war.  Hefty wears a heart\ntattoo on his right arm and he's constantly flexing his muscles.\nHe's one of Smurfette's main suitors and he's always competing\nwith Handy Smurf for her attention.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15836,
+            "Aliases": [
+                "brainy",
+                "smurf",
+                "nerd"
+            ],
+            "ShortDesc": "Brainy Smurf",
+            "LongDesc": "Brainy Smurf is picking up all those useless books on the floor.\n",
+            "DetailedDesc": "Who's this little Steve Erckel look-alike?  Why he's Brainy\nSmurf, the self-proclaimed Papa Smurf's advisor.  Brainy Smurf\nis not as smart as you think he is.  Though he wears those thick\nspectacles, Brainy is no smarter than the rest of the other \nSmurfs.  Brainy has a knack for always getting into trouble\nbecause he thinks himself as being wise and thoughtful like\nPapa Smurf.  He loves to command other Smurfs to do things because\nhe believes he's second-in-command when Papa Smurf is absent.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15837,
+            "Aliases": [
+                "smurfette",
+                "smurf"
+            ],
+            "ShortDesc": "Smurfette",
+            "LongDesc": "Smurfette is trying to cook a Smurfberry pie for Papa Smurf.\n",
+            "DetailedDesc": "Smurfette is the prettiest Smurf in the world.  Of course, she is\nalso the only adult female Smurf in town.  Smurfette has the most\ngorgeous blonde hair and her nice, white dress really reflects \nher beauty.  She's also an excellent cook and right now she's \nbaking a homemade Smurfberry pie for the beloved Papa Smurf.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 8,
+            "THAC0": 4,
+            "AC": 3,
+            "HP": "1d1+170",
+            "Damage": "1d4+2",
+            "Gold": 125,
+            "XP": 21000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 15838,
+            "Aliases": [
+                "papa",
+                "smurf"
+            ],
+            "ShortDesc": "Papa Smurf",
+            "LongDesc": "Papa Smurf is experimenting with some very powerful potions.\n",
+            "DetailedDesc": "Papa Smurf is the wisest of all Smurfs.  Not only is he the\nleader of the village, he's also a teacher to all.  Papa Smurf\nteaches his little Smurfs the lessons in life and how to better\noneself.  His wise decisions and thoughtful ideas have saved the\nSmurfs from danger many, many times.  Papa Smurf wears some red\nspandex pants and a red cap.  He also has a nicely trimmed white\nbeard.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 12,
+            "THAC0": 6,
+            "AC": 0,
+            "HP": "1d1+270",
+            "Damage": "1d5+3",
+            "Gold": 275,
+            "XP": 41000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15839,
+            "Aliases": [
+                "poet",
+                "smurf"
+            ],
+            "ShortDesc": "Poet Smurf",
+            "LongDesc": "Poet Smurf is reciting a poem for all the Smurfs to hear.\n",
+            "DetailedDesc": "Poet Smurf is the absolute master of all poets across the land.\nThe way he uses his words in his poetry could grab the attention\nof all his audiences.  This little Smurf also talks in rhymes, and\nenjoys daily recitation in the village square.\n",
+            "Actions": [
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15840,
+            "Aliases": [
+                "clumsy",
+                "smurf",
+                ""
+            ],
+            "ShortDesc": "Clumsy Smurf",
+            "LongDesc": "Clumsy Smurf is bumping into things and knocking them to the ground.\n",
+            "DetailedDesc": "Clumsy Smurf is the clumsiest Smurf in the entire village.  He'll\ntrip and fall everywhere he goes.  Not only is Clumsy Smurf\nclumsy, he also looks clumsy.  He's wearing spandex pants that\nseems like it's falling down and his cap is drooping forward as\nthough it's about to fall off.  Clumsy is the best friend of\nBrainy Smurf, and he admires Brainy so much that he'll do anything\nfor his nerd buddy.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15841,
+            "Aliases": [
+                "jokey",
+                "smurf"
+            ],
+            "ShortDesc": "Jokey Smurf",
+            "LongDesc": "Jokey Smurf wants you to open his present right now...hee hee.\n",
+            "DetailedDesc": "Jokey is the prankster in the village.  There's no one in the\nvillage who has ever escape one of Jokey's most commonly-used\ntrick, the exploding gift box.  Though Jokey's pranks are\nharmless, he gets into serious trouble when he goes a bit too\nfar.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15842,
+            "Aliases": [
+                "gargamel",
+                "wizard",
+                "beggar"
+            ],
+            "ShortDesc": "Gargamel",
+            "LongDesc": "Gargamel is catching Smurfs to make some Smurf-soup for supper.\n",
+            "DetailedDesc": "This evil fiend is named Gargamel and he's always trying to find\na way to catch the Smurfs.  Gargamel has failed many times trying\nto catch the Smurfs but it seems today is his lucky day.  This\nevil sorcerer wears a long black robe with grey patches everywhere.\nHe's a balding, old man with a face that resembles a bulldog.\nGargamel towers over the little Smurfs and he's crushing and \nstomping the mushroom houses.\n",
+            "Actions": [
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 5,
+            "AC": 2,
+            "HP": "1d1+210",
+            "Damage": "1d5+3",
+            "Gold": 0,
+            "XP": 34000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15843,
+            "Aliases": [
+                "azrael",
+                "cat"
+            ],
+            "ShortDesc": "Azrael",
+            "LongDesc": "A mangy, alley cat named Azrael is here pouncing on some Smurfs.\n",
+            "DetailedDesc": "This plain-looking alley cat is Gargamel's only friend in the\nworld.  Azrael is always craving for some Smurf stew and though\nhe has come close to getting his wish, there's always something\nthat goes wrong.  Together with Gargamel, these two have caused\nmany problems for the Smurfs and they'll keep making problems\nuntil their diabolical plans actually work.\n",
+            "Actions": [
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 8,
+            "THAC0": 4,
+            "AC": 3,
+            "HP": "1d1+170",
+            "Damage": "1d4+3",
+            "Gold": 125,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 15844,
+            "Aliases": [
+                "smurf",
+                "lost"
+            ],
+            "ShortDesc": "a lost Smurf",
+            "LongDesc": "A lost Smurf is trying to find his way back to the Smurf Village.\n",
+            "DetailedDesc": "This poor little Smurf is lost and can't find his way back home.\nThe small Smurf Village must be somewhere in this forest but\nwhere?  The lost Smurf is moving back and forth trying to figure\nout where is his original trail from the village.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d1+50",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 3600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15845,
+            "Aliases": [
+                "smurf",
+                "blue"
+            ],
+            "ShortDesc": "a Smurf",
+            "LongDesc": "A little, blue Smurf is frightened by your presence.\n",
+            "DetailedDesc": "There's nothing special about this Smurf.  He's a blue-skin troll\nno bigger than a GI Joe action figure.  This Smurf is wearing a\npair of white spandex pants and a white cap.  He looks too small\nto hurt anyone.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 2,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d1+50",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 3900,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15846,
+            "Aliases": [
+                "salmon",
+                "fish",
+                "pink",
+                ""
+            ],
+            "ShortDesc": "a pink salmon",
+            "LongDesc": "A large, pink salmon is here trying to make it upstream.\n",
+            "DetailedDesc": "This salmon looks like it's ready to spawn.  It struggles to make it\nupstream so it can lay its eggs.  The pink salmon is the grizzly's\nmain diet and it's also food to many birds as well.  \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 1,
+            "AC": 9,
+            "HP": "1d1+30",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15847,
+            "Aliases": [
+                "jungle",
+                "smurf"
+            ],
+            "ShortDesc": "Jungle Smurf",
+            "LongDesc": "Jungle Smurf is here swinging on vines and playing with the animals.\n",
+            "DetailedDesc": "Unlike the other Smurfs, Jungle Smurf was brought up in the wild.  \nRaised by animals, this Smurf learned to adapt to a harsh enviroment.\nThough he reunited with his fellow Smurfs, Jungle Smurf could not\nadjust to their simple lifestyle.  He chose to stay here in the wild,\nso that he may protect his animals friends from hunters and poachers.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 5,
+            "HP": "1d1+130",
+            "Damage": "1d5+0",
+            "Gold": 75,
+            "XP": 18000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15848,
+            "Aliases": [
+                "camper",
+                "camp"
+            ],
+            "ShortDesc": "a camper",
+            "LongDesc": "A camper is here, trying to find his way around the forest.\n",
+            "DetailedDesc": "He's an ordinary camper who's trying to find some rest and\nrelaxation here in the wild.  He seems to be lost and can't find \nhis way back...but lucky for him, he always carry a map wherever\nhe goes.  With this map, no one could ever get lost here.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 6,
+            "HP": "1d1+90",
+            "Damage": "1d4+0",
+            "Gold": 100,
+            "XP": 7500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

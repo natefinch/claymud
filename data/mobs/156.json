@@ -1,0 +1,546 @@
+{
+    "mobs": [
+        {
+            "Number": 15600,
+            "Aliases": [
+                "cat",
+                "kitten",
+                "housecat"
+            ],
+            "ShortDesc": "kitten",
+            "LongDesc": "A kitten is stuck in this tree and looks afraid.\r\r\r\r\n\r",
+            "DetailedDesc": "A kitten that clings to the tree looking for a way down.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 7,
+            "HP": "3d6+4",
+            "Damage": "1d5+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15601,
+            "Aliases": [
+                "Insect",
+                "bug",
+                "cricket"
+            ],
+            "ShortDesc": "cricket",
+            "LongDesc": "A cricket rubs his legs together in self stimulation.\r\r\r\r\n\r",
+            "DetailedDesc": "A simple, black cricket.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "2d5+2",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 30,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15602,
+            "Aliases": [
+                "bee",
+                "bumble",
+                "bumblebee"
+            ],
+            "ShortDesc": "bumblebee",
+            "LongDesc": "A bumblebee hovers around a flower here.\r\r\r\r\n\r",
+            "DetailedDesc": "Your average fat and ugly bumblebee lost in its quest to annoy you.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 7,
+            "HP": "2d8+2",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 50,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15603,
+            "Aliases": [
+                "mouse",
+                "papa"
+            ],
+            "ShortDesc": "papa mouse",
+            "LongDesc": "Papa Mouse wanders around searching for food.\r\r\r\r\n\r",
+            "DetailedDesc": "A small, plump mouse that seems to have had its fair share of food.\r\r\r\r\n\rIt eyes you with curiosity.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 8,
+            "HP": "2d8+3",
+            "Damage": "1d5+0",
+            "Gold": 5,
+            "XP": 40,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15604,
+            "Aliases": [
+                "mouse",
+                "mama"
+            ],
+            "ShortDesc": "mama mouse",
+            "LongDesc": "Mama Mouse looks over her young ones.\r\r\r\r\n\r",
+            "DetailedDesc": "A big, fat, juicy mouse that is only concerned with the safety\r\r\r\r\n\rof her children.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 8,
+            "HP": "2d7+0",
+            "Damage": "1d4+0",
+            "Gold": 5,
+            "XP": 40,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 15605,
+            "Aliases": [
+                "mouse"
+            ],
+            "ShortDesc": "baby mouse",
+            "LongDesc": "A young mouse stares at you innocently.\r\r\r\r\n\r",
+            "DetailedDesc": "The mouse *blinks* and wonders why you are staring at it.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "1d9+1",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 40,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15606,
+            "Aliases": [
+                "cat",
+                "mother"
+            ],
+            "ShortDesc": "mother cat",
+            "LongDesc": "A cat wanders around in search of her kittens.\r\r\r\r\n\r",
+            "DetailedDesc": "You see a female cat who looks worried.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 3,
+            "THAC0": 0,
+            "AC": 7,
+            "HP": "3d10+5",
+            "Damage": "1d5+1",
+            "Gold": 0,
+            "XP": 120,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 15607,
+            "Aliases": [
+                "cat",
+                "father",
+                "dad"
+            ],
+            "ShortDesc": "father cat",
+            "LongDesc": "A tom cat hunts for food for his family.\r\r\r\r\n\r",
+            "DetailedDesc": "A big tomcat looks ready to punce on some prey.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 4,
+            "THAC0": 0,
+            "AC": 6,
+            "HP": "3d11+5",
+            "Damage": "1d4+2",
+            "Gold": 0,
+            "XP": 150,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 15608,
+            "Aliases": [
+                "grass",
+                "grasshopper",
+                "bug",
+                "insect"
+            ],
+            "ShortDesc": "grasshopper",
+            "LongDesc": "A grasshopper leaps around by your feet.\r\r\r\r\n\r",
+            "DetailedDesc": "A green grasshopper, with great hops, jumps continuously.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "1d10+0",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 30,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15609,
+            "Aliases": [
+                "robin",
+                "bird"
+            ],
+            "ShortDesc": "a small robin",
+            "LongDesc": "A small robin has landed here and is searching for worms.\r\r\r\r\n\r",
+            "DetailedDesc": "A small robin with a speckle of red on its breast\r\r\r\r\n\reagerly searches for a worm or two.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "2d5+2",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 50,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15610,
+            "Aliases": [
+                "blue",
+                "jay",
+                "bird"
+            ],
+            "ShortDesc": "a blue jay",
+            "LongDesc": "A blue jay has picked this spot to search for food.\r\r\r\r\n\r",
+            "DetailedDesc": "A blue jay with an annoying voice quirks its head\r\r\r\r\n\rand looks at you with obvious curiousity.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "2d6+1",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 50,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15611,
+            "Aliases": [
+                "worm"
+            ],
+            "ShortDesc": "a worm",
+            "LongDesc": "A worm desperately looks for a place to hide here.\r\r\r\r\n\r",
+            "DetailedDesc": "You see a worm that's apparently trying to escape from a predator.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d6+1",
+            "Damage": "1d2+0",
+            "Gold": 0,
+            "XP": 10,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15612,
+            "Aliases": [
+                "deer",
+                "fawn"
+            ],
+            "ShortDesc": "a young fawn",
+            "LongDesc": "A young fawn is peacefully drinking from a pool of water.\r\r\r\r\n\r",
+            "DetailedDesc": "You see a fawn by the bank of the clear pool getting a drink.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 450,
+            "Level": 3,
+            "THAC0": 0,
+            "AC": 8,
+            "HP": "5d5+2",
+            "Damage": "1d5+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15613,
+            "Aliases": [
+                "frog",
+                "toad"
+            ],
+            "ShortDesc": "a small frog",
+            "LongDesc": "A small frog hops around here searching for some water to swim in.\r\r\r\r\n\r",
+            "DetailedDesc": "A small green frog that seems to be lookin for water.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "2d6+1",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 50,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15614,
+            "Aliases": [
+                "woodchuck",
+                "wood",
+                "chuck"
+            ],
+            "ShortDesc": "a woodchuck",
+            "LongDesc": "A woodchuck wanders around gathering supplies for its den.\r\r\r\r\n\r",
+            "DetailedDesc": "A brown woodchuck gathering supplies.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "2d20+3",
+            "Damage": "1d5+0",
+            "Gold": 0,
+            "XP": 400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15615,
+            "Aliases": [
+                "squirrel",
+                "squir"
+            ],
+            "ShortDesc": "a squirrel",
+            "LongDesc": "A squirrel grasps a nut with both of its humanlike hands.\r\r\r\r\n\r",
+            "DetailedDesc": "A grey squirrel stands on its hind legs and holds a nut.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 200,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 8,
+            "HP": "3d5+2",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15616,
+            "Aliases": [
+                "beetle",
+                "bug"
+            ],
+            "ShortDesc": "a beetle",
+            "LongDesc": "A beetle crawls around in circles here.\r\r\r\r\n\r",
+            "DetailedDesc": "A black beetle with apparently no place to go.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "2d6+0",
+            "Damage": "1d3+0",
+            "Gold": 0,
+            "XP": 100,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15617,
+            "Aliases": [
+                "fox"
+            ],
+            "ShortDesc": "a red fox",
+            "LongDesc": "A fox is stalking something it sees off in the woods.\r\r\r\r\n\r",
+            "DetailedDesc": "A red fox that seems to be concentrating very hard on something.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -50,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 8,
+            "HP": "2d20+3",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15618,
+            "Aliases": [
+                "kangaroo",
+                "mouse"
+            ],
+            "ShortDesc": "a kangaroo mouse",
+            "LongDesc": "A mouse with large hind legs bounces around the area.\r\r\r\r\n\r",
+            "DetailedDesc": "A kangaroo mouse with large hind legs and browninsh fur.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 4,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "3d8+0",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15619,
+            "Aliases": [
+                "turtle"
+            ],
+            "ShortDesc": "a turtle",
+            "LongDesc": "A turtle moves along here, inexorably slow.\r\r\r\r\n\r",
+            "DetailedDesc": "A rather large turtle moping off to some unknown destination.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 11,
+            "HP": "3d10+0",
+            "Damage": "1d5+0",
+            "Gold": 0,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 15620,
+            "Aliases": [
+                "vulture",
+                "bird"
+            ],
+            "ShortDesc": "a vulture",
+            "LongDesc": "A vulture is perched here studying the surrounding territory.\r\r\r\r\n\r",
+            "DetailedDesc": "A night black vulture peers at you through smoky eyes\r\r\r\r\n\rand considers making YOU its next meal.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -500,
+            "Level": 4,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "5d10+0",
+            "Damage": "1d6+0",
+            "Gold": 0,
+            "XP": 3500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

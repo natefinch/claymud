@@ -1,0 +1,2536 @@
+{
+    "mobs": [
+        {
+            "Number": 21000,
+            "Aliases": [
+                "goethe",
+                "poet",
+                "philosopher"
+            ],
+            "ShortDesc": "Goethe",
+            "LongDesc": "Goethe is here, staring blindly into space.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Goethe exudes an aura of verbosity.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 26,
+            "THAC0": 20,
+            "AC": 10,
+            "HP": "13d10+800",
+            "Damage": "1d8+3",
+            "Gold": 0,
+            "XP": 46250,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21001,
+            "Aliases": [
+                "harry",
+                "hare",
+                "krishna",
+                "pharmacist"
+            ],
+            "ShortDesc": "Harry the Hare Krishna",
+            "LongDesc": "Harry the Hare Krishna is busy burning incense and singing.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Harry is a tall man with a shaven head and a long pony tail... gee I wonder\r\r\r\r\r\n\rif he is a Hare Krishna.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 22,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "5d7+700",
+            "Damage": "1d8+12",
+            "Gold": 1000,
+            "XP": 36250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21002,
+            "Aliases": [
+                "wally",
+                "wizard"
+            ],
+            "ShortDesc": "Wally the Wizard",
+            "LongDesc": "Wally the Wizard is busy playing with his magical items.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Wally is an old, long haired man with an obvious affection to strange and\r\r\r\r\r\n\runusual magic items.  When he looks at you, he doesn't seem to be completely\r\r\r\r\r\n\rthere.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 81,
+            "THAC0": 40,
+            "AC": -10,
+            "HP": "10d10+10000",
+            "Damage": "1d8+50",
+            "Gold": 10000,
+            "XP": 183750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21003,
+            "Aliases": [
+                "policeman",
+                "police",
+                "man"
+            ],
+            "ShortDesc": "the Policeman",
+            "LongDesc": "The Policeman is here, walking his beat.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Specifically recruited by the upper class people of New Sparta, there\r\r\r\r\r\n\ris no one more respectable and honest than your on duty policeman.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 700,
+            "Level": 11,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "1d8+220",
+            "Damage": "1d6+3",
+            "Gold": 300,
+            "XP": 8750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21004,
+            "Aliases": [
+                "cop",
+                "fuzz",
+                "fuzzy",
+                "pig",
+                "flatfoot",
+                "gumshoe"
+            ],
+            "ShortDesc": "the Cop",
+            "LongDesc": "The Cop is wandering around looking for donuts.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You can see that this guy does not concentrate very much on his job and tends \r\r\r\r\r\n\rto look the other way.  He seems to be more interested in filling his belly \r\r\r\r\r\n\rwith donuts than in protecting the city.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 14,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "1d8+180",
+            "Damage": "7d2+5",
+            "Gold": 200,
+            "XP": 16250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21005,
+            "Aliases": [
+                "mugger",
+                "mug",
+                "mugg",
+                "thug"
+            ],
+            "ShortDesc": "a Mugger",
+            "LongDesc": "A Mugger is thinking about taking your money or your life.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Driven to desperate measures, this leech of society is after one thing...\r\r\r\r\r\n\ryour money.  He'll do anything to get it, too.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -350,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "1d4+105",
+            "Damage": "1d7+0",
+            "Gold": 5,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21006,
+            "Aliases": [
+                "tourist",
+                "people",
+                "tour"
+            ],
+            "ShortDesc": "a Tourist",
+            "LongDesc": "A Tourist is here, taking in the sights.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Every metropolis has them, well so does New Sparta.  Be careful not to get\r\r\r\r\r\n\rcaught in their line of sight.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 3,
+            "THAC0": 2,
+            "AC": 8,
+            "HP": "6d5+65",
+            "Damage": "1d6+0",
+            "Gold": 150,
+            "XP": 750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21007,
+            "Aliases": [
+                "Norm",
+                "norm",
+                "norman",
+                "normy",
+                "peterson"
+            ],
+            "ShortDesc": "Norm",
+            "LongDesc": "Norm is drinking another beer.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see Norm from Cheers, he is big, fat, drinks a lot and is an overall\r\r\r\r\r\n\rjolly fellow.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 21,
+            "THAC0": 19,
+            "AC": 1,
+            "HP": "3d4+590",
+            "Damage": "4d3+4",
+            "Gold": 1000,
+            "XP": 33750,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21008,
+            "Aliases": [
+                "cliff",
+                "cliffy",
+                "claven"
+            ],
+            "ShortDesc": "Cliff Claven",
+            "LongDesc": "Cliff is rattling off useless trivia.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A postal worker who never seems to be doing his job, Cliff is out of touch\r\r\r\r\r\n\rwith reality and tends to be annoying--even to his friends.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 30,
+            "THAC0": 17,
+            "AC": 1,
+            "HP": "8d10+555",
+            "Damage": "2d4+4",
+            "Gold": 750,
+            "XP": 56250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21009,
+            "Aliases": [
+                "carla",
+                "carla",
+                "bitch",
+                "labeck"
+            ],
+            "ShortDesc": "Carla",
+            "LongDesc": "Carla is waiting on tables.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Carla splashes a drink in your face.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -800,
+            "Level": 19,
+            "THAC0": 15,
+            "AC": 2,
+            "HP": "5d6+500",
+            "Damage": "2d4+7",
+            "Gold": 2000,
+            "XP": 28750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21010,
+            "Aliases": [
+                "woody",
+                "wood",
+                "woody",
+                "boyd"
+            ],
+            "ShortDesc": "Woody",
+            "LongDesc": "Woody is waiting to serve you a drink.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A farm boy from Indiana, he has not quite fit into the atmosphere of\r\r\r\r\r\n\rthe big city yet.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 22,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "8d10+700",
+            "Damage": "1d8+12",
+            "Gold": 3000,
+            "XP": 36250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21011,
+            "Aliases": [
+                "mayor",
+                "abe"
+            ],
+            "ShortDesc": "Mayor Abe",
+            "LongDesc": "Mayor Abe is about, inspecting the city.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This high official, like most other politicians, seems uninterested\r\r\r\r\r\n\rin helping the community.  Not a man to be trifled with, the Mayor\r\r\r\r\r\n\ris reputed to have ties with the mob kingpin--Lucifer.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -900,
+            "Level": 25,
+            "THAC0": 18,
+            "AC": -2,
+            "HP": "6d8+625",
+            "Damage": "3d4+3",
+            "Gold": 3000,
+            "XP": 43750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21012,
+            "Aliases": [
+                "rebecca",
+                "ms",
+                "howe",
+                "rebecca",
+                "becky"
+            ],
+            "ShortDesc": "Rebecca Howe",
+            "LongDesc": "Rebecca Howe is hurrying about making sure Cheers is in order.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A very harried but yet beautiful woman.  Most of her anguish stems from\r\r\r\r\r\n\rher sexual frustrations and from attempting to keep Cheers in order.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 21,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "6d4+625",
+            "Damage": "3d6+3",
+            "Gold": 2000,
+            "XP": 33750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21013,
+            "Aliases": [
+                "sam",
+                "malone",
+                "sam",
+                "sammy",
+                "malone"
+            ],
+            "ShortDesc": "Sam",
+            "LongDesc": "Sam is here, hitting on the women.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A very handsome, self-assured ex-baseball player who is very popular\r\r\r\r\r\n\rwith the ladies, but often finds himself in sticky situations.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 23,
+            "THAC0": 19,
+            "AC": -2,
+            "HP": "6d4+600",
+            "Damage": "6d4+2",
+            "Gold": 3000,
+            "XP": 38750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21014,
+            "Aliases": [
+                "frazier",
+                "crane",
+                "dr",
+                "crane",
+                "fraz",
+                "frazier"
+            ],
+            "ShortDesc": "Frazier",
+            "LongDesc": "Frazier is here psychoanalyzing patrons in the bar.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Though very emotionally unstable for a psychiatrist, Dr. Crane tries\r\r\r\r\r\n\rto aid people with their problems while creating his own.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 20,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "3d4+600",
+            "Damage": "4d4+2",
+            "Gold": 2000,
+            "XP": 31250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21015,
+            "Aliases": [
+                "lilith",
+                "sternen",
+                "crane"
+            ],
+            "ShortDesc": "Lilith",
+            "LongDesc": "Lilith is sitting at the bar, keeping a watchful eye on Frazier.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A calm, thoroughly rational and logical thinker on the outside--a wild, \r\r\r\r\r\n\rcrazy, sexual goddess on the inside.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 25,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "7d10+700",
+            "Damage": "1d8+4",
+            "Gold": 3000,
+            "XP": 43750,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21016,
+            "Aliases": [
+                "paul"
+            ],
+            "ShortDesc": "Paul",
+            "LongDesc": "Paul is here, drinking a beer.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Paul is a robust man, who tends to be a bit childish when around Norm and\r\r\r\r\r\n\rCliff.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 21,
+            "THAC0": 18,
+            "AC": 0,
+            "HP": "6d4+625",
+            "Damage": "4d4+3",
+            "Gold": 1000,
+            "XP": 33750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21017,
+            "Aliases": [
+                "alley",
+                "cat",
+                "pussy"
+            ],
+            "ShortDesc": "the Alley Cat",
+            "LongDesc": "An Alley Cat is looking for food.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is an everyday unwanted alley cat who spends most of his day looking \r\r\r\r\r\n\rfor food.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d6+10",
+            "Damage": "1d4+0",
+            "Gold": 10,
+            "XP": 155,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21018,
+            "Aliases": [
+                "pee",
+                "wee",
+                "peewee",
+                "pee-wee"
+            ],
+            "ShortDesc": "Pee Wee",
+            "LongDesc": "Pee Wee is doing something you would rather not like to know.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Pee Wee is the owner of this peep show, so you'd better not piss him off.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -500,
+            "Level": 17,
+            "THAC0": 12,
+            "AC": 2,
+            "HP": "1d12+433",
+            "Damage": "2d8+4",
+            "Gold": 500,
+            "XP": 23750,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21019,
+            "Aliases": [
+                "punk"
+            ],
+            "ShortDesc": "a punk",
+            "LongDesc": "A punk is here, deciding what color to spray paint your back.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a punk who is more than willing to knock off an old lady for a few \r\r\r\r\r\n\rbucks.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": -400,
+            "Level": 9,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "1d12+200",
+            "Damage": "1d8+1",
+            "Gold": 100,
+            "XP": 5250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21020,
+            "Aliases": [
+                "skinhead",
+                "head",
+                "skin"
+            ],
+            "ShortDesc": "a skinhead",
+            "LongDesc": "A skinhead is here, looking for a punk to kill.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Skinheads are mean and nasty... better not stare too long.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -500,
+            "Level": 9,
+            "THAC0": 6,
+            "AC": 4,
+            "HP": "5d6+221",
+            "Damage": "2d4+1",
+            "Gold": 150,
+            "XP": 5250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21021,
+            "Aliases": [
+                "prostitute"
+            ],
+            "ShortDesc": "a prostitute",
+            "LongDesc": "A prostitute is soliciting you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "When you look at her she says, \"Hey baby, wanna party?\"\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "5d6+83",
+            "Damage": "1d7+0",
+            "Gold": 100,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21022,
+            "Aliases": [
+                "john",
+                "jonathan",
+                "jon",
+                "hill"
+            ],
+            "ShortDesc": "Jonathan Hill",
+            "LongDesc": "Jonathan Hill is here, welcoming his costumers.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is the evil bald-headed guy who runs Melville.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 20,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "5d6+575",
+            "Damage": "3d6+2",
+            "Gold": 2000,
+            "XP": 31250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21023,
+            "Aliases": [
+                "bishop",
+                "bish"
+            ],
+            "ShortDesc": "the Bishop",
+            "LongDesc": "The Bishop is here, look for a crime to solve.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Da Da Deah (sorry for the bad sound effects)!  It's the Bishop!\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 20,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "1d10+666",
+            "Damage": "2d4+4",
+            "Gold": 2000,
+            "XP": 31250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21024,
+            "Aliases": [
+                "dockworker",
+                "dock",
+                "worker",
+                "work"
+            ],
+            "ShortDesc": "a dockworker",
+            "LongDesc": "A dockworker is busy moving crates.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Dockworkers get very strong from lifting crates and the size of his muscles\r\r\r\r\r\n\rmake you think twice about attacking him.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 10,
+            "THAC0": 13,
+            "AC": 3,
+            "HP": "4d6+225",
+            "Damage": "1d6+1",
+            "Gold": 150,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21025,
+            "Aliases": [
+                "prostitute"
+            ],
+            "ShortDesc": "a prostitute",
+            "LongDesc": "A prostitute is here, looking for customers.\r\r\r\r\r\n\r",
+            "DetailedDesc": "When you take a closer look, you realize that this is not the lovely lady\r\r\r\r\r\n\ryou first laid eyes on, but is really just a female impersonator.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -350,
+            "Level": 6,
+            "THAC0": 4,
+            "AC": 6,
+            "HP": "1d12+166",
+            "Damage": "2d4+0",
+            "Gold": 100,
+            "XP": 2250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21026,
+            "Aliases": [
+                "pimp"
+            ],
+            "ShortDesc": "a pimp",
+            "LongDesc": "A pimp is busy counting his money to make sure his women haven't been \r\r\r\r\r\n\rcheating him.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You over hear the pimp reciting poetry...\r\r\r\r\r\n\r        Bitch better have my money\r\r\r\r\r\n\r        not some, not half\r\r\r\r\r\n\r        but all my cash!\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -700,
+            "Level": 13,
+            "THAC0": 9,
+            "AC": 2,
+            "HP": "5d6+333",
+            "Damage": "2d6+1",
+            "Gold": 1000,
+            "XP": 13750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21027,
+            "Aliases": [
+                "orc",
+                "lineman",
+                "raider"
+            ],
+            "ShortDesc": "an Orc lineman",
+            "LongDesc": "A Raiders' lineman is here hunting for the ball. \r\r\r\r\r\n\r",
+            "DetailedDesc": "This is one of Orcland's lineman.  He is a balanced player, but has no\r\r\r\r\r\n\routstanding abilities.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": -700,
+            "Level": 20,
+            "THAC0": 15,
+            "AC": 2,
+            "HP": "8d5+276",
+            "Damage": "10d2+5",
+            "Gold": 300,
+            "XP": 31250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21028,
+            "Aliases": [
+                "human",
+                "lineman",
+                "warrior"
+            ],
+            "ShortDesc": "a Human lineman",
+            "LongDesc": "A Warriors' lineman is here hunting for the ball. \r\r\r\r\r\n\r",
+            "DetailedDesc": "This is one of New Sparta's lineman.  He is a balanced player, but has no\r\r\r\r\r\n\routstanding abilities.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 17,
+            "THAC0": 15,
+            "AC": 2,
+            "HP": "8d5+200",
+            "Damage": "10d1+5",
+            "Gold": 300,
+            "XP": 23750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21029,
+            "Aliases": [
+                "orc",
+                "catcher",
+                "raider",
+                "catch",
+                "receiver"
+            ],
+            "ShortDesc": "an Orc catcher",
+            "LongDesc": "A Raiders' catcher is here running a pattern.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is one of the Orcs' skilled catchers.  He is quick, but not very\r\r\r\r\r\n\rpowerful.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -700,
+            "Level": 19,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "8d8+200",
+            "Damage": "8d2+5",
+            "Gold": 400,
+            "XP": 28750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21030,
+            "Aliases": [
+                "human",
+                "catcher",
+                "warrior",
+                "catch",
+                "receiver"
+            ],
+            "ShortDesc": "a Human catcher",
+            "LongDesc": "A Warriors' catcher is here running a pattern.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is one of the Warriors' skilled catchers.  He is quick, but not very\r\r\r\r\r\n\rpowerful.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 700,
+            "Level": 19,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "8d8+200",
+            "Damage": "8d2+5",
+            "Gold": 400,
+            "XP": 28750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21031,
+            "Aliases": [
+                "orc",
+                "blocker",
+                "raider",
+                "block"
+            ],
+            "ShortDesc": "an Orc blocker",
+            "LongDesc": "A Raiders' blocker is trying to pave an open pathway.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is the slowest (both physically AND mentally) of the bloodbowl\r\r\r\r\r\n\rplayers.  However, he is also very large and powerful, so be careful\r\r\r\r\r\n\rwhen tangling with him.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -700,
+            "Level": 18,
+            "THAC0": 15,
+            "AC": -2,
+            "HP": "10d6+388",
+            "Damage": "3d5+0",
+            "Gold": 300,
+            "XP": 26250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21032,
+            "Aliases": [
+                "human",
+                "blocker",
+                "warrior",
+                "block"
+            ],
+            "ShortDesc": "a Human blocker",
+            "LongDesc": "A Warriors' blocker is trying to pave an open pathway.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is the slowest (both physically AND mentally) of the bloodbowl\r\r\r\r\r\n\rplayers.  However, he is also very large and powerful, so be careful\r\r\r\r\r\n\rwhen tangling with him.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 700,
+            "Level": 18,
+            "THAC0": 15,
+            "AC": -2,
+            "HP": "10d6+388",
+            "Damage": "3d5+0",
+            "Gold": 300,
+            "XP": 26250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21033,
+            "Aliases": [
+                "orc",
+                "thrower",
+                "passer",
+                "throw",
+                "raider"
+            ],
+            "ShortDesc": "an Orc thrower",
+            "LongDesc": "A Raiders' thrower, attempting a pass.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Similar to a quarterback, this is a player with both mobility and a\r\r\r\r\r\n\rcannon for an arm.  He can also hold his own when hitting with the\r\r\r\r\r\n\rbig boys.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -700,
+            "Level": 15,
+            "THAC0": 12,
+            "AC": 1,
+            "HP": "10d6+305",
+            "Damage": "2d6+1",
+            "Gold": 500,
+            "XP": 18750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21034,
+            "Aliases": [
+                "human",
+                "thrower",
+                "passer",
+                "throw",
+                "warrior"
+            ],
+            "ShortDesc": "a Human thrower",
+            "LongDesc": "A Warriors' thrower, attempting a pass.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Similar to a quarterback, this is a player with both mobility and a\r\r\r\r\r\n\rcannon for an arm.  He can also hold his own when hitting with the\r\r\r\r\r\n\rbig boys.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 700,
+            "Level": 15,
+            "THAC0": 12,
+            "AC": 1,
+            "HP": "10d6+305",
+            "Damage": "2d6+1",
+            "Gold": 500,
+            "XP": 18750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21035,
+            "Aliases": [
+                "orc",
+                "blitz",
+                "blitzer",
+                "raider"
+            ],
+            "ShortDesc": "an Orc blitzer",
+            "LongDesc": "A fierce Raiders' blitzer, waiting to tear someone limb from limb.\r\r\r\r\r\n\r",
+            "DetailedDesc": "An all-around fearsome athlete, the blitzer is the toughest most\r\r\r\r\r\n\raggressive player on the bloodbowl field.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": -800,
+            "Level": 21,
+            "THAC0": 15,
+            "AC": -2,
+            "HP": "5d4+525",
+            "Damage": "2d8+2",
+            "Gold": 600,
+            "XP": 33750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21036,
+            "Aliases": [
+                "human",
+                "blitz",
+                "blitzer",
+                "warrior"
+            ],
+            "ShortDesc": "a human blitzer",
+            "LongDesc": "A fierce Warriors' blitzer, waiting to tear someone limb from limb.\r\r\r\r\r\n\r",
+            "DetailedDesc": "An all-around fearsome athlete, the blitzer is the toughest most\r\r\r\r\r\n\raggressive player on the bloodbowl field.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 19,
+            "THAC0": 15,
+            "AC": -2,
+            "HP": "5d5+525",
+            "Damage": "2d8+2",
+            "Gold": 600,
+            "XP": 28750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21037,
+            "Aliases": [
+                "spectator",
+                "loyal",
+                "fan"
+            ],
+            "ShortDesc": "a loyal fan",
+            "LongDesc": "A loyal fan is here enjoying the game.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Your average sports fan, who attends a game now and then.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "5d1+110",
+            "Damage": "1d7+0",
+            "Gold": 20,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21038,
+            "Aliases": [
+                "child",
+                "kid"
+            ],
+            "ShortDesc": "an innocent child",
+            "LongDesc": "A child is here, wandering around.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Awww, how cute!!!\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 2,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "5d5+26",
+            "Damage": "1d5+0",
+            "Gold": 5,
+            "XP": 250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21039,
+            "Aliases": [
+                "vendor",
+                "salesman"
+            ],
+            "ShortDesc": "a vendor",
+            "LongDesc": "A vendor is here peddling his goods.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A merchant with a variety of goods, with nothing you particularly need.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 700,
+            "Level": 12,
+            "THAC0": 10,
+            "AC": 5,
+            "HP": "5d5+138",
+            "Damage": "8d2+0",
+            "Gold": 75,
+            "XP": 11250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21040,
+            "Aliases": [
+                "construction",
+                "worker"
+            ],
+            "ShortDesc": "a construction worker",
+            "LongDesc": "A construction worker is here on his break.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A strong, dirty, harsh-talking construction worker.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 8,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "5d8+193",
+            "Damage": "1d8+1",
+            "Gold": 100,
+            "XP": 4250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21041,
+            "Aliases": [
+                "rowdy",
+                "fan",
+                "drunk"
+            ],
+            "ShortDesc": "a drunk, rowdy fan",
+            "LongDesc": "A drunk, rowdy fan is here, making an ass of himself.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Sit down, sit down, sit down, sit down--sit down you're rocking\r\r\r\r\r\n\rthe boat.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -400,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "5d5+138",
+            "Damage": "1d8+0",
+            "Gold": 65,
+            "XP": 1250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21042,
+            "Aliases": [
+                "security",
+                "guard"
+            ],
+            "ShortDesc": "a Security Guard",
+            "LongDesc": "A Security Guard is here, attempting to maintain order.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Not as efficient as a police officer, but then not as expensive either.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 15,
+            "THAC0": 7,
+            "AC": 3,
+            "HP": "8d5+420",
+            "Damage": "3d5+2",
+            "Gold": 400,
+            "XP": 18750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21044,
+            "Aliases": [
+                "fire",
+                "marshall",
+                "bob"
+            ],
+            "ShortDesc": "Fire Marshall Bob",
+            "LongDesc": "Fire Marshall Bob is busy trying to extinguish the fire that is on his back.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is one poor excuse for a Fire Marshall.  He's obviously started more \r\r\r\r\r\n\rfires in his day than he's actually extinguished.  Just another sad example \r\r\r\r\r\n\rof nepotism in today's world!\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": 350,
+            "Level": 19,
+            "THAC0": 14,
+            "AC": 1,
+            "HP": "5d6+513",
+            "Damage": "2d8+2",
+            "Gold": 1000,
+            "XP": 28750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21045,
+            "Aliases": [
+                "fireman",
+                "fire",
+                "man"
+            ],
+            "ShortDesc": "a fireman",
+            "LongDesc": "A fireman is here, looking rather useless.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Well, the less skilled relatives of the Sparta executives needed a job \r\r\r\r\r\n\rsomewhere, so they wound up here.  Obviously, its a very cushy job because\r\r\r\r\r\n\rthere are no real fires in New Sparta.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 500,
+            "Level": 11,
+            "THAC0": 6,
+            "AC": 4,
+            "HP": "1d6+246",
+            "Damage": "2d4+3",
+            "Gold": 100,
+            "XP": 8750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21046,
+            "Aliases": [
+                "whore",
+                "slut",
+                "bitch",
+                "hooker"
+            ],
+            "ShortDesc": "a whore",
+            "LongDesc": "A whore is looking for customers.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The only good attribute of this beast is her low prices, which would explain\r\r\r\r\r\n\rwhy she is always busy with punks and skinheads.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -400,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "5d6+133",
+            "Damage": "1d8+0",
+            "Gold": 100,
+            "XP": 1250,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21047,
+            "Aliases": [
+                "minor",
+                "cutthroat",
+                "seeker",
+                "throat"
+            ],
+            "ShortDesc": "a minor throat",
+            "LongDesc": "A minor throat is busy doing homework.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is one of the weakest of the evil inhabitants of the library.  They \r\r\r\r\r\n\rwill do anything for a good grade or to keep a good man down.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 9,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "5d6+196",
+            "Damage": "1d8+1",
+            "Gold": 100,
+            "XP": 5250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21048,
+            "Aliases": [
+                "throat",
+                "cut",
+                "cutthroat"
+            ],
+            "ShortDesc": "a throat",
+            "LongDesc": "A throat is here, looking for someone's notes to steal.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is one of the most populated species of the library.  They're really \r\r\r\r\r\n\rdesperate for a good grade.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 13,
+            "THAC0": 8,
+            "AC": 3,
+            "HP": "5d6+305",
+            "Damage": "2d5+1",
+            "Gold": 400,
+            "XP": 13750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21049,
+            "Aliases": [
+                "major",
+                "throat",
+                "cut",
+                "cutthroat"
+            ],
+            "ShortDesc": "a major throat",
+            "LongDesc": "A major throat is busy hiding all the science reference books.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a barely human creature that has absolutely no morals or sense of\r\r\r\r\r\n\rdignity.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 17,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "5d6+410",
+            "Damage": "2d7+1",
+            "Gold": 1000,
+            "XP": 23750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21050,
+            "Aliases": [
+                "senior",
+                "throat",
+                "cutthroat"
+            ],
+            "ShortDesc": "a senior throat",
+            "LongDesc": "A senior throat is burning all the useful books.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a devilish looking creature that would gladly sell its' sister into \r\r\r\r\r\n\rslavery for a good grade.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 21,
+            "THAC0": 14,
+            "AC": 1,
+            "HP": "5d6+510",
+            "Damage": "2d8+2",
+            "Gold": 2000,
+            "XP": 33750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21051,
+            "Aliases": [
+                "master",
+                "throat",
+                "masterthroat"
+            ],
+            "ShortDesc": "the master throat",
+            "LongDesc": "The master throat is here, trying to break into the school records.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The master throat is the devilish and desperate creature that lacks any\r\r\r\r\r\n\rmorals or self dignity.  Watch out, its' eyeing your stuff right now!\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 31,
+            "THAC0": 20,
+            "AC": -1,
+            "HP": "26d10+693",
+            "Damage": "3d7+4",
+            "Gold": 15000,
+            "XP": 58750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21052,
+            "Aliases": [
+                "cheerleader",
+                "cheer",
+                "leader",
+                "lead"
+            ],
+            "ShortDesc": "a cheerleader",
+            "LongDesc": "A cheerleader is here rooting on the home team.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Wow!  Don't you wish there were more girls like these around?  Almost \r\r\r\r\r\n\rnothing rivals the beauty of the cheerleaders, unfortunately their looks\r\r\r\r\r\n\rare not always matched by their brains (unfortunately for them, but lucky\r\r\r\r\r\n\rfor YOU!!), though you are positive you could forget about that fact\r\r\r\r\r\n\rfor just a few hours.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "8d5+55",
+            "Damage": "1d6+0",
+            "Gold": 25,
+            "XP": 750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21053,
+            "Aliases": [
+                "head",
+                "cheerleader",
+                "cheer",
+                "lead",
+                "ilsa"
+            ],
+            "ShortDesc": "Ilsa the Head Cheerleader",
+            "LongDesc": "Ilsa the Head Cheerleader is here, looking totally gorgeous!\r\r\r\r\r\n\r",
+            "DetailedDesc": "You gaze at this beauty with long, flowing blonde hair, an angelic,\r\r\r\r\r\n\rcalming face, firm, ample..... and a body that just screams......!\r\r\r\r\r\n\rYou snap out of your daydream and notice that she is frowning at you,\r\r\r\r\r\n\ras she does not appreciate people undressing her with their eyes.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 13,
+            "THAC0": 9,
+            "AC": 2,
+            "HP": "1d1+371",
+            "Damage": "2d6+1",
+            "Gold": 100,
+            "XP": 13750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21054,
+            "Aliases": [
+                "chief",
+                "o'hara",
+                "hara"
+            ],
+            "ShortDesc": "Chief O'Hara",
+            "LongDesc": "Chief O'Hara is sitting behind his desk. Looks like he's finally gotten a clue.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Chief is a longtime law enforcement agent who has become overweight\r\r\r\r\r\n\rfrom years of eating donuts.  He is a jolly Irishman, who for the first\r\r\r\r\r\n\rtime will have to do his job without the services of Batman.  Unfortunately\r\r\r\r\r\n\rfor you, he actually looks up to the job now!\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 65,
+            "THAC0": 20,
+            "AC": -6,
+            "HP": "1d12+1416",
+            "Damage": "1d8+12",
+            "Gold": 0,
+            "XP": 143750,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21055,
+            "Aliases": [
+                "warden"
+            ],
+            "ShortDesc": "the Warden",
+            "LongDesc": "The Warden is here guarding the jail.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A staunch proponent of the death penalty, and the keeper of the jail key.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 15,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "8d5+416",
+            "Damage": "2d7+1",
+            "Gold": 0,
+            "XP": 18750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21056,
+            "Aliases": [
+                "maid"
+            ],
+            "ShortDesc": "a maid",
+            "LongDesc": "A maid is here cleaning up after the guests.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The maid is a lady weary from constant upkeep of the hotel who views most of \r\r\r\r\r\n\rmankind as slobs.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "5d6+26",
+            "Damage": "1d5+0",
+            "Gold": 34,
+            "XP": 220,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21057,
+            "Aliases": [
+                "esprit"
+            ],
+            "ShortDesc": "Esprit",
+            "LongDesc": "Esprit is behind bars, where he belongs.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The law finally caught up to this character killer, who is serving\r\r\r\r\r\n\ran indefinite sentence.  May this be a lesson to you all.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS"
+            ],
+            "Alignment": -1000,
+            "Level": 16,
+            "THAC0": 11,
+            "AC": 1,
+            "HP": "1d1+388",
+            "Damage": "2d6+1",
+            "Gold": 0,
+            "XP": 21250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21058,
+            "Aliases": [
+                "cashier",
+                "clerk"
+            ],
+            "ShortDesc": "a Cashier",
+            "LongDesc": "A cashier is busy filing her nails.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a student working at her part-time job.  She really would rather\r\r\r\r\r\n\rbe somewhere else, but needs the money for tuition.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 27,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "6d9+1083",
+            "Damage": "3d8+8",
+            "Gold": 2000,
+            "XP": 48750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21059,
+            "Aliases": [
+                "cop"
+            ],
+            "ShortDesc": "the Cop",
+            "LongDesc": "The Cop is sitting here eating donuts.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You can see that this guy does not concentrate very much on his job and tends \r\r\r\r\r\n\rto look the other way.  He seems to be more interested in filling his belly \r\r\r\r\r\n\rwith donuts than in protecting the city.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 10,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "1d8+180",
+            "Damage": "1d7+3",
+            "Gold": 200,
+            "XP": 6250,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21060,
+            "Aliases": [
+                "cop"
+            ],
+            "ShortDesc": "the Cop",
+            "LongDesc": "The Cop is sitting here having a drink.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You can see that this guy does not concentrate very much on his job and tends \r\r\r\r\r\n\rto look the other way.  He seems to be more interested in filling his belly \r\r\r\r\r\n\rwith beer than in protecting the city.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 10,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "1d8+180",
+            "Damage": "1d7+3",
+            "Gold": 200,
+            "XP": 6250,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21061,
+            "Aliases": [
+                "nerd",
+                "comic",
+                "dude",
+                "conventioneer"
+            ],
+            "ShortDesc": "a New SpartaCON conventioneer",
+            "LongDesc": "A New SpartaCON conventioneer stands here drooling.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a nerd like comic dude with gressy hair and sweat stains under his arms\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -350,
+            "Level": 8,
+            "THAC0": 15,
+            "AC": 6,
+            "HP": "5d6+133",
+            "Damage": "1d8+0",
+            "Gold": 100,
+            "XP": 4250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21062,
+            "Aliases": [
+                "fisherman"
+            ],
+            "ShortDesc": "a fisherman",
+            "LongDesc": "A fisherman is waiting to serve you.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This guy's been around fish so long that he's beginning to look and smell\r\r\r\r\r\n\rlike one.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 24,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "7d10+700",
+            "Damage": "4d7+4",
+            "Gold": 2000,
+            "XP": 41250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21063,
+            "Aliases": [
+                "arms",
+                "dealer"
+            ],
+            "ShortDesc": "an arms dealer",
+            "LongDesc": "An arms dealer is cleaning his guns.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Like most arms dealers, he's got greased back hair and a slimy mustache.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 350,
+            "Level": 81,
+            "THAC0": 40,
+            "AC": -10,
+            "HP": "10d10+10000",
+            "Damage": "1d8+50",
+            "Gold": 10000,
+            "XP": 183750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21064,
+            "Aliases": [
+                "raghuram",
+                "manager"
+            ],
+            "ShortDesc": "Raghuram the 7-11 Manager",
+            "LongDesc": "Raghuram the 7-11 Manager is here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Like most 7-11 managers, Raghuram is Indian, and speaks with a near \r\r\r\r\r\n\rincomprehensible accent.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 23,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "1d8+800",
+            "Damage": "3d8+3",
+            "Gold": 10000,
+            "XP": 38750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21065,
+            "Aliases": [
+                "launchpad",
+                "launch",
+                "pad",
+                "duck",
+                "mcquack"
+            ],
+            "ShortDesc": "Launchpad McQuack",
+            "LongDesc": "Launchpad McQuack is here following Darkwing.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a tall humanoid duck who is quite confused and very dim-witted, but\r\r\r\r\r\n\rdefinitely no duck to f*ck with.\r\r\r\r\r\n\r\r\r\r\r\r\n\r\u003e\r\r\r\r\r\n\rYou instinctively retch in reaction to looking at this horrible thing!\r\r\r\r\r\n\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 39,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "1d1+968",
+            "Damage": "2d12+10",
+            "Gold": 0,
+            "XP": 78750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21066,
+            "Aliases": [
+                "bimbo",
+                "bleached",
+                "blonde"
+            ],
+            "ShortDesc": "a bleached blonde bimbo",
+            "LongDesc": "A bleached blonde bimbo is bouncing around.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You can almost feel the intelligence and wisdom points being reduced as you\r\r\r\r\r\n\rfeel the blood rush from your head to another part of your anatomy.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 6,
+            "THAC0": 12,
+            "AC": 10,
+            "HP": "1d12+150",
+            "Damage": "2d3+0",
+            "Gold": 0,
+            "XP": 2250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21067,
+            "Aliases": [
+                "stripper"
+            ],
+            "ShortDesc": "a stripper",
+            "LongDesc": "A stripper is here, undressing for your entertainment.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Wow, you have never seen such big h00ters before in your life, it really makes\r\r\r\r\r\n\ryou believe that there is a God! (and he likes big butts too ;)\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 5,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "1d12+133",
+            "Damage": "2d4+0",
+            "Gold": 0,
+            "XP": 1250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21068,
+            "Aliases": [
+                "sorcerer"
+            ],
+            "ShortDesc": "the Sorcerer",
+            "LongDesc": "A sorcerer is guarding the entrance.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is an experienced mage who has specialized in the field of Combat Magic.\r\r\r\r\r\n\rHe is here to guard the Mage's Guild and his superior knowledge of offensive as\r\r\r\r\r\n\rwell as defensive spells make him a deadly opponent.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 60,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "16d10+2950",
+            "Damage": "2d9+7",
+            "Gold": 2000,
+            "XP": 43750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21069,
+            "Aliases": [
+                "knight",
+                "templar"
+            ],
+            "ShortDesc": "the Knight Templar",
+            "LongDesc": "A knight templar is guarding the entrance.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is a specially trained warrior belonging to the military order of the Faith.\r\r\r\r\r\n\rHis duty is to protect the faithful from persecution and infidel attacks and\r\r\r\r\r\n\rhis religious devotion combined with his superior skill makes him a deadly\r\r\r\r\r\n\ropponent.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 45,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "16d10+1900",
+            "Damage": "3d8+7",
+            "Gold": 2000,
+            "XP": 298200,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21070,
+            "Aliases": [
+                "assassin"
+            ],
+            "ShortDesc": "the Assassin",
+            "LongDesc": "An assassin is guarding the entrance.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is a thief who has specialized in killing others as effectively as possible,\r\r\r\r\r\n\rusing all sorts of weapons.  His superior knowledge of how and where to use\r\r\r\r\r\n\rthem combined with his extraordinary stealth makes him a deadly opponent.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 36,
+            "THAC0": 16,
+            "AC": 4,
+            "HP": "1d1+1499",
+            "Damage": "4d9+5",
+            "Gold": 2000,
+            "XP": 112500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21071,
+            "Aliases": [
+                "knight"
+            ],
+            "ShortDesc": "the Knight",
+            "LongDesc": "A knight is guarding the entrance.\r\r\r\r\r\n\r",
+            "DetailedDesc": "He is an expert warrior who has attained knighthood through countless\r\r\r\r\r\n\rchivalrous deeds.  His duty is to protect the Guild of Swordsmen and his\r\r\r\r\r\n\rextreme skill combined with his experience in warfare makes him a deadly\r\r\r\r\r\n\ropponent.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 800,
+            "Level": 52,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "16d10+2990",
+            "Damage": "4d10+10",
+            "Gold": 2000,
+            "XP": 230850,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21072,
+            "Aliases": [
+                "guildmaster",
+                "master"
+            ],
+            "ShortDesc": "the Guildmaster",
+            "LongDesc": "Your guildmaster is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Even though your guildmaster looks old and tired, you can clearly see the\r\r\r\r\r\n\rvast amount of knowledge she possesses.  She is wearing fine magic clothing,\r\r\r\r\r\n\rand you notice that she is surrounded by a blue shimmering aura.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 119,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "1d1+10000",
+            "Damage": "1d8+50",
+            "Gold": 8794,
+            "XP": 750075,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21073,
+            "Aliases": [
+                "guildmaster",
+                "master"
+            ],
+            "ShortDesc": "the Guildmaster",
+            "LongDesc": "Your guildmaster is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You are in no doubt that this guildmaster is truly close to your god; he has\r\r\r\r\r\n\ra peaceful, loving look.  You notice that he is surrounded by a white aura.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "1d1+10000",
+            "Damage": "1d8+50",
+            "Gold": 8794,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21074,
+            "Aliases": [
+                "guildmaster",
+                "master"
+            ],
+            "ShortDesc": "the Guildmaster",
+            "LongDesc": "Your guildmaster is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You realize that whenever your guildmaster moves, you fail to notice it -\r\r\r\r\r\n\rthe way of the true thief.  She is to be dressed in poor clothing, having\r\r\r\r\r\n\rthe appearance of a beggar.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 119,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "1d1+10000",
+            "Damage": "1d8+50",
+            "Gold": 8794,
+            "XP": 750075,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21075,
+            "Aliases": [
+                "guildmaster",
+                "master"
+            ],
+            "ShortDesc": "the Guildmaster",
+            "LongDesc": "Your guildmaster is standing here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This is your master. Big and strong with bulging muscles. Several scars\r\r\r\r\r\n\racross his body proves that he was using arms before you were born. He\r\r\r\r\r\n\rhas a calm look on his face.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 119,
+            "THAC0": 50,
+            "AC": 0,
+            "HP": "1d1+10000",
+            "Damage": "1d8+50",
+            "Gold": 8794,
+            "XP": 750075,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21076,
+            "Aliases": [
+                "captain"
+            ],
+            "ShortDesc": "the Captain",
+            "LongDesc": "A retired Captain stands here, selling boats.\r\r\r\r\r\n\r",
+            "DetailedDesc": "This Captain has eaten more sharks than you have killed peas.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 127,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "16d10+30000",
+            "Damage": "2d8+12",
+            "Gold": 2000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21077,
+            "Aliases": [
+                "armorer"
+            ],
+            "ShortDesc": "the Armorer",
+            "LongDesc": "An Armorer stands here displaying his shiny new (and previously owned) armors.\r\r\r\r\r\n\r",
+            "DetailedDesc": "An old but very strong armorer.  He has made more armors in his life than you\r\r\r\r\r\n\rhave ever seen.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 127,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "16d10+30000",
+            "Damage": "2d8+12",
+            "Gold": 2000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21078,
+            "Aliases": [
+                "receptionist"
+            ],
+            "ShortDesc": "the Receptionist",
+            "LongDesc": "A receptionist stands in front of you, looking at you like you were the\r\r\r\r\r\n\rcenter of the universe.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You notice a tired look in her face.  She looks like she isn't paid well\r\r\r\r\r\n\renough to put up with any crap from mud players with attitudes.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 127,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "16d10+30000",
+            "Damage": "2d8+12",
+            "Gold": 2000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 21079,
+            "Aliases": [
+                "waiter"
+            ],
+            "ShortDesc": "the Waiter",
+            "LongDesc": "A waiter is going around from one place to another.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A tired looking waiter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 25,
+            "THAC0": 18,
+            "AC": 2,
+            "HP": "8d10+700",
+            "Damage": "4d8+7",
+            "Gold": 2000,
+            "XP": 55800,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21080,
+            "Aliases": [
+                "waiter"
+            ],
+            "ShortDesc": "the Waiter",
+            "LongDesc": "A man who in his young days was a famous sorcerer but now leads a quiet,\r\r\r\r\r\n\rpeaceful life as a waiter.\r\r\r\r\r\n\r",
+            "DetailedDesc": "(null)",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 35,
+            "THAC0": 19,
+            "AC": 2,
+            "HP": "16d10+1083",
+            "Damage": "1d8+12",
+            "Gold": 2000,
+            "XP": 87825,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21081,
+            "Aliases": [
+                "waiter"
+            ],
+            "ShortDesc": "the Waiter",
+            "LongDesc": "A waiter who seems to have reach contact with God.\r\r\r\r\r\n\r",
+            "DetailedDesc": "(null)",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 35,
+            "THAC0": 19,
+            "AC": 2,
+            "HP": "16d10+1083",
+            "Damage": "1d8+12",
+            "Gold": 2000,
+            "XP": 87825,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21082,
+            "Aliases": [
+                "waiter"
+            ],
+            "ShortDesc": "the Waiter",
+            "LongDesc": "A waiter who knows where all his costumers has their money.\r\r\r\r\r\n\r",
+            "DetailedDesc": "(null)",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 35,
+            "THAC0": 19,
+            "AC": 2,
+            "HP": "16d10+1083",
+            "Damage": "1d8+12",
+            "Gold": 2000,
+            "XP": 87825,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21083,
+            "Aliases": [
+                "waiter"
+            ],
+            "ShortDesc": "the Waiter",
+            "LongDesc": "A waiter is here who looks like he could easily kill you while still carrying\r\r\r\r\r\n\rquite a few firebreathers.\r\r\r\r\r\n\r",
+            "DetailedDesc": "(null)",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 35,
+            "THAC0": 19,
+            "AC": 2,
+            "HP": "16d10+1083",
+            "Damage": "1d8+12",
+            "Gold": 2000,
+            "XP": 87825,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21084,
+            "Aliases": [
+                "janitor"
+            ],
+            "ShortDesc": "the Janitor",
+            "LongDesc": "A janitor is walking around, cleaning up.\r\r\r\r\r\n\r",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 900,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "5d6+26",
+            "Damage": "1d5+0",
+            "Gold": 34,
+            "XP": 245,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21085,
+            "Aliases": [
+                "fido",
+                "dog"
+            ],
+            "ShortDesc": "the Beastly Fido",
+            "LongDesc": "Beastly Fido is here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "Fido is a small dog that has a foul smell and pieces of rotted meat hanging\r\r\r\r\r\n\raround his teeth.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d6+10",
+            "Damage": "1d4+0",
+            "Gold": 10,
+            "XP": 155,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21086,
+            "Aliases": [
+                "drunk"
+            ],
+            "ShortDesc": "the Drunk",
+            "LongDesc": "A singing, happy Drunk.\r\r\r\r\r\n\r",
+            "DetailedDesc": "A drunk who seems to be too happy, and to carry too much money.\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "5d6+60",
+            "Damage": "1d6+0",
+            "Gold": 85,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 21087,
+            "Aliases": [
+                "kitten"
+            ],
+            "ShortDesc": "the Kitten",
+            "LongDesc": "A small loyal Kitten is here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Kitten looks like a cute, little, fierce fighter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "1d6+30",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 245,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21088,
+            "Aliases": [
+                "puppy"
+            ],
+            "ShortDesc": "the Puppy",
+            "LongDesc": "A small loyal Puppy is here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Puppy looks like a cute, little, fierce fighter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "1d6+30",
+            "Damage": "1d4+0",
+            "Gold": 0,
+            "XP": 240,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21089,
+            "Aliases": [
+                "beagle"
+            ],
+            "ShortDesc": "the Beagle",
+            "LongDesc": "A small, quick, loyal Beagle is here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Beagle looks like a fierce fighter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 3,
+            "THAC0": 1,
+            "AC": 8,
+            "HP": "1d12+60",
+            "Damage": "1d6+0",
+            "Gold": 0,
+            "XP": 750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21090,
+            "Aliases": [
+                "rottweiler"
+            ],
+            "ShortDesc": "the Rottweiler",
+            "LongDesc": "A large, loyal Rottweiler is here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Rottweiler looks like a strong, fierce fighter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 400,
+            "Level": 4,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "1d12+96",
+            "Damage": "1d7+0",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21091,
+            "Aliases": [
+                "wolf"
+            ],
+            "ShortDesc": "the Wolf",
+            "LongDesc": "A large, trained Wolf is here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "The Wolf looks like a strong, fearless fighter.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "1d12+130",
+            "Damage": "1d8+0",
+            "Gold": 0,
+            "XP": 2250,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 21099,
+            "Aliases": [
+                "fat",
+                "overweight",
+                "slob",
+                "nerd",
+                "geek",
+                "nolifer",
+                "lardass",
+                "comic",
+                "dealer",
+                "dude",
+                "guy",
+                "man"
+            ],
+            "ShortDesc": "the dealer",
+            "LongDesc": "A dealer with no life is here.\r\r\r\r\r\n\r",
+            "DetailedDesc": "You see a to be frank...fat overweight slob nerd geek lardass comic dealer,\r\r\r\r\r\n\rwho wants your comic collection and to score for once in his life.\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 349,
+            "Level": 43,
+            "THAC0": 38,
+            "AC": 2,
+            "HP": "1d100+1845",
+            "Damage": "7d3+14",
+            "Gold": 1000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

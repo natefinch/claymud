@@ -1,0 +1,955 @@
+{
+    "mobs": [
+        {
+            "Number": 9000,
+            "Aliases": [
+                "old",
+                "withered",
+                "man"
+            ],
+            "ShortDesc": "an old withered man",
+            "LongDesc": "An old withered man crouches here, warning you to turn back!\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A crazed old man peers at you, wondering what you're thinking.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 6,
+            "THAC0": 3,
+            "AC": 2,
+            "HP": "10d7+30",
+            "Damage": "8d2+2",
+            "Gold": 500,
+            "XP": 3000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9001,
+            "Aliases": [
+                "grey",
+                "goblin",
+                "wandering"
+            ],
+            "ShortDesc": "a wandering goblin",
+            "LongDesc": "A wandering grey-skinned goblin snarls at your presence.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A pale grey face snarls at you angerly. Although much shorter than you,\r\r\r\r\r\r\n\rthis goblin looks like a fierce fighter.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "MEMORY",
+                "HELPER",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "SNEAK"
+            ],
+            "Alignment": -650,
+            "Level": 17,
+            "THAC0": 11,
+            "AC": 0,
+            "HP": "30d10+163",
+            "Damage": "2d6+8",
+            "Gold": 3500,
+            "XP": 12000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9002,
+            "Aliases": [
+                "ogre",
+                "guard"
+            ],
+            "ShortDesc": "a large ogre guard",
+            "LongDesc": "A large ogre guard keeps watch over the jail.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": " Faithful, yet stupid, this ogre looks as though he could crush you in\r\r\r\r\r\r\n\ra few, half-hearted swings at your frail human body. From the size of\r\r\r\r\r\r\n\rthe club he's wielding you know you'd be in for a fight.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 26,
+            "THAC0": 22,
+            "AC": -3,
+            "HP": "25d20+133",
+            "Damage": "6d3+13",
+            "Gold": 11520,
+            "XP": 55350,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9003,
+            "Aliases": [
+                "green",
+                "slime"
+            ],
+            "ShortDesc": "a green slime",
+            "LongDesc": "A disgusting green slime drops down from above!\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A reaking mass of gelatin oozes towards you, dissolving everything in its\r\r\r\r\r\r\n\rpath! Small particles of half-digested wood, leather and rusted metal\r\r\r\r\r\r\n\rare visible in its ever-changing mass.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "HELPER"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 24,
+            "THAC0": 19,
+            "AC": -16,
+            "HP": "20d20+480",
+            "Damage": "5d2+10",
+            "Gold": 9631,
+            "XP": 58200,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9004,
+            "Aliases": [
+                "small",
+                "undead",
+                "beholder"
+            ],
+            "ShortDesc": "a small, undead beholder",
+            "LongDesc": "A small, undead beholder floats here guarding the area.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A large, disfigured eye centered in a brown, scaly head stares back at\r\r\r\r\r\r\n\ryou in a magical silence. On top of its head are many small stalks, each\r\r\r\r\r\r\n\rhosting a smaller eye. Even at a distance, you feel the magic radiating\r\r\r\r\r\r\n\rfrom this creature numbing your skin.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_GOOD",
+                "AGGR_NEUTRAL",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -353,
+            "Level": 39,
+            "THAC0": 19,
+            "AC": -7,
+            "HP": "40d20+555",
+            "Damage": "2d15+5",
+            "Gold": 8320,
+            "XP": 86735,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9005,
+            "Aliases": [
+                "drawl",
+                "ogre",
+                "jailer"
+            ],
+            "ShortDesc": "a large ogre jailer",
+            "LongDesc": "Drawl, the ogre jailer, bellows something incomprehensible and attacks!\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Drawl is definately the biggest ogre you've seen in your sheltered life.\r\r\r\r\r\r\n\rStanding well over seven feet tall, he excels in crushing things, namely\r\r\r\r\r\r\n\rintruders like YOU!\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "INFRAVISION",
+                "UNUSED16"
+            ],
+            "Alignment": -1000,
+            "Level": 29,
+            "THAC0": 22,
+            "AC": -4,
+            "HP": "35d35+180",
+            "Damage": "4d5+13",
+            "Gold": 28523,
+            "XP": 92620,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9006,
+            "Aliases": [
+                "water",
+                "weird"
+            ],
+            "ShortDesc": "the Water Weird",
+            "LongDesc": "Rising from its watery abode, a water weird moves towards you to attack!\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Somehow the water has formed a snakelike creature, held together by\r\r\r\r\r\r\n\ra strong magical force.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -351,
+            "Level": 25,
+            "THAC0": 16,
+            "AC": -1,
+            "HP": "20d13+255",
+            "Damage": "2d6+6",
+            "Gold": 8000,
+            "XP": 23350,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9007,
+            "Aliases": [
+                "small",
+                "stone",
+                "gargoyle"
+            ],
+            "ShortDesc": "a small, stone gargoyle",
+            "LongDesc": "A small, stone gargoyle scowls at you with glowing eyes.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Crouched before you and completely motionless except for its eyes, sits\r\r\r\r\r\r\n\ra stone creature with a doglike face curled in an intimidating snarl.\r\r\r\r\r\r\n\rYou can't help but notice what big, sharp claws it has.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -200,
+            "Level": 34,
+            "THAC0": 20,
+            "AC": -14,
+            "HP": "30d5+320",
+            "Damage": "4d3+13",
+            "Gold": 10000,
+            "XP": 66300,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9008,
+            "Aliases": [
+                "nasty",
+                "vampire",
+                "bat"
+            ],
+            "ShortDesc": "a nasty vampire bat",
+            "LongDesc": "A nasty vampire bat hangs from the ceiling, lusting for your blood.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The dark, winged creature squeaks as it senses your warm blood nearby.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "UNUSED16",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 18,
+            "THAC0": 8,
+            "AC": -1,
+            "HP": "15d12+60",
+            "Damage": "4d4+5",
+            "Gold": 0,
+            "XP": 8531,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9009,
+            "Aliases": [
+                "statue",
+                "living"
+            ],
+            "ShortDesc": "a living statue",
+            "LongDesc": "A living stone statue is here on its pedistal, oblivious to your presence.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A figure of an Arabian man poses before you, frozen in stone. He wields\r\r\r\r\r\r\n\ra crystal sword and is clothed in rich clothes with a brooch on his\r\r\r\r\r\r\n\rleft breast.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 39,
+            "THAC0": 19,
+            "AC": -12,
+            "HP": "30d40+333",
+            "Damage": "2d6+15",
+            "Gold": 62225,
+            "XP": 98950,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9010,
+            "Aliases": [
+                "large",
+                "dire",
+                "wolf"
+            ],
+            "ShortDesc": "a large dire wolf",
+            "LongDesc": "A large dire wolf slowly circles you, waiting to strike.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A furry creature, three times the size of a normal wolf, barks at you\r\r\r\r\r\r\n\rin hatred!\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "SNEAK"
+            ],
+            "Alignment": -100,
+            "Level": 22,
+            "THAC0": 17,
+            "AC": 4,
+            "HP": "15d5+200",
+            "Damage": "5d2+10",
+            "Gold": 500,
+            "XP": 28225,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9011,
+            "Aliases": [
+                "vicious",
+                "black",
+                "snake"
+            ],
+            "ShortDesc": "a vicious black snake",
+            "LongDesc": "A vicious black snake slithers from a hole in the wall looking for its dinner!\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "The snake's black scales glisten as the rays of your torchlight hit them.\r\r\r\r\r\r\n\rUpon a little closer inspection you see a small red mark on its head...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -250,
+            "Level": 15,
+            "THAC0": 15,
+            "AC": -2,
+            "HP": "15d9+55",
+            "Damage": "8d2+2",
+            "Gold": 1,
+            "XP": 9000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9012,
+            "Aliases": [
+                "prisoner",
+                "ghastly",
+                "white"
+            ],
+            "ShortDesc": "a ghastly white prisoner",
+            "LongDesc": "A ghastly white prisoner stares blankly at you.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This poor, weak human has been tortured and beaten over time. She may\r\r\r\r\r\r\n\rhave been used as a slave here, but is too shocked to speak.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 650,
+            "Level": 11,
+            "THAC0": 4,
+            "AC": 4,
+            "HP": "11d5+30",
+            "Damage": "1d2+3",
+            "Gold": 1,
+            "XP": 3540,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 9013,
+            "Aliases": [
+                "skeleton",
+                "warrior"
+            ],
+            "ShortDesc": "an undead skeleton warrior",
+            "LongDesc": "An undead skeleton warrior, clad in metal plate armor, clatters towards you.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A red glow comes from within the eye sockets of this undead creature. As\r\r\r\r\r\r\n\rit walks towards you, its bones clatter and start you thinking about\r\r\r\r\r\r\n\ryour near future.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 19,
+            "THAC0": 18,
+            "AC": -4,
+            "HP": "20d10+220",
+            "Damage": "4d2+8",
+            "Gold": 3000,
+            "XP": 37520,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9014,
+            "Aliases": [
+                "spear",
+                "sharp"
+            ],
+            "ShortDesc": "a sharp spear",
+            "LongDesc": "A sharp spear is being thrust at your head!\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "You feel stupid staring at a sharp spear and can't seem to decide\r\r\r\r\r\r\n\rweather or not to let it pierce you.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "INFRAVISION",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 28,
+            "THAC0": 25,
+            "AC": -8,
+            "HP": "4d6+80",
+            "Damage": "2d24+15",
+            "Gold": 0,
+            "XP": 13308,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9019,
+            "Aliases": [
+                "baby",
+                "dire",
+                "wolf"
+            ],
+            "ShortDesc": "a baby dire wolf",
+            "LongDesc": "A baby dire wolf bears its teeth and pounces on you.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A young wolf doesn't look too elated to see you.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": -103,
+            "Level": 11,
+            "THAC0": 6,
+            "AC": 2,
+            "HP": "10d10+50",
+            "Damage": "6d2+7",
+            "Gold": 325,
+            "XP": 13225,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9020,
+            "Aliases": [
+                "flesh",
+                "hound"
+            ],
+            "ShortDesc": "a flesh hound",
+            "LongDesc": "A huge hound of a dull grey color circles around you.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This large dog reaks of rotted meat. His large fangcanonine teeth don't look\r\r\r\r\r\r\n\rtoo inviting either...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION",
+                "SNEAK"
+            ],
+            "Alignment": -100,
+            "Level": 26,
+            "THAC0": 22,
+            "AC": 0,
+            "HP": "50d4+200",
+            "Damage": "5d6+6",
+            "Gold": 300,
+            "XP": 23621,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9021,
+            "Aliases": [
+                "drunk",
+                "drunken",
+                "goblin"
+            ],
+            "ShortDesc": "a drunken goblin",
+            "LongDesc": "A pathetic-looking goblin slouches in a corner looking VERY inebriated.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This goblin looks quite drunk.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": -100,
+            "Level": 18,
+            "THAC0": 13,
+            "AC": 0,
+            "HP": "10d4+250",
+            "Damage": "3d4+4",
+            "Gold": 320,
+            "XP": 8133,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9022,
+            "Aliases": [
+                "kron",
+                "human",
+                "knight"
+            ],
+            "ShortDesc": "Kron",
+            "LongDesc": "A large human knight searches the halls, thirsting to destroy evil.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A heavily armoured human warrior nods at you and smiles. His charismatic\r\r\r\r\r\r\n\rpresence makes you feel safe within this dungeon and you know he would\r\r\r\r\r\r\n\rdo you no harm unless provoked.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_GOOD"
+            ],
+            "Alignment": 776,
+            "Level": 43,
+            "THAC0": 22,
+            "AC": -14,
+            "HP": "28d15+560",
+            "Damage": "3d9+14",
+            "Gold": 28350,
+            "XP": 94306,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9023,
+            "Aliases": [
+                "derrick",
+                "knight",
+                "warrior"
+            ],
+            "ShortDesc": "Derrick",
+            "LongDesc": "An enormous warrior prowels the halls in search of evil.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Squinting at you in distrust, this bulky, human warrior seems to be\r\r\r\r\r\r\n\rjudging your next move. After some time he nods to himself and, 'hmms'\r\r\r\r\r\r\n\rhe then becomes indifferent to your presence as he knows his strength\r\r\r\r\r\r\n\rtoo well.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "PROTECT_GOOD"
+            ],
+            "Alignment": 811,
+            "Level": 41,
+            "THAC0": 21,
+            "AC": -14,
+            "HP": "29d17+500",
+            "Damage": "4d4+10",
+            "Gold": 48311,
+            "XP": 93500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9024,
+            "Aliases": [
+                "rat"
+            ],
+            "ShortDesc": "a disease-ridden rat",
+            "LongDesc": "A disease-ridden rat is squeaking maliciously at you!\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A rat about one foot in length scuttles about the floor looking\r\r\r\r\r\r\n\rfor scraps of decayed meat.\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 13,
+            "THAC0": 11,
+            "AC": 0,
+            "HP": "6d8+160",
+            "Damage": "3d3+5",
+            "Gold": 0,
+            "XP": 7000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9025,
+            "Aliases": [
+                "shadow",
+                "warrior",
+                "intangible"
+            ],
+            "ShortDesc": "a shadow warrior",
+            "LongDesc": "An intangible shadow drifts here, patrolling the underworld.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "This dark soul seems vaguely human as it drifts silently towards you.\r\r\r\r\r\r\n\rPerhaps it is the spirit of a past adventurer like yourself who has\r\r\r\r\r\r\n\rbeen damned to wander these halls for eternity...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "INFRAVISION"
+            ],
+            "Alignment": -311,
+            "Level": 25,
+            "THAC0": 20,
+            "AC": -6,
+            "HP": "10d6+355",
+            "Damage": "3d6+6",
+            "Gold": 3206,
+            "XP": 49360,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9026,
+            "Aliases": [
+                "wolf",
+                "werewolf",
+                "figure"
+            ],
+            "ShortDesc": "a werewolf",
+            "LongDesc": "A humanlike figure with the head of a wolf snarls at you with coal-black eyes!\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Standing over six feet tall, this poor soul has long since lost its human\r\r\r\r\r\r\n\rform. In this advanced stage of lycantheropy, the only cure is death,\r\r\r\r\r\r\n\rhowever the werewolf may beg to differ...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "HELPER"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "SNEAK"
+            ],
+            "Alignment": -500,
+            "Level": 28,
+            "THAC0": 26,
+            "AC": 0,
+            "HP": "10d8+675",
+            "Damage": "6d4+13",
+            "Gold": 7300,
+            "XP": 96000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9027,
+            "Aliases": [
+                "worm",
+                "fyre",
+                "fyrewyrm",
+                "wyrm",
+                "undead",
+                "spirit",
+                "image",
+                "ghost"
+            ],
+            "ShortDesc": "the undead spirit of the FyreWyrm",
+            "LongDesc": "A ghostly image of the FyreWyrm hovers here waiting for revenge.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Slashed to pieces with large ghostly chunks of flesh hanging from its\r\r\r\r\r\r\n\rintangable wounds, this guardian fears no mortal creature.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "INVISIBLE",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 68,
+            "THAC0": 20,
+            "AC": -12,
+            "HP": "30d10+1500",
+            "Damage": "8d8+28",
+            "Gold": 0,
+            "XP": 183000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9028,
+            "Aliases": [
+                "mouth",
+                "magic",
+                "lips"
+            ],
+            "ShortDesc": "the Magic Mouth",
+            "LongDesc": "A large mouth grins at you from on the wall!\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Painted on the wall and brought to life by some means of magic, a large\r\r\r\r\r\r\n\rmouth grins at you broadly. It begins to speak!\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 12,
+            "AC": -8,
+            "HP": "10d10+555",
+            "Damage": "5d5+12",
+            "Gold": 0,
+            "XP": 13000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9029,
+            "Aliases": [
+                "belvedere",
+                "elf",
+                "mage"
+            ],
+            "ShortDesc": "Belvedere",
+            "LongDesc": "An elven mage stands here, chanting in arcane words.\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "A tall, lank elven mage humbly chants in an arcane tongue. He seems to\r\r\r\r\r\r\n\rbe memorizing some magical spell as he intently studies the pages in \r\r\r\r\r\r\n\rhis spellbook. After noticing your presence, he returns to his magic.\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "WIMPY",
+                "AGGR_EVIL",
+                "MEMORY",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 700,
+            "Level": 30,
+            "THAC0": 21,
+            "AC": -13,
+            "HP": "20d10+456",
+            "Damage": "5d5+14",
+            "Gold": 12350,
+            "XP": 82300,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 9090,
+            "Aliases": [
+                "worm",
+                "fyre",
+                "fire",
+                "fyrewyrm",
+                "wyrm",
+                "enormous",
+                "red",
+                "fireworm"
+            ],
+            "ShortDesc": "the FyreWyrm",
+            "LongDesc": "Hissing and thrashing its head, an ENORMOUS red worm snaps and attacks!!\r\r\r\r\r\r\n\r",
+            "DetailedDesc": "Rising before you, a gargantuan scaly worm emits a hellish heat and\r\r\r\r\r\r\n\rblinding light. Your life literally flashes through your mind as it\r\r\r\r\r\r\n\rlunges towards you, intending to take you to a new plane of existance...\r\r\r\r\r\r\n\r\r\r\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -450,
+            "Level": 126,
+            "THAC0": 58,
+            "AC": -23,
+            "HP": "20d20+7500",
+            "Damage": "11d8+50",
+            "Gold": 165500,
+            "XP": 835150,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 9096,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        }
+    ]
+}

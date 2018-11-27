@@ -1,0 +1,953 @@
+{
+    "mobs": [
+        {
+            "Number": 23000,
+            "Aliases": [
+                "rat",
+                "giant",
+                "rodent"
+            ],
+            "ShortDesc": "the giant rat",
+            "LongDesc": "A giant rat wanders nearby looking for food.\r\r\r\r\n\r",
+            "DetailedDesc": "This beast is nearly three feet in length, and two feet tall. The rat\r\r\r\r\n\rprobably wieghs on the order of three hundred pounds or so. It smells like\r\r\r\r\n\rsewage, and rotting flesh. When it sees you staring it begins to hiss.",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 10,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "20d9+0",
+            "Damage": "2d9+10",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 23001,
+            "Aliases": [
+                "vamp",
+                "vampire",
+                "bat"
+            ],
+            "ShortDesc": "the vampire bat",
+            "LongDesc": "A vampire bat flies around the room looking for its next meal.\r\r\r\r\n\r",
+            "DetailedDesc": "This is one of the largest bats you have ever seen. Its wingspan is nearly\r\r\r\r\n\rthree feet. The fangs on this beast are nearly two inches long. When it sees\r\r\r\r\n\ryou it begins to shriek, and attack.",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 14,
+            "THAC0": 10,
+            "AC": -5,
+            "HP": "10d9+0",
+            "Damage": "2d9+10",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 23002,
+            "Aliases": [
+                "slime"
+            ],
+            "ShortDesc": "a slime",
+            "LongDesc": "A green slime oozes towards you.\r\r\r\r\n\r",
+            "DetailedDesc": "This is a small blob about the size of a basket ball. It doesn't look very\r\r\r\r\n\rthreatening. However you are unsure if a weapon will harm it. When it sees you\r\r\r\r\n\rit oozes faster towrds you.",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 27,
+            "THAC0": 10,
+            "AC": -50,
+            "HP": "20d9+10",
+            "Damage": "2d9+12",
+            "Gold": 1000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 23003,
+            "Aliases": [
+                "spirit"
+            ],
+            "ShortDesc": "a spirit",
+            "LongDesc": "A spirit floats here mourning its mortal life.\r\r\r\r\n\r",
+            "DetailedDesc": "Part life, part death, this ethereal form moans loadly as you pass. Part fog,\r\r\r\r\n\rpart energy, this lifeform is nearly impervious to mortal weapons. When it\r\r\r\r\n\rsees you, it shrieks, and attacks!\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 29,
+            "THAC0": 15,
+            "AC": -50,
+            "HP": "20d9+10",
+            "Damage": "2d9+14",
+            "Gold": 1000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 23004,
+            "Aliases": [
+                "ghost"
+            ],
+            "ShortDesc": "a ghost",
+            "LongDesc": "A ghost floats here looking for a victim.\r\r\r\r\n\r",
+            "DetailedDesc": "Part life, part death, this ethereal form moans loadly as you pass. Part fog,\r\r\r\r\n\rpart energy, this lifeform is nearly impervious to mortal weapons. When it\r\r\r\r\n\rsees you, it shrieks, and attacks!\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 57,
+            "THAC0": 15,
+            "AC": -50,
+            "HP": "50d9+10",
+            "Damage": "2d9+14",
+            "Gold": 1000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 23005,
+            "Aliases": [
+                "wraith"
+            ],
+            "ShortDesc": "a wraith",
+            "LongDesc": "A wraith floats here contemplating taking your soul.\r\r\r\r\n\r",
+            "DetailedDesc": "Part life, part death, this ethereal form moans loadly as you pass. Part fog,\r\r\r\r\n\rpart energy, this lifeform is nearly impervious to mortal weapons. When it\r\r\r\r\n\rsees you, it shrieks, and attacks!\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 80,
+            "THAC0": 15,
+            "AC": -50,
+            "HP": "20d9+900",
+            "Damage": "2d9+14",
+            "Gold": 1000,
+            "XP": 45000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 23006,
+            "Aliases": [
+                "orc",
+                "green"
+            ],
+            "ShortDesc": "the orc",
+            "LongDesc": "A short green orc growls menacingly at you.\r\r\r\r\n\r",
+            "DetailedDesc": "This short burly fellow stands about five feet tall, and two feet wide. He\r\r\r\r\n\rshakes a rock at you and growls... GRRRRRRRR Maybe you should run away...\r\r\r\r\n\ror you could kill him.",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 16,
+            "THAC0": 18,
+            "AC": 0,
+            "HP": "10d9+200",
+            "Damage": "3d9+11",
+            "Gold": 2000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23007,
+            "Aliases": [
+                "kobold",
+                "short",
+                "brown"
+            ],
+            "ShortDesc": "the kobold",
+            "LongDesc": "A short brown skinned kobold searches through the dirt for gems.\r\r\r\r\n\r",
+            "DetailedDesc": "When you look at him you notice that he is slightly cleaner than the rest of\r\r\r\r\n\rthe inhabitants of this lair. His clothes are not full of the usual holes, \r\r\r\r\n\ror covered with the usual  dirt, and grime. When he notices you he mumbles\r\r\r\r\n\rto himself, and continues with his work.",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 26,
+            "THAC0": 18,
+            "AC": 0,
+            "HP": "10d9+250",
+            "Damage": "3d9+13",
+            "Gold": 2000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23008,
+            "Aliases": [
+                "razor",
+                "wyrm",
+                "red"
+            ],
+            "ShortDesc": "the razor wyrm",
+            "LongDesc": "A small red razor wyrm crawls here in the dirt.\r\r\r\r\n\r",
+            "DetailedDesc": "As you look at this beast, you notice that it is staring right back at you.\r\r\r\r\n\rWhat appear to be merely dark spots on its foreheads, are in fact eyes. Although\r\r\r\r\n\rit is inly a foot long, its razor covered body appears to be capable of dealing\r\r\r\r\n\rconsiderable damage if threatened.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 71,
+            "THAC0": 50,
+            "AC": 10,
+            "HP": "5d9+1200",
+            "Damage": "10d9+50",
+            "Gold": 1000,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23009,
+            "Aliases": [
+                "salamander",
+                "mander",
+                "fire",
+                "flame",
+                "red"
+            ],
+            "ShortDesc": "the salamander",
+            "LongDesc": "A firey red salamander crawls in the dirt before you.\r\r\r\r\n\r",
+            "DetailedDesc": "The salamander is about a foot and a half long. It is covered from head to tail\r\r\r\r\n\rby bright orange spots. The rest of its body is solid red. When it sees you it\r\r\r\r\n\rturns, and begins to crawl away.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 7,
+            "AC": 10,
+            "HP": "18d18+257",
+            "Damage": "2d2+1",
+            "Gold": 1,
+            "XP": 5000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23010,
+            "Aliases": [
+                "golem",
+                "clay"
+            ],
+            "ShortDesc": "a clay golem",
+            "LongDesc": "A clay golem stands here guarding the dungeon.\r\r\r\r\n\r",
+            "DetailedDesc": "The golem towers over you. He is the product of archane sorcery. Given life\r\r\r\r\n\rfrom the heart of a dragon, and the words of a master necromancer, his will\r\r\r\r\n\ris the will of his creator.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 26,
+            "THAC0": 10,
+            "AC": 0,
+            "HP": "20d9+800",
+            "Damage": "5d9+25",
+            "Gold": 2000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23011,
+            "Aliases": [
+                "iron",
+                "golem"
+            ],
+            "ShortDesc": "an iron golem",
+            "LongDesc": "An iron golem stands here guarding the dungeon.\r\r\r\r\n\r",
+            "DetailedDesc": "The golem towers over you. He is the product of archane sorcery. Given life\r\r\r\r\n\rfrom the heart of a dragon, and the words of a master necromancer, his will\r\r\r\r\n\ris the will of his creator.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 38,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "20d9+1000",
+            "Damage": "5d9+25",
+            "Gold": 2000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23012,
+            "Aliases": [
+                "steel",
+                "golem"
+            ],
+            "ShortDesc": "a steel golem",
+            "LongDesc": "A steel golem stands here guarding the dungeon.\r\r\r\r\n\r",
+            "DetailedDesc": "The golem towers over you. He is the product of archane sorcery. Given life\r\r\r\r\n\rfrom the heart of a dragon, and the words of a master necromancer, his will\r\r\r\r\n\ris the will of his creator.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 55,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "20d9+1200",
+            "Damage": "5d9+25",
+            "Gold": 2000,
+            "XP": 45000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23013,
+            "Aliases": [
+                "titanium",
+                "steel",
+                "golem"
+            ],
+            "ShortDesc": "a titanium steel golem",
+            "LongDesc": "A titanium steel golem stands here guarding the dungeon.\r\r\r\r\n\r",
+            "DetailedDesc": "The golem towers over you. He is the product of archane sorcery. Given life\r\r\r\r\n\rfrom the heart of a dragon, and the words of a master necromancer, his will\r\r\r\r\n\ris the will of his creator.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 48,
+            "THAC0": 60,
+            "AC": -30,
+            "HP": "20d9+1300",
+            "Damage": "5d9+25",
+            "Gold": 3000,
+            "XP": 65000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23014,
+            "Aliases": [
+                "pit",
+                "monster"
+            ],
+            "ShortDesc": "a pit monster",
+            "LongDesc": "The floor quivers as you step on it.\r\r\r\r\n\r",
+            "DetailedDesc": "The floor is disclolored, and moves slightly every few seconds... Strange.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "SENSE_LIFE"
+            ],
+            "Alignment": -1000,
+            "Level": 15,
+            "THAC0": 15,
+            "AC": 10,
+            "HP": "5d9+75",
+            "Damage": "2d9+10",
+            "Gold": 10000,
+            "XP": 32000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23015,
+            "Aliases": [
+                "fire",
+                "drake",
+                "red"
+            ],
+            "ShortDesc": "the fire drake",
+            "LongDesc": "A Great Red Fire Drake sits here guarding its lair.\r\r\r\r\n\r",
+            "DetailedDesc": "This beast is nearly twenty feet long, and ten feet tall. It's scaley skin\r\r\r\r\n\ris covered with tiny barbs, and spikes. When it sees you it rears its head\r\r\r\r\n\rback, and belows.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 85,
+            "THAC0": 40,
+            "AC": -10,
+            "HP": "20d9+1400",
+            "Damage": "5d9+25",
+            "Gold": 50000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23016,
+            "Aliases": [
+                "air",
+                "drake",
+                "blue"
+            ],
+            "ShortDesc": "the air drake",
+            "LongDesc": "A Great Blue Air Drake rests here guarding his hoard.\r\r\r\r\n\r",
+            "DetailedDesc": "This beast is nearly twenty feet long, and ten feet tall. It's scaley skin\r\r\r\r\n\ris covered with tiny barbs, and spikes. When it sees you it rears its head\r\r\r\r\n\rback, and belows.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 98,
+            "THAC0": 40,
+            "AC": -10,
+            "HP": "20d9+1400",
+            "Damage": "5d9+25",
+            "Gold": 50000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23017,
+            "Aliases": [
+                "frost",
+                "drake",
+                "white"
+            ],
+            "ShortDesc": "the frost drake",
+            "LongDesc": "A Great White Frost Drake peers icily at you across his hoard.\r\r\r\r\n\r",
+            "DetailedDesc": "This beast is nearly twenty feet long, and ten feet tall. It's scaley skin\r\r\r\r\n\ris covered with tiny barbs, and spikes. When it sees you it rears its head\r\r\r\r\n\rback, and belows.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 98,
+            "THAC0": 40,
+            "AC": -10,
+            "HP": "20d9+1400",
+            "Damage": "5d9+25",
+            "Gold": 50000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23018,
+            "Aliases": [
+                "great",
+                "drake",
+                "horned"
+            ],
+            "ShortDesc": "the great horned drake",
+            "LongDesc": "The Great Horned Drake lurches forward, and attacks you!\r\r\r\r\n\r",
+            "DetailedDesc": "This beast is nearly twenty feet long, and ten feet tall. It's scaley skin\r\r\r\r\n\ris covered with tiny barbs, and spikes. When it sees you it rears its head\r\r\r\r\n\rback, and belows.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 70,
+            "THAC0": 40,
+            "AC": -10,
+            "HP": "20d9+1900",
+            "Damage": "10d9+50",
+            "Gold": 50000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23019,
+            "Aliases": [
+                "skeleton",
+                "warrior"
+            ],
+            "ShortDesc": "the skeleton warrior",
+            "LongDesc": "A skeleton warrior wanders aimlessly about the room.\r\r\r\r\n\r",
+            "DetailedDesc": "This is the dead remains of a warrior. Animated by some powerful sorcery,\r\r\r\r\n\rhe is now devoid of purpose, or feeling. He now serves a hidden master.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 34,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "20d9+300",
+            "Damage": "3d9+15",
+            "Gold": 4000,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23020,
+            "Aliases": [
+                "zombie",
+                "undead",
+                "body"
+            ],
+            "ShortDesc": "the zombie",
+            "LongDesc": "A zombie wanders around the room without purpose.\r\r\r\r\n\r",
+            "DetailedDesc": "Once a living person, this animated for now wanders around with out purpose,\r\r\r\r\n\ror life. He does not even react when he sees you, he simply continues to stumble\r\r\r\r\n\raround the room.\r\r\r\r\n\r",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 15,
+            "AC": -1,
+            "HP": "20d9+200",
+            "Damage": "3d9+13",
+            "Gold": 4000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23021,
+            "Aliases": [
+                "zombie",
+                "master",
+                "undead",
+                "body"
+            ],
+            "ShortDesc": "the zombie master",
+            "LongDesc": "The zombie master looks at you, and screams for his minions to attack!\r\r\r\r\n\r",
+            "DetailedDesc": "Once a living person, this animated for now wanders around with out purpose,\r\r\r\r\n\ror life. He does not even react when he sees you, he simply continues to stumble\r\r\r\r\n\raround the room.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 72,
+            "THAC0": 15,
+            "AC": -1,
+            "HP": "20d9+900",
+            "Damage": "5d9+25",
+            "Gold": 4000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23022,
+            "Aliases": [
+                "troll",
+                "green",
+                "brown"
+            ],
+            "ShortDesc": "the troll",
+            "LongDesc": "A green and brown troll glares evily at you.\r\r\r\r\n\r",
+            "DetailedDesc": "A behemoth of a creature, the troll stands over twelve feet tall, and four feet\r\r\r\r\n\rwide. He growls menecingly at you when you stare at him, and begins to snarl.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 41,
+            "THAC0": 22,
+            "AC": -3,
+            "HP": "5d9+400",
+            "Damage": "3d9+20",
+            "Gold": 4000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23023,
+            "Aliases": [
+                "dragon",
+                "red",
+                "fire"
+            ],
+            "ShortDesc": "the red fire dragon",
+            "LongDesc": "A red fire dragon calmly watches you from across the room.\r\r\r\r\n\r",
+            "DetailedDesc": "This huge winged lizard is a crimson red. Huge puffs smoke pour from his\r\r\r\r\n\rnostrils. His eyes burn with fire that lights up the room. When he sees you\r\r\r\r\n\rhe hisses, and then sit back calmly and watches.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 2,
+            "Level": 124,
+            "THAC0": 46,
+            "AC": -10,
+            "HP": "20d100+4000",
+            "Damage": "5d9+25",
+            "Gold": 200000,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23024,
+            "Aliases": [
+                "dragon",
+                "great",
+                "horned"
+            ],
+            "ShortDesc": "the great horned dragon",
+            "LongDesc": "A great horned dragon peers at you through the smoke.\r\r\r\r\n\r",
+            "DetailedDesc": "This huge winged lizard is a crimson red. Huge puffs smoke pour from his\r\r\r\r\n\rnostrils. His eyes burn with fire that lights up the room. When he sees you\r\r\r\r\n\rhe hisses, and then sit back calmly and watches.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 2,
+            "Level": 117,
+            "THAC0": 46,
+            "AC": -10,
+            "HP": "20d100+7000",
+            "Damage": "5d9+25",
+            "Gold": 200000,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23025,
+            "Aliases": [
+                "wall",
+                "souls",
+                "scream",
+                "screams"
+            ],
+            "ShortDesc": "the wall of souls",
+            "LongDesc": "The wall pulses and moves when you aproach it.\r\r\r\r\n\r",
+            "DetailedDesc": "The wall screams from within. It moves, and pulses when you walk closer.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -1000,
+            "Level": 72,
+            "THAC0": 44,
+            "AC": -30,
+            "HP": "20d100+5000",
+            "Damage": "10d9+50",
+            "Gold": 30000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 23026,
+            "Aliases": [
+                "elemental",
+                "fire",
+                "demon"
+            ],
+            "ShortDesc": "the fire elemental",
+            "LongDesc": "A demon engulfed in flames rushes to attack you!\r\r\r\r\n\r",
+            "DetailedDesc": "A beast of flames dances before you. The heat is intense enough to kill most\r\r\r\r\n\radventurers. When it notices you it screams a battle cry, and lurches forward\r\r\r\r\n\rto attack.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 127,
+            "THAC0": 48,
+            "AC": -30,
+            "HP": "20d100+5000",
+            "Damage": "10d9+20",
+            "Gold": 3000,
+            "XP": 90000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 23027,
+            "Aliases": [
+                "plasma",
+                "plasmite",
+                "light",
+                "lite",
+                "xion"
+            ],
+            "ShortDesc": "Xion",
+            "LongDesc": "Xion, the plasmite, floats in mid-air humming.\r\r\r\r\n\r",
+            "DetailedDesc": "A fearsom beast, the plasmite warrior, Xion, is a single piercing light floating\r\r\r\r\n\ra few feet off the ground. The heat emenating from the light is nearly unbearable.\r\r\r\r\n\rA booming voice says Turn back mere mortal, or may whatever God you believe in\r\r\r\r\n\rhave mercy upon your soul.\r\r\r\r\n\r",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 127,
+            "THAC0": 100,
+            "AC": -25,
+            "HP": "5d6+500",
+            "Damage": "34d30+100",
+            "Gold": 100000,
+            "XP": 200000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23028,
+            "Aliases": [
+                "lich",
+                "skeleton",
+                "sorcerer",
+                "wizard",
+                "man",
+                "demon"
+            ],
+            "ShortDesc": "the lich",
+            "LongDesc": "The Lich screams a greating battle cry and attacks you!\r\r\r\r\n\r",
+            "DetailedDesc": "This demon is the product of arcane sorcery, and necromancy. Given the soul of\r\r\r\r\n\rthe living, and the body of the dead, the lich is one of the most fearsom of all\r\r\r\r\n\roponants.\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "WIMPY",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 127,
+            "THAC0": 50,
+            "AC": -10,
+            "HP": "20d100+9000",
+            "Damage": "5d9+25",
+            "Gold": 200000,
+            "XP": 127000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23029,
+            "Aliases": [
+                "great",
+                "wyrm",
+                "green"
+            ],
+            "ShortDesc": "the great wyrm",
+            "LongDesc": "A huge wyrm attacks as you enter his lair.\r\r\r\r\n\r",
+            "DetailedDesc": "As you look at this beast, you notice that it is staring right back at you.\r\r\r\r\n\rWhat appear to be merely dark spots on its forehead, are in fact eyes. This\r\r\r\r\n\rbeast is nearly twenty feet long, and looks quite fearsome.",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 114,
+            "THAC0": 100,
+            "AC": -10,
+            "HP": "50d9+750",
+            "Damage": "20d9+100",
+            "Gold": 20000,
+            "XP": 130000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 23038,
+            "Aliases": [
+                ""
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 23099,
+            "Aliases": [
+                "wraith"
+            ],
+            "ShortDesc": "a wraith",
+            "LongDesc": "A wraith floats here contemplating taking your soul.\r\r\r\r\n\r",
+            "DetailedDesc": "Part life, part death, this ethereal form moans loadly as you pass. Part fog,\r\r\r\r\n\rpart energy, this lifeform is nearly impervious to mortal weapons. When it\r\r\r\r\n\rsees you, it shrieks, and attacks!\r\r\r\r\n\r",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": -1000,
+            "Level": 80,
+            "THAC0": 15,
+            "AC": -50,
+            "HP": "20d9+900",
+            "Damage": "2d9+14",
+            "Gold": 1000,
+            "XP": 45000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        }
+    ]
+}

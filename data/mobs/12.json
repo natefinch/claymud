@@ -1,0 +1,938 @@
+{
+    "mobs": [
+        {
+            "Number": 1200,
+            "Aliases": [
+                "zombie"
+            ],
+            "ShortDesc": "a zombie",
+            "LongDesc": "A zombie stands here.\n",
+            "DetailedDesc": "This guy is disgusting!  He is a corpse that has been brought back to life.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 8,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1201,
+            "Aliases": [
+                "target"
+            ],
+            "ShortDesc": "a target",
+            "LongDesc": "A big target waits to be killed.\n",
+            "DetailedDesc": "It's a big target.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": -100,
+            "HP": "0d0+16",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1202,
+            "Aliases": [
+                "statue"
+            ],
+            "ShortDesc": "Jahana's Statue",
+            "LongDesc": "A beautiful statue stands here, enrapturing you.\n",
+            "DetailedDesc": "A statue of the most beautiful goddess you have ever seen stands before you.\nThe statue is carved with such accuracy, every detail of her body is shown\nin perfect imagery. Her hair, flowing down her shoulders, ending in curls.\nHer skin, even on this statue, is smooth as silk. The wondrous smile, a smile\nthat could light up entire galaxies, makes your heart melt. Eyes, those eyes,\nthey entrance you and hold you to their gaze, and you know you would do\nanything to please her....anything.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 127,
+            "THAC0": 100,
+            "AC": -100,
+            "HP": "1d100+30000",
+            "Damage": "100d100+100",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1203,
+            "Aliases": [
+                "test",
+                "mob"
+            ],
+            "ShortDesc": "a Test Mob",
+            "LongDesc": "A test mob awaits \"testing\"\n",
+            "DetailedDesc": "it looks bland.\n",
+            "Actions": [
+                "ISNPC",
+                "AGGRESSIVE"
+            ],
+            "Affections": [],
+            "Alignment": -500,
+            "Level": 150,
+            "THAC0": 0,
+            "AC": -5,
+            "HP": "0d0+10000",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1205,
+            "Aliases": [
+                "jen",
+                "jenn",
+                "jennifer"
+            ],
+            "ShortDesc": "Jennifer",
+            "LongDesc": "Jennifer Morelos is here, flaunting her gorgeous body for attention.\n",
+            "DetailedDesc": "You see a very beautiful woman.  She waves to you and says \"hello there!\"\nJust the very sight of this wonderful creature makes you gasp as her incredible\ncharm and beauty overtakes you.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "5d25+10000",
+            "Damage": "5d5+105",
+            "Gold": 150000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1206,
+            "Aliases": [
+                "poppy",
+                "phil",
+                "phillip",
+                "ilj"
+            ],
+            "ShortDesc": "Poppy",
+            "LongDesc": "Poppy sits here, looking at you with his head rested on his knees.\n",
+            "DetailedDesc": "You see a young teenager.  He is really in love with Jennifer, who doesn't\nreally care for him.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 40,
+            "AC": -10,
+            "HP": "10d10+650",
+            "Damage": "5d5+25",
+            "Gold": 100000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1209,
+            "Aliases": [
+                "cat",
+                "Xander"
+            ],
+            "ShortDesc": "Xander",
+            "LongDesc": "Xander peers at you innocently.\n",
+            "DetailedDesc": "This seemingly normal domestic tabby has been well fed and does not wear a\ncollar.  You interest is not unnoticed, and he looks up with a smile.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AWARE",
+                "MEMORY",
+                "NOSLEEP",
+                "NOBASH",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "NOTRACK",
+                "UNUSED17"
+            ],
+            "Alignment": -1000,
+            "Level": 100,
+            "THAC0": 100,
+            "AC": -10,
+            "HP": "100d10+1",
+            "Damage": "100d10+0",
+            "Gold": 1,
+            "XP": 100000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1210,
+            "Aliases": [
+                "hostess",
+                "daphne",
+                "woman",
+                "blonde"
+            ],
+            "ShortDesc": "Daphne",
+            "LongDesc": "A petite and attractive hostess is here to ensure your comfort.\n",
+            "DetailedDesc": "She is a short, petite blonde with a rosy-cheeked complexion, gentle eyes,\nand a sweet smile. One immediately feels at ease in her company, knowing\nshe has made fulfillment of your wishes her charge.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 52,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d1+10000",
+            "Damage": "1d8+0",
+            "Gold": 0,
+            "XP": 1000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1211,
+            "Aliases": [
+                "mob",
+                "experience",
+                "exp"
+            ],
+            "ShortDesc": "an experience mob.",
+            "LongDesc": "Lots of exp stands here.\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 101,
+            "THAC0": 0,
+            "AC": 10,
+            "HP": "1d1+10",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1212,
+            "Aliases": [
+                "rodney",
+                "king",
+                "beat"
+            ],
+            "ShortDesc": "Rodney King",
+            "LongDesc": "Rodney King lies on the ground covered in blood.\n",
+            "DetailedDesc": "Can't we all just get along?",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 54,
+            "THAC0": 100,
+            "AC": -40,
+            "HP": "10d10+12000",
+            "Damage": "10d10+90",
+            "Gold": 0,
+            "XP": 250000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1213,
+            "Aliases": [
+                "rana"
+            ],
+            "ShortDesc": "Rana",
+            "LongDesc": "Rana, Matt's girlfriend is here.\n",
+            "DetailedDesc": "You see utter beauty in tis purest form, she has earned the total love\nand devotion of her to be husband, Matt\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 57,
+            "THAC0": 40,
+            "AC": -20,
+            "HP": "20d5+30000",
+            "Damage": "100d100+100",
+            "Gold": 171000,
+            "XP": 1,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1214,
+            "Aliases": [
+                "statue",
+                "of",
+                "ryno"
+            ],
+            "ShortDesc": "Statue of Ryno",
+            "LongDesc": "You see a statue, that looks like Ryno.\n",
+            "DetailedDesc": "This is the statue of Ryno, it has red hair, and loves subway.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 55,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "5d5+4000",
+            "Damage": "1d8+50",
+            "Gold": 165000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1215,
+            "Aliases": [
+                "golem"
+            ],
+            "ShortDesc": "golem",
+            "LongDesc": "\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+0",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1216,
+            "Aliases": [
+                "emily",
+                "hellchild",
+                "hell",
+                "child"
+            ],
+            "ShortDesc": "Emily, hellion extraordinare",
+            "LongDesc": "Emily, the wonder hellion, is sleeping quietly here.\n",
+            "DetailedDesc": "This child is about 3 feet tall.  She has this wonderful blonde hair that \ncurls up around her ears and her usually sparkling blue eyes are closed. She \nis sleeping quietly.  DO NOT WAKE HER UP OR TEDDY WILL KILL YOU!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SLEEP"
+            ],
+            "Alignment": 1000,
+            "Level": 70,
+            "THAC0": 42,
+            "AC": -50,
+            "HP": "14d14+5000",
+            "Damage": "5d5+40",
+            "Gold": 0,
+            "XP": 35000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1218,
+            "Aliases": [
+                "Prime"
+            ],
+            "ShortDesc": "Al Gore",
+            "LongDesc": "Al Gore the Vice President of the United States of America\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_EVIL",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "GROUP",
+                "PROTECT_EVIL",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 99,
+            "THAC0": 100,
+            "AC": -100,
+            "HP": "100d100+999",
+            "Damage": "100d100+16",
+            "Gold": 100,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1219,
+            "Aliases": [
+                "Prime"
+            ],
+            "ShortDesc": "Optimus Prime",
+            "LongDesc": "Optimus Prime the leader of the Autobots\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGR_EVIL",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "GROUP",
+                "PROTECT_EVIL",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 99,
+            "THAC0": 100,
+            "AC": -100,
+            "HP": "100d100+999",
+            "Damage": "100d100+16",
+            "Gold": 100,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1223,
+            "Aliases": [
+                "koosh",
+                "kitty",
+                "cat",
+                "kitten"
+            ],
+            "ShortDesc": "a cute little tan and white kitty",
+            "LongDesc": "A cute little tan and white kitty sits here looking curious.\n",
+            "DetailedDesc": "Koosh is a cute little tan and white kitty who just steals your heart!\nHe has a soft coat of fur, and an extra toe on each of his little white\nfeet. ",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "PROTECT_EVIL",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": -90,
+            "HP": "1d4+3",
+            "Damage": "1d1+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1241,
+            "Aliases": [
+                "test",
+                "mob"
+            ],
+            "ShortDesc": "test mob",
+            "LongDesc": "test mob\n",
+            "DetailedDesc": "testmob stands here.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 127,
+            "THAC0": 40,
+            "AC": -30,
+            "HP": "1d1+1000",
+            "Damage": "4d4+20",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1250,
+            "Aliases": [
+                "bob",
+                "weir"
+            ],
+            "ShortDesc": "Bob Weir",
+            "LongDesc": "Bob Weir stands here, wondering if he is too old for this sh*t\n",
+            "DetailedDesc": "Bob Weir stands here wondering if he is too old for this shit.\n",
+            "Actions": [
+                "ISNPC",
+                "WIMPY",
+                "MEMORY",
+                "HELPER"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 20,
+            "AC": 0,
+            "HP": "1d8+5000",
+            "Damage": "1d8+40",
+            "Gold": 150000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1251,
+            "Aliases": [
+                "test"
+            ],
+            "ShortDesc": "test",
+            "LongDesc": "test\n",
+            "DetailedDesc": "test\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "1d1+10000",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1255,
+            "Aliases": [
+                "pile",
+                "clothes",
+                "stuff"
+            ],
+            "ShortDesc": "a Pile of Clothes",
+            "LongDesc": "A Pile of Clothes lies here.\n",
+            "DetailedDesc": "  You see an enormous pile of clothes lying on the floor here.  It\nlooks almost comfy enough to go to sleep in, but you don't dare.  It \ncould just happen to be a nasty creature.  It seems to be made up of\na lot of T-Shirts, some jeans, socks, underwear, and the occasional\ndress shirt.  You notice something that just might be Draven's foot...\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 55,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "1d1+1",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1260,
+            "Aliases": [
+                "fluffy"
+            ],
+            "ShortDesc": "Fluffy",
+            "LongDesc": "Fluffy lies curled up on the windowseat.\n",
+            "DetailedDesc": "A beautiful cat lies here napping on the windowseat.  She has long, soft fur,\nmostly grey, with orange and brown and white patches.  She opens her\nyellow/green eyes as you approach her, and quickly measures you up.\nApparently, she is not overly impressed, as she turns her back on you\nand stretches out again.  She will tolerate your presence here, but be\ncareful about approaching her.  She is a one-woman cat, and tends to\nbite anyone who touches her - except for Maeve.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 52,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "2d100+30000",
+            "Damage": "100d100+100",
+            "Gold": 0,
+            "XP": 10,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1265,
+            "Aliases": [
+                "bod"
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 56,
+            "THAC0": -20,
+            "AC": -100,
+            "HP": "100d100+30000",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1270,
+            "Aliases": [
+                "Minmei",
+                "persian",
+                "cat",
+                "feline"
+            ],
+            "ShortDesc": "Minmei",
+            "LongDesc": "A white Persian cat lies curled up on a rug by the fireplace.\n",
+            "DetailedDesc": "Persian cats are by far the noblest of all felines, well known for their\ncalm demeanor, and long, fluffy white fur, silky and luxurious to the\ntouch. This particular one has one eye a deep blue, the other a deep\nforest green. This particular one is also very smart, and a great purrer.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "INFRAVISION",
+                "PROTECT_EVIL",
+                "UNUSED17"
+            ],
+            "Alignment": 1000,
+            "Level": 1,
+            "THAC0": 40,
+            "AC": -94,
+            "HP": "1d20+20",
+            "Damage": "12d1+0",
+            "Gold": 0,
+            "XP": 12000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1280,
+            "Aliases": [
+                "mailman"
+            ],
+            "ShortDesc": "",
+            "LongDesc": "",
+            "DetailedDesc": "",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 0,
+            "THAC0": 0,
+            "AC": 0,
+            "HP": "0d0+1",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_DEAD",
+            "DefaultPosition": "POSITION_DEAD",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1288,
+            "Aliases": [
+                "Tiamat",
+                "the",
+                "Chromatic",
+                "Dragon."
+            ],
+            "ShortDesc": "Tiamat, Queen of the Dragons.",
+            "LongDesc": "Tiamat the Chromatic Dragon.\n",
+            "DetailedDesc": "Tiamat is the ruler of the first plane of the nine hells, where she spawns \nall evil.   Tiamat has five heads, white, red, black, green and blue.\nThese colors run the length of each neck and into the forepart of the body\nas stripes, gradually blending to three stripes of gray, blue green, and\npurple over her back and hind quarters.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "AGGR_GOOD",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 70,
+            "THAC0": 40,
+            "AC": -4,
+            "HP": "1d1+7500",
+            "Damage": "1d8+20",
+            "Gold": 50000,
+            "XP": 1000000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 1290,
+            "Aliases": [
+                "lag",
+                "beast",
+                "lagbeast"
+            ],
+            "ShortDesc": "the Lag Beast",
+            "LongDesc": "The Lag Beast is standing here sucking on your link.\n",
+            "DetailedDesc": "As you look upon this moonstrous beast, you can feel the energy drain\nfrom your body.  Your legs lose their form and you cannot move.  It\npeers deep into your eyes and you can feel your link with reality weaken.\nMaybe you should take what little energy you have left and flee from this\nbeast.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -1000,
+            "Level": 59,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "1d1+30000",
+            "Damage": "0d0+0",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1291,
+            "Aliases": [
+                "test",
+                "mob"
+            ],
+            "ShortDesc": "a TEST MOB",
+            "LongDesc": "A TEST MOB\n",
+            "DetailedDesc": "A TEST MOB\nA TEST MOB\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 50,
+            "THAC0": 60,
+            "AC": 0,
+            "HP": "1d100+1000",
+            "Damage": "5d5+20",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 1297,
+            "Aliases": [
+                "Kender"
+            ],
+            "ShortDesc": "a kender",
+            "LongDesc": "A kender is here playing with all the toys.\n",
+            "DetailedDesc": "A small, imp like creature with a misch. smile.  He has a twinkle in\nhis eye and is currently playing with all the neat and nifty gadgets\nof the playhouse.  Watch yourself or you could quickly find yourself\nhandcuffed to something.  He has numerous pouches on his belt and \nhis top knot is blowing in the wind.\n",
+            "Actions": [
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "UNUSED16"
+            ],
+            "Alignment": 150,
+            "Level": 100,
+            "THAC0": 40,
+            "AC": -100,
+            "HP": "20d5+30000",
+            "Damage": "100d100+100",
+            "Gold": 0,
+            "XP": 0,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 1298,
+            "Aliases": [
+                "Silicon"
+            ],
+            "ShortDesc": "Silicon",
+            "LongDesc": "Silicon tends the bar and watches the room with a sharp eye.\n",
+            "DetailedDesc": "A short fellow with big ears and pointy teeth.  He wears a colorfull\nsuit and seems happy to see you but from some reason you feel wary of him.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "WIMPY",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": -500,
+            "Level": 30,
+            "THAC0": 20,
+            "AC": -2,
+            "HP": "50d20+500",
+            "Damage": "5d5+5",
+            "Gold": 10000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        }
+    ]
+}

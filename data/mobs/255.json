@@ -1,0 +1,900 @@
+{
+    "mobs": [
+        {
+            "Number": 25500,
+            "Aliases": [
+                "Emperor",
+                "Palpatine"
+            ],
+            "ShortDesc": "Emperor Palpatine",
+            "LongDesc": "The Emperor sits here glaring at you.\n",
+            "DetailedDesc": "This is Emperor Palpatine. He appears to be old and weak, but this\nact is only used to fool the ones that are truly weak.  You can sense a\ndark power emanating from him and you realize maybe he's not the frail\nold man he seems to be.  His dark and heavy robes hide most of his face\nexcept for that evil grin of his.  He sits stooped over waiting for you t\nmake your move.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "UNUSED16"
+            ],
+            "Alignment": -1000,
+            "Level": 140,
+            "THAC0": 87,
+            "AC": -34,
+            "HP": "0d0+16643",
+            "Damage": "20d10+55",
+            "Gold": 25000,
+            "XP": 80000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25501,
+            "Aliases": [
+                "security",
+                "laser",
+                "cannon"
+            ],
+            "ShortDesc": "Security Laser Cannon",
+            "LongDesc": "A security laser cannon is here turning towards you.\n",
+            "DetailedDesc": "This huge laser cannon and others like it are used to keep unwanted vistitors\nout of restricted areas.  The Empire uses them to reduce the amount of \nmanpower used.  It is large and quite powerful.  It is state-of-the-art and\nis a very useful weapon.  This one has seen some action, and is about to see\nsome more as it attacks you!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 56,
+            "THAC0": 21,
+            "AC": -11,
+            "HP": "0d0+1200",
+            "Damage": "10d5+10",
+            "Gold": 0,
+            "XP": 25000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 25502,
+            "Aliases": [
+                "Darth",
+                "Vader",
+                "dude",
+                "sith",
+                "lord"
+            ],
+            "ShortDesc": "Darth Vader",
+            "LongDesc": "The Lord of the Sith is standing here.\n",
+            "DetailedDesc": "Darth Vader, Lord of the Sith, is encased in an all black armored suit.\nHe is one of the tallest men you have ever seen.  The dark power he\nemenates causes even the bravest to cringe and look away.  He breathes\nthrough a respirator adding to the already fearsome visage.  He looks at\nyou with penetrating eyes and you know he can see more then whats on the\nsurface.  As you start pondering whether or not you ought to fight him,\nhe attacks.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "AGGRESSIVE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -800,
+            "Level": 127,
+            "THAC0": 78,
+            "AC": -20,
+            "HP": "0d0+7500",
+            "Damage": "10d10+75",
+            "Gold": 5,
+            "XP": 85000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25503,
+            "Aliases": [
+                "Princess",
+                "Leia's",
+                "Stunt",
+                "Double"
+            ],
+            "ShortDesc": "Princess Leia",
+            "LongDesc": "An abnormally hairy Princress Leia is here\n",
+            "DetailedDesc": "This is the ugliest looking princess you've ever laid eyes on.  Then you\nrealize that this is only Princess Leia's stunt double.  She is abnormaly\nhairy and appears to be wearing fake hair buns.  She is also smoking a\nbig fat Cuban cigar.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "UNUSED17"
+            ],
+            "Alignment": 100,
+            "Level": 60,
+            "THAC0": 62,
+            "AC": -9,
+            "HP": "10d10+2250",
+            "Damage": "10d4+23",
+            "Gold": 2500,
+            "XP": 49624,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 25504,
+            "Aliases": [
+                "mechanic",
+                "man"
+            ],
+            "ShortDesc": "a mechanic",
+            "LongDesc": "A mechanic is standing here trying to look busy.\n",
+            "DetailedDesc": "This mechanic and others like him are the backbone of the Imperial Navy.\nHe is covered with grease and other lubricants from head to toe.  He is\na bit tired looking.  No doubt from the long hard hours of repairing\ndamage caused by the Rebels.\n",
+            "Actions": [
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 21,
+            "THAC0": 30,
+            "AC": -5,
+            "HP": "0d0+200",
+            "Damage": "5d5+10",
+            "Gold": 1000,
+            "XP": 15000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25505,
+            "Aliases": [
+                "tie",
+                "pilot",
+                "guy",
+                "man",
+                "person"
+            ],
+            "ShortDesc": "a Tie Pilot",
+            "LongDesc": "A bored Tie pilot is standing here.\n",
+            "DetailedDesc": "It's hard being a Tie pilot.  The hours of endless formation and patrol flying\nwear on one's morale.  The pay and insurance doesn't compensate the knowledge\nthat a fatal laser blast could happen at any time.  Stress and battle fatigue\nhas aged this man past his years.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 20,
+            "THAC0": 35,
+            "AC": -5,
+            "HP": "0d0+234",
+            "Damage": "6d5+10",
+            "Gold": 1234,
+            "XP": 16000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25506,
+            "Aliases": [
+                "moff",
+                "grand",
+                "tarkin"
+            ],
+            "ShortDesc": "Grand Moff Tarkin",
+            "LongDesc": "Grand Moff Tarkin stands here trying to find the Rebel base.\n",
+            "DetailedDesc": "Grand Moff Tarkin has a very stern face.  When he stares at you his stare\ncan make even the bravest man cringe.  He is dressed in his grey Moff\nuniform.  His hair is beyond greying and is starting to fall out.\nHe is not the biggest man you've ever seen.  Of course he didn't earn\nhis rank by being a brute.  He is a cruel man that got to where he was\nby scheming his way to the top.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": -400,
+            "Level": 80,
+            "THAC0": 59,
+            "AC": -15,
+            "HP": "0d0+2000",
+            "Damage": "10d7+40",
+            "Gold": 50000,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25507,
+            "Aliases": [
+                "assassin",
+                "droid",
+                "robot"
+            ],
+            "ShortDesc": "an assassin droid",
+            "LongDesc": "An assassin droid is here looking for another kill.\n",
+            "DetailedDesc": "This droid is one of the deadliest foes you have ever crossed.  It is a \nslick black droid thats only purpose is to kill.  It does this with deadly\naccuracy.  Even though illegal in both the Rebellion and the Empire, this\none is the Emperor's personnal assassin.  With it's weapons drawn it looks\nfor more prey.  It seems as if it delights in killing.  It looks around and\ndecides you should be next.  FLEE it's attacking you!\n",
+            "Actions": [
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "AGGRESSIVE",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "UNUSED16",
+                "UNUSED17",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 90,
+            "THAC0": 40,
+            "AC": -10,
+            "HP": "0d0+1800",
+            "Damage": "10d6+30",
+            "Gold": 25000,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 25508,
+            "Aliases": [
+                "imperial",
+                "stormtrooper",
+                "man",
+                "badguy"
+            ],
+            "ShortDesc": "an Imperial Stormtrooper",
+            "LongDesc": "An Imperial Stormtrooper is standing here.\n",
+            "DetailedDesc": "The Imperial Stormtrooper's are the elite soldiers of the emperor's army.\nThey are trained for any situation.  They can be on the Star Destroyers or\nin land based operations.  They are always wearing there white metallic suit\nand carrying there hand blasters.  Always ready to defend the Empire from\nthe increasing Rebel threat.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "HELPER"
+            ],
+            "Affections": [],
+            "Alignment": -400,
+            "Level": 20,
+            "THAC0": 12,
+            "AC": 0,
+            "HP": "10d10+250",
+            "Damage": "5d9+15",
+            "Gold": 5500,
+            "XP": 12500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25509,
+            "Aliases": [
+                "imperial",
+                "stormtrooper",
+                "man",
+                "badguy"
+            ],
+            "ShortDesc": "an Imperial Stormtrooper",
+            "LongDesc": "An Imperial Stormtrooper is standing here.\n",
+            "DetailedDesc": "The Imperial Stormtrooper is an elite soldier.  He does the dirty work the\nbasic Imperial soldiers can't do.  He kills in the name of the Emperor.  This\nis all the reason he needs.  If you get in his way or in the way of the Empire\nthen you will be this Stormtroopers next target.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 10,
+            "AC": 0,
+            "HP": "10d10+250",
+            "Damage": "2d9+10",
+            "Gold": 5100,
+            "XP": 13000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25510,
+            "Aliases": [
+                "naval",
+                "trooper",
+                "man",
+                "guy",
+                "person"
+            ],
+            "ShortDesc": "an Imperial Naval Trooper",
+            "LongDesc": "A naval trooper is standing here.\n",
+            "DetailedDesc": "This is the grunt of the Imperial Navy.  He does what he does very good.\nHe is wearing a black uniform with an abnormally large helmet.  He is the\nmost common soldier in the navy and he is considered expendable by his\nsuperiors.\n",
+            "Actions": [
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 24,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "0d0+150",
+            "Damage": "5d5+10",
+            "Gold": 2000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25511,
+            "Aliases": [
+                "trash",
+                "monster",
+                "trashmonster"
+            ],
+            "ShortDesc": "a trashmonster",
+            "LongDesc": "A monster that feeds on trash is here munchin on garbage.\n",
+            "DetailedDesc": "This is one of the wierdest creatures you have ever seen.  It looks like a \nlarge octopus with one large eye on a stalk.  ",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "0d0+100",
+            "Damage": "3d5+4",
+            "Gold": 1000,
+            "XP": 2000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 25512,
+            "Aliases": [
+                "naval",
+                "officer",
+                "imperial"
+            ],
+            "ShortDesc": "a Naval Officer",
+            "LongDesc": "An Imperial Naval Officer is standing here givin orders.\n",
+            "DetailedDesc": "This officer is very nervous.  To rise in rank in Vader's navy is to have\na superior die.  One screw up and your inferiors rise in rank.  He is dressed\nin an all black uniform.  He has wrinkles and grey hair.\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 36,
+            "THAC0": 15,
+            "AC": 0,
+            "HP": "0d0+250",
+            "Damage": "2d9+30",
+            "Gold": 3000,
+            "XP": 20000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25513,
+            "Aliases": [
+                "red",
+                "royal",
+                "guard"
+            ],
+            "ShortDesc": "a Royal Guard",
+            "LongDesc": "A guard in red uniform is standing here.\n",
+            "DetailedDesc": "This is the Emperor's personal bodyguard.  He can use the force to a slight \ndegree but mainly relies upon his strength.  Dressed in his all red uniform,\nyou can't tell much about him.  The red helmet he wears has a small black\nview area in the front.  These guards are very dangerous with there force-\npikes.  Beware they always travel in twos.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE"
+            ],
+            "Alignment": -500,
+            "Level": 100,
+            "THAC0": 50,
+            "AC": -7,
+            "HP": "0d0+1000",
+            "Damage": "4d5+45",
+            "Gold": 10000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25514,
+            "Aliases": [
+                "captain",
+                "guy",
+                "rhien"
+            ],
+            "ShortDesc": "Captain Rhien",
+            "LongDesc": "The captain of the Corvette Mescue is here.\n",
+            "DetailedDesc": "This is the captain of the Corvette Mescue.  He is a tall man in his early\nforties.  His hair is just starting to grey.  He hardly ever smiles.  It\nlooks like his face was made for a permenant frown.  He looks at you as if\nyou are below his need for attention.  He needs a lesson tought to him\nand you are the person(or people) to do it.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY",
+                "NOCHARM"
+            ],
+            "Affections": [],
+            "Alignment": -400,
+            "Level": 68,
+            "THAC0": 60,
+            "AC": -10,
+            "HP": "10d10+2000",
+            "Damage": "10d5+30",
+            "Gold": 25000,
+            "XP": 40000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25515,
+            "Aliases": [
+                "Han",
+                "Solo",
+                "man",
+                "clone"
+            ],
+            "ShortDesc": "Han Solo's Clone",
+            "LongDesc": "Han Solo's clone is standing here.\n",
+            "DetailedDesc": "While the real Han Solo is away his clone fills in to keep up appearances.\nThis clone is the one you pay to take you to the Death Star.  He is very \nstrong and attacking him would not be recommended.  He is not as nice as the \nreal Han and won't take crap from anybody.  So him your money and get on\nboard.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 91,
+            "THAC0": 30,
+            "AC": -8,
+            "HP": "0d0+10000",
+            "Damage": "6d5+30",
+            "Gold": 0,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25516,
+            "Aliases": [
+                "mouse",
+                "droid",
+                "thing",
+                "box"
+            ],
+            "ShortDesc": "a mouse droid",
+            "LongDesc": "A small mouse droid gets in your way and beeps at you.\n",
+            "DetailedDesc": "Of all the annoying mobs you had to run into you had to get this one.  All\nit is is a small black box on wheels.  How it can attack is beyond anybody\nKill it, step on it growl at it, who cares, but for the Gods' sake stop\nstaring at it.  All it craves is that attention.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 9,
+            "THAC0": 10,
+            "AC": 4,
+            "HP": "0d0+100",
+            "Damage": "2d4+5",
+            "Gold": 100,
+            "XP": 500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 25517,
+            "Aliases": [
+                "laser",
+                "super",
+                "death",
+                "cannon"
+            ],
+            "ShortDesc": "the Super Laser",
+            "LongDesc": "A very long very powerful laser beam is here.\n",
+            "DetailedDesc": "Hiding until called upon to destroy, the super laser looks for something to\nblow up in the future.  You are the closest thing it's seen in a while.  This\nvery thin, very long, and very powerful laser only waits for the command to\ndestroy you.  It is a big green light basicly, but it does have the power to \nkill.  Be wary it will attack if provoked.  Good luck if you decide to\nprovoke.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSUMMON",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "UNUSED16",
+                "UNUSED17",
+                "SNEAK",
+                "HIDE"
+            ],
+            "Alignment": 0,
+            "Level": 106,
+            "THAC0": 59,
+            "AC": -15,
+            "HP": "0d0+3000",
+            "Damage": "15d15+100",
+            "Gold": 0,
+            "XP": 60000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 25518,
+            "Aliases": [
+                "dignitary",
+                "tall",
+                "healer"
+            ],
+            "ShortDesc": "a tall dignitary",
+            "LongDesc": "A very tall and regal dignitary stands here.\n",
+            "DetailedDesc": "She is the leader of a clan of healers.  She doesn't really trust the other\ndignitaries, but she has learned to accept and offer her help.  She is very\ntall, and has long flowing red hair.  She wears a combat medic bodice and\nloose fitting dark colored breeches.  If you attack her the others will \nsurely help.  Be careful.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 67,
+            "THAC0": 55,
+            "AC": -18,
+            "HP": "0d0+3000",
+            "Damage": "5d5+25",
+            "Gold": 30000,
+            "XP": 62000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 25519,
+            "Aliases": [
+                "short",
+                "dignitary",
+                "mage"
+            ],
+            "ShortDesc": "a short dignitary",
+            "LongDesc": "A short dignitary is standing here.\n",
+            "DetailedDesc": "He is short, but so what.  With his magic he can fry you pretty quick.  He\nhelps the others grudgingly becasue they help him.  Fortunately for you\nhe is weak by himself.  He is very short and has a bald head.  He wears\nhis yellow mage robes with pride.  Attack him if you must, just watch your\nback because the other dignitaries are watching his.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "SCAVENGER",
+                "ISNPC",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "UNUSED16",
+                "UNUSED17"
+            ],
+            "Alignment": 0,
+            "Level": 55,
+            "THAC0": 42,
+            "AC": -2,
+            "HP": "0d0+2000",
+            "Damage": "5d5+20",
+            "Gold": 20000,
+            "XP": 52000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25520,
+            "Aliases": [
+                "dignitary",
+                "stocky",
+                "fighter"
+            ],
+            "ShortDesc": "a stocky dignitary",
+            "LongDesc": "A stocky dignitary is here waitng for a meal.\n",
+            "DetailedDesc": "She is very well built.  Her stockiness is hidden behind her ceremonial army.\nShe likes the help of others and likes to help them.  She knows that she is\nthe strongest of the three of them.  She full well knows that she can you\ntake you on by herself.  Enjoy taking her on because she'll love killing you.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "MEMORY",
+                "HELPER",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 0,
+            "Level": 104,
+            "THAC0": 64,
+            "AC": -4,
+            "HP": "0d0+4000",
+            "Damage": "4d5+48",
+            "Gold": 40000,
+            "XP": 70000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 25589,
+            "Aliases": [
+                "Gypsy",
+                "robot"
+            ],
+            "ShortDesc": "Gypsy",
+            "LongDesc": "Gypsy drools over her Richard Bashart picture.\n",
+            "DetailedDesc": "Gypsy is a strange looking robot.  Her head is purple and she has a\nflashlight as an eye.  Her body is long and snake-like.  She was built to\nrun the higher functions of the satellite, so she can't join Mike and the\nother bots in the theatre.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 800,
+            "Level": 70,
+            "THAC0": 50,
+            "AC": -10,
+            "HP": "5d5+1050",
+            "Damage": "10d6+60",
+            "Gold": 150000,
+            "XP": 30000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 25590,
+            "Aliases": [
+                "tom",
+                "servo",
+                "robot"
+            ],
+            "ShortDesc": "Tom Servo",
+            "LongDesc": "Tom Servo hovers about singing.\n",
+            "DetailedDesc": "Tom is a squat, fire hydrant of a guy.  Actually, he looks more like a little\nred bubble-gum machine.  He floats in the air, thanks to his hoverskirt.  He\nis happy and optimistic, but has been known to get into trouble with Crow.\nHis arms look like Slinkys and are totally useless.  Thank goodness he has a\ngood singing voice because he really likes to use it.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED20"
+            ],
+            "Alignment": 750,
+            "Level": 127,
+            "THAC0": 72,
+            "AC": -30,
+            "HP": "8d8+13000",
+            "Damage": "10d10+60",
+            "Gold": 1000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 25591,
+            "Aliases": [
+                "mike",
+                "nelson",
+                "man"
+            ],
+            "ShortDesc": "Mike Nelson",
+            "LongDesc": "Mike Nelson is having his Mind monitored.\n",
+            "DetailedDesc": "Mike was a Temp hired by Dr. Forrester to help with an inventory.  When Joel\nescaped, Dr. F and TV's Frank needed a new test case, so they conked him on\nthe noggen and shot him into space.  Mike has to watch cheesy movies so Dr. F.\ncan monitor his mind.  Mike is an average looking guy, with\na buzz cut and a goofy looking grin.  Crow and Tom keep Mike from\ngoing insane.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16"
+            ],
+            "Alignment": 0,
+            "Level": 127,
+            "THAC0": 50,
+            "AC": -27,
+            "HP": "10d10+5000",
+            "Damage": "10d5+80",
+            "Gold": 25000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25592,
+            "Aliases": [
+                "crow",
+                "t.",
+                "robot",
+                "golden"
+            ],
+            "ShortDesc": "Crow T. Robot",
+            "LongDesc": "Crow T. Robot sits here crackin at the movie.\n",
+            "DetailedDesc": "Crow T. Robot is the prankster of the group, always getting into some kind of\ntrouble.  He reminds you of your little brother.  Crow is golden in color.\nHe looks like he was put together from a yard sale.  His \"hair\" is a lacross\nface mask, his mouth a bowling pin, his eyes are yellow ping-pong balls, and\nhis shoulders look like two lids from Tupperware dishes.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "MEMORY",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 750,
+            "Level": 75,
+            "THAC0": 30,
+            "AC": -26,
+            "HP": "8d8+900",
+            "Damage": "5d5+30",
+            "Gold": 1000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 25593,
+            "Aliases": [
+                "tv's",
+                "frank",
+                "man"
+            ],
+            "ShortDesc": "TV's Frank",
+            "LongDesc": "TV's Frank is pigging out on chinese food.\n",
+            "DetailedDesc": "TV's Frank is Dr. Forrester's assistant.  He is a short, stocky fella with\nbleach-blond hair that curls in front.  Frank has the personality of a game\nshow host but the confidence of a lab rat.  Speaking of which, Dr. F. has\nperformed scores of scientific experiments on Frank such as, draining all his\nblood, hooking up a generator to his heart, and removing his liver.  Torgo is\nprobably the only sidekick to have a worse boss.\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "HELPER",
+                "NOCHARM",
+                "NOSLEEP"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": -351,
+            "Level": 100,
+            "THAC0": 30,
+            "AC": -25,
+            "HP": "5d10+3000",
+            "Damage": "9d3+30",
+            "Gold": 3000,
+            "XP": 10000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 25594,
+            "Aliases": [
+                "dr.",
+                "clayton",
+                "forrester",
+                "man"
+            ],
+            "ShortDesc": "Dr. Clayton Forrester",
+            "LongDesc": "Dr. Forrester yells, 'I WILL KILL YOU!'\n",
+            "DetailedDesc": "Dr. Clayton Forrester is the epitome of mad scientists.  He even looks the\npart, hair unkept, red glasses borrowed from his talk show counterpart (Sally\nJesse Raphael), lab coat, and that weird look in his eyes.  The Gizmonic Inst.\nput him down here to keep the world safe.  He truly enjoys causing Mike, Frank\nand the bots to suffer.\n\n",
+            "Actions": [
+                "SPEC",
+                "ISNPC",
+                "NOSLEEP",
+                "NOBLIND"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION",
+                "UNUSED16"
+            ],
+            "Alignment": -1000,
+            "Level": 127,
+            "THAC0": 80,
+            "AC": -35,
+            "HP": "10d10+10000",
+            "Damage": "6d8+80",
+            "Gold": 25000,
+            "XP": 100000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}

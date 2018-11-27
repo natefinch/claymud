@@ -1,0 +1,2452 @@
+{
+    "mobs": [
+        {
+            "Number": 24500,
+            "Aliases": [
+                "imperial",
+                "scout",
+                "trooper"
+            ],
+            "ShortDesc": "the Imperial Scout",
+            "LongDesc": "An Imperial Scout is standing here.\n",
+            "DetailedDesc": "A lazy looking guard, he fingers his pistol as he looks at you suspiciously.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -450,
+            "Level": 6,
+            "THAC0": 6,
+            "AC": 4,
+            "HP": "2d5+86",
+            "Damage": "2d4+1",
+            "Gold": 300,
+            "XP": 6900,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24501,
+            "Aliases": [
+                "imperial",
+                "stormtrooper"
+            ],
+            "ShortDesc": "the Imperial Stormtrooper",
+            "LongDesc": "An Imperial Stormtrooper is here checking people's droids.\n",
+            "DetailedDesc": "An Imperial Stormtrooper, dressed in a white combat suit and armed with a \nmedium sized handblaster.  You can't see his face because of the white battle\nhelmet on his head.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 90,
+            "THAC0": 20,
+            "AC": -10,
+            "HP": "10d5+1400",
+            "Damage": "5d3+40",
+            "Gold": 3000,
+            "XP": 55000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24502,
+            "Aliases": [
+                "trainee",
+                "man"
+            ],
+            "ShortDesc": "the Imperial recruit",
+            "LongDesc": "A communications trainee is engrossed in his work here.\n",
+            "DetailedDesc": "A young man who has just joined the Imperial ranks.  The recruit is still\nlearning how to do his job, and he has been placed on this backworld \noutpost where he can train without doing any permanent damage to the \ncommunications relays.  He is dressed in a jumpsuit of dark gray and has\na small blue square of rank on his chest.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 5,
+            "THAC0": 4,
+            "AC": 5,
+            "HP": "2d5+61",
+            "Damage": "2d4+0",
+            "Gold": 1255,
+            "XP": 5025,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24503,
+            "Aliases": [
+                "black",
+                "droid"
+            ],
+            "ShortDesc": "the large black droid",
+            "LongDesc": "A large black droid is here to guide in unexpected arrivals.\n",
+            "DetailedDesc": "A large, humanoid droid of polished black metal.  It is only here in case\nof a real emergency.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 7,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "2d6+73",
+            "Damage": "1d8+1",
+            "Gold": 50,
+            "XP": 6000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24504,
+            "Aliases": [
+                "droid",
+                "probe"
+            ],
+            "ShortDesc": "the Imperial Probe Droid",
+            "LongDesc": "An Imperial Probe Droid lies against the wall, gathering dust.\n",
+            "DetailedDesc": "A huge spider-like chunk of grey metal bristling with sensors, this is a\nstandard Imperial Probe Droid.  Long metal legs lie folded beneath it on\nthe storeroom floor.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 11,
+            "AC": 2,
+            "HP": "2d6+148",
+            "Damage": "2d7+1",
+            "Gold": 1000,
+            "XP": 11625,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24505,
+            "Aliases": [
+                "the",
+                "Post",
+                "Commander"
+            ],
+            "ShortDesc": "the Post Commander",
+            "LongDesc": "The commander of the Imperial garrison is here filing reports.\n",
+            "DetailedDesc": "A stocky man in a coal black uniform, he is busily filling out requisition\nforms.  Though he is the commander of the planetary garison he is still\nrather lowly ranked.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -350,
+            "Level": 19,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "2d5+136",
+            "Damage": "5d4+5",
+            "Gold": 1050,
+            "XP": 16335,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24506,
+            "Aliases": [
+                "drizzle",
+                "mcgee"
+            ],
+            "ShortDesc": "'Drizzle' McGee",
+            "LongDesc": "'Drizzle' McGee is standing here, selling water from the collection chambers.\n",
+            "DetailedDesc": "If anyone on Tatooine understands the vapor collectors, it's Drizzle Mcgee...\nHe has been working with them since he was 10, and can manage them even \nwithout the help of a droid.  Drizzle earns his living selling water to the\ntownsfolk.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 47,
+            "THAC0": 24,
+            "AC": -5,
+            "HP": "5d29+801",
+            "Damage": "9d5+20",
+            "Gold": 20000,
+            "XP": 62535,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24507,
+            "Aliases": [
+                "droid",
+                "bouncer",
+                "large",
+                "man"
+            ],
+            "ShortDesc": "the Droid Bouncer",
+            "LongDesc": "A large man leans against the wall on a stool.\n",
+            "DetailedDesc": "This brawny man has been hired by the owners of the Cantina to keep\npeople from bringing in their droids (who don't drink) and taking up\nunnecessary space.  He smiles and cracks his knuckles when he sees\nyou looking at him.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 150,
+            "Level": 31,
+            "THAC0": 21,
+            "AC": -3,
+            "HP": "4d12+501",
+            "Damage": "4d6+4",
+            "Gold": 10000,
+            "XP": 36135,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24508,
+            "Aliases": [
+                "Tar",
+                "Lup"
+            ],
+            "ShortDesc": "Tar Lup, the Mos Eisley General Store owner",
+            "LongDesc": "Tar Lup is waiting behind the counter, anxious to sell you something.\n",
+            "DetailedDesc": "Tar Lup is a heavy man.  He rarely leaves the shaded confines of his\ngeneral store.  He seems to run a pretty stead business.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 300,
+            "Level": 25,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "2d6+248",
+            "Damage": "5d5+5",
+            "Gold": 7500,
+            "XP": 26235,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24509,
+            "Aliases": [
+                "receptionist",
+                "man"
+            ],
+            "ShortDesc": "the Receptionist",
+            "LongDesc": "A snooty looking receptionist is standing here, looking down his nose at you.\n",
+            "DetailedDesc": "The receptionist looks at you and sneers with contempt.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 46,
+            "THAC0": 22,
+            "AC": -4,
+            "HP": "4d12+601",
+            "Damage": "6d6+10",
+            "Gold": 11857,
+            "XP": 60885,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24510,
+            "Aliases": [
+                "bellhop",
+                "boy"
+            ],
+            "ShortDesc": "the Bellhop",
+            "LongDesc": "A bellhop in a bright red uniform waits to take your bags.\n",
+            "DetailedDesc": "A young boy in a red uniform with gold epaulets.  He has a shifty look (the\nsame one you have seen on most of the denizens of Mos Eisley.)  A hefty tip\nmight ensure the welfare of your belongings (and it might not).\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 3,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "2d5+36",
+            "Damage": "1d7+0",
+            "Gold": 60,
+            "XP": 3150,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24511,
+            "Aliases": [
+                "manager",
+                "man"
+            ],
+            "ShortDesc": "the Manager",
+            "LongDesc": "The manager of the hotel is seated at his desk, worrying over some reports.\n",
+            "DetailedDesc": "The manager is careworn and has grown old before his time because of\nthe weighty responsibilities of his job.  Right now he is glancing\nthrough some of the many status reports he receives from his employees\nabout the conditions of the inn.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 9,
+            "AC": 2,
+            "HP": "2d6+123",
+            "Damage": "2d6+1",
+            "Gold": 1031,
+            "XP": 4125,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24512,
+            "Aliases": [
+                "Greedo"
+            ],
+            "ShortDesc": "Greedo",
+            "LongDesc": "A compact being with green skin is sitting in the booth.\n",
+            "DetailedDesc": "Greedo is one of the many bounty hunters hired by Jabba the Hutt to \ncapture or kill Han Solo.  With his multifaceted eyes, skull-ridge\nspines, flexible snout and dusky green skin Greedo is a perfect\nexample of his species, the Rodians.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -900,
+            "Level": 52,
+            "THAC0": 22,
+            "AC": -4,
+            "HP": "4d12+601",
+            "Damage": "6d6+15",
+            "Gold": 20000,
+            "XP": 94050,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24513,
+            "Aliases": [
+                "wookie",
+                "chalamun",
+                "owner"
+            ],
+            "ShortDesc": "Chalamun",
+            "LongDesc": "Chalamun, owner of the bar, is standing here polishing a glass.\n",
+            "DetailedDesc": "\nChalamun, a 7'8\" Wookie, is standing here keeping a watchful eye on his\ncustomers.  You can't help but overhearing two smugglers making an illicit\ndeal on behind him at the bar, however, if he heard he shows no signs of \ndoing anything about it.  Perhaps that's how he's kept his business thriving\nfor so long.  He notices you peering at him and he grunts a loud NRAWWWUN!\nand nods at you, signaling the universal greeting in Kashyyykese.\n\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 79,
+            "THAC0": 24,
+            "AC": -5,
+            "HP": "5d29+801",
+            "Damage": "9d5+25",
+            "Gold": 25000,
+            "XP": 131400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24514,
+            "Aliases": [
+                "jawa"
+            ],
+            "ShortDesc": "a Jawa",
+            "LongDesc": "A Jawa is here chattering excitedly.\n",
+            "DetailedDesc": "It's a Jawa... not a lot can be said for it except that it really smells\nawful!\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 10,
+            "THAC0": 9,
+            "AC": 2,
+            "HP": "2d6+123",
+            "Damage": "2d6+1",
+            "Gold": 1100,
+            "XP": 9750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24515,
+            "Aliases": [
+                "hammerhead",
+                "iggjel",
+                "ithorian"
+            ],
+            "ShortDesc": "Iggjel",
+            "LongDesc": "Iggjel the Ithorian is sitting here drinking in silence.\n",
+            "DetailedDesc": "Iggjel is a perfectly characteristic Ithorian.  He has a long, curving\nneck and two mouths, one on each side of his broad head.  Having two\nmouths gives his speech a strange \"stereo\" effect.  Despite their\ntheir fearsome appearance, Ithorians are a gentle and peace-loving race.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 450,
+            "Level": 35,
+            "THAC0": 20,
+            "AC": -3,
+            "HP": "4d12+451",
+            "Damage": "9d4+10",
+            "Gold": 11500,
+            "XP": 42735,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24516,
+            "Aliases": [
+                "ugly",
+                "ruffian"
+            ],
+            "ShortDesc": "an ugly ruffian",
+            "LongDesc": "An ugly ruffian is at the bar trying to pick a fight.\n",
+            "DetailedDesc": "A brawny man in a wrinkled white jumpsuit accosts you.  He looks like\nhe has seen the losing end of very few fights.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -500,
+            "Level": 14,
+            "THAC0": 14,
+            "AC": 1,
+            "HP": "2d5+186",
+            "Damage": "2d8+2",
+            "Gold": 3000,
+            "XP": 14400,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24517,
+            "Aliases": [
+                "young",
+                "man"
+            ],
+            "ShortDesc": "a young man",
+            "LongDesc": "A young man is here coughing on his drink.\n",
+            "DetailedDesc": "This young man has come into Mos Eisley for the very first time.  His\nolder friends are trying to get him drunk.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 7,
+            "THAC0": 6,
+            "AC": 4,
+            "HP": "2d5+86",
+            "Damage": "2d4+1",
+            "Gold": 300,
+            "XP": 2145,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24518,
+            "Aliases": [
+                "older",
+                "man"
+            ],
+            "ShortDesc": "an older man",
+            "LongDesc": "An older man claps the young man on the back and laughs.\n",
+            "DetailedDesc": "",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 150,
+            "Level": 8,
+            "THAC0": 7,
+            "AC": 3,
+            "HP": "2d6+98",
+            "Damage": "2d5+1",
+            "Gold": 400,
+            "XP": 2805,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24519,
+            "Aliases": [
+                "droid",
+                "guardian"
+            ],
+            "ShortDesc": "the guardian droid",
+            "LongDesc": "A terrifying droid stands here, guarding the safe.\n",
+            "DetailedDesc": "This fearsome creation stands 8 feet tall.  It's appearance is slightly boxlike\nand it has horrible looking claws where hands would be on a human.  It hums\nwith an inner energy, and comes towards you.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 32,
+            "THAC0": 20,
+            "AC": -3,
+            "HP": "4d12+451",
+            "Damage": "6d5+10",
+            "Gold": 0,
+            "XP": 37785,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24520,
+            "Aliases": [
+                "customs",
+                "officer"
+            ],
+            "ShortDesc": "the customs officer",
+            "LongDesc": "A custom officer asks you if you have anything to declare.\n",
+            "DetailedDesc": "This man is in charge of making sure noone smuggles anything into or out of\nMos Eisley.  What he DOES is rake in a percentage from the smugglers, while\nbusting enough small timers to keep his job.  \n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 15,
+            "THAC0": 12,
+            "AC": 2,
+            "HP": "2d5+161",
+            "Damage": "2d7+1",
+            "Gold": 1920,
+            "XP": 9735,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24521,
+            "Aliases": [
+                "recruiter",
+                "woman",
+                "recruitment",
+                "officer"
+            ],
+            "ShortDesc": "the recruitment officer",
+            "LongDesc": "A recruitment officer is standing here, encouraging you to enlist.\n",
+            "DetailedDesc": "This young woman is devoted to showing you the joys of being in the\nTatooine Militia.  Believing any of her propaganda would be very  unhealthy\nto your future.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 9,
+            "AC": 2,
+            "HP": "2d6+123",
+            "Damage": "2d6+1",
+            "Gold": 1000,
+            "XP": 4125,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 24522,
+            "Aliases": [
+                "honor",
+                "honour",
+                "guard",
+                ""
+            ],
+            "ShortDesc": "the honor guard",
+            "LongDesc": "An honor guard from the Tatooine Militia is standing at attention.\n",
+            "DetailedDesc": "These guards are part of the elite forces of the Mos Eisley regiment of the\nTatooine Militia.  They have spent half their lives dealing with scum like you\nand will keep the peace at all costs.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 29,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "2d6+248",
+            "Damage": "3d6+4",
+            "Gold": 2000,
+            "XP": 32835,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24523,
+            "Aliases": [
+                "drunk",
+                "sleeping"
+            ],
+            "ShortDesc": "the drunk",
+            "LongDesc": "A drunk has fallen asleep on the stairs here.\n",
+            "DetailedDesc": "This poor dervish might have been tossed out of the Cantina, or he might\nhave just passed out on his way in.  \n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -300,
+            "Level": 5,
+            "THAC0": 4,
+            "AC": 5,
+            "HP": "2d5+61",
+            "Damage": "2d4+0",
+            "Gold": 3,
+            "XP": 825,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24524,
+            "Aliases": [
+                "Arachnoid",
+                "ruffian"
+            ],
+            "ShortDesc": "the arachnoid ruffian",
+            "LongDesc": "A hulking ruffian with the head of a spider is here egging on his pal.\n",
+            "DetailedDesc": "The guy is absolutely hideous!  An ugly spider's head rests on the\nshoulders of this bulky brute.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -350,
+            "Level": 13,
+            "THAC0": 13,
+            "AC": 1,
+            "HP": "2d6+173",
+            "Damage": "2d8+1",
+            "Gold": 2200,
+            "XP": 6435,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24525,
+            "Aliases": [
+                "small-time",
+                "smuggler"
+            ],
+            "ShortDesc": "a small-time smuggler",
+            "LongDesc": "A small-time smuggler wanders through the crowd.\n",
+            "DetailedDesc": "The guy is just trying to make an honest living smuggling contraband in\nand out of the system.  To the large operations in the system he's little\nbetter than cannon fodder to throw to the Imperials in the customs office.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 150,
+            "Level": 10,
+            "THAC0": 9,
+            "AC": 2,
+            "HP": "2d6+123",
+            "Damage": "2d6+1",
+            "Gold": 1050,
+            "XP": 4125,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24526,
+            "Aliases": [
+                "card",
+                "shark",
+                "slick",
+                "operator"
+            ],
+            "ShortDesc": "a Card Shark",
+            "LongDesc": "A slick operator is here winning money from the locals.\n",
+            "DetailedDesc": "The guy is just too lucky at cards!  No one wins THAT much!\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -230,
+            "Level": 17,
+            "THAC0": 17,
+            "AC": 0,
+            "HP": "2d6+223",
+            "Damage": "3d6+2",
+            "Gold": 6000,
+            "XP": 13035,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24527,
+            "Aliases": [
+                "local",
+                "man"
+            ],
+            "ShortDesc": "a local man",
+            "LongDesc": "A man from the desert near Mos Eisley is here losing at cards.\n",
+            "DetailedDesc": "The poor guy is losing an awful lot of money to that card shark... another\nhalf hour of this and he could lose his farm!\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 50,
+            "Level": 8,
+            "THAC0": 8,
+            "AC": 3,
+            "HP": "2d5+111",
+            "Damage": "2d5+1",
+            "Gold": 200,
+            "XP": 2805,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24528,
+            "Aliases": [
+                "drunk",
+                "spaceman"
+            ],
+            "ShortDesc": "a drunk spaceman",
+            "LongDesc": "A drunk spaceman is here slumped over on the bar.\n",
+            "DetailedDesc": "The poor spacer has had way too many drinks.  You sure don't envy him for\nthe nice hangover he's sure to wake up with.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 100,
+            "Level": 8,
+            "THAC0": 8,
+            "AC": 3,
+            "HP": "2d5+111",
+            "Damage": "2d5+1",
+            "Gold": 500,
+            "XP": 2805,
+            "LoadPosition": "POSITION_SLEEPING",
+            "DefaultPosition": "POSITION_SLEEPING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24529,
+            "Aliases": [
+                "man",
+                "desert"
+            ],
+            "ShortDesc": "a man from the desert",
+            "LongDesc": "A man from the desert is in here to quench his thirst.\n",
+            "DetailedDesc": "Desert sand still clings stubbornly to the hem of his cloak.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 10,
+            "Level": 14,
+            "THAC0": 10,
+            "AC": 2,
+            "HP": "2d5+136",
+            "Damage": "2d6+1",
+            "Gold": 1300,
+            "XP": 8085,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24530,
+            "Aliases": [
+                "Orun",
+                "Depp"
+            ],
+            "ShortDesc": "Orun Depp",
+            "LongDesc": "Orun Depp is here sifting through some land deeds.\n",
+            "DetailedDesc": "This thin fellow got to where he is today by backstabbing everyone who\never thought he was their friend.  Definately not a man you can trust.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 35,
+            "THAC0": 22,
+            "AC": -4,
+            "HP": "4d12+601",
+            "Damage": "5d5+10",
+            "Gold": 15000,
+            "XP": 42735,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24531,
+            "Aliases": [
+                "officer",
+                "junior",
+                "imperial"
+            ],
+            "ShortDesc": "the Imperial junior officer",
+            "LongDesc": "An Imperial junior officer looks at you nervously.\n",
+            "DetailedDesc": "The junior officer looks like he feels out of place among the local\npopulation... probably another conscript from out of the system.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -400,
+            "Level": 17,
+            "THAC0": 13,
+            "AC": 1,
+            "HP": "2d6+173",
+            "Damage": "2d8+1",
+            "Gold": 2500,
+            "XP": 13035,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24532,
+            "Aliases": [
+                "secretary",
+                "girl",
+                "pretty"
+            ],
+            "ShortDesc": "a pretty secretary",
+            "LongDesc": "A pretty secretary is here, blinking at her supervisor.\n",
+            "DetailedDesc": "The secretary is young and skilled at her work.  Boy can she type!\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 3,
+            "THAC0": 2,
+            "AC": 7,
+            "HP": "2d5+36",
+            "Damage": "1d7+0",
+            "Gold": 60,
+            "XP": 495,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 24533,
+            "Aliases": [
+                "hulking",
+                "alien"
+            ],
+            "ShortDesc": "the hulking alien",
+            "LongDesc": "A hulking alien lumbers through the throng.\n",
+            "DetailedDesc": "This alien is huge and only vaguely humanoid.  Her long, thick neck \nis dwarfed by her massive shoulders.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -250,
+            "Level": 30,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "2d6+248",
+            "Damage": "9d4+9",
+            "Gold": 7500,
+            "XP": 26565,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 24534,
+            "Aliases": [
+                "imperial",
+                "spy"
+            ],
+            "ShortDesc": "the Imperial spy",
+            "LongDesc": "A suspicious looking alien lurks in the shadows.\n",
+            "DetailedDesc": "A thin little alien in a deep grey robe who is trying to fade into the\ncrowd. She seems to take an unhealthy interest in everything.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -360,
+            "Level": 4,
+            "THAC0": 3,
+            "AC": 6,
+            "HP": "2d6+48",
+            "Damage": "1d8+0",
+            "Gold": 90,
+            "XP": 6600,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 24535,
+            "Aliases": [
+                "a",
+                "pickpocket"
+            ],
+            "ShortDesc": "a skinny pickpocket",
+            "LongDesc": "A thin man with shifty eyes avoids your gaze.\n",
+            "DetailedDesc": "The slim man avoids your gaze and tries to melt into the crowd.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 5,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "2d6+73",
+            "Damage": "1d8+1",
+            "Gold": 240,
+            "XP": 825,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24536,
+            "Aliases": [
+                "alien",
+                "skinny"
+            ],
+            "ShortDesc": "the skinny alien",
+            "LongDesc": "A tall, skinny alien looks at you and snickers.\n",
+            "DetailedDesc": "This strange looking creature has what appears to be a large foot growing \nout of the top of his head.  \n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 10,
+            "THAC0": 9,
+            "AC": 2,
+            "HP": "2d6+123",
+            "Damage": "2d6+1",
+            "Gold": 1200,
+            "XP": 4125,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24537,
+            "Aliases": [
+                "large",
+                "wookie"
+            ],
+            "ShortDesc": "a Wookie",
+            "LongDesc": "A huge Wookie is standing here talking to a smuggler.\n",
+            "DetailedDesc": "The Wookie is huge!  Better not piss him off... Wookies have been known\nto tear peoples' arms out of their sockets when they get annoyed.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 300,
+            "Level": 35,
+            "THAC0": 21,
+            "AC": -3,
+            "HP": "4d12+501",
+            "Damage": "8d5+10",
+            "Gold": 13000,
+            "XP": 39525,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24538,
+            "Aliases": [
+                "tall",
+                "alien"
+            ],
+            "ShortDesc": "the tall alien",
+            "LongDesc": "A tall alien is here sipping a strange drink.\n",
+            "DetailedDesc": "This alien is absorbed in drinking a foul-looking concoction.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -300,
+            "Level": 18,
+            "THAC0": 13,
+            "AC": 1,
+            "HP": "2d6+173",
+            "Damage": "2d8+1",
+            "Gold": 2300,
+            "XP": 14685,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 24539,
+            "Aliases": [
+                "droid",
+                "small",
+                "robot"
+            ],
+            "ShortDesc": "the small, spherical droid",
+            "LongDesc": "A spherical little droid imperiously shouts demands at you.\n",
+            "DetailedDesc": "The little droid is coated with a film of powdery sand.  Large sensors\ntotally cover its front side.  You have just been scanned for weapons.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 18,
+            "THAC0": 14,
+            "AC": 1,
+            "HP": "2d5+186",
+            "Damage": "2d8+2",
+            "Gold": 2000,
+            "XP": 14685,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24540,
+            "Aliases": [
+                "trader"
+            ],
+            "ShortDesc": "the Trader",
+            "LongDesc": "A prosperous looking man looks at you suspiciously.\n",
+            "DetailedDesc": "He is well dressed and appears to be a prosperous merchant.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 300,
+            "Level": 10,
+            "THAC0": 9,
+            "AC": 2,
+            "HP": "2d6+123",
+            "Damage": "2d6+1",
+            "Gold": 1100,
+            "XP": 4125,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24541,
+            "Aliases": [
+                "bodyguard"
+            ],
+            "ShortDesc": "the bodyguard",
+            "LongDesc": "A strong looking man is here to protect the trader's interests.\n",
+            "DetailedDesc": "The bodyguard looks quite impressive.  He has bulging muscles and a very\nunpleasant scowl on his battered face.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 700,
+            "Level": 25,
+            "THAC0": 15,
+            "AC": 1,
+            "HP": "2d6+198",
+            "Damage": "3d8+10",
+            "Gold": 3500,
+            "XP": 26235,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24542,
+            "Aliases": [
+                "band",
+                "strange",
+                "member",
+                ""
+            ],
+            "ShortDesc": "a strange band member",
+            "LongDesc": "A member of the band is here playing an upbeat tune.\n",
+            "DetailedDesc": "The alien has a huge domed forehead and large black eyes.  He is playing\nsome of the BEST music you have ever heard on a strange instrument.  The\nband member doesn't look too tough... but then there are a lot of them\nin the band...\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 910,
+            "Level": 32,
+            "THAC0": 20,
+            "AC": -1,
+            "HP": "5d17+261",
+            "Damage": "9d4+10",
+            "Gold": 9250,
+            "XP": 22605,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24543,
+            "Aliases": [
+                "mouse"
+            ],
+            "ShortDesc": "a mouse",
+            "LongDesc": "A little mouse scurries for the corner.\n",
+            "DetailedDesc": "The little brown mouse sees you and runs for cover.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 1,
+            "THAC0": 0,
+            "AC": 9,
+            "HP": "2d5+11",
+            "Damage": "1d5+0",
+            "Gold": 0,
+            "XP": 66,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24544,
+            "Aliases": [
+                "swivel",
+                "cannon"
+            ],
+            "ShortDesc": "the Swivel Cannon",
+            "LongDesc": "A huge swivel cannon is covering you from the shadows under the Falcon.\n",
+            "DetailedDesc": "The large cannon sticks out of the Falcon from a concealed port on\nthe bottom of the vessel.  It covers your movements with uncanny\nease. To get to the Falcon you'll have to go through it!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 45,
+            "THAC0": 21,
+            "AC": -3,
+            "HP": "4d12+501",
+            "Damage": "10d5+10",
+            "Gold": 0,
+            "XP": 39750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24545,
+            "Aliases": [
+                "stormtrooper",
+                "imperial",
+                "guard"
+            ],
+            "ShortDesc": "the Imperial Stormtrooper",
+            "LongDesc": "An Imperial Stormtrooper is here guarding the ships.\n",
+            "DetailedDesc": "An Imperial Stormtrooper, dressed in a white combat suit and armed with a\nmedium sized handblaster.  You can't see his face because of the white battle\nhelmet on his head.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 90,
+            "THAC0": 22,
+            "AC": -11,
+            "HP": "20d6+1400",
+            "Damage": "4d5+40",
+            "Gold": 5100,
+            "XP": 50000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24546,
+            "Aliases": [
+                "Imperial",
+                "stormtrooper"
+            ],
+            "ShortDesc": "the Imperial Stormtrooper",
+            "LongDesc": "An Imperial Stormtrooper patrols the noisy Cantina.\n",
+            "DetailedDesc": "An Imperial Stormtrooper, dressed in a white combat suit and armed with a\nmedium sized handblaster.  You can't see his face because of the white battle\nhelmet on his head.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 91,
+            "THAC0": 24,
+            "AC": -8,
+            "HP": "30d5+1500",
+            "Damage": "4d5+40",
+            "Gold": 3000,
+            "XP": 45000,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24547,
+            "Aliases": [
+                "rancor"
+            ],
+            "ShortDesc": "the Rancor",
+            "LongDesc": "A hissing, savage Rancor lurks nearby, jaws glistening with slobber.\n",
+            "DetailedDesc": "\nTowering high above you, you see a ferocious, snarling Rancor.  Sniffing the\nair, it notices your presence, throws back its head and lets out a loud roar.\nIt opens its jaws and snaps them shut over and over, while reaching towards\nyou with its 4-clawed hands.  A glistening drop of slobber forms at the\nRancor's mouth as it lurches toward you, mistaking you for its next dinner...\n\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 113,
+            "THAC0": 40,
+            "AC": -9,
+            "HP": "8d62+3001",
+            "Damage": "10d10+5",
+            "Gold": 0,
+            "XP": 171435,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24548,
+            "Aliases": [
+                "man",
+                "keeper",
+                "owner",
+                "rancor"
+            ],
+            "ShortDesc": "the Rancor Keeper",
+            "LongDesc": "A large husky man, wearing a hood is here guarding his pet Rancor.\n",
+            "DetailedDesc": "\nA large husky man is standing here, beside the gate, protecting the entrance\nto his pet Rancor.  A slimey key is hung around his neck, it appears if you\nwant to kill his pet, you have to go through him first, and he doesn't look\ntoo happy to see your intent to kill his pet.\n\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 24,
+            "THAC0": 14,
+            "AC": 1,
+            "HP": "2d5+186",
+            "Damage": "10d2+10",
+            "Gold": 0,
+            "XP": 24585,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24549,
+            "Aliases": [
+                "jabba",
+                "hutt",
+                "gangster"
+            ],
+            "ShortDesc": "Jabba the Hutt",
+            "LongDesc": "The vile gangster, Jabba the Hutt lies here on his repulsorsled, eating a frog.\n",
+            "DetailedDesc": "Jabba the Hutt sits here on his large repulsorsled, surveying the decadence\nand scum he has assembled under his allegiance.  He reaches over beside him\nand grabs a slimey frog-like creature from a bowl, and tosses it into his\nlarge, open mouth.  Everything about this Hutt disgusts you, from the lingering\nstench that surrounds him, to his slug-like appearance.  Growing impatient\nat having an unwanted audience, he begins to flick his tail in annoyance.\nHe levels his glare at you and says, 'Da Eitha! Boscka!' and reaches for a\nbutton on his sled...\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": -1000,
+            "Level": 96,
+            "THAC0": 40,
+            "AC": -7,
+            "HP": "7d42+1801",
+            "Damage": "9d9+10",
+            "Gold": 40000,
+            "XP": 143385,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24550,
+            "Aliases": [
+                "fett",
+                "boba",
+                "bounty",
+                "hunter"
+            ],
+            "ShortDesc": "Boba Fett",
+            "LongDesc": "The relentless bounty-hunter, Boba Fett stands here, leaning against the wall.\n",
+            "DetailedDesc": "His reputation preceeds him.  He is Boba Fett, one of the Galaxy's best\nbounty-hunters.  His battle-worn Mandalorian battle armor has scratches\nfrom various firefights and smuggling missions.  Having first donned his\narmor in the Clone Wars, and in his service to the Empire in extinguishing\nthe Jedi, Boba Fett has created quite a name for himself.  A man of few words,\nhe leans against the wall, carefully sizing up whoever grabs his attention.\nSeeing your intent to stir up problems for Jabba he arms his targetting \ncomputer and prepares for any disturbances.\n\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_INVIS",
+                "SANCTUARY",
+                "SNEAK"
+            ],
+            "Alignment": -1000,
+            "Level": 115,
+            "THAC0": 40,
+            "AC": -8,
+            "HP": "7d42+2401",
+            "Damage": "8d12+8",
+            "Gold": 50000,
+            "XP": 403725,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24551,
+            "Aliases": [
+                "obnoxious",
+                "smurf"
+            ],
+            "ShortDesc": "an obnoxious smurf",
+            "LongDesc": "A squat blue creature eyes you suspiciously.\n",
+            "DetailedDesc": "He's blue.\nHe's an unindustrious good for nothing.\nHe's about three apples high.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -250,
+            "Level": 32,
+            "THAC0": 21,
+            "AC": -4,
+            "HP": "4d12+551",
+            "Damage": "4d6+5",
+            "Gold": 13000,
+            "XP": 37785,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24552,
+            "Aliases": [
+                "prosperous",
+                "smuggler"
+            ],
+            "ShortDesc": "a prosperous smuggler",
+            "LongDesc": "A prosperous looking smuggler looks at you curiously.\n",
+            "DetailedDesc": "The smuggler is dressed in high-quality (though quite filthy) clothing\nand seems to be very good at his livelyhood.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 25,
+            "THAC0": 20,
+            "AC": -1,
+            "HP": "5d17+261",
+            "Damage": "3d7+4",
+            "Gold": 8000,
+            "XP": 26235,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24553,
+            "Aliases": [
+                "scruffy",
+                "smuggler"
+            ],
+            "ShortDesc": "a scruffy smuggler",
+            "LongDesc": "A scruffy looking smuggler leers evilly at you.\n",
+            "DetailedDesc": "A rather unextrodinary looking man.  He laughs evilly when he sees you\nlooking at him and winks suggestively.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 24,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "2d6+248",
+            "Damage": "3d6+4",
+            "Gold": 3500,
+            "XP": 26235,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24554,
+            "Aliases": [
+                "man",
+                "crazy",
+                "ben",
+                "kenobi",
+                "obiwan"
+            ],
+            "ShortDesc": "Obi-Wan \"Ben\" Kenobi",
+            "LongDesc": "A crazy looking, old man wanders around here in his shabby looking cloak.\n",
+            "DetailedDesc": "Looking like a hermit, Ben Kenobi has liven a solitary life in harmony with\nthe Force, after the great Jedi Purge the Emperor ordered.  He stays out in\nthe desert to avoid drawing attention to his brother Owen and Luke their \nadopted son.  Darth Vader and the Emperor want Kenobi dead and would stop at\nnothing if they knew he still existed, thus, he lives the life of a hermit.\nCloaked in a heavy, dusty, brown cloak, Kenobi rests his tired bones and\nfocuses on a jedi meditation exercise in order to prepare himself for the\nupcoming battle.\n\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 104,
+            "THAC0": 40,
+            "AC": -8,
+            "HP": "7d42+2401",
+            "Damage": "9d10+9",
+            "Gold": 40000,
+            "XP": 403725,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24555,
+            "Aliases": [
+                "princess",
+                "leia",
+                "organa"
+            ],
+            "ShortDesc": "Princess Leia Organa",
+            "LongDesc": "Princess Leia Organa is here, chained to Jabba.\n",
+            "DetailedDesc": "A stunningly beautiful woman, Princess Leia sits here chained to the \ndisgusting Jabba the Hutt.  Upon being captured for impersonating Boushh\nand freeing Han Solo from his carbonite imprisonment, Jabba made her his\nslave girl.  Leia edges away from the advances of Jabba, only to have the\nchain around her neck pulled and being dragged to that slimey tongue\nsticking out from Jabba's mouth.  Yet, for some strange reason, she hasn't\nlost hope, perhaps it's because she's one of the Rebellion's leaders and\nhas confidence in her brother Luke's plan to free them all from Jabba.\n\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 900,
+            "Level": 86,
+            "THAC0": 40,
+            "AC": -5,
+            "HP": "5d29+801",
+            "Damage": "5d20+5",
+            "Gold": 23000,
+            "XP": 126885,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 24556,
+            "Aliases": [
+                "bib",
+                "fortuna"
+            ],
+            "ShortDesc": "Bib Fortuna",
+            "LongDesc": "Bib Fortuna is here running an errand.\n",
+            "DetailedDesc": "A member of the Twi'lek species, Bib Fortuna is a perfect example of his\nrace.  Cloaked in his dusty black robe, Bib serves as Jabba's right hand man.\nFrom the back of his head, two long head-tails wrap around his shoulders in\nthe traditional Twi'lek fashion.  Noting your intention to bother his master,\nBib walks towards you and says, 'Die wanna wanaga.  Nee Jabba no badda.\nMe chaade su goodie' and makes a sweeping motion at all your possessions.\nApparently he is threatening your death if you do not hand over all your \nitems.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -600,
+            "Level": 50,
+            "THAC0": 21,
+            "AC": -4,
+            "HP": "4d12+551",
+            "Damage": "10d5+10",
+            "Gold": 13000,
+            "XP": 67485,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24557,
+            "Aliases": [
+                "salacious",
+                "crumb"
+            ],
+            "ShortDesc": "Salacious Crumb",
+            "LongDesc": "Salacious Crumb is here cackling evilly and looking for food dropped by Jabba.\n",
+            "DetailedDesc": "Salacious Crumb is a vile little Kowakian monkey-lizard.  He is a greatly\nfavored member of Jabba the Hutt's degenerate court and always found near\nhis disgusting master, snatching up and eating any morsels that fall from\nhis mouth.  Salacious Crumb's habit of mimicking everything said around\nhim makes him EXTREMELY annoying!\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -800,
+            "Level": 28,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "2d6+248",
+            "Damage": "6d6+6",
+            "Gold": 7000,
+            "XP": 31185,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24558,
+            "Aliases": [
+                "Boushh"
+            ],
+            "ShortDesc": "Boushh",
+            "LongDesc": "Boushh the Bounty Hunter is here to collect a reward.\n",
+            "DetailedDesc": "Something about this bounty hunter doesn't strike you as being right.\nAt a mere 5'5\", this hunter claims to have captured the powerful Wookie\nnamed Chewbacca.  He's wearing an Ubese battle outfit, and carries a \nthermal detonator.  Seeing your interest in him, he holds the detonator\nout towards you and says, 'back away or they'll be picking your smelly\nhide out of every crack in this room'  The raspy metallic voice doesn't\nshow any signs of bluff, and it looks as if he might actually do it.\n\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 300,
+            "Level": 61,
+            "THAC0": 22,
+            "AC": -4,
+            "HP": "4d12+601",
+            "Damage": "7d5+15",
+            "Gold": 16500,
+            "XP": 85635,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24559,
+            "Aliases": [
+                "bounty",
+                "hunter",
+                "lethal"
+            ],
+            "ShortDesc": "a lethal bounty hunter",
+            "LongDesc": "An absolutely lethal looking bounty hunter stands here laughing.\n",
+            "DetailedDesc": "This bounty hunter is tall and thin.  He carries with him the absolutely\nlethal stench of death and decay wherever he goes.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -360,
+            "Level": 40,
+            "THAC0": 23,
+            "AC": -4,
+            "HP": "4d12+651",
+            "Damage": "9d5+9",
+            "Gold": 18000,
+            "XP": 24750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24560,
+            "Aliases": [
+                "crusher",
+                "geek",
+                "kid"
+            ],
+            "ShortDesc": "Wesley Crusher",
+            "LongDesc": "A short, scrawny kid dressed in a blue jumpsuit stands here nervously, whining.\n",
+            "DetailedDesc": "Wesley Crusher stands here nervously scuffing his foot, while trying to\nfigure out how he can get out of the predicament he is in.  He sees you and\nbegins to babble in some pseudo-technical explanation of how something named\nthe Enterprise had \"transported\" him down to this planet and said never to\nbother coming back.  Becoming frustrated at being more intellectually\ncompetent than you are he begins to fool around with some small object in his\nhand.  You feel the EXTREME urge to kill him, and FAST!\n\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 33,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "2d6+248",
+            "Damage": "10d5+10",
+            "Gold": 700,
+            "XP": 39435,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24561,
+            "Aliases": [
+                "gonk!!!!",
+                "box"
+            ],
+            "ShortDesc": "Gonk",
+            "LongDesc": "A small, black box with feet is walking in a circle here, gonking..\n",
+            "DetailedDesc": "\nThis small power droid saved the Universe.  Yes, it's the story of the \nalmighty Gonk!!!!  Allowing himself to be tortured in Jabba's Palace (saving\nR2 from the same fate), Gonk made R2 availible to give Luke his saber on the\nSail Skiff.  This self-less action of Gonk ended up saving the Galaxy from\nthe evil clutches of the Empire.  Only a mere power droid, Gonk saves the \nworld and still has time to power up a few droids along the way.\n\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 30,
+            "THAC0": 20,
+            "AC": -3,
+            "HP": "4d12+451",
+            "Damage": "3d9+3",
+            "Gold": 1,
+            "XP": 34500,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24562,
+            "Aliases": [
+                "A",
+                "grimy",
+                "bounty",
+                "hunter"
+            ],
+            "ShortDesc": "the grimy bounty hunter",
+            "LongDesc": "A grimy bounty hunter scratches at her fleas.\n",
+            "DetailedDesc": "A slight bounty hunter in grimy armor stands here scratching idly at\nsome of her fleas.  She obviously doesn't believe much in the concept\nof 'Cleanliness is next to Godliness'.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -351,
+            "Level": 35,
+            "THAC0": 21,
+            "AC": -3,
+            "HP": "4d12+501",
+            "Damage": "10d3+10",
+            "Gold": 12000,
+            "XP": 15823,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 24563,
+            "Aliases": [
+                "alien",
+                "bounty",
+                "hunter"
+            ],
+            "ShortDesc": "the alien bounty hunter",
+            "LongDesc": "A bizzare alien bounty hunter is here talking with its friends.\n",
+            "DetailedDesc": "This bounty hunter is a rather strange alien breed.  You have seen\nvery few of his kind on the planet.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -400,
+            "Level": 27,
+            "THAC0": 20,
+            "AC": -1,
+            "HP": "4d12+351",
+            "Damage": "5d8+10",
+            "Gold": 8500,
+            "XP": 11517,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24564,
+            "Aliases": [
+                "gamorrean",
+                "guard"
+            ],
+            "ShortDesc": "a Gammorean Guard",
+            "LongDesc": "A Gammorean Guard looks at you and grunts.\n",
+            "DetailedDesc": "A large pig-like creature stands here.  He grunts at you and swings\nhis massively muscled arms from time to time to swat at the biting\nflies that swarm around him in dense clouds.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -500,
+            "Level": 31,
+            "THAC0": 21,
+            "AC": -3,
+            "HP": "4d12+501",
+            "Damage": "4d6+4",
+            "Gold": 12000,
+            "XP": 36135,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24565,
+            "Aliases": [
+                "exotic",
+                "dancer"
+            ],
+            "ShortDesc": "an exotic dancer",
+            "LongDesc": "An exotic dancer is here.... dancing.  Well you think she is anyhow.\n",
+            "DetailedDesc": "The dancer is thin and pretty.  She dances gracefully to the music of\nthe band.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -10,
+            "Level": 16,
+            "THAC0": 16,
+            "AC": 1,
+            "HP": "2d5+211",
+            "Damage": "3d6+2",
+            "Gold": 4000,
+            "XP": 11385,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 24566,
+            "Aliases": [
+                "bantha"
+            ],
+            "ShortDesc": "a Bantha",
+            "LongDesc": "A huge Bantha shambles through the sand.\n",
+            "DetailedDesc": "A large elephant-like creature covered with long, thick brown fur, this\nBantha seems to overshadow you and provides a small relief from the sun.\n2 long spiral horns grow out from behind the large eyes of the creature.\nIt makes a small grunting noise, as it'd much rather be eating some plant\nthan being stuck out in the desert.\n\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -351,
+            "Level": 22,
+            "THAC0": 17,
+            "AC": 0,
+            "HP": "2d6+223",
+            "Damage": "3d6+2",
+            "Gold": 10,
+            "XP": 21285,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24567,
+            "Aliases": [
+                "a",
+                "womprat"
+            ],
+            "ShortDesc": "a womprat",
+            "LongDesc": "A large womprat looks at you suspiciously from its hole.\n",
+            "DetailedDesc": "From a hole in the sand, you see a pair of glowing red eyes staring out\nat you.  Rumors have it these carnivorous creatures travel in packs and\nwith their deadly claws and teeth, are more than capable of bringing down\na Bantha or two.  You leap back as a 3 foot long hairy rat comes charging\nforth from the hole brandishing it's claws and teeth at you.\n\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": -50,
+            "Level": 6,
+            "THAC0": 5,
+            "AC": 4,
+            "HP": "2d6+73",
+            "Damage": "1d8+1",
+            "Gold": 0,
+            "XP": 1485,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24568,
+            "Aliases": [
+                "tusken",
+                "raider"
+            ],
+            "ShortDesc": "a Tusken Raider",
+            "LongDesc": "A large and menacing Tusken Raider lunges at you with his gaderffi stick!\n",
+            "DetailedDesc": "A large, humanoid shape rushes at you with it's arms raised in the air.\nIt's movements are almost a blur, but you can seem to make out that a\ndeadly Tusken Raider, one of the Sandpeople, has decided he doesn't like\nyou invading his terrain.  Part of a savage nomadic tribe, the Raider\nraises his gaderffi stick to bash your skull in.  Although extremely\nfast, the heavy cloak causes the Raider to miss his first swing at you.\nThe Raider screams again through his breath mask and raises his stick again\nto attack...\n\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 24,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "2d6+248",
+            "Damage": "3d6+4",
+            "Gold": 4000,
+            "XP": 24585,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24569,
+            "Aliases": [
+                "han",
+                "solo"
+            ],
+            "ShortDesc": "Han Solo",
+            "LongDesc": "Han Solo is standing here, trying hard to see what is happening around him.\n",
+            "DetailedDesc": "Smuggler.  Star Pilot.  Pirate.  Hero.  All of these can describe the man\nknown as Han Solo.  A hard-edged smuggler by trade, Han has his moments and\nlets a little of his humanity show through.  Having been called a \"low-down,\nstuck-up, half-witted, scruffy-looking nerf-herder\" Han still manages to\ncrack a joke or flash a sly smirk to anyone.  Thrust into the battle between\nthe Empire and the Rebellion, Han became a hero to his friends and the\nRepublic.  Currently, he is suffering from Hibernation Sickness from being\nimprisoned in carbonite for so long.  He stumbles around half-blind trying\nto find Chewie and figure out what Luke's plan is to free them all from the\nvile clutches of Jabba the Hutt.\n\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "BLIND",
+                "SANCTUARY"
+            ],
+            "Alignment": 750,
+            "Level": 86,
+            "THAC0": 40,
+            "AC": -6,
+            "HP": "7d42+1201",
+            "Damage": "10d10+10",
+            "Gold": 30000,
+            "XP": 202725,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24570,
+            "Aliases": [
+                "Luke",
+                "Skywalker"
+            ],
+            "ShortDesc": "Luke Skywalker",
+            "LongDesc": "Luke Skywalker is here staring off into the desert wastes of Tatooine.\n",
+            "DetailedDesc": "A short, sandy-blonde haired 20 year old, Luke Skywalker is a dreamer.\nLike his name-sake, his life is among the stars.  Luke has an air of\nimpatience around him, and is always talking of joining the Academy and\ngoing to other worlds.  With a sigh, Luke dusts off his white robe and\nshrugs, feeling hopeless at not being able to leave this season of farming\nfor the Academy like his friends before him.  Hearing his Uncle Owen calling\nhim, Luke turns to go back to work, in the hope he can escape his boring\nexistence on the planet Tatooine.\n\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 1000,
+            "Level": 102,
+            "THAC0": 40,
+            "AC": -7,
+            "HP": "7d42+1801",
+            "Damage": "10d10+10",
+            "Gold": 34000,
+            "XP": 292725,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24571,
+            "Aliases": [
+                "uncle",
+                "owen"
+            ],
+            "ShortDesc": "Uncle Owen",
+            "LongDesc": "Owen Lars, Luke's Uncle, is standing here fidding with the water vaporizer.\n",
+            "DetailedDesc": "Owen Lars, a simple farmer, stands here fidgetting with the moisture vaporizer\ntrying to get it to understand the language Bocce.  Giving up, he throws his\nhands in the air and grumbles about having to find another translator droid.\nHe calls out to Luke, telling him to get here and clean up their broken down\ndroid, so they can trade it in with the Jawa's tomorrow.  Upon hearing\nLuke say he's going to Ben Kenobi's, Owen remembers his brother and sternly\ntells Luke not to go or there'll be hell to pay.  He turns and goes in to\ncheck on his wife and dinner..\n\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 37,
+            "THAC0": 20,
+            "AC": -1,
+            "HP": "5d17+261",
+            "Damage": "5d9+5",
+            "Gold": 3500,
+            "XP": 46035,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24572,
+            "Aliases": [
+                "Aunt",
+                "Beru"
+            ],
+            "ShortDesc": "Aunt Beru",
+            "LongDesc": "Beru Lars, Luke's Aunt, stands here cooking some dinner for the family.\n",
+            "DetailedDesc": "A quiet older woman, Beru keeps mostly to herself.  Her husband Owen is\ntoo busy maintaining the vaporator, trying to scrounge through yet another\nharsh, unproductive season.  Beru looks out the window at her adopted son\nLuke, and feels a sense of sadness for the young boy, for she realizes his\nheritage and swears never to tell him who his real father ever was.  Sighing,\nBeru finishes cutting up another vegetable and begins to set the table for\ndinner.\n\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 600,
+            "Level": 21,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "2d6+248",
+            "Damage": "5d4+10",
+            "Gold": 2750,
+            "XP": 19635,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 24573,
+            "Aliases": [
+                "tentacle"
+            ],
+            "ShortDesc": "a Sarlaac Pit tentacle",
+            "LongDesc": "A thick, gnarled looking tentacle lashes out and grabs your leg!\n",
+            "DetailedDesc": "A slimey, sand-encrusted tentacle shoots forth from the teeth lined maw of\nthe Sarlaac Pit.  It's grip on your foot is maddeningly tight and you\ncan barely keep your footing as it is.\n\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "AGGRESSIVE",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 0,
+            "Level": 12,
+            "THAC0": 7,
+            "AC": 3,
+            "HP": "2d6+98",
+            "Damage": "2d5+1",
+            "Gold": 0,
+            "XP": 15750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24574,
+            "Aliases": [
+                "Chewbacca",
+                "Chewie"
+            ],
+            "ShortDesc": "Chewbacca",
+            "LongDesc": "Chewbacca the Wookie is here trying to protect his blind friend.\n",
+            "DetailedDesc": "\nStanding at 2 meters tall, Chewbacca, is a prime example of his species the\nWookies.  Having served as co-pilot of the Millennium Falcon, Chewbacca has\ndemonstrated himself as being technologically competent.  Chewie is covered\nwith thick shaggy fur from head to toe.  Having been freed by Han Solo from\nImperial slavery, Chewbacca owes the smuggler a Wookie Life Debt and his\nundying friendship to the pirate.  The two hundred year old Wookie sees you\nand grunts a loud, 'Gwaaarrnk!' before raising his laser bowcaster and aiming\nit in your direction.\n\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE",
+                "AGGR_EVIL",
+                "MEMORY"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 800,
+            "Level": 100,
+            "THAC0": 40,
+            "AC": -7,
+            "HP": "7d42+1501",
+            "Damage": "20d3+10",
+            "Gold": 32000,
+            "XP": 247725,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24575,
+            "Aliases": [
+                "Max",
+                "Rebo"
+            ],
+            "ShortDesc": "Max Rebo",
+            "LongDesc": "Max Rebo sits here, nervously playing the drums, trying to stay alive.\n",
+            "DetailedDesc": "Max Rebo, a Ortolan from the R'leyh sector, is galaxy-renowned for his\nbrilliant percussion playing.  When the villainous Jabba asked Max to play\nfor him, Max thought the food, money and fame would be worth staying in\nJabba's sight.  Max has since learned however, that he must keep playing until\nJabba dismisses him, and from the looks of it, Max has been playing a LONG\ntime.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -200,
+            "Level": 36,
+            "THAC0": 23,
+            "AC": -4,
+            "HP": "4d12+651",
+            "Damage": "5d20+1",
+            "Gold": 17500,
+            "XP": 44385,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24576,
+            "Aliases": [
+                "Droopy",
+                "McCool"
+            ],
+            "ShortDesc": "Droopy McCool",
+            "LongDesc": "Droopy McCool stands here, playing his wind instrument and sweating profusely.\n",
+            "DetailedDesc": "Droopy McCool, a male Kitonak, is known across the galaxy for his melodious\nrendition of Thall Joben's 87th Symphony.  Since his rise to fame and\npopularity, Droopy has been in constant demand, however, his agent set him\nup with the ultimate gig, playing for Jabba and his band of ragged mercenaries.\nSure he's being paid a ton of money to play, but if Jabba isn't satisfied,\nhe knows he won't last a second inside the stomach of the Sarlaac Pit, where\nall of those who displease Jabba end up at.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -305,
+            "Level": 27,
+            "THAC0": 21,
+            "AC": -4,
+            "HP": "4d12+551",
+            "Damage": "6d5+10",
+            "Gold": 12500,
+            "XP": 29535,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24577,
+            "Aliases": [
+                "Sy",
+                "Snootles"
+            ],
+            "ShortDesc": "Sy Snootles",
+            "LongDesc": "Sy Snootles nervously dances in a circle, singing to keep from being killed.\n",
+            "DetailedDesc": "Sy Snootles, one of the galaxy's best melodical singers, stands here dressed in\nher skirt and top hat, dancing around in a circle.  Her pale yellow-green skin\nand long limbs add to the show she puts on while singing.  At the end of her\nlong snout, you can see her mouth twitching.  Apparently the pressure of\nhaving to perform or die is making her nervous.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": -100,
+            "Level": 32,
+            "THAC0": 22,
+            "AC": -4,
+            "HP": "4d12+601",
+            "Damage": "10d5+10",
+            "Gold": 15500,
+            "XP": 37785,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 24578,
+            "Aliases": [
+                "Lando",
+                "Calrissian"
+            ],
+            "ShortDesc": "Lando Calrissian",
+            "LongDesc": "Lando lies here, struggling with a tentacle, trying not to be pulled down.\n",
+            "DetailedDesc": "Lando Calrissian.  Long time friend of Han Solo.  Ladies' man and\ncompulsive gambler.  As the former administrator of Cloud City, Lando \ncan't believe how he got dragged into the struggle between the Empire\nand the Rebel Alliance.  Currently, he's still wondering how he managed\nto let Luke talk him into dressing up as one of Jabba's Sail Skiff Guards. \nEven more alarming to Lando is the fact that the Sarlaac Pit is dragging\nhim slowly into it's mouth, as his foot is securely grabbed by a tentacle.\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [
+                "SANCTUARY"
+            ],
+            "Alignment": 450,
+            "Level": 83,
+            "THAC0": 40,
+            "AC": -6,
+            "HP": "7d42+1201",
+            "Damage": "9d8+8",
+            "Gold": 30000,
+            "XP": 202725,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24579,
+            "Aliases": [
+                "R2D2",
+                "r2",
+                "r2d2",
+                "droid",
+                "bot"
+            ],
+            "ShortDesc": "R2D2, Astromech Unit",
+            "LongDesc": "A small blue and white R2 unit stands here chirping and whistling.\n",
+            "DetailedDesc": "The small R2 unit you see before you is none other than Luke Skywalker's\nbrave little companion.  Currently he is outfitted with a drink holder\nfull of weird alien looking drinks.  Seeing you, he swivels his round\nhead and chirps wildly at you, trying to make you understand his quirky\nlanguage. Puzzled, you look at him sideways, just before you see a small\narm attachment slide out of a compartment and deliver a small electric\nshock to you.  Apparently he is in a hurry to get somewhere and you are\nin his way.\n",
+            "Actions": [
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 20,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "2d6+248",
+            "Damage": "5d5+5",
+            "Gold": 1000,
+            "XP": 17985,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24580,
+            "Aliases": [
+                "c3p0",
+                "C3P0",
+                "3p0",
+                "3P0",
+                "protocol",
+                "droid"
+            ],
+            "ShortDesc": "C3P0, Protocol Droid",
+            "LongDesc": "C3P0, Jabba's unwilling talkdroid, stands here nervously translating for Jabba.\n",
+            "DetailedDesc": "\nSpeaking fluently over 6million different forms of communication, C3P0 is\na very good protocol droid.  Over the course of his adventures with Artoo\nhowever, he has learned to exaagerate and tell stories, something not\nwanted in translations, but a valuable asset in making him seem more\nhuman.  You can't help but have a slight dislike for the droid though, as\nhe constantly complains about something.  His nervous mannerisms, and\nskittishness also adds to the frustration of dealing with this particular\nunit.\n\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 22,
+            "THAC0": 20,
+            "AC": -1,
+            "HP": "4d12+351",
+            "Damage": "5d5+5",
+            "Gold": 1000,
+            "XP": 21285,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24581,
+            "Aliases": [
+                "ig-88",
+                "IG-88",
+                "ig88",
+                "IG88",
+                "droid",
+                "assassin"
+            ],
+            "ShortDesc": "IG-88",
+            "LongDesc": "A tall, slender assassin droid leans up against the wall here.\n",
+            "DetailedDesc": "\nA Phlutbattle droid, IG-88 is covered with carbon scoring from various\nbattles and bounty huntings.  Sleekly designed for stealth and combat,\nIG-88 gives you a chill up your spine just thinking of having one of\nthese death machines programmed to hunt you down.\n\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 36,
+            "THAC0": 25,
+            "AC": 0,
+            "HP": "1d1+1499",
+            "Damage": "6d7+5",
+            "Gold": 35000,
+            "XP": 44385,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24582,
+            "Aliases": [
+                "terminator",
+                "arnold",
+                "man"
+            ],
+            "ShortDesc": "a Terminator",
+            "LongDesc": "A large man, dressed in leather and wearing sunglasses, lurches over you.\n",
+            "DetailedDesc": "\nA very large and tall looking man stands before you dressed in black leather\npants, t-shirt, and black leather jacket.  He turns almost mechanically\nand looks down at you.  His movements are very slow and you see him reach\nfor something inside his jacket.  With a blur of his hand, the man pulls\nout a pair of Peril Sensitive Sunglasses (tm) and flips them onto his eyes.\nFrom behind the glasses though, you see a red glow come from his eyes.\nHe then says, 'Hasta la vista, baby.  Havhfe you seen Sarah O'Connah??'\nHis accent is so sickenly thick you feel the extremely urge to take those\nsunglasses of his smug face and punch him one in the face.\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 0,
+            "Level": 48,
+            "THAC0": 26,
+            "AC": -7,
+            "HP": "1d1+1499",
+            "Damage": "6d7+7",
+            "Gold": 40000,
+            "XP": 64185,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24583,
+            "Aliases": [
+                "zaphod",
+                "beeblebrox",
+                "man",
+                "pilot"
+            ],
+            "ShortDesc": "Zaphod Beeblebrox",
+            "LongDesc": "A two-headed, three-armed man sits here at the controls of the ship.\n",
+            "DetailedDesc": "\nFormerly President, and the \"owner\" of the Heart of Gold (the only ship in\nthe Galaxy to run on an Improbability Drive and not turn everything into \nSpam (tm) in the process) sits here at the controls trying to figure them\nout.  He turns his one head to the other and boggles, and throws his hands\nup in the air!  Noting your arrival, Zaphod turns around and offers three\nhands to shake.\n\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 298,
+            "Level": 42,
+            "THAC0": 40,
+            "AC": -5,
+            "HP": "1d1+1499",
+            "Damage": "4d8+5",
+            "Gold": 42,
+            "XP": 54285,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24584,
+            "Aliases": [
+                "marvin",
+                "droid"
+            ],
+            "ShortDesc": "Marvin, the Paranoid Android",
+            "LongDesc": "An extremely depressed looking droid sits here, muttering to himself.\n",
+            "DetailedDesc": "*sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh*\n*sigh*                                                                *sigh*\n*sigh*         Your primitive intellect couldn't                      *sigh*\n*sigh*                                                                *sigh*\n*sigh*      understand what it's like to have the brain the           *sigh*\n*sigh*                                                                *sigh*\n*sigh*               size of a planet, and still be                   *sigh*\n*sigh*                                                                *sigh*\n*sigh*                             bored.                             *sigh*\n*sigh*                                                                *sigh*\n*sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh*\n\nYou *think* Marvin *might* be depressed.  Maybe asking him would be a bad\nidea.\n\n",
+            "Actions": [
+                "SENTINEL",
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 42,
+            "Level": 24,
+            "THAC0": 19,
+            "AC": 0,
+            "HP": "2d6+248",
+            "Damage": "3d6+4",
+            "Gold": 4200,
+            "XP": 24585,
+            "LoadPosition": "POSITION_SITTING",
+            "DefaultPosition": "POSITION_SITTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24585,
+            "Aliases": [
+                "ewok"
+            ],
+            "ShortDesc": "a furry Ewok",
+            "LongDesc": "A sickenly cute, cuddly, furry, curious Ewok runs up to you and hugs your leg.\n",
+            "DetailedDesc": "Cute.  Cuddly.  Soft.  Furry.  Innocent.  Sweet.  Kind.  Caring.  Cheery.\nPlayful.  Joyous.  Happy.  Smiling.  Bouncy.  Snuggly.  Warm.  Short.\nConfusing.  Annoying.  Pushy.  Sickening.  Smelly.  Insistent.  Evil.\nDeath.  Kill.   Maim.  Destroy.  Mangle.  Hurt.  Rip.  Tear.  Rend.  Gnash.\nSlay.  Poison.  Fire.  Guns.  Knives.  Cannons.  Rockets.  Missiles.  Tanks.\nMachineguns.  Bombs.  Plagues.  Wars.  Famine.  Disease.  Destruction.\nFleas.  Nair.  *kill kill kill kill kill kill kill kill kill kill kill*\n\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE"
+            ],
+            "Affections": [],
+            "Alignment": 1000,
+            "Level": 2,
+            "THAC0": 1,
+            "AC": 10,
+            "HP": "2d2+4",
+            "Damage": "1d3+0",
+            "Gold": 1000,
+            "XP": 165,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Neutral"
+        },
+        {
+            "Number": 24586,
+            "Aliases": [
+                "yoda",
+                "jedi"
+            ],
+            "ShortDesc": "Yoda, the Ancient Jedi Master",
+            "LongDesc": "Yoda, the small ancient Jedi Master, sits here, gnawing on a gimmer stick.\n",
+            "DetailedDesc": "\nA frail, three-foot tall green creature sits here, gnawing on a stick.  Small\ntufts of hair protrude forth from his ears, making this creature appear\nvery old.  Seeing you stare at him, he twitches his long pointy ears and\nsmiles.  \"Whnn 900 years old you reach, look as good you will not, eh?\"\nHe starts to giggle and turn, his tattered grey robe moving with his small\nframe.  Beckoning with his stick, he tells you, 'Come, good food, come\" and\npoints off in the distance towards his home.  You see him raise an ancient\nfinger and you feel yourself begin to rise in the air.  Giggling, he stops,\nand you feel your feet touch the ground once more.\n\n",
+            "Actions": [
+                "SCAVENGER",
+                "ISNPC",
+                "STAY_ZONE",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "DETECT_ALIGN",
+                "DETECT_INVIS",
+                "DETECT_MAGIC",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "INFRAVISION"
+            ],
+            "Alignment": 1000,
+            "Level": 56,
+            "THAC0": 40,
+            "AC": -15,
+            "HP": "10d7+4200",
+            "Damage": "10d5+50",
+            "Gold": 42,
+            "XP": 149985,
+            "LoadPosition": "POSITION_RESTING",
+            "DefaultPosition": "POSITION_RESTING",
+            "Gender": "Male"
+        },
+        {
+            "Number": 24587,
+            "Aliases": [
+                "rosie",
+                "droid",
+                "bot",
+                "cook",
+                "maid"
+            ],
+            "ShortDesc": "Rosie, the Jetson's Maid Bot",
+            "LongDesc": "Rosie, the Jetson's Maidbot, skitters around here cleaning things up.\n",
+            "DetailedDesc": "\nRosie.  The Jetson's faithful maid for all those years.  Her hard years of\npicking up after them and taking care of Astro, have been for naught.  Now\nshe lives a life of enslavement and monotony.\n",
+            "Actions": [
+                "SPEC",
+                "SENTINEL",
+                "ISNPC",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [],
+            "Alignment": 750,
+            "Level": 23,
+            "THAC0": 5,
+            "AC": 0,
+            "HP": "10d5+25",
+            "Damage": "2d10+5",
+            "Gold": 1,
+            "XP": 22935,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Female"
+        },
+        {
+            "Number": 24588,
+            "Aliases": [
+                "helmet",
+                "dark"
+            ],
+            "ShortDesc": "Dark Helmet, Dark Master of the Schwartz",
+            "LongDesc": "Dark Helmet, Evil Guy at Large, slips his ring on, and gloats at you spitefully.\n",
+            "DetailedDesc": "\nSeeing you walk into the room, Dark Helmet turns to glare at you and\nbegins fidgetting with a ring around his finger.  Strangely enough,\nhis whole armored outfit looks like a suit and tie, instead of a fear\ninducing weapon of death.  Suddenly, Dark Helmet stumbles and you\ncan hear him electronically mutter, \"I can't breathe in this thing!!\"\nas he reaches for his face plate.  Bracing for some horribly disfigured\nface underneath, you are amazed when the face of Rick Moranis lies\nunderneath.  Having finally placed his ring upon his finger, Dark Helmet\nturns and says, \"I see your schwartz is as big as mine..\" between\nwheezy gasps of breath.\n\n",
+            "Actions": [
+                "ISNPC",
+                "STAY_ZONE",
+                "WIMPY",
+                "MEMORY",
+                "NOCHARM",
+                "NOSUMMON"
+            ],
+            "Affections": [
+                "BLIND",
+                "DETECT_INVIS",
+                "SENSE_LIFE",
+                "SANCTUARY",
+                "PROTECT_EVIL"
+            ],
+            "Alignment": -1000,
+            "Level": 15,
+            "THAC0": 2,
+            "AC": 0,
+            "HP": "10d10+10",
+            "Damage": "5d3+3",
+            "Gold": 7500,
+            "XP": 14750,
+            "LoadPosition": "POSITION_STANDING",
+            "DefaultPosition": "POSITION_STANDING",
+            "Gender": "Male"
+        }
+    ]
+}
