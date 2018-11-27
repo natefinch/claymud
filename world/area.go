@@ -27,9 +27,10 @@ func (a *Area) Add(l *Location) {
 // Zone is a collection of Areas that represent one large and logically distinct
 // section of the mud, such as a town.
 type Zone struct {
-	ID    util.ID
-	Name  string
-	Areas []*Area
+	ID     util.ID
+	Name   string
+	Closed bool
+	Areas  []*Area
 	*game.Worker
 }
 

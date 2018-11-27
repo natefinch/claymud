@@ -14,8 +14,8 @@ import (
 )
 
 var (
-	zones   = map[util.ID]*Zone{}
-	allMobs = map[util.ID]*Mob{}
+	allZones = map[util.ID]*Zone{}
+	allMobs  = map[util.ID]*Mob{}
 )
 
 func loadWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, wg *sync.WaitGroup) error {
@@ -29,7 +29,7 @@ func loadWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, w
 		if err != nil {
 			return err
 		}
-		if z, exists := zones[zone.ID]; exists {
+		if z, exists := allZones[zone.ID]; exists {
 			return fmt.Errorf("file %q contains %s which duplicates zone %s", file, zone, z)
 		}
 		zone.Add(
@@ -37,7 +37,7 @@ func loadWorld(datadir string, zoneLock sync.Locker, shutdown <-chan struct{}, w
 				Name:    zone.Name,
 				LocByID: map[util.ID]*Location{},
 			})
-		zones[zone.ID] = zone
+		allZones[zone.ID] = zone
 		zone.Worker = game.SpawnWorker(zoneLock, shutdown, wg)
 	}
 	log.Printf("loaded %v zones", len(files))
@@ -169,7 +169,7 @@ type jsonRoom struct {
 }
 
 func (j jsonRoom) toLoc() (*Location, error) {
-	z, exists := zones[util.ID(j.Zone)]
+	z, exists := allZones[util.ID(j.Zone)]
 	if !exists {
 		return nil, fmt.Errorf("room %v's zone %v does not exist", j.ID, j.Zone)
 	}

@@ -9,6 +9,7 @@ import (
 	"text/tabwriter"
 	"time"
 
+	"github.com/natefinch/claymud/auth"
 	"github.com/natefinch/claymud/game"
 	"github.com/natefinch/claymud/game/social"
 	"github.com/natefinch/claymud/util"
@@ -22,6 +23,7 @@ var allCommands []CommandCfg
 // Commands lets you configure how the commands get named.  The list of strings for
 // each contain the aliases, they must all be unique.
 type Commands struct {
+	Zones,
 	Look,
 	Who,
 	Tell,
@@ -48,6 +50,7 @@ var (
 
 // initCommands sets up the command names.
 func initCommands(cfg Commands) {
+	register(zones, cfg.Zones)
 	register(look, cfg.Look)
 	register(who, cfg.Who)
 	register(tell, cfg.Tell)
@@ -297,4 +300,22 @@ func contains(s string, vals []string) bool {
 		}
 	}
 	return false
+}
+
+func zones(c *Command) {
+	c.Actor.WriteString("-- Zones --\n")
+	for _, z := range allZones {
+		if c.Actor.User.Flag(auth.UFlagAdmin) {
+			c.Actor.WriteString(z.Name)
+			if z.Closed {
+				c.Actor.WriteString(" [closed]")
+			}
+			c.Actor.WriteString("\n")
+		} else {
+			if !z.Closed {
+				c.Actor.WriteString(z.Name + "\n")
+			}
+		}
+	}
+	c.Actor.WriteString("\n")
 }
