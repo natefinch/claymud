@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net"
+	"path/filepath"
 	"runtime"
 	"strconv"
 	"sync"
@@ -106,6 +107,9 @@ func Main() error {
 		return err
 	}
 	if err := world.SetStart(util.ID(cfg.StartRoom)); err != nil {
+		return err
+	}
+	if err := world.InitActions(filepath.Join(dir, "scripts")); err != nil {
 		return err
 	}
 	global := game.SpawnWorker(lock, shutdown, wg)

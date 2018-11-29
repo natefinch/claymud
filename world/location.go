@@ -43,6 +43,9 @@ type Location struct {
 	Area         *Area
 	Players      map[string]*Player
 	Descriptions map[string]string
+
+	// LocalActions is a map of command phrases to script names that get run in a zone-local thread.
+	Actions map[string]Action
 }
 
 // returns a string representation of this location (primarily for logging)

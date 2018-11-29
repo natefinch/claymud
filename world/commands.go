@@ -170,7 +170,7 @@ func gotoCmd(c *Command) {
 	}
 	c.Actor.HandleGlobal(func() {
 		if p, ok := playerMap[c.Target()]; ok {
-			moveEvent(c.Actor, p.loc)
+			c.Actor.Relocate(p.loc)
 			return
 		}
 		c.Actor.WriteString("There is player with that name.")

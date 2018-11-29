@@ -166,6 +166,12 @@ type jsonRoom struct {
 	Sector      string          `json:"Sector"`
 	Exits       []jsonExit      `json:"Exits"`
 	Extras      []jsonExtraDesc `json:"ExtraDescs"`
+	Actions     map[string]jsonAction
+}
+
+type jsonAction struct {
+	Filename string
+	IsGlobal bool
 }
 
 func (j jsonRoom) toLoc() (*Location, error) {
@@ -184,6 +190,10 @@ func (j jsonRoom) toLoc() (*Location, error) {
 		Desc:         j.Description,
 		Descriptions: map[string]string{},
 		Players:      map[string]*Player{},
+		Actions:      map[string]Action{},
+	}
+	for k, v := range j.Actions {
+		loc.Actions[k] = Action(v)
 	}
 	for _, e := range j.Extras {
 		for _, k := range e.Keywords {

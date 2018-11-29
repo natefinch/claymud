@@ -2,6 +2,7 @@ package world
 
 import (
 	"io"
+	"log"
 	"strings"
 
 	"github.com/natefinch/claymud/game/social"
@@ -54,11 +55,26 @@ func (c *Command) Handle() {
 	// socials are least important (so if you configure an social named "north" you won't
 	// prevent yourc from going north... your social just won't work
 
+	actionName := strings.Join(c.Cmd, " ")
+	action, ok := c.Actor.loc.Actions[actionName]
+	if ok {
+		f := func() {
+			if err := runLocAction(action.Filename, c.Actor, c.Actor.loc); err != nil {
+				log.Printf("error running loc action %q in room %v: %v", actionName, c.Actor.loc.ID, err)
+			}
+		}
+		if action.IsGlobal {
+			c.Actor.HandleGlobal(f)
+		} else {
+			c.Actor.HandleLocal(f)
+		}
+		return
+	}
+
 	if !c.Actor.Flag(PFlagChatmode) {
 		if c.handleExit() {
 			return
 		}
-
 		if c.run() {
 			return
 		}

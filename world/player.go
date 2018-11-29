@@ -303,16 +303,18 @@ func (p *Player) Move(to *Location) {
 
 	if p.loc.LocalTo(to) {
 		p.HandleLocal(func() {
-			moveEvent(p, to)
+			p.Relocate(to)
 		})
 	} else {
 		p.HandleGlobal(func() {
-			moveEvent(p, to)
+			p.Relocate(to)
 		})
 	}
 }
 
-func moveEvent(p *Player, to *Location) {
+// Relocate moves the character to a new lcoation. This is NOT run in a worker,
+// so you need to handle that yourself.
+func (p *Player) Relocate(to *Location) {
 	p.loc.RemovePlayer(p)
 	to.AddPlayer(p)
 	p.loc = to
