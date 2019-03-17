@@ -56,7 +56,7 @@ func Release() (err error) {
 	return sh.RunV("goreleaser")
 }
 
-// Remove the temporarily generated files from Release.
+// Clean removes the temporarily generated files from Release.
 func Clean() error {
 	return sh.Rm("dist")
 }
