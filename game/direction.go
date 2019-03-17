@@ -38,7 +38,7 @@ type Direction struct {
 	Aliases []string
 }
 
-// FindDir will find a direction by name or alias.  This method is not case
+// FindDirection will find a direction by name or alias.  This method is not case
 // sensitive.
 func FindDirection(alias string) (dir Direction, found bool) {
 	dir, found = dirMap[strings.ToLower(alias)]

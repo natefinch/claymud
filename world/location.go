@@ -48,7 +48,7 @@ type Location struct {
 	Actions map[string]Action
 }
 
-// returns a string representation of this location (primarily for logging)
+// String returns a string representation of this location (primarily for logging)
 func (l *Location) String() string {
 	return fmt.Sprintf("%v [%v]", l.Name, l.ID)
 }
